@@ -15,10 +15,10 @@ jobs:
           cat readme.md
       - name: start commit
         run: |
-          git config --local user.name "zevtyardt"
+          git config --local user.name "bot"
           git status
-          git add readme.md
-          git commit -m "upload using github actions"
+          git add .
+          git commit -m "update: ..."
       - name: push
         uses: ad-m/github-push-action@master
         with: 
