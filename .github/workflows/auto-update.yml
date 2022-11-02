@@ -7,8 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: switching from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh }}
+      - name: create readme.md
+        run: echo "hello world" > readme.md
       - name: check for changes
         run: git status
       - name: stage changed files
