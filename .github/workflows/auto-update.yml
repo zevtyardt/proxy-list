@@ -1,4 +1,4 @@
-name: auto update
+name: updating proxy
 
 on:
   workflow_dispatch:
@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: where am i
         run: pwd
+      - name: list
+        run: ls -la
