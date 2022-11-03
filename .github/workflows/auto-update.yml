@@ -5,7 +5,7 @@ on:
     - cron: "15 * * * *"
 
 jobs:
-  build:
+  ececute:
     runs-on: ubuntu-latest
 
     strategy:
