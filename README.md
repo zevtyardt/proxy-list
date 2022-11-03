@@ -1,2 +1,2 @@
-- jumlah proxy: ±1566
-- terakhir diupdate: 2022-11-03 10:26:55
+- jumlah proxy: ±793
+- terakhir diupdate: 2022-11-03 10:31:15
