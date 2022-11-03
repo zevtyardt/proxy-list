@@ -29,6 +29,7 @@ jobs:
       - name: generating README.md
         run: |
           echo -e "# Ringkasan" > README.md
+          echo -e "  Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.\n" >> README.md
           echo -e "  - **jumlah proxy:** ±$(cat *.txt | wc -l)" >> README.md
           echo -e "  - **terakhir diupdate:** $(TZ=Asia/Jakarta date +'%a, %d %b %y %T %Z')\n" >> README.md
 
@@ -43,7 +44,7 @@ jobs:
             echo -e "    \`\`\`" >> README.md
           done
 
-          echo -e "\n# Catatan\n" >> README.md
+          echo -e "\n# Catatan" >> README.md
           echo -e "Jangan lupa kasih ⭐ terus fork sama follow juga kalau perlu" >> README.md
 
       - name: start commit
