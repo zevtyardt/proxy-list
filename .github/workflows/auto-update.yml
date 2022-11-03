@@ -6,20 +6,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x, 15.x]
+
     steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
-      - name: create readme.md
+      - name: updating proxies.txt
         run: |
-          echo "hello world" > readme.md
-          ls -la
-          cat readme.md
+          node -v > readme.md
       - name: start commit
         run: |
           git config --local user.name "bot"
           git status
           git add .
           git commit -m "update: ..."
-      - name: push
+      - name: push changes
         uses: ad-m/github-push-action@master
         with: 
          github_token: ${{ secrets.TOKEN }}
