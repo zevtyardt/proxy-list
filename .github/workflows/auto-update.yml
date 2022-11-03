@@ -1,10 +1,13 @@
 name: updating proxy
 
 on:
+  schedule:
+    - cron: "15 * * * *"
+
   workflow_dispatch:
 
 jobs:
-  build:
+  cron:
     runs-on: ubuntu-latest
 
     strategy:
@@ -26,8 +29,10 @@ jobs:
         run: |
           git config --local user.name "bot"
           git status
-          git add proxies.csv
-          git commit -m "update: write $(cat proxies.csv | wc -l) proxies"
+          echo "jumlah proxy: $(math $(cat proxies.csv | wc -l) - 1)
+terakhir diupdate: $(date +'%Y-%m-%d %T')" > readme.md
+          git add proxies.csv readme.md
+          git commit -m "update: write $(math $(cat proxies.csv | wc -l) - 1) proxies"
       - name: push changes
         uses: ad-m/github-push-action@master
         with: 
