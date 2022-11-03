@@ -17,15 +17,18 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
-      - name: updating proxies.txt
-        run: |
-          ls -la
+      - name: change directory
+        run: cd .github/workflows
+      - name: install dependencies
+        run: npm ci
+      - name: start proxy scraper
+        run: node index.js
       - name: start commit
         run: |
           git config --local user.name "bot"
           git status
           git add .
-          git commit -m "update: write $(cat readme.md | wc -l) proxies"
+          git commit -m "update: write $(cat proxies.csv | wc -l) proxies"
       - name: push changes
         uses: ad-m/github-push-action@master
         with: 
