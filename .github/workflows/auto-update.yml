@@ -17,18 +17,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
-      - name: change directory
-        run: |
-          pwd
-          cd .github/workflows
-          pwd
-      - name: install dependencies
-        run: |
-          pwd
-          npm ci
-          pwd
       - name: start proxy scraper
-        run: node index.js
+        run: |
+          cd .github/workflows
+          npm ci
+          node index.js
       - name: start commit
         run: |
           git config --local user.name "bot"
