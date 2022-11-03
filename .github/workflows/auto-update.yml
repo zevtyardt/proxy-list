@@ -1,4 +1,4 @@
-name: auto updating proxy
+name: updating proxy
 
 on:
   schedule:
