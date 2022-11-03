@@ -28,12 +28,12 @@ jobs:
           node index.js
       - name: generating README.md
         run: |
-          echo -e "# Overview" > README.md
+          echo -e "# Ringkasan" > README.md
           echo -e "  - **jumlah proxy:** ±$(cat *.txt | wc -l)" >> README.md
           echo -e "  - **terakhir diupdate:** $(TZ=Asia/Jakarta date +'%a, %d %b %y %T %Z')\n" >> README.md
 
-          echo -e "# Download" >> README.md
-          echo -e "  copy dan paste salah satu kode dibawah" >> README.md
+          echo -e "# Unduh" >> README.md
+          echo -e "  Salin dan tempel salah satu kode dibawah ke *terminal* kesayangan mu" >> README.md
 
           for file in *.txt;
           do
@@ -42,6 +42,9 @@ jobs:
             echo -e "    curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/$file -o $file" >> README.md
             echo -e "    \`\`\`" >> README.md
           done
+
+          echo -e "\n# Catatan\n" >> README.md
+          echo -e "Jangan lupa kasih ⭐ terus fork sama follow juga kalau perlu" >> README.md
 
       - name: start commit
         run: |
