@@ -1,8 +1,8 @@
-name: updating proxy
+name: auto updating proxy
 
 on:
   schedule:
-    - cron: "15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
