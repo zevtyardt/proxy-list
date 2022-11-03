@@ -44,7 +44,7 @@ jobs:
           git config --local user.name ${{ secrets.name }}
           git status
           git add *.txt README.md csv/
-          git commit -m "update: write $(cat *.txt | wc -l) proxies"
+          git commit -m "update: $(cat *.txt | wc -l) proxies"
       - name: push changes
         uses: ad-m/github-push-action@master
         with: 
