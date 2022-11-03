@@ -1,3 +1,3 @@
 - lokasi file: [./proxy.csv](/proxy.csv)
-- jumlah proxy: 620
-- terakhir diupdate: 2022-11-03 04:24:07
+- jumlah proxy: 618
+- terakhir diupdate: 2022-11-03 05:08:12
