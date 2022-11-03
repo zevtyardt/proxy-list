@@ -28,9 +28,9 @@ jobs:
         run: |
           git config --local user.name "bot"
           git status
-          echo -e "- jumlah proxy: ±$(cat *.csv | wc -l)\n- terakhir diupdate: $(date +'%Y-%m-%d %T')" > README.md
-          git add *.csv README.md
-          git commit -m "update: write $(cat *.csv | wc -l) proxies"
+          echo -e "- jumlah proxy: ±$(cat *.txt | wc -l)\n- terakhir diupdate: $(date +'%Y-%m-%d %T')" > README.md
+          git add *.csv README.md csv/
+          git commit -m "update: write $(cat *.txt | wc -l) proxies"
       - name: push changes
         uses: ad-m/github-push-action@master
         with: 
