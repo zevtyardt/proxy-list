@@ -60,7 +60,7 @@ const main = async () => {
           csv: fs.createWriteStream(
             `${PATH}/csv/${type}_proxy-${provider.name}.csv`
           ),
-          raw: fs.createWriteStream(`${PATH}/${type}.txt`),
+          raw: fs.createWriteStream(`${PATH}/${type}_proxy.txt`),
         };
         outs[type].csv.write(result.header.join(",") + "\n");
       }
