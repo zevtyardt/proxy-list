@@ -1,9 +1,10 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
+const https = require("https");
 const fs = require("fs");
 
 const PATH = "../..";
-const extract_table = (selector, data) => {
+const extract_table = (selector, data, custom_cb) => {
   const $ = cheerio.load(data);
   const table = $(selector);
   const head = table
@@ -15,12 +16,14 @@ const extract_table = (selector, data) => {
     .find("tbody")
     .find("tr")
     .toArray()
-    .map((tr) =>
-      $(tr)
+    .map((tr) => {
+      if (custom_cb) return custom_cb($, tr);
+
+      return $(tr)
         .find("td")
         .toArray()
-        .map((td) => $(td).text().trim())
-    );
+        .map((td) => $(td).text().trim().replace(/\s+/gis, " "));
+    });
   return {
     header: head,
     body: body,
@@ -29,6 +32,30 @@ const extract_table = (selector, data) => {
 };
 
 // providers
+
+const proxyscan = async () => {
+  const req = await axios.get("https://www.proxyscan.io/", {
+    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+  });
+  const data = extract_table(".table", req.data, ($, tr) => [
+    $(tr).find("th").text().trim(),
+    ...$(tr)
+      .find("td")
+      .toArray()
+      .map((td) => $(td).text().trim().replace(/\s+/gis, " ")),
+  ]);
+  const body = [];
+  data.body.forEach((v) => {
+    const types = v[data.key].split(/\s*,\s*/);
+    for (let type of types) {
+      v[data.key] = type;
+      body.push(v);
+    }
+  });
+  data.body = body;
+  return data;
+};
+
 const scrapingant = async () => {
   const req = await axios.get("https://scrapingant.com/proxies");
 
@@ -47,6 +74,13 @@ const scrapingant = async () => {
 const socks_proxy_net = async () => {
   const req = await axios.get("https://www.socks-proxy.net/");
   return extract_table(".table-striped", req.data);
+};
+
+const sslproxies = async () => {
+  const req = await axios.get("https://www.sslproxies.org/");
+  const data = extract_table(".table-striped", req.data);
+  data.key = "HTTP";
+  return data;
 };
 
 const free_proxy_list = async () => {
@@ -96,7 +130,7 @@ const proxynova = async () => {
   };
 };
 
-fs.mkdir(`${PATH}/csv`, () => {});
+fs.mkdir(`${PATH}/csv/`, () => {});
 
 const main = async () => {
   const unique = {};
@@ -104,6 +138,8 @@ const main = async () => {
   const outs = {};
   for (let provider of [
     proxynova,
+    proxyscan,
+    sslproxies,
     proxyscrape,
     scrapingant,
     socks_proxy_net,

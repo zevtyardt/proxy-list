@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
+
+      - run: rm *.txt csv/ -rfv
       - name: start proxy scraper
         run: |
           cd .github/workflows
