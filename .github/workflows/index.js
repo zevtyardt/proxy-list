@@ -136,7 +136,7 @@ const main = async () => {
   const unique = {};
   let total = 0;
   const outs = {};
-  for (let provider of [
+  for (let raw_provider of [
     proxynova,
     proxyscan,
     sslproxies,
@@ -145,32 +145,42 @@ const main = async () => {
     socks_proxy_net,
     free_proxy_list,
   ]) {
-    console.log(`> get_proxies from ${provider.name}`);
-    const result = await provider();
-    result.body.forEach((value) => {
-      const type =
-        typeof result.key == "string"
-          ? result.key.toLowerCase()
-          : value[result.key].toLowerCase();
-      if (!outs[type]) {
-        unique[type] = new Set();
-        outs[type] = {
-          csv: fs.createWriteStream(
-            `${PATH}/csv/${type}_proxy-${provider.name}.csv`
-          ),
-          raw: fs.createWriteStream(`${PATH}/${type}_proxy.txt`),
-        };
-        outs[type].csv.write(result.header.join(",") + "\n");
-      }
+    let provider;
+    if (!raw_provider.constructor.name.startsWith("AsyncGen"))
+      provider = async function* () {
+        yield await raw_provider();
+      };
+    else provider = raw_provider;
 
-      const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
-      if (unique[type].has(proxy)) return;
-      outs[type].raw.write(proxy + "\n");
-      outs[type].csv.write(value.join(",") + "\n");
-      unique[type].add(proxy);
-      total++;
-    });
-    console.log(`< done write ${result.body.length} proxies`);
+    console.log(`> get_proxies from ${raw_provider.name}`);
+
+    for await (let result of provider()) {
+      result.body.forEach((value) => {
+        const type =
+          typeof result.key == "string"
+            ? result.key.toLowerCase()
+            : value[result.key].toLowerCase();
+        if (!outs[type]) {
+          unique[type] = new Set();
+          outs[type] = {
+            csv: fs.createWriteStream(
+              `${PATH}/csv/${type}_proxy-${provider.name}.csv`
+            ),
+            raw: fs.createWriteStream(`${PATH}/${type}_proxy.txt`),
+          };
+          outs[type].csv.write(result.header.join(",") + "\n");
+        }
+
+        const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
+        if (unique[type].has(proxy)) return;
+        outs[type].raw.write(proxy + "\n");
+        outs[type].csv.write(value.join(",") + "\n");
+        unique[type].add(proxy);
+        total++;
+      });
+
+      console.log(`< done write ${result.body.length} proxies`);
+    }
   }
   console.log(`< total proxy: ${total}`);
 };
