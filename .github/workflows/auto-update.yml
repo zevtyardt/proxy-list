@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --local user.name "bot"
           git status
-          echo -e "- jumlah proxy: $(cat proxy.csv | wc -l)\n- terakhir diupdate: $(date +'%Y-%m-%d %T')" > readme.md
+        echo -e "- lokasi file: [./proxy.csv](/proxy.csv)\n- jumlah proxy: $(cat proxy.csv | wc -l)\n- terakhir diupdate: $(date +'%Y-%m-%d %T')" > readme.md
           git add proxy.csv readme.md
           git commit -m "update: write $(cat proxy.csv | wc -l) proxies"
       - name: push changes
