@@ -1,12 +1,12 @@
-Ip Address,Port,Country, City,Ping ⇡,Type,Anonymity,Uptime ⇡,Last Status,Last Check ⇡
-40.129.203.4,8080,,,460,https,Elite,New (1),OK,2 minutes
+Ip,Port,Type
+40.129.203.4,8080,https
 165.232.149.87,8888,https
 163.116.131.129,8080,https
-174.138.16.96,8888,https
-20.210.113.32,8123,Japan Tokyo,1260 ms,https,High,58 seconds
-89.43.31.134,3128,Turkey,420 ms,https,High,1 minutes
-20.111.54.16,8123,France Paris,260 ms,https,High,1 minutes
-20.24.43.214,8123,Singapore Singapore,960 ms,https,High,1 minutes
-169.57.1.85,8123,Mexico Mexico City,920 ms,https,High,2 minutes
-51.68.207.81,80,United Kingdom,300 ms,https,High,2 minutes
-20.111.54.16,80,France Paris,280 ms,https,High,2 minutes
+31.14.116.208,80,Iran,4300 ms,https,High,2 minutes
+159.203.84.241,3128,United States Clifton,560 ms,https,High,5 minutes
+51.68.207.81,443,United Kingdom Hailsham,1300 ms,https,High,5 minutes
+20.210.113.32,80,Japan Tokyo,1280 ms,https,High,5 minutes
+173.212.213.24,3128,Germany Nuremberg,440 ms,https,High,5 minutes
+159.65.209.73,3128,United Kingdom London,280 ms,https,High,5 minutes
+20.111.54.16,8123,France Paris,280 ms,https,High,5 minutes
+89.43.31.134,3128,Turkey,420 ms,https,High,14 minutes
