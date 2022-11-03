@@ -26,7 +26,7 @@ jobs:
           node index.js
       - name: generating README.md
         run: |
-          #echo -e "# Overview" > README.md
+          echo -e "# Overview" > README.md
           echo -e "  - **jumlah proxy:** ±$(cat *.txt | wc -l)" >> README.md
           echo -e "  - **terakhir diupdate:** $(date +'%Y-%m-%d %T')\n" >> README.md
 
