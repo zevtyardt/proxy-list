@@ -16,7 +16,7 @@ const main = async () => {
   dt.forEach((value) => {
     const type = value[2].toLowerCase();
     if (!outs[type]) {
-      outs[type] = fs.createWriteStream(`../../${type}_proxy.txt`);
+      outs[type] = fs.createWriteStream(`../../${type}_proxy.csv`);
       outs[type].write(header.join(",") + "\n");
     }
 
