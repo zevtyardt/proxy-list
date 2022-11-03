@@ -1,21 +1,8 @@
-Ip Address,Port,Country, City,Ping ⇡,Type,Anonymity,Uptime ⇡,Last Status,Last Check ⇡
-163.116.131.129,8080,,,3,https,Elite,33,3% (1),OK,31 seconds
-174.138.16.96,8888,,,283,https,Elite,30,0% (6),OK,1 minutes
+Ip,Port,Type
 40.129.203.4,8080,https
-114.116.2.116,8001,https
 143.198.40.24,8888,https
 146.190.224.4,8888,https
 165.232.149.87,8888,https
-94.103.85.88,9300,Russian Federation,1260 ms,https,High,1 minutes
-169.57.1.85,8123,Mexico Mexico City,940 ms,https,High,19 minutes
-159.203.84.241,3128,United States Clifton,600 ms,https,High,19 minutes
-20.210.113.32,8123,Japan Tokyo,1260 ms,https,High,19 minutes
-20.210.113.32,80,Japan Tokyo,1420 ms,https,High,19 minutes
-89.43.31.134,3128,Turkey,460 ms,https,High,19 minutes
-159.65.209.73,3128,United Kingdom London,280 ms,https,High,19 minutes
-20.24.43.214,8123,Singapore Singapore,960 ms,https,High,19 minutes
-51.68.207.81,80,United Kingdom,400 ms,https,High,19 minutes
-51.68.207.81,443,United Kingdom Hailsham,300 ms,https,High,19 minutes
-20.111.54.16,80,France Paris,320 ms,https,High,19 minutes
-20.111.54.16,8123,France Paris,220 ms,https,High,19 minutes
-173.212.213.24,3128,Germany Nuremberg,280 ms,https,High,19 minutes
+163.116.131.129,8080,https
+174.138.16.96,8888,https
+114.116.2.116,8001,https

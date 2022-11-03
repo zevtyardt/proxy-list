@@ -1,6 +1,6 @@
 # Overview
-  - **jumlah proxy:** ±9856
-  - **terakhir diupdate:** Fri, 04 Nov 22 02:10:36 WIB
+  - **jumlah proxy:** ±14287
+  - **terakhir diupdate:** Fri, 04 Nov 22 02:24:31 WIB
 
 # Download
   copy dan paste salah satu kode dibawah
