@@ -161,37 +161,41 @@ const main = async () => {
 
     console.log(`> get_proxies from ${raw_provider.name}`);
 
-    for await (let result of provider()) {
-      result.body.forEach((value) => {
-        const types =
-          typeof result.key == "string"
-            ? result.key.toLowerCase()
-            : value[result.key].toLowerCase();
+    try {
+      for await (let result of provider()) {
+        result.body.forEach((value) => {
+          const types =
+            typeof result.key == "string"
+              ? result.key.toLowerCase()
+              : value[result.key].toLowerCase();
 
-        for (let type of types.split(/\s*,\s*/)) {
-          if (typeof result.key != "string") value[result.key] = type;
+          for (let type of types.split(/\s*,\s*/)) {
+            if (typeof result.key != "string") value[result.key] = type;
 
-          if (!outs[type]) {
-            unique[type] = new Set();
-            outs[type] = {
-              csv: fs.createWriteStream(
-                `${PATH}/csv/${type}_proxy-${provider.name}.csv`
-              ),
-              raw: fs.createWriteStream(`${PATH}/${type}_proxy.txt`),
-            };
-            outs[type].csv.write(result.header.join(",") + "\n");
+            if (!outs[type]) {
+              unique[type] = new Set();
+              outs[type] = {
+                csv: fs.createWriteStream(
+                  `${PATH}/csv/${type}_proxy-${provider.name}.csv`
+                ),
+                raw: fs.createWriteStream(`${PATH}/${type}_proxy.txt`),
+              };
+              outs[type].csv.write(result.header.join(",") + "\n");
+            }
+
+            const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
+            if (unique[type].has(proxy)) return;
+            outs[type].raw.write(proxy + "\n");
+            outs[type].csv.write(value.join(",") + "\n");
+            unique[type].add(proxy);
+            total++;
           }
+        });
 
-          const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
-          if (unique[type].has(proxy)) return;
-          outs[type].raw.write(proxy + "\n");
-          outs[type].csv.write(value.join(",") + "\n");
-          unique[type].add(proxy);
-          total++;
-        }
-      });
-
-      console.log(`< done write ${result.body.length} proxies`);
+        console.log(`< done write ${result.body.length} proxies`);
+      }
+    } catch (_) {
+      console.error("! failed scrape proxy");
     }
   }
   console.log(`< total proxy: ${total}`);
