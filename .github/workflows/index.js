@@ -130,6 +130,21 @@ const proxynova = async () => {
   };
 };
 
+const hidemy = async function* (numPage = 500) {
+  const origin = "https://hidemy.name";
+
+  let path = "/en/proxy-list";
+  for (let i = 0; i < numPage; i++) {
+    if (!path) break;
+    const req = await axios.get(origin + path);
+    yield extract_table("table", req.data);
+
+    path = cheerio.load(req.data)("li.next_array").find("a")[0]?.attribs?.href;
+  }
+};
+
+//const github = async function* () {};
+
 fs.mkdir(`${PATH}/csv/`, () => {});
 
 const main = async () => {
@@ -140,6 +155,7 @@ const main = async () => {
     proxynova,
     proxyscan,
     sslproxies,
+    hidemy,
     proxyscrape,
     scrapingant,
     socks_proxy_net,
