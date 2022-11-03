@@ -75,6 +75,27 @@ const proxyscrape = async () => {
   };
 };
 
+const proxynova = async () => {
+  const req = await axios.get("https://api.proxynova.com/proxylist");
+  const data = [];
+  for (let dt of req.data.data || []) {
+    dt.ip = eval(dt.ip);
+    data.push([
+      dt.ip,
+      dt.port,
+      `${dt.countryCode} ${dt.countryName} ${dt.cityName}`,
+      dt.hostname,
+      dt.asn,
+    ]);
+  }
+
+  return {
+    header: ["Ip", "Port", "Country", "Hostname", "ASN"],
+    body: data,
+    key: "HTTP",
+  };
+};
+
 fs.mkdir(`${PATH}/csv`, () => {});
 
 const main = async () => {
@@ -82,6 +103,7 @@ const main = async () => {
   let total = 0;
   const outs = {};
   for (let provider of [
+    proxynova,
     proxyscrape,
     scrapingant,
     socks_proxy_net,
