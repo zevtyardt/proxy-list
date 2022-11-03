@@ -33,18 +33,32 @@ const extract_table = (selector, data, custom_cb) => {
 
 // providers
 
-const proxyscan = async () => {
+const proxyscan = async function* () {
   const req = await axios.get("https://www.proxyscan.io/", {
     httpsAgent: new https.Agent({ rejectUnauthorized: false }),
   });
-  const data = extract_table(".table", req.data, ($, tr) => [
+  yield extract_table(".table", req.data, ($, tr) => [
     $(tr).find("th").text().trim(),
     ...$(tr)
       .find("td")
       .toArray()
       .map((td) => $(td).text().trim().replace(/\s+/gis, " ")),
   ]);
-  return data;
+
+  for (let type of ["http", "https", "socks4", "socks5"]) {
+    const req = await axios.get(
+      `https://www.proxyscan.io/download?type=${type}`
+    );
+
+    yield {
+      header: ["Ip", "Port", "Type"],
+      body: req.data
+        .split(/\r?\n/)
+        .filter((v) => v.indexOf(":") >= 0)
+        .map((value) => [...value.trim().split(/\s*:\s*/), type.toUpperCase()]),
+      key: 2,
+    };
+  }
 };
 
 const scrapingant = async () => {
@@ -196,6 +210,7 @@ const main = async () => {
       }
     } catch (_) {
       console.error("! failed scrape proxy");
+      console.error(_);
     }
   }
   console.log(`< total proxy: ${total}`);
