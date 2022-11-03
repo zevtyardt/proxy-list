@@ -5,7 +5,7 @@ on:
     - cron: "15 * * * *"
 
 jobs:
-  ececute:
+  cron:
     runs-on: ubuntu-latest
 
     strategy:
@@ -27,8 +27,7 @@ jobs:
         run: |
           git config --local user.name "bot"
           git status
-          echo "jumlah proxy: $(math $(cat proxies.csv | wc -l) - 1)
-terakhir diupdate: $(date +'%Y-%m-%d %T')" > readme.md
+          echo -e "jumlah proxy: $(math $(cat proxies.csv | wc -l) - 1)\nterakhir diupdate: $(date +'%Y-%m-%d %T')" > readme.md
           git add proxies.csv readme.md
           git commit -m "update: write $(math $(cat proxies.csv | wc -l) - 1) proxies"
       - name: push changes
