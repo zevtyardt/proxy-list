@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
-const out = fs.createWriteStream("../../proxies.csv");
+const out = fs.createWriteStream("../../proxy.csv");
 const main = async () => {
   const req = await axios.get("https://scrapingant.com/proxies");
 
