@@ -1,0 +1,15 @@
+Ip,Port,Type
+143.198.40.24,8888,https
+165.232.149.87,8888,https
+163.116.131.129,8080,https
+174.138.16.96,8888,https
+40.129.203.4,8080,United States Warminster,3100 ms,https,High,12 minutes
+145.40.121.169,3128,Brazil São Paulo,2740 ms,https,no,14 minutes
+103.75.117.21,4443,Hong Kong Central,5100 ms,https,High,17 minutes
+169.57.1.85,8123,Mexico Mexico City,1040 ms,https,High,30 minutes
+51.68.207.81,80,United Kingdom,300 ms,https,High,30 minutes
+159.203.84.241,3128,United States Clifton,580 ms,https,High,31 minutes
+145.40.121.159,3128,Brazil São Paulo,5100 ms,https,High,32 minutes
+20.210.113.32,80,Japan Tokyo,1740 ms,https,High,42 minutes
+20.210.113.32,8123,Japan Tokyo,1260 ms,https,High,42 minutes
+20.111.54.16,80,France Paris,440 ms,https,High,42 minutes
