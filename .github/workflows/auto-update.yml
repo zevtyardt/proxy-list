@@ -2,11 +2,11 @@ name: auto updating proxy
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:
-  cron:
+  build:
     runs-on: ubuntu-latest
 
     strategy:
