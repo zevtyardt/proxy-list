@@ -27,7 +27,6 @@ jobs:
       - name: start commit
         run: |
           git config --local user.name ${{ secrets.name }}
-          git config --local user.email ${{ secrets.email }}
           git status
           echo -e "- jumlah proxy: ±$(cat *.txt | wc -l)\n- terakhir diupdate: $(date +'%Y-%m-%d %T')" > README.md
           git add *.txt README.md csv/
