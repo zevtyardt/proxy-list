@@ -78,13 +78,14 @@ const proxyscrape = async () => {
 fs.mkdir(`${PATH}/csv`, () => {});
 
 const main = async () => {
-  const filtered = new Set();
+  const unique = {};
+  let total = 0;
   const outs = {};
   for (let provider of [
+    proxyscrape,
     scrapingant,
     socks_proxy_net,
     free_proxy_list,
-    proxyscrape,
   ]) {
     console.log(`> get_proxies from ${provider.name}`);
     const result = await provider();
@@ -94,6 +95,7 @@ const main = async () => {
           ? result.key.toLowerCase()
           : value[result.key].toLowerCase();
       if (!outs[type]) {
+        unique[type] = new Set();
         outs[type] = {
           csv: fs.createWriteStream(
             `${PATH}/csv/${type}_proxy-${provider.name}.csv`
@@ -104,13 +106,15 @@ const main = async () => {
       }
 
       const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
-      if (filtered.has(proxy)) return;
+      if (unique[type].has(proxy)) return;
       outs[type].raw.write(proxy + "\n");
       outs[type].csv.write(value.join(",") + "\n");
-      filtered.add(proxy);
+      unique[type].add(proxy);
+      total++;
     });
     console.log(`< done write ${result.body.length} proxies`);
   }
+  console.log(`< total proxy: ${total}`);
 };
 
 main();
