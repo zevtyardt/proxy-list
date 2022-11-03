@@ -1,6 +1,6 @@
 # Overview
-  - **jumlah proxy:** ±7348
-  - **terakhir diupdate:** 2022-11-03 14:40:53
+  - **jumlah proxy:** ±7401
+  - **terakhir diupdate:** 2022-11-03 14:43:48
 
 # Download
   - **for HTTP**<br/>
