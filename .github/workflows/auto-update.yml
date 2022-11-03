@@ -26,16 +26,16 @@ jobs:
           node index.js
       - name: generating README.md
         run: |
-          echo -e "# Overview" > README.md
+          #echo -e "# Overview" > README.md
           echo -e "  - **jumlah proxy:** ±$(cat *.txt | wc -l)" >> README.md
           echo -e "  - **terakhir diupdate:** $(date +'%Y-%m-%d %T')\n" >> README.md
 
-          echo -e "# Download" >> README.md
-          for file in *.txt;
-          do
-            echo "  - **for $(echo $file | cut -d'_' -f1 | tr 'a-z' 'A-Z')**<br/>" >> README.md
-            echo "    \`curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/$file -O $file\`" >> README.md
-          done
+          #echo -e "# Download" >> README.md
+          #for file in *.txt;
+          #do
+          #  echo "  - **for $(echo $file | cut -d'_' -f1 | tr 'a-z' 'A-Z')**<br/>" >> README.md
+          #  echo "    \`curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/$file -O $file\`" >> README.md
+          #done
 
       - name: start commit
         run: |
