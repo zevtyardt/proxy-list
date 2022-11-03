@@ -1,4 +1,4 @@
 # Overview
-  - **jumlah proxy:** ±8624
-  - **terakhir diupdate:** 2022-11-03 18:21:24
+  - **jumlah proxy:** ±9600
+  - **terakhir diupdate:** Fri, 04 Nov 22 01:28:41 WIB
 
