@@ -121,7 +121,7 @@ const proxynova = async () => {
   };
 };
 
-const hidemy = async function* (numPage = 10) {
+const hidemy = async function* (numPage = 20) {
   const origin = "https://hidemy.name";
 
   let path = "/en/proxy-list";
