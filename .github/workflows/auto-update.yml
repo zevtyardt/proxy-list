@@ -37,7 +37,7 @@ jobs:
 
           for file in *.txt;
           do
-            echo -e "  - **$(echo $file | cut -d'_' -f1 | tr 'a-z' 'A-Z')**" >> README.md
+            echo -e "  - **$(echo $file | cut -d'_' -f1 | tr 'a-z' 'A-Z')** ($(cat $file | wc -l))" >> README.md
             echo -e "    \`\`\`bash" >> README.md
             echo -e "    curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/$file -o $file" >> README.md
             echo -e "    \`\`\`" >> README.md
