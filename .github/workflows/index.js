@@ -23,7 +23,8 @@ const extract_table = (selector, data, custom_cb) => {
         .find("td")
         .toArray()
         .map((td) => $(td).text().trim().replace(/\s+/gis, " "));
-    });
+    })
+    .filter((v) => v.length > 0);
   return {
     header: head,
     body: body,
@@ -83,6 +84,13 @@ const github_raw = async function* () {
   }
 };
 
+const api_openproxylist = async function* () {
+  for (let type of ["http", "socks4", "socks5"]) {
+    const req = await axios_get(`https://api.openproxylist.xyz/${type}.txt`);
+    yield extract_proxy_list(req.data, type);
+  }
+};
+
 const scrapingant = async () => {
   const req = await axios_get("https://scrapingant.com/proxies");
 
@@ -100,6 +108,11 @@ const scrapingant = async () => {
 
 const socks_proxy_net = async () => {
   const req = await axios_get("https://www.socks-proxy.net/");
+  return extract_table(".table-striped", req.data);
+};
+
+const us_proxy = async () => {
+  const req = await axios_get("https://us-proxy.org/");
   return extract_table(".table-striped", req.data);
 };
 
@@ -170,7 +183,16 @@ const hidemy = async function* (numPage = 20) {
   }
 };
 
-//const github = async function* () {};
+const freeproxy_world = async function* (numPage = 20) {
+  for (let i = 0; i < numPage; i++) {
+    const req = await axios_get(
+      `https://freeproxy.world/?type=&anonymity=&country=&speed=&port=&page=${i}`
+    );
+    const data = extract_table("table", req.data);
+    data.key = 5;
+    yield data;
+  }
+};
 
 fs.mkdir(`${PATH}/csv/`, () => {});
 
@@ -180,14 +202,17 @@ const main = async () => {
   const outs = {};
   for (let raw_provider of [
     proxynova,
-    proxyscan,
+    api_openproxylist,
+    freeproxy_world,
+    us_proxy,
     sslproxies,
-    hidemy,
     proxyscrape,
     scrapingant,
     github_raw,
     socks_proxy_net,
     free_proxy_list,
+    proxyscan,
+    hidemy,
   ]) {
     let provider;
     if (!raw_provider.constructor.name.startsWith("AsyncGen"))
@@ -204,9 +229,11 @@ const main = async () => {
         if (!result && done) break;
 
         result.body.forEach((value) => {
+          if (value.length != result.header.length) return;
+
           const types =
             typeof result.key == "string"
-              ? result.key.toLowerCase()
+              ? result.key.toLowerCase().replace(/\s*proxy/, "")
               : value[result.key].toLowerCase();
 
           for (let type of types.split(/\s*,\s*/)) {
@@ -223,10 +250,10 @@ const main = async () => {
               outs[type].csv.write(result.header.join(",") + "\n");
             }
 
+            outs[type].csv.write(value.join(",") + "\n");
             const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
             if (unique[type].has(proxy)) return;
             outs[type].raw.write(proxy + "\n");
-            outs[type].csv.write(value.join(",") + "\n");
             unique[type].add(proxy);
             total++;
           }
