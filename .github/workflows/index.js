@@ -231,10 +231,11 @@ const main = async () => {
         result.body.forEach((value) => {
           if (value.length != result.header.length) return;
 
-          const types =
+          const types = (
             typeof result.key == "string"
-              ? result.key.toLowerCase().replace(/\s*proxy/, "")
-              : value[result.key].toLowerCase();
+              ? result.key.toLowerCase()
+              : value[result.key].toLowerCase()
+          ).replace(/\s*proxy\s*/, "");
 
           for (let type of types.split(/\s*,\s*/)) {
             if (typeof result.key != "string") value[result.key] = type;
