@@ -1,12 +1,12 @@
 # Ringkasan
   Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.
 
-  - **jumlah proxy:** ±16803
-  - **terakhir diupdate:** Fri, 04 Nov 22 12:45:27 WIB
+  - **jumlah proxy:** ±16948
+  - **terakhir diupdate:** Fri, 04 Nov 22 12:56:32 WIB
 
 # Unduh
   Salin dan tempel salah satu kode dibawah ke *terminal* kesayangan mu
-  - **ANONYMOUS** (10)
+  - **ANONYMOUS** (12)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/anonymous_proxy.txt -o anonymous_proxy.txt
     ```
@@ -14,23 +14,23 @@
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/elite_proxy.txt -o elite_proxy.txt
     ```
-  - **HTTP** (5639)
+  - **HTTP** (5661)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http_proxy.txt -o http_proxy.txt
     ```
-  - **HTTPS** (6)
+  - **HTTPS** (7)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/https_proxy.txt -o https_proxy.txt
     ```
-  - **SOCKS4** (6621)
+  - **SOCKS4** (6700)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4_proxy.txt -o socks4_proxy.txt
     ```
-  - **SOCKS5** (4337)
+  - **SOCKS5** (4380)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5_proxy.txt -o socks5_proxy.txt
     ```
-  - **TRANSPARENT** (171)
+  - **TRANSPARENT** (169)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/transparent_proxy.txt -o transparent_proxy.txt
     ```
