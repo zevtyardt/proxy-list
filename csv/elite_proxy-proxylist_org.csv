@@ -1,31 +1,29 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-186.154.147.166,9812,HTTP,4.2kbit,elite,CO Colombia-
-58.27.59.249,80,HTTP,76.2kbit,elite,MY MalaysiaKuala Lumpur
-95.214.8.128,3128,HTTP,71.1kbit,elite,ES Spain-
-149.129.131.46,2080,HTTP,39.2kbit,elite,MY MalaysiaPetaling Jaya
-139.162.44.152,51053,HTTP,39.7kbit,elite,US United States-
-198.59.191.234,8080,HTTPS,842kbit,elite,US United StatesCarlsbad
-165.232.149.87,8888,HTTPS,17.8kbit,elite,US United StatesPittsburgh
-194.195.218.74,8080,HTTP,68.2kbit,elite,DE Germany-
-76.164.52.98,80,HTTP,346kbit,elite,US United StatesPrior Lake
-139.162.44.152,7302,HTTP,31.8kbit,elite,US United States-
-200.25.254.193,54240,HTTP,12.1kbit,elite,CO ColombiaBogotá
-47.254.158.115,8080,HTTP,82.6kbit,elite,CA CanadaOttawa
+183.134.205.176,7890,HTTP,47.7kbit,elite,CN China-
+182.160.16.163,80,HTTP,47.1kbit,elite,MN MongoliaUlaanbaatar
+23.224.33.106,20351,HTTP,10.7kbit,elite,US United StatesCheyenne
+103.142.175.164,80,HTTPS,62.2kbit,elite,US United States-
+176.193.7.193,55443,HTTP,13.1kbit,elite,RU Russia-
+80.48.119.28,8080,HTTP,114kbit,elite,PL Poland-
+119.90.38.34,7890,HTTP,-,elite,CN ChinaBeijing
 117.62.201.30,808,HTTP,-,elite,CN ChinaNanjing
-192.53.163.144,80,HTTP,127kbit,elite,US United StatesPalo Alto
-114.116.6.84,10011,HTTP,-,elite,CN ChinaShenzhen
-172.105.184.208,8001,HTTPS,163kbit,elite,US United States-
-198.59.191.234,8080,US,United States,elite,no,yes,11 secs ago
-151.181.91.10,80,US,United States,elite,yes,yes,11 secs ago
-204.185.204.64,8080,US,United States,elite,no,yes,20 mins ago
-198.49.68.80,80,US,United States,elite,,no,20 mins ago
-216.137.184.253,80,US,United States,elite,,no,20 mins ago
-198.52.97.210,59394,US,United States,elite,no,no,41 mins ago
-165.232.149.87,8888,US,United States,elite,,no,1 hour ago
-45.56.75.90,5344,US,United States,elite,,yes,1 hour 1 min ago
-208.87.130.154,80,US,United States,elite,,yes,1 hour 1 min ago
-68.183.111.90,80,US,United States,elite,,no,1 hour 1 min ago
-47.254.47.61,8080,US,United States,elite,no,yes,1 hour 1 min ago
-45.79.111.38,9994,US,United States,elite,,yes,1 hour 1 min ago
-13.91.104.216,80,US,United States,elite,,no,1 hour 2 mins ago
-54.175.197.235,80,US,United States,elite,,no,1 hour 2 mins ago
+174.138.16.96,8888,HTTPS,1739kbit,elite,US United StatesLos Angeles
+172.105.25.190,8019,HTTP,37.7kbit,elite,US United States-
+201.229.250.22,8080,HTTPS,33.7kbit,elite,DO Dominican RepublicSanto Domingo
+198.59.191.234,8080,US,United States,elite,no,yes,23 secs ago
+198.49.68.80,80,US,United States,elite,yes,no,23 secs ago
+151.181.91.10,80,US,United States,elite,yes,yes,23 secs ago
+45.56.98.229,49857,US,United States,elite,no,no,1 min ago
+45.56.83.46,8012,US,United States,elite,no,no,1 min ago
+136.49.230.41,8118,US,United States,elite,no,no,1 min ago
+204.185.204.64,8080,US,United States,elite,no,yes,30 mins ago
+216.137.184.253,80,US,United States,elite,,no,30 mins ago
+198.52.97.210,59394,US,United States,elite,no,no,51 mins ago
+165.232.149.87,8888,US,United States,elite,,no,1 hour 10 mins ago
+45.56.75.90,5344,US,United States,elite,,yes,1 hour 10 mins ago
+208.87.130.154,80,US,United States,elite,,yes,1 hour 10 mins ago
+68.183.111.90,80,US,United States,elite,,no,1 hour 11 mins ago
+47.254.47.61,8080,US,United States,elite,no,yes,1 hour 11 mins ago
+45.79.111.38,9994,US,United States,elite,,yes,1 hour 11 mins ago
+13.91.104.216,80,US,United States,elite,,no,1 hour 11 mins ago
+54.175.197.235,80,US,United States,elite,,no,1 hour 12 mins ago
