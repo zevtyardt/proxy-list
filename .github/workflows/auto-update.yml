@@ -34,7 +34,7 @@ jobs:
           echo -e "  - **terakhir diupdate:** $(TZ=Asia/Jakarta date +'%a, %d %b %y %T %Z')\n" >> README.md
 
           echo -e "# Unduh" >> README.md
-          echo -e "  Salin dan tempel salah satu kode dibawah ke *terminal* kesayangan mu" >> README.md
+          echo -e "  Salin dan tempel salah satu kode dibawah ke terminal" >> README.md
 
           for file in *.txt;
           do
@@ -45,7 +45,7 @@ jobs:
           done
 
           echo -e "\n# Catatan" >> README.md
-          echo -e "Jangan lupa kasih ⭐ terus fork sama follow juga kalau perlu" >> README.md
+          echo -e "Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu" >> README.md
 
       - name: start commit
         run: |
