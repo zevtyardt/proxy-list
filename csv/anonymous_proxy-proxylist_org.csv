@@ -1,27 +1,25 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-112.120.41.171,80,HTTP,82.0kbit,anonymous,HK Hong KongCentral District
-165.154.243.247,80,HTTP,369kbit,anonymous,CA CanadaOakville
-39.185.232.150,9091,HTTP,-,anonymous,CN China-
-104.148.36.10,80,HTTP,208kbit,anonymous,US United StatesWalnut
-218.75.38.154,9091,HTTP,59.3kbit,anonymous,CN ChinaHangzhou
-45.195.200.30,8000,HTTPS,258kbit,anonymous,ZA South Africa-
-103.172.116.231,80,HTTP,369kbit,anonymous,CN China-
-183.220.6.198,9091,HTTP,-,anonymous,CN China-
-38.94.109.12,80,HTTP,139kbit,anonymous,US United States-
-121.31.35.98,9091,HTTP,-,anonymous,CN ChinaNanning
-223.112.99.150,80,HTTP,-,anonymous,CN China-
-45.121.51.232,80,HTTP,280kbit,anonymous,TW Taiwan-
-47.111.144.72,9999,HTTP,-,anonymous,CN ChinaHangzhou
+114.37.198.72,80,HTTP,121kbit,anonymous,TW Taiwan-
+195.181.172.220,8080,HTTP,198kbit,anonymous,DK Denmark-
+123.130.115.217,9091,HTTP,-,anonymous,CN ChinaJinan
+154.26.134.214,80,HTTP,164kbit,anonymous,US United States-
+195.181.172.220,8081,HTTP,97.7kbit,anonymous,DK Denmark-
+183.237.47.54,9091,HTTP,77.6kbit,anonymous,CN China-
+195.181.172.223,8081,HTTP,741kbit,anonymous,DK Denmark-
+58.246.58.150,9002,HTTP,-,anonymous,CN ChinaShanghai
 119.23.110.63,8085,HTTP,-,anonymous,CN ChinaHangzhou
-42.228.61.245,9091,HTTP,-,anonymous,CN ChinaZhengzhou
-165.154.225.65,80,HTTP,348kbit,anonymous,CA CanadaOakville
-172.105.13.173,80,HTTP,33.8kbit,anonymous,US United States-
-120.197.219.82,9091,HTTP,76.7kbit,anonymous,CN China-
-219.78.228.211,80,HTTP,91.1kbit,anonymous,HK Hong KongCentral District
-62.210.8.110,8111,HTTP,11.7kbit,anonymous,FR France-
-125.66.100.112,9091,HTTP,-,anonymous,CN ChinaChengdu
-165.154.226.12,80,HTTP,406kbit,anonymous,CA CanadaOakville
-120.196.186.248,9091,HTTP,-,anonymous,CN China-
+173.197.98.164,8111,HTTP,7.0kbit,anonymous,US United States-
+39.185.232.150,9091,HTTP,-,anonymous,CN China-
+58.17.24.162,9091,HTTP,-,anonymous,CN ChinaNanchang
+183.220.6.198,9091,HTTP,-,anonymous,CN China-
+188.254.0.59,80,HTTP,-,anonymous,RU Russia-
+221.231.13.198,1080,HTTP,-,anonymous,CN ChinaNanjing
+37.204.95.22,80,HTTP,899kbit,anonymous,RU RussiaMoscow
+200.103.102.18,80,HTTP,21.4kbit,anonymous,BR Brazil-
+120.236.41.185,9091,HTTP,-,anonymous,CN China-
+120.196.188.21,9091,HTTP,1000kbit,anonymous,CN China-
+195.181.172.223,8080,HTTP,777kbit,anonymous,DK Denmark-
+47.254.16.71,5008,HTTP,-,anonymous,CA CanadaOttawa
 18.223.136.29,80,US,United States,anonymous,,no,22 secs ago
 162.247.153.124,80,US,United States,anonymous,yes,no,1 min ago
 104.148.36.10,80,US,United States,anonymous,yes,no,1 min ago
