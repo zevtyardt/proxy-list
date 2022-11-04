@@ -1,37 +1,32 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-221.132.18.26,8090,HTTP,248kbit,anonymous,VN VietnamHo Chi Minh City
-110.185.164.20,9091,HTTP,-,anonymous,CN ChinaChengdu
-103.172.116.231,80,HTTP,369kbit,anonymous,CN China-
-123.130.115.217,9091,HTTP,-,anonymous,CN ChinaJinan
-114.37.198.72,80,HTTP,121kbit,anonymous,TW Taiwan-
-114.237.109.21,9999,HTTP,-,anonymous,CN ChinaNanjing
-120.237.57.83,9091,HTTP,-,anonymous,CN China-
-146.196.48.2,80,HTTP,-,anonymous,BD BangladeshKhilgaon
-120.237.144.200,9091,HTTP,53.5kbit,anonymous,CN China-
-222.180.240.62,9091,HTTP,-,anonymous,CN ChinaChongqing
-120.236.41.185,9091,HTTP,-,anonymous,CN China-
-218.75.38.154,9091,HTTP,59.3kbit,anonymous,CN ChinaHangzhou
-195.181.172.220,8081,HTTP,97.7kbit,anonymous,DK Denmark-
-171.6.149.30,8000,HTTP,84.0kbit,anonymous,TH ThailandNonthaburi
-39.170.42.90,9091,HTTP,-,anonymous,CN China-
-114.55.84.12,30001,HTTP,-,anonymous,CN ChinaHangzhou
-118.190.146.252,80,HTTP,-,anonymous,CN ChinaHangzhou
-120.26.123.95,8010,HTTP,80.5kbit,anonymous,CN ChinaHangzhou
-121.31.35.98,9091,HTTP,-,anonymous,CN ChinaNanning
-195.181.172.226,8080,HTTP,151kbit,anonymous,DK Denmark-
-125.66.100.112,9091,HTTP,-,anonymous,CN ChinaChengdu
-221.231.13.198,1080,HTTP,-,anonymous,CN ChinaNanjing
-154.26.134.214,80,HTTP,164kbit,anonymous,US United States-
-172.105.13.173,80,HTTP,33.8kbit,anonymous,US United States-
+106.14.255.124,80,HTTP,-,anonymous,CN ChinaHangzhou
 37.204.95.22,80,HTTP,899kbit,anonymous,RU RussiaMoscow
-222.179.155.90,9091,HTTP,-,anonymous,CN ChinaChongqing
+125.66.100.112,9091,HTTP,-,anonymous,CN ChinaChengdu
+217.197.162.40,80,HTTP,273kbit,anonymous,PL Poland-
+222.180.240.62,9091,HTTP,-,anonymous,CN ChinaChongqing
+120.26.123.95,8010,HTTP,80.5kbit,anonymous,CN ChinaHangzhou
 109.248.222.215,443,HTTP,-,anonymous,RU RussiaCheboksary
+42.3.27.74,80,HTTP,123kbit,anonymous,HK Hong KongCentral District
+183.230.162.122,9091,HTTP,-,anonymous,CN China-
+120.237.57.83,9091,HTTP,-,anonymous,CN China-
+38.94.109.12,80,HTTP,139kbit,anonymous,US United States-
+146.196.48.2,80,HTTP,-,anonymous,BD BangladeshKhilgaon
+218.200.193.144,9091,HTTP,-,anonymous,CN ChinaSichuan
+218.28.98.229,9091,HTTP,-,anonymous,CN ChinaZhengzhou
+120.236.41.185,9091,HTTP,-,anonymous,CN China-
+195.181.172.220,8081,HTTP,97.7kbit,anonymous,DK Denmark-
+165.154.226.12,80,HTTP,406kbit,anonymous,CA CanadaOakville
+173.197.98.164,8111,HTTP,7.0kbit,anonymous,US United States-
+124.13.181.7,80,HTTP,17.0kbit,anonymous,MY MalaysiaKota Kinabalu
 120.82.174.128,9091,HTTP,-,anonymous,CN ChinaGuangzhou
-23.224.33.106,20354,US,United States,anonymous,,yes,3 secs ago
-165.3.122.6,80,US,United States,anonymous,,yes,3 secs ago
-162.247.153.124,80,US,United States,anonymous,yes,no,4 secs ago
-104.148.36.10,80,US,United States,anonymous,yes,no,4 secs ago
-38.94.109.7,80,US,United States,anonymous,no,no,1 hour 1 min ago
-38.94.109.12,80,US,United States,anonymous,,no,1 hour 50 mins ago
-18.223.136.29,80,US,United States,anonymous,,no,2 hours 30 mins ago
-155.138.197.162,80,US,United States,anonymous,,no,2 hours 33 mins ago
+121.234.78.194,9002,HTTP,-,anonymous,CN ChinaNanjing
+219.78.228.211,80,HTTP,91.1kbit,anonymous,HK Hong KongCentral District
+154.26.134.214,80,HTTP,164kbit,anonymous,US United States-
+162.247.153.124,80,US,United States,anonymous,yes,no,9 secs ago
+104.148.36.10,80,US,United States,anonymous,yes,no,9 secs ago
+23.224.33.106,20354,US,United States,anonymous,,yes,20 mins ago
+165.3.122.6,80,US,United States,anonymous,,yes,20 mins ago
+38.94.109.7,80,US,United States,anonymous,no,no,1 hour 21 mins ago
+38.94.109.12,80,US,United States,anonymous,,no,2 hours 10 mins ago
+18.223.136.29,80,US,United States,anonymous,,no,2 hours 50 mins ago
+155.138.197.162,80,US,United States,anonymous,,no,2 hours 53 mins ago
