@@ -1,0 +1,20 @@
+Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
+198.49.68.80,80,HTTP,620kbit,elite,US United StatesOrlando
+47.109.51.138,80,HTTP,-,elite,CN ChinaHangzhou
+176.58.112.123,2080,HTTP,79.3kbit,elite,GB United Kingdom-
+47.100.137.173,666,HTTP,-,elite,CN ChinaHangzhou
+124.70.221.252,8080,HTTP,12.2kbit,elite,CN China-
+139.59.88.145,8888,HTTPS,126kbit,elite,SG Singapore-
+47.113.230.224,21025,HTTP,-,elite,CN ChinaHangzhou
+114.116.2.116,8001,HTTP,-,elite,CN ChinaShenzhen
+83.229.72.174,80,HTTP,661kbit,elite,A2 Satellite Provider-
+149.129.232.50,80,HTTP,37.2kbit,elite,MY MalaysiaShah Alam
+96.126.124.197,81,HTTP,111kbit,elite,US United StatesAbsecon
+149.248.17.90,10080,HTTPS,252kbit,elite,CA Canada-
+49.0.2.242,8090,HTTPS,67.8kbit,elite,ID IndonesiaPurwokerto
+59.110.7.43,3129,HTTP,-,elite,CN ChinaHangzhou
+198.59.191.234,8080,US,United States,elite,no,yes,4 secs ago
+198.49.68.80,80,US,United States,elite,yes,no,4 secs ago
+151.181.91.10,80,US,United States,elite,yes,yes,4 secs ago
+216.137.184.253,80,US,United States,elite,yes,no,10 mins ago
+198.52.97.210,59394,US,United States,elite,,no,30 mins ago

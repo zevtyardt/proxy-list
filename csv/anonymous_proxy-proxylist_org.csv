@@ -1,0 +1,29 @@
+Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
+37.204.95.22,80,HTTP,899kbit,anonymous,RU RussiaMoscow
+39.103.207.127,443,HTTP,-,anonymous,CN ChinaHangzhou
+120.82.174.128,9091,HTTP,-,anonymous,CN ChinaGuangzhou
+61.132.228.99,8088,HTTP,-,anonymous,CN ChinaHefei
+38.94.109.7,80,HTTP,212kbit,anonymous,US United States-
+146.196.48.2,80,HTTP,-,anonymous,BD BangladeshKhilgaon
+120.237.57.83,9091,HTTP,-,anonymous,CN China-
+195.181.172.220,8080,HTTP,198kbit,anonymous,DK Denmark-
+195.181.172.220,8081,HTTP,97.7kbit,anonymous,DK Denmark-
+42.3.182.146,80,HTTP,172kbit,anonymous,HK Hong KongCentral District
+183.237.47.54,9091,HTTP,77.6kbit,anonymous,CN China-
+183.230.198.80,9091,HTTP,3.9kbit,anonymous,CN China-
+222.179.155.90,9091,HTTP,-,anonymous,CN ChinaChongqing
+4.233.217.137,8888,HTTP,-,anonymous,US United States-
+114.37.198.72,80,HTTP,121kbit,anonymous,TW Taiwan-
+218.28.98.229,9091,HTTP,-,anonymous,CN ChinaZhengzhou
+154.26.134.214,80,HTTP,164kbit,anonymous,US United States-
+103.73.66.36,8085,HTTP,-,anonymous,CN China-
+162.247.153.124,80,HTTP,588kbit,anonymous,US United StatesNashua
+112.54.41.177,9091,HTTP,-,anonymous,CN China-
+195.181.172.223,8081,HTTP,741kbit,anonymous,DK Denmark-
+200.103.102.18,80,HTTP,21.4kbit,anonymous,BR Brazil-
+117.54.114.103,80,HTTP,159kbit,anonymous,ID Indonesia-
+195.181.172.223,8080,HTTP,777kbit,anonymous,DK Denmark-
+221.231.13.198,1080,HTTP,-,anonymous,CN ChinaNanjing
+135.148.45.125,8888,HTTP,11429kbit,anonymous,US United StatesBasking Ridge
+162.247.153.124,80,US,United States,anonymous,,no,4 secs ago
+104.148.36.10,80,US,United States,anonymous,yes,no,4 secs ago
