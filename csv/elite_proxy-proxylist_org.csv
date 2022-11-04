@@ -1,35 +1,37 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-117.62.201.30,808,HTTP,-,elite,CN ChinaNanjing
-172.104.241.29,8083,HTTP,34.2kbit,elite,US United States-
-194.195.240.60,2080,HTTP,34.3kbit,elite,DE Germany-
-139.162.44.152,7302,HTTP,31.6kbit,elite,US United States-
-47.254.195.196,2080,HTTP,40.2kbit,elite,CA CanadaOttawa
-49.0.2.242,8090,HTTPS,67.8kbit,elite,ID IndonesiaPurwokerto
-103.189.222.6,80,HTTPS,27.3kbit,elite,MN Mongolia-
-200.25.254.193,54240,HTTP,12.1kbit,elite,CO ColombiaBogotá
-14.115.105.102,34100,HTTP,-,elite,CN ChinaGuangzhou
-149.129.179.23,2080,HTTP,30.0kbit,elite,MY MalaysiaKuala Lumpur
-182.160.16.163,80,HTTP,47.1kbit,elite,MN MongoliaUlaanbaatar
-176.58.112.123,1080,HTTP,126kbit,elite,GB United Kingdom-
-194.195.240.60,5421,HTTP,121kbit,elite,DE Germany-
-23.224.33.106,20353,HTTPS,219kbit,elite,US United StatesCheyenne
-85.195.104.71,80,HTTP,11.8kbit,elite,DE Germany-
-151.181.91.10,80,US,United States,elite,yes,yes,24 secs ago
-198.59.191.234,8080,US,United States,elite,no,yes,20 mins ago
-216.137.184.253,80,US,United States,elite,yes,no,20 mins ago
-96.126.103.64,9991,US,United States,elite,no,no,31 mins ago
-45.79.208.64,44554,US,United States,elite,,no,41 mins ago
-198.49.68.80,80,US,United States,elite,no,no,41 mins ago
-128.199.13.74,80,US,United States,elite,,no,41 mins ago
-204.185.204.64,8080,US,United States,elite,no,yes,1 hour 20 mins ago
-45.79.111.38,9994,US,United States,elite,,no,1 hour 30 mins ago
-3.212.9.208,80,US,United States,elite,,no,1 hour 50 mins ago
-165.232.149.87,8888,US,United States,elite,no,yes,2 hours 30 mins ago
-192.53.163.144,3128,US,United States,elite,,no,3 hours 30 mins ago
-142.93.61.46,80,US,United States,elite,yes,no,3 hours 31 mins ago
-167.99.174.59,80,US,United States,elite,,no,3 hours 40 mins ago
-66.175.223.147,4153,US,United States,elite,,no,3 hours 40 mins ago
-45.56.98.229,49857,US,United States,elite,no,no,3 hours 51 mins ago
-45.56.83.46,8012,US,United States,elite,no,no,3 hours 51 mins ago
-136.49.230.41,8118,US,United States,elite,no,no,3 hours 51 mins ago
-198.52.97.210,59394,US,United States,elite,no,no,4 hours 41 mins ago
+172.105.169.87,8080,HTTP,47.0kbit,elite,US United States-
+212.50.36.1,8083,HTTP,40.5kbit,elite,TR Turkey-
+115.29.140.201,8080,HTTP,-,elite,CN ChinaHangzhou
+14.115.106.116,34100,HTTP,-,elite,CN ChinaGuangzhou
+14.115.107.116,45770,-,-,elite,CN ChinaGuangzhou
+213.230.66.38,8080,HTTP,85.2kbit,elite,UZ Uzbekistan-
+198.49.68.80,80,HTTP,620kbit,elite,US United StatesOrlando
+198.59.191.234,8080,HTTPS,842kbit,elite,US United StatesCarlsbad
+45.156.21.78,3128,HTTPS,289kbit,elite,HK Hong Kong-
+117.62.203.181,808,HTTP,-,elite,CN ChinaNanjing
+111.225.152.69,8089,HTTP,-,elite,CN ChinaHebei
+216.137.184.253,80,HTTP,19.4kbit,elite,US United StatesMarinette
+188.166.193.20,8888,HTTP,45.0kbit,elite,NL NetherlandsAmsterdam
+157.245.207.186,8080,HTTP,26.6kbit,elite,US United StatesEugene
+114.116.6.84,10011,HTTP,-,elite,CN ChinaShenzhen
+59.110.7.43,3129,HTTP,-,elite,CN ChinaHangzhou
+185.15.172.212,3128,HTTP,9.5kbit,elite,RU Russia-
+192.53.163.144,3128,US,United States,elite,,no,9 secs ago
+198.49.68.80,80,US,United States,elite,no,no,14 secs ago
+151.181.91.10,80,US,United States,elite,yes,yes,14 secs ago
+198.59.191.234,8080,US,United States,elite,no,yes,30 mins ago
+216.137.184.253,80,US,United States,elite,yes,no,30 mins ago
+96.126.103.64,9991,US,United States,elite,no,no,41 mins ago
+45.79.208.64,44554,US,United States,elite,,no,51 mins ago
+128.199.13.74,80,US,United States,elite,,no,51 mins ago
+204.185.204.64,8080,US,United States,elite,no,yes,1 hour 30 mins ago
+45.79.111.38,9994,US,United States,elite,,no,1 hour 40 mins ago
+3.212.9.208,80,US,United States,elite,,no,2 hours ago
+165.232.149.87,8888,US,United States,elite,no,yes,2 hours 40 mins ago
+142.93.61.46,80,US,United States,elite,yes,no,3 hours 41 mins ago
+167.99.174.59,80,US,United States,elite,,no,3 hours 50 mins ago
+66.175.223.147,4153,US,United States,elite,,no,3 hours 50 mins ago
+45.56.98.229,49857,US,United States,elite,no,no,4 hours 1 min ago
+45.56.83.46,8012,US,United States,elite,no,no,4 hours 1 min ago
+136.49.230.41,8118,US,United States,elite,no,no,4 hours 1 min ago
+198.52.97.210,59394,US,United States,elite,no,no,4 hours 51 mins ago
