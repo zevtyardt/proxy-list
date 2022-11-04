@@ -11,7 +11,7 @@ const extract_table = (selector, data, custom_cb) => {
     .find("thead")
     .find("th")
     .toArray()
-    .map((e) => $(e).text().trim());
+    .map((e) => $(e).text().trim().replace(/\s+/gis, " "));
   const body = table
     .find("tbody")
     .find("tr")
@@ -194,6 +194,107 @@ const freeproxy_world = async function* (numPage = 20) {
   }
 };
 
+const proxylist_org = async function* () {
+  let page = 1;
+  while (true) {
+    const req = await axios_get(
+      `https://proxy-list.org/english/index.php?p=${page}`
+    );
+    const $ = cheerio.load(req.data);
+
+    const table = $(".proxy-table");
+    const head = table
+      .find(".header-row")
+      .find("li")
+      .toArray()
+      .map((e) => $(e).text().trim().replace(/\s+/gis, " "));
+
+    const body = table
+      .find(".table")
+      .find("ul")
+      .toArray()
+      .map((ul) => {
+        const dt = $(ul)
+          .find("li")
+          .toArray()
+          .map((td) => $(td).text().trim().replace(/\s+/gis, " "));
+        const [ip, port] = Buffer.from(
+          dt.shift().match(/["']([^"']+)/)[1],
+          "base64"
+        )
+          .toString()
+          .split(":");
+        dt.splice(0, 0, ip, port);
+        return dt;
+      })
+      .filter((v) => v.length > 0);
+
+    head.shift();
+    head.splice(0, 0, "Ip", "Port");
+
+    if (body.length < 1) break;
+
+    yield {
+      header: head,
+      body: body,
+      key: 4,
+    };
+    page++;
+  }
+};
+
+const iplocation = async function* () {
+  let page = 0;
+  while (true) {
+    const req = await axios_get(
+      `https://www.iplocation.net/proxy-list/index/${page}`
+    );
+    const $ = cheerio.load(req.data);
+
+    const table = $("table");
+    const head = table
+      .find("thead")
+      .find("th")
+      .toArray()
+      .map((e) => $(e).text().trim().replace(/\s+/gis, " "))
+      .splice(0, 4);
+
+    const body = table
+      .find("tbody")
+      .find("tr")
+      .toArray()
+      .map((tr) =>
+        $(tr)
+          .find("td")
+          .toArray()
+          .map((e) => $(e).text().trim().replace(/\s+/gis, " "))
+          .splice(0, 4)
+      )
+      .filter((v) => v.length > 0);
+    if (body.length < 1) break;
+    yield {
+      header: head,
+      body: body,
+      key: "HTTP",
+    };
+    page = page + 10;
+  }
+};
+
+const my_proxy = async () => {
+  const req = await axios_get("https://www.my-proxy.com/free-proxy-list.html");
+  return {
+    header: ["Ip", "Port", "Country Code"],
+    body: [
+      ...req.data.matchAll(
+        /(?<ip>(?:\d+\.?){4}):(?<port>\d+)#(?<country>[A-Z]+)/gi
+      ),
+    ].map((v) => Object.values(v.groups)),
+    key: "HTTP",
+  };
+};
+// MAIN
+
 fs.mkdir(`${PATH}/csv/`, () => {});
 
 const main = async () => {
@@ -201,6 +302,9 @@ const main = async () => {
   let total = 0;
   const outs = {};
   for (let raw_provider of [
+    my_proxy,
+    iplocation,
+    proxylist_org,
     proxynova,
     api_openproxylist,
     freeproxy_world,
