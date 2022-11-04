@@ -170,7 +170,7 @@ const proxynova = async () => {
   };
 };
 
-const hidemy = async function* (numPage = 20) {
+const hidemy = async function* (numPage = 50) {
   const origin = "https://hidemy.name";
 
   let path = "/en/proxy-list";
@@ -183,7 +183,7 @@ const hidemy = async function* (numPage = 20) {
   }
 };
 
-const freeproxy_world = async function* (numPage = 20) {
+const freeproxy_world = async function* (numPage = 50) {
   for (let i = 0; i < numPage; i++) {
     const req = await axios_get(
       `https://freeproxy.world/?type=&anonymity=&country=&speed=&port=&page=${i}`
