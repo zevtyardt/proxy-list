@@ -1,4 +1,5 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
+<<<<<<< HEAD
 8.210.46.128,80,HTTP,-,transparent,US United States-
 103.127.1.130,80,HTTP,-,transparent,ID Indonesia-
 191.97.16.129,999,HTTP,5.0kbit,transparent,VE VenezuelaCaracas
@@ -94,6 +95,108 @@ Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
 213.6.17.251,19000,HTTPS,174kbit,transparent,PS Palestinian Territory-
 96.95.164.41,3128,HTTP,105kbit,transparent,US United StatesWolcott
 117.160.250.133,8080,HTTP,-,transparent,CN China-
+=======
+187.1.57.206,20183,HTTP,25.1kbit,transparent,BR Brazil-
+161.82.183.156,80,HTTPS,241kbit,transparent,US United StatesPalo Alto
+132.255.210.100,999,HTTPS,211kbit,transparent,SV El SalvadorSan Miguel
+103.127.1.130,80,HTTP,-,transparent,ID Indonesia-
+191.102.254.50,8085,HTTP,10.1kbit,transparent,AR Argentina-
+142.132.191.196,80,HTTPS,162kbit,transparent,CA CanadaWinnipeg
+62.74.204.21,8080,HTTPS,1509kbit,transparent,GR Greece-
+117.160.250.133,8081,HTTP,-,transparent,CN China-
+117.160.250.163,8080,HTTP,-,transparent,CN China-
+181.65.133.139,999,HTTP,20.5kbit,transparent,PE Peru-
+117.160.250.130,80,HTTP,-,transparent,CN China-
+45.70.236.125,999,HTTP,7.1kbit,transparent,BG Bulgaria-
+213.6.17.251,19000,HTTPS,174kbit,transparent,PS Palestinian Territory-
+45.167.125.97,9992,HTTPS,207kbit,transparent,US United States-
+145.40.121.201,3128,HTTPS,131kbit,transparent,NL NetherlandsUtrecht
+41.39.218.187,80,HTTP,55.3kbit,transparent,EG Egypt-
+190.109.221.46,3128,HTTP,-,transparent,HN HondurasTegucigalpa
+52.37.223.135,80,HTTP,314kbit,transparent,US United StatesBoardman
+52.210.106.80,80,HTTP,262kbit,transparent,IE IrelandDublin
+190.2.213.250,999,HTTPS,1379kbit,transparent,PA PanamaBoquete
+201.150.117.198,999,HTTPS,226kbit,transparent,BR Brazil-
+37.236.59.107,80,HTTP,139kbit,transparent,IQ Iraq-
+190.107.233.227,999,HTTPS,17.9kbit,transparent,EC EcuadorQuito
+104.225.250.10,3128,HTTPS,440kbit,transparent,US United StatesLas Vegas
+117.160.250.137,82,HTTP,-,transparent,CN China-
+176.241.142.3,8081,HTTP,128kbit,transparent,UA Ukrain-
+160.119.148.190,8080,HTTP,8.8kbit,transparent,ZA South Africa-
+117.160.250.137,8081,HTTP,-,transparent,CN China-
+157.230.34.219,3128,HTTPS,13.0kbit,transparent,US United StatesDuluth
+45.71.185.244,999,HTTPS,273kbit,transparent,KH Cambodia-
+190.107.237.24,999,HTTP,12.2kbit,transparent,EC EcuadorQuito
+117.160.250.133,81,HTTP,-,transparent,CN China-
+120.88.113.114,3128,HTTP,15.7kbit,transparent,AU Australia-
+118.107.44.181,8000,HTTP,147kbit,transparent,AU Australia-
+103.142.254.81,8081,HTTP,6.8kbit,transparent,CN China-
+103.111.120.138,80,HTTP,-,transparent,US United States-
+117.160.250.133,82,HTTP,-,transparent,CN China-
+164.92.160.38,8080,HTTPS,170kbit,transparent,US United StatesDenver
+103.166.9.91,3125,HTTP,11.6kbit,transparent,AR Argentina-
+181.204.38.98,999,HTTP,-,transparent,CO Colombia-
+157.100.53.102,999,HTTPS,16.0kbit,transparent,EC EcuadorQuito
+195.3.245.193,3128,HTTP,137kbit,transparent,UA Ukrain-
+217.147.172.65,8118,HTTPS,42.0kbit,transparent,UA Ukrain-
+117.160.250.137,80,HTTP,-,transparent,CN China-
+202.115.112.136,80,HTTP,-,transparent,CN ChinaChengdu
+188.124.250.138,8008,HTTPS,87.7kbit,transparent,RU Russia-
+182.253.109.139,8080,HTTP,305kbit,transparent,ID IndonesiaComal
+191.97.14.26,999,HTTP,26.4kbit,transparent,PA Panama-
+46.199.87.82,8080,HTTP,-,transparent,CY Cyprus-
+37.236.60.35,8080,HTTP,114kbit,transparent,IQ Iraq-
+183.89.58.177,8080,HTTPS,128kbit,transparent,TH ThailandBangkok
+145.40.121.103,3128,HTTP,2667kbit,transparent,NL NetherlandsUtrecht
+196.216.132.199,8080,HTTPS,38.4kbit,transparent,ZA South AfricaLichtenburg
+37.236.59.83,80,HTTP,15.5kbit,transparent,IQ Iraq-
+69.75.172.51,8080,HTTPS,909kbit,transparent,US United States-
+51.15.9.252,2019,HTTP,365kbit,transparent,GB United Kingdom-
+102.38.9.82,8080,HTTP,12.0kbit,transparent,HK Hong Kong-
+96.95.164.41,3128,HTTP,105kbit,transparent,US United StatesWolcott
+124.122.137.96,8080,HTTP,151kbit,transparent,TH Thailand-
+118.107.44.181,80,HTTP,165kbit,transparent,AU Australia-
+187.209.5.132,8080,HTTP,29.1kbit,transparent,MX Mexico-
+103.179.26.134,3128,HTTP,4.9kbit,transparent,US United States-
+168.196.124.133,9991,HTTP,284kbit,transparent,US United States-
+103.150.218.78,3125,HTTPS,69.8kbit,transparent,TH Thailand-
+41.242.116.150,50000,HTTP,27.0kbit,transparent,YT MayotteMamoudzou
+181.66.181.114,999,HTTPS,640kbit,transparent,PE Peru-
+121.199.58.104,3128,HTTP,-,transparent,CN ChinaHangzhou
+180.183.103.103,8080,HTTP,11.4kbit,transparent,TH ThailandBangkok
+190.89.37.73,999,HTTPS,48.9kbit,transparent,CW Curacao-
+117.160.250.163,8081,HTTP,-,transparent,CN China-
+8.210.46.128,80,HTTP,-,transparent,US United States-
+117.160.250.137,8080,HTTP,-,transparent,CN China-
+154.85.58.149,80,HTTP,117kbit,transparent,SC Seychelles-
+182.253.158.148,8080,HTTP,169kbit,transparent,ID IndonesiaDenpasar
+103.197.251.202,80,HTTP,-,transparent,BD Bangladesh-
+81.177.6.249,3128,HTTPS,198kbit,transparent,RU Russia-
+189.164.77.39,10101,HTTPS,243kbit,transparent,MX Mexico-
+105.112.191.250,3128,HTTPS,82.0kbit,transparent,NG Nigeria-
+103.166.210.235,8081,HTTP,16.2kbit,transparent,CN China-
+154.236.177.120,1981,HTTP,121kbit,transparent,EC Ecuador-
+36.90.91.194,8080,HTTP,14.3kbit,transparent,ID Indonesia-
+47.113.83.168,9999,HTTP,-,transparent,CN ChinaHangzhou
+181.198.6.251,999,HTTPS,37.7kbit,transparent,EC EcuadorGuayaquil
+103.175.46.201,3125,HTTP,21.4kbit,transparent,CN China-
+1.4.251.96,8080,HTTP,14.7kbit,transparent,TH Thailand-
+122.3.41.154,8090,HTTP,5.4kbit,transparent,PH Philippines-
+191.102.254.9,8085,HTTPS,16.8kbit,transparent,AR Argentina-
+185.73.203.66,3128,HTTPS,559kbit,transparent,TR Turkey-
+37.236.60.35,80,HTTP,19.8kbit,transparent,IQ Iraq-
+182.140.239.6,8008,HTTP,-,transparent,CN ChinaChengdu
+117.160.250.137,9999,HTTP,-,transparent,CN China-
+157.100.12.138,999,HTTPS,184kbit,transparent,EC EcuadorQuito
+14.207.151.194,8080,HTTPS,147kbit,transparent,TH Thailand-
+191.97.60.210,999,HTTPS,41.8kbit,transparent,PE PeruLima
+38.10.246.78,999,HTTP,4.1kbit,transparent,US United States-
+117.160.250.133,8080,HTTP,-,transparent,CN China-
+139.59.249.244,7777,HTTP,67.8kbit,transparent,SG SingaporeSingapore
+203.128.71.92,8080,HTTP,48.9kbit,transparent,ID IndonesiaJakarta
+80.249.112.162,80,HTTP,-,transparent,UC Unknown Country-
+177.247.7.157,8080,HTTPS,149kbit,transparent,MX Mexico-
+>>>>>>> 873f8da39b66e307455f3523215e5ed6ebe756ed
 12.218.209.130,53281,US,United States,transparent,no,no,22 mins ago
 208.109.38.20,80,US,United States,transparent,no,no,43 mins ago
 154.202.115.11,3128,US,United States,transparent,no,no,48 mins ago
