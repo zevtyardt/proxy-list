@@ -300,7 +300,7 @@ fs.mkdir(`${PATH}/csv/`, () => {});
 const main = async () => {
   const unique = {};
   let total = 0;
-  const outs = {};
+  const outs = { all: fs.createWriteStream(`${PATH}/all_proxy.txt`) };
   for (let raw_provider of [
     my_proxy,
     iplocation,
@@ -359,6 +359,7 @@ const main = async () => {
             const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
             if (unique[type].has(proxy)) return;
             outs[type].raw.write(proxy + "\n");
+            outs.all.write(proxy + "\n");
             unique[type].add(proxy);
             total++;
           }

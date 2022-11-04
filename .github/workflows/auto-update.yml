@@ -30,7 +30,7 @@ jobs:
         run: |
           echo -e "# Ringkasan" > README.md
           echo -e "  Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.\n" >> README.md
-          echo -e "  - **jumlah proxy:** ±$(cat *.txt | wc -l)" >> README.md
+          echo -e "  - **jumlah proxy:** ±$(cat all_proxy.txt | wc -l)" >> README.md
           echo -e "  - **terakhir diupdate:** $(TZ=Asia/Jakarta date +'%a, %d %b %y %T %Z')\n" >> README.md
 
           echo -e "# Unduh" >> README.md
@@ -45,14 +45,14 @@ jobs:
           done
 
           echo -e "\n# Catatan" >> README.md
-          echo -e "Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu" >> README.md
+          echo -e "> Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu" >> README.md
 
       - name: start commit
         run: |
           git config --local user.name ${{ secrets.name }}
           git status
           git add *.txt README.md csv/
-          git commit -m "update: $(cat *.txt | wc -l) proxies"
+          git commit -m "update: $(cat all_proxy.txt | wc -l) proxies"
       - name: push changes
         uses: ad-m/github-push-action@master
         with: 
