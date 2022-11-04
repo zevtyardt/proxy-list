@@ -1,33 +1,27 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-194.195.240.60,2080,HTTP,34.2kbit,elite,DE Germany-
-146.190.224.4,8888,HTTPS,102kbit,elite,US United StatesPortland
-117.88.58.103,808,HTTP,-,elite,CN ChinaNanjing
-149.19.34.219,80,HTTP,20.3kbit,elite,US United StatesLatham
-159.138.169.48,8080,HTTP,47.8kbit,elite,US United StatesDearborn
-159.138.169.48,80,HTTP,30.4kbit,elite,US United StatesDearborn
-159.138.169.48,2080,HTTP,37.4kbit,elite,US United StatesDearborn
-59.110.7.43,3129,HTTP,-,elite,CN ChinaHangzhou
+194.195.218.74,8080,HTTP,68.3kbit,elite,DE Germany-
+23.224.33.106,20351,HTTP,10.7kbit,elite,US United StatesCheyenne
+216.137.184.253,80,HTTP,19.4kbit,elite,US United StatesMarinette
+58.27.59.249,80,HTTP,76.2kbit,elite,MY MalaysiaKuala Lumpur
+119.90.38.34,7890,HTTP,-,elite,CN ChinaBeijing
+165.232.149.87,8888,HTTPS,17.8kbit,elite,US United StatesPittsburgh
+89.107.197.165,3128,HTTPS,27.4kbit,elite,RU Russia-
+80.48.119.28,8080,HTTP,114kbit,elite,PL Poland-
+47.254.158.115,8080,HTTP,82.6kbit,elite,CA CanadaOttawa
 149.129.131.46,2080,HTTP,39.2kbit,elite,MY MalaysiaPetaling Jaya
-54.36.239.180,5000,HTTP,2114kbit,elite,US United StatesWoodbridge
-200.25.254.193,54240,HTTP,12.1kbit,elite,CO ColombiaBogotá
-192.53.163.144,3128,HTTP,82.7kbit,elite,US United StatesPalo Alto
-76.164.52.98,80,HTTP,346kbit,elite,US United StatesPrior Lake
-166.111.77.149,4780,HTTP,-,elite,CN China-
-198.49.68.80,80,HTTP,620kbit,elite,US United StatesOrlando
-110.238.74.184,8080,HTTP,47.1kbit,elite,AU AustraliaLogan
-47.254.237.222,7302,HTTP,37.0kbit,elite,CA CanadaOttawa
-47.253.105.175,9999,HTTP,158kbit,elite,CA CanadaOttawa
-194.195.240.60,5421,HTTP,117kbit,elite,DE Germany-
-198.59.191.234,8080,US,United States,elite,no,yes,22 secs ago
-165.232.149.87,8888,US,United States,elite,,no,22 secs ago
-45.56.75.90,5344,US,United States,elite,,yes,29 secs ago
-208.87.130.154,80,US,United States,elite,,yes,29 secs ago
-68.183.111.90,80,US,United States,elite,,no,1 min ago
-47.254.47.61,8080,US,United States,elite,no,yes,1 min ago
-151.181.91.10,80,US,United States,elite,yes,yes,1 min ago
-45.79.111.38,9994,US,United States,elite,,yes,1 min ago
-13.91.104.216,80,US,United States,elite,,no,1 min ago
-198.49.68.80,80,US,United States,elite,,no,2 mins ago
-54.175.197.235,80,US,United States,elite,,no,2 mins ago
+192.53.163.144,80,HTTP,127kbit,elite,US United StatesPalo Alto
+103.189.222.6,8080,HTTPS,333kbit,elite,MN Mongolia-
+198.59.191.234,8080,US,United States,elite,no,yes,5 secs ago
+151.181.91.10,80,US,United States,elite,yes,yes,5 secs ago
+198.52.97.210,59394,US,United States,elite,no,no,11 mins ago
 216.137.184.253,80,US,United States,elite,yes,no,20 mins ago
-198.52.97.210,59394,US,United States,elite,,no,40 mins ago
+198.49.68.80,80,US,United States,elite,yes,no,20 mins ago
+204.185.204.64,8080,US,United States,elite,no,yes,20 mins ago
+165.232.149.87,8888,US,United States,elite,,no,30 mins ago
+45.56.75.90,5344,US,United States,elite,,yes,30 mins ago
+208.87.130.154,80,US,United States,elite,,yes,30 mins ago
+68.183.111.90,80,US,United States,elite,,no,31 mins ago
+47.254.47.61,8080,US,United States,elite,no,yes,31 mins ago
+45.79.111.38,9994,US,United States,elite,,yes,31 mins ago
+13.91.104.216,80,US,United States,elite,,no,31 mins ago
+54.175.197.235,80,US,United States,elite,,no,32 mins ago
