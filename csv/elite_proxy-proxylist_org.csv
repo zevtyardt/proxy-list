@@ -1,37 +1,19 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-<<<<<<< HEAD
-47.253.105.175,9999,HTTP,154kbit,elite,CA CanadaOttawa
-200.25.254.193,54240,HTTP,12.1kbit,elite,CO ColombiaBogotá
-123.182.58.103,8089,-,-,elite,CN ChinaHebei
-149.129.131.46,2080,HTTP,39.3kbit,elite,MY MalaysiaPetaling Jaya
-43.255.113.232,80,HTTP,13.0kbit,elite,KH CambodiaPhnom Penh
-213.230.66.38,8080,HTTP,85.2kbit,elite,UZ Uzbekistan-
-5.58.110.249,8080,HTTP,22.6kbit,elite,UA Ukrain-
-85.195.104.71,80,HTTP,11.8kbit,elite,DE Germany-
+198.59.191.234,8080,HTTPS,842kbit,elite,US United StatesCarlsbad
+49.0.2.242,8090,HTTPS,67.8kbit,elite,ID IndonesiaPurwokerto
+43.255.113.232,8086,HTTP,32.6kbit,elite,KH CambodiaPhnom Penh
+76.164.52.98,80,HTTP,346kbit,elite,US United StatesPrior Lake
+101.200.235.69,443,HTTP,-,elite,CN ChinaHangzhou
+58.27.59.249,80,HTTP,76.2kbit,elite,MY MalaysiaKuala Lumpur
+178.79.138.253,8080,HTTP,91.0kbit,elite,GB United Kingdom-
+191.249.72.144,80,HTTPS,10.0kbit,elite,BR Brazil-
+139.162.44.152,51053,HTTP,39.7kbit,elite,US United States-
+194.195.218.74,8080,HTTP,72.2kbit,elite,DE Germany-
+43.255.113.232,86,HTTP,18.6kbit,elite,KH CambodiaPhnom Penh
+114.116.2.116,8001,HTTP,-,elite,CN ChinaShenzhen
 188.166.193.20,8888,HTTP,45.0kbit,elite,NL NetherlandsAmsterdam
-149.129.131.46,8103,HTTP,36.4kbit,elite,MY MalaysiaPetaling Jaya
-117.62.201.30,808,HTTP,-,elite,CN ChinaNanjing
-213.230.66.38,8080,HTTP,85.2kbit,elite,UZ Uzbekistan-
-103.189.222.6,8080,HTTPS,333kbit,elite,MN Mongolia-
-123.182.58.103,8089,HTTP,-,elite,CN ChinaHebei
-166.111.77.149,4780,HTTP,-,elite,CN China-
-43.255.113.232,80,HTTP,13.0kbit,elite,KH CambodiaPhnom Penh
-185.188.182.67,3128,HTTPS,183kbit,elite,CN China-
-212.50.36.1,8083,HTTP,40.5kbit,elite,TR Turkey-
-149.129.131.46,2080,HTTP,39.3kbit,elite,MY MalaysiaPetaling Jaya
-5.58.110.249,8080,HTTP,22.6kbit,elite,UA Ukrain-
-=======
-185.237.99.218,61443,HTTPS,7.6kbit,elite,US United States-
-103.82.233.2,53281,HTTP,-,elite,RU Russia-
-47.254.237.222,7302,HTTP,38.7kbit,elite,CA CanadaOttawa
-120.25.159.66,8118,HTTP,-,elite,CN ChinaHangzhou
-209.166.175.201,3128,HTTP,-,elite,US United StatesPittsburgh
-96.126.124.197,8110,HTTP,104kbit,elite,US United StatesAbsecon
-117.62.207.108,808,HTTP,-,elite,CN ChinaNanjing
-96.126.124.197,81,HTTP,124kbit,elite,US United StatesAbsecon
-194.195.240.60,2080,HTTP,34.3kbit,elite,DE Germany-
-209.166.175.201,8080,HTTP,-,elite,US United StatesPittsburgh
->>>>>>> 873f8da39b66e307455f3523215e5ed6ebe756ed
+103.233.156.44,8080,HTTP,6.2kbit,elite,ID IndonesiaJakarta
+182.160.16.234,80,HTTP,30.3kbit,elite,MN MongoliaUlaanbaatar
 151.181.91.10,80,US,United States,elite,yes,yes,1 min ago
 198.59.191.234,8080,US,United States,elite,no,yes,10 mins ago
 165.232.149.87,8888,US,United States,elite,no,yes,30 mins ago
