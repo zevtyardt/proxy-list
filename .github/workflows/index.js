@@ -91,6 +91,17 @@ const api_openproxylist = async function* () {
   }
 };
 
+const proxy_daily = async function* () {
+  const types = ["HTTP", "SOCKS4", "SOCKS5"];
+  const req = await axios_get("https://proxy-daily.com/");
+  const $ = cheerio.load(req.data);
+
+  const proxies = $(".freeProxyStyle");
+  for (let i = 0; i < proxies.length; i++) {
+    yield extract_proxy_list($(proxies[i]).text(), types[i]);
+  }
+};
+
 const scrapingant = async () => {
   const req = await axios_get("https://scrapingant.com/proxies");
 
@@ -126,7 +137,6 @@ const sslproxies = async () => {
 const free_proxy_list = async () => {
   const req = await axios_get("https://free-proxy-list.net/");
   const data = extract_table(".table-striped", req.data);
-  data.key = "HTTP";
   return data;
 };
 
@@ -302,6 +312,7 @@ const main = async () => {
   let total = 0;
   const outs = { all: fs.createWriteStream(`${PATH}/all_proxy.txt`) };
   for (let raw_provider of [
+    proxy_daily,
     my_proxy,
     iplocation,
     proxylist_org,
@@ -327,6 +338,7 @@ const main = async () => {
     console.log(`> get_proxies from ${raw_provider.name}`);
 
     const generator = provider();
+    let page = 1;
     while (true) {
       try {
         const { value: result, done } = await generator.next();
@@ -364,11 +376,12 @@ const main = async () => {
             total++;
           }
         });
-        console.log(`< done write ${result.body.length} proxies`);
+        console.log(`< done write ${result.body.length} proxies: ${page}`);
       } catch (_) {
-        console.log("! failed scrape proxy");
+        console.log("! failed scrape proxy" + page);
         console.error(_);
       }
+      page++;
     }
   }
   console.log(`< total proxy: ${total}`);
