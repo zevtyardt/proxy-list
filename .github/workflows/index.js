@@ -4,6 +4,7 @@ const https = require("https");
 const fs = require("fs");
 
 const PATH = "../..";
+const numPage = 200;
 const extract_table = (selector, data, custom_cb) => {
   const $ = cheerio.load(data);
   const table = $(selector);
@@ -180,7 +181,7 @@ const proxynova = async () => {
   };
 };
 
-const hidemy = async function* (numPage = 50) {
+const hidemy = async function* () {
   const origin = "https://hidemy.name";
 
   let path = "/en/proxy-list";
@@ -193,7 +194,7 @@ const hidemy = async function* (numPage = 50) {
   }
 };
 
-const freeproxy_world = async function* (numPage = 50) {
+const freeproxy_world = async function* () {
   for (let i = 0; i < numPage; i++) {
     const req = await axios_get(
       `https://freeproxy.world/?type=&anonymity=&country=&speed=&port=&page=${i}`
