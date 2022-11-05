@@ -90,6 +90,20 @@ const github_raw = async function* () {
       `https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/${type}.txt`
     );
     yield extract_proxy_list(req.data, type);
+
+    for (let folder of ["proxies", "proxies_anonymous"]) {
+      for (let type of ["http", "socks4", "socks5"]) {
+        req = await axios_get(
+          `https://raw.githubusercontent.com/monosans/proxy-list/main/${folder}/${type}.txt`
+        );
+        yield extract_proxy_list(req.data, type);
+      }
+    }
+
+    req = await axios_get(
+      "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt"
+    );
+    yield extract_proxy_list(req.data, "socks5");
   }
 };
 
