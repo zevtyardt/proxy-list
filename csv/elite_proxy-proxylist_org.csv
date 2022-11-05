@@ -1,183 +1,139 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-47.254.195.196,80,HTTP,52.6kbit,elite,CA CanadaOttawa
-161.77.218.59,3129,HTTP,6.2kbit,elite,US United StatesGreenfield
-161.77.216.219,3129,HTTP,366kbit,elite,US United StatesGreenfield
-115.29.140.201,8080,HTTP,16.1kbit,elite,CN ChinaHangzhou
-198.49.68.80,80,HTTP,620kbit,elite,US United StatesOrlando
-192.154.195.248,8000,HTTP,60.6kbit,elite,US United StatesPhoenix
-157.245.207.186,8080,HTTP,26.6kbit,elite,US United StatesEugene
-161.77.217.170,3129,HTTP,5.6kbit,elite,US United StatesGreenfield
-5.58.110.249,8080,HTTP,22.6kbit,elite,UA Ukrain-
-64.225.97.57,8080,HTTPS,225kbit,elite,US United StatesJacksonville
-116.63.128.247,9091,HTTP,-,elite,CN ChinaBeijing
-122.49.208.230,3128,HTTP,56.5kbit,elite,PH Philippines-
-166.111.74.239,4780,HTTP,-,elite,CN China-
-213.230.66.38,8080,HTTP,85.2kbit,elite,UZ Uzbekistan-
-47.113.230.224,21531,HTTP,-,elite,CN ChinaHangzhou
+133.242.171.216,3128,HTTPS,10.9kbit,elite,JP Japan-
 85.25.246.206,8646,HTTPS,31.6kbit,elite,DE Germany-
-43.255.113.232,86,HTTP,18.6kbit,elite,KH CambodiaPhnom Penh
-117.62.203.181,808,HTTP,-,elite,CN ChinaNanjing
 135.181.20.228,8001,HTTP,125kbit,elite,CA CanadaToronto
-159.138.169.48,80,HTTP,30.6kbit,elite,US United StatesDearborn
-120.79.101.137,8213,HTTP,-,elite,CN ChinaHangzhou
+59.110.7.43,3129,HTTP,-,elite,CN ChinaHangzhou
+80.48.119.28,8080,HTTP,114kbit,elite,PL Poland-
+172.104.241.29,2080,HTTP,74.1kbit,elite,US United States-
+198.11.175.180,2080,HTTP,79.5kbit,elite,US United StatesSanta Clara
+64.225.97.57,8080,HTTPS,225kbit,elite,US United StatesJacksonville
+43.255.113.232,8083,HTTP,37.6kbit,elite,KH CambodiaPhnom Penh
+161.77.216.128,3129,HTTP,173kbit,elite,US United StatesGreenfield
+47.113.230.224,8060,HTTP,-,elite,CN ChinaHangzhou
 188.166.193.20,8888,HTTP,45.0kbit,elite,NL NetherlandsAmsterdam
-149.248.17.90,10080,US,United States,elite,no,yes,5 secs ago
-204.185.204.64,8080,US,United States,elite,,yes,5 secs ago
-72.18.134.138,8080,US,United States,elite,no,yes,5 secs ago
-198.59.191.234,8080,US,United States,elite,,no,21 secs ago
-198.49.68.80,80,US,United States,elite,no,no,21 secs ago
-162.240.75.37,80,US,United States,elite,yes,no,21 secs ago
-64.227.7.192,5566,US,United States,elite,no,no,21 secs ago
-216.137.184.253,80,US,United States,elite,no,no,21 secs ago
-3.138.46.196,80,US,United States,elite,no,no,1 min ago
-173.255.209.155,1080,US,United States,elite,,yes,20 mins ago
-45.79.253.142,3128,US,United States,elite,,no,21 mins ago
-136.49.230.41,8118,US,United States,elite,,no,50 mins ago
-96.126.103.64,9991,US,United States,elite,,no,50 mins ago
-107.173.156.247,8123,US,United States,elite,,no,50 mins ago
-208.109.191.161,80,US,United States,elite,,no,50 mins ago
-173.230.153.163,8080,US,United States,elite,,no,1 hour 1 min ago
-161.77.217.107,3129,US,United States,elite,no,yes,1 hour 10 mins ago
-45.79.90.143,44554,US,United States,elite,no,no,1 hour 11 mins ago
-45.79.111.38,9994,US,United States,elite,no,no,1 hour 11 mins ago
-45.79.27.210,44554,US,United States,elite,,no,1 hour 30 mins ago
-192.53.163.144,3128,US,United States,elite,no,no,1 hour 30 mins ago
-45.56.98.229,49857,US,United States,elite,no,no,1 hour 31 mins ago
-170.187.141.197,8080,US,United States,elite,no,no,1 hour 31 mins ago
-47.254.47.61,8080,US,United States,elite,no,no,1 hour 31 mins ago
-47.253.214.60,57114,US,United States,elite,,no,1 hour 40 mins ago
-194.195.216.153,4145,US,United States,elite,,no,1 hour 40 mins ago
-52.200.191.158,80,US,United States,elite,,no,1 hour 51 mins ago
-162.243.174.235,80,US,United States,elite,no,no,2 hours 21 mins ago
-66.175.223.147,4153,US,United States,elite,no,no,2 hours 21 mins ago
-161.77.218.227,3129,US,United States,elite,no,no,2 hours 21 mins ago
-161.77.221.22,3129,US,United States,elite,no,yes,2 hours 31 mins ago
-161.77.217.187,3129,US,United States,elite,no,yes,2 hours 31 mins ago
-168.235.69.39,80,US,United States,elite,yes,no,2 hours 31 mins ago
-186.215.87.194,10322,BR,Brazil,elite,no,yes,5 secs ago
-149.248.17.90,10080,US,United States,elite,no,yes,5 secs ago
-204.185.204.64,8080,US,United States,elite,,yes,5 secs ago
-133.242.171.216,3128,JP,Japan,elite,no,yes,5 secs ago
-72.18.134.138,8080,US,United States,elite,no,yes,5 secs ago
-122.49.208.230,3128,PH,Philippines,elite,no,yes,5 secs ago
-157.230.241.133,33273,SG,Singapore,elite,,no,21 secs ago
-37.112.57.47,8080,RU,Russian Federation,elite,,no,21 secs ago
-198.59.191.234,8080,US,United States,elite,,no,21 secs ago
-198.49.68.80,80,US,United States,elite,no,no,21 secs ago
-83.229.73.175,80,IL,Israel,elite,no,no,21 secs ago
-43.255.113.232,8082,KH,Cambodia,elite,yes,no,21 secs ago
-85.25.91.141,32804,DE,Germany,elite,,no,21 secs ago
-83.229.72.174,80,IL,Israel,elite,no,no,21 secs ago
-162.240.75.37,80,US,United States,elite,yes,no,21 secs ago
-110.164.3.7,8888,TH,Thailand,elite,no,no,21 secs ago
-64.227.7.192,5566,US,United States,elite,no,no,21 secs ago
-216.137.184.253,80,US,United States,elite,no,no,21 secs ago
-58.27.59.249,80,MY,Malaysia,elite,,no,21 secs ago
-61.78.63.200,30000,KR,South Korea,elite,,no,21 secs ago
-80.48.119.28,8080,PL,Poland,elite,yes,no,1 min ago
-49.0.2.242,8090,ID,Indonesia,elite,no,yes,1 min ago
-169.57.1.85,8123,MX,Mexico,elite,no,no,1 min ago
-82.66.172.236,80,FR,France,elite,yes,no,1 min ago
-20.111.54.16,80,FR,France,elite,no,no,1 min ago
-117.251.103.186,8080,IN,India,elite,no,yes,1 min ago
-94.45.137.34,8080,UA,Ukraine,elite,no,yes,1 min ago
-122.49.208.242,3128,PH,Philippines,elite,no,yes,1 min ago
-64.225.97.57,8080,DE,Germany,elite,no,yes,1 min ago
-20.210.113.32,8123,JP,Japan,elite,no,no,1 min ago
-20.24.43.214,8123,SG,Singapore,elite,no,no,1 min ago
-147.139.164.26,8080,ID,Indonesia,elite,no,no,1 min ago
-3.138.46.196,80,US,United States,elite,no,no,1 min ago
+14.17.94.9,443,HTTP,-,elite,CN ChinaGuangzhou
+122.49.208.230,3128,HTTP,50.7kbit,elite,PH Philippines-
+47.113.230.224,21531,HTTP,-,elite,CN ChinaHangzhou
+43.255.113.232,8080,HTTP,20.4kbit,elite,KH CambodiaPhnom Penh
+110.164.3.7,8888,HTTP,349kbit,elite,TH Thailand-
+198.49.68.80,80,HTTP,620kbit,elite,US United StatesOrlando
+45.156.21.78,3128,HTTPS,289kbit,elite,HK Hong Kong-
+182.160.16.163,80,HTTP,47.1kbit,elite,MN MongoliaUlaanbaatar
+198.59.191.234,8080,HTTPS,842kbit,elite,US United StatesCarlsbad
+198.59.191.234,8080,US,United States,elite,no,yes,7 secs ago
+170.187.141.197,8080,US,United States,elite,,no,7 secs ago
+198.49.68.80,80,US,United States,elite,,no,7 secs ago
+204.185.204.64,8080,US,United States,elite,,no,7 secs ago
+96.126.103.64,9991,US,United States,elite,,no,7 secs ago
+54.161.135.247,80,US,United States,elite,yes,no,1 min ago
+66.175.223.147,4153,US,United States,elite,no,no,1 min ago
+128.199.13.74,80,US,United States,elite,no,no,1 min ago
+198.11.175.180,8080,US,United States,elite,,no,10 mins ago
+216.137.184.253,80,US,United States,elite,no,no,10 mins ago
+194.195.216.153,4145,US,United States,elite,,no,10 mins ago
+143.198.77.180,80,US,United States,elite,no,no,20 mins ago
+34.122.187.196,80,US,United States,elite,yes,no,20 mins ago
+192.53.163.144,3128,US,United States,elite,,no,20 mins ago
+162.240.75.37,80,US,United States,elite,,no,20 mins ago
+47.253.214.60,57114,US,United States,elite,no,no,41 mins ago
+173.230.153.163,8080,US,United States,elite,no,no,41 mins ago
+64.227.7.192,5566,US,United States,elite,no,no,1 hour ago
+149.248.17.90,10080,US,United States,elite,no,yes,1 hour 10 mins ago
+72.18.134.138,8080,US,United States,elite,no,yes,1 hour 10 mins ago
+3.138.46.196,80,US,United States,elite,no,no,1 hour 11 mins ago
+173.255.209.155,1080,US,United States,elite,,yes,1 hour 30 mins ago
+45.79.253.142,3128,US,United States,elite,,no,1 hour 31 mins ago
+136.49.230.41,8118,US,United States,elite,,no,2 hours ago
+107.173.156.247,8123,US,United States,elite,,no,2 hours ago
+208.109.191.161,80,US,United States,elite,,no,2 hours ago
+161.77.217.107,3129,US,United States,elite,no,yes,2 hours 20 mins ago
+45.79.90.143,44554,US,United States,elite,no,no,2 hours 21 mins ago
+45.79.111.38,9994,US,United States,elite,no,no,2 hours 21 mins ago
+45.79.27.210,44554,US,United States,elite,,no,2 hours 40 mins ago
+45.56.98.229,49857,US,United States,elite,no,no,2 hours 41 mins ago
+47.254.47.61,8080,US,United States,elite,no,no,2 hours 41 mins ago
+52.200.191.158,80,US,United States,elite,,no,3 hours 1 min ago
+162.243.174.235,80,US,United States,elite,no,no,3 hours 31 mins ago
+161.77.218.227,3129,US,United States,elite,no,no,3 hours 31 mins ago
+161.77.221.22,3129,US,United States,elite,no,yes,3 hours 41 mins ago
+161.77.217.187,3129,US,United States,elite,no,yes,3 hours 41 mins ago
+168.235.69.39,80,US,United States,elite,yes,no,3 hours 41 mins ago
+85.159.214.61,1080,GB,United Kingdom,elite,,no,7 secs ago
+115.75.70.79,4100,VN,Vietnam,elite,yes,yes,7 secs ago
+172.105.184.208,8001,AU,Australia,elite,,no,7 secs ago
+186.215.87.194,10322,BR,Brazil,elite,,no,7 secs ago
+80.48.119.28,8080,PL,Poland,elite,yes,no,7 secs ago
+198.59.191.234,8080,US,United States,elite,no,yes,7 secs ago
+170.187.141.197,8080,US,United States,elite,,no,7 secs ago
+198.49.68.80,80,US,United States,elite,,no,7 secs ago
+169.57.1.85,8123,MX,Mexico,elite,no,no,7 secs ago
+83.229.73.175,80,IL,Israel,elite,no,no,7 secs ago
+204.185.204.64,8080,US,United States,elite,,no,7 secs ago
+96.126.103.64,9991,US,United States,elite,,no,7 secs ago
+83.229.72.174,80,IL,Israel,elite,no,no,7 secs ago
+20.111.54.16,80,FR,France,elite,no,no,7 secs ago
+117.251.103.186,8080,IN,India,elite,no,yes,7 secs ago
+94.45.137.34,8080,UA,Ukraine,elite,no,yes,7 secs ago
+122.49.208.242,3128,PH,Philippines,elite,,no,7 secs ago
+133.242.171.216,3128,JP,Japan,elite,no,yes,7 secs ago
+64.225.97.57,8080,DE,Germany,elite,,no,7 secs ago
+122.49.208.230,3128,PH,Philippines,elite,,no,7 secs ago
+187.130.139.197,8080,MX,Mexico,elite,no,yes,7 secs ago
+154.236.189.30,8080,EG,Egypt,elite,,no,7 secs ago
+110.164.3.7,8888,TH,Thailand,elite,no,no,7 secs ago
+20.210.113.32,8123,JP,Japan,elite,no,no,7 secs ago
+20.24.43.214,8123,SG,Singapore,elite,no,no,7 secs ago
+82.66.172.236,80,FR,France,elite,yes,no,13 secs ago
+187.50.25.130,8080,BR,Brazil,elite,no,yes,18 secs ago
+193.141.65.48,808,IR,Iran,elite,no,yes,18 secs ago
+176.192.70.58,8027,RU,Russian Federation,elite,no,no,1 min ago
+185.218.124.16,80,DE,Germany,elite,yes,no,1 min ago
+65.21.153.139,80,FI,Finland,elite,no,no,1 min ago
+54.161.135.247,80,US,United States,elite,yes,no,1 min ago
+213.230.66.38,8080,UZ,Uzbekistan,elite,no,yes,1 min ago
+165.227.236.216,80,GB,United Kingdom,elite,yes,no,1 min ago
+66.175.223.147,4153,US,United States,elite,no,no,1 min ago
+128.199.13.74,80,US,United States,elite,no,no,1 min ago
 185.204.171.137,8282,NL,Netherlands,elite,no,no,1 min ago
-200.105.215.18,33630,BO,Bolivia,elite,no,yes,10 mins ago
-176.58.112.123,1080,GB,United Kingdom,elite,,yes,20 mins ago
-172.105.190.51,8017,AU,Australia,elite,,yes,20 mins ago
-173.255.209.155,1080,US,United States,elite,,yes,20 mins ago
-45.79.253.142,3128,US,United States,elite,,no,21 mins ago
-172.105.184.208,8001,AU,Australia,elite,,no,21 mins ago
-89.107.197.165,3128,RU,Russian Federation,elite,,no,21 mins ago
-147.139.133.146,8080,ID,Indonesia,elite,,no,21 mins ago
-144.24.216.20,80,SA,Saudi Arabia,elite,yes,no,30 mins ago
-134.122.58.174,80,NL,Netherlands,elite,no,yes,30 mins ago
-193.141.65.48,808,IR,Iran,elite,no,yes,30 mins ago
-185.125.88.30,80,KZ,Kazakhstan,elite,yes,no,40 mins ago
-159.203.13.121,80,CA,Canada,elite,yes,no,40 mins ago
-161.35.215.107,36169,DE,Germany,elite,no,no,40 mins ago
-91.230.11.13,8080,RU,Russian Federation,elite,no,yes,40 mins ago
-68.183.230.116,39517,SG,Singapore,elite,,no,50 mins ago
-136.49.230.41,8118,US,United States,elite,,no,50 mins ago
-197.243.20.186,80,RW,Rwanda,elite,,no,50 mins ago
-172.104.252.86,80,DE,Germany,elite,,no,50 mins ago
-31.200.229.104,56471,RU,Russian Federation,elite,,no,50 mins ago
-96.126.103.64,9991,US,United States,elite,,no,50 mins ago
-8.209.64.208,8080,DE,Germany,elite,,no,50 mins ago
-51.158.78.183,80,FR,France,elite,,no,50 mins ago
-8.209.249.96,8080,JP,Japan,elite,,no,50 mins ago
-107.173.156.247,8123,US,United States,elite,,no,50 mins ago
-191.249.72.144,80,BR,Brazil,elite,,no,50 mins ago
-213.230.66.38,8080,UZ,Uzbekistan,elite,,no,50 mins ago
-212.46.230.102,6969,RU,Russian Federation,elite,,no,50 mins ago
-68.183.191.179,44290,SG,Singapore,elite,,no,50 mins ago
-208.109.191.161,80,US,United States,elite,,no,50 mins ago
-173.230.153.163,8080,US,United States,elite,,no,1 hour 1 min ago
-187.217.54.84,80,MX,Mexico,elite,,no,1 hour 1 min ago
-201.217.49.2,80,PY,Paraguay,elite,,no,1 hour 1 min ago
-37.53.103.4,3128,UA,Ukraine,elite,,no,1 hour 1 min ago
-185.15.172.212,3128,RU,Russian Federation,elite,,no,1 hour 1 min ago
-139.162.182.54,49165,DE,Germany,elite,,no,1 hour 10 mins ago
-85.159.214.61,1080,GB,United Kingdom,elite,,no,1 hour 10 mins ago
-47.254.237.222,8080,MY,Malaysia,elite,,no,1 hour 10 mins ago
-157.245.207.186,8080,SG,Singapore,elite,no,yes,1 hour 10 mins ago
-93.191.96.4,3128,BY,Belarus,elite,,no,1 hour 10 mins ago
-154.19.187.251,3128,JP,Japan,elite,no,yes,1 hour 10 mins ago
-116.0.61.122,3128,PK,Pakistan,elite,,no,1 hour 10 mins ago
-114.7.27.98,8080,ID,Indonesia,elite,,no,1 hour 10 mins ago
-143.244.133.78,80,IN,India,elite,no,yes,1 hour 10 mins ago
-178.79.138.253,8080,GB,United Kingdom,elite,no,yes,1 hour 10 mins ago
-161.77.217.107,3129,US,United States,elite,no,yes,1 hour 10 mins ago
-194.195.240.60,8080,DE,Germany,elite,,no,1 hour 10 mins ago
-110.238.111.229,8080,SG,Singapore,elite,,no,1 hour 10 mins ago
-54.36.239.180,5000,FR,France,elite,no,no,1 hour 11 mins ago
-45.79.90.143,44554,US,United States,elite,no,no,1 hour 11 mins ago
-45.79.111.38,9994,US,United States,elite,no,no,1 hour 11 mins ago
-188.0.147.102,3128,KZ,Kazakhstan,elite,no,no,1 hour 11 mins ago
-1.32.59.217,47045,MY,Malaysia,elite,no,no,1 hour 11 mins ago
-85.25.246.206,8646,FR,France,elite,no,no,1 hour 11 mins ago
-85.195.104.71,80,DE,Germany,elite,,no,1 hour 20 mins ago
-217.11.184.30,3128,TJ,Tajikistan,elite,,no,1 hour 21 mins ago
-178.73.192.12,3128,SE,Sweden,elite,,no,1 hour 21 mins ago
-115.75.70.79,4100,VN,Vietnam,elite,yes,yes,1 hour 30 mins ago
-45.79.27.210,44554,US,United States,elite,,no,1 hour 30 mins ago
-195.182.133.107,3128,RU,Russian Federation,elite,,no,1 hour 30 mins ago
-192.53.163.144,3128,US,United States,elite,no,no,1 hour 30 mins ago
-172.105.172.220,3128,AU,Australia,elite,,no,1 hour 30 mins ago
-45.56.98.229,49857,US,United States,elite,no,no,1 hour 31 mins ago
-170.187.141.197,8080,US,United States,elite,no,no,1 hour 31 mins ago
-149.129.191.110,8080,IN,India,elite,no,no,1 hour 31 mins ago
-47.254.47.61,8080,US,United States,elite,no,no,1 hour 31 mins ago
-187.130.139.197,8080,MX,Mexico,elite,no,no,1 hour 31 mins ago
-47.253.214.60,57114,US,United States,elite,,no,1 hour 40 mins ago
-194.195.216.153,4145,US,United States,elite,,no,1 hour 40 mins ago
-159.224.243.185,37793,UA,Ukraine,elite,,no,1 hour 50 mins ago
-222.237.249.172,8080,KR,South Korea,elite,yes,no,1 hour 51 mins ago
-200.58.87.195,8080,BO,Bolivia,elite,,no,1 hour 51 mins ago
-52.200.191.158,80,US,United States,elite,,no,1 hour 51 mins ago
-110.238.109.146,8080,SG,Singapore,elite,no,no,1 hour 51 mins ago
-103.83.116.122,55443,ID,Indonesia,elite,no,no,1 hour 51 mins ago
-185.204.171.220,8118,NL,Netherlands,elite,no,no,1 hour 51 mins ago
-193.41.88.58,53281,UA,Ukraine,elite,no,no,1 hour 51 mins ago
-110.238.74.184,8080,MX,Mexico,elite,,no,2 hours 10 mins ago
-202.6.233.133,80,ID,Indonesia,elite,yes,no,2 hours 20 mins ago
-178.62.92.133,80,GB,United Kingdom,elite,yes,no,2 hours 20 mins ago
-172.104.241.29,8081,DE,Germany,elite,no,no,2 hours 21 mins ago
-162.243.174.235,80,US,United States,elite,no,no,2 hours 21 mins ago
-66.175.223.147,4153,US,United States,elite,no,no,2 hours 21 mins ago
-161.77.218.227,3129,US,United States,elite,no,no,2 hours 21 mins ago
-115.96.208.124,8080,IN,India,elite,no,no,2 hours 31 mins ago
-161.77.221.22,3129,US,United States,elite,no,yes,2 hours 31 mins ago
-161.77.217.187,3129,US,United States,elite,no,yes,2 hours 31 mins ago
-168.235.69.39,80,US,United States,elite,yes,no,2 hours 31 mins ago
-149.129.213.200,8080,ID,Indonesia,elite,no,no,2 hours 31 mins ago
-87.250.63.172,8118,RS,Serbia,elite,no,no,2 hours 31 mins ago
-65.21.131.27,80,FI,Finland,elite,no,no,2 hours 31 mins ago
-47.245.34.161,8080,JP,Japan,elite,,no,2 hours 40 mins ago
-172.105.107.25,999,CA,Canada,elite,,no,2 hours 40 mins ago
+185.15.172.212,3128,RU,Russian Federation,elite,no,no,1 min ago
+149.129.239.170,8080,ID,Indonesia,elite,no,no,1 min ago
+194.195.240.60,8080,DE,Germany,elite,no,no,1 min ago
+116.203.20.249,8888,DE,Germany,elite,no,no,1 min ago
+47.245.34.161,8080,JP,Japan,elite,no,no,1 min ago
+217.28.220.234,80,RU,Russian Federation,elite,,no,10 mins ago
+8.213.128.6,8080,KR,South Korea,elite,,no,10 mins ago
+41.162.52.11,8080,ZA,South Africa,elite,,no,10 mins ago
+198.11.175.180,8080,US,United States,elite,,no,10 mins ago
+216.137.184.253,80,US,United States,elite,no,no,10 mins ago
+172.104.241.29,8081,DE,Germany,elite,,no,10 mins ago
+149.129.191.110,8080,IN,India,elite,,no,10 mins ago
+149.129.179.23,8080,IN,India,elite,,no,10 mins ago
+157.245.207.186,8080,SG,Singapore,elite,,no,10 mins ago
+8.209.64.208,8080,DE,Germany,elite,,no,10 mins ago
+200.105.215.18,33630,BO,Bolivia,elite,,no,10 mins ago
+201.229.250.22,8080,DO,Dominican Republic,elite,,no,10 mins ago
+82.209.219.61,2222,BY,Belarus,elite,,no,10 mins ago
+154.19.187.251,3128,JP,Japan,elite,,no,10 mins ago
+116.0.61.122,3128,PK,Pakistan,elite,,no,10 mins ago
+194.195.216.153,4145,US,United States,elite,,no,10 mins ago
+61.78.63.200,30000,KR,South Korea,elite,,no,10 mins ago
+68.183.230.116,39517,SG,Singapore,elite,no,yes,20 mins ago
+143.198.77.180,80,US,United States,elite,no,no,20 mins ago
+34.122.187.196,80,US,United States,elite,yes,no,20 mins ago
+149.129.131.46,8080,IN,India,elite,,no,20 mins ago
+54.36.239.180,5000,FR,France,elite,,no,20 mins ago
+93.191.96.4,3128,BY,Belarus,elite,,no,20 mins ago
+192.53.163.144,3128,US,United States,elite,,no,20 mins ago
+162.240.75.37,80,US,United States,elite,,no,20 mins ago
+172.105.107.25,999,CA,Canada,elite,,no,20 mins ago
+191.249.72.144,80,BR,Brazil,elite,,no,20 mins ago
+94.102.196.89,1500,IE,Ireland,elite,,no,30 mins ago
+41.58.144.126,9812,NG,Nigeria,elite,,no,30 mins ago
+194.67.91.153,80,RU,Russian Federation,elite,yes,no,40 mins ago
+58.27.59.249,80,MY,Malaysia,elite,yes,no,40 mins ago
+47.253.214.60,57114,US,United States,elite,no,no,41 mins ago
+173.230.153.163,8080,US,United States,elite,no,no,41 mins ago
+157.230.241.133,33273,SG,Singapore,elite,,no,50 mins ago
+188.0.147.102,3128,KZ,Kazakhstan,elite,,no,50 mins ago
+213.230.97.98,3128,UZ,Uzbekistan,elite,,no,50 mins ago
+5.9.160.216,8880,DE,Germany,elite,yes,yes,50 mins ago
