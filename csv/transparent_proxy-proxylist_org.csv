@@ -1,392 +1,365 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-190.71.131.122,999,HTTP,16000kbit,transparent,CO ColombiaMedellín
+190.90.154.194,999,HTTP,-,transparent,CO ColombiaMedellín
+23.131.56.129,999,HTTP,6.4kbit,transparent,GR Greece-
 182.253.217.224,8080,HTTPS,81.9kbit,transparent,ID IndonesiaJakarta
-185.242.38.46,8080,HTTPS,248kbit,transparent,US United States-
-20.19.178.40,8009,HTTP,13335kbit,transparent,US United StatesFalls Church
-103.144.102.57,8080,HTTPS,64.9kbit,transparent,FR France-
-159.65.15.147,8080,HTTPS,340kbit,transparent,US United StatesDallas
-200.55.255.242,8083,HTTP,-,transparent,EC EcuadorMachala
-196.223.63.214,8080,HTTP,7.4kbit,transparent,US United States-
-182.53.109.54,8080,HTTPS,30.1kbit,transparent,TH Thailand-
-20.19.251.154,8016,HTTPS,392kbit,transparent,US United StatesFalls Church
-20.237.35.158,3128,HTTPS,523kbit,transparent,US United StatesFalls Church
-20.19.251.56,8009,HTTPS,672kbit,transparent,US United StatesFalls Church
-20.111.46.180,8004,HTTPS,367kbit,transparent,US United StatesFalls Church
-143.137.235.192,8080,HTTP,15.3kbit,transparent,BR Brazil-
-20.111.43.239,8004,HTTPS,360kbit,transparent,US United StatesFalls Church
-94.23.186.25,8080,HTTPS,166kbit,transparent,FR France-
-177.141.99.50,8080,HTTP,755kbit,transparent,BR BrazilSão Paulo
-155.223.64.80,8081,HTTP,-,transparent,TR Turkey-
-5.172.177.24,3128,HTTPS,177kbit,transparent,FR France-
-156.193.77.181,8080,HTTP,-,transparent,EG Egypt-
-20.19.248.158,8016,HTTP,5.7kbit,transparent,US United StatesFalls Church
-164.92.160.38,8080,HTTPS,170kbit,transparent,US United StatesDenver
-118.99.101.194,8080,HTTP,57.0kbit,transparent,ID IndonesiaJakarta
-103.117.192.14,80,HTTP,-,transparent,US United States-
-36.79.217.108,8080,HTTPS,103kbit,transparent,ID IndonesiaBlitar
-203.160.174.82,8091,HTTP,-,transparent,PH PhilippinesMakati
-47.108.167.35,80,HTTP,-,transparent,CN ChinaHangzhou
-54.37.242.65,3128,HTTPS,784kbit,transparent,US United StatesWoodbridge
-213.81.143.234,4321,HTTP,4.2kbit,transparent,SK Slovakia-
-182.253.158.148,8080,HTTP,169kbit,transparent,ID IndonesiaDenpasar
-167.71.85.123,3128,HTTPS,491kbit,transparent,US United StatesNew York
-165.232.181.135,3128,HTTPS,329kbit,transparent,US United StatesPittsburgh
-47.113.83.168,9999,HTTP,-,transparent,CN ChinaHangzhou
-204.137.174.250,999,HTTP,175kbit,transparent,US United StatesWashington
-203.142.78.180,8080,HTTPS,79.7kbit,transparent,ID IndonesiaJakarta
-20.78.230.211,3128,HTTPS,435kbit,transparent,US United StatesFalls Church
-113.160.247.27,19132,HTTP,11.7kbit,transparent,VN VietnamHanoi
-117.160.250.138,81,HTTP,-,transparent,CN China-
-45.167.125.61,9992,HTTPS,128kbit,transparent,CO Colombia-
-115.79.137.134,8080,HTTPS,45.4kbit,transparent,VN Vietnam-
-45.189.112.65,999,HTTPS,261kbit,transparent,ME Montenegro-
-105.112.191.250,3128,HTTPS,82.0kbit,transparent,NG Nigeria-
-103.247.121.115,8080,HTTP,8.2kbit,transparent,ID IndonesiaKedonganan
-20.19.248.117,8010,HTTPS,54.2kbit,transparent,US United StatesFalls Church
-20.19.178.39,8016,HTTPS,178kbit,transparent,US United StatesFalls Church
-36.71.116.64,8080,HTTPS,14.0kbit,transparent,ID Indonesia-
+14.207.162.111,8080,HTTPS,333kbit,transparent,TH ThailandBangkok
+118.107.44.181,80,HTTP,165kbit,transparent,AU Australia-
+117.160.250.134,82,HTTP,-,transparent,CN China-
 218.32.248.8,3128,HTTPS,430kbit,transparent,TW TaiwanTaipei
-95.217.120.82,3368,HTTPS,132kbit,transparent,UA Ukrain-
-135.181.107.103,3128,HTTPS,510kbit,transparent,CA CanadaToronto
-47.89.185.178,8888,HTTP,1569kbit,transparent,CA CanadaOttawa
-208.52.157.15,5555,HTTP,7.2kbit,transparent,US United StatesAtlanta
-113.53.3.131,8080,HTTPS,67.1kbit,transparent,TH Thailand-
-185.211.80.11,8080,HTTP,6.0kbit,transparent,TH Thailand-
-188.124.250.138,8008,HTTPS,87.7kbit,transparent,RU Russia-
-180.234.167.14,8080,HTTP,-,transparent,BD BangladeshDhaka
-156.218.7.148,8080,HTTP,115kbit,transparent,EG Egypt-
-20.250.58.138,3128,HTTPS,342kbit,transparent,US United StatesFalls Church
-37.236.59.83,80,HTTP,15.5kbit,transparent,IQ Iraq-
-182.253.136.168,8080,HTTPS,138kbit,transparent,ID IndonesiaSurabaya
-124.122.114.38,8080,HTTPS,482kbit,transparent,TH Thailand-
-191.252.193.160,8888,HTTPS,248kbit,transparent,BR Brazil-
-122.3.41.154,8090,HTTP,5.4kbit,transparent,PH Philippines-
-154.239.9.88,8080,HTTP,179kbit,transparent,BR Brazil-
-103.117.192.174,80,HTTP,181kbit,transparent,ID Indonesia-
-200.19.254.99,3128,HTTPS,231kbit,transparent,BR BrazilRio Grande
-103.172.70.26,9191,HTTP,4.7kbit,transparent,DE Germany-
-178.128.106.143,8080,HTTPS,113kbit,transparent,GR GreeceAthens
-103.141.20.206,8080,HTTPS,1951kbit,transparent,US United States-
-35.185.131.35,3128,HTTPS,121kbit,transparent,US United StatesAnn Arbor
-213.6.17.251,19000,HTTPS,174kbit,transparent,PS Palestinian Territory-
-20.53.198.100,3128,HTTPS,68.3kbit,transparent,US United StatesFalls Church
-31.133.58.106,3128,HTTPS,500kbit,transparent,UA UkrainMakiyivka
-188.116.173.198,3128,HTTP,537kbit,transparent,RU Russia-
-177.55.177.40,8080,HTTPS,79.5kbit,transparent,BR Brazil-
-41.39.218.187,80,HTTP,55.3kbit,transparent,EG Egypt-
-20.111.46.118,8004,HTTPS,808kbit,transparent,US United StatesFalls Church
-20.249.29.212,3128,HTTPS,184kbit,transparent,US United StatesFalls Church
-185.103.181.2,8080,HTTPS,293kbit,transparent,ES Spain-
-201.186.40.142,999,HTTPS,30.8kbit,transparent,CL ChileValdivia
-20.111.46.169,8004,HTTPS,290kbit,transparent,US United StatesFalls Church
-5.182.27.250,3128,HTTPS,208kbit,transparent,US United States-
-5.182.27.138,3128,HTTPS,149kbit,transparent,US United States-
-188.120.240.229,8082,HTTPS,7.3kbit,transparent,RU Russia-
-190.60.38.230,999,HTTPS,168kbit,transparent,VE VenezuelaCaracas
-103.154.144.202,8715,HTTPS,408kbit,transparent,PL Poland-
-203.89.126.250,80,HTTP,174kbit,transparent,AU Australia-
-20.104.132.119,3128,HTTPS,196kbit,transparent,US United StatesFalls Church
-110.77.185.30,8080,HTTPS,34.0kbit,transparent,TH ThailandBangkok
-168.228.49.161,8080,HTTPS,6.6kbit,transparent,CN China-
-63.151.67.7,8080,HTTP,-,transparent,US United StatesHayden
-81.181.111.15,2019,HTTPS,219kbit,transparent,RO Romania-
-20.214.222.193,3128,HTTPS,179kbit,transparent,US United StatesFalls Church
-104.225.250.10,3128,HTTPS,440kbit,transparent,US United StatesLas Vegas
-190.0.247.35,3128,HTTPS,419kbit,transparent,CO ColombiaPereira
-37.236.59.107,8080,HTTP,17.4kbit,transparent,IQ Iraq-
+36.70.38.254,8080,HTTPS,15.5kbit,transparent,ID IndonesiaJakarta
+83.221.208.156,8080,HTTP,55.3kbit,transparent,RU Russia-
+191.102.254.10,8085,HTTPS,390kbit,transparent,AR Argentina-
+197.55.28.15,8080,HTTP,245kbit,transparent,EG Egypt-
+103.49.202.252,80,HTTP,170kbit,transparent,BD Bangladesh-
+80.244.229.102,10000,HTTP,7.5kbit,transparent,RU Russia-
+20.118.181.121,3128,HTTPS,260kbit,transparent,US United StatesFalls Church
+1.4.250.47,8080,HTTPS,76.0kbit,transparent,TH Thailand-
+157.100.12.138,999,HTTPS,184kbit,transparent,EC EcuadorQuito
+124.121.85.249,8080,HTTPS,92.2kbit,transparent,TH ThailandBangkok
+190.107.237.10,999,HTTPS,9.0kbit,transparent,EC EcuadorQuito
+117.160.250.134,81,HTTP,-,transparent,CN China-
+170.245.132.86,999,HTTPS,104kbit,transparent,US United States-
+189.61.143.29,8080,HTTP,21.6kbit,transparent,BR BrazilSabará
+201.222.45.46,999,HTTP,32.9kbit,transparent,CW CuracaoWillemstad
 142.93.115.148,8080,HTTPS,976kbit,transparent,CA CanadaNorth York
-146.56.119.252,80,HTTP,43.4kbit,transparent,JP Japan-
-45.127.245.42,8080,HTTP,16.3kbit,transparent,BD BangladeshDhaka
-81.181.108.103,2019,HTTPS,690kbit,transparent,RO Romania-
-117.160.250.138,8081,HTTP,-,transparent,CN China-
-161.77.216.222,3129,US,United States,transparent,no,no,21 mins ago
-161.77.216.4,3129,US,United States,transparent,no,no,40 mins ago
-74.62.7.66,1888,US,United States,transparent,no,no,1 hour 3 mins ago
-34.125.221.146,80,US,United States,transparent,no,no,1 hour 14 mins ago
-72.18.134.138,8080,US,United States,transparent,no,no,1 hour 21 mins ago
-161.77.218.23,3129,US,United States,transparent,no,no,1 hour 33 mins ago
-162.0.226.218,80,US,United States,transparent,no,no,1 hour 42 mins ago
-161.77.218.164,3129,US,United States,transparent,no,no,1 hour 50 mins ago
-104.254.246.152,80,US,United States,transparent,no,no,1 hour 52 mins ago
-107.152.157.244,3128,US,United States,transparent,no,no,1 hour 53 mins ago
-154.17.251.162,6104,US,United States,transparent,no,no,1 hour 53 mins ago
-104.144.191.189,3128,US,United States,transparent,no,no,1 hour 53 mins ago
-154.202.108.12,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.109.83,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.57.243.221,7762,US,United States,transparent,no,no,1 hour 58 mins ago
-185.77.223.238,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-68.185.57.66,80,US,United States,transparent,no,no,1 hour 58 mins ago
-154.201.63.200,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-185.77.220.124,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-107.150.42.146,19009,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.113.195,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-104.227.202.140,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.118.190,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.57.168.118,7122,US,United States,transparent,no,no,1 hour 58 mins ago
-50.217.153.72,80,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.83,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.72.12.250,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.241,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.57.194,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.68.52,7120,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.142.179,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-66.191.31.158,80,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.108.236,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-50.206.111.91,80,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.138.37,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-104.227.203.145,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.120.236,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.108.86,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-94.231.216.247,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.108.76,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.56.64.64,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-50.227.121.34,80,US,United States,transparent,no,no,1 hour 58 mins ago
-104.227.208.237,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-50.204.219.229,80,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.97.247,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.96.46,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.43,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.87.243.174,6176,US,United States,transparent,no,no,1 hour 58 mins ago
-194.110.150.187,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.184,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-192.3.97.95,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.113.147,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-50.228.141.102,80,US,United States,transparent,no,no,1 hour 58 mins ago
-194.50.243.11,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-107.175.231.232,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-185.77.223.229,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-50.204.219.227,80,US,United States,transparent,no,no,1 hour 58 mins ago
-185.77.223.188,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-50.227.121.38,80,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.109.81,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.113.66,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-104.144.148.141,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.138.208,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-104.227.207.140,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-50.219.7.209,80,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.230.224,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.224,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-50.207.253.118,80,US,United States,transparent,no,no,1 hour 58 mins ago
-198.23.214.106,6373,US,United States,transparent,no,no,1 hour 58 mins ago
-23.250.83.214,6223,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.122.226,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.201.62.220,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.229.241,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.120.30,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.57.234.59,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.84.142.152,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.56.64.80,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.123.7,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.137.80,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-94.231.216.46,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.230.213,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-23.250.83.243,6252,US,United States,transparent,no,no,1 hour 58 mins ago
-84.21.190.201,6202,US,United States,transparent,no,no,1 hour 58 mins ago
-93.177.117.176,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-50.219.7.201,80,US,United States,transparent,no,no,1 hour 58 mins ago
-104.144.145.121,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-50.219.7.207,80,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.210.207,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.83.155,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-194.110.150.234,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-194.110.150.154,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-23.250.104.243,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.57.146,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.229.137,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-213.166.78.234,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.111.3,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-186.179.23.15,5059,US,United States,transparent,no,no,1 hour 58 mins ago
-185.77.221.164,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.108.108,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.56.72.254,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-23.247.7.137,5810,US,United States,transparent,no,no,1 hour 58 mins ago
-93.177.116.206,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.56.203,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.84.143.228,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.28.103,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-193.202.16.83,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.98.144,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.110.34,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.201.63.190,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.84.142.114,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-194.50.243.25,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.201.62.158,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.109.173,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-85.239.59.53,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.98.76,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.84.142.204,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.211.106,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-198.20.191.248,7304,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.72,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-85.239.57.134,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-104.144.254.130,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-94.154.127.240,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-85.209.151.236,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.28.146,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.97.121,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-94.154.127.148,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.30.77,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.140.232,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.121.159,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.84.143.244,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-157.52.174.99,6308,US,United States,transparent,no,no,1 hour 58 mins ago
-94.154.127.172,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.30.16,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-93.177.117.58,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.201.61.114,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.84.143.176,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.211.198,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.31.192,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-213.166.78.250,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.229.87,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-213.166.79.24,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.110.70,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.120.64,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.110.148,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.141.191,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.98.92,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.84.142.172,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.120.232,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.28.168,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-5.252.143.230,6947,US,United States,transparent,no,no,1 hour 58 mins ago
-149.18.30.150,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.230.126,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.120.182,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-96.36.109.242,8080,US,United States,transparent,no,no,2 hours 25 mins ago
-62.204.35.17,8085,US,United States,transparent,no,no,2 hours 31 mins ago
-207.180.228.55,80,DE,Germany,transparent,no,no,13 secs ago
-103.117.212.173,80,IN,India,transparent,no,no,1 min ago
-130.225.39.160,8080,DK,Denmark,transparent,no,no,2 mins ago
-91.230.11.13,8080,RU,Russian Federation,transparent,no,no,2 mins ago
-64.225.97.57,8080,DE,Germany,transparent,no,no,2 mins ago
-103.148.39.38,83,IN,India,transparent,no,no,4 mins ago
-182.253.183.166,8080,ID,Indonesia,transparent,no,no,4 mins ago
-59.157.7.145,8081,JP,Japan,transparent,no,no,11 mins ago
-8.242.184.57,999,CO,Colombia,transparent,no,no,13 mins ago
-116.197.130.71,80,ID,Indonesia,transparent,no,no,13 mins ago
-200.54.25.227,6969,CL,Chile,transparent,no,no,17 mins ago
-157.230.255.230,8118,SG,Singapore,transparent,no,no,21 mins ago
-161.77.216.222,3129,US,United States,transparent,no,no,21 mins ago
-45.5.145.165,8090,BR,Brazil,transparent,no,no,22 mins ago
-36.89.158.94,4480,ID,Indonesia,transparent,no,no,22 mins ago
-187.63.156.38,999,DO,Dominican Republic,transparent,no,no,26 mins ago
-190.57.245.250,8080,AR,Argentina,transparent,no,no,31 mins ago
-218.185.234.194,8080,AU,Australia,transparent,no,no,35 mins ago
-45.190.77.217,999,MX,Mexico,transparent,no,no,39 mins ago
-43.154.48.116,24000,HK,Hong Kong,transparent,no,no,40 mins ago
-161.77.216.4,3129,US,United States,transparent,no,no,40 mins ago
-186.1.206.154,3128,HT,Haiti,transparent,no,no,41 mins ago
-45.186.60.10,8085,BR,Brazil,transparent,no,no,43 mins ago
-190.107.237.12,999,EC,Ecuador,transparent,no,no,47 mins ago
-43.243.172.2,82,IN,India,transparent,no,no,52 mins ago
-182.253.112.194,8080,ID,Indonesia,transparent,no,no,52 mins ago
-190.209.27.86,999,CL,Chile,transparent,no,no,52 mins ago
-190.108.82.98,999,PE,Peru,transparent,no,no,52 mins ago
-47.241.61.21,1081,SG,Singapore,transparent,no,no,54 mins ago
-20.151.25.71,3128,CA,Canada,transparent,no,no,55 mins ago
-74.62.7.66,1888,US,United States,transparent,no,no,1 hour 3 mins ago
-190.90.224.198,999,CO,Colombia,transparent,no,no,1 hour 8 mins ago
-34.125.221.146,80,US,United States,transparent,no,no,1 hour 14 mins ago
-113.53.53.16,8080,TH,Thailand,transparent,no,no,1 hour 20 mins ago
-103.11.106.148,8181,ID,Indonesia,transparent,no,no,1 hour 20 mins ago
-102.68.134.94,8080,LY,Libya,transparent,no,no,1 hour 20 mins ago
-72.18.134.138,8080,US,United States,transparent,no,no,1 hour 21 mins ago
-188.235.0.207,8282,RU,Russian Federation,transparent,no,no,1 hour 23 mins ago
-203.113.167.3,80,VN,Vietnam,transparent,no,no,1 hour 23 mins ago
-45.224.148.74,999,EC,Ecuador,transparent,no,no,1 hour 25 mins ago
-103.84.159.8,80,BD,Bangladesh,transparent,no,no,1 hour 32 mins ago
-51.222.158.127,80,CA,Canada,transparent,no,no,1 hour 33 mins ago
-161.77.218.23,3129,US,United States,transparent,no,no,1 hour 33 mins ago
-141.95.122.232,80,FR,France,transparent,no,no,1 hour 36 mins ago
-200.105.71.74,3128,AR,Argentina,transparent,no,no,1 hour 38 mins ago
-162.0.226.218,80,US,United States,transparent,no,no,1 hour 42 mins ago
-213.230.68.203,3128,UZ,Uzbekistan,transparent,no,no,1 hour 45 mins ago
-200.105.71.75,3128,AR,Argentina,transparent,no,no,1 hour 49 mins ago
-36.92.134.71,999,ID,Indonesia,transparent,no,no,1 hour 49 mins ago
-161.77.218.164,3129,US,United States,transparent,no,no,1 hour 50 mins ago
-104.254.246.152,80,US,United States,transparent,no,no,1 hour 52 mins ago
-45.147.28.131,9189,SC,Seychelles,transparent,no,no,1 hour 53 mins ago
-117.54.114.100,80,ID,Indonesia,transparent,no,no,1 hour 53 mins ago
-191.102.158.164,8228,HN,Honduras,transparent,no,no,1 hour 53 mins ago
-107.152.157.244,3128,US,United States,transparent,no,no,1 hour 53 mins ago
-154.17.251.162,6104,US,United States,transparent,no,no,1 hour 53 mins ago
-104.144.191.189,3128,US,United States,transparent,no,no,1 hour 53 mins ago
-119.59.116.238,80,TH,Thailand,transparent,no,no,1 hour 55 mins ago
-45.167.125.61,9992,CO,Colombia,transparent,no,no,1 hour 58 mins ago
-185.100.215.174,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-154.202.108.12,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.109.83,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.57.243.221,7762,US,United States,transparent,no,no,1 hour 58 mins ago
-185.77.223.238,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.95.32.161,5214,CH,Switzerland,transparent,no,no,1 hour 58 mins ago
-95.181.149.250,8085,RU,Russian Federation,transparent,no,no,1 hour 58 mins ago
-45.159.23.25,8085,ES,Spain,transparent,no,no,1 hour 58 mins ago
-156.239.59.117,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-68.185.57.66,80,US,United States,transparent,no,no,1 hour 58 mins ago
-193.27.19.124,7210,SC,Seychelles,transparent,no,no,1 hour 58 mins ago
-154.201.63.200,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-185.77.220.124,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.92.121.236,5255,RO,Romania,transparent,no,no,1 hour 58 mins ago
-107.150.42.146,19009,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.113.195,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-189.202.188.149,80,MX,Mexico,transparent,no,no,1 hour 58 mins ago
-104.227.202.140,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.118.190,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.57.168.118,7122,US,United States,transparent,no,no,1 hour 58 mins ago
-50.217.153.72,80,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.83,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.72.12.250,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-212.119.40.52,8085,IL,Israel,transparent,no,no,1 hour 58 mins ago
-172.245.166.241,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.10.165.167,8085,RU,Russian Federation,transparent,no,no,1 hour 58 mins ago
-45.94.45.13,7016,SC,Seychelles,transparent,no,no,1 hour 58 mins ago
-149.18.57.194,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-113.30.155.91,6099,FR,France,transparent,no,no,1 hour 58 mins ago
-138.128.68.52,7120,US,United States,transparent,no,no,1 hour 58 mins ago
-185.100.215.68,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-192.177.188.6,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-193.233.142.179,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-205.164.19.158,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-66.191.31.158,80,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.108.236,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-50.206.111.91,80,US,United States,transparent,no,no,1 hour 58 mins ago
-193.233.138.37,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-104.227.203.145,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-209.127.31.158,3128,CA,Canada,transparent,no,no,1 hour 58 mins ago
-209.127.31.176,3128,CA,Canada,transparent,no,no,1 hour 58 mins ago
-154.202.120.236,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-192.177.188.31,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-154.202.108.86,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-95.181.149.141,8085,RU,Russian Federation,transparent,no,no,1 hour 58 mins ago
-94.231.216.247,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.108.76,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-193.56.64.64,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-50.227.121.34,80,US,United States,transparent,no,no,1 hour 58 mins ago
-104.227.208.237,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.145.129.231,8085,IL,Israel,transparent,no,no,1 hour 58 mins ago
-80.253.249.50,5093,SC,Seychelles,transparent,no,no,1 hour 58 mins ago
-50.204.219.229,80,US,United States,transparent,no,no,1 hour 58 mins ago
-154.202.97.247,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-205.164.19.58,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-45.137.43.251,7805,HK,Hong Kong,transparent,no,no,1 hour 58 mins ago
-45.199.130.92,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-154.202.96.46,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.145.129.215,8085,IL,Israel,transparent,no,no,1 hour 58 mins ago
-209.127.76.115,3128,CA,Canada,transparent,no,no,1 hour 58 mins ago
-172.245.166.43,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-45.87.243.174,6176,US,United States,transparent,no,no,1 hour 58 mins ago
-37.35.40.27,8117,IT,Italy,transparent,no,no,1 hour 58 mins ago
-95.181.148.240,8085,RU,Russian Federation,transparent,no,no,1 hour 58 mins ago
-188.74.169.71,5368,AT,Austria,transparent,no,no,1 hour 58 mins ago
-194.110.150.187,8085,US,United States,transparent,no,no,1 hour 58 mins ago
-172.245.166.184,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-192.3.97.95,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-138.128.113.147,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-185.139.27.210,3128,BR,Brazil,transparent,no,no,1 hour 58 mins ago
-154.95.0.37,6290,FR,France,transparent,no,no,1 hour 58 mins ago
-5.154.254.253,5264,IT,Italy,transparent,no,no,1 hour 58 mins ago
-50.228.141.102,80,US,United States,transparent,no,no,1 hour 58 mins ago
-209.127.39.77,3128,CA,Canada,transparent,no,no,1 hour 58 mins ago
-194.50.243.11,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-107.175.231.232,3128,US,United States,transparent,no,no,1 hour 58 mins ago
-185.218.125.7,80,DE,Germany,transparent,no,no,1 hour 58 mins ago
+182.253.158.148,8080,HTTP,169kbit,transparent,ID IndonesiaDenpasar
+45.189.112.65,999,HTTPS,261kbit,transparent,ME Montenegro-
+180.234.167.15,8080,HTTP,-,transparent,BD BangladeshDhaka
+110.77.185.30,8080,HTTPS,34.0kbit,transparent,TH ThailandBangkok
+124.122.114.38,8080,HTTPS,482kbit,transparent,TH Thailand-
+20.19.248.28,8016,HTTPS,80.6kbit,transparent,US United StatesFalls Church
+45.167.125.61,9992,HTTPS,128kbit,transparent,CO Colombia-
+117.160.250.132,80,HTTP,-,transparent,CN China-
+20.53.198.100,3128,HTTPS,68.3kbit,transparent,US United StatesFalls Church
+52.172.95.54,3128,HTTPS,151kbit,transparent,US United StatesWilmington
+103.154.144.204,8715,HTTPS,26.1kbit,transparent,RU Russia-
+20.19.211.164,8010,HTTPS,349kbit,transparent,US United StatesFalls Church
+54.37.242.65,3128,HTTPS,784kbit,transparent,US United StatesWoodbridge
+190.109.221.46,3128,HTTP,-,transparent,HN HondurasTegucigalpa
+20.118.144.225,3128,HTTPS,150kbit,transparent,US United StatesFalls Church
+122.152.54.193,8080,HTTP,30.5kbit,transparent,BD BangladeshChittagong
+188.132.222.6,8080,HTTP,15.2kbit,transparent,TR TurkeySanayi
+95.213.234.86,3128,HTTPS,298kbit,transparent,RU Russia-
+20.200.177.224,3128,HTTPS,102kbit,transparent,US United StatesFalls Church
+212.252.73.117,8080,HTTPS,145kbit,transparent,TR TurkeyIstanbul
+131.100.51.97,999,HTTPS,13.0kbit,transparent,BR Brazil-
+181.74.81.195,999,HTTP,96.0kbit,transparent,CL ChileSantiago
+35.185.131.35,3128,HTTPS,121kbit,transparent,US United StatesAnn Arbor
+101.108.18.5,8080,HTTPS,73.7kbit,transparent,TH ThailandBangkok
+113.53.3.131,8080,HTTPS,67.1kbit,transparent,TH Thailand-
+191.97.16.128,999,HTTPS,40.7kbit,transparent,VE VenezuelaCaracas
+182.253.109.140,8080,HTTP,154kbit,transparent,ID IndonesiaComal
+156.193.77.181,8080,HTTP,-,transparent,EG Egypt-
+52.210.106.80,80,HTTP,262kbit,transparent,IE IrelandDublin
+5.182.27.250,3128,HTTPS,208kbit,transparent,US United States-
+202.134.146.254,8080,HTTPS,84.2kbit,transparent,IN IndiaMumbai
+20.111.46.169,8004,HTTPS,290kbit,transparent,US United StatesFalls Church
+185.158.175.102,8080,HTTP,98.9kbit,transparent,GR Greece-
+167.71.85.123,3128,HTTPS,491kbit,transparent,US United StatesNew York
+190.0.247.36,3128,HTTPS,4.5kbit,transparent,CO ColombiaPereira
+37.236.59.83,80,HTTP,15.5kbit,transparent,IQ Iraq-
+131.100.51.105,999,HTTPS,67.0kbit,transparent,BR Brazil-
+20.194.178.203,3128,HTTPS,149kbit,transparent,US United StatesFalls Church
+103.53.77.162,8080,HTTP,70.0kbit,transparent,ID IndonesiaTimur
+37.236.59.83,8080,HTTP,449kbit,transparent,IQ Iraq-
+36.71.116.64,8080,HTTPS,14.0kbit,transparent,ID Indonesia-
+13.125.123.58,3128,HTTPS,85.8kbit,transparent,US United States-
+118.107.44.181,8000,HTTP,147kbit,transparent,AU Australia-
+14.115.106.204,9797,HTTP,-,transparent,CN ChinaGuangzhou
+181.115.67.3,999,HTTP,25.6kbit,transparent,HN HondurasTegucigalpa
+201.77.109.129,999,HTTP,64.5kbit,transparent,CR Costa Rica-
+36.69.206.30,8080,HTTP,15.4kbit,transparent,ID Indonesia-
+203.128.71.92,8080,HTTP,48.9kbit,transparent,ID IndonesiaJakarta
+95.213.234.85,3128,HTTPS,696kbit,transparent,RU Russia-
+181.78.104.186,999,HTTP,9.9kbit,transparent,AR ArgentinaBuenos Aires
+208.52.157.15,5555,HTTP,7.2kbit,transparent,US United StatesAtlanta
+20.19.252.45,8010,HTTPS,421kbit,transparent,US United StatesFalls Church
+156.218.7.148,8080,HTTP,115kbit,transparent,EG Egypt-
+43.200.253.141,3128,HTTPS,357kbit,transparent,JP JapanTokyo
+20.41.216.113,3128,HTTPS,102kbit,transparent,US United StatesFalls Church
+20.111.46.118,8004,HTTPS,808kbit,transparent,US United StatesFalls Church
+47.89.185.178,8888,HTTP,1569kbit,transparent,CA CanadaOttawa
+8.242.126.181,3128,HTTP,15.8kbit,transparent,US United States-
+181.176.211.168,8080,HTTP,50.9kbit,transparent,PE PeruLima
+190.60.38.230,999,HTTPS,168kbit,transparent,VE VenezuelaCaracas
+20.78.230.211,3128,HTTPS,435kbit,transparent,US United StatesFalls Church
+103.154.144.202,8715,HTTPS,408kbit,transparent,PL Poland-
+218.187.68.77,8080,HTTPS,83.2kbit,transparent,TW TaiwanTaipei
+20.111.54.168,8004,HTTPS,132kbit,transparent,US United StatesFalls Church
+201.222.45.45,999,HTTP,21.0kbit,transparent,CW CuracaoWillemstad
+45.236.105.162,999,HTTP,9.1kbit,transparent,BD Bangladesh-
+20.250.58.138,3128,HTTPS,342kbit,transparent,US United StatesFalls Church
+191.97.14.26,999,HTTP,26.4kbit,transparent,PA Panama-
+20.19.178.20,8020,HTTPS,7273kbit,transparent,US United StatesFalls Church
+15.168.32.52,3128,HTTPS,118kbit,transparent,US United StatesPalo Alto
+190.247.93.231,8080,HTTPS,-,transparent,AR ArgentinaBuenos Aires
+177.247.7.157,8080,HTTPS,149kbit,transparent,MX Mexico-
+185.103.181.84,8080,HTTP,9.8kbit,transparent,ES Spain-
+20.19.248.38,8010,HTTPS,176kbit,transparent,US United StatesFalls Church
+92.222.119.24,8080,HTTP,22.7kbit,transparent,FR FranceParis
+185.211.80.11,8080,HTTP,6.0kbit,transparent,TH Thailand-
+122.49.208.242,8080,HTTP,19.8kbit,transparent,PH Philippines-
+72.169.66.157,87,US,United States,transparent,no,no,12 mins ago
+72.169.65.69,87,US,United States,transparent,no,no,45 mins ago
+72.169.67.61,87,US,United States,transparent,no,no,45 mins ago
+161.77.216.222,3129,US,United States,transparent,no,no,1 hour 11 mins ago
+161.77.216.4,3129,US,United States,transparent,no,no,1 hour 30 mins ago
+74.62.7.66,1888,US,United States,transparent,no,no,1 hour 53 mins ago
+34.125.221.146,80,US,United States,transparent,no,no,2 hours 4 mins ago
+161.77.218.23,3129,US,United States,transparent,no,no,2 hours 23 mins ago
+162.0.226.218,80,US,United States,transparent,no,no,2 hours 32 mins ago
+161.77.218.164,3129,US,United States,transparent,no,no,2 hours 40 mins ago
+104.254.246.152,80,US,United States,transparent,no,no,2 hours 42 mins ago
+107.152.157.244,3128,US,United States,transparent,no,no,2 hours 43 mins ago
+154.17.251.162,6104,US,United States,transparent,no,no,2 hours 43 mins ago
+104.144.191.189,3128,US,United States,transparent,no,no,2 hours 43 mins ago
+154.202.108.12,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.109.83,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+45.57.243.221,7762,US,United States,transparent,no,no,2 hours 48 mins ago
+185.77.223.238,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+68.185.57.66,80,US,United States,transparent,no,no,2 hours 48 mins ago
+154.201.63.200,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+185.77.220.124,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+107.150.42.146,19009,US,United States,transparent,no,no,2 hours 48 mins ago
+138.128.113.195,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+104.227.202.140,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+138.128.118.190,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+45.57.168.118,7122,US,United States,transparent,no,no,2 hours 48 mins ago
+50.217.153.72,80,US,United States,transparent,no,no,2 hours 48 mins ago
+172.245.166.83,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+45.72.12.250,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+172.245.166.241,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.57.194,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+138.128.68.52,7120,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.142.179,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+66.191.31.158,80,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.108.236,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+50.206.111.91,80,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.138.37,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+104.227.203.145,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.120.236,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.108.86,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+94.231.216.247,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.108.76,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.56.64.64,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+50.227.121.34,80,US,United States,transparent,no,no,2 hours 48 mins ago
+104.227.208.237,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+50.204.219.229,80,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.97.247,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.96.46,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+172.245.166.43,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+45.87.243.174,6176,US,United States,transparent,no,no,2 hours 48 mins ago
+194.110.150.187,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+172.245.166.184,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+192.3.97.95,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+138.128.113.147,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+50.228.141.102,80,US,United States,transparent,no,no,2 hours 48 mins ago
+194.50.243.11,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+107.175.231.232,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+185.77.223.229,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+50.204.219.227,80,US,United States,transparent,no,no,2 hours 48 mins ago
+185.77.223.188,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+50.227.121.38,80,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.109.81,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+138.128.113.66,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+104.144.148.141,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.138.208,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+104.227.207.140,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+50.219.7.209,80,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.230.224,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+172.245.166.224,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+50.207.253.118,80,US,United States,transparent,no,no,2 hours 48 mins ago
+198.23.214.106,6373,US,United States,transparent,no,no,2 hours 48 mins ago
+23.250.83.214,6223,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.122.226,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.201.62.220,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.229.241,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.120.30,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+45.57.234.59,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.84.142.152,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.56.64.80,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.123.7,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.137.80,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+94.231.216.46,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.230.213,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+23.250.83.243,6252,US,United States,transparent,no,no,2 hours 48 mins ago
+84.21.190.201,6202,US,United States,transparent,no,no,2 hours 48 mins ago
+93.177.117.176,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+50.219.7.201,80,US,United States,transparent,no,no,2 hours 48 mins ago
+104.144.145.121,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+50.219.7.207,80,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.210.207,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.83.155,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+194.110.150.234,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+194.110.150.154,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+23.250.104.243,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.57.146,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.229.137,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+213.166.78.234,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.111.3,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+186.179.23.15,5059,US,United States,transparent,no,no,2 hours 48 mins ago
+185.77.221.164,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.108.108,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.56.72.254,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+23.247.7.137,5810,US,United States,transparent,no,no,2 hours 48 mins ago
+93.177.116.206,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.56.203,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.84.143.228,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.28.103,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+193.202.16.83,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.98.144,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.110.34,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.201.63.190,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.84.142.114,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+194.50.243.25,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.201.62.158,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.109.173,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+85.239.59.53,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.98.76,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.84.142.204,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.211.106,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+198.20.191.248,7304,US,United States,transparent,no,no,2 hours 48 mins ago
+172.245.166.72,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+85.239.57.134,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+104.144.254.130,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+94.154.127.240,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+85.209.151.236,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.28.146,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.97.121,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+94.154.127.148,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.30.77,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.140.232,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.121.159,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.84.143.244,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+157.52.174.99,6308,US,United States,transparent,no,no,2 hours 48 mins ago
+94.154.127.172,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.30.16,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+93.177.117.58,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.201.61.114,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.84.143.176,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.211.198,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.31.192,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+213.166.78.250,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.229.87,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+213.166.79.24,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.110.70,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.120.64,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.110.148,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.141.191,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.98.92,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.84.142.172,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.120.232,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.28.168,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+5.252.143.230,6947,US,United States,transparent,no,no,2 hours 48 mins ago
+149.18.30.150,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+193.233.230.126,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.120.182,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+37.26.86.206,47464,AL,Albania,transparent,no,no,1 min ago
+168.205.100.36,8080,BR,Brazil,transparent,no,no,4 mins ago
+45.116.230.79,8080,IN,India,transparent,no,no,11 mins ago
+72.169.66.157,87,US,United States,transparent,no,no,12 mins ago
+203.112.74.35,8080,BD,Bangladesh,transparent,no,no,13 mins ago
+173.212.225.85,9903,DE,Germany,transparent,no,no,13 mins ago
+186.10.252.90,999,CL,Chile,transparent,no,no,13 mins ago
+190.202.150.186,3128,VE,Venezuela,transparent,no,no,18 mins ago
+170.244.210.106,999,EC,Ecuador,transparent,no,no,19 mins ago
+103.245.198.54,8080,IN,India,transparent,no,no,19 mins ago
+80.249.135.25,8080,RU,Russian Federation,transparent,no,no,19 mins ago
+178.115.253.35,8080,AT,Austria,transparent,no,no,21 mins ago
+45.186.60.31,8085,BR,Brazil,transparent,no,no,21 mins ago
+3.28.181.8,8080,AE,United Arab Emirates,transparent,no,no,23 mins ago
+134.19.254.2,21231,GE,Georgia,transparent,no,no,23 mins ago
+82.146.37.145,80,RU,Russian Federation,transparent,no,no,23 mins ago
+147.135.134.57,9300,FR,France,transparent,no,no,23 mins ago
+177.36.168.9,8080,BR,Brazil,transparent,no,no,23 mins ago
+103.123.234.106,8080,IN,India,transparent,no,no,28 mins ago
+14.160.32.23,8080,VN,Vietnam,transparent,no,no,28 mins ago
+103.168.44.114,8080,ID,Indonesia,transparent,no,no,28 mins ago
+103.216.144.201,8080,IN,India,transparent,no,no,28 mins ago
+103.169.186.162,3125,ID,Indonesia,transparent,no,no,28 mins ago
+61.14.228.126,8080,IN,India,transparent,no,no,28 mins ago
+103.151.226.67,8080,ID,Indonesia,transparent,no,no,33 mins ago
+3.111.58.148,80,IN,India,transparent,no,no,35 mins ago
+45.156.29.126,9090,TR,Turkey,transparent,no,no,39 mins ago
+41.65.0.219,1976,EG,Egypt,transparent,no,no,41 mins ago
+181.37.179.186,999,DO,Dominican Republic,transparent,no,no,41 mins ago
+200.24.157.114,999,EC,Ecuador,transparent,no,no,43 mins ago
+200.170.175.129,8081,BR,Brazil,transparent,no,no,45 mins ago
+72.169.65.69,87,US,United States,transparent,no,no,45 mins ago
+72.169.67.61,87,US,United States,transparent,no,no,45 mins ago
+161.97.92.160,80,DE,Germany,transparent,no,no,45 mins ago
+207.180.228.55,80,DE,Germany,transparent,no,no,50 mins ago
+103.117.212.173,80,IN,India,transparent,no,no,51 mins ago
+130.225.39.160,8080,DK,Denmark,transparent,no,no,52 mins ago
+103.148.39.38,83,IN,India,transparent,no,no,54 mins ago
+182.253.183.166,8080,ID,Indonesia,transparent,no,no,54 mins ago
+59.157.7.145,8081,JP,Japan,transparent,no,no,1 hour 1 min ago
+8.242.184.57,999,CO,Colombia,transparent,no,no,1 hour 3 mins ago
+116.197.130.71,80,ID,Indonesia,transparent,no,no,1 hour 3 mins ago
+200.54.25.227,6969,CL,Chile,transparent,no,no,1 hour 7 mins ago
+157.230.255.230,8118,SG,Singapore,transparent,no,no,1 hour 11 mins ago
+161.77.216.222,3129,US,United States,transparent,no,no,1 hour 11 mins ago
+45.5.145.165,8090,BR,Brazil,transparent,no,no,1 hour 12 mins ago
+36.89.158.94,4480,ID,Indonesia,transparent,no,no,1 hour 12 mins ago
+187.63.156.38,999,DO,Dominican Republic,transparent,no,no,1 hour 16 mins ago
+190.57.245.250,8080,AR,Argentina,transparent,no,no,1 hour 21 mins ago
+218.185.234.194,8080,AU,Australia,transparent,no,no,1 hour 25 mins ago
+45.190.77.217,999,MX,Mexico,transparent,no,no,1 hour 29 mins ago
+43.154.48.116,24000,HK,Hong Kong,transparent,no,no,1 hour 30 mins ago
+161.77.216.4,3129,US,United States,transparent,no,no,1 hour 30 mins ago
+186.1.206.154,3128,HT,Haiti,transparent,no,no,1 hour 31 mins ago
+45.186.60.10,8085,BR,Brazil,transparent,no,no,1 hour 33 mins ago
+190.107.237.12,999,EC,Ecuador,transparent,no,no,1 hour 37 mins ago
+43.243.172.2,82,IN,India,transparent,no,no,1 hour 42 mins ago
+182.253.112.194,8080,ID,Indonesia,transparent,no,no,1 hour 42 mins ago
+190.209.27.86,999,CL,Chile,transparent,no,no,1 hour 42 mins ago
+190.108.82.98,999,PE,Peru,transparent,no,no,1 hour 42 mins ago
+47.241.61.21,1081,SG,Singapore,transparent,no,no,1 hour 44 mins ago
+20.151.25.71,3128,CA,Canada,transparent,no,no,1 hour 45 mins ago
+74.62.7.66,1888,US,United States,transparent,no,no,1 hour 53 mins ago
+190.90.224.198,999,CO,Colombia,transparent,no,no,1 hour 58 mins ago
+34.125.221.146,80,US,United States,transparent,no,no,2 hours 4 mins ago
+113.53.53.16,8080,TH,Thailand,transparent,no,no,2 hours 10 mins ago
+103.11.106.148,8181,ID,Indonesia,transparent,no,no,2 hours 10 mins ago
+102.68.134.94,8080,LY,Libya,transparent,no,no,2 hours 10 mins ago
+188.235.0.207,8282,RU,Russian Federation,transparent,no,no,2 hours 13 mins ago
+203.113.167.3,80,VN,Vietnam,transparent,no,no,2 hours 13 mins ago
+45.224.148.74,999,EC,Ecuador,transparent,no,no,2 hours 15 mins ago
+103.84.159.8,80,BD,Bangladesh,transparent,no,no,2 hours 22 mins ago
+51.222.158.127,80,CA,Canada,transparent,no,no,2 hours 23 mins ago
+161.77.218.23,3129,US,United States,transparent,no,no,2 hours 23 mins ago
+141.95.122.232,80,FR,France,transparent,no,no,2 hours 26 mins ago
+200.105.71.74,3128,AR,Argentina,transparent,no,no,2 hours 28 mins ago
+162.0.226.218,80,US,United States,transparent,no,no,2 hours 32 mins ago
+213.230.68.203,3128,UZ,Uzbekistan,transparent,no,no,2 hours 35 mins ago
+200.105.71.75,3128,AR,Argentina,transparent,no,no,2 hours 39 mins ago
+36.92.134.71,999,ID,Indonesia,transparent,no,no,2 hours 39 mins ago
+161.77.218.164,3129,US,United States,transparent,no,no,2 hours 40 mins ago
+104.254.246.152,80,US,United States,transparent,no,no,2 hours 42 mins ago
+45.147.28.131,9189,SC,Seychelles,transparent,no,no,2 hours 43 mins ago
+117.54.114.100,80,ID,Indonesia,transparent,no,no,2 hours 43 mins ago
+191.102.158.164,8228,HN,Honduras,transparent,no,no,2 hours 43 mins ago
+107.152.157.244,3128,US,United States,transparent,no,no,2 hours 43 mins ago
+154.17.251.162,6104,US,United States,transparent,no,no,2 hours 43 mins ago
+104.144.191.189,3128,US,United States,transparent,no,no,2 hours 43 mins ago
+119.59.116.238,80,TH,Thailand,transparent,no,no,2 hours 45 mins ago
+45.167.125.61,9992,CO,Colombia,transparent,no,no,2 hours 48 mins ago
+185.100.215.174,3128,BR,Brazil,transparent,no,no,2 hours 48 mins ago
+154.202.108.12,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+154.202.109.83,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+45.57.243.221,7762,US,United States,transparent,no,no,2 hours 48 mins ago
+185.77.223.238,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.95.32.161,5214,CH,Switzerland,transparent,no,no,2 hours 48 mins ago
+95.181.149.250,8085,RU,Russian Federation,transparent,no,no,2 hours 48 mins ago
+45.159.23.25,8085,ES,Spain,transparent,no,no,2 hours 48 mins ago
+156.239.59.117,3128,BR,Brazil,transparent,no,no,2 hours 48 mins ago
+68.185.57.66,80,US,United States,transparent,no,no,2 hours 48 mins ago
+193.27.19.124,7210,SC,Seychelles,transparent,no,no,2 hours 48 mins ago
+154.201.63.200,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+185.77.220.124,8085,US,United States,transparent,no,no,2 hours 48 mins ago
+154.92.121.236,5255,RO,Romania,transparent,no,no,2 hours 48 mins ago
+107.150.42.146,19009,US,United States,transparent,no,no,2 hours 48 mins ago
+138.128.113.195,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+189.202.188.149,80,MX,Mexico,transparent,no,no,2 hours 48 mins ago
+104.227.202.140,3128,US,United States,transparent,no,no,2 hours 48 mins ago
+138.128.118.190,3128,US,United States,transparent,no,no,2 hours 48 mins ago
