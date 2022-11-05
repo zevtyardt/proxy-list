@@ -4,7 +4,7 @@ const https = require("https");
 const fs = require("fs");
 
 const PATH = "../..";
-const numPage = 200;
+const numPage = 100;
 const extract_table = (selector, data, custom_cb) => {
   const $ = cheerio.load(data);
   const table = $(selector);
@@ -200,6 +200,7 @@ const freeproxy_world = async function* () {
       `https://freeproxy.world/?type=&anonymity=&country=&speed=&port=&page=${i}`
     );
     const data = extract_table("table", req.data);
+    if (data.body.length == 0) break
     data.key = 5;
     yield data;
   }
