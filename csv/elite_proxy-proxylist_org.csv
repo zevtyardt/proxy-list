@@ -1,37 +1,42 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-185.204.171.220,8118,HTTPS,482kbit,elite,US United States-
-89.107.197.165,3128,HTTPS,27.4kbit,elite,RU Russia-
-111.225.152.82,8089,HTTP,-,elite,CN ChinaHebei
-49.0.2.242,8090,HTTPS,67.8kbit,elite,ID IndonesiaPurwokerto
-76.164.52.98,80,HTTP,346kbit,elite,US United StatesPrior Lake
-54.36.239.180,5000,HTTP,2114kbit,elite,US United StatesWoodbridge
-43.255.113.232,8086,HTTP,32.6kbit,elite,KH CambodiaPhnom Penh
-117.57.112.220,8089,HTTP,-,elite,CN ChinaHefei
-133.242.171.216,3128,HTTPS,10.9kbit,elite,JP Japan-
+187.62.191.3,61456,HTTP,312kbit,elite,BR Brazil-
+103.148.192.83,8082,HTTPS,105kbit,elite,CN China-
 151.248.117.248,80,HTTP,16.6kbit,elite,RU Russia-
-194.233.84.239,80,HTTP,65.4kbit,elite,DE Germany-
-43.154.48.116,24001,HTTP,6667kbit,elite,JP JapanTokyo
+185.237.99.218,61443,HTTPS,7.6kbit,elite,US United States-
+47.254.195.196,80,HTTP,52.6kbit,elite,CA CanadaOttawa
+216.137.184.253,80,HTTP,19.4kbit,elite,US United StatesMarinette
+85.30.215.48,32946,HTTP,8.3kbit,elite,RU Russia-
+133.242.171.216,3128,HTTPS,10.9kbit,elite,JP Japan-
+185.204.171.220,8118,HTTPS,482kbit,elite,US United States-
+217.28.220.234,80,HTTP,61.2kbit,elite,RU Russia-
+200.105.215.18,33630,HTTP,5.2kbit,elite,BO BoliviaLa Paz
+117.88.58.103,808,HTTP,-,elite,CN ChinaNanjing
 59.110.7.43,3129,HTTP,-,elite,CN ChinaHangzhou
-47.254.195.196,2080,HTTP,41.1kbit,elite,CA CanadaOttawa
-194.195.218.74,8080,HTTP,73.8kbit,elite,DE Germany-
-134.122.182.215,8888,HTTPS,83.9kbit,elite,US United StatesCampbell
-151.181.91.10,80,US,United States,elite,no,yes,0 secs ago
-45.56.75.90,5344,US,United States,elite,,no,8 secs ago
-194.195.213.197,1080,US,United States,elite,,no,8 secs ago
-198.59.191.234,8080,US,United States,elite,no,yes,8 secs ago
-198.49.68.80,80,US,United States,elite,,no,8 secs ago
-142.93.61.46,80,US,United States,elite,,no,8 secs ago
-204.185.204.64,8080,US,United States,elite,no,yes,8 secs ago
-162.243.174.235,80,US,United States,elite,yes,no,20 mins ago
-68.183.134.155,80,US,United States,elite,yes,no,20 mins ago
-47.253.105.175,5566,US,United States,elite,,no,30 mins ago
-45.79.27.210,44554,US,United States,elite,,no,30 mins ago
-80.48.119.28,8080,PL,Poland,elite,yes,no,0 secs ago
-187.217.54.84,80,MX,Mexico,elite,no,no,0 secs ago
-157.245.207.186,8080,SG,Singapore,elite,,no,0 secs ago
-89.218.186.134,3128,KZ,Kazakhstan,elite,no,no,0 secs ago
-200.105.215.18,33630,BO,Bolivia,elite,no,yes,0 secs ago
-20.111.54.16,80,FR,France,elite,no,no,0 secs ago
-151.181.91.10,80,US,United States,elite,no,yes,0 secs ago
-20.210.113.32,8123,JP,Japan,elite,no,no,0 secs ago
-20.24.43.214,8123,SG,Singapore,elite,no,no,0 secs ago
+101.200.235.69,443,HTTP,-,elite,CN ChinaHangzhou
+49.0.2.242,8090,HTTPS,67.8kbit,elite,ID IndonesiaPurwokerto
+183.89.175.230,8080,HTTP,50.2kbit,elite,TH ThailandMahachai
+134.209.96.9,443,HTTPS,9.8kbit,elite,US United StatesMansfield
+76.164.52.98,80,HTTP,346kbit,elite,US United StatesPrior Lake
+198.49.68.80,80,US,United States,elite,yes,no,18 secs ago
+216.137.184.253,80,US,United States,elite,yes,no,10 mins ago
+151.181.91.10,80,US,United States,elite,no,yes,20 mins ago
+45.56.75.90,5344,US,United States,elite,,no,40 mins ago
+194.195.213.197,1080,US,United States,elite,,no,40 mins ago
+198.59.191.234,8080,US,United States,elite,no,yes,40 mins ago
+142.93.61.46,80,US,United States,elite,,no,40 mins ago
+204.185.204.64,8080,US,United States,elite,no,yes,40 mins ago
+80.48.119.28,8080,PL,Poland,elite,yes,no,10 secs ago
+49.0.2.242,8090,ID,Indonesia,elite,no,yes,10 secs ago
+169.57.1.85,8123,MX,Mexico,elite,no,no,10 secs ago
+83.229.72.174,80,IL,Israel,elite,no,no,10 secs ago
+20.111.54.16,80,FR,France,elite,no,no,10 secs ago
+110.164.3.7,8888,TH,Thailand,elite,no,no,10 secs ago
+216.137.184.253,80,US,United States,elite,yes,no,10 secs ago
+20.210.113.32,8123,JP,Japan,elite,no,no,10 secs ago
+20.24.43.214,8123,SG,Singapore,elite,no,no,10 secs ago
+83.229.73.175,80,IL,Israel,elite,no,no,10 mins ago
+151.181.91.10,80,US,United States,elite,no,yes,10 mins ago
+187.217.54.84,80,MX,Mexico,elite,no,no,30 mins ago
+157.245.207.186,8080,SG,Singapore,elite,,no,30 mins ago
+89.218.186.134,3128,KZ,Kazakhstan,elite,no,no,30 mins ago
+200.105.215.18,33630,BO,Bolivia,elite,no,yes,30 mins ago
