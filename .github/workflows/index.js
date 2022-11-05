@@ -51,6 +51,14 @@ const axios_get = async (...args) => {
     return err.response;
   }
 };
+
+const axios_post = async (...args) => {
+  try {
+    return await axios.post(...args);
+  } catch (err) {
+    return err.response;
+  }
+};
 // providers
 
 const proxyscan = async function* () {
@@ -68,18 +76,18 @@ const proxyscan = async function* () {
   for (let type of ["http", "https", "socks4", "socks5"]) {
     let req = await axios_get(`https://www.proxyscan.io/download?type=${type}`);
     yield extract_proxy_list(req.data, type);
-
-    req = await axios_get(
-      `https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/${type}.txt`
-    );
-    yield extract_proxy_list(req.data, type);
   }
 };
 
 const github_raw = async function* () {
   for (let type of ["http", "https", "socks4", "socks5"]) {
-    const req = await axios.get(
+    let req = await axios.get(
       `https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/${type}.txt`
+    );
+    yield extract_proxy_list(req.data, type);
+
+    req = await axios_get(
+      `https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/${type}.txt`
     );
     yield extract_proxy_list(req.data, type);
   }
@@ -200,7 +208,7 @@ const freeproxy_world = async function* () {
       `https://freeproxy.world/?type=&anonymity=&country=&speed=&port=&page=${i}`
     );
     const data = extract_table("table", req.data);
-    if (data.body.length == 0) break
+    if (data.body.length == 0) break;
     data.key = 5;
     yield data;
   }
@@ -305,7 +313,93 @@ const my_proxy = async () => {
     key: "HTTP",
   };
 };
-// MAIN
+
+const spysone = async function* () {
+  for (let path of [
+    "free-proxy-list",
+    "anonymous-proxy-list",
+    "http-proxy-list",
+    "https-ssl-proxy",
+    "non-anonymous-proxy-list",
+    "socks-proxy-list",
+  ]) {
+    const url = `https://spys.one/en/${path}`;
+
+    let req = await axios_get(url);
+    let $ = cheerio.load(req.data);
+    const postData = {};
+    $("input").each((_, e) => (postData[e.attribs.name] = e.attribs.value));
+    $("select").each((_, e) => {
+      postData[e.attribs.name] =
+        $(e.previousSibling).text().trim().toLowerCase() == "show"
+          ? "5"
+          : $(e)
+              .find("option")
+              .toArray()
+              .filter((v) => v.attribs.selected !== undefined)[0].attribs.value;
+    });
+    req = await axios_post(url, postData);
+    $ = cheerio.load(req.data);
+    const vars = {};
+    $(
+      $("script")
+        .toArray()
+        .filter((e) => e.previousSibling?.name == "table")
+    )
+      .toArray()
+      .forEach((script) => {
+        script = $(script)
+          .text()
+          .split(";")
+          .map((x) => x.split("="));
+        for (let [k, v] of script) {
+          if (!v) continue;
+          try {
+            if (/^\d+$/.test(v)) {
+              vars[k] = parseInt(v);
+            } else {
+              for (let [c, n] of Object.entries(vars)) {
+                if (v?.indexOf(c) >= 0) v = v.replace(c, n);
+              }
+              vars[k] = eval(v);
+            }
+          } catch (_) {
+            return;
+          }
+        }
+      });
+    let tr = $("tr.spy1x").toArray();
+    tr = tr.concat($("tr.spy1xx").toArray());
+    tr = tr.map((e) =>
+      $(e)
+        .find("td")
+        .toArray()
+        .map((td) => $(td).text().trim())
+    );
+    const head = ["Ip", "Port", ...tr.shift().slice(1)];
+    const body = tr.map((e) => {
+      let [ip, port] = e.shift().split(/document.*?>"\+/);
+      for (let o of new Set(port.match(/([a-z0-9]+)/gi))) {
+        port = port.replace(new RegExp(o, "g"), vars[o]);
+      }
+      try {
+        return [
+          ip,
+          port
+            .slice(0, port.length - 1)
+            .match(/\([^\)]+\)/g)
+            .map((e) => eval(e))
+            .join(""),
+          e.shift().replace(/\s*\(.*?\)\s*/, ""),
+          ...e,
+        ];
+      } catch (_) {}
+    });
+    yield { header: head, body: body, key: 2 };
+  }
+};
+
+// MAIN PROGRAM
 
 fs.mkdir(`${PATH}/csv/`, () => {});
 
@@ -314,6 +408,7 @@ const main = async () => {
   let total = 0;
   const outs = { all: fs.createWriteStream(`${PATH}/all_proxy.txt`) };
   for (let raw_provider of [
+    spysone,
     proxy_daily,
     my_proxy,
     iplocation,
@@ -347,7 +442,7 @@ const main = async () => {
         if (!result && done) break;
 
         result.body.forEach((value) => {
-          if (value.length != result.header.length) return;
+          if (!value || value.length != result.header.length) return;
 
           const types = (
             typeof result.key == "string"
@@ -378,9 +473,9 @@ const main = async () => {
             total++;
           }
         });
-        console.log(`< done write ${result.body.length} proxies: ${page}`);
+        console.log(`< done added ${result.body.length} proxies: ${page}`);
       } catch (_) {
-        console.log("! failed scrape proxy" + page);
+        console.log("! failed scrape proxy: " + page);
         console.error(_);
       }
       page++;
