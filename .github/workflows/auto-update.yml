@@ -2,7 +2,7 @@ name: Proxy Updater
 
 on:
   schedule:
-    - cron: "0 */30 * * *"
+    - cron: "* */15 * * *"
 
   workflow_dispatch:
 jobs:
