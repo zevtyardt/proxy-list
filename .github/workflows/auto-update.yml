@@ -2,7 +2,7 @@ name: Proxy Updater
 
 on:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */30 * * *"
 
   workflow_dispatch:
 jobs:
@@ -32,7 +32,7 @@ jobs:
           echo -e "# proxy-list\n" >> README.md
           echo -e "  [![zevtyardt - proxy-list](https://img.shields.io/static/v1?label=zevtyardt&message=proxy-list&color=blue&logo=github)](https://github.com/zevtyardt/proxy-list \"Go to GitHub repo\")" >> README.md
           echo -e "  [![stars - proxy-list](https://img.shields.io/github/stars/zevtyardt/proxy-list?style=social)](https://github.com/zevtyardt/proxy-list)" >> README.md
-          echo -e "  [![forks - proxy-list](https://img.shields.io/github/forks/zevtyardt/proxy-list?style=social)](https://github.com/zevtyardt/proxy-list)" >> README.md
+          echo -e "  [![forks - proxy-list](https://img.shields.io/github/forks/zevtyardt/proxy-list?style=social)](https://github.com/zevtyardt/proxy-list)\n" >> README.md
 
           echo -e "  [![Proxy Updater](https://github.com/zevtyardt/proxy-list/workflows/Proxy%20Updater/badge.svg)](https://github.com/zevtyardt/proxy-list/actions?query=workflow:\"Proxy+Updater\")" >> README.md
           echo -e "  [![issues - proxy-list](https://img.shields.io/github/issues/zevtyardt/proxy-list)](https://github.com/zevtyardt/proxy-list/issues)" >> README.md
