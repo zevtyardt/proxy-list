@@ -1,107 +1,106 @@
 Ip,Port,HTTPS/SSL,Speed,Type,CountryCity
-91.238.190.26,8080,HTTP,217kbit,anonymous,RU Russia-
-195.154.119.182,80,HTTP,286kbit,anonymous,FR France-
-110.185.164.20,9091,HTTP,-,anonymous,CN ChinaChengdu
-128.201.232.102,888,HTTP,116kbit,anonymous,EC Ecuador-
-217.197.162.40,80,HTTP,273kbit,anonymous,PL Poland-
-112.29.170.10,8088,HTTP,-,anonymous,CN China-
-112.6.117.178,8085,HTTP,-,anonymous,CN China-
-120.196.188.21,9091,HTTP,1000kbit,anonymous,CN China-
-124.13.181.6,80,HTTP,20.1kbit,anonymous,MY MalaysiaKota Kinabalu
-112.54.41.177,9091,HTTP,-,anonymous,CN China-
-223.96.90.216,8085,HTTP,23.5kbit,anonymous,CN China-
-185.126.225.54,80,HTTP,75.3kbit,anonymous,GB United Kingdom-
-39.105.95.187,443,HTTP,-,anonymous,CN ChinaHangzhou
-195.181.172.223,8080,HTTP,777kbit,anonymous,DK Denmark-
+101.200.220.107,8080,HTTP,-,anonymous,CN ChinaHangzhou
+91.224.168.22,8080,HTTP,6.7kbit,anonymous,UA UkrainSudak
+183.230.198.80,9091,HTTP,3.9kbit,anonymous,CN China-
+38.94.109.7,80,HTTP,212kbit,anonymous,US United States-
+85.214.124.194,5001,HTTP,12.6kbit,anonymous,DE GermanyBerlin
+165.154.225.142,80,HTTP,58.2kbit,anonymous,CA CanadaOakville
 109.248.222.215,443,HTTP,-,anonymous,RU RussiaCheboksary
-120.237.57.83,9091,HTTP,-,anonymous,CN China-
-155.4.244.133,80,HTTP,50.6kbit,anonymous,SE Sweden-
-120.26.123.95,8010,HTTP,80.5kbit,anonymous,CN ChinaHangzhou
-61.132.228.99,8088,HTTP,-,anonymous,CN ChinaHefei
-42.3.182.146,80,HTTP,172kbit,anonymous,HK Hong KongCentral District
-103.154.231.129,8080,HTTP,19.1kbit,anonymous,TH Thailand-
-103.73.66.36,8085,HTTP,-,anonymous,CN China-
-114.37.203.2,80,HTTP,92.9kbit,anonymous,TW Taiwan-
-118.190.146.252,80,HTTP,-,anonymous,CN ChinaHangzhou
-222.179.155.90,9091,HTTP,-,anonymous,CN ChinaChongqing
-104.148.36.10,80,US,United States,anonymous,yes,no,27 secs ago
-162.247.153.124,80,US,United States,anonymous,yes,no,27 secs ago
-66.29.154.105,3128,US,United States,anonymous,no,no,27 secs ago
-23.94.98.201,8080,US,United States,anonymous,,no,10 mins ago
-38.94.109.7,80,US,United States,anonymous,,no,10 mins ago
-47.87.183.45,8080,US,United States,anonymous,,no,10 mins ago
-34.223.105.122,80,US,United States,anonymous,,no,10 mins ago
-38.94.109.12,80,US,United States,anonymous,,no,10 mins ago
-155.138.197.162,80,US,United States,anonymous,yes,no,30 mins ago
-135.148.45.125,80,US,United States,anonymous,no,no,31 mins ago
-104.245.110.129,8111,US,United States,anonymous,,no,1 hour 21 mins ago
-18.217.42.220,80,US,United States,anonymous,,no,1 hour 31 mins ago
-18.223.136.29,80,US,United States,anonymous,,no,2 hours 20 mins ago
-66.29.154.105,3128,US,United States,anonymous,no,no,27 secs ago
-193.122.71.184,3128,SA,Saudi Arabia,anonymous,no,yes,27 secs ago
-103.172.116.231,80,SG,Singapore,anonymous,no,no,27 secs ago
-217.197.162.40,80,NL,Netherlands,anonymous,no,no,27 secs ago
-146.196.48.2,80,BD,Bangladesh,anonymous,no,no,27 secs ago
-219.78.228.211,80,HK,Hong Kong,anonymous,no,no,27 secs ago
-41.188.149.73,80,TZ,Tanzania,anonymous,no,no,27 secs ago
-128.199.202.122,8080,SG,Singapore,anonymous,no,no,27 secs ago
-178.32.116.64,3128,FR,France,anonymous,no,yes,27 secs ago
-102.130.120.118,80,ZA,South Africa,anonymous,no,no,27 secs ago
-165.154.243.247,80,TW,Taiwan,anonymous,yes,no,27 secs ago
-165.154.226.12,80,TW,Taiwan,anonymous,yes,no,27 secs ago
-195.181.172.223,8080,NL,Netherlands,anonymous,no,no,27 secs ago
-124.13.181.4,80,MY,Malaysia,anonymous,no,no,27 secs ago
-124.13.181.6,80,MY,Malaysia,anonymous,no,no,27 secs ago
-49.207.36.81,80,IN,India,anonymous,yes,no,27 secs ago
-203.198.207.253,80,HK,Hong Kong,anonymous,yes,no,27 secs ago
-112.120.41.171,80,HK,Hong Kong,anonymous,no,no,27 secs ago
-185.126.225.54,80,NL,Netherlands,anonymous,no,no,27 secs ago
-165.154.225.142,80,HK,Hong Kong,anonymous,no,no,27 secs ago
-162.247.153.124,80,US,United States,anonymous,yes,no,27 secs ago
-41.188.149.75,80,TZ,Tanzania,anonymous,no,no,27 secs ago
-114.37.203.2,80,TW,Taiwan,anonymous,yes,no,27 secs ago
-42.3.182.146,80,HK,Hong Kong,anonymous,yes,no,27 secs ago
-124.13.181.7,80,MY,Malaysia,anonymous,no,no,27 secs ago
-104.148.36.10,80,US,United States,anonymous,yes,no,27 secs ago
-61.29.96.146,80,AU,Australia,anonymous,,yes,10 mins ago
-135.181.50.119,443,FI,Finland,anonymous,,yes,10 mins ago
-43.204.16.38,80,IN,India,anonymous,,no,10 mins ago
-34.223.105.122,80,US,United States,anonymous,,no,10 mins ago
-103.154.230.99,5678,ID,Indonesia,anonymous,,no,10 mins ago
-47.87.183.45,8080,US,United States,anonymous,,no,10 mins ago
-23.94.98.201,8080,US,United States,anonymous,,no,10 mins ago
-38.94.109.7,80,US,United States,anonymous,,no,10 mins ago
-47.74.152.29,8888,SG,Singapore,anonymous,,no,10 mins ago
-167.235.192.153,80,DE,Germany,anonymous,,no,10 mins ago
-117.54.114.102,80,ID,Indonesia,anonymous,yes,no,10 mins ago
-38.94.109.12,80,US,United States,anonymous,,no,10 mins ago
+124.13.181.4,80,HTTP,72.9kbit,anonymous,MY MalaysiaKota Kinabalu
+104.148.36.10,80,HTTP,208kbit,anonymous,US United StatesWalnut
+112.230.74.58,8118,HTTP,-,anonymous,CN ChinaJinan
+221.203.158.70,9091,HTTP,-,anonymous,CN ChinaShenyang
+165.154.243.247,80,HTTP,369kbit,anonymous,CA CanadaOakville
+162.247.153.124,80,HTTP,588kbit,anonymous,US United StatesNashua
+183.237.47.54,9091,HTTP,77.6kbit,anonymous,CN China-
+221.231.13.198,1080,HTTP,-,anonymous,CN ChinaNanjing
+111.160.204.146,9091,HTTP,-,anonymous,CN ChinaTianjin
+154.26.134.214,80,HTTP,164kbit,anonymous,US United States-
+104.148.36.10,80,US,United States,anonymous,yes,no,3 secs ago
+66.29.154.105,3128,US,United States,anonymous,no,no,3 secs ago
+162.247.153.124,80,US,United States,anonymous,yes,no,3 secs ago
+138.197.102.119,80,US,United States,anonymous,yes,no,20 mins ago
+18.223.136.29,80,US,United States,anonymous,no,no,21 mins ago
+23.94.98.201,8080,US,United States,anonymous,,no,40 mins ago
+34.223.105.122,80,US,United States,anonymous,,no,40 mins ago
+47.87.183.45,8080,US,United States,anonymous,,no,40 mins ago
+38.94.109.7,80,US,United States,anonymous,,no,40 mins ago
+38.94.109.12,80,US,United States,anonymous,,no,40 mins ago
+155.138.197.162,80,US,United States,anonymous,yes,no,1 hour ago
+135.148.45.125,80,US,United States,anonymous,no,no,1 hour 1 min ago
+104.245.110.129,8111,US,United States,anonymous,,no,1 hour 51 mins ago
+18.217.42.220,80,US,United States,anonymous,,no,2 hours 1 min ago
+66.29.154.105,3128,US,United States,anonymous,no,no,3 secs ago
+103.172.116.231,80,SG,Singapore,anonymous,no,no,3 secs ago
+217.197.162.40,80,NL,Netherlands,anonymous,no,no,3 secs ago
+212.107.28.122,80,HK,Hong Kong,anonymous,yes,no,3 secs ago
+146.196.48.2,80,BD,Bangladesh,anonymous,no,no,3 secs ago
+219.78.228.211,80,HK,Hong Kong,anonymous,no,no,3 secs ago
+178.32.116.64,3128,FR,France,anonymous,no,yes,3 secs ago
+102.130.120.118,80,ZA,South Africa,anonymous,no,no,3 secs ago
+165.154.243.247,80,TW,Taiwan,anonymous,yes,no,3 secs ago
+165.154.226.12,80,TW,Taiwan,anonymous,yes,no,3 secs ago
+195.181.172.223,8080,NL,Netherlands,anonymous,no,no,3 secs ago
+221.132.18.26,8090,VN,Vietnam,anonymous,no,no,3 secs ago
+124.13.181.4,80,MY,Malaysia,anonymous,no,no,3 secs ago
+124.13.181.6,80,MY,Malaysia,anonymous,no,no,3 secs ago
+165.154.225.65,80,HK,Hong Kong,anonymous,no,no,3 secs ago
+49.207.36.81,80,IN,India,anonymous,yes,no,3 secs ago
+203.198.207.253,80,HK,Hong Kong,anonymous,yes,no,3 secs ago
+112.120.41.171,80,HK,Hong Kong,anonymous,no,no,3 secs ago
+185.126.225.54,80,NL,Netherlands,anonymous,no,no,3 secs ago
+62.210.29.53,80,FR,France,anonymous,no,no,3 secs ago
+165.154.225.142,80,HK,Hong Kong,anonymous,no,no,3 secs ago
+42.3.27.74,80,HK,Hong Kong,anonymous,no,no,3 secs ago
+162.247.153.124,80,US,United States,anonymous,yes,no,3 secs ago
+160.19.95.121,1337,ES,Spain,anonymous,no,yes,3 secs ago
+92.119.34.121,1337,AE,United Arab Emirates,anonymous,no,yes,3 secs ago
+114.37.203.2,80,TW,Taiwan,anonymous,yes,no,3 secs ago
+42.3.182.146,80,HK,Hong Kong,anonymous,yes,no,3 secs ago
+124.13.181.7,80,MY,Malaysia,anonymous,no,no,3 secs ago
+104.148.36.10,80,US,United States,anonymous,yes,no,3 secs ago
+128.199.202.122,8080,SG,Singapore,anonymous,,no,16 secs ago
+185.231.114.234,808,IR,Iran,anonymous,,yes,10 mins ago
+89.107.197.165,3128,RU,Russian Federation,anonymous,,yes,10 mins ago
+46.219.80.142,57401,UA,Ukraine,anonymous,,yes,10 mins ago
+154.239.1.77,1981,EG,Egypt,anonymous,no,yes,10 mins ago
+192.99.182.243,3128,CA,Canada,anonymous,no,yes,10 mins ago
+157.245.207.186,8080,SG,Singapore,anonymous,,yes,10 mins ago
+194.233.84.239,80,SG,Singapore,anonymous,,yes,10 mins ago
+95.78.163.106,3127,RU,Russian Federation,anonymous,,yes,10 mins ago
+185.15.172.212,3128,RU,Russian Federation,anonymous,,yes,10 mins ago
+85.195.104.71,80,DE,Germany,anonymous,yes,no,10 mins ago
+155.4.244.133,80,SE,Sweden,anonymous,yes,yes,10 mins ago
+43.255.113.232,8082,KH,Cambodia,anonymous,yes,no,10 mins ago
+47.74.152.29,8888,SG,Singapore,anonymous,yes,no,10 mins ago
+129.154.54.57,3128,KR,South Korea,anonymous,no,no,10 mins ago
 195.154.119.182,80,FR,France,anonymous,no,no,10 mins ago
-212.107.28.122,80,HK,Hong Kong,anonymous,yes,no,10 mins ago
-165.154.225.65,80,HK,Hong Kong,anonymous,no,no,10 mins ago
-42.3.27.74,80,HK,Hong Kong,anonymous,no,no,10 mins ago
-41.188.149.74,80,TZ,Tanzania,anonymous,no,no,11 mins ago
-62.210.29.53,80,FR,France,anonymous,no,no,11 mins ago
-41.188.149.77,80,TZ,Tanzania,anonymous,no,no,11 mins ago
-144.217.131.61,3148,CA,Canada,anonymous,no,no,20 mins ago
-103.154.230.89,5678,ID,Indonesia,anonymous,no,no,20 mins ago
-68.183.242.248,3128,DE,Germany,anonymous,no,no,20 mins ago
-120.89.90.154,8181,ID,Indonesia,anonymous,yes,yes,20 mins ago
-79.175.177.76,8001,IR,Iran,anonymous,,yes,21 mins ago
-185.237.99.218,61443,GB,United Kingdom,anonymous,,yes,21 mins ago
-117.121.204.9,34002,ID,Indonesia,anonymous,,no,21 mins ago
-85.214.124.194,5001,DE,Germany,anonymous,,no,21 mins ago
-3.1.248.232,80,SG,Singapore,anonymous,,no,21 mins ago
-202.150.132.53,8080,ID,Indonesia,anonymous,,no,21 mins ago
-103.171.182.230,8080,ID,Indonesia,anonymous,no,yes,30 mins ago
-155.138.197.162,80,US,United States,anonymous,yes,no,30 mins ago
-41.188.149.79,80,TZ,Tanzania,anonymous,no,no,31 mins ago
-186.178.10.78,9812,EC,Ecuador,anonymous,no,yes,31 mins ago
-138.2.89.217,80,SG,Singapore,anonymous,no,no,31 mins ago
-51.15.242.202,8888,FR,France,anonymous,no,no,31 mins ago
-135.148.45.125,80,US,United States,anonymous,no,no,31 mins ago
-145.239.94.39,80,PL,Poland,anonymous,no,no,31 mins ago
-85.60.193.39,55443,ES,Spain,anonymous,,yes,40 mins ago
-67.206.232.81,999,PR,Puerto Rico,anonymous,,yes,40 mins ago
-221.132.28.18,8090,VN,Vietnam,anonymous,no,no,40 mins ago
-160.19.95.121,1337,ES,Spain,anonymous,no,yes,40 mins ago
-92.119.34.121,1337,AE,United Arab Emirates,anonymous,no,yes,40 mins ago
+41.188.149.73,80,TZ,Tanzania,anonymous,no,no,10 mins ago
+41.188.149.74,80,TZ,Tanzania,anonymous,no,no,10 mins ago
+145.239.94.39,80,PL,Poland,anonymous,no,no,10 mins ago
+103.171.182.230,8080,ID,Indonesia,anonymous,no,yes,10 mins ago
+41.188.149.75,80,TZ,Tanzania,anonymous,no,no,10 mins ago
+41.188.149.77,80,TZ,Tanzania,anonymous,no,no,10 mins ago
+117.54.114.99,80,ID,Indonesia,anonymous,yes,no,11 mins ago
+41.188.149.79,80,TZ,Tanzania,anonymous,no,no,12 mins ago
+138.197.102.119,80,US,United States,anonymous,yes,no,20 mins ago
+178.32.106.249,80,FR,France,anonymous,no,no,21 mins ago
+103.152.232.84,3127,ID,Indonesia,anonymous,no,no,21 mins ago
+18.223.136.29,80,US,United States,anonymous,no,no,21 mins ago
+117.54.114.97,80,ID,Indonesia,anonymous,no,no,21 mins ago
+193.122.71.184,3128,SA,Saudi Arabia,anonymous,no,yes,30 mins ago
+61.29.96.146,80,AU,Australia,anonymous,,yes,40 mins ago
+135.181.50.119,443,FI,Finland,anonymous,,yes,40 mins ago
+43.204.16.38,80,IN,India,anonymous,,no,40 mins ago
+34.223.105.122,80,US,United States,anonymous,,no,40 mins ago
+103.154.230.99,5678,ID,Indonesia,anonymous,,no,40 mins ago
+47.87.183.45,8080,US,United States,anonymous,,no,40 mins ago
+23.94.98.201,8080,US,United States,anonymous,,no,40 mins ago
+38.94.109.7,80,US,United States,anonymous,,no,40 mins ago
+167.235.192.153,80,DE,Germany,anonymous,,no,40 mins ago
+117.54.114.102,80,ID,Indonesia,anonymous,yes,no,40 mins ago
+38.94.109.12,80,US,United States,anonymous,,no,40 mins ago
+144.217.131.61,3148,CA,Canada,anonymous,no,no,50 mins ago
+103.154.230.89,5678,ID,Indonesia,anonymous,no,no,50 mins ago
+68.183.242.248,3128,DE,Germany,anonymous,no,no,50 mins ago
+120.89.90.154,8181,ID,Indonesia,anonymous,yes,yes,50 mins ago
