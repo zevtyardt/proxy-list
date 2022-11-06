@@ -415,7 +415,7 @@ const spysone = async function* () {
 
 // MAIN PROGRAM
 
-fs.mkdir(`${PATH}/csv/`, () => {});
+//fs.mkdir(`${PATH}/csv/`, () => {});
 
 const main = async () => {
   const unique = {};
@@ -465,23 +465,17 @@ const main = async () => {
           ).replace(/\s*proxy\s*/, "");
 
           for (let type of types.split(/\s*,\s*/)) {
-            if (typeof result.key != "string") value[result.key] = type;
+            //if (typeof result.key != "string") value[result.key] = type;
+            type = type.indexOf("socks") >= 0 ? type : "http";
 
             if (!outs[type]) {
               unique[type] = new Set();
-              outs[type] = {
-                csv: fs.createWriteStream(
-                  `${PATH}/csv/${type}_proxy-${provider.name}.csv`
-                ),
-                raw: fs.createWriteStream(`${PATH}/${type}_proxy.txt`),
-              };
-              outs[type].csv.write(result.header.join(",") + "\n");
+              outs[type] = fs.createWriteStream(`${PATH}/${type}.txt`);
             }
 
-            outs[type].csv.write(value.join(",") + "\n");
             const proxy = `${value[result.ip || 0]}:${value[result.port || 1]}`;
             if (unique[type].has(proxy)) return;
-            outs[type].raw.write(proxy + "\n");
+            outs[type].write(proxy + "\n");
             outs.all.write(proxy + "\n");
             unique[type].add(proxy);
             total++;

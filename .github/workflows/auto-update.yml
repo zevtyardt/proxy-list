@@ -47,15 +47,15 @@ jobs:
 
           for file in *.txt;
           do
-            echo -e "  - **$(echo $file | cut -d'_' -f1 | tr 'a-z' 'A-Z')** ($(cat $file | wc -l))" >> README.md
+            echo -e "  - **$(echo $file | cut -d'.' -f1 | tr 'a-z' 'A-Z')** ($(cat $file | wc -l))" >> README.md
             echo -e "    \`\`\`bash" >> README.md
             echo -e "    curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/$file -o $file" >> README.md
             echo -e "    \`\`\`" >> README.md
           done
 
           echo -e "\n# TODO" >> README.md
-          echo -e "  - [ ] menghapus folder *csv/*" >> README.md
-          echo -e "  - [ ] mensortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5" >> README.md
+          echo -e "  - [x] menghapus folder *csv/*" >> README.md
+          echo -e "  - [x] mensortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5" >> README.md
           echo -e "  - [ ] mengecek apakah proxy berfungsi atau tidak" >> README.md
 
           echo -e "\n# Catatan" >> README.md
