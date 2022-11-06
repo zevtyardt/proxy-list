@@ -54,9 +54,9 @@ jobs:
           done
 
           echo -e "\n# TODO" >> README.md
-          echo -e "  - [x] menghapus folder *csv/*" >> README.md
-          echo -e "  - [x] mensortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5" >> README.md
-          echo -e "  - [ ] mengecek apakah proxy berfungsi atau tidak" >> README.md
+          echo -e "  - [x] hapus folder *csv/*" >> README.md
+          echo -e "  - [x] sortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5" >> README.md
+          echo -e "  - [ ] cek apakah proxy berfungsi atau tidak" >> README.md
 
           echo -e "\n# Catatan" >> README.md
           echo -e "> Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu" >> README.md
