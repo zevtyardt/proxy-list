@@ -20,7 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - uses: actions/checkout@v3
 
-      - run: rm *.txt csv/ -rfv
+      - run: rm *.txt -rfv
       - name: start proxy scraper
         run: |
           cd .github/workflows
@@ -65,7 +65,7 @@ jobs:
         run: |
           git config --local user.name ${{ secrets.name }}
           git status
-          git add *.txt README.md csv/
+          git add *.txt README.md
           git commit -m "update: $(cat all_proxy.txt | wc -l) proxies"
       - name: push changes
         uses: ad-m/github-push-action@master
