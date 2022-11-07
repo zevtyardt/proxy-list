@@ -35,7 +35,7 @@ jobs:
           echo -e "  [![forks - proxy-list](https://img.shields.io/github/forks/zevtyardt/proxy-list?style=social)](https://github.com/zevtyardt/proxy-list)\n" >> README.md
 
           echo -e "  [![Proxy Updater](https://github.com/zevtyardt/proxy-list/workflows/Proxy%20Updater/badge.svg)](https://github.com/zevtyardt/proxy-list/actions?query=workflow:\"Proxy+Updater\")" >> README.md
-          echo -e "  [![issues - proxy-list](https://img.shields.io/github/issues/zevtyardt/proxy-list)](https://github.com/zevtyardt/proxy-list/issues)" >> README.md
+          echo -e "  ![GitHub repo size](https://img.shields.io/github/repo-size/zevtyardt/proxy-list)" >> README.md
           echo -e "  [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zevtyardt/proxy-list?logo=commits)](https://github.com/zevtyardt/proxy-list/commits/main)" >> README.md
 
           echo -e "\n</div>\n" >> README.md
