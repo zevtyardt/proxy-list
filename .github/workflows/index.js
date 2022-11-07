@@ -4,7 +4,7 @@ const https = require("https");
 const fs = require("fs");
 
 const PATH = "../..";
-const numPage = 100;
+const numPage = 150;
 const extract_table = (selector, data, custom_cb) => {
   const $ = cheerio.load(data);
   const table = $(selector);
@@ -420,7 +420,7 @@ const spysone = async function* () {
 const main = async () => {
   const unique = {};
   let total = 0;
-  const outs = { all: fs.createWriteStream(`${PATH}/all_proxy.txt`) };
+  const outs = { all: fs.createWriteStream(`${PATH}/all.txt`) };
   for (let raw_provider of [
     spysone,
     proxy_daily,
