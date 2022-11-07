@@ -7,7 +7,7 @@
   [![forks - proxy-list](https://img.shields.io/github/forks/zevtyardt/proxy-list?style=social)](https://github.com/zevtyardt/proxy-list)
 
   [![Proxy Updater](https://github.com/zevtyardt/proxy-list/workflows/Proxy%20Updater/badge.svg)](https://github.com/zevtyardt/proxy-list/actions?query=workflow:"Proxy+Updater")
-  [![issues - proxy-list](https://img.shields.io/github/issues/zevtyardt/proxy-list)](https://github.com/zevtyardt/proxy-list/issues)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/zevtyardt/proxy-list)
   [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zevtyardt/proxy-list?logo=commits)](https://github.com/zevtyardt/proxy-list/commits/main)
 
 </div>
@@ -15,23 +15,23 @@
   Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.
 
   - **jumlah proxy:** ±0
-  - **terakhir diupdate:** Mon, 07 Nov 22 18:43:51 WIB
+  - **terakhir diupdate:** Mon, 07 Nov 22 18:53:38 WIB
 
 # Unduh
   Salin dan tempel salah satu kode dibawah ke terminal
-  - **ALL** (19860)
+  - **ALL** (19407)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/all.txt -o all.txt
     ```
-  - **HTTP** (10309)
+  - **HTTP** (10229)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt -o http.txt
     ```
-  - **SOCKS4** (6130)
+  - **SOCKS4** (5970)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt -o socks4.txt
     ```
-  - **SOCKS5** (3421)
+  - **SOCKS5** (3208)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5.txt -o socks5.txt
     ```
