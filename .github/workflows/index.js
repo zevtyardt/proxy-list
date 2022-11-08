@@ -4,7 +4,7 @@ const https = require("https");
 const fs = require("fs");
 
 const PATH = "../..";
-const numPage = 50;
+const numPage = 200;
 const extract_table = (selector, data, custom_cb) => {
   const $ = cheerio.load(data);
   const table = $(selector);
