@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4444** proxies at the latest update. Usable proxies are below.
+> Scraper found **4522** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|241|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|241|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|241|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|208|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|208|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|208|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|523|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|601|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|273|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2265|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|3|198.52.97.210|59394|United States|Santa Clarita|Multacom Corporation|
-|4|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|7|182.253.109.140|8080|Indonesia|Semarang|Biznet Metronet|
-|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|9|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|10|190.107.234.144|999|Ecuador|Quevedo|CINECABLE TV|
-|11|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|142.132.191.196|80|Germany|Falkenstein|Hetzner Online GmbH|
+|3|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|45.167.95.145|999|Mexico|Querétaro City|NDI.COM.MX SA DE CV|
+|5|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|6|151.80.212.72|3128|France|Roubaix|OVH SAS|
+|7|201.77.110.129|999|Mexico|Cuauhtemoc|Nidix Networks S.a. De C.V.|
+|8|217.28.220.234|80|Russia|Skolkovo|JSC IOT|
+|9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|10|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|11|191.249.72.144|80|Brazil|Palhoca|TELEFÔNICA BRASIL S.A|
 |12|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|13|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|15|188.242.219.58|8080|Russia|St Petersburg|SkyNet LLC|
-|16|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|17|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
-|18|190.121.153.93|999|Colombia|Tunja|Media Commerce Partners S.A|
-|19|190.107.234.139|999|Ecuador|Quevedo|CINECABLE TV|
-|20|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|13|131.100.48.73|999|Colombia|Iquira|Fibernet TV SAS|
+|14|182.253.109.140|8080|Indonesia|Semarang|Biznet Metronet|
+|15|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|16|45.174.70.18|53281|Mexico|Huatabampo|Index Datacom S.a. De C.V.|
+|17|188.124.250.138|8008|Kazakhstan|Karaganda|Miranda-Media Ltd|
+|18|108.170.31.49|50013|United States|Phoenix|Secured Servers LLC|
+|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|20|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
 
 
 
