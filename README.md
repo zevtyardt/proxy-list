@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4705** proxies at the latest update. Usable proxies are below.
+> Scraper found **4775** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|278|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|278|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|278|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|236|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|236|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|236|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|714|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|684|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|294|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2414|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|172.105.225.236|31330|Japan|Tokyo|Linode, LLC|
-|4|149.202.160.140|8085|France|Gravelines|OVH SAS|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 |5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|9|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|10|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|11|212.116.102.110|8080|Russia|St Petersburg|Prometey Ltd netblock|
-|12|14.102.37.1|8080|India|Karur|WORLDPHONE|
-|13|201.222.83.145|999|Bolivia|Santa Cruz|Cotas Ltda.|
-|14|45.170.35.57|999|Honduras|Danli|Onda Network S de R.L|
-|15|108.170.31.49|50013|United States|Phoenix|Secured Servers LLC|
-|16|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|17|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|18|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|19|119.15.81.74|41890|Cambodia|Phnom Penh|WiCAM Corporation Ltd|
-|20|70.90.138.109|8080|United States|Northville|Comcast Cable Communications, LLC|
+|6|201.33.248.93|8888|Brazil|Dois Córregos|A. P. OLIVEIRA & CIA. INFORMATICA LTDA.|
+|7|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|8|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|9|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|10|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|11|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|12|103.76.12.42|80|Indonesia|Kebayoran Baru|MORATELINDO|
+|13|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|14|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
+|15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|16|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|17|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|18|157.100.58.124|999|Ecuador|Quito|Nedetel S.A.|
+|19|14.177.236.212|55443|Vietnam|Hanoi|VNPT|
+|20|94.181.48.61|1256|Russia|Moscow|Enforta-MSK|
 
 
 
