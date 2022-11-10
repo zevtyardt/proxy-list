@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|164|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|164|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|164|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|166|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|166|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|166|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|3|91.229.67.77|8085|Ukraine|Kyiv|INFOAURA-MNT|
-|4|82.102.13.45|8080|United Kingdom|Gosport|Redstation Limited|
-|5|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|6|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|7|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|8|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|9|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|10|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|11|198.52.97.210|59394|United States|Santa Clarita|Multacom Corporation|
-|12|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|13|148.66.129.77|9453|Singapore|Singapore|GoDaddy.com, LLC|
-|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|15|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|16|118.99.122.12|8080|Indonesia|South Tangerang|BIZNET|
-|17|109.200.155.195|8080|Ukraine|Simferopol|Crelcom LLC|
-|18|85.173.221.214|80|Russia|Volgograd|Volgograd Electro Svyaz|
-|19|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|20|190.107.234.144|999|Ecuador|Quevedo|CINECABLE TV|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|6|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|7|195.230.115.227|8080|Ukraine|Odesa|FOP A.L. Kryuchkov|
+|8|192.70.208.33|9080|United States|Vicksburg|SkyRider Communications, Inc.|
+|9|168.0.239.224|8787|Brazil|Salvador|VOANET Telecomunicações Ltda.|
+|10|95.217.120.82|3368|Finland|Helsinki|Hetzner Online GmbH|
+|11|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|13|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|14|181.78.27.34|999|Paraguay|Asunción|Ufinet Paraguay S.A|
+|15|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|16|192.99.199.49|3128|Canada|Beauharnois|OVH Hosting|
+|17|95.217.120.82|3368|Finland|Helsinki|Hetzner Online GmbH|
+|18|132.145.248.100|3128|Germany|Frankfurt am Main|Oracle Corporation|
+|19|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|20|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
 
 
 
