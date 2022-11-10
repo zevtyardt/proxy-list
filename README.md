@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4921** proxies at the latest update. Usable proxies are below.
+> Scraper found **4705** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|113|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|113|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|113|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|278|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|278|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|278|
 
 ## Sources
 
@@ -35,11 +35,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|754|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|714|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|370|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|294|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2414|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|3|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|4|185.239.237.198|3128|Germany|Münster|combahton GmbH|
-|5|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|6|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|190.90.154.195|999|Colombia|Bogotá|InterNexa Global Network|
-|9|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|10|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|11|157.100.58.124|999|Ecuador|Quito|Nedetel S.A.|
-|12|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|13|50.236.203.15|8080|United States|Alpharetta|Comcast Cable Communications, LLC|
-|14|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|15|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|16|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|17|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
-|18|123.182.59.48|8089|China|Zhangjiakou|Chinanet|
-|19|45.224.23.105|999|Ecuador|Jipijapa|Nedetel S.A.|
-|20|157.230.241.133|35793|Singapore|Singapore|DigitalOcean, LLC|
+|1|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|172.105.225.236|31330|Japan|Tokyo|Linode, LLC|
+|4|149.202.160.140|8085|France|Gravelines|OVH SAS|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|10|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|11|212.116.102.110|8080|Russia|St Petersburg|Prometey Ltd netblock|
+|12|14.102.37.1|8080|India|Karur|WORLDPHONE|
+|13|201.222.83.145|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|14|45.170.35.57|999|Honduras|Danli|Onda Network S de R.L|
+|15|108.170.31.49|50013|United States|Phoenix|Secured Servers LLC|
+|16|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|17|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|18|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|19|119.15.81.74|41890|Cambodia|Phnom Penh|WiCAM Corporation Ltd|
+|20|70.90.138.109|8080|United States|Northville|Comcast Cable Communications, LLC|
 
 
 
