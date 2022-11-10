@@ -1,0 +1,52 @@
+name: proxy-list-scraper
+
+on:
+  schedule:
+   - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7.7'
+          
+      - name: Install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Execute py script
+       # env: 
+       #   EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+       #   EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python sudo.py | tee output.log
+       
+      - name: Update date.txt
+        run: |
+          date '+%F %H:%M %Z' >| date.txt
+          
+      - name: Update badge-date.json
+        run: |
+          date '+{ "schemaVersion": 1, "label": "Last updated", "message": "%F %H:%M %Z", "color": "brightgreen" }' >| badge-date.json
+          
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Proxy Scraper Bot"
+          git add -A
+          git commit -m "Update Proxies (`date '+%F %H:%M %Z'`)" -a
+          git branch -u origin/master
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ secrets.BRANCH }}  
