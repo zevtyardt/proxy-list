@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4869** proxies at the latest update. Usable proxies are below.
+> Scraper found **4706** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|285|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|285|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|285|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|225|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|225|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|225|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|722|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|684|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|350|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2414|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|374|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2265|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|1|129.80.217.21|3128|United States|Ashburn|Oracle Corporation|
 |2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|4|149.202.160.140|8085|France|Gravelines|OVH SAS|
-|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|6|93.177.73.122|8888|Germany|Frankfurt am Main|M247 Ltd|
-|7|178.208.88.21|11111|Netherlands|Amsterdam|MCHOST|
-|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|9|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|10|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|11|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|12|46.99.205.10|8080|Kosovo|Pristina|IPKO Telecommunications LLC|
-|13|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|14|95.0.90.243|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
-|15|212.116.102.110|8080|Russia|St Petersburg|Prometey Ltd netblock|
-|16|200.201.142.18|8080|Brazil|São Paulo|Telium Telecomunicações Ltda|
-|17|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|18|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|19|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|20|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|3|217.28.220.234|80|Russia|Skolkovo|JSC IOT|
+|4|189.173.7.229|999|Mexico|Hermosillo|Uninet S.A. de C.V|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|7|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|8|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
+|9|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|182.253.109.140|8080|Indonesia|Semarang|Biznet Metronet|
+|12|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|13|103.41.28.42|8080|India|Kolkata|Spider Broadband Pvt. Ltd.|
+|14|171.22.24.21|442|Iran|Tehran|Pars Parva System LLC|
+|15|171.244.10.193|1911|Vietnam|Hanoi|VIETEL|
+|16|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|17|157.100.58.124|999|Ecuador|Quito|Nedetel S.A.|
+|18|201.91.82.155|3128|Brazil|São Paulo|Vivo|
+|19|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|20|190.107.234.139|999|Ecuador|Quevedo|CINECABLE TV|
 
 
 
