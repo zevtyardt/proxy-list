@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4274** proxies at the latest update. Usable proxies are below.
+> Scraper found **4311** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|162|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|162|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|162|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|169|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|169|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|169|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|503|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|540|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|204|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2184|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
-|4|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|5|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|7|180.183.118.57|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|8|182.253.109.140|8080|Indonesia|Semarang|Biznet Metronet|
-|9|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
-|10|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
-|11|194.145.138.16|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
-|12|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|213.6.17.251|19000|Palestine|Ramallah|Palestine Telecommunications Company|
-|14|103.179.109.156|3128|India|Rajkot|Ishan Netsol Pvt Ltd|
-|15|103.157.96.97|3128|Indonesia|Jakarta|PT Beon Intermedia|
-|16|134.35.1.41|8080|Yemen|Sanaa|Public Telecommunication Corporation|
-|17|190.107.237.10|999|Ecuador|Milagro|CINECABLE TV|
-|18|50.235.149.74|8080|United States|Pittsburgh|Comcast Cable Communications, LLC|
-|19|118.89.176.33|8118|China|Shenzhen|Shenzhen Tencent Computer Systems Company Limited|
-|20|80.249.187.85|8080|Russia|St Petersburg|Smart Telecom Company|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|3|103.179.109.156|3128|India|Rajkot|Ishan Netsol Pvt Ltd|
+|4|180.183.118.57|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|5|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|6|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
+|7|108.61.73.183|3128|United States|Piscataway|The Constant Company|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|103.157.96.97|3128|Indonesia|Jakarta|PT Beon Intermedia|
+|10|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|11|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|12|190.107.237.10|999|Ecuador|Milagro|CINECABLE TV|
+|13|185.213.27.227|3128|Germany|Düsseldorf|Contabo GmbH|
+|14|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|15|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|16|74.84.70.250|3128|United States|Chester|Mediacom Communications Corp|
+|17|201.150.117.8|999|Mexico|El Arenal|Hulux Telecomunicaciones|
+|18|103.247.121.115|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|19|190.90.224.122|999|Colombia|Popayán|Internexa S.a. E.S.P|
+|20|180.92.145.234|8080|Pakistan|Karachi|Fiberlink|
 
 
 
