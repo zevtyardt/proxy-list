@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4264** proxies at the latest update. Usable proxies are below.
+> Scraper found **4550** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|197|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|197|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|197|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|179|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|179|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|179|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|648|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|634|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|269|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2264|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|6|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|7|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
-|8|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|9|103.157.96.97|3128|Indonesia|Jakarta|PT Beon Intermedia|
-|10|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|11|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|12|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
-|13|83.1.242.110|8080|Poland|Warsaw|Orange Polska Spolka Akcyjna|
-|14|196.223.63.218|8080|South Africa|Pretoria|Telemasters|
-|15|190.107.233.236|999|Ecuador|Hacienda Ibarra|CINECABLE TV|
-|16|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|17|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|18|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|19|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|20|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|2|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|4|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|103.157.96.97|3128|Indonesia|Jakarta|PT Beon Intermedia|
+|7|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|8|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
+|9|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|10|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|11|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|12|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|13|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|14|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|15|103.157.96.97|3128|Indonesia|Jakarta|PT Beon Intermedia|
+|16|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
+|17|144.217.7.157|9300|Canada|Beauharnois|OVH SAS|
+|18|139.159.243.135|80|China|Guangzhou|Huawei Cloud Service data center|
+|19|194.147.58.125|9999|Germany|Düsseldorf|Contabo GmbH|
+|20|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
 
 
 
