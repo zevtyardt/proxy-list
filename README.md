@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4410** proxies at the latest update. Usable proxies are below.
+> Scraper found **4319** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|212|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|212|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|212|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|167|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|167|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|167|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|500|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|430|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|260|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|239|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2267|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|2|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
+|1|108.61.73.183|3128|United States|Piscataway|The Constant Company|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 |3|108.61.73.183|3128|United States|Piscataway|The Constant Company|
-|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|108.61.73.183|3128|United States|Piscataway|The Constant Company|
+|4|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|7|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
 |8|148.66.129.77|9453|Singapore|Singapore|GoDaddy.com, LLC|
-|9|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|10|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|11|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|13|190.110.111.135|999|Chile|San Vicente|Silica Networks Argentina S.A.|
-|14|190.110.111.133|999|Chile|San Vicente|Silica Networks Argentina S.A.|
-|15|201.220.150.89|999|Argentina|Rio Tercero|Intercom SRL|
-|16|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|17|190.110.111.130|999|Chile|San Vicente|Silica Networks Argentina S.A.|
-|18|190.110.111.132|999|Chile|San Vicente|Silica Networks Argentina S.A.|
-|19|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|20|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|119.42.67.82|8080|Thailand|Samphanthawong|CAT-BB|
+|11|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|12|91.185.58.246|8080|Russia|Irkutsk|JSC Irkutsk Business Net, Inc.|
+|13|190.107.234.153|999|Ecuador|Quevedo|CINECABLE TV|
+|14|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|15|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|16|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|17|190.210.223.90|8080|Argentina|Buenos Aires|NSS S.A.|
+|18|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|19|75.111.123.158|1888|United States|Clovis|Suddenlink Communications|
+|20|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
 
 
 
