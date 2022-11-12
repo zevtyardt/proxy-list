@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4278** proxies at the latest update. Usable proxies are below.
+> Scraper found **4351** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|424|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|397|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|297|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2274|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|2|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
-|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|190.60.39.196|999|Colombia|Chapinero|IFX NETWORKS COLOMBIA|
-|6|103.152.100.187|8080|Pakistan|Lahore|KK Networks (Pvt) Ltd.|
-|7|124.83.73.45|8080|Philippines|Roxas City|Philippine Long Distance Telephone Co.|
-|8|102.38.12.9|8080|Libya|Tripoli|GKL|
-|9|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|10|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|11|95.216.194.46|1081|Finland|Helsinki|Hetzner Online GmbH|
-|12|111.225.152.69|8089|China|Gaocheng|Chinanet|
+|1|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|6|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|7|62.201.212.214|8080|Iraq|Sulaymaniyah|NETWORKS-SULY1|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|107.152.236.194|10000|United States|Buffalo|B2 Net Solutions Inc.|
+|10|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|11|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
+|12|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
 |13|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|14|143.244.167.68|8080|United States|North Bergen|DigitalOcean, LLC|
+|14|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
 |15|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|16|108.61.73.183|3128|United States|Piscataway|The Constant Company|
-|17|213.149.182.98|8080|Cyprus|Nicosia|CYTANET - Cyprus Telecommunications Authority|
-|18|109.70.189.70|56408|Russia|Novyy Khushet|JSC Elektrosvyaz|
-|19|159.65.143.9|8080|Singapore|Singapore|DigitalOcean, LLC|
-|20|200.94.142.218|999|Mexico|Jalpa de Mendez|Alestra, S. de R.L. de C.V.|
+|16|143.244.167.68|8080|United States|North Bergen|DigitalOcean, LLC|
+|17|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|18|111.225.153.29|8089|China|Gaocheng|Chinanet|
+|19|123.182.58.239|8089|China|Zhangjiakou|Chinanet|
+|20|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
 
 
 
