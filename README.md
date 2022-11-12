@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4673** proxies at the latest update. Usable proxies are below.
+> Scraper found **4601** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|284|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|284|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|284|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|270|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|270|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|270|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|785|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|586|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|233|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2272|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|325|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2307|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.11.191.206|1337|Finland|Helsinki|TCK OOO|
-|2|160.19.94.30|1337|Spain|Madrid|Stallion Network Services Limited|
-|3|45.11.191.208|1337|Finland|Helsinki|TCK OOO|
+|1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|2|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|3|74.208.51.100|80|United States|Knoxville|IONOS SE|
 |4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|45.11.191.207|1337|Finland|Helsinki|TCK OOO|
-|6|107.152.36.118|3128|United States|Chicago|tzulo, inc.|
-|7|107.152.36.118|3128|United States|Chicago|tzulo, inc.|
-|8|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|12|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|13|190.60.39.194|999|Colombia|Chapinero|IFX NETWORKS COLOMBIA|
-|14|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|15|139.99.236.128|3128|Australia|Sydney|OVH SAS|
-|16|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|17|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|23.229.21.138|3128|United States|Piscataway|Server Mania Inc|
-|20|101.109.176.64|8080|Thailand|Krathum Baen|TOT Public Company Limited|
+|5|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|6|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|7|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|8|74.208.51.100|80|United States|Knoxville|IONOS SE|
+|9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|10|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
+|11|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
+|12|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|13|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|14|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|15|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|16|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|3.28.194.197|8080|United Arab Emirates|Dubai|Amazon Technologies Inc.|
+|19|103.157.96.97|3128|Indonesia|Jakarta|PT Beon Intermedia|
+|20|200.201.142.18|8080|Brazil|São Paulo|Telium Telecomunicações Ltda|
 
 
 
