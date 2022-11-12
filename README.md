@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4348** proxies at the latest update. Usable proxies are below.
+> Scraper found **4159** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|183|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|183|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|183|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|102|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|102|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|102|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|532|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|443|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|159|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2274|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
-|2|206.189.37.48|8080|Singapore|Singapore|DigitalOcean, LLC|
-|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|1|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
 |4|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
 |5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|6|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|7|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|6|121.173.30.180|8080|South Korea|Bucheon-si|Korea Telecom|
+|7|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|8|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|206.189.37.48|8080|Singapore|Singapore|DigitalOcean, LLC|
 |10|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|11|182.253.109.140|8080|Indonesia|Semarang|Biznet Metronet|
-|12|132.145.248.100|3128|Germany|Frankfurt am Main|Oracle Corporation|
-|13|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|14|190.187.201.26|8080|Peru|Sechura|Americatel Peru S.A.|
-|15|110.78.149.13|8080|Thailand|Samphanthawong|CAT-BB|
-|16|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
-|17|107.152.236.253|10000|United States|Buffalo|B2 Net Solutions Inc.|
-|18|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|19|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|11|78.36.1.204|3128|Russia|Murmansk|PJSC "Rostelecom" North-West region|
+|12|123.182.59.173|8089|China|Zhangjiakou|Chinanet|
+|13|181.204.118.50|8080|Colombia|Barranquilla|EPM Telecomunicaciones S.A. E.S.P.|
+|14|103.125.162.134|83|India|Hyderabad|CtrlS Datacenters Ltd.|
+|15|132.145.248.100|3128|Germany|Frankfurt am Main|Oracle Corporation|
+|16|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|17|142.132.191.196|80|Germany|Falkenstein|Hetzner Online GmbH|
+|18|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
+|19|111.225.152.69|8089|China|Gaocheng|Chinanet|
 |20|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
 
 
