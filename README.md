@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4337** proxies at the latest update. Usable proxies are below.
+> Scraper found **4272** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|155|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|155|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|155|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|171|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|171|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|171|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|544|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|479|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|203|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2207|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|191.97.16.123|999|Venezuela|Caracas|INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)|
-|4|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|5|103.189.222.2|8080|Indonesia|Tangerang|PT. WIKAPLUS GLOBAL NUSANTARA|
-|6|187.63.156.84|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
-|7|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|8|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|9|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
-|10|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|11|47.254.31.179|80|United States|Minkler|Alibaba.com LLC|
-|12|135.181.103.85|8888|Finland|Helsinki|Hetzner Online GmbH|
-|13|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
-|14|185.190.38.150|8080|Kosovo|Dubova|Kadri Haxhiaj trading as "B.I."|
-|15|5.44.62.166|8080|Russia|Perm|JSC "ER-Telecom Holding"|
-|16|207.180.252.117|2222|Germany|Nuremberg|Contabo GmbH|
-|17|194.44.172.254|23500|Ukraine|Ternopil|State Enterprise Scientific and Telecommunication Centre "Ukrainian Academic an|
-|18|82.200.237.10|8080|Kazakhstan|Atyrau|Kazakhtelecom Data Network Administration|
-|19|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|20|36.93.133.170|8080|Indonesia|Jakarta|Telekomunikasi Indonesia|
+|2|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|3|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|7|203.215.166.162|3129|Pakistan|Islamabad|Pakistan Software Export Board|
+|8|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
+|9|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|10|200.82.188.26|999|Venezuela|Caracas|Corporación Telemic C.A.|
+|11|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|12|74.208.51.100|80|United States|Knoxville|IONOS SE|
+|13|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|14|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|15|103.189.222.2|8080|Indonesia|Tangerang|PT. WIKAPLUS GLOBAL NUSANTARA|
+|16|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|17|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|18|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
+|19|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|20|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
 
 
 
