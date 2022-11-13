@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4552** proxies at the latest update. Usable proxies are below.
+> Scraper found **4524** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|223|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|223|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|223|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|172|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|172|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|172|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|704|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|627|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|218|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|267|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2247|✅|
 
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
 |2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 |3|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|4|18.215.69.33|8888|United States|Ashburn|Amazon.com, Inc.|
-|5|162.55.64.81|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|6|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|8|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|10|154.0.171.221|3128|South Africa|Sandton|Afrihost (Pty) Ltd|
-|11|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|184.95.3.154|8888|Puerto Rico|San Juan|PREPA Networks|
-|14|181.10.160.155|8080|Argentina|Río Cuarto|Telecom Argentina S.A|
-|15|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|16|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|17|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|18|123.182.58.79|8089|China|Zhangjiakou|Chinanet|
-|19|45.86.209.108|3128|United States|Phoenix|Clouvider Limited|
-|20|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|4|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|7|65.21.54.229|8888|Finland|Helsinki|Hetzner Online GmbH|
+|8|154.0.171.221|3128|South Africa|Sandton|Afrihost (Pty) Ltd|
+|9|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|10|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
+|11|184.95.3.154|8888|Puerto Rico|San Juan|PREPA Networks|
+|12|170.233.240.3|3180|Brazil|Sao Goncalo|Navenet Informatica Ltda|
+|13|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
+|14|1.10.178.155|8080|Thailand|Bangkok|TOT Public Company Limited|
+|15|103.172.70.139|9191|Indonesia|Jakarta|AZNET|
+|16|131.161.238.126|8090|Argentina|San Miguel de Tucumán|Tucuman BBS S.R.L.|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|19|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|20|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
 
 
 
