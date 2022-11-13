@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4524** proxies at the latest update. Usable proxies are below.
+> Scraper found **4585** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|172|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|172|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|172|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|212|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|212|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|212|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|627|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|688|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|267|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2247|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|4|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|7|65.21.54.229|8888|Finland|Helsinki|Hetzner Online GmbH|
-|8|154.0.171.221|3128|South Africa|Sandton|Afrihost (Pty) Ltd|
-|9|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|10|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|11|184.95.3.154|8888|Puerto Rico|San Juan|PREPA Networks|
-|12|170.233.240.3|3180|Brazil|Sao Goncalo|Navenet Informatica Ltda|
-|13|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|14|1.10.178.155|8080|Thailand|Bangkok|TOT Public Company Limited|
-|15|103.172.70.139|9191|Indonesia|Jakarta|AZNET|
-|16|131.161.238.126|8090|Argentina|San Miguel de Tucumán|Tucuman BBS S.R.L.|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
-|19|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|20|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|4|110.77.236.113|8080|Thailand|Lue Amnat|CAT Telecom Public Company Limited|
+|5|154.0.171.221|3128|South Africa|Sandton|Afrihost (Pty) Ltd|
+|6|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|7|177.75.96.18|3128|Brazil|Pato Branco|Optinet Telecomunicações Ltda|
+|8|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|9|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|10|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|11|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|12|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|13|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|14|95.217.23.223|8888|Finland|Helsinki|Hetzner Online GmbH|
+|15|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
+|16|123.182.58.68|8089|China|Zhangjiakou|Chinanet|
+|17|95.217.131.241|8888|Finland|Helsinki|Hetzner Online GmbH|
+|18|124.158.186.254|8080|Indonesia|Bogor|PT Jala Lintas Media|
+|19|34.82.217.181|5555|United States|The Dalles|Google LLC|
+|20|170.0.92.43|9812|Argentina|Gualeguaychú|Conrado Cagnoli|
 
 
 
