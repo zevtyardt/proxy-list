@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4121** proxies at the latest update. Usable proxies are below.
+> Scraper found **4062** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|84|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|84|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|84|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|158|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|158|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|158|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|303|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|358|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|201|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|87|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2234|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|2|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|3|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|7|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|8|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|10|118.89.176.33|8118|China|Shenzhen|Shenzhen Tencent Computer Systems Company Limited|
-|11|123.182.59.48|8089|China|Zhangjiakou|Chinanet|
-|12|123.182.59.109|8089|China|Zhangjiakou|Chinanet|
-|13|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|14|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|15|123.182.59.98|8089|China|Zhangjiakou|Chinanet|
-|16|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|17|123.182.58.60|8089|China|Zhangjiakou|Chinanet|
-|18|111.225.153.123|8089|China|Gaocheng|Chinanet|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|1|51.161.61.46|9090|Colombia|Bogotá|OVH Hosting|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|4|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|135.181.103.249|8888|Finland|Helsinki|Hetzner Online GmbH|
+|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|185.233.94.239|8080|Russia|St Petersburg|Filanco Spb ltd|
+|13|187.130.139.197|8080|Mexico|Mexico City|Uninet S.A. de C.V.|
+|14|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|15|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|16|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|17|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|18|118.89.176.33|8118|China|Shenzhen|Shenzhen Tencent Computer Systems Company Limited|
+|19|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|20|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
 
 
 
