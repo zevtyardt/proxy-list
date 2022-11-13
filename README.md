@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4690** proxies at the latest update. Usable proxies are below.
+> Scraper found **4542** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|303|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|303|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|303|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
 
 ## Sources
 
@@ -35,11 +35,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|712|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|524|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|338|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|278|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2357|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|51.161.61.46|9090|Colombia|Bogotá|OVH Hosting|
-|2|85.208.107.193|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|3|85.208.107.198|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|4|85.208.107.200|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|5|85.208.107.197|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|6|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|7|85.208.107.192|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
-|8|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|9|94.45.137.34|8080|Ukraine|Kyiv Oblast|Kievline LLC|
-|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|2|185.128.91.9|3128|Netherlands|Weesp|Wifinity B.V.|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|85.208.107.192|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|5|85.208.107.200|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|6|85.208.107.197|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|7|85.208.107.198|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|8|85.208.107.193|1337|Germany|Frankfurt am Main|Ipxo UK Limited|
+|9|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
 |12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
-|15|107.152.236.196|10000|United States|Buffalo|B2 Net Solutions Inc.|
-|16|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|17|103.123.169.177|83|Bangladesh|Feni|Sajid Trading Ltd.|
-|18|143.202.65.20|8080|Brazil|Sao Vicente|Mirage Tecnologia|
-|19|103.172.179.231|83|India|Hyderabad|CtrlS Datacenters Ltd.|
-|20|107.152.42.111|3128|United States|Chicago|tzulo, inc.|
+|13|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|14|141.136.35.187|80|United Kingdom|Manchester|Hostinger International Limited|
+|15|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|16|103.172.179.231|83|India|Hyderabad|CtrlS Datacenters Ltd.|
+|17|138.97.117.2|8080|Brazil|Nova Iguaçu|NC BRASIL TELECOM E SERVICOS LTDA- ME|
+|18|143.244.133.78|80|India|Bengaluru|DigitalOcean, LLC|
+|19|182.253.109.74|8080|Indonesia|Semarang|Biznet Metronet|
+|20|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
 
 
 
