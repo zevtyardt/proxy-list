@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4723** proxies at the latest update. Usable proxies are below.
+> Scraper found **4542** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|191|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|191|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|191|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|644|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|563|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|258|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2438|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|2|134.122.85.174|8888|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|134.122.85.174|8888|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
 |3|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|4|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|6|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|7|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|8|156.34.187.155|8888|Canada|Fall River|Bell Canada|
-|9|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|10|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|11|65.21.159.40|8888|Finland|Helsinki|Hetzner Online GmbH|
-|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|13|190.107.233.237|999|Ecuador|Hacienda Ibarra|CINECABLE TV|
-|14|201.222.45.52|999|Chile|Santiago|GRUPO ULLOA SpA|
-|15|190.107.234.134|999|Ecuador|Quevedo|CINECABLE TV|
-|16|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|17|154.19.187.251|3128|Japan|Tokyo|Cogent Communications|
-|18|190.107.233.236|999|Ecuador|Hacienda Ibarra|CINECABLE TV|
-|19|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
-|20|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|4|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
+|5|156.34.187.155|8888|Canada|Fall River|Bell Canada|
+|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|12|198.59.191.234|8080|United States|Las Cruces|TDS TELECOM|
+|13|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|14|144.217.7.157|5566|Canada|Beauharnois|OVH SAS|
+|15|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
+|16|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|17|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|190.107.234.131|999|Ecuador|Quevedo|CINECABLE TV|
+|20|190.216.107.196|999|Ecuador|Quito|Level 3 ECUADOR LVLT S.A|
 
 
 
