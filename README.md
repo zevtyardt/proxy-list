@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4586** proxies at the latest update. Usable proxies are below.
+> Scraper found **4429** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|325|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|325|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|325|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|245|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|245|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|245|
 
 ## Sources
 
@@ -37,10 +37,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|645|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|525|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|321|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2237|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|258|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2263|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|159.197.250.11|3128|United States|New York|LAKSH|
 |2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|4|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|3|159.197.250.11|3128|United States|New York|LAKSH|
+|4|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
 |5|18.130.182.45|3128|United Kingdom|London|Amazon Technologies Inc.|
 |6|157.245.76.5|3128|Netherlands|Amsterdam|DigitalOcean, LLC|
 |7|20.113.40.250|3128|Germany|Frankfurt am Main|Microsoft Corporation|
-|8|176.126.83.189|3128|Italy|Milan|Seflow S.N.C. Di Marco Brame' & C.|
-|9|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|10|159.197.250.11|3128|United States|New York|LAKSH|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|13|95.217.132.109|8888|Finland|Helsinki|Hetzner Online GmbH|
-|14|45.9.188.100|8888|Netherlands|Meppel|Hostinger International Limited|
-|15|135.181.42.136|8888|Finland|Helsinki|Hetzner Online GmbH|
-|16|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|17|156.34.187.155|8888|Canada|Fall River|Bell Canada|
-|18|95.217.23.223|8888|Finland|Helsinki|Hetzner Online GmbH|
-|19|95.217.131.241|8888|Finland|Helsinki|Hetzner Online GmbH|
-|20|65.21.158.201|8888|Finland|Helsinki|Hetzner Online GmbH|
+|8|45.9.188.100|8888|Netherlands|Meppel|Hostinger International Limited|
+|9|175.196.107.133|3128|South Korea|Seoul|Korea Telecom|
+|10|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|11|65.21.158.201|8888|Finland|Helsinki|Hetzner Online GmbH|
+|12|95.217.131.241|8888|Finland|Helsinki|Hetzner Online GmbH|
+|13|20.187.72.38|3128|Hong Kong|Hong Kong|Microsoft Corporation|
+|14|95.217.21.60|8888|Finland|Helsinki|Hetzner Online GmbH|
+|15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|16|130.198.19.116|3128|Australia|Sydney|SoftLayer|
+|17|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|220.241.131.164|3128|Hong Kong|Central|Hong Kong Telecommunications (HKT) Limited Business Internet|
+|19|135.181.194.189|8888|Finland|Helsinki|Hetzner Online GmbH|
+|20|95.216.136.105|8888|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
