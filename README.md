@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|420|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|420|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|420|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|456|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|456|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|456|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
-|2|159.197.250.11|3128|United States|New York|LAKSH|
+|1|159.197.250.11|3128|United States|New York|LAKSH|
+|2|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
 |3|38.146.52.242|3128|United States|Boston|Charles River Operation|
 |4|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|5|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
 |7|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|8|5.57.41.190|3128|Germany|Berlin|Planetary-Networks|
-|9|159.197.250.11|3128|United States|New York|LAKSH|
-|10|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
+|8|159.197.250.11|3128|United States|New York|LAKSH|
+|9|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
+|10|5.57.41.190|3128|Germany|Berlin|Planetary-Networks|
 |11|38.146.52.242|3128|United States|Boston|Charles River Operation|
 |12|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|13|154.197.139.238|23073|Hong Kong|Hong Kong|Shenzhen Jizhan Technology Co Ltd|
-|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 |15|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|16|101.53.134.45|3128|India|Bengaluru|E2E Networks Limited|
-|17|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|18|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|19|79.137.195.10|3128|Netherlands|Amsterdam|AEZA GROUP Ltd|
-|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|101.53.134.45|3128|India|Bengaluru|E2E Networks Limited|
+|18|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|20|103.191.92.177|3128|Indonesia|Genuksari|PT Cloud Hosting Indonesia|
 
 
 
