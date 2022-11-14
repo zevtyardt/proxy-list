@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|216|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|216|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|216|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|247|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|247|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|247|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|174.138.116.12|80|United States|Clifton|DigitalOcean, LLC|
-|2|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|4|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|6|14.143.172.238|8080|India|Canning|Tata Communications Limited|
-|7|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|8|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|9|146.190.226.35|3128|Netherlands|Amsterdam|DigitalOcean, LLC|
-|10|95.217.132.109|8888|Finland|Helsinki|Hetzner Online GmbH|
-|11|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|12|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|13|5.202.66.167|8080|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
-|14|194.87.93.6|8888|Russia|Moscow|JSC Mediasoft ekspert|
-|15|61.7.191.154|80|Thailand|Ang Thong|CAT Telecom Public Company Limited|
-|16|117.50.159.109|3128|China|Beijing|UCLOUD|
-|17|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|18|95.217.21.60|8888|Finland|Helsinki|Hetzner Online GmbH|
-|19|95.217.23.223|8888|Finland|Helsinki|Hetzner Online GmbH|
-|20|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|4|110.78.149.59|8080|Thailand|Samphanthawong|CAT-BB|
+|5|78.108.108.9|8080|Czechia|Pilsen|Neutral Free eXchange members - FreeTel alternate|
+|6|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|9|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|10|194.145.138.58|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
+|11|194.87.93.6|8888|Russia|Moscow|JSC Mediasoft ekspert|
+|12|123.182.59.28|8089|China|Zhangjiakou|Chinanet|
+|13|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
+|14|41.33.3.35|1981|Egypt|Cairo|TE Data|
+|15|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|16|95.217.23.223|8888|Finland|Helsinki|Hetzner Online GmbH|
+|17|156.34.187.155|8888|Canada|Fall River|Bell Canada|
+|18|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
+|19|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|20|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
 
 
 
