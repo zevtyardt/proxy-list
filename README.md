@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4453** proxies at the latest update. Usable proxies are below.
+> Scraper found **4410** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|247|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|247|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|247|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|315|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|315|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|315|
 
 ## Sources
 
@@ -35,11 +35,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|484|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|591|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|323|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|273|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2263|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|174.138.116.12|80|United States|Clifton|DigitalOcean, LLC|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|4|110.78.149.59|8080|Thailand|Samphanthawong|CAT-BB|
-|5|78.108.108.9|8080|Czechia|Pilsen|Neutral Free eXchange members - FreeTel alternate|
-|6|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|9|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|10|194.145.138.58|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
-|11|194.87.93.6|8888|Russia|Moscow|JSC Mediasoft ekspert|
-|12|123.182.59.28|8089|China|Zhangjiakou|Chinanet|
-|13|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
-|14|41.33.3.35|1981|Egypt|Cairo|TE Data|
-|15|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|16|95.217.23.223|8888|Finland|Helsinki|Hetzner Online GmbH|
-|17|156.34.187.155|8888|Canada|Fall River|Bell Canada|
-|18|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|19|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|20|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|1|18.209.197.247|3128|United States|Ashburn|Amazon.com, Inc.|
+|2|174.138.116.12|80|United States|Clifton|DigitalOcean, LLC|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|5|18.209.197.247|3128|United States|Ashburn|Amazon.com, Inc.|
+|6|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|111.90.147.212|8118|Malaysia|Kuantan|Shinjiru Technology Sdn Bhd|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|1.64.237.92|8888|Hong Kong|Yuen Long|PCCW IMS Limited|
+|11|182.253.109.140|8080|Indonesia|Semarang|Biznet Metronet|
+|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|13|182.253.109.74|8080|Indonesia|Semarang|Biznet Metronet|
+|14|145.40.121.159|3128|Brazil|São Paulo|Packet Host, Inc.|
+|15|61.7.191.154|80|Thailand|Ang Thong|CAT Telecom Public Company Limited|
+|16|206.62.64.34|8080|Brazil|Maringá|AGIS|
+|17|122.3.41.154|8090|Philippines|Quezon City|Philippine Long Distance Telephone Co.|
+|18|178.208.88.21|11111|Netherlands|Amsterdam|MCHOST|
+|19|184.95.3.154|8888|Puerto Rico|San Juan|PREPA Networks|
+|20|5.202.66.167|8080|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
 
 
 
