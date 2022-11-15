@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4792** proxies at the latest update. Usable proxies are below.
+> Scraper found **4659** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|550|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|550|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|550|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|524|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|524|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|524|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|766|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|600|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|356|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|389|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2287|✅|
 
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|159.197.250.11|3128|United States|New York|LAKSH|
 |2|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
 |3|38.146.52.250|3128|United States|Boston|Charles River Operation|
-|4|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|5|38.146.52.242|3128|United States|Boston|Charles River Operation|
-|6|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|7|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|8|40.76.229.90|3128|United States|Boydton|Microsoft Corporation|
-|9|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|10|44.211.219.183|3128|United States|Ashburn|Amazon.com|
+|4|38.146.52.242|3128|United States|Boston|Charles River Operation|
+|5|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|6|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|7|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|8|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|9|187.130.139.197|8080|Mexico|Mexico City|Uninet S.A. de C.V.|
+|10|160.16.149.114|3128|Japan|Tokyo|SAKURA Internet Inc.|
 |11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|13|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|14|5.57.41.190|3128|Germany|Berlin|Planetary-Networks|
-|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|16|216.173.115.11|3128|United States|Ashburn|Tier.Net Technologies LLC|
-|17|38.146.52.242|3128|United States|Boston|Charles River Operation|
-|18|159.197.250.11|3128|United States|New York|LAKSH|
-|19|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|20|157.245.76.5|3128|Netherlands|Amsterdam|DigitalOcean, LLC|
+|12|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|13|5.57.41.190|3128|Germany|Berlin|Planetary-Networks|
+|14|40.76.229.90|3128|United States|Boydton|Microsoft Corporation|
+|15|37.59.154.117|8080|France|Gravelines|OVH SAS|
+|16|44.211.219.183|3128|United States|Ashburn|Amazon.com|
+|17|5.189.157.63|8080|Germany|Nuremberg|Contabo GmbH|
+|18|54.38.153.122|8888|Germany|Limburg an der Lahn|OVH SAS|
+|19|159.197.250.11|3128|United States|New York|LAKSH|
+|20|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
 
 
 
