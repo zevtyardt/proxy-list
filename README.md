@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5239** proxies at the latest update. Usable proxies are below.
+> Scraper found **5138** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|370|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|370|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|370|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|430|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|430|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|430|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|833|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|732|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|422|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2601|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|2|159.197.250.11|3128|United States|New York|LAKSH|
-|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|4|38.146.52.242|3128|United States|Boston|Charles River Operation|
-|5|38.146.52.250|3128|United States|Boston|Charles River Operation|
-|6|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|7|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|8|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|1|159.197.250.11|3128|United States|New York|LAKSH|
+|2|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|3|38.146.52.242|3128|United States|Boston|Charles River Operation|
+|4|38.146.52.250|3128|United States|Boston|Charles River Operation|
+|5|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|6|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|7|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|8|159.197.250.11|3128|United States|New York|LAKSH|
 |9|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|10|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|11|159.197.250.11|3128|United States|New York|LAKSH|
-|12|38.146.52.242|3128|United States|Boston|Charles River Operation|
-|13|38.146.52.250|3128|United States|Boston|Charles River Operation|
-|14|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|15|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|16|198.59.191.234|8080|United States|Las Cruces|TDS TELECOM|
-|17|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|18|198.59.191.234|8080|United States|Las Cruces|TDS TELECOM|
-|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|20|223.204.99.13|8888|Thailand|Bang Klam|Triple T Broadband Public Company Limited|
+|10|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|11|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|12|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|13|38.146.52.242|3128|United States|Boston|Charles River Operation|
+|14|38.146.52.250|3128|United States|Boston|Charles River Operation|
+|15|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|16|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
+|17|198.59.191.234|8080|United States|Las Cruces|TDS TELECOM|
+|18|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|20|194.233.79.157|3128|Singapore|Singapore|Contabo Asia Private Limited|
 
 
 
