@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5040** proxies at the latest update. Usable proxies are below.
+> Scraper found **4957** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|491|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|491|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|491|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|982|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|899|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|439|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2236|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|159.197.250.11|3128|United States|New York|LAKSH|
 |2|38.146.52.252|3128|United States|Boston|Charles River Operation|
 |3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|6|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|7|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|8|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|9|159.197.250.11|3128|United States|New York|LAKSH|
-|10|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|11|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|154.19.187.251|3128|Japan|Tokyo|Cogent Communications|
-|15|185.61.77.134|8088|Russia|Moscow|Altagen JSC|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|18|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|19|176.192.70.58|8017|Russia|Moscow|Net By Net Holding LLC|
-|20|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|4|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|5|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|7|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|159.197.250.11|3128|United States|New York|LAKSH|
+|11|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|12|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|13|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|14|51.68.140.229|8080|Poland|Warsaw|OVH SAS|
+|15|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|185.61.77.134|8088|Russia|Moscow|Altagen JSC|
+|18|134.238.252.143|8080|India|Mumbai|Google LLC|
+|19|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|20|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
 
 
 
