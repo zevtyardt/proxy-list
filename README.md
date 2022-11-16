@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4761** proxies at the latest update. Usable proxies are below.
+> Scraper found **4780** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|194|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|194|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|194|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|207|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|207|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|207|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|749|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|768|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|318|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2311|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|2|159.197.250.11|3128|United States|New York|LAKSH|
-|3|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|4|159.197.250.11|3128|United States|New York|LAKSH|
-|5|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|1|159.197.250.11|3128|United States|New York|LAKSH|
+|2|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|4|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|5|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|6|159.197.250.11|3128|United States|New York|LAKSH|
 |7|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|8|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|9|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|8|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|9|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
 |10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|11|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|12|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|13|107.152.42.111|3128|United States|Chicago|tzulo, inc.|
-|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|15|20.187.72.38|3128|Hong Kong|Hong Kong|Microsoft Corporation|
-|16|36.80.136.178|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
-|17|78.108.38.179|3128|Greece|Thessaloniki|Synapsecom S.A.|
-|18|95.217.132.109|8888|Finland|Helsinki|Hetzner Online GmbH|
-|19|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|20|159.197.250.11|3128|United States|New York|LAKSH|
+|11|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|12|54.88.125.126|9999|United States|Ashburn|Amazon.com, Inc.|
+|13|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|14|156.34.187.155|8888|Canada|Fall River|Bell Canada|
+|15|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|16|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|18|78.108.38.179|3128|Greece|Thessaloniki|Synapsecom S.A.|
+|19|95.216.136.105|8888|Finland|Helsinki|Hetzner Online GmbH|
+|20|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
 
 
 
