@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4510** proxies at the latest update. Usable proxies are below.
+> Scraper found **4420** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|205|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|205|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|205|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|193|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|193|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|193|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|529|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|439|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|287|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2311|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|159.197.250.11|3128|United States|New York|LAKSH|
 |2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|4|195.81.120.231|3128|Belgium|Brussels|GTT Communications Inc.|
-|5|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|6|159.197.250.11|3128|United States|New York|LAKSH|
-|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|3|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|4|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|5|195.81.120.231|3128|Belgium|Brussels|GTT Communications Inc.|
+|6|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|7|159.197.250.11|3128|United States|New York|LAKSH|
 |8|145.14.157.80|3128|Netherlands|Meppel|Hostinger International Limited|
-|9|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|12|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|9|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|11|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 |13|191.252.196.14|8888|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
-|14|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|14|212.46.210.242|8080|Russia|Moscow|VympelKom broadband internet|
 |15|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|17|188.121.120.185|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|19|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|20|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|16|37.148.217.234|999|Dominican Republic|Santiago de los Caballeros|idear4business international LTD|
+|17|38.146.52.252|3128|United States|Boston|Charles River Operation|
+|18|70.177.15.10|8080|United States|Mesa|Cox Communications Inc.|
+|19|119.76.142.196|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
+|20|38.146.52.252|3128|United States|Boston|Charles River Operation|
 
 
 
