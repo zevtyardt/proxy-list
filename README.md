@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4957** proxies at the latest update. Usable proxies are below.
+> Scraper found **4733** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|336|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|336|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|336|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|899|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|726|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|439|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|388|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2236|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.197.250.11|3128|United States|New York|LAKSH|
-|2|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|4|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|5|68.183.242.248|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|7|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|9|51.159.115.233|3128|France|Paris|SCALEWAY|
-|10|159.197.250.11|3128|United States|New York|LAKSH|
-|11|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|12|38.146.52.252|3128|United States|Boston|Charles River Operation|
-|13|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|14|51.68.140.229|8080|Poland|Warsaw|OVH SAS|
-|15|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|185.61.77.134|8088|Russia|Moscow|Altagen JSC|
-|18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|20|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|3|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|4|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|10|149.255.39.225|3128|United States|Chicago|HIVELOCITY, Inc.|
+|11|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|12|18.215.98.199|3128|United States|Ashburn|Amazon.com, Inc.|
+|13|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|14|194.233.79.157|3128|Singapore|Singapore|Contabo Asia Private Limited|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|76.80.19.107|8080|United States|San Bernardino|Charter Communications|
+|17|89.254.249.173|8080|Russia|Kirovo-Chepetsk|PJSC Rostelecom|
+|18|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|19|137.220.238.16|7890|Japan|Tokyo|Rackip Consultancy Pte. LTD|
+|20|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
 
 
 
