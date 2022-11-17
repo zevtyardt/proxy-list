@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4449** proxies at the latest update. Usable proxies are below.
+> Scraper found **4401** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|249|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|249|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|249|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|252|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|252|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|252|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|436|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|459|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|283|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|212|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2347|✅|
 
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|45.72.5.31|3128|United States|Piscataway|Server Mania Inc|
 |2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 |3|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|4|45.72.5.31|3128|United States|Piscataway|Server Mania Inc|
-|5|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|6|109.205.126.6|8080|Latvia|Riga|Kronospan Riga SIA|
-|7|45.231.220.71|999|Mexico|Tijuana|Distrokom S De RL De CV|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|10|203.150.113.243|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|183.89.9.167|8080|Thailand|Lampang|Triple T Broadband Public Company Limited|
-|13|154.19.187.251|3128|Japan|Tokyo|Cogent Communications|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|16|5.61.27.201|8080|United States|Henderson|Nrp Network LLC | United States Network|
-|17|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|18|52.81.70.148|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
-|19|103.31.109.59|3128|Indonesia|Ciwedus|Koperasi PRIMKOKAS|
-|20|201.222.76.34|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|4|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|5|45.72.5.31|3128|United States|Piscataway|Server Mania Inc|
+|6|92.241.102.47|3128|Russia|Khislavichi|SMOLTELECOM|
+|7|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|8|37.112.57.47|8080|Russia|Bryansk|CJSC "ER-Telecom Holding" Bryansk branch|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|103.75.118.100|4443|Japan|Aomori|BrainStorm Network|
+|11|180.183.108.230|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|172.104.60.117|3128|Singapore|Singapore|Linode, LLC|
+|16|51.159.115.233|3128|France|Paris|SCALEWAY|
+|17|109.205.126.6|8080|Latvia|Riga|Kronospan Riga SIA|
+|18|8.242.187.228|999|Colombia|Quinchia|CTL Colombia|
+|19|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
