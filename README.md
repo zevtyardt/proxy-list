@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5134** proxies at the latest update. Usable proxies are below.
+> Scraper found **4861** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|434|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|434|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|434|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|336|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|336|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|336|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1105|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|832|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|323|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2423|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
-|3|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|4|160.16.141.82|3190|Japan|Tokyo|SAKURA Internet Inc.|
-|5|95.217.120.80|3368|Finland|Helsinki|Hetzner Online GmbH|
-|6|145.40.121.157|3128|Brazil|São Paulo|Packet Host, Inc.|
-|7|186.3.38.212|999|Ecuador|Cuenca|Telconet S.A|
-|8|186.3.38.213|999|Ecuador|Cuenca|Telconet S.A|
-|9|52.67.176.72|8888|Brazil|São Paulo|Amazon Technologies Inc.|
-|10|191.97.60.188|999|Peru|Huancayo|Internexa Peru S.A|
-|11|20.229.33.75|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|1|20.234.198.245|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
+|4|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|95.217.120.80|3368|Finland|Helsinki|Hetzner Online GmbH|
+|8|145.40.121.157|3128|Brazil|São Paulo|Packet Host, Inc.|
+|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|10|27.79.41.123|10000|Vietnam|Hanoi|Viettel Corporation|
+|11|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|186.3.38.213|999|Ecuador|Cuenca|Telconet S.A|
+|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|15|186.3.38.212|999|Ecuador|Cuenca|Telconet S.A|
+|16|36.90.12.6|80|Indonesia|Bulakkenjeran|PT. Telekomunikasi Indonesia|
 |17|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|18|183.89.155.224|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|19|27.79.41.123|10000|Vietnam|Hanoi|Viettel Corporation|
-|20|182.253.217.198|8080|Indonesia|Madiun|BIZNET|
+|18|27.79.2.54|10000|Vietnam|Hanoi|Viettel Corporation|
+|19|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|20|51.159.115.233|3128|France|Paris|SCALEWAY|
 
 
 
