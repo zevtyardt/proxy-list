@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4278** proxies at the latest update. Usable proxies are below.
+> Scraper found **4204** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|166|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|166|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|166|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|108|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|108|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|108|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|524|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|450|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|189|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2282|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
-|3|187.250.42.196|999|Mexico|Tijuana|Uninet S.A. de C.V.|
-|4|134.238.252.143|8080|India|Mumbai|Google LLC|
-|5|27.79.11.170|10000|Vietnam|Buon Ma Thuot|Viettel Corporation|
-|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|9|213.6.227.38|45730|Palestine|Gaza|Palestine Telecommunications Company|
-|10|171.6.130.123|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|11|217.219.74.130|8888|Iran|Tehran|Iran Telecommunication Company PJS|
-|12|108.170.31.49|50013|United States|Phoenix|Secured Servers LLC|
-|13|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
-|14|47.57.233.110|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|156.34.187.155|8888|Canada|Dartmouth|Bell Canada|
-|16|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|17|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|18|103.142.254.75|8080|Indonesia|Tulungagung|Lintas Data Prima, PT|
-|19|152.231.25.58|8080|Colombia|Florencia|Colombiatel Telecomunicaciones|
-|20|110.77.171.189|8080|Thailand|Samphanthawong|CAT-BB|
+|1|112.78.162.99|8080|Indonesia|Jakarta|Biznet Networks|
+|2|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|3|186.3.38.214|999|Ecuador|Cuenca|Telconet S.A|
+|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
+|7|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|8|209.146.19.61|55443|Philippines|Pasig|Cogent Communications|
+|9|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
+|10|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|11|156.34.187.155|8888|Canada|Dartmouth|Bell Canada|
+|12|221.225.243.219|7890|China|Kunshan|CHINANET jiangsu province network|
+|13|54.223.88.48|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
+|14|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|183.172.192.201|4780|China|Haidian|CERNET|
+|16|147.139.4.105|3128|India|Mumbai|Alibaba.com LLC|
+|17|134.238.252.143|8080|India|Mumbai|Google LLC|
+|18|183.173.25.136|4780|China|Haidian|CERNET|
+|19|82.157.236.219|3333|China|Shenzhen|Shenzhen Tencent Computer Systems Company Limited|
+|20|114.116.227.173|10010|China|Beijing|Huawei Cloud Service data center|
 
 
 
