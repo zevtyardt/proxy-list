@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4489** proxies at the latest update. Usable proxies are below.
+> Scraper found **4392** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|289|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|289|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|289|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|188|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|188|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|188|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|699|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|602|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|182|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2325|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
 |2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|181.215.178.39|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|4|45.124.64.56|3128|Hong Kong|Central|HOSTUS|
-|5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|167.235.21.123|10015|Germany|Falkenstein|Hetzner Online GmbH|
 |6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|9|119.2.48.121|8080|Indonesia|Yogyakarta|GMEDIA|
-|10|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
+|7|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|8|172.104.60.117|3128|Singapore|Singapore|Linode, LLC|
+|9|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|10|119.2.48.121|8080|Indonesia|Yogyakarta|GMEDIA|
+|11|1.252.243.18|8080|South Korea|Yeonje-gu|SK Broadband Co Ltd|
+|12|217.28.220.234|80|Russia|Skolkovo|JSC IOT|
 |13|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|16|182.253.109.234|8080|Indonesia|Semarang|Biznet Metronet|
-|17|183.172.179.230|7891|China|Haidian|CERNET|
-|18|5.161.156.151|3000|United States|Ashburn|Hetzner Online GmbH|
-|19|69.75.140.157|8080|United States|San Luis|Spectrum|
-|20|54.86.167.65|9999|United States|Ashburn|Amazon.com, Inc.|
+|14|52.81.149.245|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
+|15|52.81.68.24|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
+|16|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|17|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|18|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|19|8.214.116.19|3128|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 
 
 
