@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|225|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|225|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|225|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|238|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|238|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|238|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|653|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|632|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|295|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|316|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2359|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
-|3|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|4|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|7|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|9|139.162.87.43|443|Japan|Tokyo|Linode, LLC|
-|10|183.88.13.155|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|45.190.170.254|999|Peru|Lima|Softbutterfly SAC|
-|13|103.104.193.22|8080|Pakistan|Karachi|Redtone Telecommunications Pakistan (Private) Limited|
-|14|183.89.119.179|8080|Thailand|Ban Nong Sala|Triple T Broadband Public Company Limited|
-|15|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
-|16|103.142.255.9|8085|Indonesia|Kepanjen|Lintas Data Prima, PT|
-|17|110.78.141.175|8080|Thailand|Bangkok|CAT-BB|
-|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|19|148.72.152.156|3128|United States|St Louis|GoDaddy.com|
-|20|182.253.131.40|8080|Indonesia|Jakarta|BIZNET|
+|1|142.93.51.113|3128|United States|North Bergen|DigitalOcean, LLC|
+|2|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|3|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|5|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
+|6|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
+|11|77.41.146.44|8080|Russia|Moscow|OJSC Vimpelcom HQ|
+|12|27.79.4.93|10000|Vietnam|Buon Ma Thuot|Viettel Corporation|
+|13|177.43.72.251|3128|Brazil|Brasília|Vivo|
+|14|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|15|191.97.6.214|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|183.88.13.155|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
+|18|190.113.41.84|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
+|19|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|20|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
 
 
 
