@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5258** proxies at the latest update. Usable proxies are below.
+> Scraper found **4657** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|418|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|418|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|418|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|348|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|348|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|348|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|795|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|791|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|603|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2577|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|486|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2397|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|4|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|5|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|7|148.72.152.156|3128|United States|St Louis|GoDaddy.com|
-|8|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|117.251.103.186|8080|India|Noida|BSNL Internet|
-|11|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|12|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|13|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
-|15|202.51.190.202|8080|Bangladesh|Dhaka|ADN Telecom Ltd.|
-|16|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|17|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|18|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|19|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|20|103.142.255.9|8085|Indonesia|Kepanjen|Lintas Data Prima, PT|
+|1|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|5|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|117.251.103.186|8080|India|Noida|BSNL Internet|
+|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|13|185.2.81.11|8080|Netherlands|Naaldwijk|WorldStream B.V.|
+|14|202.51.190.202|8080|Bangladesh|Dhaka|ADN Telecom Ltd.|
+|15|45.235.12.253|999|Ecuador|Daule|Anibal Humberto Enriquez Moncayo(Comunicate)|
+|16|110.76.129.106|59570|Bangladesh|Dhaka|KS Network Limited|
+|17|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|18|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|19|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|20|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
 
 
 
