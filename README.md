@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4593** proxies at the latest update. Usable proxies are below.
+> Scraper found **4798** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|287|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|287|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|287|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|437|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|437|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|437|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|636|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|841|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|384|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2290|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
-|4|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|5|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
-|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|200.106.124.59|999|Peru|Tacna|Telefonica del Peru|
-|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|11|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|2|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|3|59.15.28.113|3128|South Korea|Yangcheon-gu|Korea Telecom|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|190.209.27.86|999|Chile|San Bernardo|Telmex Servicios Empresariales S.A.|
+|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
+|9|160.16.102.35|3190|Japan|Tokyo|SAKURA Internet Inc.|
+|10|103.165.1.3|8080|Indonesia|Samarinda|PT Borneo Digital Indonusa|
+|11|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
 |12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
-|14|103.165.1.3|8080|Indonesia|Samarinda|PT Borneo Digital Indonusa|
-|15|103.142.255.9|8085|Indonesia|Kepanjen|Lintas Data Prima, PT|
-|16|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|17|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|18|181.48.199.138|999|Colombia|Riohacha|Telmex Colombia S.A.|
-|19|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|20|179.49.117.226|999|Honduras|La Galera|Asociacion De Servicio De Internet S. De RL.|
+|13|195.3.245.193|3128|Russia|Simferopol|CrimeaCom South LLC|
+|14|200.106.124.40|999|Peru|Tacna|Telefonica del Peru|
+|15|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
+|16|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|17|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|18|183.88.191.185|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|19|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|20|13.208.43.202|8888|Japan|Osaka|Amazon Technologies Inc.|
 
 
 
