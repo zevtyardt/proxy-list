@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4437** proxies at the latest update. Usable proxies are below.
+> Scraper found **4467** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|249|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|249|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|249|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|357|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|357|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|357|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|546|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|608|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|392|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|360|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2216|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|2|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|3|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|158.69.27.94|9300|Canada|Montreal|OVH SAS|
-|7|103.25.210.227|8111|Indonesia|Purwokerto|TRANSDATA|
+|1|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|45.65.137.243|999|Colombia|Cúcuta|TV AZTECA SUCURSAL COLOMBIA|
 |8|203.150.113.64|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
-|9|201.229.250.22|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|10|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
-|11|70.60.230.8|9797|United States|Mount Airy|Spectrum|
-|12|181.232.190.214|999|Dominican Republic|Santo Domingo Este|Airtime Technology SRL|
-|13|181.74.81.195|999|Chile|Limache|Telmex Servicios Empresariales S.A.|
-|14|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|15|188.133.153.227|1256|Russia|Moscow|Enforta-MSK|
-|16|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|17|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|18|82.200.237.10|8080|Kazakhstan|Atyrau|Kazakhtelecom Data Network Administration|
-|19|187.49.191.61|999|Honduras|Juticalpa|Olancho NET S.r.l. De C.V.|
-|20|103.233.156.44|8080|Indonesia|Jakarta|PT. Mora Telematika Indonesia|
+|9|131.100.51.105|999|Colombia|Neiva|Fibernet TV SAS|
+|10|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|11|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|12|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|13|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
+|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|15|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|16|36.90.131.113|80|Indonesia|Makassar|PT. Telekomunikasi Indonesia|
+|17|45.172.111.89|999|Argentina|Caucete|GPS SANJUAN SRL.|
+|18|85.133.229.10|8080|Iran|Tehran|Sepanta Communication Development Co. Ltd|
+|19|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
+|20|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
 
 
 
