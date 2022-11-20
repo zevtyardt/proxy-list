@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5150** proxies at the latest update. Usable proxies are below.
+> Scraper found **4929** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|411|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|411|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|411|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|425|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|425|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|425|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|884|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|860|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|693|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|496|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2290|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.50|3128|United States|Ashburn|Sprint|
-|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|160.16.81.134|3190|Japan|Tokyo|SAKURA Internet Inc.|
+|2|45.42.177.50|3128|United States|Ashburn|Sprint|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
 |4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|5|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|6|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
-|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|11|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
-|12|160.16.102.35|3190|Japan|Tokyo|SAKURA Internet Inc.|
-|13|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
-|16|110.50.84.3|80|Indonesia|Bandung|PT. MNC Kabel Mediacom|
-|17|168.196.12.15|8080|Brazil|Brasília|SH TURBO INTERNET TEC. E EMPREENDIMENTOS|
-|18|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|5|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
+|7|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|8|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|9|160.16.81.134|3190|Japan|Tokyo|SAKURA Internet Inc.|
+|10|88.255.64.82|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|11|185.104.112.148|3128|Poland|Ełk|Timeweb-Artnet|
+|12|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|168.196.12.15|8080|Brazil|Brasília|SH TURBO INTERNET TEC. E EMPREENDIMENTOS|
+|15|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|16|134.236.230.121|8080|Thailand|Prachin Buri|CAT-BB|
+|17|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|18|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|19|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
