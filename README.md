@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4590** proxies at the latest update. Usable proxies are below.
+> Scraper found **4642** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|238|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|238|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|238|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|289|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|289|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|289|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|632|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|684|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|316|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2359|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|142.93.51.113|3128|United States|North Bergen|DigitalOcean, LLC|
-|2|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|3|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
-|6|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|11|77.41.146.44|8080|Russia|Moscow|OJSC Vimpelcom HQ|
-|12|27.79.4.93|10000|Vietnam|Buon Ma Thuot|Viettel Corporation|
-|13|177.43.72.251|3128|Brazil|Brasília|Vivo|
-|14|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|15|191.97.6.214|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|17|183.88.13.155|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
-|18|190.113.41.84|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
-|19|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|20|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|1|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
+|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
+|9|103.142.255.9|8085|Indonesia|Kepanjen|Lintas Data Prima, PT|
+|10|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|11|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
+|12|200.106.124.59|999|Peru|Tacna|Telefonica del Peru|
+|13|147.139.4.105|3128|India|Mumbai|Alibaba.com LLC|
+|14|221.5.80.66|3128|China|Guangzhou|China Unicom  IP network China169 Guangdong province|
+|15|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|16|200.111.182.6|443|Chile|Las Condes|Entel Chile S.A.|
+|17|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|18|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|19|20.113.40.250|3128|Germany|Frankfurt am Main|Microsoft Corporation|
+|20|176.222.224.1|8118|Czechia|Kladno|Cable-NET s.r.o.|
 
 
 
