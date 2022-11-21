@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4367** proxies at the latest update. Usable proxies are below.
+> Scraper found **3949** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|162|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|162|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|162|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|178|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|178|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|178|
 
 ## Sources
 
@@ -35,11 +35,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|612|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|362|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|215|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|147|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2157|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.68|3128|United States|Ashburn|Sprint|
-|2|45.42.177.9|3128|United States|Ashburn|Sprint|
-|3|45.42.177.3|3128|United States|Ashburn|Sprint|
-|4|45.42.177.57|3128|United States|Ashburn|Sprint|
-|5|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|6|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
-|7|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|8|45.42.177.7|3128|United States|Ashburn|Sprint|
-|9|45.42.177.3|3128|United States|Ashburn|Sprint|
-|10|45.42.177.68|3128|United States|Ashburn|Sprint|
-|11|45.42.177.9|3128|United States|Ashburn|Sprint|
-|12|45.42.177.57|3128|United States|Ashburn|Sprint|
-|13|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|1|45.42.177.7|3128|United States|Ashburn|Sprint|
+|2|45.42.177.16|3128|United States|Ashburn|Sprint|
+|3|45.42.177.57|3128|United States|Ashburn|Sprint|
+|4|45.42.177.9|3128|United States|Ashburn|Sprint|
+|5|45.42.177.68|3128|United States|Ashburn|Sprint|
+|6|45.42.177.3|3128|United States|Ashburn|Sprint|
+|7|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|8|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|9|45.42.177.68|3128|United States|Ashburn|Sprint|
+|10|45.42.177.9|3128|United States|Ashburn|Sprint|
+|11|45.42.177.57|3128|United States|Ashburn|Sprint|
+|12|45.42.177.3|3128|United States|Ashburn|Sprint|
+|13|45.42.177.16|3128|United States|Ashburn|Sprint|
 |14|45.42.177.7|3128|United States|Ashburn|Sprint|
-|15|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|16|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
-|17|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|18|45.42.177.16|3128|United States|Ashburn|Sprint|
-|19|134.238.252.143|8080|India|Mumbai|Google LLC|
-|20|117.251.103.186|8080|India|Noida|BSNL Internet|
+|15|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|17|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|18|134.238.252.143|8080|India|Mumbai|Google LLC|
+|19|117.251.103.186|8080|India|Noida|BSNL Internet|
+|20|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
 
 
 
