@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4490** proxies at the latest update. Usable proxies are below.
+> Scraper found **4439** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|173|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|173|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|173|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
 
 ## Sources
 
@@ -35,11 +35,11 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|559|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|638|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|255|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|225|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2325|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|117.251.103.186|8080|India|Noida|BSNL Internet|
-|5|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
-|6|103.189.116.19|8080|Indonesia|Tipar|PT Callysta Total Solusindo|
-|7|180.183.1.91|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|8|66.128.123.114|8080|United States|St Louis|Spectrum|
-|9|125.25.32.149|8080|Thailand|Phayao|TOT Public Company Limited|
-|10|182.253.131.40|8080|Indonesia|Jakarta|BIZNET|
-|11|181.66.181.163|999|Peru|Tacna|Telefonica del Peru S.A.A.|
-|12|176.118.147.125|8080|Ukraine|Vinnytsia|VINASTERISK, PP|
-|13|202.131.159.50|80|India|Bengaluru|Convergent Telecom Private Limited|
-|14|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|15|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|16|201.222.45.53|999|Chile|Santiago|GRUPO ULLOA SpA|
-|17|190.60.38.228|999|Colombia|Santiago de Cali|IFX NETWORKS COLOMBIA|
-|18|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|19|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|20|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|2|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|5|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|6|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
+|7|142.93.253.168|3128|United States|North Bergen|DigitalOcean, LLC|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|193.122.71.184|3128|Saudi Arabia|Jeddah|Oracle Corporation|
+|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|11|159.223.71.45|3128|Singapore|Singapore|DigitalOcean, LLC|
+|12|117.251.103.186|8080|India|Noida|BSNL Internet|
+|13|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|14|134.0.63.134|8000|Albania|Tirana|Agjencia Kombetare Shoqerise se Informacionit|
+|15|203.189.137.96|8080|Cambodia|Phnom Penh|ONLINE|
+|16|205.134.235.132|3129|United States|Los Angeles|Corporate Colocation Inc|
+|17|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|18|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|19|134.238.252.143|8080|India|Mumbai|Google LLC|
+|20|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
 
 
 
