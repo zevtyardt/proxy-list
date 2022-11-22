@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4568** proxies at the latest update. Usable proxies are below.
+> Scraper found **4669** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|238|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|238|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|238|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|303|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|303|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|303|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|599|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|712|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|265|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|253|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2353|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.50|3128|United States|Ashburn|Sprint|
-|2|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|4|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|5|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
-|6|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|7|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|8|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|9|45.42.177.50|3128|United States|Ashburn|Sprint|
-|10|178.238.236.233|3128|Germany|Munich|Contabo GmbH|
+|1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|3|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
+|4|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|5|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
+|6|45.167.126.78|3128|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|8|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|9|147.139.4.105|3128|India|Mumbai|Alibaba.com LLC|
+|10|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
 |11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|147.139.4.105|3128|India|Mumbai|Alibaba.com LLC|
-|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|14|193.164.133.46|3128|Germany|Munich|Contabo GmbH|
-|15|182.253.109.234|8080|Indonesia|Semarang|Biznet Metronet|
+|12|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
+|13|117.251.103.186|8080|India|Noida|BSNL Internet|
+|14|122.49.208.230|3128|Philippines|San Juan|WifiCity, Inc|
+|15|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
 |16|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|18|117.251.103.186|8080|India|Noida|BSNL Internet|
-|19|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|20|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|17|178.238.236.233|3128|Germany|Munich|Contabo GmbH|
+|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|19|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|20|193.164.133.46|3128|Germany|Munich|Contabo GmbH|
 
 
 
