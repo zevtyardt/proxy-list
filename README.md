@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4389** proxies at the latest update. Usable proxies are below.
+> Scraper found **4542** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|129|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|129|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|129|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|162|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|162|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|162|
 
 ## Sources
 
@@ -37,10 +37,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|534|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|714|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|239|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2265|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|201|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2276|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|117.251.103.186|8080|India|Noida|BSNL Internet|
-|7|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|8|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
-|9|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|10|27.79.6.97|10000|Vietnam|Buon Ma Thuot|Viettel Corporation|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|79.120.177.106|8080|Hungary|Budapest|Invitech ICT Services Kft.|
-|13|117.251.103.186|8080|India|Noida|BSNL Internet|
-|14|166.111.33.114|4780|China|Beijing|China Education and Research Network Center|
-|15|52.81.68.24|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
-|16|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|17|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
-|18|111.225.153.188|8089|China|Gaocheng|Chinanet|
-|19|123.182.59.118|8089|China|Zhangjiakou|Chinanet|
-|20|108.61.73.183|3128|United States|Piscataway|The Constant Company|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|122.49.208.242|3128|Philippines|San Juan|WifiCity, Inc|
+|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|8|106.225.178.205|9002|China|Dunhou|China Telecom|
+|9|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|11|188.124.250.138|8008|Kazakhstan|Karaganda|Miranda-Media Ltd|
+|12|123.182.58.254|8089|China|Zhangjiakou|Chinanet|
+|13|111.225.153.146|8089|China|Gaocheng|Chinanet|
+|14|110.188.21.39|9002|China|Zhongba|CHINANET SiChuan Telecom Internet Data Center|
+|15|181.10.160.158|8080|Argentina|La Carlota|Telecom Argentina S.A|
+|16|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
+|17|15.235.143.16|3128|Singapore|Singapore|OVH SAS|
+|18|106.225.178.205|9002|China|Dunhou|China Telecom|
+|19|111.225.152.3|8089|China|Gaocheng|Chinanet|
+|20|27.184.52.187|8089|China|Shijiazhuang|Chinanet|
 
 
 
