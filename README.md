@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|3|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|4|35.165.74.244|3128|United States|Portland|Amazon.com, Inc.|
-|5|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|6|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
-|7|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|1|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|2|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
+|5|35.165.74.244|3128|United States|Portland|Amazon.com, Inc.|
+|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|7|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 |8|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|10|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|11|217.160.246.30|3128|Germany|Essen|IONOS SE|
-|12|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|10|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|11|82.165.240.64|3128|Germany|Berlin|IONOS SE|
+|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 |13|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|14|112.78.164.54|8080|Indonesia|Jakarta|Biznet Networks|
-|15|87.248.129.11|3128|United States|Ashburn|NForce Entertainment B.V.|
+|14|87.248.129.11|3128|United States|Ashburn|NForce Entertainment B.V.|
+|15|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
 |16|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|17|173.11.166.250|8080|United States|Pearland|Comcast Cable Communications|
-|18|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|19|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|20|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|17|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
+|18|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|20|110.78.138.31|8080|Thailand|Bangkok|CAT-BB|
 
 
 
