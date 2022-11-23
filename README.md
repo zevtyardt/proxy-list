@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|383|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|383|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|383|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|2|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|4|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|5|35.165.74.244|3128|United States|Portland|Amazon.com, Inc.|
-|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|7|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|8|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
-|11|82.165.240.64|3128|Germany|Berlin|IONOS SE|
-|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|3|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
+|4|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|5|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|6|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|7|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|35.165.74.244|3128|United States|Portland|Amazon.com, Inc.|
+|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|11|173.11.166.250|8080|United States|Pearland|Comcast Cable Communications|
+|12|110.165.19.69|80|South Korea|Seongnam-si|NBP|
 |13|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|14|87.248.129.11|3128|United States|Ashburn|NForce Entertainment B.V.|
-|15|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
-|16|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|17|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
-|18|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|20|110.78.138.31|8080|Thailand|Bangkok|CAT-BB|
+|14|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|15|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|173.11.166.250|8080|United States|Pearland|Comcast Cable Communications|
+|18|80.81.243.26|8800|Germany|Berlin|SPEEDBONE GmbH|
+|19|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|20|134.238.252.143|8080|India|Mumbai|Google LLC|
 
 
 
