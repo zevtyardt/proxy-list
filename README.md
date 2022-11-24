@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5279** proxies at the latest update. Usable proxies are below.
+> Scraper found **5527** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|423|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|423|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|423|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|606|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|606|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|606|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|965|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1235|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|456|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|434|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2507|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|2|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|3|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
-|6|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|7|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|87.248.129.11|3128|United States|Ashburn|NForce Entertainment B.V.|
+|1|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|8|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|9|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
 |10|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|11|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|12|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|13|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|14|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
-|15|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|17|87.248.129.11|3128|United States|Ashburn|NForce Entertainment B.V.|
-|18|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|19|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|20|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|11|176.192.70.58|8005|Russia|Moscow|Net By Net Holding LLC|
+|12|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|13|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
+|14|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|15|87.248.129.11|3128|United States|Ashburn|NForce Entertainment B.V.|
+|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|17|51.195.137.144|3128|United Kingdom|London|OVH SAS|
+|18|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|19|92.205.22.114|38080|France|Strasbourg|GD MASS Network|
+|20|117.251.103.186|8080|India|Noida|BSNL Internet|
 
 
 
