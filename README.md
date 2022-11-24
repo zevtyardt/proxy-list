@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4808** proxies at the latest update. Usable proxies are below.
+> Scraper found **4559** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|296|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|296|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|296|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|120|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|120|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|120|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|788|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|620|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|307|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|226|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2362|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|1|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 |2|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|3|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|4|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|7|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|8|130.83.47.201|3128|Germany|Alsbach-Hahnlein|TU-DARMSTADT via MANDA|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|11|137.184.61.11|8081|United States|North Bergen|DigitalOcean, LLC|
-|12|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|13|80.249.144.170|3128|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|5|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|6|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|7|34.246.150.29|80|Ireland|Dublin|Amazon Technologies Inc.|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|198.23.200.234|3128|Canada|Hamilton|ColoCrossing|
+|10|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|11|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|13|172.94.125.178|3128|Germany|Frankfurt am Main|Secure Internet LLC|
 |14|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|15|34.246.150.29|80|Ireland|Dublin|Amazon Technologies Inc.|
-|16|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
-|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|18|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|19|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|20|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|15|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|16|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
+|17|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|18|43.153.216.218|1080|Singapore|Singapore|Aceville Pte.ltd|
+|19|80.249.144.170|3128|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
+|20|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
 
 
 
