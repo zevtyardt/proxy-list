@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4524** proxies at the latest update. Usable proxies are below.
+> Scraper found **4500** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|281|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|281|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|281|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|198|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|198|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|198|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|560|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|481|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|306|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2307|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2362|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |3|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
 |4|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|5|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|5|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
 |6|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 |7|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|8|130.83.47.201|3128|Germany|Alsbach-Hahnlein|TU-DARMSTADT via MANDA|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|52.45.139.115|80|United States|Ashburn|Amazon.com, Inc.|
-|11|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|14|148.72.246.227|9453|Singapore|Singapore|GoDaddy.com, LLC|
-|15|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|16|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|17|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|18|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
-|19|34.246.150.29|80|Ireland|Dublin|Amazon Technologies Inc.|
-|20|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|8|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|9|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|12|52.45.139.115|80|United States|Ashburn|Amazon.com, Inc.|
+|13|52.45.139.115|80|United States|Ashburn|Amazon.com, Inc.|
+|14|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|15|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|16|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
+|17|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|20|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
 
 
 
