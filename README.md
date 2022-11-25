@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5203** proxies at the latest update. Usable proxies are below.
+> Scraper found **5652** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|393|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|393|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|393|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|634|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|634|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|634|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|922|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1123|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|411|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2519|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|565|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2613|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|2|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|3|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|4|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
-|5|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|9|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|12|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|13|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
-|14|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|15|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
-|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|17|192.9.152.116|3128|United States|San Jose|Oracle Corporation|
-|18|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|19|130.83.47.201|3128|Germany|Alsbach-Hahnlein|TU-DARMSTADT via MANDA|
-|20|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|1|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|208.82.61.38|3128|United States|Ashburn|Bernardi Sounds|
+|4|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|159.203.31.27|8118|Canada|Toronto|DigitalOcean, LLC|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|9|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|10|117.102.202.230|8080|Japan|Chiyoda|INTERLINK|
+|11|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
+|12|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|13|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
+|14|43.153.216.218|1080|Singapore|Singapore|Aceville Pte.ltd|
+|15|200.13.22.210|80|Mexico|Silao|Marcatel Com, S.A. de C.V.|
+|16|115.247.13.154|8080|India|Hyderabad|Reliance Jio Infocomm Limited|
+|17|45.130.141.249|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
+|18|5.161.142.222|80|United States|Washington|Hetzner Online GmbH|
+|19|208.82.61.31|3128|United States|Ashburn|Bernardi Sounds|
+|20|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
