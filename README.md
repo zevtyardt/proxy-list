@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5827** proxies at the latest update. Usable proxies are below.
+> Scraper found **5823** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|746|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|746|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|746|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|503|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|503|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|503|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1200|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1196|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|707|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2569|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|49.51.90.57|3128|Canada|Barrie|OPHL|
 |2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|4|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|5|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|6|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|7|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|8|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|9|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|11|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|12|210.188.163.16|8080|Japan|Mito|Kddi Corporation|
-|13|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|14|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|15|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|16|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
-|17|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|18|13.73.194.134|3128|Australia|The Rocks|Microsoft Corporation|
-|19|47.243.80.180|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|4|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|6|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|7|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|8|13.73.194.134|3128|Australia|The Rocks|Microsoft Corporation|
+|9|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|10|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|11|152.69.190.81|8080|Australia|Melbourne|Oracle Corporation|
+|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|13|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|14|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|15|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|16|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|17|47.243.80.180|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|18|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|19|117.251.103.186|8080|India|Noida|BSNL Internet|
+|20|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
 
 
 
