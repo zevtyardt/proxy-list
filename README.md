@@ -14,20 +14,20 @@
 
   Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.
 
-  - **jumlah proxy:** ±18587
-  - **terakhir diupdate:** Sat, 26 Nov 22 09:47:49 WIB
+  - **jumlah proxy:** ±16690
+  - **terakhir diupdate:** Sat, 26 Nov 22 11:16:19 WIB
 
 # Unduh
   Salin dan tempel salah satu kode dibawah ke terminal
-  - **ALL** (18587)
+  - **ALL** (16690)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/all.txt -o all.txt
     ```
-  - **HTTP** (10500)
+  - **HTTP** (8655)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt -o http.txt
     ```
-  - **SOCKS4** (5179)
+  - **SOCKS4** (5127)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt -o socks4.txt
     ```
