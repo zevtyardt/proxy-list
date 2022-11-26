@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5765** proxies at the latest update. Usable proxies are below.
+> Scraper found **5619** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|766|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|766|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|766|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|641|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|641|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|641|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1176|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1130|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|730|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2508|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|49.51.90.57|3128|Canada|Barrie|OPHL|
-|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|4|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|6|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|7|1.4.250.27|8080|Thailand|Chanthaburi|TOT Public Company Limited|
-|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|9|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
-|10|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
-|11|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|12|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|13|13.73.194.134|3128|Australia|The Rocks|Microsoft Corporation|
-|14|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|15|187.63.156.84|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
-|16|13.57.130.106|8080|United States|San Jose|Amazon.com, Inc.|
-|17|117.251.103.186|8080|India|Noida|BSNL Internet|
-|18|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|19|51.222.127.44|8080|Canada|Beauharnois|OVH SAS|
-|20|136.243.146.112|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|49.51.90.57|3128|Canada|Barrie|OPHL|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|5|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|6|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|7|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|8|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|9|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|10|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|11|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|12|51.222.127.44|8080|Canada|Beauharnois|OVH SAS|
+|13|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|14|13.73.194.134|3128|Australia|The Rocks|Microsoft Corporation|
+|15|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|16|152.69.190.81|8080|Australia|Melbourne|Oracle Corporation|
+|17|116.111.0.200|8080|Vietnam|Ho Chi Minh City|Viettel Corporation|
+|18|121.165.3.66|8080|South Korea|Suwon|Korea Telecom|
+|19|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|20|20.87.95.12|3128|South Africa|Johannesburg|Microsoft Corporation|
 
 
 
