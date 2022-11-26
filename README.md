@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4378** proxies at the latest update. Usable proxies are below.
+> Scraper found **4447** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|195|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|195|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|195|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|229|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|229|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|229|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|432|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|501|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|300|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2295|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
 |3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|8|117.251.103.186|8080|India|Noida|BSNL Internet|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|11|43.153.216.218|1080|Singapore|Singapore|Aceville Pte.ltd|
-|12|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|13|101.109.50.99|8080|Thailand|Bangkok|TOT Public Company Limited|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|16|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|17|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|18|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|19|44.159.12.58|8080|Thailand|Bueng Sam Phan|Metrabyte Co., Ltd|
-|20|112.78.166.21|8080|Indonesia|Manggadua Selatan|Biznet Networks|
+|4|49.51.90.57|3128|Canada|Barrie|OPHL|
+|5|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|6|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|8|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|9|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
+|10|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|11|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
+|12|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
+|13|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|14|117.251.103.186|8080|India|Noida|BSNL Internet|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|206.189.37.48|8080|Singapore|Singapore|DigitalOcean, LLC|
+|17|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|18|202.150.132.53|8080|Indonesia|Bandung|PT Comtronics Systems|
+|19|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
+|20|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
 
 
 
