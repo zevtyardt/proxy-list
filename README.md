@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4658** proxies at the latest update. Usable proxies are below.
+> Scraper found **4748** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|300|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|300|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|300|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|340|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|340|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|340|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|683|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|773|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|329|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2295|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|2|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|20.151.25.71|3128|Canada|Toronto|Microsoft Corporation|
-|6|181.209.77.250|999|Argentina|Benavidez|ARSAT - Empresa Argentina de Soluciones Satelitales S.A.|
-|7|8.242.187.228|999|Colombia|Quinchia|CTL Colombia|
-|8|103.155.166.81|8181|Indonesia|Bogor|PT Network Lintas Fiberindo|
-|9|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
-|10|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
-|11|154.19.187.251|3128|Japan|Tokyo|SICLOUD INFORMATION TECHNOLOGY (HONGKONG) CO., LIMITED|
-|12|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|13|190.82.105.123|43949|Chile|Santiago|Telefonica Empresas|
-|14|178.210.51.118|8080|Russia|Voronezh|JSC KVANT-TELEKOM|
-|15|103.245.16.218|8080|Indonesia|Depok|PT Quantum Tera Network|
-|16|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|17|217.11.79.232|8080|Kazakhstan|Almaty|Aspan telecom|
-|18|101.255.149.154|1111|Indonesia|Bekasi|PT Remala Abadi|
-|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|20|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|2|49.51.90.57|3128|Canada|Barrie|OPHL|
+|3|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|6|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|116.203.227.24|8118|Germany|Frankfurt am Main|Hetzner Online GmbH|
+|9|43.153.216.218|1080|Singapore|Singapore|Aceville Pte.ltd|
+|10|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
+|11|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|12|195.138.90.226|3128|Ukraine|Odesa|TeNeT Networking Centre|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|15|200.123.15.124|999|Peru|Lima|Wigo S.A.|
+|16|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|17|43.243.184.24|8080|Indonesia|Banjar Pemangkalan|PT Econdelight|
+|18|101.255.122.75|3128|Indonesia|Gandaria Utara|PT Remala Abadi|
+|19|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|20|190.82.105.123|43949|Chile|Santiago|Telefonica Empresas|
 
 
 
