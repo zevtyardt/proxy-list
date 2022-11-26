@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5357** proxies at the latest update. Usable proxies are below.
+> Scraper found **5415** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|449|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|449|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|449|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|581|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|581|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|581|
 
 ## Sources
 
@@ -35,12 +35,12 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1138|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1006|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|413|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2455|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|496|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2662|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 |2|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|3|49.51.90.57|3128|Canada|Barrie|OPHL|
-|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|5|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|6|141.94.137.176|1337|France|Gravelines|OVH SAS|
 |7|157.90.174.98|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|8|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|9|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|10|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|11|89.58.13.9|1337|Germany|Dagebüll|netcup GmbH|
-|12|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|13|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|9|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|10|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
+|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|12|45.15.16.139|8118|Sweden|Stockholm|Obehosting AB|
+|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|17|190.162.91.197|3128|Chile|La Florida|VTR BANDA ANCHA S.A.|
-|18|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|19|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|20|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|15|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|16|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|17|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|18|117.251.103.186|8080|India|Noida|BSNL Internet|
+|19|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|20|23.143.160.18|999|Puerto Rico|Villalba|Unonet Corp|
 
 
 
