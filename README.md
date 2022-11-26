@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5620** proxies at the latest update. Usable proxies are below.
+> Scraper found **5619** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|246|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|246|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|246|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|790|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|790|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|790|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1137|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1075|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|624|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2508|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2569|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|4|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|5|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|6|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|7|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|8|157.90.174.98|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|9|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|10|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|152.69.190.81|8080|Australia|Melbourne|Oracle Corporation|
-|13|49.51.90.57|3128|Canada|Barrie|OPHL|
-|14|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|15|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|16|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|17|189.115.107.4|8080|Brazil|Campo Grande|Vivo|
-|18|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
-|19|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|20|181.65.137.83|8080|Peru|Ica|Telefonica del Peru S.A.A.|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|3|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|4|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|7|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|8|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|9|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|10|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
+|11|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|12|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|13|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
+|14|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
+|15|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|16|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|17|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|18|49.51.90.57|3128|Canada|Barrie|OPHL|
+|19|210.188.163.16|8080|Japan|Mito|Kddi Corporation|
+|20|185.216.177.81|8118|Germany|Karlsruhe|netcup GmbH|
 
 
 
