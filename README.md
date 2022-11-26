@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5512** proxies at the latest update. Usable proxies are below.
+> Scraper found **5334** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|603|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|603|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|603|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|582|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|582|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|582|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1036|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|858|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|617|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2508|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
 |2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |3|49.51.90.57|3128|Canada|Barrie|OPHL|
 |4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|5|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|6|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
+|5|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|6|141.94.137.176|1337|France|Gravelines|OVH SAS|
 |7|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|8|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
-|9|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|10|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
-|11|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|15|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|16|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|17|124.121.130.237|8080|Thailand|Khon Kaen|TRUE|
-|18|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|19|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|20|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
+|8|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|10|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|11|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
+|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|13|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|14|93.85.99.189|8080|Belarus|Rahachow|Republican Unitary Telecommunication Enterprise Beltelecom|
+|15|152.69.190.81|8080|Australia|Melbourne|Oracle Corporation|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
+|18|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|19|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|20|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
 
 
 
