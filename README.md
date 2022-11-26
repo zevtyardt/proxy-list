@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|321|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|321|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|321|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|309|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|309|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|309|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
-|3|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
-|4|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|7|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|8|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|9|82.208.23.113|3128|Germany|Düsseldorf|Casablanca INT|
-|10|117.251.103.186|8080|India|Noida|BSNL Internet|
-|11|34.210.36.206|3128|United States|Portland|Amazon.com, Inc.|
-|12|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|13|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
-|14|144.202.125.178|3128|United States|Los Angeles|The Constant Company|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|17|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|18|34.210.36.206|3128|United States|Portland|Amazon.com, Inc.|
-|19|82.194.3.83|3128|Azerbaijan|Baku|AzEduNet|
-|20|47.242.123.44|3128|Hong Kong|Hong Kong|Alibaba.com LLC|
+|1|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|3|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|8|170.39.116.114|3128|United States|Ashburn|Rackdog, LLC|
+|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|10|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|12|170.39.118.22|3128|United States|Ashburn|Rackdog, LLC|
+|13|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|14|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|15|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|16|144.202.125.178|3128|United States|Los Angeles|The Constant Company|
+|17|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
+|18|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
+|19|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|20|188.166.181.18|3128|Singapore|Singapore|DigitalOcean, LLC|
 
 
 
