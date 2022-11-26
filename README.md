@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5930** proxies at the latest update. Usable proxies are below.
+> Scraper found **5858** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|796|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|796|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|796|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|787|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|787|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|787|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1207|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1235|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|803|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2569|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|49.51.90.57|3128|Canada|Barrie|OPHL|
-|2|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|164.62.72.90|80|United States|Washington|Federal Trade Commission|
 |4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|5|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|7|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|8|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|9|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
-|10|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
-|11|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
-|12|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|13|47.243.80.180|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|16|210.188.163.16|8080|Japan|Mito|Kddi Corporation|
-|17|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|18|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|19|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
-|20|164.62.72.90|80|United States|Washington|Federal Trade Commission|
+|5|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|8|54.249.186.103|80|Japan|Tokyo|Amazon.com, Inc.|
+|9|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
+|12|181.215.178.67|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|13|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|14|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|15|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|16|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|17|117.251.103.186|8080|India|Noida|BSNL Internet|
+|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|19|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|20|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
