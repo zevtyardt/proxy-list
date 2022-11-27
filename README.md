@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|177|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|177|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|177|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|121|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|121|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|121|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|3|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|4|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|5|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|6|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|9|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|10|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|15|117.251.103.186|8080|India|Noida|BSNL Internet|
-|16|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|45.130.141.175|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
-|18|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|2|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|3|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|4|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|5|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|8|161.38.217.6|8081|Australia|Brisbane|Gigafy|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|11|117.251.103.186|8080|India|Noida|BSNL Internet|
+|12|49.51.90.57|3128|Canada|Barrie|OPHL|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|15|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|16|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|17|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|18|197.245.179.122|8080|South Africa|Cape Town|Vox Telecom Ltd|
+|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|20|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
 
 
 
