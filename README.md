@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4262** proxies at the latest update. Usable proxies are below.
+> Scraper found **4491** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|189|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|189|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|189|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|183|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|183|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|183|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|384|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|613|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|345|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2182|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|4|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|5|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|6|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|116.105.107.175|10000|Vietnam|Gia Nghia|Viettel Corporation|
-|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|10|117.251.103.186|8080|India|Noida|BSNL Internet|
-|11|93.125.65.212|3128|Belarus|Minsk|TELECOMAT|
-|12|103.168.254.66|8085|Indonesia|Demak|PT Fahasa Tri Data|
-|13|190.60.36.125|999|Colombia|Chapinero|IFX NETWORKS COLOMBIA|
-|14|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|15|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|16|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|4|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|6|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|8|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|117.251.103.186|8080|India|Noida|BSNL Internet|
+|12|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|13|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|15|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
+|16|164.62.72.90|80|United States|Washington|Federal Trade Commission|
 |17|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|18|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|19|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|20|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|18|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|20|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
