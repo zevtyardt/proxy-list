@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5287** proxies at the latest update. Usable proxies are below.
+> Scraper found **5056** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|420|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|420|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|420|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|206|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|206|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|206|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|696|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|465|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|481|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|3|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
 |4|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|7|164.62.72.90|80|United States|Washington|Federal Trade Commission|
-|8|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|9|141.94.137.176|1337|France|Gravelines|OVH SAS|
-|10|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|11|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|14|117.251.103.186|8080|India|Noida|BSNL Internet|
+|5|49.51.90.57|3128|Canada|Barrie|OPHL|
+|6|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|7|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|8|43.206.81.172|80|Japan|Tokyo|Amazon.com, Inc.|
+|9|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|10|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|11|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|12|35.79.37.45|80|Japan|Tokyo|Amazon.com, Inc.|
+|13|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|14|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
 |15|152.69.190.81|8080|Australia|Melbourne|Oracle Corporation|
-|16|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|17|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|117.251.103.186|8080|India|Noida|BSNL Internet|
 |18|203.150.128.66|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
-|19|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|20|134.238.252.143|8080|India|Mumbai|Google LLC|
+|19|138.201.35.213|1337|Germany|Falkenstein|Hetzner Online GmbH|
+|20|116.111.0.200|8080|Vietnam|Ho Chi Minh City|Viettel Corporation|
 
 
 
