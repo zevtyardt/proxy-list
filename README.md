@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|111|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|111|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|111|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|95|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|95|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|95|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|49.51.90.57|3128|Canada|Barrie|OPHL|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |3|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|117.251.103.186|8080|India|Noida|BSNL Internet|
-|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|11|168.196.115.198|50000|Argentina|Los Juries|SAN GABRIEL VIDEO CABLE COLOR S.A.|
-|12|45.130.141.175|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
-|13|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|16|145.40.121.73|3128|Brazil|São Paulo|Packet Host, Inc.|
-|17|117.251.103.186|8080|India|Noida|BSNL Internet|
-|18|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|19|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|20|185.190.38.150|8080|Kosovo|Dubova|Kadri Haxhiaj trading as "B.I."|
+|4|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|6|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|7|141.94.137.176|1337|France|Gravelines|OVH SAS|
+|8|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|117.251.103.186|8080|India|Noida|BSNL Internet|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|176.56.107.196|35186|Spain|Cehegín|Aire Networks|
+|14|168.196.115.198|50000|Argentina|Los Juries|SAN GABRIEL VIDEO CABLE COLOR S.A.|
+|15|161.38.217.6|8081|Australia|Brisbane|Gigafy|
+|16|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|17|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|18|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|19|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|20|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
 
 
 
