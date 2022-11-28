@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4496** proxies at the latest update. Usable proxies are below.
+> Scraper found **4484** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|239|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|239|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|239|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|218|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|218|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|218|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|723|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|716|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|234|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|229|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2288|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|2|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 |3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
 |5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|23.88.102.240|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
-|8|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|7|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|9|23.88.102.240|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
+|10|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
 |11|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|13|118.99.73.252|8080|Indonesia|Jakarta|BIZNET|
+|12|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|168.196.124.148|999|Dominican Republic|Santo Domingo Este|COMCAST-SRL|
 |14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|16|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|17|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|18|168.196.124.148|999|Dominican Republic|Santo Domingo Este|COMCAST-SRL|
-|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|20|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|15|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|17|95.217.84.60|8118|Finland|Helsinki|Hetzner Online GmbH|
+|18|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|19|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|20|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
