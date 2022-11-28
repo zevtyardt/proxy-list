@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4939** proxies at the latest update. Usable proxies are below.
+> Scraper found **5110** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|382|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|382|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|382|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|447|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|447|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|447|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|872|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|943|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|419|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2397|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|49.51.90.57|3128|Canada|Barrie|OPHL|
-|2|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |3|68.183.147.137|8080|United States|Clifton|DigitalOcean, LLC|
-|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|104.248.158.0|8080|Singapore|Singapore|DigitalOcean, LLC|
-|8|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|9|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|4|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|5|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|9|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
 |10|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|11|68.183.147.137|8080|United States|Clifton|DigitalOcean, LLC|
-|12|51.159.115.233|3128|France|Paris|SCALEWAY|
-|13|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|14|68.183.131.244|8081|United States|North Bergen|DigitalOcean, LLC|
-|15|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|16|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|11|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|12|104.248.158.0|8080|Singapore|Singapore|DigitalOcean, LLC|
+|13|68.183.147.137|8080|United States|Clifton|DigitalOcean, LLC|
+|14|14.251.157.101|8080|Vietnam|Hanoi|VNPT|
+|15|167.114.96.27|9300|Canada|Montreal|OVH SAS|
+|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 |17|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|18|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|19|118.96.103.28|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
-|20|94.248.130.30|8080|Hungary|Siófok|Vidanet Cabletelevision Provider Ltd|
+|18|191.34.109.8|8080|Brazil|Campo Grande|TELEFÔNICA BRASIL S.A|
+|19|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|20|60.51.89.171|8080|Malaysia|Shah Alam|Tmnet, Telekom Malaysia Bhd.|
 
 
 
