@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4883** proxies at the latest update. Usable proxies are below.
+> Scraper found **4652** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|388|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|388|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|388|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|181|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|181|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|181|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|778|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|547|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|422|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2332|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|4|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|5|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|6|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|7|34.82.217.181|5555|United States|The Dalles|Google LLC|
-|8|213.183.41.37|3128|Russia|Moscow|Melbikomas UAB|
-|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|10|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|11|134.209.212.144|8080|United States|North Bergen|DigitalOcean, LLC|
-|12|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|13|159.203.31.27|8118|Canada|Toronto|DigitalOcean, LLC|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|5|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|6|137.184.103.147|8080|United States|North Bergen|DigitalOcean, LLC|
+|7|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|8|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
+|9|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|10|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|13|134.209.212.144|8080|United States|North Bergen|DigitalOcean, LLC|
 |14|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|15|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|16|164.62.72.90|443|United States|Washington|Federal Trade Commission|
-|17|164.62.72.90|443|United States|Washington|Federal Trade Commission|
-|18|134.209.212.144|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|20|137.184.103.147|8080|United States|North Bergen|DigitalOcean, LLC|
+|15|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|16|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|17|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|18|137.184.103.147|8080|United States|North Bergen|DigitalOcean, LLC|
+|19|95.213.4.228|80|Russia|St Petersburg|VKONTAKTE SPB Network extra|
+|20|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
 
 
 
