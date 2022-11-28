@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5324** proxies at the latest update. Usable proxies are below.
+> Scraper found **5155** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|444|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|444|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|444|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|471|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|471|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|471|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|829|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|860|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|421|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2723|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|466|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2478|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|3|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|4|68.183.131.244|8081|United States|North Bergen|DigitalOcean, LLC|
-|5|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|6|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|9|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|10|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|11|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|12|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|13|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|16|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|17|68.183.131.244|8081|United States|North Bergen|DigitalOcean, LLC|
-|18|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|19|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|20|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|1|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|6|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|7|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|8|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|9|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|12|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|13|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|14|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|15|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|18|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|19|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
