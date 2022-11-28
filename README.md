@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4463** proxies at the latest update. Usable proxies are below.
+> Scraper found **4477** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|251|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|251|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|251|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|269|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|269|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|269|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|587|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|601|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|231|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2262|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|4|134.238.252.143|8080|India|Mumbai|Google LLC|
-|5|23.88.102.240|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
-|6|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|7|168.196.124.148|999|Dominican Republic|Santo Domingo Este|COMCAST-SRL|
-|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|9|133.242.171.216|3128|Japan|Chiyoda|SAKURA Internet Inc.|
-|10|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|11|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|12|164.62.72.90|443|United States|Washington|Federal Trade Commission|
-|13|164.62.72.90|443|United States|Washington|Federal Trade Commission|
-|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|15|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|16|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|17|181.65.137.83|8080|Peru|Ica|Telefonica del Peru S.A.A.|
-|18|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|20|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|5|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|178.128.121.196|443|Singapore|Singapore|DigitalOcean, LLC|
+|8|128.199.221.6|443|Singapore|Singapore|DigitalOcean, LLC|
+|9|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|191.252.92.34|8888|Brazil|Jandira|Locaweb Serviços de Internet S/A|
+|13|183.89.188.190|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
+|14|23.88.102.240|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
+|15|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|16|118.99.73.252|8080|Indonesia|Jakarta|BIZNET|
+|17|128.199.110.230|443|Singapore|Singapore|DigitalOcean, LLC|
+|18|159.192.249.87|8080|Thailand|Bangkok|CAT-BB|
+|19|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|20|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
