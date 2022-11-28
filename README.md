@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4312** proxies at the latest update. Usable proxies are below.
+> Scraper found **4346** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|242|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|242|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|242|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|252|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|252|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|252|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|477|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|527|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|246|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|230|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2238|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|49.51.90.57|3128|Canada|Barrie|OPHL|
-|3|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|4|45.79.0.83|3128|United States|Richardson|Linode, LLC|
-|5|157.230.212.80|8080|United States|North Bergen|DigitalOcean, LLC|
-|6|130.18.255.115|8080|United States|Starkville|Mississippi State University|
-|7|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
-|8|18.130.227.54|3128|United Kingdom|London|Amazon Technologies Inc.|
-|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|10|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|11|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|12|157.230.217.232|8080|United States|North Bergen|DigitalOcean, LLC|
-|13|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|192.3.134.6|3128|United States|Palo Alto|ColoCrossing|
-|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|18|76.72.138.48|3128|United States|Easton|Easton Utilities Commission|
-|19|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|20|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|2|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|3|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|4|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
+|5|45.79.0.83|3128|United States|Richardson|Linode, LLC|
+|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|7|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|8|149.129.237.233|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|9|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|10|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|11|162.254.3.9|8080|United States|Ashburn|Sneaker Server|
+|12|45.79.0.83|3128|United States|Richardson|Linode, LLC|
+|13|147.139.136.227|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|14|122.49.208.243|3128|Philippines|San Juan|WifiCity, Inc|
+|15|157.230.212.80|8080|United States|North Bergen|DigitalOcean, LLC|
+|16|130.18.255.115|8080|United States|Starkville|Mississippi State University|
+|17|157.230.217.232|8080|United States|North Bergen|DigitalOcean, LLC|
+|18|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|19|142.93.253.168|3128|United States|North Bergen|DigitalOcean, LLC|
+|20|212.112.113.178|3128|Kyrgyzstan|Bishkek|AkNet|
 
 
 
