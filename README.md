@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|230|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|230|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|230|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|227|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|227|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|227|
 
 ## Sources
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|192.99.34.64|1337|Canada|Beauharnois|OVH SAS|
 |3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|49.51.90.57|3128|Canada|Barrie|OPHL|
-|5|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|8|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|10|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|11|23.88.102.240|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
-|12|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|6|23.88.102.240|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
+|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|13|43.135.157.80|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 |14|118.99.73.252|8080|Indonesia|Jakarta|BIZNET|
-|15|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|16|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|17|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|37.44.244.35|3129|Singapore|Singapore|Hostinger International Limited|
-|19|190.152.5.17|39888|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
-|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|15|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|16|14.207.201.136|8080|Thailand|Ban Kho|Triple T Broadband Public Company Limited|
+|17|191.97.61.201|999|Peru|Chiclayo|Internexa Peru S.A|
+|18|168.196.124.148|999|Dominican Republic|Santo Domingo Este|COMCAST-SRL|
+|19|181.65.137.83|8080|Peru|Ica|Telefonica del Peru S.A.A.|
+|20|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
 
 
 
