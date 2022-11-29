@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5054** proxies at the latest update. Usable proxies are below.
+> Scraper found **5209** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|374|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|374|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|374|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|389|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|389|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|389|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|911|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1066|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|390|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2402|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|4|144.76.119.59|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|6|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|7|86.120.122.3|3128|Romania|Pipera|RCS & RDS|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|178.63.237.147|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|11|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|3|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|4|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|5|148.251.184.47|1988|Germany|Falkenstein|Hetzner Online GmbH|
+|6|86.120.122.3|3128|Romania|Pipera|RCS & RDS|
+|7|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|10|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|11|144.76.119.59|1988|Germany|Falkenstein|Hetzner Online GmbH|
 |12|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|13|148.251.184.47|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|14|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|15|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|16|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|17|130.185.73.47|808|Iran|Tehran|Pars Parva System Ltd|
-|18|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|19|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|20|134.73.3.11|3129|United States|Los Angeles|LayerHost|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|45.169.140.69|999|Venezuela|Maracaibo|Fresh Techs C.A.|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
+|17|14.139.211.59|3128|India|Shanti Niketan|National Knowledge Network|
+|18|201.91.82.155|3128|Brazil|São Paulo|Vivo|
+|19|134.73.3.87|3129|United States|Los Angeles|LayerHost|
+|20|134.73.1.86|3129|United States|Los Angeles|LayerHost|
 
 
 
