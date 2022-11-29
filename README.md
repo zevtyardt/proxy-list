@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4331** proxies at the latest update. Usable proxies are below.
+> Scraper found **4660** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|200|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|200|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|200|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|205|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|205|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|205|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|533|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|862|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|222|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2225|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |3|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|20.232.64.85|3128|United States|Boydton|Microsoft Corporation|
+|5|20.245.53.193|3128|United States|San Francisco|Microsoft Corporation|
+|6|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
 |7|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|8|3.110.222.113|3128|India|Mumbai|Amazon Technologies Inc.|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|11|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|13|20.118.12.140|3128|United States|Des Moines|Microsoft Corporation|
-|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|15|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|16|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|17|116.105.173.118|8080|Vietnam|Da Nang|Viettel Corporation|
-|18|82.165.184.53|80|Germany|Karlsruhe|IONOS SE|
-|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|20|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|8|20.232.64.85|3128|United States|Boydton|Microsoft Corporation|
+|9|177.135.67.154|3128|Brazil|Florianópolis|TELEFÔNICA BRASIL S.A|
+|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|12|3.110.222.113|3128|India|Mumbai|Amazon Technologies Inc.|
+|13|20.245.53.193|3128|United States|San Francisco|Microsoft Corporation|
+|14|162.0.222.49|3128|United States|Los Angeles|Namecheap, Inc.|
+|15|20.203.72.8|3128|United Arab Emirates|Dubai|Microsoft Corporation|
+|16|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|17|134.238.252.143|8080|India|Mumbai|Google LLC|
+|18|20.250.123.241|3128|Switzerland|Zurich|Microsoft Corporation|
+|19|51.159.115.233|3128|France|Paris|SCALEWAY|
+|20|20.92.221.20|3128|Australia|The Rocks|Microsoft Corporation|
 
 
 
