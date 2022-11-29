@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5651** proxies at the latest update. Usable proxies are below.
+> Scraper found **5127** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|544|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|544|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|544|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|302|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|302|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|302|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1519|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1042|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|384|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2397|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|455|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2279|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|54.227.166.124|3128|United States|Ashburn|Amazon.com, Inc.|
-|2|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|5.161.142.222|80|United States|Washington|Hetzner Online GmbH|
-|4|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|5.161.142.222|80|United States|Washington|Hetzner Online GmbH|
-|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|9|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|10|207.180.236.140|3128|Germany|Nuremberg|Contabo GmbH|
-|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|12|54.227.166.124|3128|United States|Ashburn|Amazon.com, Inc.|
-|13|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|14|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
-|15|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|16|46.4.24.111|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|17|173.219.112.85|8080|United States|Fortuna|Suddenlink Communications|
-|18|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
-|19|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|20|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|3|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|4|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|5|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|7|154.19.187.251|3128|Japan|Tokyo|SICLOUD INFORMATION TECHNOLOGY (HONGKONG) CO., LIMITED|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|10|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|11|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|12|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|13|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|14|154.85.55.174|3128|United States|Los Angeles|Beijing Baidu Netcom Science and Technology Co., Ltd.|
+|15|189.126.106.31|3128|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
+|16|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|17|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|18|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|19|20.121.184.238|443|United States|Boydton|Microsoft Corporation|
+|20|18.166.102.214|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
 
 
 
