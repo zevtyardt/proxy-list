@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4679** proxies at the latest update. Usable proxies are below.
+> Scraper found **4690** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|192|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|192|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|192|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|159|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|159|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|159|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|641|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|652|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|256|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2431|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|134.73.3.87|3129|United States|Los Angeles|LayerHost|
-|4|134.73.3.226|3129|United States|Los Angeles|LayerHost|
-|5|134.73.3.208|3129|United States|Los Angeles|LayerHost|
-|6|134.73.3.239|3129|United States|Los Angeles|LayerHost|
-|7|134.73.3.211|3129|United States|Los Angeles|LayerHost|
-|8|134.73.3.49|3129|United States|Los Angeles|LayerHost|
-|9|134.73.1.183|3129|United States|Los Angeles|LayerHost|
-|10|134.73.3.82|3129|United States|Los Angeles|LayerHost|
-|11|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|12|134.73.3.49|3129|United States|Los Angeles|LayerHost|
-|13|134.73.3.239|3129|United States|Los Angeles|LayerHost|
-|14|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|15|134.73.3.226|3129|United States|Los Angeles|LayerHost|
-|16|134.73.3.87|3129|United States|Los Angeles|LayerHost|
-|17|134.73.1.183|3129|United States|Los Angeles|LayerHost|
-|18|134.73.3.208|3129|United States|Los Angeles|LayerHost|
-|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|20|134.73.3.82|3129|United States|Los Angeles|LayerHost|
+|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|4|134.73.3.239|3129|United States|Los Angeles|LayerHost|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|154.19.187.251|3128|Japan|Tokyo|SICLOUD INFORMATION TECHNOLOGY (HONGKONG) CO., LIMITED|
+|7|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|8|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|9|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|10|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|11|12.88.29.66|9080|United States|Pauls Valley|AT&T Services, Inc.|
+|12|200.202.223.45|8080|Brazil|São Paulo|V tal|
+|13|52.81.74.120|3128|China|Beijing|Beijing Guanghuan Xinwang Digital|
+|14|189.126.106.31|3128|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
+|15|138.117.77.214|999|Argentina|Posadas|Marandu Comunicaciones Sociedad Del Estado|
+|16|196.216.132.9|8080|South Africa|Potchefstroom|HERO TELECOMS (PTY) LTD|
+|17|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|18|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|19|191.252.92.34|8888|Brazil|Jandira|Locaweb Serviços de Internet S/A|
+|20|115.147.59.55|8181|Philippines|Cebu City|Philippine Long Distance Telephone Co.|
 
 
 
