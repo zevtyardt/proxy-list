@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5127** proxies at the latest update. Usable proxies are below.
+> Scraper found **4937** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|302|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|302|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|302|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|223|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|223|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|223|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1042|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|852|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|455|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2279|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|3|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|4|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|5|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|6|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|7|154.19.187.251|3128|Japan|Tokyo|SICLOUD INFORMATION TECHNOLOGY (HONGKONG) CO., LIMITED|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|10|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|11|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|12|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|13|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|14|154.85.55.174|3128|United States|Los Angeles|Beijing Baidu Netcom Science and Technology Co., Ltd.|
+|1|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|2|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|3|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|4|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|5|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|6|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|7|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|8|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|11|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|12|5.189.140.113|8118|Germany|Nuremberg|Contabo GmbH|
+|13|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|14|54.70.120.216|3128|United States|Portland|Amazon.com, Inc.|
 |15|189.126.106.31|3128|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
-|16|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|17|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|18|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|19|20.121.184.238|443|United States|Boydton|Microsoft Corporation|
-|20|18.166.102.214|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|16|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|17|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
+|18|20.121.184.238|443|United States|Boydton|Microsoft Corporation|
+|19|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|20|45.167.253.225|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
 
 
 
