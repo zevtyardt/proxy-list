@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4502** proxies at the latest update. Usable proxies are below.
+> Scraper found **4679** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|142|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|142|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|142|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|192|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|192|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|192|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|464|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|641|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|256|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2431|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|134.73.1.183|3129|United States|Los Angeles|LayerHost|
-|7|43.252.75.234|8080|Indonesia|Jakarta|PT Hipernet Indodata|
-|8|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|9|20.121.184.238|443|United States|Boydton|Microsoft Corporation|
-|10|190.2.213.250|999|Colombia|Cúcuta|TV AZTECA SUCURSAL COLOMBIA|
-|11|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|12|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|13|213.239.207.123|80|Germany|Nuremberg|Hetzner Online GmbH|
-|14|61.7.141.30|8080|Thailand|Khlong Luang|CAT Telecom Public Company Limited|
-|15|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|148.251.184.47|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|18|38.49.129.154|999|Mexico|Mineral de la Reforma|Ientc S De RL De CV|
-|19|103.152.232.100|8080|Indonesia|Subang|PT Kingpolah Network Solutions|
-|20|113.11.39.109|8080|Bangladesh|Tongi|BDCOM Online Limited|
+|3|134.73.3.87|3129|United States|Los Angeles|LayerHost|
+|4|134.73.3.226|3129|United States|Los Angeles|LayerHost|
+|5|134.73.3.208|3129|United States|Los Angeles|LayerHost|
+|6|134.73.3.239|3129|United States|Los Angeles|LayerHost|
+|7|134.73.3.211|3129|United States|Los Angeles|LayerHost|
+|8|134.73.3.49|3129|United States|Los Angeles|LayerHost|
+|9|134.73.1.183|3129|United States|Los Angeles|LayerHost|
+|10|134.73.3.82|3129|United States|Los Angeles|LayerHost|
+|11|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|12|134.73.3.49|3129|United States|Los Angeles|LayerHost|
+|13|134.73.3.239|3129|United States|Los Angeles|LayerHost|
+|14|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|15|134.73.3.226|3129|United States|Los Angeles|LayerHost|
+|16|134.73.3.87|3129|United States|Los Angeles|LayerHost|
+|17|134.73.1.183|3129|United States|Los Angeles|LayerHost|
+|18|134.73.3.208|3129|United States|Los Angeles|LayerHost|
+|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|20|134.73.3.82|3129|United States|Los Angeles|LayerHost|
 
 
 
