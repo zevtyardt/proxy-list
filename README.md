@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4739** proxies at the latest update. Usable proxies are below.
+> Scraper found **4802** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|368|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|368|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|368|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|363|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|363|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|363|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|656|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|719|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|369|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2363|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|1|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|47.184.161.154|3128|United States|Garland|Frontier Communications Solutions|
-|4|3.82.152.217|3128|United States|Ashburn|Amazon Technologies Inc.|
-|5|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
-|6|44.197.189.207|3128|United States|Ashburn|Amazon.com|
-|7|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|8|86.120.122.3|3128|Romania|Pipera|RCS & RDS|
-|9|3.8.82.97|3128|United Kingdom|London|Amazon Technologies Inc.|
-|10|20.74.38.95|3128|France|Paris|Microsoft Corporation|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|13|51.250.65.244|3128|Russia|Moscow|Yandex.Cloud LLC|
-|14|18.134.240.66|3128|United Kingdom|London|Amazon Technologies Inc.|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|17|62.12.146.142|3128|Switzerland|Winterthur|Cyberlink Internet Services AG|
-|18|44.197.189.207|3128|United States|Ashburn|Amazon.com|
-|19|167.99.216.251|3128|Netherlands|Amsterdam|DigitalOcean, LLC|
-|20|47.184.161.154|3128|United States|Garland|Frontier Communications Solutions|
+|3|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|51.250.65.244|3128|Russia|Moscow|Yandex.Cloud LLC|
+|6|34.200.136.174|3128|United States|Ashburn|Amazon.com, Inc.|
+|7|3.82.152.217|3128|United States|Ashburn|Amazon Technologies Inc.|
+|8|44.197.189.207|3128|United States|Ashburn|Amazon.com|
+|9|126.125.33.222|8080|Japan|Sonobe|Softbank BB Corp.|
+|10|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|11|62.12.146.142|3128|Switzerland|Winterthur|Cyberlink Internet Services AG|
+|12|45.130.141.67|8000|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
+|13|44.204.196.8|3128|United States|Ashburn|Amazon.com|
+|14|3.8.82.97|3128|United Kingdom|London|Amazon Technologies Inc.|
+|15|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|16|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|17|44.204.196.8|3128|United States|Ashburn|Amazon.com|
+|18|34.87.82.204|3128|Singapore|Singapore|Google LLC|
+|19|47.184.161.154|3128|United States|Garland|Frontier Communications Solutions|
+|20|173.212.229.53|3128|Germany|Nuremberg|Contabo GmbH|
 
 
 
