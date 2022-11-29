@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5132** proxies at the latest update. Usable proxies are below.
+> Scraper found **5225** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|326|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|326|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|326|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|397|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|397|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|397|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|954|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1047|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|328|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2499|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|3|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|1|49.51.90.57|3128|Canada|Barrie|OPHL|
+|2|213.239.207.123|80|Germany|Nuremberg|Hetzner Online GmbH|
+|3|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 |4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|118.99.124.124|8080|Indonesia|Jakarta|BIZNET|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|71.14.23.121|8080|United States|Auburn|Spectrum|
-|9|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|12|71.14.23.121|8080|United States|Auburn|Spectrum|
-|13|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|14|165.16.60.192|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|15|94.102.203.2|1500|Ireland|Enniscorthy|Regional Telecom Ltd|
-|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|17|125.25.82.146|8080|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
-|18|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|19|38.49.128.114|999|Mexico|Celaya|Ientc S De RL De CV|
-|20|103.137.138.1|8080|India|Tindivanam|Shree Lakshmi Devi Property Developers Pvt Ltd|
+|5|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|6|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|7|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|38.10.247.42|999|Dominican Republic|Santiago de los Caballeros|Cogent Communications|
+|10|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|11|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|12|49.144.30.218|80|Philippines|Kawit|Philippine Long Distance Telephone Co.|
+|13|43.135.156.58|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|14|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|15|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|18|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|19|187.63.156.37|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
+|20|178.128.121.196|443|Singapore|Singapore|DigitalOcean, LLC|
 
 
 
