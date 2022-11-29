@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5844** proxies at the latest update. Usable proxies are below.
+> Scraper found **5764** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|553|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|553|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|553|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|529|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|529|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|529|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1576|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1496|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|495|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2422|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
-|3|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
-|6|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|7|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|8|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|9|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|10|140.82.5.38|1080|United States|Piscataway|The Constant Company|
-|11|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|12|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|13|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
-|16|185.237.99.218|61443|United Kingdom|London|Kamatera Inc|
-|17|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
-|18|173.212.229.53|3128|Germany|Nuremberg|Contabo GmbH|
-|19|51.159.115.233|3128|France|Paris|SCALEWAY|
-|20|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
+|4|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|162.252.84.93|80|United States|Tampa|Primary Assignments - - RESERVED NETWORK|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|11|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|12|144.126.137.16|3128|United States|St Louis|Contabo Inc.|
+|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|14|162.252.84.93|80|United States|Tampa|Primary Assignments - - RESERVED NETWORK|
+|15|62.76.26.232|3128|Russia|Moscow|Start LLC|
+|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|17|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|18|5.234.139.210|8080|Iran|Qarah Ẕīā’ od Dīn|Iran Telecommunication Company PJS|
+|19|31.24.251.112|3128|Russia|Donetsk|BitWeb LLC|
+|20|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
 
 
 
