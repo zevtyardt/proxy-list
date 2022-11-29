@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4314** proxies at the latest update. Usable proxies are below.
+> Scraper found **4407** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|565|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|658|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|214|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2184|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
 |3|159.65.187.194|8080|United States|Clifton|DigitalOcean, LLC|
-|4|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
-|5|134.122.74.46|45678|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|10|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
-|11|140.82.5.38|1080|United States|Piscataway|The Constant Company|
-|12|159.65.187.194|8080|United States|Clifton|DigitalOcean, LLC|
-|13|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|14|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|17|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|194.233.72.183|3128|Singapore|Singapore|Contabo Asia Private Limited|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|140.82.5.38|1080|United States|Piscataway|The Constant Company|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|49.51.90.57|3128|Canada|Barrie|OPHL|
+|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|9|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
+|10|159.65.187.194|8080|United States|Clifton|DigitalOcean, LLC|
+|11|51.159.115.233|3128|France|Paris|SCALEWAY|
+|12|86.120.122.3|3128|Romania|Pipera|RCS & RDS|
+|13|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
+|14|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|15|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|16|194.233.72.183|3128|Singapore|Singapore|Contabo Asia Private Limited|
+|17|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|18|134.238.252.143|8080|India|Mumbai|Google LLC|
 |19|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|20|3.82.152.217|3128|United States|Ashburn|Amazon Technologies Inc.|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
