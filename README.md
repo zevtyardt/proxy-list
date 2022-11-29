@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4491** proxies at the latest update. Usable proxies are below.
+> Scraper found **4637** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|263|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|263|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|263|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|240|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|240|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|240|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|760|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|906|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|220|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2160|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |3|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
-|4|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|5|44.204.196.8|3128|United States|Ashburn|Amazon.com|
-|6|91.189.203.230|3128|Denmark|Hedehusene|Enkeltmandsvirksomhed Netvaerkssmeden|
-|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|54.70.120.216|3128|United States|Portland|Amazon.com, Inc.|
-|10|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|11|5.160.43.26|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|12|62.76.26.232|3128|Russia|Moscow|Start LLC|
-|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|14|46.4.24.111|1988|Germany|Falkenstein|Hetzner Online GmbH|
-|15|44.204.196.8|3128|United States|Ashburn|Amazon.com|
-|16|54.70.120.216|3128|United States|Portland|Amazon.com, Inc.|
-|17|203.150.243.105|8080|Thailand|Sap Yai|Internet Thailand Company Ltd.|
-|18|207.180.236.140|3128|Germany|Nuremberg|Contabo GmbH|
-|19|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|20|103.173.255.230|3128|Vietnam|Vinh|THANGVINH|
+|4|54.70.120.216|3128|United States|Portland|Amazon.com, Inc.|
+|5|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|207.180.236.140|3128|Germany|Nuremberg|Contabo GmbH|
+|8|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|9|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|10|103.173.255.230|3128|Vietnam|Vinh|THANGVINH|
+|11|46.4.24.111|1988|Germany|Falkenstein|Hetzner Online GmbH|
+|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|13|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|14|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|15|159.65.187.194|8080|United States|Clifton|DigitalOcean, LLC|
+|16|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
+|17|54.70.120.216|3128|United States|Portland|Amazon.com, Inc.|
+|18|5.160.43.26|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|19|159.65.187.194|8080|United States|Clifton|DigitalOcean, LLC|
+|20|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
 
 
 
