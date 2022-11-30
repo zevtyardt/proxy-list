@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5629** proxies at the latest update. Usable proxies are below.
+> Scraper found **5605** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|566|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|566|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|566|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|621|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|621|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|621|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1173|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1149|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|554|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2551|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|2|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|5|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|6|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|5|194.53.136.114|3129|United States|Los Angeles|M247 Europe SRL|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
 |7|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|9|51.159.115.233|3128|France|Paris|SCALEWAY|
-|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|11|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|12|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|13|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
-|14|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|203.150.128.151|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
-|17|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|18|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|19|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|20|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|135.181.22.40|3128|Finland|Helsinki|Hetzner Online GmbH|
+|10|62.76.26.232|3128|Russia|Moscow|Start LLC|
+|11|51.159.115.233|3128|France|Paris|SCALEWAY|
+|12|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|13|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|14|134.73.1.167|3129|United States|Los Angeles|LayerHost|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|17|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|18|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
+|19|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
+|20|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
 
 
 
