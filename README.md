@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4638** proxies at the latest update. Usable proxies are below.
+> Scraper found **4548** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|241|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|241|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|241|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|248|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|248|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|248|
 
 ## Sources
 
@@ -34,12 +34,12 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|630|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|544|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|203|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|231|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2422|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|4|5.61.44.89|3128|Germany|Frankfurt am Main|LeaseWeb DE|
-|5|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|3|5.61.44.89|3128|Germany|Frankfurt am Main|LeaseWeb DE|
+|4|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
 |6|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|139.59.129.114|3128|Germany|Frankfurt am Main|DIGITALOCEAN|
-|9|132.248.159.223|3128|Mexico|Tecamac|Universidad Nacional Autonoma de Mexico|
-|10|188.32.112.224|8888|Russia|Moscow|NCNET|
-|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|12|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
-|13|188.166.189.106|8080|Singapore|Singapore|DigitalOcean, LLC|
-|14|13.76.5.26|8080|Singapore|Singapore|Microsoft Corporation|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|17|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
-|18|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|19|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|20|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|7|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|107.152.42.141|8080|United States|Chicago|tzulo, inc.|
+|10|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|11|132.248.159.223|3128|Mexico|Tecamac|Universidad Nacional Autonoma de Mexico|
+|12|139.59.129.114|3128|Germany|Frankfurt am Main|DIGITALOCEAN|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|134.73.1.86|3129|United States|Los Angeles|LayerHost|
+|15|188.166.189.106|8080|Singapore|Singapore|DigitalOcean, LLC|
+|16|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|17|13.76.5.26|8080|Singapore|Singapore|Microsoft Corporation|
+|18|81.200.92.71|8080|Russia|Balashikha|Center of Children Telemedicin and new information technologis|
+|19|36.90.15.151|80|Indonesia|Semarang|PT. Telekomunikasi Indonesia|
+|20|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
 
 
 
