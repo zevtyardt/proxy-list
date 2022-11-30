@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4455** proxies at the latest update. Usable proxies are below.
+> Scraper found **4209** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|180|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|180|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|180|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|177|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|177|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|177|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|532|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|586|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|227|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2345|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |3|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|9|62.76.26.232|3128|Russia|Moscow|Start LLC|
-|10|119.13.91.241|8118|Hong Kong|Hong Kong|Huawei International Pte. LTD|
-|11|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|12|82.165.184.53|80|Germany|Karlsruhe|IONOS SE|
-|13|182.253.40.147|8080|Indonesia|Jakarta|BIZNET|
-|14|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|8|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|9|83.84.224.237|8118|Netherlands|The Hague|ZIGGO-CM|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|12|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|13|45.179.200.129|999|Colombia|Risaralda|NET&COM LTDA.|
+|14|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 |15|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|16|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|17|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|18|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|19|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
-|20|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
+|16|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|17|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|18|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|19|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|20|158.160.1.43|3128|Russia|Moscow|Yandex.Cloud LLC|
 
 
 
