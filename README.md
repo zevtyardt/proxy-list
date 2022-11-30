@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4680** proxies at the latest update. Usable proxies are below.
+> Scraper found **4488** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|108|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|108|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|108|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|119|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|119|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|119|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|709|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|417|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|288|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2432|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|139.59.129.114|3128|Germany|Frankfurt am Main|DIGITALOCEAN|
-|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|139.59.129.114|3128|Germany|Frankfurt am Main|DIGITALOCEAN|
 |4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|6|132.248.159.223|3128|Mexico|Tecamac|Universidad Nacional Autonoma de Mexico|
-|7|13.76.5.26|8080|Singapore|Singapore|Microsoft Corporation|
-|8|188.166.189.106|8080|Singapore|Singapore|DigitalOcean, LLC|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|12|63.250.53.181|3128|United Kingdom|London|HIVELOCITY, Inc.|
-|13|87.254.171.64|3333|Bulgaria|Dryanovo|Telnet Limited|
-|14|138.99.179.194|999|Peru|Lima|OPTIC|
-|15|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|16|157.230.217.232|8080|United States|North Bergen|DigitalOcean, LLC|
-|17|165.76.151.53|80|Japan|Chiyoda|Softbank BB Corp.|
-|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|19|103.247.121.116|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
-|20|51.79.41.132|10052|Canada|Beauharnois|OVH SAS|
+|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|6|188.166.189.106|8080|Singapore|Singapore|DigitalOcean, LLC|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|9|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|10|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|11|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|12|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|14|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|15|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
+|16|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|18|157.230.217.232|8080|United States|North Bergen|DigitalOcean, LLC|
+|19|165.76.151.53|80|Japan|Chiyoda|Softbank BB Corp.|
+|20|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
 
 
 
