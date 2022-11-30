@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4371** proxies at the latest update. Usable proxies are below.
+> Scraper found **4520** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|200|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|200|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|200|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|219|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|219|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|219|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|556|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|596|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|190|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|299|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2274|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|49.51.90.57|3128|Canada|Barrie|OPHL|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|191.252.195.53|8888|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
 |6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|7|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|8|191.252.195.53|8888|Brazil|São Paulo|Locaweb Serviços de Internet S/A|
-|9|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
-|10|34.200.136.174|3128|United States|Ashburn|Amazon.com, Inc.|
-|11|34.200.136.174|3128|United States|Ashburn|Amazon.com, Inc.|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|14|31.216.62.104|8080|Iran|Behshahr|Asiatech Data Transmission company|
-|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|16|61.7.228.54|443|Thailand|Thoeng|CAT-ISP|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|213.135.5.141|8080|Germany|Saarbrücken|intersaar GmbH|
-|19|103.243.177.90|8080|Indonesia|Semarang|Universitas Katolik Soegijapranata|
-|20|169.239.83.138|8080|South Africa|Johannesburg|Mesh Telecom Pty Ltd|
+|7|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
+|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|13|134.73.1.175|3129|United States|Los Angeles|LayerHost|
+|14|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|15|80.249.187.85|8080|Russia|St Petersburg|Smart Telecom Company|
+|16|183.81.32.209|3128|Vietnam|Hanoi|FPT Telecom Company|
+|17|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|18|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|19|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|20|134.73.1.130|3129|United States|Los Angeles|LayerHost|
 
 
 
