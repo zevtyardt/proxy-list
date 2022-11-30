@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4264** proxies at the latest update. Usable proxies are below.
+> Scraper found **4241** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|156|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|156|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|156|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|165|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|165|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|165|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|489|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|466|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|155|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2269|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|4.204.184.160|80|Canada|Toronto|Microsoft Corporation|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|167.99.4.35|3128|United States|North Bergen|DigitalOcean, LLC|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|181.78.65.236|999|Colombia|Montería|IFX Networks Argentina S.R.L|
-|10|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|11|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
-|12|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|13|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
-|14|167.99.4.35|3128|United States|North Bergen|DigitalOcean, LLC|
-|15|20.187.107.51|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|16|201.182.150.202|999|Ecuador|Pillaro|Nedetel S.A.|
-|17|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|18|20.196.219.248|80|South Korea|Seoul|Microsoft Corporation|
-|19|74.208.235.70|80|United States|Philadelphia|IONOS SE|
-|20|43.135.156.130|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|159.192.249.154|8080|Thailand|Bangkok|CAT-BB|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|49.51.90.57|3128|Canada|Barrie|OPHL|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|167.99.4.35|3128|United States|North Bergen|DigitalOcean, LLC|
+|8|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|10|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|11|167.99.4.35|3128|United States|North Bergen|DigitalOcean, LLC|
+|12|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|13|181.78.65.236|999|Colombia|Montería|IFX Networks Argentina S.R.L|
+|14|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|15|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|201.182.150.196|999|Ecuador|Ambato|Nedetel S.A.|
+|18|195.225.232.3|8085|Iran|Tehran|TS Information Technology Limited|
+|19|4.204.184.160|80|Canada|Toronto|Microsoft Corporation|
+|20|20.187.107.51|80|Hong Kong|Hong Kong|Microsoft Corporation|
 
 
 
