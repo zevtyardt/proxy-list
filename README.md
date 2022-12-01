@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4947** proxies at the latest update. Usable proxies are below.
+> Scraper found **4664** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|386|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|386|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|386|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|169|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|169|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|169|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|929|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|646|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|405|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2262|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|6|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|7|38.117.65.149|8080|Canada|Toronto|Ravand Cybertech Inc.|
-|8|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|9|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|10|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|11|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|14|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|15|92.60.190.22|50335|Ukraine|Kyiv|Komtel|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
-|18|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|19|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|20|38.117.65.149|8080|Canada|Toronto|Ravand Cybertech Inc.|
+|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|7|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|8|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|10|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|12|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|13|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|14|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|15|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|16|172.105.3.216|8118|Canada|Toronto|Linode, LLC|
+|17|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|18|201.91.82.155|3128|Brazil|São Paulo|Vivo|
+|19|14.140.131.82|3128|India|Ahmedabad|Tata Communications Limited|
+|20|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
 
 
 
