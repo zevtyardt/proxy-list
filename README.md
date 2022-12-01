@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4575** proxies at the latest update. Usable proxies are below.
+> Scraper found **4483** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|336|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|336|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|336|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|304|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|304|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|304|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|756|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|764|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|206|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2262|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
 |3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|5|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|8|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|6|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|7|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|8|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
 |9|38.117.65.149|8080|Canada|Toronto|Ravand Cybertech Inc.|
-|10|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|11|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|12|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|15|51.159.115.233|3128|France|Paris|SCALEWAY|
-|16|190.2.213.250|999|Colombia|Sardinata|TV AZTECA SUCURSAL COLOMBIA|
-|17|38.117.65.149|8080|Canada|Toronto|Ravand Cybertech Inc.|
-|18|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|19|82.99.194.30|3128|Iran|Khorramshahr|ParsOnline Co.|
-|20|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|11|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|12|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|16|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|17|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|18|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|19|38.117.65.149|8080|Canada|Toronto|Ravand Cybertech Inc.|
+|20|110.174.79.76|80|Australia|Brisbane|TPG Internet Pty Ltd|
 
 
 
