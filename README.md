@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4263** proxies at the latest update. Usable proxies are below.
+> Scraper found **4225** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|153|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|153|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|153|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|142|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|142|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|142|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|463|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|425|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|188|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2261|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|49.51.90.57|3128|Canada|Barrie|OPHL|
-|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|4|18.118.71.69|3128|United States|Dublin|Amazon.com, Inc.|
-|5|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|18.118.71.69|3128|United States|Dublin|Amazon.com, Inc.|
-|8|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
-|9|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|10|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
-|11|51.159.28.133|8000|France|Paris|SCALEWAY|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|41.60.234.225|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
-|14|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|45.184.73.114|40033|Brazil|Queimadas|A2 TELECOM PROVEDOR DE INTERNET LTDA|
-|17|154.83.29.206|999|Venezuela|Caracas|internautas system|
-|18|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|19|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
-|20|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|89.40.72.158|3128|Romania|Sfantu Gheorghe|Romarg SRL|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|8|154.83.29.205|999|Venezuela|Caracas|internautas system|
+|9|94.103.85.88|9300|Russia|Moscow|VDSINA|
+|10|51.159.28.133|8000|France|Paris|SCALEWAY|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|13|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|14|23.143.160.180|999|Puerto Rico|Villalba|Unonet Corp|
+|15|91.208.127.71|3128|Netherlands|Doetinchem|Zomro B.V.|
+|16|154.83.29.201|999|Venezuela|Caracas|internautas system|
+|17|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
+|18|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|19|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|20|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
 
 
 
