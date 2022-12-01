@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5491** proxies at the latest update. Usable proxies are below.
+> Scraper found **5454** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|596|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|596|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|596|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|654|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|654|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|654|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1098|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1061|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|491|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2551|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|49.51.90.57|3128|Canada|Barrie|OPHL|
-|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|4|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
-|5|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|6|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
-|7|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|8|5.161.142.222|80|United States|Washington|Hetzner Online GmbH|
-|9|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|10|200.170.138.194|3128|Brazil|Patos de Minas|ALGAR TELECOM S/A|
-|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|12|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|51.159.115.233|3128|France|Paris|SCALEWAY|
-|15|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|16|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|17|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|18|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|19|191.252.196.14|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
-|20|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|49.51.90.57|3128|Canada|Barrie|OPHL|
+|3|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|4|134.73.3.49|3129|United States|Los Angeles|LayerHost|
+|5|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|6|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|7|134.73.1.183|3129|United States|Los Angeles|LayerHost|
+|8|134.73.1.170|3129|United States|Los Angeles|LayerHost|
+|9|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|10|155.4.244.218|80|Sweden|Stockholm|Bahnhof AB|
+|11|62.76.26.232|3128|Russia|Moscow|Start LLC|
+|12|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|13|134.73.3.226|3129|United States|Los Angeles|LayerHost|
+|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|207.180.236.140|3128|Germany|Nuremberg|Contabo GmbH|
+|17|134.73.1.130|3129|United States|Los Angeles|LayerHost|
+|18|51.159.115.233|3128|France|Paris|SCALEWAY|
+|19|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|181.129.138.114|30838|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P.|
 
 
 
