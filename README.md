@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4814** proxies at the latest update. Usable proxies are below.
+> Scraper found **4934** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|274|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|274|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|274|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|358|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|358|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|358|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|832|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|852|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|408|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2323|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|75.72.55.108|8118|United States|Hopkins|Comcast Cable Communications, LLC|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|5|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
 |6|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|7|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|10|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|11|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|12|38.117.65.149|8080|Canada|Toronto|Ravand Cybertech Inc.|
-|13|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|14|38.117.65.149|8080|Canada|Toronto|Ravand Cybertech Inc.|
-|15|178.128.94.61|443|Singapore|Singapore|DigitalOcean, LLC|
-|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|17|45.146.106.9|80|Indonesia|Mojokerto|HERDIAN G. SISWOYO trading as "CV. CRON INTERDATA NUSANTARA"|
-|18|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|19|83.168.85.9|8090|Poland|Szczecin|ESPOL-FH|
-|20|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|9|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|10|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|12|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|14|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|15|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|103.169.187.201|1111|Indonesia|Pasuruan|PT. PRATAMA HASTA UTAMA SOLUSINDO|
+|18|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|19|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
