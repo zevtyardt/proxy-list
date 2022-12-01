@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5279** proxies at the latest update. Usable proxies are below.
+> Scraper found **5301** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|326|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|326|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|326|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|416|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|416|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|416|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|823|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|845|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|405|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2700|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|3|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|6|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|7|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|8|128.199.221.6|443|Singapore|Singapore|DigitalOcean, LLC|
-|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|10|134.73.1.7|3129|United States|Los Angeles|LayerHost|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|83.84.224.237|8118|Netherlands|The Hague|ZIGGO-CM|
-|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|17|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|18|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
-|19|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|20|181.115.67.3|999|Honduras|Tegucigalpa|Telgua|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|6|45.189.149.1|8081|Mexico|Cunduacan|Javier Tamayo Garcia|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|9|43.154.69.42|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|11|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|181.129.138.114|30838|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P.|
+|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|178.216.24.80|55443|Poland|Lublin|Telekomunikacja Wschod sp. z o.o.|
+|17|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|19|38.41.29.78|8080|Venezuela|Caracas|MDS TELECOM C.A.|
+|20|134.73.1.180|3129|United States|Los Angeles|LayerHost|
 
 
 
