@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5086** proxies at the latest update. Usable proxies are below.
+> Scraper found **5020** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|377|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|377|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|377|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|247|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|247|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|247|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|793|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|827|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|480|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2462|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|20.175.224.133|3128|Canada|Toronto|Microsoft Corporation|
-|6|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|6|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
 |8|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|9|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|10|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 |11|52.54.111.140|8888|United States|Ashburn|Amazon.com, Inc.|
-|12|51.159.115.233|3128|France|Paris|SCALEWAY|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|134.73.1.86|3129|United States|Los Angeles|LayerHost|
-|15|134.73.1.63|3129|United States|Los Angeles|LayerHost|
-|16|103.173.233.242|8080|Indonesia|Medokanayu|Intergate Cahaya Media|
-|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|18|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
-|19|134.73.3.8|3129|United States|Los Angeles|LayerHost|
-|20|47.180.214.9|3128|United States|South Gate|Frontier Communications of America, Inc.|
+|12|138.97.221.227|3128|Brazil|Bertioga|Linkfort Telecom Ltda ME|
+|13|52.54.111.140|8888|United States|Ashburn|Amazon.com, Inc.|
+|14|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|15|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|16|144.217.131.61|3148|Canada|Beauharnois|OVH Hosting|
+|17|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|18|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|19|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|20|113.219.170.219|9002|China|Loudi|Hengyang|
 
 
 
