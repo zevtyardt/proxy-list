@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4473** proxies at the latest update. Usable proxies are below.
+> Scraper found **4696** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|240|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|240|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|240|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|276|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|276|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|276|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|662|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|698|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|246|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|433|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2214|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|88.80.187.42|3128|United Kingdom|London|Linode, LLC|
 |3|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|4|159.65.120.166|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|10|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|11|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|12|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|13|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
-|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|15|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|16|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|17|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|19|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|20|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|5|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|6|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|8|159.65.120.166|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|12|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|13|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|14|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|15|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|17|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|18|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|19|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|20|134.73.3.211|3129|United States|Los Angeles|LayerHost|
 
 
 
