@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4721** proxies at the latest update. Usable proxies are below.
+> Scraper found **4687** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|361|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|361|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|361|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|318|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|318|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|318|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|604|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|570|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|376|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2390|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|4|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|5|51.103.50.109|8000|France|Paris|Microsoft|
-|6|51.103.50.252|8000|France|Paris|Microsoft|
-|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|8|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|9|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|10|51.11.209.150|8000|France|Paris|Microsoft|
-|11|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|12|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|13|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|14|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|15|20.250.26.145|8000|Switzerland|Zurich|Microsoft Corporation|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|18|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|20|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|7|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|10|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|11|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|12|185.156.98.70|30001|Denmark|Tønder|WNB A/S|
+|13|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|14|103.156.233.175|3125|Indonesia|Bogor|MULTIMEDIALINKTECH|
+|15|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|16|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|17|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|18|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|19|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|20|132.248.159.223|3128|Mexico|Tecamac|Universidad Nacional Autonoma de Mexico|
 
 
 
