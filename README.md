@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5359** proxies at the latest update. Usable proxies are below.
+> Scraper found **5394** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|611|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|611|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|611|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|425|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|425|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|425|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|892|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|950|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|602|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|579|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2514|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|52.152.223.120|8000|United States|Boydton|Microsoft Corporation|
-|3|52.152.223.139|8000|United States|Boydton|Microsoft Corporation|
-|4|51.11.210.200|8000|France|Paris|Microsoft|
-|5|51.103.50.94|8000|France|Paris|Microsoft|
-|6|51.103.84.120|8000|France|Paris|Microsoft|
-|7|52.152.220.230|8000|United States|Boydton|Microsoft Corporation|
-|8|52.152.221.66|8000|United States|Boydton|Microsoft Corporation|
-|9|52.152.223.52|8000|United States|Boydton|Microsoft Corporation|
-|10|51.11.210.177|8000|France|Paris|Microsoft|
-|11|51.11.209.208|8000|France|Paris|Microsoft|
-|12|51.11.209.93|8000|France|Paris|Microsoft|
-|13|51.11.210.126|8000|France|Paris|Microsoft|
-|14|51.11.210.207|8000|France|Paris|Microsoft|
-|15|51.11.209.162|8000|France|Paris|Microsoft|
-|16|51.11.210.85|8000|France|Paris|Microsoft|
-|17|52.152.220.230|8000|United States|Boydton|Microsoft Corporation|
-|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|19|51.11.209.199|8000|France|Paris|Microsoft|
-|20|134.238.252.143|8080|India|Mumbai|Google LLC|
+|1|52.152.223.150|8000|United States|Boydton|Microsoft Corporation|
+|2|52.152.223.139|8000|United States|Boydton|Microsoft Corporation|
+|3|52.152.223.120|8000|United States|Boydton|Microsoft Corporation|
+|4|52.152.221.10|8000|United States|Boydton|Microsoft Corporation|
+|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|6|52.152.220.230|8000|United States|Boydton|Microsoft Corporation|
+|7|51.11.210.16|8000|France|Paris|Microsoft|
+|8|52.152.223.52|8000|United States|Boydton|Microsoft Corporation|
+|9|51.11.209.192|8000|France|Paris|Microsoft|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|51.11.209.249|8000|France|Paris|Microsoft|
+|12|51.11.209.82|8000|France|Paris|Microsoft|
+|13|52.152.221.66|8000|United States|Boydton|Microsoft Corporation|
+|14|52.152.223.150|8000|United States|Boydton|Microsoft Corporation|
+|15|51.103.114.203|8000|France|Paris|Microsoft|
+|16|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|17|51.103.50.109|8000|France|Paris|Microsoft|
+|18|51.11.210.46|8000|France|Paris|Microsoft|
+|19|51.11.210.125|8000|France|Paris|Microsoft|
+|20|51.11.209.212|8000|France|Paris|Microsoft|
 
 
 
