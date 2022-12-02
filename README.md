@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4536** proxies at the latest update. Usable proxies are below.
+> Scraper found **4617** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|274|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|274|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|274|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|243|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|243|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|243|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|591|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|672|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|341|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2253|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|4|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|5|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|9|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
-|12|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|13|134.73.1.193|3129|United States|Los Angeles|LayerHost|
-|14|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
-|15|134.73.1.175|3129|United States|Los Angeles|LayerHost|
-|16|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|17|134.73.1.167|3129|United States|Los Angeles|LayerHost|
-|18|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|3|49.51.90.57|3128|Canada|Barrie|OPHL|
+|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|6|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|7|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|8|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|9|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|10|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|11|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|12|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|15|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
+|16|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|17|45.174.76.14|999|Mexico|Chihuahua City|Raul Duarte Urita|
+|18|177.93.39.253|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
 |19|144.217.119.85|3207|Canada|Beauharnois|OVH Hosting|
-|20|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|20|144.217.131.61|3148|Canada|Beauharnois|OVH Hosting|
 
 
 
