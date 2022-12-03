@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|200|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|200|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|200|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|236|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|236|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|236|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|4|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|5|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|8|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|9|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|203.150.128.232|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
-|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|13|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|14|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|15|189.232.85.95|8080|Mexico|Atitalaquia|Uninet S.A. de C.V.|
-|16|160.3.168.70|8080|United States|Gulfport|CABLE ONE, INC.|
-|17|181.10.117.254|999|Argentina|La Cocha|Telecom Argentina S.A.|
-|18|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
-|19|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|20|110.77.180.77|8080|Thailand|Samphanthawong|CAT-BB|
+|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|8|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|9|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|10|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|11|80.253.138.130|3128|Iran|Tehran|Torange Back UP|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|182.253.173.8|8080|Indonesia|Jakarta|Biznet Metronet|
+|14|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|15|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|187.250.42.196|999|Mexico|Tijuana|Uninet S.A. de C.V.|
+|18|103.154.144.204|8715|Indonesia|Kutisari|MORATELINDONAP|
+|19|144.217.119.85|3207|Canada|Beauharnois|OVH Hosting|
+|20|158.69.185.37|3129|Canada|Montreal|OVH SAS|
 
 
 
