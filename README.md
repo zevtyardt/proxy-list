@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4348** proxies at the latest update. Usable proxies are below.
+> Scraper found **4342** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|190|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|190|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|190|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|192|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|192|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|192|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|476|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|570|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|247|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2274|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |4|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|7|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|8|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
 |9|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|10|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|11|192.9.152.116|3128|United States|San Jose|Oracle Corporation|
-|12|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|13|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|14|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|15|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|16|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|17|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|18|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|19|132.248.159.223|3128|Mexico|Tecamac|Universidad Nacional Autonoma de Mexico|
-|20|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|10|103.231.241.102|3128|Philippines|Quezon City|De La Salle University|
+|11|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|13|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|14|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|15|111.225.153.141|8089|China|Gaocheng|Chinanet|
+|16|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|17|203.142.78.180|8080|Indonesia|South Tangerang|BIZNET|
+|18|179.60.240.69|53281|Colombia|Barranquilla|ITELKOM|
+|19|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|20|63.250.53.181|3128|United Kingdom|London|HIVELOCITY, Inc.|
 
 
 
