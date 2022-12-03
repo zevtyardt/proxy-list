@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5677** proxies at the latest update. Usable proxies are below.
+> Scraper found **5306** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|769|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|769|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|769|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|382|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|382|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|382|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1174|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|783|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|638|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2514|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|624|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2548|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.11.209.223|8000|France|Paris|Microsoft|
-|2|52.152.221.66|8000|United States|Boydton|Microsoft Corporation|
-|3|51.11.210.207|8000|France|Paris|Microsoft|
-|4|52.152.223.120|8000|United States|Boydton|Microsoft Corporation|
-|5|52.152.221.197|8000|United States|Boydton|Microsoft Corporation|
-|6|51.11.210.139|8000|France|Paris|Microsoft|
-|7|52.152.220.230|8000|United States|Boydton|Microsoft Corporation|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|51.11.209.208|8000|France|Paris|Microsoft|
-|10|52.152.221.10|8000|United States|Boydton|Microsoft Corporation|
-|11|51.11.209.124|8000|France|Paris|Microsoft|
-|12|185.156.98.70|30001|Denmark|Tønder|WNB A/S|
-|13|51.103.84.58|8000|France|Paris|Microsoft|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|3|185.156.98.70|30001|Denmark|Tønder|WNB A/S|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|134.73.3.131|3129|United States|Los Angeles|LayerHost|
+|9|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|45.174.156.47|3128|Brazil|Coxim|Rede Tjnet|
+|12|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|13|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
 |14|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|15|52.152.221.197|8000|United States|Boydton|Microsoft Corporation|
-|16|51.11.209.135|8000|France|Paris|Microsoft|
-|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|18|51.11.210.200|8000|France|Paris|Microsoft|
-|19|51.103.50.109|8000|France|Paris|Microsoft|
-|20|51.11.209.180|8000|France|Paris|Microsoft|
+|15|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|16|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|18|110.77.215.55|8080|Thailand|Bang Bai Mai|CAT Telecom Public Company Limited|
+|19|103.247.217.46|8080|Indonesia|Jakarta|PT. Parsaoran Global Datatrans|
+|20|201.222.45.51|999|Chile|Santiago|GRUPO ULLOA SpA|
 
 
 
