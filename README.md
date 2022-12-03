@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4376** proxies at the latest update. Usable proxies are below.
+> Scraper found **4396** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|197|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|197|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|197|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|111|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|111|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|111|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|490|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|510|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|270|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2265|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
+|3|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
 |4|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
 |5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|8|23.234.252.229|8080|United States|Santa Clarita|Multacom Corporation|
-|9|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|10|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|6|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|7|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|8|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|9|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
 |11|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
 |12|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|13|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|14|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|18|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|19|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|20|190.13.82.18|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
+|13|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|14|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|15|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|17|81.94.255.12|8080|Hungary|Rajka|Invitech ICT Services Kft.|
+|18|189.232.85.95|8080|Mexico|Atitalaquia|Uninet S.A. de C.V.|
+|19|70.177.15.10|8080|United States|Tempe|Cox Communications Inc.|
+|20|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
 
 
 
