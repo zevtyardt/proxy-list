@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4513** proxies at the latest update. Usable proxies are below.
+> Scraper found **4348** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|235|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|235|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|235|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|211|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|211|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|211|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|625|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|460|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|273|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2264|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|4|194.163.179.52|3128|Germany|Düsseldorf|Contabo GmbH|
-|5|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|6|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|170.178.220.210|3128|United States|Santa Clarita|Multacom Corporation|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
-|11|170.178.220.210|3128|United States|Santa Clarita|Multacom Corporation|
-|12|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|13|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|14|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|15|116.103.143.144|10000|Vietnam|Buon Ma Thuot|Viettel Corporation|
-|16|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|18|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|20|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|161.53.129.23|3128|Croatia|Krapinske Toplice|Croatian Academic and Research Network|
+|6|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|7|170.178.220.210|3128|United States|Santa Clarita|Multacom Corporation|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|10|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|11|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|14|116.103.143.144|10000|Vietnam|Buon Ma Thuot|Viettel Corporation|
+|15|170.178.220.210|3128|United States|Santa Clarita|Multacom Corporation|
+|16|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|17|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|19|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|20|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
