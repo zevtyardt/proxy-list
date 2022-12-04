@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|284|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|284|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|284|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|8|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|1|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|2|4.246.220.253|8080|United States|Boydton|Microsoft Corporation|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|6|45.152.188.16|3128|United States|Ashburn|Sprint|
+|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|8|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
 |9|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|10|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|13|45.152.188.16|3128|United States|Ashburn|Sprint|
-|14|92.241.102.47|3128|Russia|Khislavichi|SMOLTELECOM|
-|15|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|16|45.119.82.101|3333|Vietnam|Ho Chi Minh City|Long Van System Solution|
-|17|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|18|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|19|194.233.84.239|80|Singapore|Singapore|Contabo Asia Private Limited|
-|20|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|11|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
+|12|45.152.188.16|3128|United States|Ashburn|Sprint|
+|13|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|45.119.82.101|3333|Vietnam|Ho Chi Minh City|Long Van System Solution|
+|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|17|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|18|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|19|128.199.221.6|443|Singapore|Singapore|DigitalOcean, LLC|
+|20|47.242.43.30|1080|Hong Kong|Hong Kong|Alibaba.com LLC|
 
 
 
