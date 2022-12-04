@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|343|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|343|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|343|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|387|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|387|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|387|
 
 ## Sources
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|5|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|194.233.84.239|80|Singapore|Singapore|Contabo Asia Private Limited|
-|10|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|13|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
-|14|45.152.188.16|3128|United States|Ashburn|Sprint|
-|15|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
-|16|152.67.250.2|3128|United States|San Jose|Oracle Corporation|
-|17|86.104.35.251|80|Iran|Tehran|Afranet|
-|18|208.82.61.13|3128|United States|Ashburn|Bernardi Sounds|
-|19|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|20|144.217.119.85|3207|Canada|Beauharnois|OVH Hosting|
+|3|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
+|4|45.152.188.16|3128|United States|Ashburn|Sprint|
+|5|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
+|6|152.67.250.2|3129|United States|San Jose|Oracle Corporation|
+|7|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
+|8|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|9|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|10|51.159.115.233|3128|France|Paris|SCALEWAY|
+|11|45.152.188.16|3128|United States|Ashburn|Sprint|
+|12|185.231.114.140|8585|Iran|Tehran|Abolfazl-Shirdel|
+|13|208.82.61.15|3128|United States|Ashburn|Bernardi Sounds|
+|14|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|15|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|16|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|17|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|18|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|19|152.67.250.2|3129|United States|San Jose|Oracle Corporation|
+|20|208.82.61.12|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
