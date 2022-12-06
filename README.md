@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4717** proxies at the latest update. Usable proxies are below.
+> Scraper found **4665** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|174|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|174|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|174|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|151|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|151|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|151|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|433|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|381|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|444|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2489|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|210.188.163.16|8080|Japan|Mito|Kddi Corporation|
-|4|189.36.193.74|3128|Brazil|Fortaleza|Orion Telecomunicações Comercio e Serviços LTDA|
-|5|186.96.101.76|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|9|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|10|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|11|144.217.131.61|3148|Canada|Beauharnois|OVH Hosting|
-|12|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|13|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|14|144.217.119.85|3207|Canada|Beauharnois|OVH Hosting|
-|15|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|16|192.99.182.243|3128|United States|Newark|OVH Hosting|
-|17|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|45.55.64.154|8080|United States|Clifton|DigitalOcean, LLC|
-|20|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|6|189.36.193.74|3128|Brazil|Fortaleza|Orion Telecomunicações Comercio e Serviços LTDA|
+|7|45.152.188.16|3128|United States|Ashburn|Sprint|
+|8|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|9|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|45.152.188.16|3128|United States|Ashburn|Sprint|
+|13|45.55.64.154|8080|United States|Clifton|DigitalOcean, LLC|
+|14|182.253.159.194|8080|Indonesia|Bandung|BIZNET|
+|15|45.55.64.154|8080|United States|Clifton|DigitalOcean, LLC|
+|16|103.170.97.17|8080|Indonesia|Kedungpeluk|PT Global Data Akses Persada|
+|17|181.78.22.146|8080|Colombia|Valledupar|IFX Networks Argentina S.R.L|
+|18|174.138.116.12|80|United States|Clifton|DigitalOcean, LLC|
+|19|158.69.185.37|3129|Canada|Montreal|OVH SAS|
+|20|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
