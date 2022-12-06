@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5095** proxies at the latest update. Usable proxies are below.
+> Scraper found **5173** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|356|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|356|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|356|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|387|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|387|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|387|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|804|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|882|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|435|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2505|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|6|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|4|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|5|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|45.152.188.16|3128|United States|Ashburn|Sprint|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|11|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|12|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|15|210.188.163.16|8080|Japan|Mito|Kddi Corporation|
-|16|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|17|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|18|45.55.64.154|8080|United States|Clifton|DigitalOcean, LLC|
-|19|110.78.208.136|8080|Thailand|Chaiyo|CAT Telecom Public Company Limited|
-|20|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|8|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
+|9|110.78.208.136|8080|Thailand|Chaiyo|CAT Telecom Public Company Limited|
+|10|144.24.238.60|8118|Switzerland|Zurich|Oracle Corporation|
+|11|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
+|12|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|13|45.152.188.16|3128|United States|Ashburn|Sprint|
+|14|119.252.171.50|8080|Indonesia|Gandul|PT Indonesia Comnets Plus|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|17|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|18|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|19|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|20|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
 
 
 
