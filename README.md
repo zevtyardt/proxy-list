@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4940** proxies at the latest update. Usable proxies are below.
+> Scraper found **4873** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|137|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|137|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|137|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|167|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|167|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|167|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|434|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|467|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|580|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2575|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
-|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|5|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
-|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
-|9|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|10|45.152.188.16|3128|United States|Ashburn|Sprint|
-|11|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|12|14.171.130.108|8080|Vietnam|Thai Nguyen|VNPT-VNNIC|
-|13|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|15|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|16|45.152.188.16|3128|United States|Ashburn|Sprint|
-|17|134.238.252.143|8080|India|Mumbai|Google LLC|
-|18|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
-|19|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|20|177.234.217.91|999|Ecuador|Quito|Nedetel S.A.|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|6|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|8|85.105.199.43|3128|Turkey|Avcilar|TurkTelecom|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|38.49.135.254|999|Mexico|Celaya|Ientc S De RL De CV|
+|11|45.152.188.16|3128|United States|Ashburn|Sprint|
+|12|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|13|14.171.130.108|8080|Vietnam|Thai Nguyen|VNPT-VNNIC|
+|14|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
+|15|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
+|18|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|19|81.37.49.8|18080|Spain|Marbella|Telefonica de Espana SAU|
+|20|46.161.195.101|1981|Iraq|Duhok|Valin Company for General Trading and Communication LTD|
 
 
 
