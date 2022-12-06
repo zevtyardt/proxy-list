@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4966** proxies at the latest update. Usable proxies are below.
+> Scraper found **4972** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|182|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|182|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|182|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|296|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|296|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|296|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|100|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|460|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|566|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|580|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2575|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|5|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|6|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|5|89.187.187.171|80|United States|Los Angeles|Datacamp Limited|
+|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 |7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|9|88.135.130.183|3128|Latvia|Riga|Telenet SIA|
-|10|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|89.187.187.171|80|United States|Los Angeles|Datacamp Limited|
-|12|14.171.130.108|8080|Vietnam|Thai Nguyen|VNPT-VNNIC|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|38.49.135.254|999|Mexico|Celaya|Ientc S De RL De CV|
-|16|89.187.187.171|80|United States|Los Angeles|Datacamp Limited|
-|17|38.49.131.164|999|Mexico|Celaya|Ientc S De RL De CV|
-|18|177.234.217.91|999|Ecuador|Quito|Nedetel S.A.|
-|19|83.244.13.56|8080|Palestine|Hebron|Palestine Telecommunications Company|
-|20|154.113.32.9|8080|Nigeria|Lagos|Mainone Cable Company|
+|8|38.49.135.254|999|Mexico|Celaya|Ientc S De RL De CV|
+|9|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
+|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|13|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|14|190.162.91.197|3128|Chile|La Florida|VTR BANDA ANCHA S.A.|
+|15|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|16|88.135.130.183|3128|Latvia|Riga|Telenet SIA|
+|17|89.187.187.171|80|United States|Los Angeles|Datacamp Limited|
+|18|185.137.25.135|8989|Iran|Tehran|Rasaneh Avabarid Private Joint Stock Company|
+|19|45.152.188.16|3128|United States|Ashburn|Sprint|
+|20|167.99.60.29|8080|United States|Clifton|DigitalOcean, LLC|
 
 
 
