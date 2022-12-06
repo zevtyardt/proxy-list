@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5030** proxies at the latest update. Usable proxies are below.
+> Scraper found **4958** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|279|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|279|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|279|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|357|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|357|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|357|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
-|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
+|[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|831|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|659|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|457|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2491|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|3|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
-|4|45.152.188.16|3128|United States|Ashburn|Sprint|
-|5|103.141.141.182|3128|Vietnam|Hanoi|MEGACORE|
-|6|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|7|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|8|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|4.246.220.253|8080|United States|Boydton|Microsoft Corporation|
-|11|103.141.141.180|3128|Vietnam|Hanoi|MEGACORE|
-|12|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|13|103.141.141.145|3128|Vietnam|Hanoi|MEGACORE|
-|14|103.214.11.197|3128|Vietnam|Hanoi|MEGACORE|
-|15|103.141.141.163|3128|Vietnam|Hanoi|MEGACORE|
-|16|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|103.214.11.199|3128|Vietnam|Hanoi|MEGACORE|
-|18|103.141.141.170|3128|Vietnam|Hanoi|MEGACORE|
-|19|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|45.152.188.16|3128|United States|Ashburn|Sprint|
+|4|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|103.214.11.203|3128|Vietnam|Hanoi|MEGACORE|
+|10|103.214.11.197|3128|Vietnam|Hanoi|MEGACORE|
+|11|163.172.85.160|9741|France|Paris|Online S.A.S.|
+|12|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|13|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|103.141.141.157|3128|Vietnam|Hanoi|MEGACORE|
+|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|190.2.211.172|999|Colombia|La Union|TV AZTECA SUCURSAL COLOMBIA|
+|18|91.185.85.128|3128|Russia|Moscow|CloudMTS|
+|19|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|20|193.142.30.215|3128|Iran|Tehran|Batterflyai Media ltd.|
 
 
 
