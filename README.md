@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4606** proxies at the latest update. Usable proxies are below.
+> Scraper found **4737** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|287|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|287|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|287|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|270|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|270|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|270|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|647|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|778|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|374|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2234|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|45.152.188.16|3128|United States|Ashburn|Sprint|
-|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|134.238.252.143|8080|India|Mumbai|Google LLC|
-|5|45.152.188.16|3128|United States|Ashburn|Sprint|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|10|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|11|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|12|131.108.61.46|3128|Brazil|Porto Velho|RONDOTECH SERVIÇO DE COMUNICAÇÃO EIRELI-EPP|
-|13|194.94.196.139|80|Germany|Bonn|Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.|
-|14|93.174.125.63|80|Greece|Athens|IpHost P.C.|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|17|143.198.82.124|8081|Singapore|Singapore|DigitalOcean, LLC|
-|18|38.49.135.254|999|Mexico|Celaya|Ientc S De RL De CV|
-|19|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|20|41.204.87.90|8080|Cameroon|Yaoundé|Camtel Dla-tis Stm16|
+|1|45.152.188.16|3128|United States|Ashburn|Sprint|
+|2|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|3|157.90.114.90|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|4|142.132.168.173|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|5|23.88.34.57|3897|Germany|Gunzenhausen|Hetzner Online GmbH|
+|6|78.47.123.90|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|7|188.34.156.73|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|8|178.170.47.86|3128|France|Boulogne-Billancourt|Ikoula Net SAS|
+|9|162.55.39.67|3897|Germany|Falkenstein|Hetzner Online GmbH|
+|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|11|167.235.236.1|3897|Germany|Falkenstein|Hetzner Online GmbH|
+|12|188.34.181.148|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|13|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|45.152.188.16|3128|United States|Ashburn|Sprint|
+|16|194.94.196.138|80|Germany|Bonn|Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.|
+|17|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|194.94.196.139|80|Germany|Bonn|Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.|
+|20|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
