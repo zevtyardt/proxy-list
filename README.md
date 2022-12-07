@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4476** proxies at the latest update. Usable proxies are below.
+> Scraper found **4555** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|253|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|253|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|253|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|261|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|261|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|261|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|566|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|645|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|326|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2233|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|128.199.65.231|3128|Singapore|Singapore|DigitalOcean, LLC|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|191.242.177.110|3128|Brazil|Ituberá|Conect Telecom|
-|5|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|6|95.216.202.146|3128|Finland|Helsinki|Hetzner Online GmbH|
-|7|82.99.194.30|3128|Iran|Khorramshahr|ParsOnline Co.|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|1|128.199.65.231|3128|Singapore|Singapore|DigitalOcean, LLC|
+|2|134.238.252.143|8080|India|Mumbai|Google LLC|
+|3|172.104.97.227|3128|Japan|Tokyo|Linode, LLC|
+|4|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|95.216.202.146|3128|Finland|Helsinki|Hetzner Online GmbH|
+|6|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|7|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|8|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
 |9|157.100.55.143|999|Ecuador|Guayaquil|Nedetel S.A.|
-|10|95.216.106.38|3128|Finland|Helsinki|Hetzner Online GmbH|
-|11|144.217.7.157|9300|Canada|Beauharnois|OVH SAS|
-|12|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
-|13|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|14|172.104.97.227|3128|Japan|Tokyo|Linode, LLC|
-|15|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|16|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|17|18.117.226.228|80|United States|Dublin|Amazon.com, Inc.|
-|18|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|19|38.49.135.254|999|Mexico|Celaya|Ientc S De RL De CV|
-|20|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
+|10|45.152.188.16|3128|United States|Ashburn|Sprint|
+|11|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
+|12|18.117.226.228|80|United States|Dublin|Amazon.com, Inc.|
+|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|15|190.113.41.201|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
+|16|18.117.226.228|80|United States|Dublin|Amazon.com, Inc.|
+|17|200.202.223.45|8080|Brazil|São Paulo|V tal|
+|18|45.152.188.16|3128|United States|Ashburn|Sprint|
+|19|180.183.10.123|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|20|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 
 
 
