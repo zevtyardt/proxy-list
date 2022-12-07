@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5665** proxies at the latest update. Usable proxies are below.
+> Scraper found **5578** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|644|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|644|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|644|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|571|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|571|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|571|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1087|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1067|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|673|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|606|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2554|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|5|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|7|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|103.214.11.199|3128|Vietnam|Hanoi|MEGACORE|
-|10|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|11|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|12|103.214.11.203|3128|Vietnam|Hanoi|MEGACORE|
-|13|183.89.162.192|8080|Thailand|Ban Bueng|Triple T Broadband Public Company Limited|
-|14|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|15|45.152.188.16|3128|United States|Ashburn|Sprint|
-|16|126.23.127.87|8080|Japan|Fukuoka|Softbank BB Corp.|
-|17|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|18|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|19|134.238.252.143|8080|India|Mumbai|Google LLC|
-|20|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|1|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|2|45.152.188.16|3128|United States|Ashburn|Sprint|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|5|45.167.253.225|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|8|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|9|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|12|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
+|13|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|14|178.35.152.62|8080|Russia|Volgograd|Volgograd Electro Svyaz|
+|15|153.121.44.6|3128|Japan|Tokyo|SAKURA Internet Inc.|
+|16|3.18.191.63|80|United States|Dublin|Amazon.com, Inc.|
+|17|45.152.188.16|3128|United States|Ashburn|Sprint|
+|18|47.90.126.78|8118|Hong Kong|Central|Alibaba.com LLC|
+|19|103.131.16.108|8080|Indonesia|Tangerang|Global Media Inti Semesta|
+|20|35.193.113.186|80|United States|Council Bluffs|Google LLC|
 
 
 
