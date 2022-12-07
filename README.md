@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6447** proxies at the latest update. Usable proxies are below.
+> Scraper found **6638** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|547|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|547|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|547|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|587|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|587|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|587|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1722|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1710|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|293|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|496|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3149|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|49.51.90.57|3128|Canada|Barrie|OPHL|
-|3|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|45.152.188.16|3128|United States|Ashburn|Sprint|
-|6|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|7|23.88.50.198|3897|Germany|Gunzenhausen|Hetzner Online GmbH|
+|2|45.152.188.16|3128|United States|Ashburn|Sprint|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|5|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|45.152.188.16|3128|United States|Ashburn|Sprint|
 |8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
-|11|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|221.132.4.111|4002|Vietnam|Bac Ninh|VietNam Post and Telecom Corporation|
-|15|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|16|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
-|17|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|18|126.23.127.87|8080|Japan|Fukuoka|Softbank BB Corp.|
-|19|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|20|193.141.65.48|808|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
+|9|23.88.50.198|3897|Germany|Gunzenhausen|Hetzner Online GmbH|
+|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|11|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|12|135.12.201.2|3128|United States|Sterling|Carrytel|
+|13|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
+|14|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|15|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|16|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
+|17|135.12.206.65|3128|United States|Sterling|Carrytel|
+|18|135.12.197.237|3128|United States|Sterling|Carrytel|
+|19|135.12.202.54|3128|United States|Sterling|Carrytel|
+|20|135.12.202.240|3128|United States|Sterling|Carrytel|
 
 
 
