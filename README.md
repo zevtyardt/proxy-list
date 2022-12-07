@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5108** proxies at the latest update. Usable proxies are below.
+> Scraper found **5466** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|387|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|387|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|387|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|456|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|456|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|456|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|835|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1193|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|238|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2784|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
 |2|49.51.90.57|3128|Canada|Barrie|OPHL|
-|3|189.232.85.95|8080|Mexico|Atitalaquia|Uninet S.A. de C.V.|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|221.132.4.111|4002|Vietnam|Bac Ninh|VietNam Post and Telecom Corporation|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|176.99.2.43|1081|Russia|Moscow|"Domain names registrar REG.RU", Ltd|
-|10|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|11|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|45.152.188.16|3128|United States|Ashburn|Sprint|
-|14|135.12.206.153|3128|United States|Sterling|Carrytel|
-|15|45.152.188.16|3128|United States|Ashburn|Sprint|
-|16|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|17|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|18|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
-|19|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
-|20|139.28.37.94|8080|Ukraine|Kyiv|Zemlyaniy Dmitro Leonidovich|
+|3|45.152.188.16|3128|United States|Ashburn|Sprint|
+|4|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|5|189.232.85.95|8080|Mexico|Atitalaquia|Uninet S.A. de C.V.|
+|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|9|135.12.202.84|3128|United States|Sterling|Carrytel|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|12|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|135.12.203.229|3128|United States|Sterling|Carrytel|
+|14|135.12.197.93|3128|United States|Sterling|Carrytel|
+|15|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|16|135.12.204.80|3128|United States|Sterling|Carrytel|
+|17|135.12.206.220|3128|United States|Sterling|Carrytel|
+|18|135.12.201.3|3128|United States|Sterling|Carrytel|
+|19|135.12.200.195|3128|United States|Sterling|Carrytel|
+|20|45.152.188.16|3128|United States|Ashburn|Sprint|
 
 
 
