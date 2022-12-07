@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6290** proxies at the latest update. Usable proxies are below.
+> Scraper found **5955** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|650|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|650|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|650|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|528|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|528|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|528|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1858|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1523|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|446|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2735|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|198.8.93.182|3897|United States|Chicago|Performive LLC|
-|2|45.167.253.225|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|5|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|18.235.55.193|8080|United States|Ashburn|Amazon.com, Inc.|
-|8|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|9|5.202.83.1|8080|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
-|10|198.8.93.182|3897|United States|Chicago|Performive LLC|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|45.152.188.248|3128|United States|Ashburn|Sprint|
-|13|217.219.74.130|8888|Iran|Tehran|Iran Telecommunication Company PJS|
-|14|135.12.206.219|3128|United States|Sterling|Carrytel|
-|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|16|178.170.47.86|3128|France|Boulogne-Billancourt|Ikoula Net SAS|
-|17|171.6.75.48|8080|Thailand|Ban Nong Sala|Triple T Broadband Public Company Limited|
-|18|103.231.241.102|80|Philippines|Quezon City|De La Salle University|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|4|45.152.188.16|3128|United States|Ashburn|Sprint|
+|5|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|8|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|9|45.152.188.16|3128|United States|Ashburn|Sprint|
+|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|11|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
+|12|171.6.75.48|8080|Thailand|Ban Nong Sala|Triple T Broadband Public Company Limited|
+|13|198.8.93.182|3897|United States|Chicago|Performive LLC|
+|14|86.104.35.251|80|Iran|Tehran|Afranet|
+|15|131.100.48.236|999|Colombia|Neiva|Fibernet TV SAS|
+|16|45.167.253.225|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|17|18.235.55.193|8080|United States|Ashburn|Amazon.com, Inc.|
+|18|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
 |19|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|20|103.179.109.156|3128|India|Rajkot|Ishan Netsol Pvt Ltd|
+|20|5.202.83.1|8080|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
 
 
 
