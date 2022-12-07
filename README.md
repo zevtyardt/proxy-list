@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5104** proxies at the latest update. Usable proxies are below.
+> Scraper found **5018** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|290|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|290|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|290|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|330|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|330|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|330|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|784|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|698|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|468|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2501|✅|
@@ -47,25 +47,25 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|45.161.32.129|8081|Ecuador|Loja|Lojasystem C.A.|
-|9|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|10|150.95.81.164|8080|Thailand|Kanchanaburi|ZCOM|
-|11|45.152.188.16|3128|United States|Ashburn|Sprint|
-|12|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|13|153.121.44.6|3128|Japan|Tokyo|SAKURA Internet Inc.|
-|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|16|38.49.129.156|999|Mexico|Mineral de la Reforma|Ientc S De RL De CV|
-|17|82.165.184.53|80|Germany|Essen|IONOS SE|
-|18|80.251.246.157|8080|Czechia|Zlín|cz.dat|
-|19|178.238.125.38|21345|Russia|Moscow|JSC Mastertel|
+|1|45.152.188.16|3128|United States|Ashburn|Sprint|
+|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|3|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|5|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|6|45.8.47.63|3129|Romania|Timișoara|SC Mag Bross Web Services SRL|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|9|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|10|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|150.95.81.164|8080|Thailand|Kanchanaburi|ZCOM|
+|14|45.152.188.16|3128|United States|Ashburn|Sprint|
+|15|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|16|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|17|88.135.130.183|3128|Latvia|Riga|Telenet SIA|
+|18|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|19|116.90.229.186|35561|Nepal|Kathmandu|Websurfer Nepal Communication System Pvt. Ltd|
 |20|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
 
 
