@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4715** proxies at the latest update. Usable proxies are below.
+> Scraper found **4946** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|411|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|411|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|411|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|401|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|401|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|401|
 
 ## Sources
 
@@ -34,10 +34,10 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|958|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|857|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|444|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2362|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.16|3128|United States|Ashburn|Sprint|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|4|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|8|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|9|45.152.188.248|3128|United States|Ashburn|Sprint|
-|10|45.152.188.16|3128|United States|Ashburn|Sprint|
+|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|2|45.152.188.16|3128|United States|Ashburn|Sprint|
+|3|45.152.188.248|3128|United States|Ashburn|Sprint|
+|4|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|5|45.152.188.248|3128|United States|Ashburn|Sprint|
+|6|45.152.188.16|3128|United States|Ashburn|Sprint|
+|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|8|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|9|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|10|198.8.93.182|3897|United States|Chicago|Performive LLC|
 |11|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|12|45.164.174.247|999|Dominican Republic|Santo Domingo Este|ORBIT CABLE, S.A.|
-|13|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|14|145.40.121.157|3128|Brazil|São Paulo|Packet Host, Inc.|
-|15|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|16|181.78.17.93|999|Colombia|Santiago de Cali|IFX Networks Argentina S.R.L|
-|17|198.8.93.182|3897|United States|Chicago|Performive LLC|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|20|210.179.58.236|80|South Korea|Paju|Korea Telecom|
+|12|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|13|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|182.253.141.254|8080|Indonesia|Semarang|Biznet Networks|
+|16|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|17|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|41.174.132.58|8080|DR Congo|Kinshasa|Liquid Telecommunications Ltd|
+|19|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|20|45.156.185.226|8080|Iran|Tehran|Pars Shabakeh Azarakhsh LLC|
 
 
 
