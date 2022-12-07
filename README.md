@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4620** proxies at the latest update. Usable proxies are below.
+> Scraper found **4655** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|237|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|237|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|237|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|272|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|272|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|272|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|765|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|800|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|270|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2234|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|2|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|65.108.223.81|3897|Finland|Helsinki|Hetzner Online GmbH|
-|5|162.55.39.67|3897|Germany|Falkenstein|Hetzner Online GmbH|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|167.235.236.1|3897|Germany|Falkenstein|Hetzner Online GmbH|
-|8|142.132.168.173|3897|Germany|Nuremberg|Hetzner Online GmbH|
-|9|188.34.156.73|3897|Germany|Nuremberg|Hetzner Online GmbH|
-|10|78.47.123.90|3897|Germany|Nuremberg|Hetzner Online GmbH|
-|11|157.90.114.90|3897|Germany|Nuremberg|Hetzner Online GmbH|
-|12|45.152.188.16|3128|United States|Ashburn|Sprint|
-|13|162.240.32.213|154|United States|Provo|Unified Layer|
-|14|110.78.186.2|8080|Thailand|Chachoengsao|CAT-BB|
-|15|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|16|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
-|17|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|18|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|19|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|1|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
+|2|65.21.1.151|3897|Finland|Helsinki|Hetzner Online GmbH|
+|3|95.217.191.101|3897|Finland|Helsinki|Hetzner Online GmbH|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|65.108.223.81|3897|Finland|Helsinki|Hetzner Online GmbH|
+|6|45.152.188.16|3128|United States|Ashburn|Sprint|
+|7|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
+|8|64.225.97.57|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|10|142.132.168.173|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|11|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|12|157.90.114.90|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|13|167.235.236.1|3897|Germany|Falkenstein|Hetzner Online GmbH|
+|14|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|15|69.36.182.35|3897|United States|New York|Hosting Services, Inc.|
+|16|162.55.39.67|3897|Germany|Falkenstein|Hetzner Online GmbH|
+|17|188.34.156.73|3897|Germany|Nuremberg|Hetzner Online GmbH|
+|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|20|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
 
 
 
