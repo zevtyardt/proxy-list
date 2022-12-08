@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4419** proxies at the latest update. Usable proxies are below.
+> Scraper found **4327** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|214|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|214|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|214|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|223|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|223|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|223|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|684|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|592|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|214|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2270|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|49.51.90.57|3128|Canada|Barrie|OPHL|
+|1|45.152.188.16|3128|United States|Ashburn|Sprint|
 |2|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
 |3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|45.152.188.16|3128|United States|Ashburn|Sprint|
+|4|116.203.202.160|8443|Germany|Nuremberg|Hetzner Online GmbH|
 |5|52.155.227.108|3128|Ireland|Dublin|Microsoft Corporation|
 |6|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|7|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|208.82.61.66|3128|United States|Ashburn|Bernardi Sounds|
+|9|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
 |10|134.238.252.143|8080|India|Mumbai|Google LLC|
 |11|45.152.188.16|3128|United States|Ashburn|Sprint|
 |12|27.79.2.120|10000|Vietnam|Buon Ma Thuot|Viettel Corporation|
-|13|119.42.115.27|8080|Thailand|Bangkok|CAT-BB|
-|14|203.150.113.81|8080|Thailand|Vadhana|Internet Thailand Company Ltd.|
-|15|168.196.124.164|999|Dominican Republic|Santo Domingo Este|COMCAST-SRL|
-|16|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|17|159.89.160.138|8111|India|Bengaluru|DigitalOcean, LLC|
-|18|131.161.54.122|1010|Honduras|San Pedro Sula|INET Communication|
-|19|103.172.70.138|9191|Indonesia|Karawang|AZNET|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|14|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|15|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|18.235.55.193|8080|United States|Ashburn|Amazon.com, Inc.|
+|18|45.152.188.16|3128|United States|Ashburn|Sprint|
+|19|45.167.253.225|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|20|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
 
 
 
