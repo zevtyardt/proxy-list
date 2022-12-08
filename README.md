@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4683** proxies at the latest update. Usable proxies are below.
+> Scraper found **4679** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|280|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|280|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|280|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|253|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|253|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|253|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|753|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|749|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|328|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2351|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|51.222.75.219|8080|Canada|Beauharnois|OVH Hosting|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|34.140.197.165|8080|Belgium|Brussels|Google LLC|
-|4|45.152.188.248|3128|United States|Ashburn|Sprint|
-|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|6|45.152.188.16|3128|United States|Ashburn|Sprint|
-|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|8|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|9|45.152.188.16|3128|United States|Ashburn|Sprint|
-|10|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
-|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|13|45.152.188.248|3128|United States|Ashburn|Sprint|
-|14|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|201.220.112.98|999|Chile|Lautaro|Telefonica del Sur S.A.|
-|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|18|193.141.65.48|808|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
-|19|143.0.67.137|8080|Argentina|San Isidro de Lules|Dova SRL|
-|20|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|45.152.188.16|3128|United States|Ashburn|Sprint|
+|3|45.152.188.248|3128|United States|Ashburn|Sprint|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|45.152.188.248|3128|United States|Ashburn|Sprint|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|45.152.188.16|3128|United States|Ashburn|Sprint|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|157.100.12.138|999|Ecuador|Loja|Telconet S.A|
+|10|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|11|116.105.110.34|10000|Vietnam|Gia Nghia|Viettel Corporation|
+|12|158.69.27.94|9300|Canada|Montreal|OVH SAS|
+|13|95.111.239.49|3131|Germany|Nuremberg|Contabo GmbH|
+|14|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|15|119.42.115.27|8080|Thailand|Bangkok|CAT-BB|
+|16|193.141.65.48|808|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
+|17|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|20|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
 
 
 
