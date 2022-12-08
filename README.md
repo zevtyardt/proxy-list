@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4872** proxies at the latest update. Usable proxies are below.
+> Scraper found **4882** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|290|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|290|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|290|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|303|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|303|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|303|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|785|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|795|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|391|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2445|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.16|3128|United States|Ashburn|Sprint|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|5|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|6|119.42.115.27|8080|Thailand|Bangkok|CAT-BB|
-|7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|213.59.156.119|3128|Russia|Tomsk|ZT-TOMSK|
-|9|110.77.236.75|8080|Thailand|Lue Amnat|CAT Telecom Public Company Limited|
-|10|165.16.60.209|8080|Libya|Zintan|Aljeel Aljadeed For Technology|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|103.142.61.182|3127|Indonesia|Klaten|UTARAMEDIANET|
-|13|183.88.3.130|8080|Thailand|Nakhon Ratchasima|Triple T Broadband Public Company Limited|
-|14|103.17.201.130|8080|Pakistan|Karachi|Fiberlink|
-|15|103.134.95.34|8080|Cambodia|Phnom Penh|Suga Pte. Ltd|
-|16|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|18|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|19|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|20|104.37.102.181|8181|United States|Daleville|ALTIUS Broadband, LLC|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|49.51.90.57|3128|Canada|Barrie|OPHL|
+|3|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|4|98.114.196.64|8118|United States|Downingtown|Verizon Business|
+|5|45.152.188.248|3128|United States|Ashburn|Sprint|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|45.152.188.248|3128|United States|Ashburn|Sprint|
+|8|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|9|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|10|45.152.188.16|3128|United States|Ashburn|Sprint|
+|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|45.152.188.16|3128|United States|Ashburn|Sprint|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|16|45.71.185.241|999|Ecuador|Machala|Nedetel S.A.|
+|17|183.88.3.130|8080|Thailand|Nakhon Ratchasima|Triple T Broadband Public Company Limited|
+|18|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
