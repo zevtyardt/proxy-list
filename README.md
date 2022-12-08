@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5122** proxies at the latest update. Usable proxies are below.
+> Scraper found **5118** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|380|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|380|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|380|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|412|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|412|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|412|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|867|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|863|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|490|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2514|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.248|3128|United States|Ashburn|Sprint|
-|2|49.51.90.57|3128|Canada|Barrie|OPHL|
-|3|45.152.188.16|3128|United States|Ashburn|Sprint|
-|4|45.152.188.248|3128|United States|Ashburn|Sprint|
-|5|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|3.18.191.63|80|United States|Dublin|Amazon.com, Inc.|
-|8|23.95.186.182|3128|United States|Washington|ColoCrossing|
-|9|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|12|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|13|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|14|45.152.188.16|3128|United States|Ashburn|Sprint|
-|15|119.42.115.27|8080|Thailand|Bangkok|CAT-BB|
-|16|194.145.138.183|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
-|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|18|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|19|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
-|20|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|1|3.18.191.63|80|United States|Dublin|Amazon.com, Inc.|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|161.35.214.127|44187|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|5|46.101.156.28|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|45.152.188.16|3128|United States|Ashburn|Sprint|
+|7|45.152.188.248|3128|United States|Ashburn|Sprint|
+|8|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
+|9|173.249.37.45|5005|Germany|Nuremberg|Contabo GmbH|
+|10|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|11|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|12|3.18.191.63|80|United States|Dublin|Amazon.com, Inc.|
+|13|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|14|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|15|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|16|84.32.4.129|3128|Turkey|Bursa|Ozbay Bilisim Internet Hizmetleri Limited Sirketi|
+|17|146.120.199.193|8080|Ukraine|Hadyach|FiberLink Ltd.|
+|18|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|19|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|20|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
 
 
 
