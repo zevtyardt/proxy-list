@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5095** proxies at the latest update. Usable proxies are below.
+> Scraper found **5094** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|360|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|360|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|360|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|366|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|366|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|366|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|812|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|875|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|486|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|422|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2546|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
-|3|139.59.100.242|4000|Singapore|Singapore|DIGITALOCEAN|
-|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|5|203.150.113.161|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|87.247.186.105|80|Iran|Tehran|Insightometrics B.V.|
-|8|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|9|51.159.115.233|3128|France|Paris|SCALEWAY|
-|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|11|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|12|45.147.77.77|8118|Iran|Tehran|Pars Parva System LLC|
-|13|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|16|47.57.233.110|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|17|102.68.128.214|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|18|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|19|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|20|190.216.107.198|999|Ecuador|Quito|Level 3 ECUADOR LVLT S.A|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
+|5|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|6|139.59.100.242|4000|Singapore|Singapore|DIGITALOCEAN|
+|7|176.10.97.97|8118|Switzerland|Zurich|Datasource AG|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|203.150.113.161|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
+|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|11|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|13|190.221.174.130|8080|Argentina|Médanos|AMX Argentina S.A.|
+|14|193.141.65.48|808|Iran|Tehran|Green Web Samaneh Novin Co Ltd|
+|15|103.152.232.84|3128|Indonesia|Subang|PT Kingpolah Network Solutions|
+|16|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|17|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
+|18|203.194.113.32|3128|Indonesia|Cirebon|Rumahweb Indonesia CV.|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
 
 
 
