@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4716** proxies at the latest update. Usable proxies are below.
+> Scraper found **4615** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|237|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|237|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|237|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|129|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|129|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|129|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|763|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|662|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|256|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2446|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|4|31.43.191.118|80|Azerbaijan|Baku|Telkom Internet LTD|
-|5|172.104.128.235|8888|Germany|Frankfurt am Main|Linode, LLC|
-|6|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|1|45.152.188.248|3128|United States|Ashburn|Sprint|
+|2|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|3|45.152.188.248|3128|United States|Ashburn|Sprint|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|6|172.104.128.235|8888|Germany|Frankfurt am Main|Linode, LLC|
 |7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|9|45.161.32.129|8081|Ecuador|Loja|Lojasystem C.A.|
-|10|103.179.139.115|8080|Indonesia|Jakarta|PT. Fiber Networks Indonesia|
-|11|148.72.246.227|9453|Singapore|Singapore|GoDaddy.com, LLC|
-|12|66.29.140.150|3128|Guinea|Macenta|Namecheap, Inc.|
-|13|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
-|14|183.89.115.23|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|15|150.95.81.164|8080|Thailand|Kanchanaburi|ZCOM|
-|16|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|17|113.178.72.204|8080|Vietnam|Hanoi|VNPT|
-|18|31.223.19.162|8081|Turkey|Erenler|TurkNet Iletisim Hizmetleri|
-|19|103.173.233.242|8080|Indonesia|Medokanayu|Intergate Cahaya Media|
-|20|45.171.146.192|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
+|8|150.95.81.164|8080|Thailand|Kanchanaburi|ZCOM|
+|9|70.44.204.206|8888|United States|Reading|PenTeleData Inc.|
+|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|11|146.120.174.149|8989|Ukraine|Ivanykivka|Gargat Igor Vasilevich|
+|12|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
+|13|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|14|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|15|31.6.69.119|39811|Poland|Tarnowskie Gory|Livenet sp. z o.o.|
+|16|47.51.51.190|8080|United States|Glendale|Charter Communications|
+|17|177.52.221.125|3128|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
+|18|34.140.197.165|8080|Belgium|Brussels|Google LLC|
+|19|200.7.11.105|8080|Brazil|Itumbiara|Conexao Telematica LTDA|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
