@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5337** proxies at the latest update. Usable proxies are below.
+> Scraper found **5339** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|409|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|409|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|409|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|397|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|397|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|397|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|991|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|993|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|506|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2589|✅|
@@ -51,22 +51,22 @@ Click the file format that you want and copy the URL.
 |2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
 |3|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
 |4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|7|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|8|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|9|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|10|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|13|172.104.128.235|8888|Germany|Frankfurt am Main|Linode, LLC|
-|14|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
-|15|109.238.14.216|3128|France|Boulogne-Billancourt|Ikoula Net SAS|
-|16|12.144.254.185|9080|United States|Little Rock|AT&T Services, Inc.|
-|17|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|5|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|6|216.176.187.99|8889|United States|Los Angeles|Wowrack.com|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
+|9|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|11|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|12|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|13|216.169.73.65|34679|United States|Cedar City|South Central Communications, Inc.|
+|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|16|216.176.187.99|8889|United States|Los Angeles|Wowrack.com|
+|17|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
 |18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|190.210.194.136|8080|Argentina|Buenos Aires|NSS S.A.|
-|20|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|19|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|20|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
 
 
 
