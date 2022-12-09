@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4450** proxies at the latest update. Usable proxies are below.
+> Scraper found **4557** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|613|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|603|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|231|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|348|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2355|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|7|138.2.64.185|8118|Singapore|Singapore|Oracle Corporation|
-|8|36.90.104.50|3128|Indonesia|Samarinda|PT. Telekomunikasi Indonesia|
-|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|13|189.232.85.95|8080|Mexico|Tlaxcoapan|Uninet S.A. de C.V.|
-|14|217.66.200.154|3128|Iran|Tehran|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
-|15|181.113.225.178|80|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
-|16|203.32.21.254|3128|Turkey|Bursa|DGN TEKNOLOJI A.S.|
-|17|162.240.32.213|154|United States|Provo|Unified Layer|
-|18|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|19|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|20|62.122.201.105|8080|Ukraine|Ivano-Frankivsk|Uteam LTD|
+|3|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|6|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|189.232.85.95|8080|Mexico|Tlaxcoapan|Uninet S.A. de C.V.|
+|9|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|11|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|12|84.54.185.203|8080|Bulgaria|Burgas|ComNet Bulgaria Ltd|
+|13|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|14|81.17.90.219|41890|Azerbaijan|Baku|Bakinternet ISP|
+|15|94.20.157.202|3128|Azerbaijan|Baku|Delta Telecom|
+|16|52.54.111.140|8888|United States|Ashburn|Amazon.com, Inc.|
+|17|106.55.37.217|6969|China|Shenzhen|Shenzhen Tencent Computer Systems Company Limited|
+|18|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|19|111.225.152.218|8089|China|Gaocheng|Chinanet|
+|20|177.52.221.125|3128|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
 
 
 
