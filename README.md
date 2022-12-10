@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4667** proxies at the latest update. Usable proxies are below.
+> Scraper found **4703** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|273|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|273|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|273|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|310|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|310|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|310|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|700|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|736|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|332|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2384|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|3|171.6.76.241|8080|Thailand|Si Racha|Triple T Broadband Public Company Limited|
-|4|89.85.119.151|8118|France|Lens|Bouygues Telecom ISP|
-|5|50.199.32.226|8080|United States|Pontiac|Comcast Cable Communications, LLC|
-|6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|8|112.78.164.218|8080|Indonesia|Jakarta|Biznet Networks|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|185.8.165.134|8800|Czechia|Prague|Master Internet s.r.o.|
-|11|31.186.48.232|3128|Kyrgyzstan|Bishkek|AKNET Ltd.|
-|12|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|15|101.109.45.189|8080|Thailand|Chachoengsao|TOT Public Company Limited|
-|16|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|19|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|20|36.95.84.151|41890|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
+|1|45.152.188.248|3128|United States|Ashburn|Sprint|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|45.152.188.248|3128|United States|Ashburn|Sprint|
+|4|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|5|185.8.165.134|8800|Czechia|Prague|Master Internet s.r.o.|
+|6|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|7|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|10|171.6.76.241|8080|Thailand|Si Racha|Triple T Broadband Public Company Limited|
+|11|112.78.164.218|8080|Indonesia|Jakarta|Biznet Networks|
+|12|165.255.89.66|8888|South Africa|Pretoria|Afrihost (Pty) Ltd|
+|13|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|14|101.109.45.189|8080|Thailand|Chachoengsao|TOT Public Company Limited|
+|15|31.186.48.232|3128|Kyrgyzstan|Bishkek|AKNET Ltd.|
+|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|95.111.239.49|3131|Germany|Nuremberg|Contabo GmbH|
+|19|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|20|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
 
 
 
