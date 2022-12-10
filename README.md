@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4461** proxies at the latest update. Usable proxies are below.
+> Scraper found **4432** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|194|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|194|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|194|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|562|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|533|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|271|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2377|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|2|45.152.188.248|3128|United States|Ashburn|Sprint|
+|3|45.152.188.248|3128|United States|Ashburn|Sprint|
+|4|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|5|87.250.63.172|8118|Serbia|Belgrade|TELEKOM SRBIJA a.d.|
+|6|170.244.88.1|999|Venezuela|Caracas|INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)|
 |7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|177.136.218.105|8080|Brazil|Itaipulandia|M.A. Informática Ltda.|
-|10|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
-|11|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|12|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|13|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|14|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|15|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|16|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|17|187.216.90.46|53281|Mexico|Cabo San Lucas|Uninet S.A. de C.V.|
-|18|103.19.58.113|8080|Indonesia|Gedangan|BITSNET|
-|19|103.231.241.102|3128|Philippines|Quezon City|De La Salle University|
-|20|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|11|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|12|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|15|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|16|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|45.164.174.247|999|Dominican Republic|Santo Domingo Este|ORBIT CABLE, S.A.|
+|19|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|20|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
 
 
 
