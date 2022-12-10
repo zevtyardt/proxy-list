@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4615** proxies at the latest update. Usable proxies are below.
+> Scraper found **4739** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|220|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|220|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|220|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|258|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|258|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|258|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|640|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|764|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|336|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2388|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.248|3128|United States|Ashburn|Sprint|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|45.152.188.248|3128|United States|Ashburn|Sprint|
-|5|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|7|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|8|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|176.192.70.58|8016|Russia|Moscow|Net By Net Holding LLC|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|13|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|14|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|16|1.10.237.12|8080|Thailand|Nakhon Pathom|TOT Public Company Limited|
-|17|103.231.241.102|3128|Philippines|Quezon City|De La Salle University|
-|18|103.161.145.99|8080|India|Aluva|Kccl Digital Services Private Limited|
-|19|89.85.119.151|8118|France|Lens|Bouygues Telecom ISP|
-|20|178.128.156.76|3128|United States|North Bergen|DigitalOcean, LLC|
+|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|4|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|1.10.237.12|8080|Thailand|Nakhon Pathom|TOT Public Company Limited|
+|8|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|9|134.238.252.143|8080|India|Mumbai|Google LLC|
+|10|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|11|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|12|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|16|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
+|17|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|18|103.231.241.102|3128|Philippines|Quezon City|De La Salle University|
+|19|204.185.204.64|8080|United States|Kansas City|org-morenet.more.net|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
