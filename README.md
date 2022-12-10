@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4475** proxies at the latest update. Usable proxies are below.
+> Scraper found **4439** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|246|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|246|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|246|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|226|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|226|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|226|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|603|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|567|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|271|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2350|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|13.114.216.75|80|Japan|Tokyo|Amazon Technologies Inc|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
-|7|173.82.252.145|3129|United States|Portland|Multacom Corporation|
-|8|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|9|144.24.238.60|8118|Switzerland|Zurich|Oracle Corporation|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|92.52.45.48|8118|Slovakia|Bratislava|Orange Slovensko|
-|12|190.60.39.195|999|Colombia|Riohacha|IFX NETWORKS COLOMBIA|
-|13|45.152.188.248|3128|United States|Ashburn|Sprint|
-|14|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|15|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|16|138.0.231.202|999|Honduras|Santa Rosa de Copán|Multicable De Honduras|
-|17|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|18|45.181.205.222|999|Colombia|Puerto Tejada|Tierranet S.A.S.|
-|19|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|20|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|89.36.94.242|1337|Romania|Lipova|Interkvm Host SRL|
+|6|173.82.252.145|3129|United States|Portland|Multacom Corporation|
+|7|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|8|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|9|204.199.174.60|999|Peru|Arequipa|Fiberred Sociedad Anonima Cerrada|
+|10|92.52.45.48|8118|Slovakia|Bratislava|Orange Slovensko|
+|11|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|12|173.82.252.145|3129|United States|Portland|Multacom Corporation|
+|13|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|45.152.188.248|3128|United States|Ashburn|Sprint|
+|18|178.167.81.46|55443|Russia|Elektrogorsk|for Flex Ltd|
+|19|45.152.188.248|3128|United States|Ashburn|Sprint|
+|20|160.16.130.191|3128|Japan|Tokyo|SAKURA Internet Inc.|
 
 
 
