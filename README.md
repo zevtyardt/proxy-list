@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4430** proxies at the latest update. Usable proxies are below.
+> Scraper found **4366** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|113|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|113|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|113|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|151|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|151|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|151|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|566|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|531|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|245|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|216|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2368|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|161.35.214.127|44187|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
+|2|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
+|3|45.152.188.248|3128|United States|Ashburn|Sprint|
 |4|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|5|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|6|157.100.55.143|999|Ecuador|Guayaquil|Nedetel S.A.|
-|7|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|8|51.159.28.133|8000|France|Paris|SCALEWAY|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|11|123.200.26.214|8080|Bangladesh|Chittagong|Link3 Technologies Limited|
-|12|103.183.119.160|3128|Vietnam|Tay Ho|MYCLOUD|
-|13|210.179.58.236|80|South Korea|Naju-si|Korea Telecom|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|16|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|17|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|18|122.3.41.154|8090|Philippines|Manila|Philippine Long Distance Telephone Co.|
-|19|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
-|20|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|6|103.183.119.160|3128|Vietnam|Tay Ho|MYCLOUD|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|9|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|10|103.156.233.175|3125|Indonesia|Bogor|MULTIMEDIALINKTECH|
+|11|87.110.237.97|44692|Latvia|Riga|LATTELEKOM|
+|12|45.15.16.240|8118|Sweden|Stockholm|Obehosting AB|
+|13|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|16|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|17|130.255.138.245|8080|Ukraine|Sevastopol|Lancom Ltd.|
+|18|200.125.171.118|999|Dominican Republic|Santiago de los Caballeros|WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L|
+|19|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|20|51.159.28.133|8000|France|Paris|SCALEWAY|
 
 
 
