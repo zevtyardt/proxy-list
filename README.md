@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4945** proxies at the latest update. Usable proxies are below.
+> Scraper found **4743** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|182|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|182|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|182|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|153|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|153|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|153|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|966|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|660|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|186|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|290|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2542|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|164.92.248.2|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|6|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|47.57.233.110|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|12|135.12.204.22|3128|United States|Sterling|Carrytel|
-|13|45.233.67.210|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
-|14|104.192.202.11|8080|United States|St. George|InfoWest|
-|15|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|16|45.152.188.248|3128|United States|Ashburn|Sprint|
-|17|3.208.195.132|3128|United States|Ashburn|Amazon Technologies Inc.|
-|18|103.183.119.160|3128|Vietnam|Tay Ho|MYCLOUD|
-|19|200.233.92.222|20183|Brazil|Botelhos|Web Net Telecomunicacoes Ltda|
-|20|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|1|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|5.78.41.22|3128|United States|Portland|Hetzner Online GmbH|
+|4|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|5|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|6|164.92.248.2|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|172.105.225.133|3128|Japan|Tokyo|Linode, LLC|
+|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|78.140.252.43|3128|Belarus|Minsk|Itglobalcom BEL LLC|
+|12|143.244.133.78|80|India|Bengaluru|DigitalOcean, LLC|
+|13|52.45.139.115|80|United States|Ashburn|Amazon.com, Inc.|
+|14|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|103.183.119.160|3128|Vietnam|Tay Ho|MYCLOUD|
+|16|52.45.139.115|80|United States|Ashburn|Amazon.com, Inc.|
+|17|116.203.201.82|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|19|162.240.32.213|154|United States|Provo|Unified Layer|
+|20|52.7.168.82|80|United States|Ashburn|Amazon.com, Inc.|
 
 
 
