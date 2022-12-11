@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4832** proxies at the latest update. Usable proxies are below.
+> Scraper found **4919** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|320|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|320|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|320|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|308|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|308|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|308|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|733|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|766|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|354|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|408|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2494|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.152.188.248|3128|United States|Ashburn|Sprint|
 |2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|134.238.252.143|8080|India|Mumbai|Google LLC|
 |4|45.152.188.248|3128|United States|Ashburn|Sprint|
-|5|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|8|78.36.1.204|3128|Russia|Kola|PJSC "Rostelecom" North-West region|
+|5|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|6|5.58.110.249|8080|Ukraine|Ternopil|Columbus|
+|7|77.206.127.196|80|France|Oullins|LDCOM|
+|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |9|51.223.248.225|8080|Saudi Arabia|Riyadh|Saudi Telecom Company JSC|
-|10|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
-|11|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|12|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|146.190.65.129|3128|United States|North Bergen|DigitalOcean, LLC|
-|16|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|17|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|18|181.215.178.67|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|19|146.190.65.129|3128|United States|North Bergen|DigitalOcean, LLC|
-|20|94.102.196.89|1500|Ireland|Lucan|Regional Broadband Ireland Ltd|
+|10|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|11|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|12|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|13|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|103.156.249.88|8080|Indonesia|Gresik|Trans Media Telekomunikasi|
+|16|47.57.233.110|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|17|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|18|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|188.133.153.227|1256|Russia|Moscow|Enforta-MSK|
 
 
 
