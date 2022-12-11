@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4881** proxies at the latest update. Usable proxies are below.
+> Scraper found **4844** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|277|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|277|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|277|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|283|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|283|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|283|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|725|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|688|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|411|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2494|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.248|3128|United States|Ashburn|Sprint|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|181.215.178.67|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
-|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|206.42.35.219|8080|Brazil|Maceió|Brisanet Prestacao De Servicos De Internet Ltda|
-|12|182.253.102.234|8080|Indonesia|Cikampek|BIZNET|
-|13|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|15|193.138.247.36|3128|Ukraine|Kharkiv|Starnet TC LLC|
-|16|138.117.84.134|999|Colombia|Pitalito|Sinergy Soluciones Integrales|
+|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|87.254.171.64|3333|Bulgaria|Dryanovo|Telnet Limited|
+|6|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|81.94.255.12|8080|Hungary|Rajka|Invitech ICT Services Kft.|
+|9|45.229.205.253|55555|Argentina|Avellaneda|Visio RED SRL|
+|10|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|11|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|12|203.150.128.104|8080|Thailand|Watthana|Internet Thailand Company Ltd|
+|13|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|14|23.229.21.138|3128|United States|Piscataway|Server Mania Inc|
+|15|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
+|16|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
 |17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|18|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|19|62.253.84.50|3333|United Kingdom|Portsmouth|Virgin Media Business|
-|20|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|18|182.253.102.234|8080|Indonesia|Cikampek|BIZNET|
+|19|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
+|20|95.158.44.63|8080|Ukraine|Kyiv|Company with additional responsibility ""BEST"|
 
 
 
