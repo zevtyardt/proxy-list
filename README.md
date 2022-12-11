@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4460** proxies at the latest update. Usable proxies are below.
+> Scraper found **4373** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|131|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|131|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|131|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|129|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|129|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|129|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|578|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|491|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|263|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2368|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|2|51.159.28.133|8000|France|Paris|SCALEWAY|
-|3|135.12.192.27|3128|United States|Sterling|Carrytel|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|7|45.152.188.248|3128|United States|Ashburn|Sprint|
-|8|187.63.220.88|8080|Brazil|Chapecó|Lizitec Telecomunicações Eireli|
-|9|45.152.188.248|3128|United States|Ashburn|Sprint|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|12|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|16|135.12.203.119|3128|United States|Sterling|Carrytel|
-|17|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|18|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|19|210.179.58.236|80|South Korea|Naju-si|Korea Telecom|
-|20|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|1|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|2|187.63.220.88|8080|Brazil|Chapecó|Lizitec Telecomunicações Eireli|
+|3|70.177.15.10|8080|United States|Gilbert|Cox Communications Inc.|
+|4|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|51.159.28.133|8000|France|Paris|SCALEWAY|
+|10|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|11|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|12|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|13|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|14|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
+|15|52.45.139.115|80|United States|Ashburn|Amazon.com, Inc.|
+|16|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|17|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|18|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|19|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|20|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
 
 
 
