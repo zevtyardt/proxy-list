@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|316|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|316|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|316|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|295|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|295|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|295|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|103.156.14.180|3125|Indonesia|Jambi City|PT Lintas Jaringan Nusantara|
-|9|187.204.126.28|8081|Mexico|Autlan de Navarro|Uninet S.A. de C.V.|
-|10|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|11|203.150.128.104|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|12|103.142.61.182|3127|Indonesia|Klaten|UTARAMEDIANET|
-|13|181.224.253.29|8080|Peru|Lima|Econocable Media SAC|
-|14|88.87.95.143|5948|Russia|Volgograd|CJSC "ER-Telecom Holding" Volgograd branch|
-|15|190.15.122.178|3128|Brazil|Piranhas|Aloo Telecom - FSF Tecnologia SA|
-|16|82.165.184.53|80|Germany|Essen|IONOS SE|
-|17|160.3.168.70|8080|United States|West Gulfport|CABLE ONE, INC.|
-|18|179.60.129.173|8080|Brazil|Goiânia|EVO TECNOLOGIA LTDA - ME|
-|19|85.196.179.34|8080|Bulgaria|Sofia|Mobiltel BNG|
-|20|23.229.21.138|3128|United States|Piscataway|Server Mania Inc|
+|1|45.152.188.248|3128|United States|Ashburn|Sprint|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|45.152.188.248|3128|United States|Ashburn|Sprint|
+|4|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|5|51.223.248.225|8080|Saudi Arabia|Riyadh|Saudi Telecom Company JSC|
+|6|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
+|7|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|8|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|9|87.254.171.64|3333|Bulgaria|Dryanovo|Telnet Limited|
+|10|201.73.228.20|3128|Brazil|Rio de Janeiro|Claro S.A|
+|11|88.87.95.143|5948|Russia|Volgograd|CJSC "ER-Telecom Holding" Volgograd branch|
+|12|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|201.77.108.196|999|Mexico|Valle de Allende|Nidix Networks S.a. De C.V.|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|187.204.126.28|8081|Mexico|Autlan de Navarro|Uninet S.A. de C.V.|
+|18|82.165.184.53|80|Germany|Essen|IONOS SE|
+|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|20|75.126.253.8|8080|United States|Dallas|SoftLayer|
 
 
 
