@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4664** proxies at the latest update. Usable proxies are below.
+> Scraper found **4290** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|134|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|134|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|134|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|162|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|162|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|162|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|531|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|447|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|224|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2658|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2368|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|134.238.252.143|8080|India|Mumbai|Google LLC|
-|2|135.12.196.35|3128|United States|Sterling|Carrytel|
-|3|135.12.193.246|3128|United States|Sterling|Carrytel|
-|4|135.12.204.3|3128|United States|Sterling|Carrytel|
-|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|45.15.16.240|8118|Sweden|Stockholm|Obehosting AB|
-|8|135.12.200.154|3128|United States|Sterling|Carrytel|
-|9|135.12.202.82|3128|United States|Sterling|Carrytel|
-|10|135.12.200.192|3128|United States|Sterling|Carrytel|
-|11|135.12.196.102|3128|United States|Sterling|Carrytel|
-|12|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
-|13|135.12.206.58|3128|United States|Sterling|Carrytel|
-|14|135.12.203.124|3128|United States|Sterling|Carrytel|
-|15|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|16|38.49.129.154|999|Mexico|Pachuca|Ientc S De RL De CV|
-|17|139.180.189.22|3128|Singapore|Singapore|The Constant Company|
-|18|195.154.255.194|8000|France|Bouglainval|Online S.A.S.|
-|19|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|20|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|3|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
+|4|195.154.255.194|8000|France|Bouglainval|Online S.A.S.|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|7|45.164.174.247|999|Dominican Republic|Santo Domingo Este|ORBIT CABLE, S.A.|
+|8|103.111.214.106|3129|Indonesia|Bekasi|PT Cyberindo Aditama|
+|9|24.116.218.195|8080|United States|Pascagoula|CABLE ONE, INC.|
+|10|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
+|11|206.62.64.34|8080|Brazil|Maringá|AGIS|
+|12|186.232.119.58|3128|Brazil|Claudio|G4 TELECOM COMERCIO E SERVICOS DE INFORMATICA|
+|13|122.52.62.154|8181|Philippines|Mandaluyong City|Philippine Long Distance Telephone Co.|
+|14|161.53.129.23|3128|Croatia|Zagreb|Croatian Academic and Research Network|
+|15|188.133.137.9|8081|Russia|Moscow|Enforta-SPB|
+|16|195.154.255.194|8000|France|Bouglainval|Online S.A.S.|
+|17|134.238.252.143|8080|India|Mumbai|Google LLC|
+|18|186.10.252.90|999|Chile|Conchali|Entel Chile S.A.|
+|19|123.182.59.225|8089|China|Zhangjiakou|Chinanet|
+|20|109.110.35.210|9090|Russia|Vladivostok|Podryad Nets|
 
 
 
