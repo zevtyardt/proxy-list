@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4518** proxies at the latest update. Usable proxies are below.
+> Scraper found **4459** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|125|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|125|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|125|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|98|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|98|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|98|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|603|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|544|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|296|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2368|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|2|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|45.152.188.248|3128|United States|Ashburn|Sprint|
-|5|195.154.255.194|8000|France|Bouglainval|Online S.A.S.|
-|6|45.152.188.248|3128|United States|Ashburn|Sprint|
-|7|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|8|45.164.174.247|999|Dominican Republic|Santo Domingo Este|ORBIT CABLE, S.A.|
-|9|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|10|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
-|11|5.189.140.113|8118|Germany|Nuremberg|Contabo GmbH|
-|12|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|13|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|14|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|15|80.73.87.198|59175|Russia|Yakutsk|Sakhatelecom|
-|16|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|17|103.247.121.115|8080|Indonesia|Bantul|PT Media Sarana Data|
-|18|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|19|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|20|45.152.188.248|3128|United States|Ashburn|Sprint|
+|1|134.238.252.143|8080|India|Mumbai|Google LLC|
+|2|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|3|195.154.255.194|8000|France|Bouglainval|Online S.A.S.|
+|4|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|5|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|6|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|7|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|8|212.108.144.67|8080|Cyprus|Nicosia|Lifecell Digital LTD|
+|9|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|10|200.106.187.252|999|Argentina|Jose Maria Ezeiza|Fullnet Solutions S.A.S.|
+|11|103.231.241.102|80|Philippines|Quezon City|De La Salle University|
+|12|111.225.152.23|8089|China|Gaocheng|Chinanet|
+|13|68.183.230.116|44435|Singapore|Singapore|DigitalOcean, LLC|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|111.225.153.135|8089|China|Gaocheng|Chinanet|
+|16|135.12.204.237|3128|United States|Sterling|Carrytel|
+|17|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|18|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|19|123.182.59.158|8089|China|Zhangjiakou|Chinanet|
+|20|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
 
 
 
