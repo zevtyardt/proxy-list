@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5342** proxies at the latest update. Usable proxies are below.
+> Scraper found **5553** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|391|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|391|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|391|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|984|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1080|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|600|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2507|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2622|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.79.8.81|9080|United States|Saint Joseph|SkyRider Communications|
-|2|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|3|181.78.65.250|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
-|4|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|6|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
-|7|45.152.188.248|3128|United States|Ashburn|Sprint|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|145.40.121.15|3128|Brazil|São Paulo|Packet Host, Inc.|
-|10|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|11|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|12|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
-|13|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|14|103.173.138.238|8080|Indonesia|Bantarwaru|PT Serayu Multi Connection|
-|15|186.13.56.97|8080|Argentina|Córdoba|Techtel LMDS Comunicaciones Interactivas S.A.|
-|16|201.182.251.157|8080|Colombia|Pasto|SP SISTEMAS PALACIOS LTDA|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|116.98.185.176|10000|Vietnam|Hanoi|Viettel Corporation|
-|19|103.169.186.12|3125|Indonesia|Pasuruan|PT. PRATAMA HASTA UTAMA SOLUSINDO|
-|20|45.175.160.45|999|Argentina|Buenos Aires|OSORIO SERGIO ANGELINO(NETVDU).|
+|1|161.35.214.127|44187|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|208.79.8.81|9080|United States|Saint Joseph|SkyRider Communications|
+|3|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|4|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|7|116.105.100.203|10000|Vietnam|Hanoi|Viettel Corporation|
+|8|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|9|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|10|103.173.138.238|8080|Indonesia|Bantarwaru|PT Serayu Multi Connection|
+|11|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|5.61.35.147|8118|Germany|Frankfurt am Main|LeaseWeb DE|
+|13|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|14|186.251.203.247|8080|Brazil|Santa Luzia|Companhia Itabirana Telecomunicações Ltda|
+|15|41.203.83.242|8080|Nigeria|Lagos|Globacom Limited|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|185.200.36.165|8888|Turkey|Antakya|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|18|190.119.174.184|999|Peru|Linderos|America Movil Peru S.A.C.|
+|19|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|20|181.174.226.70|999|Peru|Lima|CHARACKWAVES CUSYPATA EXPORT/IMPORT S.A.C.|
 
 
 
