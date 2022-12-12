@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4843** proxies at the latest update. Usable proxies are below.
+> Scraper found **4646** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|180|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|180|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|180|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|253|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|253|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|253|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|815|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|618|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|455|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2622|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|52.155.227.108|3128|Ireland|Dublin|Microsoft Corporation|
-|2|134.238.252.143|8080|India|Mumbai|Google LLC|
-|3|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|4|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|5|176.196.250.86|3128|Russia|Kemerovo|Goodline.info|
-|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|181.78.65.238|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
-|9|36.90.90.223|8080|Indonesia|Karangampel|PT. Telekomunikasi Indonesia|
-|10|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
-|11|164.92.160.38|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|194.169.167.5|8080|Serbia|Belgrade|Kadri Haxhiaj trading as "B.I."|
-|13|213.6.148.95|9999|Palestine|Gaza|Palestine Telecommunications Company|
-|14|76.169.129.241|8080|United States|Santa Ana|Charter Communications|
-|15|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|16|201.163.31.177|999|Mexico|Teapa|Alestra, S. de R.L. de C.V.|
-|17|102.66.163.162|9999|South Africa|Nelspruit|HERO TELECOMS (PTY) LTD|
-|18|190.120.250.121|999|Venezuela|Valencia|CORPORACION FIBEX TELECOM, C.A.|
-|19|38.49.135.253|999|Mexico|Celaya|Ientc S De RL De CV|
-|20|176.192.70.58|8018|Russia|Moscow|Net By Net Holding LLC|
+|1|134.122.85.174|8888|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|164.70.122.6|3128|Japan|Yono|InfoSphere|
+|3|52.155.227.108|3128|Ireland|Dublin|Microsoft Corporation|
+|4|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|5|208.79.8.81|9080|United States|Saint Joseph|SkyRider Communications|
+|6|163.172.37.158|9741|France|Vitry-sur-Seine|Online S.A.S.|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|140.227.61.156|23456|Japan|Chiyoda|InfoSphere|
+|9|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|10|144.24.238.60|8118|Switzerland|Zurich|Oracle Corporation|
+|11|201.238.248.139|9229|Chile|Santiago|Gtd Internet S.A|
+|12|145.40.121.91|3128|Brazil|São Paulo|Packet Host, Inc.|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|45.152.188.248|3128|United States|Ashburn|Sprint|
+|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|103.141.108.122|8080|Indonesia|Blitar|Data Buana Nusantara|
+|18|134.238.252.143|8080|India|Mumbai|Google LLC|
+|19|45.174.168.36|999|Mexico|Tulancingo|Wiiki Networks S De R.l. De C.V.|
+|20|23.143.160.18|999|Puerto Rico|Villalba|Unonet Corp|
 
 
 
