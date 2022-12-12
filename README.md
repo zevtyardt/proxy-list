@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4427** proxies at the latest update. Usable proxies are below.
+> Scraper found **4466** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|243|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|243|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|243|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|230|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|230|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|230|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|596|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|636|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|277|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|276|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2303|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|45.152.188.248|3128|United States|Ashburn|Sprint|
-|4|185.216.177.81|8118|Germany|Karlsruhe|netcup GmbH|
-|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|6|140.227.61.156|23456|Japan|Chiyoda|InfoSphere|
+|1|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|145.40.121.157|3128|Brazil|São Paulo|Packet Host, Inc.|
 |7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|9|98.114.196.64|8118|United States|Downingtown|Verizon Business|
-|10|98.114.196.64|8118|United States|Downingtown|Verizon Business|
-|11|145.40.121.157|3128|Brazil|São Paulo|Packet Host, Inc.|
-|12|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|8|141.8.193.104|8118|Russia|Untolovo|Sprinthost P17|
+|9|85.25.4.27|8646|France|Strasbourg|Host Europe GmbH|
+|10|188.133.136.105|1256|Russia|Moscow|Enforta-MSK|
+|11|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
+|12|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
 |13|36.80.140.93|8080|Indonesia|Semarang|PT. TELKOM INDONESIA|
-|14|103.4.94.2|8080|Pakistan|Lahore|HEC|
-|15|187.95.28.174|8080|Brazil|São José dos Campos|Netjacarei Telecon Ltda|
-|16|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|17|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|45.71.185.242|999|Ecuador|Machala|Nedetel S.A.|
-|19|179.57.1.172|999|Chile|Temuco|Telefonica del Sur S.A.|
-|20|122.3.41.154|8090|Philippines|Manila|Philippine Long Distance Telephone Co.|
+|14|194.195.90.215|8118|Singapore|Singapore|Contabo Asia Private Limited|
+|15|94.181.48.110|1256|Russia|Moscow|Enforta-MSK|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|41.57.50.17|8080|South Africa|eManzimtoti|FTH SCR P8|
+|18|176.56.107.229|51528|Spain|Cehegín|Aire Networks|
+|19|87.255.12.183|3129|Russia|Khimki|BIG TELECOM CLOSED JSC|
+|20|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
 
 
 
