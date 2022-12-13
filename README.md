@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4832** proxies at the latest update. Usable proxies are below.
+> Scraper found **4426** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|347|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|347|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|347|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|300|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|300|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|300|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|830|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|724|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|371|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2395|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|2|45.152.188.248|3128|United States|Ashburn|Sprint|
+|3|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|4|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|5|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|6|45.152.188.248|3128|United States|Ashburn|Sprint|
+|7|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|8|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|9|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
 |10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|12|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|13|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|14|14.251.212.208|4002|Vietnam|Bac Ninh|VNPT|
-|15|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|16|195.39.233.18|8080|Ukraine|Kharkiv|Active Operations LLC|
-|17|183.80.180.218|4002|Vietnam|Hanoi|FPT Telecom Company|
-|18|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|19|95.31.117.89|8080|Russia|Moscow|PJSC "Vimpelcom"|
-|20|188.132.222.41|8080|Turkey|Orhanlı|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|11|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|12|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|13|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|14.251.212.208|4002|Vietnam|Bac Ninh|VNPT|
+|16|45.173.44.1|999|Colombia|San Andrés|TV ISLA LTDA|
+|17|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|18|103.242.105.208|8080|Indonesia|Karawang|PT Lintas Jaringan Nusantara|
+|19|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|20|12.105.136.2|8080|United States|Houston|AT&T Services, Inc.|
 
 
 
