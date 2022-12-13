@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|225|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|225|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|225|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|232|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|232|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|232|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|4|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|5|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|6|45.152.188.248|3128|United States|Ashburn|Sprint|
-|7|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|36.83.183.196|8080|Indonesia|Pekanbaru|PT. TELKOM INDONESIA|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|12|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|15|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|16|187.87.167.180|53281|Brazil|Pirapora|Interpira Internet Service Provider Ltda|
-|17|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|19|47.242.126.227|8001|Hong Kong|Hong Kong|Alibaba.com LLC|
-|20|159.192.249.10|8080|Thailand|Bangkok|CAT-BB|
+|1|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|2|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|3|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|4|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|5|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|8|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|9|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
+|10|36.83.183.196|8080|Indonesia|Pekanbaru|PT. TELKOM INDONESIA|
+|11|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|12|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|13|47.90.126.78|8118|Hong Kong|Central|Alibaba.com LLC|
+|14|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|15|94.103.85.88|9300|Russia|Moscow|VDSINA|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|157.245.207.186|8080|United States|Tooele|DigitalOcean, LLC|
+|18|187.87.167.180|53281|Brazil|Pirapora|Interpira Internet Service Provider Ltda|
+|19|171.224.76.124|4003|Vietnam|Thai Binh|Viettel Corporation|
+|20|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
 
 
 
