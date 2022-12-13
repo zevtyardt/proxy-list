@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4422** proxies at the latest update. Usable proxies are below.
+> Scraper found **4372** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|239|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|239|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|239|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|243|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|243|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|243|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|787|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|737|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|308|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2376|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|5|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|6|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|5|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|6|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
 |8|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|12|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|13|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|14|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|15|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|16|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|17|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|19|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|20|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|10|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|13|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|14|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
+|15|161.53.129.23|3128|Croatia|Zagreb|Croatian Academic and Research Network|
+|16|111.225.152.210|8089|China|Gaocheng|Chinanet|
+|17|201.71.2.152|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|18|123.182.58.92|8089|China|Zhangjiakou|Chinanet|
+|19|111.225.152.144|8089|China|Gaocheng|Chinanet|
+|20|123.182.59.222|8089|China|Zhangjiakou|Chinanet|
 
 
 
