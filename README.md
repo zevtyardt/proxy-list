@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4134** proxies at the latest update. Usable proxies are below.
+> Scraper found **4136** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|100|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|100|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|100|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|135|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|135|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|135|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|474|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|487|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|204|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|193|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2220|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|2|134.238.252.143|8080|India|Mumbai|Google LLC|
-|3|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|4|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
-|5|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|6|141.11.246.23|8080|Netherlands|Amsterdam|rack400 com netherlands Infrastructure|
-|7|181.129.14.164|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|8|76.169.129.241|8080|United States|Santa Ana|Charter Communications|
-|9|201.244.127.210|8080|Colombia|Bogotá|ETB - Colombia|
-|10|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|11|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|14|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|15|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|16|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|181.78.65.238|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
-|18|181.129.14.164|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|19|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|20|163.177.106.4|8001|China|Shenzhen|China Unicom Guangdong Province Network|
+|1|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|2|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|3|200.236.208.69|3129|Brazil|São Paulo|Telecom South America S/A|
+|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|5|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|8|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|9|171.97.116.185|8080|Thailand|Chiang Mai|True Internet Corporation CO. Ltd.|
+|10|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|11|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|12|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|13|45.172.19.155|999|Brazil|Bonsucesso|Wireless Provider|
+|14|181.129.14.164|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|15|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
+|16|103.175.46.105|3125|Indonesia|Cirebon|PT Internet Keluarga Indonesia|
+|17|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|18|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|19|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
+|20|89.208.219.121|8080|Netherlands|Amsterdam|My.com B.V.|
 
 
 
