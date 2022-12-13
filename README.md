@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5028** proxies at the latest update. Usable proxies are below.
+> Scraper found **4409** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|499|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|499|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|499|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|306|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|306|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|306|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1313|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|694|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|251|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2528|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|6|181.78.65.250|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
-|7|164.92.160.38|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|177.52.221.125|3128|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
-|9|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|10|143.198.82.124|8081|Singapore|Singapore|DigitalOcean, LLC|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|161.53.129.23|3128|Croatia|Zagreb|Croatian Academic and Research Network|
-|13|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|16|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|17|181.78.65.238|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
-|18|197.13.10.14|3128|Tunisia|Gabès|EO DATACENTER|
-|19|140.227.61.156|23456|Japan|Chiyoda|InfoSphere|
-|20|201.71.2.49|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|1|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|4|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|5|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|10|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|11|202.56.163.110|8080|Indonesia|Jakarta|Varnion Technology Semesta|
+|12|123.30.154.38|2008|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
+|13|140.227.61.156|23456|Japan|Chiyoda|InfoSphere|
+|14|145.40.121.167|3128|Brazil|São Paulo|Packet Host, Inc.|
+|15|149.255.39.225|3128|United States|Chicago|HIVELOCITY, Inc.|
+|16|45.173.44.1|999|Colombia|San Andrés|TV ISLA LTDA|
+|17|20.4.45.95|80|Netherlands|Amsterdam|Microsoft Corporation|
+|18|123.182.58.11|8089|China|Zhangjiakou|Chinanet|
+|19|181.78.65.238|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
+|20|111.225.153.13|8089|China|Gaocheng|Chinanet|
 
 
 
