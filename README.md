@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4463** proxies at the latest update. Usable proxies are below.
+> Scraper found **4524** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|244|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|244|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|244|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|253|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|253|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|253|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|567|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|628|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|327|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2318|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.162.235.57|3128|Netherlands|Meppel|WorldStream B.V.|
+|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 |3|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
 |4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
 |5|31.6.69.119|39811|Poland|Tarnowskie Gory|Livenet sp. z o.o.|
-|6|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|7|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|8|181.129.14.164|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|9|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
-|11|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
-|12|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|13|147.139.173.255|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|14|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|145.40.121.165|3128|Brazil|São Paulo|Packet Host, Inc.|
-|17|145.40.121.191|3128|Brazil|São Paulo|Packet Host, Inc.|
-|18|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|19|145.40.121.163|3128|Brazil|São Paulo|Packet Host, Inc.|
-|20|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|6|145.40.121.167|3128|Brazil|São Paulo|Packet Host, Inc.|
+|7|185.162.235.57|3128|Netherlands|Meppel|WorldStream B.V.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|10|147.139.173.255|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|11|145.40.121.163|3128|Brazil|São Paulo|Packet Host, Inc.|
+|12|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|13|181.129.14.164|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|14|145.40.121.165|3128|Brazil|São Paulo|Packet Host, Inc.|
+|15|145.40.121.191|3128|Brazil|São Paulo|Packet Host, Inc.|
+|16|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
+|17|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|18|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
+|19|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|20|190.110.208.229|999|Ecuador|Manta|Puntonet S.A|
 
 
 
