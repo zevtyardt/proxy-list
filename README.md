@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4687** proxies at the latest update. Usable proxies are below.
+> Scraper found **4680** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|288|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|288|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|288|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|343|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|343|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|343|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|752|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|745|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|308|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2376|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
+|1|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |3|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|45.152.188.248|3128|United States|Ashburn|Sprint|
-|7|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|10|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|11|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|14|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|15|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|16|147.135.134.57|9300|France|Gravelines|OVH SAS|
-|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|18|145.40.121.165|3128|Brazil|São Paulo|Packet Host, Inc.|
-|19|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
-|20|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|4|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|6|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|7|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|10|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|11|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|12|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|13|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|14|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
+|15|145.40.121.147|3128|Brazil|São Paulo|Packet Host, Inc.|
+|16|159.203.31.27|8118|Canada|Toronto|DigitalOcean, LLC|
+|17|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
+|18|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|19|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
+|20|207.180.234.78|3128|Germany|Nuremberg|Contabo GmbH|
 
 
 
