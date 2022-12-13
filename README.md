@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4722** proxies at the latest update. Usable proxies are below.
+> Scraper found **4674** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|272|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|272|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|272|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|271|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|271|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|271|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|691|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|643|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|362|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2418|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|2|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|159.192.249.10|8080|Thailand|Bangkok|CAT-BB|
-|5|208.79.8.81|9080|United States|Saint Joseph|SkyRider Communications|
-|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|9|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|10|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|11|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|12|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
-|13|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|14|111.225.152.94|8089|China|Gaocheng|Chinanet|
-|15|123.182.58.208|8089|China|Zhangjiakou|Chinanet|
-|16|111.225.152.135|8089|China|Gaocheng|Chinanet|
-|17|190.216.107.194|999|Ecuador|Quito|Level 3 ECUADOR LVLT S.A|
-|18|123.171.1.47|8089|China|Xintai|Chinanet|
-|19|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|20|194.44.93.102|3128|Ukraine|Rivne|CIS-RV|
+|1|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|2|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|3|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|6|163.172.84.250|9741|France|Paris|Online S.A.S.|
+|7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|8|190.110.208.229|999|Ecuador|Manta|Puntonet S.A|
+|9|183.80.180.218|4002|Vietnam|Hanoi|FPT Telecom Company|
+|10|186.96.148.144|999|Mexico|Mexico City|Total Play Telecomunicaciones SA De CV|
+|11|1.255.134.136|3128|South Korea|Gimhae|SK Broadband Co Ltd|
+|12|123.182.58.60|8089|China|Zhangjiakou|Chinanet|
+|13|45.167.125.97|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|111.225.153.161|8089|China|Gaocheng|Chinanet|
+|16|195.154.255.194|8000|France|Bouglainval|Online S.A.S.|
+|17|59.124.9.67|3128|Taiwan|Taipei|Chunghwa Telecom Co., Ltd.|
+|18|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|19|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|20|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
 
 
 
