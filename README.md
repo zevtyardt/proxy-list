@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4942** proxies at the latest update. Usable proxies are below.
+> Scraper found **4720** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|445|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|445|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|445|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|274|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|274|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|274|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|832|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|610|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|240|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2619|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|4|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|5|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|6|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|7|171.224.76.124|4003|Vietnam|Thai Binh|Viettel Corporation|
-|8|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|117.254.179.234|8080|India|Kannur|BSNL Internet|
-|11|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|12|159.192.249.10|8080|Thailand|Bangkok|CAT-BB|
-|13|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|14|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
-|15|183.80.180.218|4001|Vietnam|Hanoi|FPT Telecom Company|
-|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|18|45.152.188.248|3128|United States|Ashburn|Sprint|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|1|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|2|185.78.75.66|3128|Poland|Bielsko-Biala|SPEED|
+|3|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|10|201.150.119.144|999|Mexico|Actopan|Hulux Telecomunicaciones|
+|11|194.233.84.239|80|Singapore|Singapore|Contabo Asia Private Limited|
+|12|181.232.190.182|999|Dominican Republic|Santo Domingo Este|Airtime Technology SRL|
+|13|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|14|143.244.133.78|80|India|Bengaluru|DigitalOcean, LLC|
+|15|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|16|200.24.157.114|999|Ecuador|Azogues|Nedetel S.A.|
+|17|186.72.101.86|999|Panama|Panama City|Cable & Wireless Panama|
+|18|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|20|181.204.177.67|999|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
 
 
 
