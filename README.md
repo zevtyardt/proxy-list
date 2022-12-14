@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|450|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|450|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|450|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|400|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|400|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|400|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|135.148.95.28|3128|United States|Reston|OVH SAS|
-|3|34.175.45.228|3128|Spain|Madrid|Google LLC|
-|4|145.40.121.209|3128|Brazil|São Paulo|Packet Host, Inc.|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|164.92.73.145|3128|United States|Santa Clara|DigitalOcean, LLC|
-|7|181.78.65.234|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
-|8|88.99.204.242|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|9|167.60.41.145|8080|Uruguay|Pocitos|Administracion Nacional de Telecomunicaciones|
-|10|135.148.95.28|3128|United States|Reston|OVH SAS|
-|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|12|147.28.128.197|3128|United States|Ashburn|Packet Host, Inc.|
-|13|180.180.187.226|8080|Thailand|Ban Na Pho|TOT Public Company Limited|
-|14|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|15|183.88.184.227|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|16|20.239.27.216|3128|Hong Kong|Hong Kong|Microsoft Corporation|
-|17|77.247.126.194|3128|United States|Los Angeles|Clouvider Limited|
-|18|145.40.118.139|3128|Singapore|Singapore|Packet Host, Inc.|
-|19|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|20|164.92.73.145|3128|United States|Santa Clara|DigitalOcean, LLC|
+|1|135.148.95.28|3128|United States|Reston|OVH SAS|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
+|4|139.178.83.177|3128|Netherlands|Amsterdam|PACKET-HOST|
+|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|88.99.204.242|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|181.78.106.33|999|Guatemala|Guatemala City|UFINET Guatemala S. A|
+|9|34.175.45.228|3128|Spain|Madrid|Google LLC|
+|10|119.42.86.123|80|Thailand|Samphanthawong|CAT-BB|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|167.60.41.145|8080|Uruguay|Pocitos|Administracion Nacional de Telecomunicaciones|
+|13|181.78.65.234|999|Colombia|Bogotá|IFX Networks Argentina S.R.L|
+|14|38.54.85.165|7890|Hong Kong|Hong Kong|Kaopu Cloud HK Limited|
+|15|145.40.121.211|3128|Brazil|São Paulo|Packet Host, Inc.|
+|16|145.40.121.209|3128|Brazil|São Paulo|Packet Host, Inc.|
+|17|183.88.184.227|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|18|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
+|19|164.92.121.121|3128|United States|Santa Clara|DigitalOcean, LLC|
+|20|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 
 
 
