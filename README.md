@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5213** proxies at the latest update. Usable proxies are below.
+> Scraper found **5238** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|455|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|455|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|455|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|492|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|492|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|492|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|943|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|968|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|428|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2606|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|103.114.162.212|31181|United States|Las Vegas|DediPath|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|5|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|6|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
-|7|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|1|103.114.162.212|31181|United States|Las Vegas|DediPath|
+|2|63.250.53.181|3128|United Kingdom|London|HIVELOCITY, Inc.|
+|3|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|7|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
 |8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|10|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|11|103.114.162.212|31181|United States|Las Vegas|DediPath|
-|12|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
-|13|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|15|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|16|162.0.222.49|3128|United States|Los Angeles|Namecheap, Inc.|
-|17|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
-|18|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|19|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|20|117.18.13.69|8118|Hong Kong|Hung Hom|Sun Network (Hong Kong) Limited|
+|9|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
+|10|103.114.162.212|31181|United States|Las Vegas|DediPath|
+|11|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
+|12|185.120.162.28|443|Iran|Tehran|Khallagh Borhan Market Development for Creative Industries Co|
+|13|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|14|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
+|15|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
+|16|92.119.231.46|3128|Ukraine|Kyiv|Puchkov Yuriy Volodimirovich PE|
+|17|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|18|103.151.177.106|80|Indonesia|Jakarta|PT JASAMARGA TOLLROAD OPERATOR|
+|19|162.155.10.150|55443|United States|Strongsville|Charter Communications Inc|
+|20|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
