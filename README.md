@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5432** proxies at the latest update. Usable proxies are below.
+> Scraper found **5348** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|343|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|343|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|343|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|505|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|505|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|505|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1007|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|958|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|581|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|546|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2608|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|103.114.162.212|31181|United States|Las Vegas|DediPath|
-|2|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|3|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|4|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
-|5|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|6|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|1|45.152.188.248|3128|United States|Ashburn|Sprint|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|103.114.162.212|31181|United States|Las Vegas|DediPath|
+|4|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|5|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
+|6|179.96.28.58|80|Brazil|São Paulo|G8 NETWORKS LTDA|
 |7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|110.77.171.155|8080|Thailand|Samphanthawong|CAT-BB|
-|10|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|11|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|12|81.181.198.208|2019|Romania|Bucharest|Exim Host SRL|
-|13|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|14|145.40.121.103|3128|Brazil|São Paulo|Packet Host, Inc.|
-|15|103.114.162.212|31181|United States|Las Vegas|DediPath|
-|16|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|17|81.181.198.228|2019|Romania|Bucharest|Exim Host SRL|
-|18|185.120.162.28|443|Iran|Tehran|Khallagh Borhan Market Development for Creative Industries Co|
-|19|81.181.198.227|2019|Romania|Bucharest|Exim Host SRL|
-|20|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|45.152.188.248|3128|United States|Ashburn|Sprint|
+|9|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|10|103.114.162.212|31181|United States|Las Vegas|DediPath|
+|11|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|12|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|15|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|110.77.171.155|8080|Thailand|Samphanthawong|CAT-BB|
+|18|201.222.45.54|999|Chile|Santiago|GRUPO ULLOA SpA|
+|19|103.87.169.207|56642|India|Kalwara|Tejays Industries Pvt Ltd|
+|20|200.24.157.119|999|Ecuador|Azogues|Nedetel S.A.|
 
 
 
