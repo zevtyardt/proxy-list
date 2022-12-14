@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4437** proxies at the latest update. Usable proxies are below.
+> Scraper found **4518** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|293|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|293|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|293|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|238|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|238|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|238|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|580|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|661|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|319|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2287|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|45.152.188.248|3128|United States|Ashburn|Sprint|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|5|13.114.216.75|80|Japan|Tokyo|Amazon Technologies Inc|
-|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|12|45.152.188.248|3128|United States|Ashburn|Sprint|
-|13|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
-|14|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|15|103.83.179.149|8080|Indonesia|Tangerang|PT SOLUSI TRIMEGAH PERSADA|
-|16|190.61.55.140|999|Colombia|Suan|Ufinet Panama S.A.|
-|17|176.10.97.97|8118|Switzerland|Zurich|Datasource AG|
-|18|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|19|203.134.66.85|3128|Australia|North Sydney|Vocus PTY LTD|
-|20|134.238.252.143|8080|India|Mumbai|Google LLC|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|3|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|4|45.152.188.248|3128|United States|Ashburn|Sprint|
+|5|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
+|6|93.114.194.26|1337|Romania|Lipova|Interkvm Host SRL|
+|7|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|8|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|9|157.100.12.138|999|Ecuador|Celica|Telconet S.A|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|12|203.134.66.85|3128|Australia|North Sydney|Vocus PTY LTD|
+|13|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|14|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|15|95.154.76.20|3128|Russia|Vladivostok|OCTOPUSNET-NAT-POOL13 2ap|
+|16|14.207.12.146|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|19|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
+|20|5.189.157.63|8080|Germany|Nuremberg|Contabo GmbH|
 
 
 
