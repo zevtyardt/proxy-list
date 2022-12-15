@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6699** proxies at the latest update. Usable proxies are below.
+> Scraper found **6504** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|518|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|518|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|518|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|829|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|829|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|829|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1446|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1251|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|963|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3039|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|135.148.95.28|3128|United States|Reston|OVH SAS|
-|2|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|147.139.173.255|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|7|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|37.32.22.223|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|85.193.92.239|8118|Poland|Ełk|Artnet Sp. z o.o.|
-|13|135.148.95.28|3128|United States|Reston|OVH SAS|
-|14|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|15|181.129.14.163|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|16|118.99.115.62|8080|Indonesia|Jakarta|Biznet Gamers|
-|17|45.91.82.89|3128|United States|Rancho Cucamonga|FD-298-8796|
-|18|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|19|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|20|190.110.99.98|999|Chile|Las Condes|Silica Networks Argentina S.A.|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|50.246.120.125|8080|United States|Washington|Comcast Cable Communications, LLC|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|7|135.148.95.28|3128|United States|Reston|OVH SAS|
+|8|187.95.28.70|8080|Brazil|São José dos Campos|Netjacarei Telecon Ltda|
+|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|10|2.179.193.146|80|Iran|Tehran|Iran Telecommunication Company PJS|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|147.139.173.255|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|14|49.48.49.229|8080|Thailand|Phan Thong|Triple T Broadband Public Company Limited|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|61.94.62.254|3128|Indonesia|Jakarta|Telekomunikasi Indonesia|
+|18|207.180.216.251|8118|Germany|Nuremberg|Contabo GmbH|
+|19|202.180.20.10|55443|Indonesia|Jakarta|PT. HIPERNET INDODATA|
+|20|45.91.82.89|3128|United States|Rancho Cucamonga|FD-298-8796|
 
 
 
