@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5489** proxies at the latest update. Usable proxies are below.
+> Scraper found **5446** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|472|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|472|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|472|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|449|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|449|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|449|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|895|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|852|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|611|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2732|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.248|3128|United States|Ashburn|Sprint|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|135.148.95.28|3128|United States|Reston|OVH SAS|
-|4|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|6|135.148.95.28|3128|United States|Reston|OVH SAS|
-|7|45.152.188.248|3128|United States|Ashburn|Sprint|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|147.139.173.255|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|17|185.200.36.165|8888|Turkey|Antakya|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
-|18|213.32.75.88|9300|France|Gravelines|OVH SAS|
-|19|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|1|135.148.95.28|3128|United States|Reston|OVH SAS|
+|2|45.152.188.248|3128|United States|Ashburn|Sprint|
+|3|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|4|135.148.95.28|3128|United States|Reston|OVH SAS|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|45.152.188.248|3128|United States|Ashburn|Sprint|
+|7|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|12|82.65.249.238|8080|France|Paris|Proxad / Free SAS|
+|13|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|14|203.150.113.106|57322|Thailand|Watthana|Internet Thailand Company Ltd.|
+|15|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|16|51.159.115.233|3128|France|Paris|SCALEWAY|
+|17|43.224.10.46|6666|India|Surat|gtpl hariom world vision|
+|18|171.231.18.50|4001|Vietnam|Pleiku|Viettel Corporation|
+|19|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|20|147.139.173.255|3128|Indonesia|Jakarta|Alibaba.com LLC|
 
 
 
