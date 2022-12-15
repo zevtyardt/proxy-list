@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5492** proxies at the latest update. Usable proxies are below.
+> Scraper found **5177** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|347|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|347|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|347|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|346|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|346|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|346|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1009|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|694|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|696|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2836|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|135.148.95.28|3128|United States|Reston|OVH SAS|
+|1|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
 |2|135.148.95.28|3128|United States|Reston|OVH SAS|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|128.90.146.158|8118|Belgium|Brussels|Powerhouse Management, Inc.|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
-|7|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|8|181.215.178.58|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|9|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|10|64.227.7.192|3128|United States|North Bergen|DigitalOcean, LLC|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|45.152.188.248|3128|United States|Ashburn|Sprint|
-|13|103.161.96.31|10000|Vietnam|Hà Đông|MXGROUP|
-|14|178.128.57.159|8081|Singapore|Singapore|DigitalOcean, LLC|
-|15|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|16|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|17|103.161.112.123|10000|Vietnam|Ho Chi Minh City|Viet Digital Technology Liability Company|
-|18|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|19|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|20|24.106.221.230|53281|United States|Pine Knoll Shores|Spectrum|
+|3|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|4|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|14.32.188.144|8080|South Korea|Seoul|Korea Telecom|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|47.74.226.8|5001|Singapore|Singapore|Alibaba Cloud (Singapore) Private Limited|
+|9|135.148.95.28|3128|United States|Reston|OVH SAS|
+|10|37.112.57.47|8080|Russia|Bryansk|CJSC "ER-Telecom Holding" Bryansk branch|
+|11|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
+|12|181.232.190.18|999|Dominican Republic|Santo Domingo Este|Airtime Technology SRL|
+|13|70.177.15.10|8080|United States|Gilbert|Cox Communications Inc.|
+|14|187.243.255.234|9812|Mexico|Hermosillo|Mega Cable, S.A. de C.V.|
+|15|103.4.164.204|8080|Indonesia|Jakarta|FIBERNET|
+|16|5.187.2.186|8089|Germany|Frankfurt am Main|First Colo via AS44066|
+|17|45.161.32.129|8081|Ecuador|Loja|Lojasystem C.A.|
+|18|179.1.95.171|999|Colombia|Neiva|InterNexa Global Network|
+|19|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
+|20|37.53.103.4|3128|Ukraine|Ternivka|UKRTELECOM|
 
 
 
