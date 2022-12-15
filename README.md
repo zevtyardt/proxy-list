@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6338** proxies at the latest update. Usable proxies are below.
+> Scraper found **6019** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|764|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|764|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|764|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|616|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|616|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|616|
 
 ## Sources
 
@@ -37,10 +37,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1073|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1218|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|714|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3300|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2836|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|135.148.95.28|3128|United States|Reston|OVH SAS|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|5|185.143.146.171|8080|Ukraine|Kyiv|ISP UTELS|
-|6|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|7|14.32.188.144|8080|South Korea|Seoul|Korea Telecom|
-|8|181.215.178.67|1337|Netherlands|Amsterdam|NovoServe B.V.|
-|9|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
-|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|11|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|12|107.6.109.62|3128|United States|Dallas|SingleHop LLC|
-|13|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|132.147.34.22|8111|United States|Miami|Breezeline|
-|16|135.148.95.28|3128|United States|Reston|OVH SAS|
-|17|173.82.153.196|16781|United States|Portland|Multacom Corporation|
-|18|43.231.0.40|7890|Hong Kong|Victoria|BUILDCLOUD|
-|19|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|20|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|2|45.152.188.248|3128|United States|Ashburn|Sprint|
+|3|132.147.34.22|8111|United States|Miami|Breezeline|
+|4|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
+|5|45.152.188.248|3128|United States|Ashburn|Sprint|
+|6|14.32.188.144|8080|South Korea|Seoul|Korea Telecom|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|9|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
+|10|43.231.0.40|7890|Hong Kong|Victoria|BUILDCLOUD|
+|11|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|12|135.148.95.28|3128|United States|Reston|OVH SAS|
+|13|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|14|110.164.73.132|80|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
+|15|203.150.113.173|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
+|16|173.82.153.196|16781|United States|Portland|Multacom Corporation|
+|17|132.147.34.22|8111|United States|Miami|Breezeline|
+|18|134.238.252.143|8080|India|Mumbai|Google LLC|
+|19|181.215.178.59|1337|Netherlands|Amsterdam|NovoServe B.V.|
+|20|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
 
 
 
