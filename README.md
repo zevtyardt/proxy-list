@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5059** proxies at the latest update. Usable proxies are below.
+> Scraper found **5015** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|423|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|423|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|423|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|373|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|373|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|373|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|909|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|865|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|459|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2740|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.152.188.248|3128|United States|Ashburn|Sprint|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|207.180.216.251|8118|Germany|Nuremberg|Contabo GmbH|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|6|191.97.20.91|999|Peru|Chiclayo|Integra Network Del Peru E.I.R.L.|
-|7|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
-|9|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|147.139.173.255|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|190.110.111.132|999|Chile|Las Condes|Silica Networks Argentina S.A.|
-|14|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
-|15|176.196.250.86|3128|Russia|Kemerovo|Goodline.info|
-|16|45.229.205.252|55555|Argentina|Avellaneda|Visio RED SRL|
-|17|190.110.111.133|999|Chile|Las Condes|Silica Networks Argentina S.A.|
-|18|45.152.188.248|3128|United States|Ashburn|Sprint|
-|19|128.90.137.54|8118|Netherlands|Amsterdam|Powerhouse Management, Inc.|
-|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|1|47.251.15.176|1080|United States|Santa Clara|Alibaba.com LLC|
+|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|185.221.134.234|3129|United States|Los Angeles|DediPath|
+|4|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|5|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|6|135.148.95.28|3128|United States|Reston|OVH SAS|
+|7|8.29.103.131|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc|
+|8|193.218.118.72|8080|Ukraine|Kyiv|Epinatura LLC|
+|9|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|10|185.221.134.234|3129|United States|Los Angeles|DediPath|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|128.90.137.54|8118|Netherlands|Amsterdam|Powerhouse Management, Inc.|
+|15|190.110.111.133|999|Chile|Las Condes|Silica Networks Argentina S.A.|
+|16|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
+|17|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|190.110.111.132|999|Chile|Las Condes|Silica Networks Argentina S.A.|
+|19|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|20|200.25.254.193|54240|Colombia|Puerto Carreño|Andinet ON Line|
 
 
 
