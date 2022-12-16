@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4902** proxies at the latest update. Usable proxies are below.
+> Scraper found **5507** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|375|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|375|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|375|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|497|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|497|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|497|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|860|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1053|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|403|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|515|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2688|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|135.148.95.28|3128|United States|Reston|OVH SAS|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|187.154.15.118|999|Mexico|Oaxaca City|Uninet S.A. de C.V.|
-|6|94.63.67.189|3129|Portugal|Lisbon|Vodafone Portugal|
-|7|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
-|8|135.148.95.28|3128|United States|Reston|OVH SAS|
-|9|204.199.131.198|999|Chile|Santiago|Level 3 Communications, Inc.|
-|10|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|201.222.44.227|999|Chile|Graneros|GRUPO ULLOA SpA|
-|13|43.231.0.40|7890|Hong Kong|Victoria|BUILDCLOUD|
-|14|201.222.44.230|999|Chile|Graneros|GRUPO ULLOA SpA|
-|15|185.123.101.174|4443|Turkey|Bursa|DGN TEKNOLOJI A.S.|
-|16|105.214.97.69|8080|South Africa|Randburg|MTN SA|
-|17|201.222.44.106|999|Chile|Santiago|GRUPO ULLOA SpA|
-|18|36.69.171.249|80|Indonesia|Jakarta|PT. TELKOM INDONESIA|
-|19|95.219.212.162|80|Saudi Arabia|Medina|Saudi Telecom Company JSC|
-|20|113.53.61.83|8080|Thailand|Si Racha|TOT Public Company Limited|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|135.148.95.28|3128|United States|Reston|OVH SAS|
+|3|189.164.249.243|10101|Mexico|Puebla City|Uninet S.A. de C.V|
+|4|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|43.231.0.40|7890|Hong Kong|Victoria|BUILDCLOUD|
+|8|94.63.67.189|3129|Portugal|Lisbon|Vodafone Portugal|
+|9|201.222.44.229|999|Chile|Graneros|GRUPO ULLOA SpA|
+|10|134.236.60.238|8080|Thailand|Si Khoraphum|CAT-BB|
+|11|201.222.44.230|999|Chile|Graneros|GRUPO ULLOA SpA|
+|12|101.51.234.199|5000|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
+|13|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|14|135.148.95.28|3128|United States|Reston|OVH SAS|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|201.222.44.106|999|Chile|Santiago|GRUPO ULLOA SpA|
+|17|201.222.44.227|999|Chile|Graneros|GRUPO ULLOA SpA|
+|18|1.52.15.150|8080|Vietnam|Hanoi|FPT Telecom Company|
+|19|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|20|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 
 
 
