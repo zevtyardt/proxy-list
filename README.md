@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5406** proxies at the latest update. Usable proxies are below.
+> Scraper found **5181** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|512|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|512|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|512|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|419|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|419|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|419|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|852|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|750|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|613|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|490|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2690|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|135.148.95.28|3128|United States|Reston|OVH SAS|
-|2|5.39.105.211|3128|France|Lyon|OVH SAS|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|189.164.91.75|10101|Mexico|Puebla City|Uninet S.A. de C.V|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|135.148.95.28|3128|United States|Reston|OVH SAS|
+|3|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|4|5.39.105.211|3128|France|Lyon|OVH SAS|
 |5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |6|95.216.66.183|80|Finland|Helsinki|Hetzner Online GmbH|
-|7|128.90.146.158|8118|Belgium|Brussels|Powerhouse Management, Inc.|
-|8|135.148.95.28|3128|United States|Reston|OVH SAS|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|189.164.110.242|10101|Mexico|Puebla City|Uninet S.A. de C.V|
-|11|88.99.191.127|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|12|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|88.99.191.127|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|8|189.164.91.75|10101|Mexico|Puebla City|Uninet S.A. de C.V|
+|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|10|24.152.53.5|999|Guatemala|Jalapa|TV CABLE UNIVERSAL S.A|
+|11|135.148.95.28|3128|United States|Reston|OVH SAS|
+|12|47.187.9.149|80|United States|Grapevine|Frontier Communications of America, Inc.|
 |13|43.231.0.40|7890|Hong Kong|Victoria|BUILDCLOUD|
 |14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|118.107.77.140|8888|Vietnam|Hung Yen|VTCDIGICOM|
-|16|182.53.110.155|8081|Thailand|Sakon Nakhon|TOT Public Company Limited|
-|17|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|18|189.164.76.254|10101|Mexico|Puebla City|Uninet S.A. de C.V|
-|19|101.108.62.179|8080|Thailand|Phuket|TOT Public Company Limited|
-|20|77.242.177.57|3128|Italy|Biella|MegaWeb|
+|15|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|101.108.62.179|8080|Thailand|Phuket|TOT Public Company Limited|
+|18|47.187.9.149|80|United States|Grapevine|Frontier Communications of America, Inc.|
+|19|45.233.170.109|999|Colombia|Popayán|Simect Group Redes E Internet S.A.S|
+|20|61.7.169.172|8080|Thailand|Bangkok|CAT Telecom Public Company Limited|
 
 
 
