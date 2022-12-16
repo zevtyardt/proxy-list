@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5871** proxies at the latest update. Usable proxies are below.
+> Scraper found **6409** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|480|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|480|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|480|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|725|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|725|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|725|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|798|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1336|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|547|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3275|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|158.101.98.208|3128|United States|Ashburn|Oracle Corporation|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|135.148.95.28|3128|United States|Reston|OVH SAS|
-|5|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|6|158.101.98.208|3128|United States|Ashburn|Oracle Corporation|
-|7|135.148.95.28|3128|United States|Reston|OVH SAS|
-|8|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
-|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|10|192.155.95.228|10801|United States|Atlanta|Linode, LLC|
-|11|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|170.244.88.1|999|Venezuela|Caracas|INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)|
-|14|103.105.142.132|8888|Indonesia|Cirebon|Partner Communications Ltd.|
-|15|36.72.138.32|8080|Indonesia|Bagjasari|PT. TELKOM INDONESIA|
-|16|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|2|135.148.95.28|3128|United States|Reston|OVH SAS|
+|3|138.2.241.107|8080|Brazil|Vinhedo|Oracle Corporation|
+|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|6|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|7|146.56.118.144|7890|South Korea|Chuncheon|Oracle Corporation|
+|8|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
+|9|158.101.98.208|3128|United States|Ashburn|Oracle Corporation|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|1.53.252.228|2022|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|13|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|14|135.148.95.28|3128|United States|Reston|OVH SAS|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|103.105.142.132|8888|Indonesia|Cirebon|Partner Communications Ltd.|
 |17|182.53.201.119|8080|Thailand|Chanthaburi|TOT Public Company Limited|
-|18|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
-|19|52.87.136.220|80|United States|Ashburn|Amazon.com, Inc.|
-|20|134.238.252.143|8080|India|Mumbai|Google LLC|
+|18|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|36.72.138.32|8080|Indonesia|Bagjasari|PT. TELKOM INDONESIA|
 
 
 
