@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|558|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|558|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|558|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|230|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|230|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|230|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|135.148.95.28|3128|United States|Reston|OVH SAS|
-|2|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|135.148.95.28|3128|United States|Reston|OVH SAS|
 |4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|135.148.95.28|3128|United States|Reston|OVH SAS|
-|6|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|7|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|11|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|14|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|17|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|18|23.95.186.182|3128|United States|Washington|ColoCrossing|
-|19|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|20|159.65.149.152|443|India|Bengaluru|DigitalOcean, LLC|
+|5|208.167.255.177|3128|United States|Piscataway|The Constant Company|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|159.65.149.152|443|India|Bengaluru|DigitalOcean, LLC|
+|9|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|13|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|14|192.155.95.228|10000|United States|Atlanta|Linode, LLC|
+|15|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|16|23.95.186.182|3128|United States|Washington|ColoCrossing|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|88.1.165.183|3128|Spain|Tarancon|Telefonica de Espana SAU|
+|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
 
 
 
