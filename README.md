@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6602** proxies at the latest update. Usable proxies are below.
+> Scraper found **6732** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|668|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|668|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|668|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|726|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|726|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|726|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1508|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1380|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|673|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|931|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3170|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|2|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|3|201.91.82.155|3128|Brazil|São Paulo|Vivo|
-|4|107.178.9.186|8080|United States|Fort Worth|Nextlink Broadband|
-|5|186.211.177.161|8082|Brazil|Pesqueira|BR Digital|
-|6|84.214.150.146|8080|Norway|Oslo|Get AS|
-|7|93.105.40.62|41258|Poland|Warsaw|Vectra S.A. BUSINESS P2P CONNECTIONS|
-|8|93.86.63.73|8080|Serbia|Belgrade|TELEKOM-SRBIJA|
-|9|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|10|103.159.195.136|8080|Indonesia|Demak|PT Giga Digital Nusantara|
-|11|85.172.0.30|8080|Russia|Krasnodar|Southen Telecommunication Maintainer|
-|12|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
-|13|147.28.128.197|3128|United States|Ashburn|Packet Host, Inc.|
-|14|159.69.119.42|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|15|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|16|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
-|17|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
-|18|183.88.0.33|8080|Thailand|Nakhon Ratchasima|Triple T Broadband Public Company Limited|
-|19|101.109.111.158|8080|Thailand|Phan Thong|TOT Public Company Limited|
-|20|24.51.32.59|8080|United States|Kearney|Great Plains Communications LLC|
+|1|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|2|201.91.82.155|3128|Brazil|São Paulo|Vivo|
+|3|181.205.106.106|9812|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|4|103.159.220.141|80|Indonesia|Menteng|Universitas Muhammadiyah Jakarta|
+|5|177.87.168.6|53281|Brazil|Paulista|Asstelecom telecomunicação Ltda me|
+|6|103.141.108.122|8080|Indonesia|Blitar|Data Buana Nusantara|
+|7|107.178.9.186|8080|United States|Fort Worth|Nextlink Broadband|
+|8|41.33.86.242|8080|Egypt|Cairo|TE Data|
+|9|103.189.116.21|8080|Indonesia|Tipar|PT Callysta Total Solusindo|
+|10|34.134.91.130|3128|United States|Council Bluffs|Google LLC|
+|11|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|12|149.56.96.252|9300|Canada|Montreal|OVH SAS|
+|13|209.166.175.201|8080|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|14|51.159.115.233|3128|France|Paris|SCALEWAY|
+|15|103.172.120.114|8080|Indonesia|Purwodadi Grobogan|PT Digital Akses Nusantara|
+|16|47.74.226.8|5001|Singapore|Singapore|Alibaba Cloud (Singapore) Private Limited|
+|17|179.49.144.210|3128|Brazil|Macaé|Meganet Telecomumicacoes Ltda|
+|18|41.33.3.35|1981|Egypt|Cairo|TE Data|
+|19|81.201.56.67|8888|Czechia|Pilsen|Neutral Free eXchange members - FreeTel alternate|
+|20|166.111.83.64|4780|China|Haidian|China Education and Research Network Center|
 
 
 
