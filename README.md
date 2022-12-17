@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5723** proxies at the latest update. Usable proxies are below.
+> Scraper found **5748** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|652|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|652|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|652|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|545|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|545|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|545|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1041|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1066|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|676|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2755|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|135.148.95.28|3128|United States|Reston|OVH SAS|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|6|135.148.95.28|3128|United States|Reston|OVH SAS|
-|7|147.28.128.197|3128|United States|Ashburn|Packet Host, Inc.|
-|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|9|137.184.123.246|8080|United States|Santa Clara|DigitalOcean, LLC|
-|10|45.233.67.226|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
-|11|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|6|147.28.128.197|3128|United States|Ashburn|Packet Host, Inc.|
+|7|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|8|135.148.95.28|3128|United States|Reston|OVH SAS|
+|9|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|10|179.1.95.171|999|Colombia|Neiva|InterNexa Global Network|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
 |13|164.92.73.145|3128|United States|Santa Clara|DigitalOcean, LLC|
-|14|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|14|137.184.123.246|8080|United States|Santa Clara|DigitalOcean, LLC|
 |15|187.204.35.179|53281|Mexico|Tamazula de Gordiano|Uninet S.A. de C.V.|
-|16|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|17|137.74.90.233|8282|France|Gravelines|OVH SAS|
-|18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|13.114.216.75|80|Japan|Tokyo|Amazon Technologies Inc|
-|20|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
+|16|13.114.216.75|80|Japan|Tokyo|Amazon Technologies Inc|
+|17|93.95.229.153|3128|Iceland|Reykjavik|The 1984 ehf|
+|18|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|19|192.155.95.228|10801|United States|Atlanta|Linode, LLC|
+|20|47.241.189.54|3127|Singapore|Singapore|Alibaba.com LLC|
 
 
 
