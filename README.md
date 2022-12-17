@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6965** proxies at the latest update. Usable proxies are below.
+> Scraper found **6459** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|606|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|606|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|606|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|629|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|629|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|629|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1613|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1107|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|931|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3170|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|2|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
-|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|200.24.154.147|999|Ecuador|Rocafuerte|Nedetel S.A.|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|95.154.75.104|8080|Russia|Vladivostok|OCTOPUSNET-NAT-POOL13 1bn|
-|7|203.150.128.55|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|8|152.204.128.46|33047|Colombia|Purificacion|Colombia Telecomunicaciones S.a. ESP|
-|9|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|10|8.242.190.75|999|Colombia|Pasto|Dobleclick Software E Ingenieria|
-|11|190.121.157.142|999|Colombia|Cúcuta|Media Commerce Partners S.A|
-|12|109.224.51.30|8080|Iraq|Baghdad|EarthLink Ltd. Communications&Internet Services|
-|13|24.116.218.195|8080|United States|Pascagoula|CABLE ONE, INC.|
-|14|213.145.150.77|8080|Kyrgyzstan|Bishkek|OJSC Kyrgyztelecom|
-|15|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|16|178.236.223.250|8080|Russia|Zavodoukovsk|JSC "Russian Company" LIR|
-|17|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
-|18|13.114.216.75|80|Japan|Tokyo|Amazon Technologies Inc|
-|19|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
-|20|45.179.200.129|999|Colombia|Pereira|NET&COM LTDA.|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|3|161.97.126.37|8118|Germany|Nuremberg|Contabo GmbH|
+|4|109.224.51.30|8080|Iraq|Baghdad|EarthLink Ltd. Communications&Internet Services|
+|5|203.150.128.55|8080|Thailand|Watthana|Internet Thailand Company Ltd|
+|6|202.57.55.242|45112|Philippines|Quezon City|PhilCom Corporation|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|160.3.168.70|8080|United States|West Gulfport|CABLE ONE, INC.|
+|9|178.236.223.250|8080|Russia|Zavodoukovsk|JSC "Russian Company" LIR|
+|10|37.26.86.206|47464|Albania|Bradashesh|ATU|
+|11|103.155.166.82|8181|Indonesia|Bogor|PT Network Lintas Fiberindo|
+|12|147.135.134.57|9300|France|Gravelines|OVH SAS|
+|13|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
+|14|152.204.128.46|33047|Colombia|Purificacion|Colombia Telecomunicaciones S.a. ESP|
+|15|103.141.108.122|8080|Indonesia|Blitar|Data Buana Nusantara|
+|16|188.17.117.126|3128|Russia|Chelyabinsk|LLC "KomTehCentr"|
+|17|212.126.96.154|8080|Iraq|Seyid Sadiq|AL-SARD FIBER Co. Internet Fiber and Optical Cable Services /Ltd|
+|18|198.229.231.13|8080|United States|Streator|MTCO Communications|
+|19|217.117.15.98|8080|Nigeria|Lagos|Vodacom Business Nigeria|
+|20|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
 
 
 
