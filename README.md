@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6542** proxies at the latest update. Usable proxies are below.
+> Scraper found **6318** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|397|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|397|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|397|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|708|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|708|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|708|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1631|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1407|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|797|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2863|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|3|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|7|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|8|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
-|9|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|10|5.39.105.211|3128|France|Lyon|OVH SAS|
-|11|94.177.249.42|3128|United Kingdom|Slough|ArubaCloud UK Network|
-|12|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|158.101.113.18|80|United States|Ashburn|Oracle Corporation|
-|15|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|16|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|17|93.95.229.153|3128|Iceland|Reykjavik|The 1984 ehf|
-|18|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|19|50.233.228.147|8080|United States|Denver|Comcast Cable Communications, LLC|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|7|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|8|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|10|176.118.149.14|8080|Ukraine|Kalynivka|VINASTERISK, PP|
+|11|5.39.105.211|3128|France|Lyon|OVH SAS|
+|12|187.60.219.4|3128|Brazil|Francisco Beltrão|Ampernet Telecomunicações Ltda|
+|13|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|17|51.159.115.233|3128|France|Paris|SCALEWAY|
+|18|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|19|192.155.95.228|10801|United States|Atlanta|Linode, LLC|
+|20|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
 
 
 
