@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4578** proxies at the latest update. Usable proxies are below.
+> Scraper found **4594** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|203|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|203|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|203|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|193|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|193|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|193|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|623|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|639|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|297|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2407|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|7|103.161.96.31|10000|Vietnam|Hà Đông|MXGROUP|
-|8|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|9|192.155.95.228|10000|United States|Atlanta|Linode, LLC|
+|1|181.129.14.164|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|2|134.238.252.143|8080|India|Mumbai|Google LLC|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|103.161.171.202|10000|Vietnam|Hanoi|VINABISON|
+|5|185.189.14.28|3002|Russia|Moscow|NTX Technologies s.r.o.|
+|6|103.161.171.192|10000|Vietnam|Hanoi|VINABISON|
+|7|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|8|103.160.3.149|10000|Vietnam|Hanoi|ITEXPERT Viet Nam Joint Stock Company|
+|9|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
 |10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|95.72.77.116|8080|Russia|Pushkino|Rostelecom networks|
-|12|181.205.106.106|9812|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|13|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|14|103.161.171.113|10000|Vietnam|Hanoi|VINABISON|
-|15|118.89.176.33|8118|China|Shenzhen|Shenzhen Tencent Computer Systems Company Limited|
-|16|177.93.50.106|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|17|38.123.207.247|999|Mexico|Mexico City|Cogent Communications|
-|18|103.210.161.198|8998|Hong Kong|Central|China Unicom Guangdong IP network|
-|19|112.78.137.106|8080|Indonesia|Jakarta|Biznet Networks|
-|20|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|11|192.155.95.228|10030|United States|Atlanta|Linode, LLC|
+|12|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|13|51.79.50.46|9300|Canada|Beauharnois|OVH SAS|
+|14|103.161.112.123|10000|Vietnam|Ho Chi Minh City|Viet Digital Technology Liability Company|
+|15|157.100.12.138|999|Ecuador|Alamor|Telconet S.A|
+|16|149.5.36.113|8080|Ireland|Dublin|Carnsore Broadband Limited|
+|17|181.129.14.164|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|18|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
+|19|183.221.242.102|9443|China|Mianyang|China Mobile|
+|20|38.49.135.249|999|Mexico|Querétaro City|Ientc S De RL De CV|
 
 
 
