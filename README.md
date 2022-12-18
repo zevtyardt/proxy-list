@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5030** proxies at the latest update. Usable proxies are below.
+> Scraper found **5275** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|361|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|361|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|361|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|321|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|321|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|321|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|816|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|883|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|472|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2491|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2669|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
-|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|143.198.82.124|8081|Singapore|Singapore|DigitalOcean, LLC|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|190.2.210.234|999|Colombia|Piamonte|TV AZTECA SUCURSAL COLOMBIA|
-|10|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|11|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|12|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|13|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
-|14|110.78.186.232|8080|Thailand|Chachoengsao|CAT-BB|
-|15|185.182.222.178|8080|Iran|Tehran|Mobin Net Communication Company (Private Joint Stock)|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
-|18|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|19|50.233.228.147|8080|United States|Denver|Comcast Cable Communications, LLC|
-|20|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
+|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
+|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|190.2.210.234|999|Colombia|Piamonte|TV AZTECA SUCURSAL COLOMBIA|
+|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|190.152.5.126|53040|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
+|11|192.155.95.228|10755|United States|Atlanta|Linode, LLC|
+|12|105.174.7.254|8080|Angola|Luanda|UNITEL SA|
+|13|181.211.255.129|9898|Ecuador|Quito|Corporacion Nacional De Telecomunicaciones - CNT EP|
+|14|103.152.232.194|8080|Indonesia|Subang|PT Kingpolah Network Solutions|
+|15|162.155.10.150|55443|United States|Strongsville|Charter Communications Inc|
+|16|192.155.95.228|10755|United States|Atlanta|Linode, LLC|
+|17|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|18|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|19|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|20|24.106.221.230|53281|United States|Pine Knoll Shores|Spectrum|
 
 
 
