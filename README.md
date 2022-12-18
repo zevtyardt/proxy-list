@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5600** proxies at the latest update. Usable proxies are below.
+> Scraper found **5711** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|517|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|517|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|517|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|578|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|578|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|578|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1169|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1039|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|511|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|752|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2669|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
 |2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|8|117.5.241.36|4001|Vietnam|Hanoi|Viettel Corporation|
-|9|195.225.232.4|6053|Iran|Tehran|TS Information Technology Limited|
-|10|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|11|45.234.60.50|999|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
-|12|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
-|13|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|14|82.99.194.30|3128|Iran|Khorramshahr|ParsOnline Co.|
-|15|46.246.84.10|8118|Sweden|Stockholm|Portlane Network|
-|16|213.233.184.19|1080|Iran|Tehran|SHARIF-EDU|
-|17|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
-|18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|80.249.187.85|8080|Russia|St Petersburg|Smart Telecom Company|
-|20|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|45.15.16.139|8118|Sweden|Stockholm|Obehosting AB|
+|5|195.225.232.4|6053|Iran|Tehran|TS Information Technology Limited|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|9|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|10|117.5.241.36|4001|Vietnam|Hanoi|Viettel Corporation|
+|11|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|103.151.53.77|10000|Vietnam|Da Nang|Viet Digital Technology Liability Company|
+|14|47.57.233.110|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|15|77.233.5.68|55443|Russia|Krasnodar|Yug-Link|
+|16|103.161.112.123|10000|Vietnam|Ho Chi Minh City|Viet Digital Technology Liability Company|
+|17|103.147.246.129|8080|Indonesia|Serang|PLBNET|
+|18|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|19|181.36.121.222|999|Dominican Republic|San Pedro de Macorís|Altice Dominicana S.A.|
+|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
 
 
 
