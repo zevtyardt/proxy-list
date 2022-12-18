@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6094** proxies at the latest update. Usable proxies are below.
+> Scraper found **6057** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|646|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|646|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|646|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|634|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|634|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|634|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1411|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1374|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|758|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2674|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|82.65.249.238|8080|France|Paris|Proxad / Free SAS|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|6|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|8|207.180.216.251|8118|Germany|Nuremberg|Contabo GmbH|
-|9|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
-|13|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|193.41.88.58|53281|Ukraine|Kyiv|Kyiv National Taras Shevchenko University|
-|18|47.242.37.241|3128|Hong Kong|Hong Kong|Alibaba.com LLC|
-|19|103.147.246.129|8080|Indonesia|Serang|PLBNET|
-|20|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|1|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
+|5|70.177.15.10|8080|United States|Gilbert|Cox Communications Inc.|
+|6|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|7|192.155.95.228|10755|United States|Atlanta|Linode, LLC|
+|8|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|12|178.216.24.80|55443|Poland|Lublin|Telekomunikacja Wschod sp. z o.o.|
+|13|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|14|182.253.21.26|46977|Indonesia|Jakarta|Biznet Networks|
+|15|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
+|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|17|103.111.82.82|9812|Indonesia|Wagir|ICONPLN|
+|18|41.186.44.106|3128|Rwanda|Kigali|MTN Rwandacell|
+|19|51.91.100.252|443|France|Strasbourg|OVH SAS|
+|20|134.238.252.143|8080|India|Mumbai|Google LLC|
 
 
 
