@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5380** proxies at the latest update. Usable proxies are below.
+> Scraper found **5154** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|401|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|401|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|401|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|343|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|343|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|343|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1107|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|881|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|636|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2386|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|70.177.15.10|8080|United States|Gilbert|Cox Communications Inc.|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|70.177.15.10|8080|United States|Gilbert|Cox Communications Inc.|
-|5|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|6|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|180.183.230.228|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
-|9|192.155.95.228|10000|United States|Atlanta|Linode, LLC|
-|10|47.242.37.241|3128|Hong Kong|Hong Kong|Alibaba.com LLC|
-|11|41.216.155.245|8080|Burkina Faso|Saaba|connecteo-burkina|
-|12|209.146.19.58|55443|Philippines|Manolo Fortich|Cogent Communications|
-|13|103.229.185.22|80|Indonesia|Pamulang|PT INDONESIA COMNETS PLUS|
-|14|181.129.74.58|40667|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|15|103.152.232.194|8080|Indonesia|Subang|PT Kingpolah Network Solutions|
-|16|186.24.9.114|999|Venezuela|Caracas|TELEFONICA VENEZOLANA, C.A.|
-|17|202.180.54.212|8080|Indonesia|Jakarta|PT. Panca Dewata Utama|
-|18|51.159.115.233|3128|France|Paris|SCALEWAY|
-|19|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|20|103.56.206.65|4995|Indonesia|Bogor|Argon Data Communication|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|192.155.95.228|10801|United States|Atlanta|Linode, LLC|
+|7|103.229.185.22|80|Indonesia|Pamulang|PT INDONESIA COMNETS PLUS|
+|8|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|9|143.137.235.210|8080|Brazil|Berilo|INFORMATICA.COM LTDA|
+|10|180.183.230.228|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
+|11|103.161.96.31|10000|Vietnam|Hà Đông|MXGROUP|
+|12|192.155.95.228|10801|United States|Atlanta|Linode, LLC|
+|13|41.216.155.245|8080|Burkina Faso|Saaba|connecteo-burkina|
+|14|216.176.187.99|8889|United States|Los Angeles|Wowrack.com|
+|15|179.1.73.100|999|Colombia|San Cayetano|InterNexa Global Network|
+|16|188.246.163.163|41258|Russia|Moscow|OOO WestCall Ltd|
+|17|47.242.37.241|3128|Hong Kong|Hong Kong|Alibaba.com LLC|
+|18|197.251.233.124|8080|Ghana|Accra|Vodafone Ghana AS International Transit|
+|19|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|20|27.116.41.156|9898|India|Gurugram|RailTel Corporation|
 
 
 
