@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5319** proxies at the latest update. Usable proxies are below.
+> Scraper found **5232** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|259|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|259|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|259|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|483|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|483|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|483|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1030|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|643|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|443|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2895|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|5|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|167.235.19.123|8888|Germany|Falkenstein|Hetzner Online GmbH|
-|8|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
-|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|10|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|14|180.211.158.122|58375|Bangladesh|Dhaka|Bangladesh Telecommunications Company Ltd.|
-|15|47.57.233.110|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|17|192.155.95.228|10755|United States|Atlanta|Linode, LLC|
-|18|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|19|216.176.187.99|8889|United States|Los Angeles|Wowrack.com|
-|20|183.88.196.64|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|1|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|45.234.60.50|999|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
+|4|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|7|45.233.67.235|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|192.155.95.228|10801|United States|Atlanta|Linode, LLC|
+|10|103.171.182.225|8080|Indonesia|Bekasi|PT Hayat Teknologi Informatika|
+|11|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|12|103.65.212.150|8085|Indonesia|Bantul|PT. Broadband Indonesia Pratama|
+|13|103.163.36.76|80|Indonesia|Tawangrejo|PT Data Buana Nusantara|
+|14|170.81.78.151|8080|Brazil|João Pessoa|Sigtel Servicos De Telecomunicacoes Ltda|
+|15|213.59.156.119|3128|Russia|Tomsk|ZT-TOMSK|
+|16|216.176.187.99|8889|United States|Los Angeles|Wowrack.com|
+|17|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|18|118.70.12.171|53281|Vietnam|Hanoi|FPT Telecom Company|
+|19|206.42.35.219|8080|Brazil|Maceió|Brisanet Prestacao De Servicos De Internet Ltda|
+|20|45.127.245.42|8080|Bangladesh|Dhaka|Dhaka Fiber Net Ltd|
 
 
 
