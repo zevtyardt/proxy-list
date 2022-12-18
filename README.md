@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5565** proxies at the latest update. Usable proxies are below.
+> Scraper found **5668** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|476|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|476|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|476|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|474|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|474|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|474|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1076|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1249|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|650|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|580|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2588|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|5.39.105.211|3128|France|Lyon|OVH SAS|
-|3|89.58.10.16|3129|Germany|Nuremberg|netcup GmbH|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|7|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|8|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
-|10|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|11|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
-|12|195.178.197.20|8080|Russia|Podolsk|IIP|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
-|18|115.42.0.5|53281|Australia|Maitland|Escapenet Pty Ltd|
-|19|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|20|152.204.128.46|33047|Colombia|Purificacion|Colombia Telecomunicaciones S.a. ESP|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
+|6|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|7|5.39.105.211|3128|France|Lyon|OVH SAS|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|10|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|11|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|12|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|13|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|14|115.42.0.5|53281|Australia|Maitland|Escapenet Pty Ltd|
+|15|216.176.187.99|8889|United States|Los Angeles|Wowrack.com|
+|16|176.100.13.15|8080|Ukraine|Kyiv|Scientific -Industrial Firm "Volz" Ltd|
+|17|193.160.209.193|18080|Spain|Seville|Mismenet Telecomunicaciones S.L.|
+|18|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|19|103.146.182.98|3128|Indonesia|Jakarta|BTSNET|
+|20|163.172.37.158|9741|France|Vitry-sur-Seine|Online S.A.S.|
 
 
 
