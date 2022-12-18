@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6318** proxies at the latest update. Usable proxies are below.
+> Scraper found **6050** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|708|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|708|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|708|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|514|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|514|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|514|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1407|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1139|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|797|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2863|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|2|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|7|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|8|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|10|176.118.149.14|8080|Ukraine|Kalynivka|VINASTERISK, PP|
-|11|5.39.105.211|3128|France|Lyon|OVH SAS|
-|12|187.60.219.4|3128|Brazil|Francisco Beltrão|Ampernet Telecomunicações Ltda|
+|2|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
+|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|5|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|6|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|10|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|11|176.118.149.14|8080|Ukraine|Kalynivka|VINASTERISK, PP|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
 |13|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|17|51.159.115.233|3128|France|Paris|SCALEWAY|
-|18|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|19|192.155.95.228|10801|United States|Atlanta|Linode, LLC|
-|20|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|14|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|15|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|16|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|17|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|18|43.153.202.48|80|Singapore|Singapore|Aceville Pte.ltd|
+|19|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|20|170.244.88.1|999|Venezuela|Caracas|INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)|
 
 
 
