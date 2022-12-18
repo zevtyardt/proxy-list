@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6453** proxies at the latest update. Usable proxies are below.
+> Scraper found **6565** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|430|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|430|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|430|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|780|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|780|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|780|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1492|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1304|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|929|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3081|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|5.39.105.211|3128|France|Lyon|OVH SAS|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|159.89.196.22|443|Singapore|Singapore|DigitalOcean, LLC|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|139.59.59.122|8118|India|Bengaluru|DIGITALOCEAN|
-|11|45.125.217.90|5555|Hong Kong|Hong Kong|PINGNET|
-|12|5.234.184.151|8080|Iran|Urmia|Iran Telecommunication Company PJS|
-|13|45.230.225.1|666|Brazil|Salvador|PirajaNet Servico de Comunicacao Multimidia EIRELI|
-|14|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
-|15|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|16|209.146.19.58|55443|Philippines|Manolo Fortich|Cogent Communications|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|19|186.96.97.85|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|20|123.240.60.64|8888|Taiwan|Taichung|TBC|
+|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|192.145.47.232|80|Germany|Karlsruhe|netcup GmbH|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|172.105.226.115|443|Japan|Tokyo|Linode, LLC|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|8|146.190.108.4|8118|Singapore|Singapore|DigitalOcean|
+|9|172.105.216.60|443|Japan|Tokyo|Linode, LLC|
+|10|179.60.240.69|53281|Colombia|Barranquilla|ITELKOM|
+|11|209.146.19.58|55443|Philippines|Manolo Fortich|Cogent Communications|
+|12|45.125.217.90|5555|Hong Kong|Hong Kong|PINGNET|
+|13|5.39.105.211|3128|France|Lyon|OVH SAS|
+|14|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|15|190.2.210.238|999|Colombia|Piamonte|TV AZTECA SUCURSAL COLOMBIA|
+|16|103.178.43.102|8181|Indonesia|Jakarta|PT Jaring Solusi Persada|
+|17|43.243.142.60|59916|Indonesia|Tangerang|PT. Mora Telematika Indonesia|
+|18|45.230.225.1|666|Brazil|Salvador|PirajaNet Servico de Comunicacao Multimidia EIRELI|
+|19|116.254.116.99|8080|Indonesia|Tegalsari|PT Media Sarana Data|
+|20|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
 
 
 
