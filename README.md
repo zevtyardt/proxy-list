@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6740** proxies at the latest update. Usable proxies are below.
+> Scraper found **6735** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|673|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|673|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|673|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|448|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|448|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|448|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1573|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1568|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1154|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2762|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|5.39.105.211|3128|France|Lyon|OVH SAS|
-|3|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|4|191.7.13.64|80|Brazil|Patos de Minas|OnNet Telecomunicacoes LTDA - ME|
-|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|6|81.162.74.216|8080|Ukraine|Bakhchisaray|Private Company Center for Development Information Technology "Gigabyte"|
-|7|190.239.220.22|808|Peru|Cusco|Telefonica del Peru S.A.A.|
-|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|103.106.217.98|1111|Indonesia|Pasuruan|PT. ARTHA LINTAS DATA MANDIRI|
-|10|92.244.229.155|8080|Russia|Voronezh|Informsvyaz-Chernozemye|
-|11|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|12|103.159.195.139|8080|Indonesia|Demak|PT Giga Digital Nusantara|
-|13|183.89.155.204|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|14|125.25.70.115|8081|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
-|15|14.207.120.11|8080|Thailand|Ban Laem Bang Yang|Triple T Broadband Public Company Limited|
-|16|1.10.183.77|8080|Thailand|Ayutthaya|TOT Public Company Limited|
-|17|14.207.41.54|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|18|103.25.208.170|8081|Indonesia|Purwokerto|TRANSDATA|
-|19|134.238.252.143|8080|India|Mumbai|Google LLC|
-|20|45.23.54.102|8888|United States|St Louis|AT&T Services, Inc.|
+|1|45.229.33.56|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
+|2|128.199.207.50|8080|Singapore|Singapore|DigitalOcean, LLC|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|103.166.158.130|8080|Indonesia|Sumurbandung|PT Timor Lintas Nusantara|
+|5|101.109.155.9|8080|Thailand|Sattahip|TOT Public Company Limited|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|183.89.155.204|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|8|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|9|45.23.54.102|8888|United States|St Louis|AT&T Services, Inc.|
+|10|183.89.117.238|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
+|11|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|12|134.236.100.2|8080|Thailand|Bangkok|CAT-BB|
+|13|5.39.105.211|3128|France|Lyon|OVH SAS|
+|14|103.159.195.139|8080|Indonesia|Demak|PT Giga Digital Nusantara|
+|15|190.110.99.183|999|Chile|Las Condes|Silica Networks Argentina S.A.|
+|16|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|17|134.236.6.128|8080|Thailand|Phra Phrom|CAT-BB|
+|18|183.89.41.51|8080|Thailand|Ban Pho|Triple T Broadband Public Company Limited|
+|19|14.207.41.54|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|20|103.236.191.83|8080|Indonesia|Rawa Buaya|PT Victory Network Indonesia|
 
 
 
