@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4757** proxies at the latest update. Usable proxies are below.
+> Scraper found **4738** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|203|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|203|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|203|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|217|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|217|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|217|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|607|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|588|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|275|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2624|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|5|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
-|6|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|7|45.23.54.102|8888|United States|St Louis|AT&T Services, Inc.|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|95.17.166.205|8118|Spain|Olot|Orange Spain|
+|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|3|45.23.54.102|8888|United States|St Louis|AT&T Services, Inc.|
+|4|85.195.104.71|80|Germany|Frankfurt am Main|Host Europe GmbH|
+|5|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|6|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|7|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
 |10|187.17.163.223|92|Brazil|Araçatuba|Ensite Brasil Telecomunicações Ltda - ME|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|46.246.26.2|8118|Norway|Oslo|GleSYS AB|
-|13|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
-|14|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|15|192.155.95.228|10000|United States|Atlanta|Linode, LLC|
-|16|180.183.173.211|8668|Thailand|Narathiwat|Triple T Broadband Public Company Limited|
-|17|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|18|190.110.99.183|999|Chile|Las Condes|Silica Networks Argentina S.A.|
-|19|182.253.109.41|8080|Indonesia|Semarang|Biznet Metronet|
-|20|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|11|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|12|45.23.54.102|8888|United States|St Louis|AT&T Services, Inc.|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|46.246.26.2|8118|Norway|Oslo|GleSYS AB|
+|16|116.58.232.155|8080|Thailand|Nong Khaem|CAT-BB|
+|17|170.80.202.242|999|Dominican Republic|Santiago de los Caballeros|RUDDY GONZALEZ DIGITAL MEDIA DOMINICANA, RGDIMAX, S.R.L|
+|18|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|19|190.152.5.17|39888|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
+|20|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
 
 
 
