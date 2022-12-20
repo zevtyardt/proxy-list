@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5506** proxies at the latest update. Usable proxies are below.
+> Scraper found **5516** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|404|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|404|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|404|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1011|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1021|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|745|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2499|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|3|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|4|133.186.216.120|3128|South Korea|Anyang-si|NHN|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|107.152.37.207|3128|United States|Chicago|tzulo, inc.|
-|7|14.225.44.118|3128|Vietnam|Hanoi|Vietnam Posts and Telecommunications Group|
-|8|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|9|82.65.249.238|8080|France|Paris|Proxad / Free SAS|
-|10|139.99.47.62|3128|Singapore|Singapore|OVH SAS|
-|11|129.128.184.61|3128|Canada|Beaumont|University of Alberta|
-|12|94.130.72.212|44440|Germany|Nuremberg|Hetzner Online GmbH|
-|13|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|14|83.12.149.202|8080|Poland|Wroclaw|Orange Polska Spolka Akcyjna|
-|15|149.129.213.92|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|16|147.28.149.95|3128|United States|Dallas|Packet Host, Inc.|
-|17|149.129.246.3|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|18|147.139.190.169|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|19|112.198.35.69|3128|Philippines|Bacolod City|Globe Telecom|
-|20|144.24.134.138|3128|India|Hyderabad|Oracle Corporation|
+|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|4|134.238.252.143|8080|India|Mumbai|Google LLC|
+|5|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|6|157.119.191.117|9091|Iran|Tehran|Sindad Network Technology Ltd|
+|7|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|8|101.109.24.47|8080|Thailand|Si Racha|TOT Public Company Limited|
+|9|94.130.72.212|44440|Germany|Nuremberg|Hetzner Online GmbH|
+|10|182.253.168.52|8080|Indonesia|Jakarta|BIZNET|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|13.232.211.7|3128|India|Mumbai|Amazon Technologies Inc.|
+|14|190.160.181.220|8118|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|15|107.152.37.207|3128|United States|Chicago|tzulo, inc.|
+|16|187.102.236.177|999|Mexico|Parral|Servicios De Infraestructura De Radiocomunicacion Y Redes Privadas De Datos Hype|
+|17|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|18|147.28.149.95|3128|United States|Dallas|Packet Host, Inc.|
+|19|147.139.191.118|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|20|149.129.213.92|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
 
 
 
