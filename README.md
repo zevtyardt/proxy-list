@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5393** proxies at the latest update. Usable proxies are below.
+> Scraper found **5561** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|476|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|476|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|476|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|389|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|389|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|389|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1096|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|964|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|613|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2733|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|138.124.180.188|3128|United States|Secaucus|MIRholding B.V.|
-|3|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|6|138.124.180.188|3128|United States|Secaucus|MIRholding B.V.|
-|7|212.154.23.86|9090|Turkey|Istanbul|TurkNet Iletisim Hizmetleri|
-|8|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|9|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|10|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|176.56.107.199|33911|Spain|Cehegín|Aire Networks|
-|13|5.160.179.8|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
-|14|180.246.67.78|8080|Indonesia|Sleman|PT. TELKOM INDONESIA|
-|15|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|16|149.129.246.3|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|17|103.174.175.1|3127|Indonesia|Pela Mampang|PT Lintas Teknologi Solusindo|
-|18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|149.129.213.92|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|20|188.166.232.122|443|Singapore|Singapore|DigitalOcean, LLC|
+|2|190.102.226.195|999|Chile|Casablanca|Pacifico Cable SPA.|
+|3|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|4|138.124.180.188|3128|United States|Secaucus|MIRholding B.V.|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|7|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|138.124.180.188|3128|United States|Secaucus|MIRholding B.V.|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|45.112.126.213|8080|Indonesia|Bandung|FIBERNET|
+|13|178.222.246.186|8080|Serbia|Belgrade|TELEKOM-BB|
+|14|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|15|147.139.191.118|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|188.166.232.122|443|Singapore|Singapore|DigitalOcean, LLC|
+|18|216.215.123.174|8080|United States|Houston|Logix|
+|19|178.47.139.151|35102|Russia|Moscow|PJSC Rostelecom|
+|20|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
 
 
 
