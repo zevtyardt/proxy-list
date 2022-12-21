@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4997** proxies at the latest update. Usable proxies are below.
+> Scraper found **5349** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|373|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|373|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|373|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|292|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|292|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|292|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|950|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1002|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|547|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2549|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|62.192.226.217|3128|Russia|Arkhangelsk|Arkhangelsk Television Company Ltd|
+|2|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
 |3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
-|5|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|6|195.178.197.20|8080|Russia|Podolsk|IIP|
-|7|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|8|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|9|45.164.12.98|999|Dominican Republic|Bayahibe|GUESTCHOICE TV RD, S.R.L|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|132.147.34.22|8111|United States|Miami|Breezeline|
-|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|158.69.72.138|9300|Canada|Montreal|OVH SAS|
-|14|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|15|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|18|157.119.191.117|9091|Iran|Tehran|Sindad Network Technology Ltd|
-|19|186.13.56.97|8080|Argentina|Córdoba|Techtel LMDS Comunicaciones Interactivas S.A.|
-|20|147.139.190.169|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|4|80.66.81.40|8080|Ukraine|Odesa|Shulzhenko Bohdana Valentynivna|
+|5|75.126.253.8|8080|United States|Dallas|SoftLayer|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|62.192.226.217|3128|Russia|Arkhangelsk|Arkhangelsk Television Company Ltd|
+|8|51.159.115.233|3128|France|Paris|SCALEWAY|
+|9|132.147.34.22|8111|United States|Miami|Breezeline|
+|10|195.178.197.20|8080|Russia|Podolsk|IIP|
+|11|147.139.190.169|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|12|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|13|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|14|45.189.254.150|999|Mexico|Santiago Tuxtla|Wantelco SAS de CV|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|149.129.255.38|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|17|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|18|177.141.99.50|8080|Brazil|São Paulo|Claro NXT Telecomunicacoes Ltda|
+|19|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
