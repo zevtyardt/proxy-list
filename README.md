@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6582** proxies at the latest update. Usable proxies are below.
+> Scraper found **6593** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|764|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|764|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|764|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|828|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|828|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|828|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1475|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1486|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|834|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3022|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|132.147.34.22|8111|United States|Miami|Breezeline|
+|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
 |3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|5|132.147.34.22|8111|United States|Miami|Breezeline|
-|6|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|4|190.217.101.73|999|Colombia|Bogotá|Level 3 Colombia S.A|
+|5|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
+|6|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
 |7|159.192.249.6|8080|Thailand|Bangkok|CAT-BB|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|12|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
-|13|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|14|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
-|15|223.205.74.62|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|16|157.119.188.22|443|Iran|Tehran|Sindad Network Technology Ltd.|
-|17|184.82.236.12|8080|Thailand|Bangkok|AIS-Fibre|
-|18|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|19|149.129.213.92|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|20|147.139.191.118|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|8|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|9|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|10|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|188.72.82.165|8118|Netherlands|Amsterdam|PureVPN|
+|14|103.56.206.65|4995|Indonesia|Bogor|Argon Data Communication|
+|15|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|16|1.179.148.9|55636|Thailand|Sam Phran|TOT Public Company Limited|
+|17|103.161.180.163|10008|Vietnam|Động Tam|THAIAN|
+|18|167.114.96.27|9300|Canada|Montreal|OVH SAS|
+|19|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|20|103.180.135.104|10006|Vietnam|Hanoi|Httvserver Technology Company Limited|
 
 
 
