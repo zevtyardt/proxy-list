@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5542** proxies at the latest update. Usable proxies are below.
+> Scraper found **5590** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|435|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|435|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|435|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|324|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|324|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|324|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1103|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1151|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|537|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2651|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 |2|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
 |3|106.227.51.25|9002|China|Dunhou|China Telecom|
-|4|38.41.0.193|8080|Venezuela|Caracas|MDS TELECOM C.A.|
+|4|106.227.48.205|9002|China|Dunhou|China Telecom|
 |5|180.246.67.78|8080|Indonesia|Sleman|PT. TELKOM INDONESIA|
-|6|149.62.177.106|5555|Spain|Alhaurin de la Torre|Avatel Telecom|
-|7|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|8|166.104.231.44|8888|South Korea|Ansan-si|Hanyang University|
-|9|46.98.251.182|8081|Ukraine|Dnipro|ISP "Fregat"|
-|10|190.110.208.229|999|Ecuador|Manta|Puntonet S.A|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|13|157.90.141.135|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|14|140.227.80.237|3180|Japan|Chiyoda|InfoSphere|
-|15|49.0.2.242|8090|Indonesia|Cikarawang|PT Usaha Adi Sanggoro|
-|16|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|17|116.130.215.197|3128|China|Jinrongjie|China Unicom CHINA169 Network|
-|18|113.137.42.224|9002|China|Yintai|CHINANET SHAANXI province Cloud Base network|
-|19|111.225.152.172|8089|China|Gaocheng|Chinanet|
-|20|36.99.60.117|9002|China|Yingchuan|China Telecom|
+|6|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|45.167.125.61|9992|Colombia|Popayán|Sepcom Comunicaciones SAS|
+|9|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|10|139.255.21.74|8080|Indonesia|Tangerang|PT. LINKNET|
+|11|185.218.126.155|39811|Germany|Düsseldorf|Contabo GmbH|
+|12|5.189.157.63|8080|Germany|Nuremberg|Contabo GmbH|
+|13|5.16.1.7|1256|Russia|Moscow|Enforta-MSK|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|131.196.191.251|9876|Argentina|Canada de Gomez|Fibertec SRL|
+|16|166.104.231.44|8888|South Korea|Ansan-si|Hanyang University|
+|17|123.182.59.55|8089|China|Zhangjiakou|Chinanet|
+|18|50.235.149.74|8080|United States|Chicago|Comcast Cable Communications, LLC|
+|19|103.243.114.206|8080|India|Pune|Gazon Communications India Limited|
+|20|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
 
 
 
