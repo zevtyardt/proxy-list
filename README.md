@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5072** proxies at the latest update. Usable proxies are below.
+> Scraper found **5200** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|340|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|340|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|340|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|333|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|333|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|333|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|980|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|808|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|529|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2612|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|75.126.253.8|8080|United States|Dallas|SoftLayer|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|50.114.128.17|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
-|4|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|7|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|9|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|10|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|11|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|12|149.154.157.17|4542|Italy|Milan|EDIS|
-|13|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|14|185.218.126.155|39811|Germany|Düsseldorf|Contabo GmbH|
-|15|5.189.157.63|8080|Germany|Nuremberg|Contabo GmbH|
-|16|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|17|134.238.252.143|8080|India|Mumbai|Google LLC|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|110.78.149.44|8080|Thailand|Pathum Thani|CAT-BB|
-|20|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|50.114.128.17|3128|Pakistan|Karachi|Delta Centric LLC, Comcast Cable Communications, LLC|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|3.126.79.210|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|5|185.218.126.155|39811|Germany|Düsseldorf|Contabo GmbH|
+|6|167.114.96.27|9300|Canada|Montreal|OVH SAS|
+|7|5.189.157.63|8080|Germany|Nuremberg|Contabo GmbH|
+|8|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|9|147.139.191.118|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|10|149.129.246.3|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|5.195.40.27|8080|United Arab Emirates|Sharjah|Emirates Telecommunications Corporation|
+|13|216.215.123.174|8080|United States|Houston|Logix|
+|14|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
+|15|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|181.78.65.254|999|Colombia|Montería|IFX Networks Argentina S.R.L|
+|18|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|19|45.228.234.92|999|Guatemala|Agua Blanca|Inversiones Grajeda Andrade S.A|
+|20|177.93.44.53|999|Colombia|Tunja|TV AZTECA SUCURSAL COLOMBIA|
 
 
 
