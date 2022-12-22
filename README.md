@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6375** proxies at the latest update. Usable proxies are below.
+> Scraper found **6255** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|542|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|542|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|542|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|546|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|546|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|546|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1378|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1258|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|651|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3095|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|184.105.186.70|3128|United States|Omaha|Hurricane Electric LLC|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|7|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|8|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|9|183.88.4.192|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
-|10|14.207.16.132|8080|Thailand|Pattaya|Triple T Broadband Public Company Limited|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|147.139.191.249|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|13|149.129.255.38|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|14|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|15|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|16|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
-|17|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|18|50.235.149.74|8080|United States|Chicago|Comcast Cable Communications, LLC|
-|19|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|20|38.49.128.114|999|Mexico|Apaseo el Alto|Ientc S De RL De CV|
+|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|209.141.54.136|5555|United States|Las Vegas|FranTech Solutions|
+|7|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|8|187.216.90.46|53281|Mexico|Cabo San Lucas|Uninet S.A. de C.V.|
+|9|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|10|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|13|116.96.88.35|4003|Vietnam|Hanoi|Viettel Corporation|
+|14|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|15|183.88.4.192|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
+|16|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|17|200.122.255.43|999|Colombia|Villavicencio|EPM Telecomunicaciones S.A. E.S.P|
+|18|204.48.31.203|80|United States|North Bergen|DigitalOcean, LLC|
+|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|179.189.192.97|3129|Brazil|Altamira|NovaNet Provedor e Web Ltda|
 
 
 
