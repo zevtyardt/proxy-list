@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6290** proxies at the latest update. Usable proxies are below.
+> Scraper found **6522** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|678|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|678|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|678|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|632|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|632|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|632|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1334|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1482|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|748|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|832|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2957|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|4|18.162.168.79|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|7|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
-|8|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|9|24.152.53.5|999|Guatemala|Jalapa|TV CABLE UNIVERSAL S.A|
-|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|11|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|12|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|13|110.74.195.34|25|Cambodia|Phnom Penh|EZECOM limited|
-|14|93.177.229.164|9812|Latvia|Daugavpils|BALTKOM Riga|
-|15|183.89.167.184|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|16|103.66.196.218|23500|Indonesia|Bekasi|PT. Mora Telematika Indonesia|
-|17|103.180.135.104|10006|Vietnam|Hanoi|Httvserver Technology Company Limited|
-|18|202.147.198.115|8080|Indonesia|Jakarta|PT. MNC Kabel Mediacom|
-|19|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
-|20|94.103.85.88|9300|Russia|Moscow|VDSINA|
+|2|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|3|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|4|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|7|18.162.168.79|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|8|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|9|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|10|132.147.34.22|8111|United States|Miami|Breezeline|
+|11|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
+|12|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|13|159.192.249.6|8080|Thailand|Bangkok|CAT-BB|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|94.244.28.246|31280|Ukraine|Kyiv|Ukrdatakom LTD|
+|16|82.99.194.30|3128|Iran|Khorramshahr|ParsOnline Co.|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|111.68.26.237|8080|Indonesia|Ngupasan|GMEDIA|
+|19|45.229.34.174|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
+|20|103.255.241.190|55443|Indonesia|Yogyakarta|PT Media Sarana Data|
 
 
 
