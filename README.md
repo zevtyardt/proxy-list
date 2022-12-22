@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6007** proxies at the latest update. Usable proxies are below.
+> Scraper found **5917** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|571|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|571|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|571|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|644|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|644|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|644|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1291|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1501|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|569|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2896|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|45.8.179.242|1337|United Kingdom|London|HOSTLAND|
-|3|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|5|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|6|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|7|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
-|8|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|2|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|3|45.234.60.2|999|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
+|4|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|5|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|6|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|45.8.179.241|1337|United Kingdom|London|HOSTLAND|
+|9|35.193.113.186|80|United States|Council Bluffs|Google LLC|
 |10|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|11|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|12|147.139.190.169|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|13|147.139.173.19|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|14|159.192.249.6|8080|Thailand|Bangkok|CAT-BB|
-|15|103.161.180.163|10008|Vietnam|Động Tam|THAIAN|
-|16|103.17.213.100|8080|Cambodia|Phnom Penh|WiCAM Corporation Ltd|
-|17|89.107.197.165|3128|Russia|Tula|LLC TK Altair|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|125.25.33.22|8080|Thailand|Chiang Mai|TOT Public Company Limited|
-|20|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|13|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|14|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|15|103.17.213.100|8080|Cambodia|Phnom Penh|WiCAM Corporation Ltd|
+|16|125.25.33.22|8080|Thailand|Chiang Mai|TOT Public Company Limited|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|112.140.186.124|808|Singapore|Singapore|Sparkstation Pte Ltd|
+|19|103.56.206.65|4995|Indonesia|Bogor|Argon Data Communication|
+|20|132.147.34.22|8111|United States|Miami|Breezeline|
 
 
 
