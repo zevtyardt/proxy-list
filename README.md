@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5914** proxies at the latest update. Usable proxies are below.
+> Scraper found **5537** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|398|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|398|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|398|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|354|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|354|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|354|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1326|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|949|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|473|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2864|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|2|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|4|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|5|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|4|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|5|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
 |6|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|7|103.16.214.219|10000|Vietnam|Hanoi|TEK|
+|7|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
 |8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|11|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|12|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|13|212.156.123.218|8080|Turkey|Istanbul|Turk Telekomunikasyon A.S|
-|14|66.211.155.34|8080|United States|Milford|FirstLight Fiber|
-|15|181.129.98.146|8080|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|16|113.137.42.224|9002|China|Yintai|CHINANET SHAANXI province Cloud Base network|
-|17|112.73.0.58|80|China|Foshan|Efly Network Limited|
-|18|103.210.161.198|8998|Hong Kong|Central|China Unicom Guangdong IP network|
-|19|177.174.126.203|8080|Brazil|São Paulo|Vivo|
-|20|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|9|103.16.214.219|10000|Vietnam|Hanoi|TEK|
+|10|103.180.132.56|10008|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|11|103.183.121.100|10000|Vietnam|Chúc Sơn|GRCITY|
+|12|103.16.224.178|10002|Vietnam|Hanoi|ATH|
+|13|103.151.52.149|10000|Vietnam|Da Nang|Viet Digital Technology Liability Company|
+|14|103.10.68.199|10000|Vietnam|Hanoi|HVC|
+|15|45.158.170.12|999|Venezuela|Valencia|NETCOM PLUS, C.A|
+|16|12.88.29.66|9080|United States|Pauls Valley|AT&T Services, Inc.|
+|17|103.180.134.214|10006|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|18|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|19|123.240.60.64|8888|Taiwan|Taichung|TBC|
+|20|220.195.3.99|808|China|Beijing|China Unicom Network|
 
 
 
