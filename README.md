@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5785** proxies at the latest update. Usable proxies are below.
+> Scraper found **6070** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|546|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|546|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|546|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|670|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|670|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|670|
 
 ## Sources
 
@@ -34,12 +34,12 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1097|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1257|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|540|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|633|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2897|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.39|3128|United States|Ashburn|Sprint|
-|2|23.95.186.182|3128|United States|Washington|ColoCrossing|
-|3|34.146.19.255|3128|Japan|Tokyo|Google LLC|
-|4|37.32.8.192|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|51.79.50.31|9300|Canada|Beauharnois|OVH SAS|
+|2|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
+|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|4|34.146.19.255|3128|Japan|Tokyo|Google LLC|
+|5|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|6|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
 |7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|45.42.177.39|3128|United States|Ashburn|Sprint|
-|9|35.200.4.163|3128|Japan|Tokyo|Google LLC|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|13|23.95.186.182|3128|United States|Washington|ColoCrossing|
-|14|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
-|15|141.8.193.104|8118|Russia|Untolovo|Sprinthost P17|
-|16|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|17|123.24.81.163|19132|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
-|18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|19|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|20|103.178.43.104|8181|Indonesia|Jakarta|PT Jaring Solusi Persada|
+|8|35.200.4.163|3128|Japan|Tokyo|Google LLC|
+|9|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|10|23.95.186.182|3128|United States|Washington|ColoCrossing|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|176.192.70.58|8022|Russia|Moscow|Net By Net Holding LLC|
+|13|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|14|3.80.182.162|80|United States|Ashburn|Amazon Technologies Inc.|
+|15|158.69.53.132|9300|Canada|Montreal|OVH SAS|
+|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|17|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|18|45.42.177.39|3128|United States|Ashburn|Sprint|
+|19|23.95.186.182|3128|United States|Washington|ColoCrossing|
+|20|149.129.223.129|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
 
 
 
