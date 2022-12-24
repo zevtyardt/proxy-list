@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5620** proxies at the latest update. Usable proxies are below.
+> Scraper found **5594** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|509|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|509|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|509|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|410|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|410|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|410|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|982|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|956|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|540|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2847|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|2|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|3|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
 |4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
 |5|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|6|200.7.10.158|8080|Brazil|Itumbiara|Conexao Telematica LTDA|
-|7|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|9|5.58.110.249|8080|Ukraine|Ternopil|Columbus|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|128.69.178.155|8080|Russia|Cherepovets|CORBINA-BROADBAND|
-|12|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|13|176.196.250.86|3128|Russia|Kemerovo|Goodline.info|
-|14|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|103.16.215.10|10017|Vietnam|Hanoi|Httvserver Technology Company Limited|
-|17|103.234.254.10|8000|Indonesia|Babakangarut|Maxindo|
-|18|210.201.86.72|8080|Taiwan|Chang-hua|Asia Pacific On-line Services Inc.|
-|19|45.233.67.202|999|Guatemala|Jalapa|Conectividad Y Tecnologia S.A|
-|20|187.60.219.4|3128|Brazil|Francisco Beltrão|Ampernet Telecomunicações Ltda|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|7|212.100.86.210|3129|Nigeria|Lagos|Autonomous System number for Cyber Space|
+|8|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|9|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|103.16.215.10|10017|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|15|180.245.131.133|8080|Indonesia|Yogyakarta|PT. TELKOM INDONESIA|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|45.156.30.24|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
+|18|175.100.103.170|55443|Cambodia|Phnom Penh|VIETTEL (CAMBODIA) PTE., LTD|
+|19|101.255.85.122|8080|Indonesia|Bekasi|PT Remala Abadi|
+|20|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
 
 
 
