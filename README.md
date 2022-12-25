@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6295** proxies at the latest update. Usable proxies are below.
+> Scraper found **6248** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|689|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|689|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|689|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|573|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|573|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|573|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1373|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1283|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|743|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|786|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2928|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.99|3128|United States|Ashburn|Sprint|
 |2|45.42.177.39|3128|United States|Ashburn|Sprint|
-|3|192.46.216.49|10496|United States|Richardson|Linode, LLC|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|9|45.42.177.39|3128|United States|Ashburn|Sprint|
-|10|192.46.216.49|10496|United States|Richardson|Linode, LLC|
-|11|45.42.177.99|3128|United States|Ashburn|Sprint|
-|12|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|14|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|86.106.181.220|18379|Netherlands|Dronten|Mvps LTD|
-|19|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|20|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|3|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|45.42.177.39|3128|United States|Ashburn|Sprint|
+|6|45.42.177.99|3128|United States|Ashburn|Sprint|
+|7|134.238.252.143|8080|India|Mumbai|Google LLC|
+|8|129.226.15.129|80|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|9|167.114.96.27|9300|Canada|Montreal|OVH SAS|
+|10|178.216.24.80|55443|Poland|Lublin|Telekomunikacja Wschod sp. z o.o.|
+|11|103.180.135.152|10009|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|12|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|13|103.142.61.182|3127|Indonesia|Klaten|UTARAMEDIANET|
+|14|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|15|185.231.183.217|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|16|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|17|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|18|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
+|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|51.159.115.233|3128|France|Paris|SCALEWAY|
 
 
 
