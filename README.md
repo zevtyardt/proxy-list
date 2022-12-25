@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5903** proxies at the latest update. Usable proxies are below.
+> Scraper found **5753** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|448|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|448|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|448|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
 
 ## Sources
 
@@ -34,12 +34,12 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|994|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1173|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|824|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|463|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2834|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.99|3128|United States|Ashburn|Sprint|
 |2|45.42.177.39|3128|United States|Ashburn|Sprint|
-|3|192.46.216.49|10496|United States|Richardson|Linode, LLC|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|6|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|7|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|8|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|9|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|10|89.85.119.151|8118|France|Lens|Bouygues Telecom ISP|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|103.180.139.111|10003|Vietnam|Ho Chi Minh City|TANHOANGVINA|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
-|15|23.95.186.182|3128|United States|Washington|ColoCrossing|
-|16|49.48.109.137|8080|Thailand|Ban Kho|Triple T Broadband Public Company Limited|
-|17|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|20|45.42.177.39|3128|United States|Ashburn|Sprint|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|192.46.216.49|10144|United States|Richardson|Linode, LLC|
+|5|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|6|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|10|74.115.139.196|80|United States|Humboldt|Infostructure Cable and Internet|
+|11|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|12|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|13|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|14|149.129.223.129|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|16|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|17|45.42.177.39|3128|United States|Ashburn|Sprint|
+|18|103.16.215.149|10001|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|19|23.95.186.182|3128|United States|Washington|ColoCrossing|
+|20|149.129.218.191|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
 
 
 
