@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5389** proxies at the latest update. Usable proxies are below.
+> Scraper found **5066** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|481|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|481|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|481|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|319|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|319|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|319|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1233|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1210|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|309|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2596|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.99|3128|United States|Ashburn|Sprint|
-|2|45.42.177.39|3128|United States|Ashburn|Sprint|
-|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|18.159.181.93|8086|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|8|35.200.4.163|3128|Japan|Tokyo|Google LLC|
-|9|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|10|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|52.78.139.198|8000|South Korea|Seoul|Amazon Technologies Inc.|
-|15|180.94.69.66|8080|Afghanistan|Herat|Government Communications Network|
-|16|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|17|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|18|45.42.177.39|3128|United States|Ashburn|Sprint|
-|19|117.240.53.116|3128|India|Mumbai|BSNL Internet|
-|20|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|45.42.177.39|3128|United States|Ashburn|Sprint|
+|4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|7|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|35.200.4.163|3128|Japan|Tokyo|Google LLC|
+|11|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|12|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|13|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|14|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|15|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
+|16|45.42.177.39|3128|United States|Ashburn|Sprint|
+|17|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|18|147.139.182.91|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|19|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|20|45.42.177.99|3128|United States|Ashburn|Sprint|
 
 
 
