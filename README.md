@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|449|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|449|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|449|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|342|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|342|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|342|
 
 ## Sources
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
 |2|45.42.177.99|3128|United States|Ashburn|Sprint|
 |3|45.42.177.39|3128|United States|Ashburn|Sprint|
-|4|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|5|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|6|45.42.177.39|3128|United States|Ashburn|Sprint|
-|7|45.42.177.99|3128|United States|Ashburn|Sprint|
+|4|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|5|18.159.181.93|8081|Germany|Frankfurt am Main|Amazon.com, Inc.|
+|6|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|7|45.42.177.39|3128|United States|Ashburn|Sprint|
 |8|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|9|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
-|10|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|11|37.32.8.192|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|12|47.184.143.181|3128|United States|Garland|Frontier Communications Solutions|
-|13|23.95.192.200|3128|Canada|Montreal|ColoCrossing|
-|14|66.11.117.253|3128|United States|Seattle|Spartan Host Ltd|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
-|17|134.238.252.143|8080|India|Mumbai|Google LLC|
-|18|103.166.183.78|3128|Vietnam|Ho Chi Minh City|Vietnam Posts and Telecommunications Group|
-|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|20|198.46.143.114|3128|Canada|Hamilton|ColoCrossing|
+|9|45.42.177.99|3128|United States|Ashburn|Sprint|
+|10|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|11|155.248.238.2|3128|Canada|Montreal|Oracle Corporation|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|149.129.248.224|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|17|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
+|18|147.139.176.70|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|19|116.0.61.122|3128|Pakistan|Karachi|Telecard|
+|20|180.183.98.230|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
 
 
 
