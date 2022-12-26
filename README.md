@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6040** proxies at the latest update. Usable proxies are below.
+> Scraper found **6233** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|623|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|623|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|623|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|719|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|719|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|719|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1258|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1451|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|745|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2786|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.39|3128|United States|Ashburn|Sprint|
 |2|45.42.177.99|3128|United States|Ashburn|Sprint|
-|3|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
-|6|185.212.44.235|3128|Germany|Frankfurt am Main|VPS2day.com|
-|7|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
-|10|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|11|35.200.4.163|3128|Japan|Tokyo|Google LLC|
-|12|45.42.177.39|3128|United States|Ashburn|Sprint|
-|13|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|14|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|15|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
-|16|45.42.177.99|3128|United States|Ashburn|Sprint|
-|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|20|147.139.182.91|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|9|185.212.44.235|3128|Germany|Frankfurt am Main|VPS2day.com|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|45.42.177.39|3128|United States|Ashburn|Sprint|
+|12|147.139.182.91|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|13|35.239.217.61|80|United States|Council Bluffs|Google LLC|
+|14|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|16|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|17|203.134.66.85|3128|Australia|North Sydney|Vocus PTY LTD|
+|18|94.103.85.88|9300|Russia|Moscow|VDSINA|
+|19|45.42.177.99|3128|United States|Ashburn|Sprint|
+|20|188.166.232.122|443|Singapore|Singapore|DigitalOcean, LLC|
 
 
 
