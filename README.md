@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5144** proxies at the latest update. Usable proxies are below.
+> Scraper found **5256** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|410|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|410|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|410|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|553|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|553|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|553|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1015|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1127|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|415|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2763|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.99|3128|United States|Ashburn|Sprint|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
 |3|45.42.177.39|3128|United States|Ashburn|Sprint|
-|4|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|5|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|18.159.181.93|8086|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|8|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|9|45.42.177.39|3128|United States|Ashburn|Sprint|
-|10|45.42.177.99|3128|United States|Ashburn|Sprint|
-|11|38.242.158.170|3128|Turkey|Diyarbakır|Cogent Communications|
-|12|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|14|147.139.182.91|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|15|157.245.156.12|443|Singapore|Singapore|DigitalOcean, LLC|
-|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|17|37.32.8.192|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|5|82.165.65.190|80|Germany|Essen|IONOS|
+|6|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|7|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
+|8|18.159.181.93|8086|Germany|Frankfurt am Main|Amazon.com, Inc.|
+|9|45.42.177.99|3128|United States|Ashburn|Sprint|
+|10|45.42.177.39|3128|United States|Ashburn|Sprint|
+|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|13|51.159.115.233|3128|France|Paris|SCALEWAY|
+|14|38.242.158.170|3128|Turkey|Diyarbakır|Cogent Communications|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|176.196.250.86|3128|Russia|Kemerovo|Goodline.info|
+|17|134.238.252.143|8080|India|Mumbai|Google LLC|
+|18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|19|82.99.194.30|3128|Iran|Khorramshahr|ParsOnline Co.|
+|20|157.245.156.12|443|Singapore|Singapore|DigitalOcean, LLC|
 
 
 
