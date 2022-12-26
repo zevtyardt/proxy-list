@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6077** proxies at the latest update. Usable proxies are below.
+> Scraper found **6010** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|452|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|452|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|452|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|611|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|611|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|611|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1217|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1150|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|664|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2945|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|45.42.177.39|3128|United States|Ashburn|Sprint|
-|3|45.42.177.99|3128|United States|Ashburn|Sprint|
-|4|208.82.61.75|3128|United States|Ashburn|Bernardi Sounds|
-|5|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|6|18.159.181.93|8088|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|7|52.78.139.198|8000|South Korea|Seoul|Amazon Technologies Inc.|
+|1|45.42.177.39|3128|United States|Ashburn|Sprint|
+|2|45.42.177.99|3128|United States|Ashburn|Sprint|
+|3|18.159.181.93|8088|Germany|Frankfurt am Main|Amazon.com, Inc.|
+|4|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|5|208.82.61.75|3128|United States|Ashburn|Bernardi Sounds|
+|6|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|7|45.42.177.39|3128|United States|Ashburn|Sprint|
 |8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|9|149.129.223.129|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|12|162.223.88.61|8080|United States|Buffalo|ColoUp|
-|13|147.139.182.91|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|16|208.82.61.75|3128|United States|Ashburn|Bernardi Sounds|
-|17|35.200.4.163|3128|Japan|Tokyo|Google LLC|
-|18|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|19|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|20|45.42.177.39|3128|United States|Ashburn|Sprint|
+|9|45.42.177.99|3128|United States|Ashburn|Sprint|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|52.68.211.124|3128|Japan|Tokyo|Amazon Technologies Inc.|
+|12|35.200.4.163|3128|Japan|Tokyo|Google LLC|
+|13|208.82.61.75|3128|United States|Ashburn|Bernardi Sounds|
+|14|5.9.51.182|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
+|17|34.146.19.255|3128|Japan|Tokyo|Google LLC|
+|18|167.114.96.27|9300|Canada|Montreal|OVH SAS|
+|19|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
 
 
 
