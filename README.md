@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5422** proxies at the latest update. Usable proxies are below.
+> Scraper found **5369** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|348|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|348|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|348|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|423|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|423|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|423|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|954|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|930|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|529|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2688|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|438|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2750|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.99|3128|United States|Ashburn|Sprint|
-|2|45.42.177.39|3128|United States|Ashburn|Sprint|
+|1|45.42.177.39|3128|United States|Ashburn|Sprint|
+|2|45.42.177.99|3128|United States|Ashburn|Sprint|
 |3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|6|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|7|45.42.177.99|3128|United States|Ashburn|Sprint|
-|8|45.42.177.39|3128|United States|Ashburn|Sprint|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|11|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|12|165.192.111.151|3129|United States|Seattle|SoftLayer|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|181.78.67.109|999|Colombia|Ibague|IFX Networks Argentina S.R.L|
-|15|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|16|116.202.209.248|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|17|203.150.113.67|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|18|18.159.181.93|8086|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|19|159.65.189.163|8080|United States|Clifton|DigitalOcean, LLC|
-|20|179.57.1.172|999|Chile|Temuco|Telefonica del Sur S.A.|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|86.106.181.220|18379|Netherlands|Dronten|Mvps LTD|
+|6|45.42.177.39|3128|United States|Ashburn|Sprint|
+|7|18.159.181.93|8086|Germany|Frankfurt am Main|Amazon.com, Inc.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|10|45.42.177.99|3128|United States|Ashburn|Sprint|
+|11|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|12|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|182.23.77.122|8080|Indonesia|Jakarta|PT Aplikanusa Lintasarta|
+|17|185.131.172.51|5050|Russia|Krasnoyarsk|Limited Liability Company "TTK-Svyaz"|
+|18|149.129.218.191|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|19|91.241.37.166|8081|Poland|Wabrzezno|Firma Informatyczna NSOLVE S.C.|
+|20|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
 
 
 
