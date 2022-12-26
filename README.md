@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5189** proxies at the latest update. Usable proxies are below.
+> Scraper found **5135** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|285|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|285|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|285|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|959|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|905|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|529|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2750|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.99|3128|United States|Ashburn|Sprint|
-|2|45.42.177.39|3128|United States|Ashburn|Sprint|
-|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|4|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|2|45.42.177.99|3128|United States|Ashburn|Sprint|
+|3|45.42.177.39|3128|United States|Ashburn|Sprint|
+|4|13.41.66.217|3128|United Kingdom|London|Amazon Technologies Inc.|
+|5|47.184.143.181|3128|United States|Garland|Frontier Communications Solutions|
+|6|18.159.181.93|8086|Germany|Frankfurt am Main|Amazon.com, Inc.|
 |7|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|8|18.159.181.93|8086|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|9|23.95.192.200|3128|Canada|Montreal|ColoCrossing|
-|10|195.201.147.185|8084|Germany|Gunzenhausen|Hetzner Online GmbH|
-|11|45.42.177.39|3128|United States|Ashburn|Sprint|
+|8|138.201.133.253|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|9|5.172.177.196|3128|Netherlands|Amsterdam|Turunc Smart Bilgisayar Ve Teknoloji Ve Dis Tecaret Limited|
+|10|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|11|23.95.192.200|3128|Canada|Montreal|ColoCrossing|
 |12|181.78.65.237|999|Colombia|Montería|IFX Networks Argentina S.R.L|
-|13|167.235.1.72|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|14|138.201.133.253|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|15|68.178.164.49|3128|India|Mumbai|GoDaddy.com, LLC|
-|16|185.225.226.69|3128|Ukraine|Kyiv|Zubritska Valeriia Nikolaevna|
-|17|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|18|213.108.75.167|3128|Ukraine|Kyiv|SilverTelecom Ltd.|
-|19|198.46.143.114|3128|Canada|Hamilton|ColoCrossing|
-|20|113.179.21.178|3128|Vietnam|Haiphong|VNPT|
+|13|66.11.117.253|3128|United States|Seattle|Spartan Host Ltd|
+|14|198.46.143.114|3128|Canada|Hamilton|ColoCrossing|
+|15|167.235.1.72|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|16|149.129.223.129|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|17|198.46.143.114|3128|Canada|Hamilton|ColoCrossing|
+|18|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|19|147.139.176.70|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|20|3.83.94.157|3128|United States|Ashburn|Amazon Technologies Inc.|
 
 
 
