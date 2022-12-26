@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5171** proxies at the latest update. Usable proxies are below.
+> Scraper found **5431** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|345|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|345|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|345|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|425|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|425|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|425|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|878|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|838|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|444|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2898|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.42.177.99|3128|United States|Ashburn|Sprint|
-|2|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|45.42.177.99|3128|United States|Ashburn|Sprint|
 |3|45.42.177.39|3128|United States|Ashburn|Sprint|
-|4|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|5|18.159.181.93|8081|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|6|159.65.189.163|8080|United States|Clifton|DigitalOcean, LLC|
-|7|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|8|209.97.158.88|8080|United States|Clifton|DigitalOcean, LLC|
+|4|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|5|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
+|6|159.65.115.153|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|5.153.234.91|3128|Sweden|Stockholm|Inter Connects Inc|
+|8|181.129.70.82|46752|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
 |9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|11|157.90.141.135|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|12|147.139.190.205|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|13|68.183.155.48|8080|United States|Clifton|DigitalOcean, LLC|
-|14|159.65.189.163|8080|United States|Clifton|DigitalOcean, LLC|
-|15|5.234.184.116|8080|Iran|Urmia|Iran Telecommunication Company PJS|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|38.242.158.170|3128|Turkey|Diyarbakır|Cogent Communications|
-|18|13.126.96.215|3128|India|Mumbai|Amazon Technologies Inc.|
-|19|68.183.155.48|8080|United States|Clifton|DigitalOcean, LLC|
-|20|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
+|10|209.97.158.88|8080|United States|Clifton|DigitalOcean, LLC|
+|11|206.189.156.117|8080|Singapore|Singapore|DigitalOcean, LLC|
+|12|159.65.187.194|8080|United States|Clifton|DigitalOcean, LLC|
+|13|209.97.158.134|8080|United States|Clifton|DigitalOcean, LLC|
+|14|45.42.177.39|3128|United States|Ashburn|Sprint|
+|15|159.65.189.163|8080|United States|Clifton|DigitalOcean, LLC|
+|16|5.234.184.116|8080|Iran|Urmia|Iran Telecommunication Company PJS|
+|17|128.199.108.31|8080|Singapore|Singapore|DigitalOcean, LLC|
+|18|68.183.155.48|8080|United States|Clifton|DigitalOcean, LLC|
+|19|104.248.158.10|8080|Singapore|Singapore|DigitalOcean, LLC|
+|20|209.97.158.88|8080|United States|Clifton|DigitalOcean, LLC|
 
 
 
