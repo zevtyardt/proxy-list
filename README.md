@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|498|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|498|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|498|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|576|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|576|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|576|
 
 ## Sources
 
@@ -34,10 +34,10 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1063|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1095|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|462|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2898|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|45.42.177.99|3128|United States|Ashburn|Sprint|
 |2|45.42.177.39|3128|United States|Ashburn|Sprint|
-|3|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|4|34.146.180.162|3128|Japan|Tokyo|Google LLC|
-|5|34.84.56.140|3128|Japan|Tokyo|Google LLC|
-|6|45.42.177.39|3128|United States|Ashburn|Sprint|
-|7|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|8|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|9|45.42.177.99|3128|United States|Ashburn|Sprint|
-|10|3.83.94.157|3128|United States|Ashburn|Amazon Technologies Inc.|
-|11|149.129.248.224|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|12|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|34.84.172.172|3128|Japan|Tokyo|Google LLC|
-|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|16|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|17|66.11.117.253|3128|United States|Seattle|Spartan Host Ltd|
-|18|190.110.99.183|999|Chile|Las Condes|Silica Networks Argentina S.A.|
-|19|147.139.176.70|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|20|37.32.8.192|80|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|4|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|5|18.159.181.93|8081|Germany|Frankfurt am Main|Amazon.com, Inc.|
+|6|34.84.172.172|3128|Japan|Tokyo|Google LLC|
+|7|185.158.175.195|8080|Iran|Tabriz|Ertebatat Sabet Parsian Co. PJS|
+|8|45.42.177.39|3128|United States|Ashburn|Sprint|
+|9|34.84.142.87|3128|Japan|Tokyo|Google LLC|
+|10|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|11|13.114.216.75|80|Japan|Tokyo|Amazon Technologies Inc|
+|12|45.15.16.205|8118|Sweden|Stockholm|Obehosting AB|
+|13|149.129.248.224|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|147.139.182.91|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|16|113.179.21.178|3128|Vietnam|Haiphong|VNPT|
+|17|45.42.177.99|3128|United States|Ashburn|Sprint|
+|18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|19|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|20|180.183.98.230|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
 
 
 
