@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5781** proxies at the latest update. Usable proxies are below.
+> Scraper found **5883** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|513|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|513|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|513|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|484|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|484|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|484|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1025|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1127|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|647|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2858|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|2|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
-|3|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
-|4|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
-|5|47.254.156.107|8000|Germany|Frankfurt am Main|Alibaba.com LLC|
-|6|18.159.181.93|8081|Germany|Frankfurt am Main|Amazon.com, Inc.|
-|7|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|8|152.228.206.188|80|France|Roubaix|OVH SAS|
-|9|128.199.140.134|8080|Singapore|Singapore|DigitalOcean, LLC|
-|10|68.183.147.137|8080|United States|Clifton|DigitalOcean, LLC|
-|11|164.92.185.195|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|46.101.28.37|8080|United Kingdom|London|DigitalOcean, LLC|
-|13|103.16.225.164|10009|Vietnam|Hanoi|Httvserver Technology Company Limited|
-|14|40.85.152.26|8080|United States|San Francisco|Microsoft Corporation|
-|15|68.183.147.137|8080|United States|Clifton|DigitalOcean, LLC|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|103.180.134.214|10016|Vietnam|Hanoi|Httvserver Technology Company Limited|
-|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|19|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
-|20|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
+|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|3|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
+|4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|5|152.228.206.188|80|France|Roubaix|OVH SAS|
+|6|164.92.185.195|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|7|47.254.156.107|8000|Germany|Frankfurt am Main|Alibaba.com LLC|
+|8|23.109.172.148|9090|Netherlands|Amsterdam|SERVERS-COM|
+|9|18.159.181.93|8081|Germany|Frankfurt am Main|Amazon.com, Inc.|
+|10|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|11|35.221.104.58|3128|Japan|Tokyo|Google LLC|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|128.199.140.134|8080|Singapore|Singapore|DigitalOcean, LLC|
+|14|68.183.147.137|8080|United States|Clifton|DigitalOcean, LLC|
+|15|159.192.249.93|8080|Thailand|Bangkok|CAT-BB|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|107.172.73.179|7890|Canada|Hamilton|ColoCrossing|
+|18|46.101.28.37|8080|United Kingdom|London|DigitalOcean, LLC|
+|19|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
+|20|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
 
 
 
