@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5961** proxies at the latest update. Usable proxies are below.
+> Scraper found **5801** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|628|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|628|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|628|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|643|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|643|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|643|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1307|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1147|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|578|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2725|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|4|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|5|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
-|6|163.220.240.50|3128|Japan|Bunkyo-ku|ICSCOE|
-|7|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|8|103.10.68.104|10022|Vietnam|Hanoi|HVC|
-|9|51.159.115.233|3128|France|Paris|SCALEWAY|
-|10|65.21.161.114|42648|Finland|Helsinki|Hetzner Online GmbH|
-|11|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|12|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|13|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
-|14|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
-|15|86.106.181.220|18379|Netherlands|Dronten|Mvps LTD|
-|16|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|17|154.38.161.241|80|United States|St Louis|Contabo Inc.|
-|18|103.149.26.234|8080|Hong Kong|Central|UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED|
-|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|20|103.170.120.137|10000|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|2|35.221.104.58|3128|Japan|Tokyo|Google LLC|
+|3|132.147.34.22|8111|United States|Miami|Breezeline|
+|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|5|65.21.161.114|42648|Finland|Helsinki|Hetzner Online GmbH|
+|6|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|7|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|9|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|11|51.159.115.233|3128|France|Paris|SCALEWAY|
+|12|34.84.142.87|3128|Japan|Tokyo|Google LLC|
+|13|132.147.34.22|8111|United States|Miami|Breezeline|
+|14|86.106.181.220|18379|Netherlands|Dronten|Mvps LTD|
+|15|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|165.192.111.151|3129|United States|Seattle|SoftLayer|
+|18|179.1.95.171|999|Colombia|Neiva|InterNexa Global Network|
+|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|20|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
 
 
 
