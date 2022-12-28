@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6751** proxies at the latest update. Usable proxies are below.
+> Scraper found **6816** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|915|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|915|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|915|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|877|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|877|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|877|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1605|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1670|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|803|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2992|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|5|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|6|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|7|34.146.64.228|3128|Japan|Tokyo|Google LLC|
-|8|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
-|9|51.159.115.233|3128|France|Paris|SCALEWAY|
-|10|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|11|150.95.80.228|8000|Thailand|Kanchanaburi|ZCOM|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|1|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|2|34.84.142.87|3128|Japan|Tokyo|Google LLC|
+|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|4|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|5|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|6|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|9|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|10|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|11|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|12|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
 |13|178.63.237.147|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|15|139.59.241.101|443|Singapore|Singapore|DigitalOcean, LLC|
-|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|14|150.95.80.228|8000|Thailand|Kanchanaburi|ZCOM|
+|15|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 |17|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|18|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|20|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|18|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
+|19|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
+|20|134.238.252.143|8080|India|Mumbai|Google LLC|
 
 
 
