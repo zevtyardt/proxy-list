@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5835** proxies at the latest update. Usable proxies are below.
+> Scraper found **5850** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|652|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|652|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|652|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|456|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|456|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|456|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1291|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1250|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|610|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|666|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2583|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|2|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|2|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
 |3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|6|185.72.196.11|3128|Poland|Torun|Data Space|
-|7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|9|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
-|10|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|11|47.254.156.107|8000|Germany|Frankfurt am Main|Alibaba.com LLC|
-|12|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|13|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|16|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|17|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|18|103.10.68.246|10006|Vietnam|Hanoi|HVC|
-|19|117.6.59.6|4001|Vietnam|Hanoi|Viettel Corporation|
-|20|110.78.208.91|8000|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|4|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|5|34.146.19.255|3128|Japan|Tokyo|Google LLC|
+|6|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|8|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
+|9|34.146.64.228|3128|Japan|Tokyo|Google LLC|
+|10|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|11|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|12|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|13|103.10.69.11|10002|Vietnam|Hanoi|Httvserver Technology Company Limited|
+|14|185.72.196.11|3128|Poland|Torun|Data Space|
+|15|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|16|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|17|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|18|104.225.129.139|3128|United States|Jacksonville|Shock Hosting LLC|
+|19|47.242.174.100|8000|Hong Kong|Hong Kong|Alibaba.com LLC|
+|20|103.170.120.127|10000|Vietnam|Hanoi|Httvserver Technology Company Limited|
 
 
 
