@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5532** proxies at the latest update. Usable proxies are below.
+> Scraper found **5550** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|459|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|459|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|459|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1076|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1094|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|479|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2626|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|2|182.52.86.233|8080|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
-|3|3.83.94.157|3128|United States|Ashburn|Amazon Technologies Inc.|
-|4|157.230.212.80|8080|United States|North Bergen|DigitalOcean, LLC|
-|5|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
-|6|158.255.215.50|9090|France|Saint-Mande|M247 Europe SRL|
-|7|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|8|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
-|9|185.22.98.65|3128|Czechia|Písek|digital cave s.r.o.|
-|10|47.254.156.107|8000|Germany|Frankfurt am Main|Alibaba.com LLC|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|5|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
+|6|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|10|185.72.196.11|3128|Poland|Torun|Data Space|
 |11|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|12|209.37.250.19|80|United States|Oak Lawn|AT&T Services, Inc.|
-|13|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
-|14|77.236.237.241|1256|Russia|Moscow|Enforta-MSK|
-|15|106.227.51.67|9002|China|Dunhou|China Telecom|
-|16|198.229.231.13|8080|United States|Streator|MTCO Communications|
-|17|80.244.226.92|8080|Russia|Moscow|Enforta-MSK|
-|18|202.180.54.212|8080|Indonesia|Jakarta|PT. Panca Dewata Utama|
-|19|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|20|180.178.188.126|8080|Pakistan|Lahore|KK Networks (Pvt.) Limited|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|194.5.195.184|3128|Iran|Tehran|Pars Parva System LLC|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|103.10.68.104|10022|Vietnam|Hanoi|HVC|
+|16|182.52.86.233|8080|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
+|17|3.83.94.157|3128|United States|Ashburn|Amazon Technologies Inc.|
+|18|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
+|19|157.230.212.80|8080|United States|North Bergen|DigitalOcean, LLC|
+|20|45.70.6.151|49717|Brazil|Serra Talhada|OLITECH INFORMÁTICA E COMUNICAÇÃO LTDA|
 
 
 
