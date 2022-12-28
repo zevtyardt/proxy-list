@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5584** proxies at the latest update. Usable proxies are below.
+> Scraper found **5818** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|509|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|509|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|509|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|446|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|446|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|446|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1284|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1218|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|666|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2583|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
 |2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|3|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
-|4|181.78.65.251|999|Colombia|Montería|IFX Networks Argentina S.R.L|
-|5|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|6|35.221.104.199|3128|Japan|Tokyo|Google LLC|
-|7|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|8|34.84.56.140|3128|Japan|Tokyo|Google LLC|
-|9|47.254.156.107|8000|Germany|Frankfurt am Main|Alibaba.com LLC|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|12|185.72.196.11|3128|Poland|Torun|Data Space|
-|13|104.225.129.139|3128|United States|Jacksonville|Shock Hosting LLC|
+|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|4|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|5|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
+|6|181.78.65.251|999|Colombia|Montería|IFX Networks Argentina S.R.L|
+|7|47.254.156.107|8000|Germany|Frankfurt am Main|Alibaba.com LLC|
+|8|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|10|185.72.196.11|3128|Poland|Torun|Data Space|
+|11|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|12|103.10.68.251|10001|Vietnam|Hanoi|HVC|
+|13|103.180.134.176|10009|Vietnam|Hanoi|Httvserver Technology Company Limited|
 |14|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
-|15|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|16|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|17|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|18|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|19|207.180.216.251|8118|Germany|Nuremberg|Contabo GmbH|
-|20|34.84.72.91|3128|Japan|Tokyo|Google LLC|
+|15|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
+|16|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|17|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|18|110.78.208.91|8000|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|19|157.230.217.226|8080|United States|North Bergen|DigitalOcean, LLC|
+|20|103.148.209.141|8282|Indonesia|Sukoharjo|Dinas Komunikasi Informatika DAN Statistik Kota Blitar|
 
 
 
