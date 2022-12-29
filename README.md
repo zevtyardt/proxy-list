@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6068** proxies at the latest update. Usable proxies are below.
+> Scraper found **6122** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|630|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|630|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|630|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|623|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|623|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|623|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1279|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1308|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|634|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|659|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2804|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
-|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 |3|94.255.149.86|8080|Sweden|Umeå|Bredband2 AB|
-|4|51.79.50.22|9300|Canada|Beauharnois|OVH SAS|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
-|10|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|13|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|14|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|15|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|16|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|17|34.84.172.172|3128|Japan|Tokyo|Google LLC|
-|18|110.78.208.91|8000|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|19|103.223.15.150|3128|India|Mohali|Fastway Shree Neelkanth Network Pvt. Ltd|
-|20|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|4|185.72.196.11|3128|Poland|Torun|Data Space|
+|5|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|6|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|11|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|14|34.146.180.162|3128|Japan|Tokyo|Google LLC|
+|15|103.223.15.150|3128|India|Mohali|Fastway Shree Neelkanth Network Pvt. Ltd|
+|16|149.129.248.224|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|18|85.172.0.30|8080|Russia|Krasnodar|Southen Telecommunication Maintainer|
+|19|172.81.60.161|3128|United States|Phoenix|Dynu Systems Incorporated|
+|20|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
 
 
 
