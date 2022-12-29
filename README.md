@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5944** proxies at the latest update. Usable proxies are below.
+> Scraper found **5570** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|542|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|542|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|542|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|626|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|626|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|626|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1104|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|950|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|718|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2771|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2551|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|3|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|7|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|8|35.221.104.199|3128|Japan|Tokyo|Google LLC|
-|9|185.72.196.11|3128|Poland|Torun|Data Space|
-|10|158.69.72.138|9300|Canada|Montreal|OVH SAS|
-|11|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|12|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|13|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|14|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|15|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|17|94.103.85.88|9300|Russia|Moscow|VDSINA|
-|18|95.0.90.243|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
-|19|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
-|20|36.94.170.65|8080|Indonesia|Kampunglio|PT. Telekomunikasi Indonesia|
+|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|2|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|4|185.72.196.11|3128|Poland|Torun|Data Space|
+|5|181.37.240.89|999|Dominican Republic|Santo Domingo Este|Altice Dominicana S.A.|
+|6|185.231.183.217|1080|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|9|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|12|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|13|75.84.210.2|80|United States|Valley Village|Spectrum|
+|14|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|15|45.168.65.2|8080|Brazil|São Paulo|Thiago aparecido scaramuzza santana|
+|16|119.82.241.21|8080|Indonesia|Embongkaliasin|Indonesia Network Information Center|
+|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|18|139.59.241.101|443|Singapore|Singapore|DigitalOcean, LLC|
+|19|36.95.27.209|80|Indonesia|Jakarta|PT. Telekomunikasi Indonesia|
+|20|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
 
 
 
