@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6249** proxies at the latest update. Usable proxies are below.
+> Scraper found **6360** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|840|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|840|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|840|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|730|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|730|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|730|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1445|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1556|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|666|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2787|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
-|2|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|4|129.152.25.46|80|Italy|Siziano|Oracle Corporation|
-|5|18.219.69.118|8888|United States|Dublin|Amazon.com, Inc.|
-|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|8|185.72.196.11|3128|Poland|Torun|Data Space|
-|9|47.254.156.107|8000|Germany|Frankfurt am Main|Alibaba.com LLC|
-|10|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
-|13|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|14|51.159.115.233|3128|France|Paris|SCALEWAY|
-|15|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|16|46.231.206.125|80|Switzerland|Kallnach|METANET AG|
-|17|35.193.113.186|80|United States|Council Bluffs|Google LLC|
-|18|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|1|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|2|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
+|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|4|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|5|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|6|129.152.25.46|80|Italy|Siziano|Oracle Corporation|
+|7|116.203.201.82|8443|Germany|Nuremberg|Hetzner Online GmbH|
+|8|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|9|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|10|35.193.113.186|80|United States|Council Bluffs|Google LLC|
+|11|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|12|185.72.196.11|3128|Poland|Torun|Data Space|
+|13|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|14|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|15|46.231.206.125|80|Switzerland|Kallnach|METANET AG|
+|16|163.172.37.158|9741|France|Vitry-sur-Seine|Online S.A.S.|
+|17|163.220.240.50|3128|Japan|Bunkyo-ku|ICSCOE|
+|18|158.69.53.98|9300|Canada|Montreal|OVH SAS|
 |19|198.46.143.114|8118|Canada|Hamilton|ColoCrossing|
-|20|49.12.75.171|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|20|51.159.115.233|3128|France|Paris|SCALEWAY|
 
 
 
