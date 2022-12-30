@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5632** proxies at the latest update. Usable proxies are below.
+> Scraper found **5857** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|315|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|315|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|315|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|371|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|371|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|371|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1216|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1441|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|531|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2534|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|65.21.161.114|42069|Finland|Helsinki|Hetzner Online GmbH|
-|2|82.115.17.188|8080|Germany|Frankfurt am Main|BitCommand LLC|
-|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|4|93.84.64.137|3128|Belarus|Gomel|Republican Unitary Telecommunication Enterprise Beltelecom|
-|5|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|6|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|10|199.4.48.226|3128|United States|Kihei|Level 3 Communications, Inc.|
-|11|66.175.221.108|3129|United States|Fremont|Linode, LLC|
-|12|142.202.48.131|3128|United States|New York|GTHost|
-|13|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|1|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|2|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|3|122.222.209.34|8080|Japan|Yokohama|ARTERIA Networks Corporation|
+|4|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|82.115.17.188|8080|Germany|Frankfurt am Main|BitCommand LLC|
+|7|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
+|8|66.175.221.108|3129|United States|Fremont|Linode, LLC|
+|9|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|10|116.105.26.189|4145|Vietnam|Da Nang|Viettel Corporation|
+|11|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|199.4.48.226|3128|United States|Kihei|Level 3 Communications, Inc.|
 |14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|15|110.44.118.77|8080|Nepal|Kathmandu|Vianet Communications Pvt. Ltd|
-|16|163.172.85.160|9741|France|Paris|Online S.A.S.|
-|17|167.114.96.27|9300|Canada|Montreal|OVH SAS|
-|18|103.189.116.21|8080|Indonesia|Tipar|PT Callysta Total Solusindo|
-|19|103.36.35.135|8080|Indonesia|Kampungbali|PT Mora Telematika Indonesia|
-|20|51.91.102.77|3128|France|Strasbourg|OVH SAS|
+|15|142.202.48.131|3128|United States|New York|GTHost|
+|16|46.34.169.242|8090|Iran|Jam|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
+|17|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|20|91.185.20.162|3128|Kazakhstan|Astana|TTC Network|
 
 
 
