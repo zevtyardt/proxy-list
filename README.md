@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|502|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|502|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|502|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|288|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|288|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|288|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|192.210.196.65|9090|United States|Chicago|ColoCrossing|
-|2|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|3|143.110.235.56|3128|United States|Santa Clara|DigitalOcean, LLC|
-|4|3.75.71.4|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|5|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
-|6|140.82.42.174|1080|United States|Piscataway|The Constant Company|
-|7|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|8|170.64.144.136|80|Australia|Sydney|DigitalOcean, LLC|
-|9|204.137.172.37|999|Dominican Republic|Concepción de la Vega|Univegacomu Del Caribe SRL|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|44.200.212.199|3128|United States|Ashburn|Amazon.com|
-|12|110.78.208.91|8000|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|13|13.40.3.184|3128|United Kingdom|London|Amazon Technologies Inc.|
-|14|89.35.143.102|8080|Spain|Córdoba|Procono S.A.|
-|15|66.175.221.84|3129|United States|Fremont|Linode, LLC|
-|16|69.164.193.218|3129|United States|Richardson|Linode, LLC|
-|17|141.11.187.142|80|France|Paris|NForce Entertainment B.V.|
-|18|116.105.24.25|4153|Vietnam|Da Nang|Viettel Corporation|
-|19|116.105.24.242|4145|Vietnam|Da Nang|Viettel Corporation|
-|20|135.181.29.13|3128|Finland|Helsinki|Hetzner Online GmbH|
+|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|2|192.210.196.65|9090|United States|Chicago|ColoCrossing|
+|3|3.75.71.4|3128|Germany|Frankfurt am Main|Amazon Technologies Inc.|
+|4|185.212.44.235|3128|Germany|Frankfurt am Main|VPS2day.com|
+|5|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|6|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|7|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|8|187.17.228.98|3128|Brazil|Louveira|Lantec Comunicacao Multimidia Ltda|
+|9|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
+|10|167.60.15.0|8080|Uruguay|Pocitos|Administracion Nacional de Telecomunicaciones|
+|11|170.83.242.250|999|Paraguay|Asunción|Ufinet Panama S.A.|
+|12|103.143.25.245|8080|Indonesia|Depok|PT SUMBER KONEKSI INDOTELEMATIKA|
+|13|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|14|65.21.127.207|3000|Finland|Helsinki|Hetzner Online GmbH|
+|15|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|16|139.177.206.197|8080|United States|Atlanta|Linode, LLC|
+|17|45.177.55.102|999|Dominican Republic|Santiago de los Caballeros|Ingenieria EN Servicios De Telecomunicaciones Agml SRL|
+|18|110.164.208.125|8888|Thailand|Pak Kret|Triple T Internet Company Limited|
+|19|110.78.208.91|8000|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|20|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
 
 
 
