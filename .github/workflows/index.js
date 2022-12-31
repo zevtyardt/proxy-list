@@ -464,7 +464,7 @@ const main = async () => {
               : value[result.key].toLowerCase()
           ).replace(/\s*proxy\s*/, "");
 
-          for (let type of types.split(/\s*,\s*/)) {
+          for (let type of types.split(/\s*[, ]\s*/)) {
             //if (typeof result.key != "string") value[result.key] = type;
             type = type.indexOf("socks") >= 0 ? type : "http";
 
