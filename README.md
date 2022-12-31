@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6088** proxies at the latest update. Usable proxies are below.
+> Scraper found **6158** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|616|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|616|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|616|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|636|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|636|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|636|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1387|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1457|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|678|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2672|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|2|35.221.104.199|3128|Japan|Tokyo|Google LLC|
-|3|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|4|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
-|5|86.106.181.220|18379|Netherlands|Dronten|Mvps LTD|
+|1|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|2|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|3|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|4|137.184.3.252|443|United States|Santa Clara|DigitalOcean, LLC|
+|5|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
 |6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|7|103.144.161.1|8088|Bangladesh|Dhaka|Bismillah Telecom|
-|8|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|9|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|149.129.247.230|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
-|14|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|15|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|16|147.139.192.126|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|17|126.125.40.75|8080|Japan|Sonobe|Softbank BB Corp.|
-|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|19|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|8|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
+|9|110.78.208.91|8000|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|10|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
+|11|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|12|103.86.50.169|8000|Thailand|Samut Prakan|Bangmod Enterprise Co.|
+|13|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|14|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|15|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|16|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|18|149.129.248.224|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|149.129.247.230|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
 
 
 
