@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5636** proxies at the latest update. Usable proxies are below.
+> Scraper found **6040** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|467|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|467|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|467|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|561|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|561|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|561|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1254|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1358|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|699|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2632|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|147.139.192.225|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
-|7|66.42.62.230|80|Singapore|Singapore|The Constant Company, LLC|
-|8|149.34.3.152|8080|Spain|Cunit|Adamo Telecom Iberia S.A.|
-|9|103.162.63.14|3127|Indonesia|Bekasi|PT Ring Media Nusantara|
-|10|115.76.90.96|9002|Vietnam|Ho Chi Minh City|VIETELGPRS|
-|11|115.76.93.232|9002|Vietnam|Ho Chi Minh City|VIETELGPRS|
-|12|102.130.133.102|53281|South Africa|Johannesburg|JHB-MPLS|
-|13|14.160.32.23|8080|Vietnam|Hanoi|VNPT-VNNIC|
-|14|94.75.76.3|8080|Poland|Warsaw|ASTER Sp. z o.o|
-|15|115.76.90.45|9002|Vietnam|Ho Chi Minh City|VIETELGPRS|
-|16|115.76.95.110|9002|Vietnam|Ho Chi Minh City|VIETELGPRS|
-|17|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
-|18|187.17.228.98|3128|Brazil|Louveira|Lantec Comunicacao Multimidia Ltda|
-|19|37.220.210.2|8080|Hungary|Cegled|VODAFONE Hungary Ltd.|
-|20|194.195.250.50|3128|Australia|Sydney|Linode, LLC|
+|1|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|2|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|3|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
+|4|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
+|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|137.184.3.252|443|United States|Santa Clara|DigitalOcean, LLC|
+|8|200.24.134.61|999|Ecuador|Guanujo|Nedetel S.A.|
+|9|132.147.34.22|8111|United States|Miami|Breezeline|
+|10|80.14.56.217|3128|France|Bourges|France Telecom|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
+|13|105.112.135.166|8080|Nigeria|Lagos|Airtel Networks Limited|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|86.110.27.165|3128|Russia|Moscow|Digit One LLC|
+|16|62.33.136.222|8080|Russia|Kursk|Joint Stock Company TransTeleCom|
+|17|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|18|3.234.170.64|80|United States|Ashburn|Amazon Technologies Inc.|
+|19|187.45.127.87|20183|Brazil|Maravilha|Mhnet Telecom|
+|20|200.85.198.9|999|Chile|Valdivia|Telefonica del Sur S.A.|
 
 
 
