@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5773** proxies at the latest update. Usable proxies are below.
+> Scraper found **5775** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|560|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|560|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|560|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|626|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|626|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|626|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1126|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|652|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2644|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|541|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2611|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
-|4|18.130.9.184|3128|United Kingdom|London|Amazon Technologies Inc.|
-|5|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|6|149.129.213.209|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
-|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|10|34.146.64.228|3128|Japan|Tokyo|Google LLC|
-|11|66.175.221.84|3129|United States|Fremont|Linode, LLC|
-|12|13.40.185.125|3128|United Kingdom|London|Amazon Technologies Inc.|
-|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|14|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|15|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
-|16|209.14.70.216|3128|Brazil|São Paulo|Qnax Ltda|
-|17|66.175.221.108|3129|United States|Fremont|Linode, LLC|
-|18|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
-|19|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|20|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|1|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|2|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|3|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|6|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|7|149.129.213.209|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|8|192.240.106.146|3128|United States|Chicago|FDCservers.net|
+|9|86.106.181.220|18379|Netherlands|Dronten|Mvps LTD|
+|10|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|11|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|12|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
+|13|147.139.163.141|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|14|139.144.61.216|3128|United States|Atlanta|Linode, LLC|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|147.139.193.92|3128|Indonesia|Jakarta|Alibaba.com LLC|
+|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
