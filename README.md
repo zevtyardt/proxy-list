@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5863** proxies at the latest update. Usable proxies are below.
+> Scraper found **5547** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|451|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|451|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|451|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|521|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|521|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|521|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1292|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1276|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|576|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2644|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|3|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|6|78.46.123.238|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|7|13.40.185.125|3128|United Kingdom|London|Amazon Technologies Inc.|
-|8|18.130.9.184|3128|United Kingdom|London|Amazon Technologies Inc.|
-|9|134.238.252.143|8080|India|Mumbai|Google LLC|
-|10|172.105.229.44|3128|Japan|Tokyo|Linode, LLC|
-|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|12|157.230.88.212|3128|United States|North Bergen|DigitalOcean, LLC|
-|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|15|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|16|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|17|147.139.192.126|3128|Indonesia|Jakarta|Alibaba.com LLC|
-|18|116.103.17.122|4007|Vietnam|Da Nang|Viettel Corporation|
-|19|117.18.13.69|8118|Hong Kong|Hung Hom|Sun Network (Hong Kong) Limited|
-|20|213.233.182.38|8000|Iran|Tehran|SHARIF-EDU|
+|1|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|2|172.105.229.44|3128|Japan|Tokyo|Linode, LLC|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|6|50.238.158.12|8080|United States|Doraville|Comcast Cable Communications, LLC|
+|7|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|10|13.40.185.125|3128|United Kingdom|London|Amazon Technologies Inc.|
+|11|66.175.221.108|3129|United States|Fremont|Linode, LLC|
+|12|103.200.112.112|8123|Hong Kong|Tseung Kwan O|Shanghai Huajuan Information Technology Co., Ltd.|
+|13|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|14|192.240.106.146|3128|United States|Chicago|FDCservers.net|
+|15|149.129.248.224|3128|Indonesia|Jakarta|Alibaba.com Singapore E-Commerce Private Limited|
+|16|15.228.221.177|3128|Brazil|São Paulo|Amazon Technologies Inc.|
+|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|18|14.255.32.3|3128|Vietnam|Hanoi|VNPT|
+|19|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|20|18.130.9.184|3128|United Kingdom|London|Amazon Technologies Inc.|
 
 
 
