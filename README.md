@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5557** proxies at the latest update. Usable proxies are below.
+> Scraper found **5581** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|253|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|253|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|253|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|371|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|371|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|371|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1165|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1189|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|488|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2553|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|2|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|1|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|2|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
 |3|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|4|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|116.203.201.82|8443|Germany|Nuremberg|Hetzner Online GmbH|
-|7|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
-|8|122.3.41.154|8090|Philippines|Manila|Philippine Long Distance Telephone Co.|
-|9|193.3.52.6|8080|Turkey|Denizli|Micronet Iletisim Hizmetleri Tic. Ltd.sti.|
-|10|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|11|200.8.18.18|999|Venezuela|San Felipe|Corporación Telemic C.A.|
-|12|20.121.184.238|443|United States|Boydton|Microsoft Corporation|
-|13|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
-|16|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
-|17|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|18|186.67.192.246|8080|Chile|Temuco|Entel Chile S.A.|
-|19|38.49.128.114|999|Mexico|Apaseo el Alto|Ientc S De RL De CV|
-|20|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|7|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|8|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
+|11|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|12|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|13|206.189.131.53|443|India|Bengaluru|DigitalOcean, LLC|
+|14|157.245.156.12|443|Singapore|Singapore|DigitalOcean, LLC|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|17|103.144.161.1|8088|Bangladesh|Dhaka|Bismillah Telecom|
+|18|103.143.197.19|8080|Indonesia|Semarang|JERNIHNETWORK|
+|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|20|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
 
 
 
