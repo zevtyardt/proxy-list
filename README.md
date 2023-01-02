@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5441** proxies at the latest update. Usable proxies are below.
+> Scraper found **5719** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|316|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|316|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|316|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|473|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|473|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|473|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1351|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1329|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|486|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2553|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|3|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
-|4|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|5|187.17.228.98|3128|Brazil|Louveira|Lantec Comunicacao Multimidia Ltda|
-|6|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|7|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|8|139.255.101.92|8080|Indonesia|Bogor|PT. LINKNET|
-|9|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|10|190.26.217.102|999|Colombia|Montelíbano|ETB - Colombia|
-|11|5.160.171.40|8080|Iran|Shiraz|Respina Networks & Beyond PJSC|
-|12|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|13|45.189.255.18|999|Mexico|Cotaxtla|Wantelco SAS de CV|
-|14|103.48.68.108|82|India|Hyderabad|Country Online Services PVT LTD|
-|15|186.96.167.253|999|Mexico|Texcoco|Total Play Telecomunicaciones SA De CV|
-|16|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
-|17|107.173.156.182|3000|United States|San Jose|ColoCrossing|
-|18|45.167.253.129|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
-|19|205.185.113.252|8080|United States|Las Vegas|FranTech Solutions|
-|20|198.11.179.220|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|171.6.76.55|8080|Thailand|Si Racha|Triple T Broadband Public Company Limited|
+|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|183.88.134.42|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
+|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|8|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|10|45.14.165.149|3128|United States|Reston|Delis LLC|
+|11|45.14.165.148|3128|United States|Reston|Delis LLC|
+|12|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|13|45.70.236.194|999|Ecuador|Puebloviejo|Nedetel S.A.|
+|14|137.184.3.252|443|United States|Santa Clara|DigitalOcean, LLC|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|176.192.70.58|8001|Russia|Moscow|Net By Net Holding LLC|
+|17|103.209.204.57|8080|India|Kushi Nagar|Rimil Infotech PVT LTD|
+|18|64.56.216.81|8080|United States|Winona|Upchurch Telecom & Data, Inc.|
+|19|190.186.1.177|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|20|45.231.221.193|999|Mexico|Tijuana|Distrokom S De RL De CV|
 
 
 
