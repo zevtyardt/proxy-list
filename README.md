@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5572** proxies at the latest update. Usable proxies are below.
+> Scraper found **4868** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|314|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|314|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|314|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|163|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|163|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|163|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1158|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|754|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|562|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2501|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|2|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|3|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
-|4|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|5|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|6|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|1|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|4|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|5|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 |7|134.238.252.143|8080|India|Mumbai|Google LLC|
-|8|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|18.166.116.121|8090|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|8|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|11|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|13|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
 |14|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|15|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|16|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|17|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|18|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
-|19|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|20|5.78.43.246|80|United States|Portland|Hetzner Online GmbH|
+|15|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|16|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|17|111.225.152.125|8089|China|Gaocheng|Chinanet|
+|18|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|111.225.153.21|8089|China|Gaocheng|Chinanet|
 
 
 
