@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5433** proxies at the latest update. Usable proxies are below.
+> Scraper found **5594** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|366|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|366|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|366|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|464|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|464|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|464|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|979|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1140|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|564|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2539|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|149.62.177.106|5555|Spain|Madrid|Avatel Telecom|
-|5|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|6|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|7|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|8|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|9|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|10|170.83.242.250|999|Paraguay|Asunción|Ufinet Panama S.A.|
-|11|88.150.15.30|8080|Germany|Magdeburg|MDlink online service center GmbH|
-|12|46.231.72.244|8080|Czechia|Zlín|NWT|
-|13|46.101.75.156|8005|United Kingdom|London|DigitalOcean|
-|14|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
-|15|198.11.179.220|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|65.21.161.114|44554|Finland|Helsinki|Hetzner Online GmbH|
-|18|14.241.111.38|8080|Vietnam|Ninh Binh|VNPT|
-|19|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
-|20|41.65.236.44|1981|Egypt|Cairo|Etisalat Misr|
+|1|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|2|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|4|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|5|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|8|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|9|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|12|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
+|13|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|14|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|15|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|16|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|17|178.209.51.218|7829|Switzerland|Zurich|Nine Internet Solutions AG|
+|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|19|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|20|3.140.115.38|3128|United States|Dublin|Amazon.com, Inc.|
 
 
 
