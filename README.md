@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|371|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|371|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|371|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|379|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|379|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|379|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
-|2|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 |3|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|6|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|7|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|8|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
-|11|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|12|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|13|206.189.131.53|443|India|Bengaluru|DigitalOcean, LLC|
-|14|157.245.156.12|443|Singapore|Singapore|DigitalOcean, LLC|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|17|103.144.161.1|8088|Bangladesh|Dhaka|Bismillah Telecom|
-|18|103.143.197.19|8080|Indonesia|Semarang|JERNIHNETWORK|
-|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|20|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
+|4|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|5|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|6|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|9|157.245.156.12|443|Singapore|Singapore|DigitalOcean, LLC|
+|10|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|11|80.14.56.217|3128|France|Bourges|France Telecom|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|149.62.177.106|5555|Spain|Madrid|Avatel Telecom|
+|14|190.186.18.161|999|Bolivia|Santa Cruz|Cotas Ltda.|
+|15|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|16|137.184.3.252|443|United States|Santa Clara|DigitalOcean, LLC|
+|17|41.162.79.98|3128|South Africa|Durban|Neotel GAU|
+|18|212.108.144.67|8080|Cyprus|Nicosia|Lifecell Digital LTD|
+|19|35.221.104.58|3128|Japan|Tokyo|Google LLC|
+|20|14.177.236.212|55443|Vietnam|Hanoi|VNPT|
 
 
 
