@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6175** proxies at the latest update. Usable proxies are below.
+> Scraper found **6186** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|271|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|271|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|271|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|436|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|436|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|436|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1500|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1511|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|691|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2633|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|3|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|4|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
-|5|212.112.113.178|3128|Kyrgyzstan|Bishkek|AkNet|
-|6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|8|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|9|132.147.34.22|8111|United States|Miami|Breezeline|
-|10|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
-|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|12|103.68.194.43|3129|United States|Los Angeles|Zenlayer Inc|
-|13|221.225.81.91|3128|China|Shanghai|CHINANET jiangsu province network|
-|14|103.86.50.169|8000|Thailand|Samut Prakan|Bangmod Enterprise Co.|
-|15|187.17.228.98|3128|Brazil|Louveira|Lantec Comunicacao Multimidia Ltda|
-|16|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|17|113.250.50.163|9002|China|Chongqing|Chinanet|
-|18|146.56.144.24|5000|South Korea|Seoul|Oracle Corporation|
-|19|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
-|20|125.74.28.156|9002|China|Yuzhong Chengguanzhen|China Telecom|
+|1|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|2|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
+|3|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|4|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|5|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|6|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|7|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|8|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|9|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|11|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
+|12|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|198.211.7.233|14999|United States|Santa Clarita|Multacom Corporation|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|103.86.50.169|8000|Thailand|Samut Prakan|Bangmod Enterprise Co.|
+|18|223.205.164.49|8080|Thailand|Kamphaeng Phet|Triple T Broadband Public Company Limited|
+|19|163.177.106.4|8001|China|Shenzhen|China Unicom Guangdong Province Network|
+|20|216.215.123.174|8080|United States|Houston|Logix|
 
 
 
