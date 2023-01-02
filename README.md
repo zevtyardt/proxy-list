@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5625** proxies at the latest update. Usable proxies are below.
+> Scraper found **5516** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|407|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|407|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|407|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|368|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|368|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|368|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1211|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1112|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|562|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|552|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2501|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|2|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|4|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|5|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|6|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|8|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
-|9|94.73.239.124|55443|Russia|Krasnoyarsk|Orion Telecom LLC|
-|10|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
-|11|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
-|12|94.181.48.110|1256|Russia|Moscow|Enforta-MSK|
-|13|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|14|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|15|5.78.43.246|80|United States|Portland|Hetzner Online GmbH|
-|16|80.244.226.92|8080|Russia|Moscow|Enforta-MSK|
-|17|193.41.88.58|53281|Ukraine|Kyiv|Kyiv National Taras Shevchenko University|
-|18|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|19|166.104.231.44|8888|South Korea|Ansan-si|Hanyang University|
-|20|198.229.231.13|8080|United States|Streator|MTCO Communications|
+|1|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|2|136.243.138.231|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|3|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|4|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|5|134.238.252.143|8080|India|Mumbai|Google LLC|
+|6|169.255.58.107|8118|South Africa|Randburg|VIDOLU Group Pty Ltd-Web4Africa|
+|7|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|11|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|12|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|14|18.166.116.121|8090|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|15|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
+|16|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|17|51.158.154.173|3128|France|Paris|SCALEWAY|
+|18|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|19|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|20|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
