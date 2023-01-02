@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5490** proxies at the latest update. Usable proxies are below.
+> Scraper found **5470** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|456|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|456|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|456|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|262|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|262|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|262|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1117|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1097|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|406|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2616|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
-|2|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|5|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
-|6|136.243.138.231|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|7|45.14.165.144|3128|United States|Reston|Delis LLC|
-|8|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
-|9|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|10|45.14.165.148|3128|United States|Reston|Delis LLC|
-|11|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|12|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|13|45.171.146.66|8083|Brazil|Chapadao Do Sul|N3 SOLUCOES TECNOLOGICAS LTDA|
-|14|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|17|104.171.160.233|3128|United States|Ashburn|Sneaker Server|
-|18|45.14.165.149|3128|United States|Reston|Delis LLC|
-|19|137.184.3.252|443|United States|Santa Clara|DigitalOcean, LLC|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|208.82.62.32|3128|United States|Ashburn|Bernardi Sounds|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|208.82.63.254|3128|United States|Ashburn|Bernardi Sounds|
+|4|45.14.165.149|3128|United States|Reston|Delis LLC|
+|5|45.14.165.144|3128|United States|Reston|Delis LLC|
+|6|5.104.174.199|23500|Bulgaria|Dobrich|DobrudjaCable Ltd.|
+|7|91.82.247.150|9999|Hungary|Labatlan|INVITEL Zrt.|
+|8|205.185.113.252|8080|United States|Las Vegas|FranTech Solutions|
+|9|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|10|41.59.97.53|9999|Tanzania|Arusha|TTCL|
+|11|222.67.190.142|9000|China|Shanghai|China Telecom (Group)|
+|12|95.154.104.147|44393|Russia|Vladivostok|Octopusnet Jurs|
+|13|46.101.75.156|8005|United Kingdom|London|DigitalOcean|
+|14|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|15|139.162.74.203|8888|Japan|Tokyo|Linode, LLC|
+|16|168.90.14.162|999|Colombia|Bucaramanga|Media Commerce Partners S.A|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|19|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|20|95.56.254.139|3128|Kazakhstan|Almaty|JSC Kazakhtelecom|
 
 
 
