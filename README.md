@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5415** proxies at the latest update. Usable proxies are below.
+> Scraper found **5311** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|246|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|246|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|246|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|309|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|309|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|309|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1015|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|911|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|493|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2556|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|3|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|4|91.214.31.234|8080|Ukraine|Zaporizhzhya|TOV "Telza"|
-|5|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|6|101.32.184.53|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|7|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|200.85.198.9|999|Chile|Puyehue|Telefonica del Sur S.A.|
-|10|14.177.236.212|55443|Vietnam|Hanoi|VNPT|
-|11|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|12|43.132.29.156|9999|Singapore|Singapore|Aceville Pte.ltd|
-|13|52.253.83.186|8090|Singapore|Singapore|Microsoft Corporation|
-|14|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
-|15|106.227.48.205|9002|China|Dunhou|China Telecom|
-|16|103.19.130.50|8080|Bangladesh|Dhaka|InfoLink|
-|17|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
-|18|181.143.225.173|3129|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
-|19|159.69.245.208|50447|Germany|Nuremberg|Hetzner Online GmbH|
-|20|196.216.132.199|8080|South Africa|Schweizer-Reneke|HERO TELECOMS (PTY) LTD|
+|1|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|2|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|3|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|4|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|5|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|6|45.156.29.215|9090|Turkey|Esenyurt|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
+|7|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|9|104.192.202.11|8080|United States|St. George|InfoWest|
+|10|190.90.83.225|999|Colombia|Cúcuta|Internexa S.a. E.S.P|
+|11|1.179.136.98|8080|Thailand|Ayutthaya|TOT Public Company Limited|
+|12|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|13|198.11.179.220|80|United States|Minkler|Alibaba (US) Technology Co., Ltd.|
+|14|181.209.95.13|999|Argentina|Corrientes|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
+|15|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|16|91.194.239.122|8080|Ukraine|Bakhchisaray|TOV NEO-TELECOM|
+|17|176.192.70.58|8004|Russia|Moscow|Net By Net Holding LLC|
+|18|205.185.113.252|3128|United States|Las Vegas|FranTech Solutions|
+|19|124.156.122.42|8088|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|20|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
 
 
 
