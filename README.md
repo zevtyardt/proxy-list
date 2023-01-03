@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5641** proxies at the latest update. Usable proxies are below.
+> Scraper found **5212** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|391|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|391|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|391|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|143|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|143|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|143|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1325|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1117|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|441|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2524|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|415|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2629|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|5|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|6|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|9|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|10|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
-|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|12|54.207.216.240|8888|Brazil|São Paulo|Amazon Technologies Inc.|
-|13|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|14|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|15|143.198.56.234|443|United States|Santa Clara|DigitalOcean, LLC|
-|16|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
-|17|212.154.23.1|9090|Turkey|Istanbul|TurkNet Iletisim Hizmetleri|
-|18|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|19|81.211.10.161|3128|Russia|Moscow|EDN Sovintel|
-|20|185.151.242.2|3128|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
+|1|142.4.215.171|3128|Canada|Beauharnois|OVH SAS|
+|2|35.221.104.58|3128|Japan|Tokyo|Google LLC|
+|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|7|46.31.77.223|3128|Turkey|Gaziosmanpasa|Talha Bogaz|
+|8|90.255.243.214|8888|United Kingdom|London|Vodafone Limited|
+|9|129.226.162.177|443|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
+|10|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|11|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
+|12|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
+|13|80.14.56.217|3128|France|Bourges|France Telecom|
+|14|178.33.198.181|3128|France|Strasbourg|OVH SAS|
+|15|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|16|79.148.240.56|8080|Spain|Playa Blanca|RIMA (Red IP Multi Acceso)|
+|17|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
+|18|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|19|190.61.57.44|8080|Colombia|Armenia|Ufinet Panama S.A.|
+|20|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
 
 
 
