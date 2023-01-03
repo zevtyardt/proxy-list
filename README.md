@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5573** proxies at the latest update. Usable proxies are below.
+> Scraper found **5543** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|400|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|400|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|400|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|355|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|355|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|355|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1123|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1093|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|543|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2556|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|3|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|10|178.33.198.181|3128|France|Strasbourg|OVH SAS|
-|11|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|12|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|13|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|14|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
-|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|16|139.59.241.101|443|Singapore|Singapore|DigitalOcean, LLC|
-|17|182.52.68.216|8080|Thailand|Ban Fang Tuen|TOT Public Company Limited|
-|18|45.230.172.182|8080|Mexico|Culiacán|Opsicome SA De CV|
-|19|37.232.145.221|53281|Russia|Cheboksary|Net By Net Holding LLC|
-|20|34.146.180.162|3128|Japan|Tokyo|Google LLC|
+|1|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|4|96.68.234.217|8080|United States|Springfield|Comcast Cable Communications, LLC|
+|5|149.28.132.9|10000|Singapore|Singapore|The Constant Company|
+|6|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|7|195.182.152.238|38178|Russia|St Petersburg|JSC "Severen-Telecom"|
+|8|91.214.31.234|8080|Ukraine|Zaporizhzhya|TOV "Telza"|
+|9|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|10|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|11|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|12|181.143.225.173|3129|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
+|13|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
+|14|181.129.52.154|42648|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|15|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|16|209.166.175.201|3128|United States|Pittsburgh|CONTINENTAL BROADBAND PENNSYLVANIA, INC.|
+|17|95.56.254.139|3128|Kazakhstan|Almaty|JSC Kazakhtelecom|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|216.169.73.65|34679|United States|Cedar City|South Central Communications, Inc.|
+|20|124.156.122.42|8088|Hong Kong|Central|Tencent Cloud Computing (Beijing) Co|
 
 
 
