@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5551** proxies at the latest update. Usable proxies are below.
+> Scraper found **5616** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|418|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|418|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|418|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|384|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|384|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|384|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1111|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1176|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|473|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2616|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|2|144.49.96.25|8080|United States|Washington|Google LLC|
-|3|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|3|96.67.26.29|8090|United States|North Smithfield|Comcast Cable Communications, LLC|
 |4|144.49.98.147|8080|United States|Corvallis|Google LLC|
-|5|144.49.98.147|8080|United States|Corvallis|Google LLC|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|34.196.10.189|9090|United States|Ashburn|Amazon.com, Inc.|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|103.75.53.22|8080|Indonesia|Jakarta|PT Quantum Tera Network|
-|10|61.198.85.224|8080|Japan|Hommachi|NSK Co., Ltd.|
-|11|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|12|169.239.83.138|8080|South Africa|Johannesburg|Mesh Telecom Pty Ltd|
-|13|187.223.137.99|8080|Mexico|La Paz|Uninet S.A. de C.V.|
-|14|109.111.8.7|8080|Russia|Tula|MTS PJSC|
-|15|2.87.26.89|8080|Greece|Volos|OTEnet|
-|16|170.239.214.86|8080|Brazil|Lajedo|H NET SERVICOS DE COMUNICACAO E TECNOLOGIA LTDA|
-|17|82.135.247.8|3128|Lithuania|Vilnius|Telia Lietuva|
-|18|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|19|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|20|203.210.85.135|8080|Indonesia|Bandung|Infrastruktur STARNET|
+|5|54.173.137.254|8090|United States|Ashburn|Amazon.com, Inc.|
+|6|54.173.137.254|8090|United States|Ashburn|Amazon.com, Inc.|
+|7|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|8|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|9|51.159.134.210|3128|France|Paris|SCALEWAY|
+|10|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|11|149.62.177.106|5555|Spain|Madrid|Avatel Telecom|
+|12|104.154.225.3|3128|United States|Council Bluffs|Google LLC|
+|13|107.178.9.186|8080|United States|Fort Worth|Nextlink Broadband|
+|14|188.40.20.151|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|15|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|16|188.40.20.151|8000|Germany|Falkenstein|Hetzner Online GmbH|
+|17|177.52.221.125|3128|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
+|18|103.241.178.10|3125|Indonesia|Tengah|PT. Java Digital Nusantara|
+|19|203.115.106.84|8080|India|Greater Noida|PRIMENET|
+|20|187.95.34.135|8080|Brazil|Sao Goncalo|Alta Rede Corporate Network Telecom Ltda - EPP|
 
 
 
