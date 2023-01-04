@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5047** proxies at the latest update. Usable proxies are below.
+> Scraper found **5331** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|345|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|345|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|345|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|480|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|480|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|480|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|940|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1126|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|353|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|451|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2403|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|2|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|3|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|4|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|5|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|6|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|7|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|95.181.164.59|8080|Russia|Moscow|Yegor Andreevich trading as FLP Miglovets|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|203.115.106.84|8080|India|Greater Noida|PRIMENET|
-|13|110.77.171.26|8080|Thailand|Samphanthawong|CAT-BB|
-|14|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|18|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|19|5.134.216.58|8080|Russia|Moscow|Wiland Network Russia|
-|20|45.156.31.173|9090|Turkey|Istanbul|ATLANTIS|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|3|95.181.164.59|8080|Russia|Moscow|Yegor Andreevich trading as FLP Miglovets|
+|4|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|5|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|6|37.112.57.47|8080|Russia|Bryansk|CJSC "ER-Telecom Holding" Bryansk branch|
+|7|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
+|8|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|9|203.115.106.84|8080|India|Greater Noida|PRIMENET|
+|10|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|11|139.180.189.101|3128|Singapore|Singapore|The Constant Company|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|154.64.211.145|999|Puerto Rico|Martorell|OSNET Wireless|
+|14|144.49.96.25|8080|United States|Washington|Google LLC|
+|15|103.142.254.75|8080|Indonesia|Tulungagung|Lintas Data Prima, PT|
+|16|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|17|121.204.148.136|9002|China|Qingzhou|Fuzhou|
+|18|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|19|204.137.172.37|999|Dominican Republic|Concepción de la Vega|Univegacomu Del Caribe SRL|
+|20|201.157.254.26|8080|Brazil|Salvador|TASCOM TELECOMUNICAÇÕES LTDA|
 
 
 
