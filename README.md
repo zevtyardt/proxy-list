@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6305** proxies at the latest update. Usable proxies are below.
+> Scraper found **6120** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|350|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|350|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|350|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|577|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|577|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|577|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1493|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1367|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|697|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2764|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2705|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.84.56.140|3128|Japan|Tokyo|Google LLC|
-|2|203.115.106.84|8080|India|Greater Noida|PRIMENET|
-|3|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|4|110.78.208.91|8000|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|5|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
-|6|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|7|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|8|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|9|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|10|186.3.38.211|999|Ecuador|Cuenca|Telconet S.A|
-|11|191.97.14.26|999|Colombia|Garagoa|TV AZTECA SUCURSAL COLOMBIA|
-|12|109.167.134.253|30710|Russia|St Petersburg|JSC "ER-Telecom Holding"|
-|13|139.180.189.101|3128|Singapore|Singapore|The Constant Company|
-|14|190.217.101.73|999|Colombia|Bogotá|Level 3 Colombia S.A|
-|15|38.41.0.94|999|Venezuela|Caracas|MDS TELECOM C.A.|
-|16|103.143.25.245|8080|Indonesia|Depok|PT SUMBER KONEKSI INDOTELEMATIKA|
-|17|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
-|18|45.174.70.18|53281|Mexico|Huatabampo|Index Datacom S.a. De C.V.|
+|1|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|2|34.84.56.140|3128|Japan|Tokyo|Google LLC|
+|3|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|4|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|5|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|9|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|10|128.199.55.6|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
+|13|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
+|14|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|16|139.180.189.101|3128|Singapore|Singapore|The Constant Company|
+|17|51.159.115.233|3128|France|Paris|SCALEWAY|
+|18|68.183.102.141|3128|United States|North Bergen|DigitalOcean, LLC|
 |19|178.128.21.132|443|Singapore|Singapore|DigitalOcean, LLC|
-|20|93.100.118.135|80|Russia|St Petersburg|SkyNet LLC|
+|20|115.68.221.147|80|South Korea|Seoul|SMILESERV|
 
 
 
