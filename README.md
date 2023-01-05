@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6242** proxies at the latest update. Usable proxies are below.
+> Scraper found **6115** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|490|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|490|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|490|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|588|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|588|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|588|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1497|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1370|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|595|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2799|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|4|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|5|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|1|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|2|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|3|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
+|4|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|5|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
 |6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|109.224.62.42|8081|Iraq|Baghdad|Hulum Almustakbal Company for Communication Engineering and Services Ltd|
-|8|23.106.47.29|3128|United States|New York|Leaseweb USA, Inc.|
-|9|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
 |10|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|11|200.116.198.222|9812|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P|
-|12|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
-|13|146.190.98.160|8080|Singapore|Singapore|DigitalOcean, LLC|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|134.238.252.143|8080|India|Mumbai|Google LLC|
-|16|119.76.142.181|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
-|17|87.255.12.183|3129|Russia|Khimki|BIG TELECOM CLOSED JSC|
-|18|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|19|5.58.110.249|8080|Ukraine|Ternopil|Columbus|
-|20|137.184.154.110|443|United States|North Bergen|DigitalOcean, LLC|
+|11|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|14|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|15|187.204.35.179|53281|Mexico|Tamazula de Gordiano|Uninet S.A. de C.V.|
+|16|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|17|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|18|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|19|146.190.98.160|8080|Singapore|Singapore|DigitalOcean, LLC|
+|20|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
 
 
 
