@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5571** proxies at the latest update. Usable proxies are below.
+> Scraper found **5555** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|330|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|330|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|330|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|473|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|473|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|473|
 
 ## Sources
 
@@ -34,10 +34,10 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1089|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1041|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|526|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2605|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
-|4|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|5|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|6|34.84.72.91|3128|Japan|Tokyo|Google LLC|
-|7|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
-|8|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|9|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|13|192.210.196.65|9090|United States|San Jose|ColoCrossing|
-|14|162.223.88.61|8080|United States|Buffalo|ColoUp|
-|15|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|16|159.192.249.98|8080|Thailand|Bangkok|CAT-BB|
-|17|12.88.29.66|9080|United States|New York|AT&T Services, Inc.|
-|18|210.210.172.84|10000|Indonesia|Jakarta|CBN|
-|19|179.49.117.226|999|Honduras|La Galera|Asociacion De Servicio De Internet S. De RL|
-|20|124.220.168.140|3128|China|Shenzhen|China Internet Network Information Center|
+|3|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|6|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|11|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|14|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|15|186.154.147.166|9812|Colombia|Bogotá|ETB - Colombia|
+|16|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|17|134.238.252.143|8080|India|Mumbai|Google LLC|
+|18|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|19|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|20|206.41.242.129|8080|United States|Jackson|Internet Doorway, Inc.|
 
 
 
