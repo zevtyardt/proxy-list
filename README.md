@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6063** proxies at the latest update. Usable proxies are below.
+> Scraper found **6080** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|490|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|490|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|490|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|564|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|564|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|564|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1277|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1294|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|626|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2809|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|207.5.79.174|3128|United States|Roseville|Network Innovations|
-|2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
-|6|159.192.249.190|8080|Thailand|Bangkok|CAT-BB|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|47.244.2.19|3128|Hong Kong|Central|Alibaba.com LLC|
-|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|11|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
-|12|182.253.109.87|8080|Indonesia|Semarang|Biznet Metronet|
-|13|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
-|14|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|15|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|16|179.1.192.16|999|Colombia|Baraya|InterNexa Global Network|
-|17|207.5.79.174|3128|United States|Roseville|Network Innovations|
-|18|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|19|46.161.196.225|9812|Iraq|Duhok|Valin Company for General Trading and Communication LTD|
-|20|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|2|116.202.22.13|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|3|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|4|207.5.79.174|3128|United States|Roseville|Network Innovations|
+|5|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|7|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|9|182.253.109.87|8080|Indonesia|Semarang|Biznet Metronet|
+|10|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
+|11|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|12|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|13|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|16|159.192.249.190|8080|Thailand|Bangkok|CAT-BB|
+|17|52.53.251.113|3128|United States|San Jose|Amazon.com, Inc.|
+|18|93.177.73.122|8888|Germany|Frankfurt am Main|M247 Europe SRL|
+|19|210.245.124.131|5239|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|20|50.232.250.157|8080|United States|Bellingham|Comcast Cable Communications, LLC|
 
 
 
