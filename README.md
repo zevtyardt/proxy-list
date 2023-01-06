@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5355** proxies at the latest update. Usable proxies are below.
+> Scraper found **5417** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|478|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|478|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|478|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|487|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|487|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|487|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1292|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1354|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|0|🚫|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2712|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
 |3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|4|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|9|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
-|10|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|7|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|9|66.42.53.233|8000|Singapore|Singapore|The Constant Company|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|13|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|15|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|16|139.59.241.101|443|Singapore|Singapore|DigitalOcean, LLC|
-|17|212.112.113.178|3128|Kyrgyzstan|Bishkek|AkNet|
-|18|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|19|134.238.252.143|8080|India|Mumbai|Google LLC|
-|20|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
+|12|139.162.44.63|9000|Singapore|Singapore|Linode, LLC|
+|13|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
+|14|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|15|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|16|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|18|24.172.34.114|49920|United States|Darlington|Charter Communications Inc|
+|19|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|20|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 
 
 
