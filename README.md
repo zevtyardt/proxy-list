@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6070** proxies at the latest update. Usable proxies are below.
+> Scraper found **6164** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|451|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|451|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|451|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|54|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|54|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|54|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1271|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1416|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|760|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|709|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2688|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|4|159.192.249.190|8080|Thailand|Bangkok|CAT-BB|
-|5|34.84.56.140|3128|Japan|Tokyo|Google LLC|
-|6|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|7|129.126.60.74|3128|Singapore|Singapore|M1 NET LTD|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|34.146.64.228|3128|Japan|Tokyo|Google LLC|
-|10|207.5.79.174|3128|United States|Roseville|Network Innovations|
-|11|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|14|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|15|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
-|16|181.129.183.19|53281|Colombia|Bucaramanga|EPM Telecomunicaciones S.A. E.S.P.|
-|17|207.5.79.174|3128|United States|Roseville|Network Innovations|
-|18|203.115.106.85|8080|India|Greater Noida|PRIMENET|
-|19|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|20|52.253.83.186|8090|Singapore|Singapore|Microsoft Corporation|
+|3|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|6|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|7|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
+|8|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|9|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|10|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|11|16.163.140.80|80|Hong Kong|Hong Kong|Amazon.com|
+|12|205.185.113.252|3128|United States|Las Vegas|FranTech Solutions|
+|13|193.124.118.70|8080|Russia|Kazan’|RUVDS|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|112.194.89.48|44406|China|Chengdu|China Unicom CHINA169 Sichuan Province Network|
+|16|188.132.222.37|8080|Turkey|Umraniye|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|17|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|18|138.117.110.87|999|Colombia|Cartago|Media Commerce Partners S.A|
+|19|161.132.125.244|8080|Peru|Lima|Optical Technologies S.A.C.|
+|20|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
 
 
 
