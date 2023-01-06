@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|430|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|430|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|430|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|413|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|413|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|413|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
-|2|104.237.228.229|8080|Turkey|Istanbul|NRP TEKNOLOJi LiMiTED SiRKETi|
-|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|43.156.129.87|8080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
-|6|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|7|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|5.135.240.70|8080|France|Nozay|OVH SAS|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|47.184.162.59|3128|United States|Garland|Frontier Communications Solutions|
-|13|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
-|14|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|15|3.94.29.164|3128|United States|Ashburn|Amazon Technologies Inc.|
-|16|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|17|191.243.47.206|8080|Brazil|Itapaci|Microturbo Telecomunicacoes Ltda-me|
-|18|18.133.134.34|3128|United Kingdom|London|Amazon Technologies Inc.|
-|19|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|20|185.37.24.242|3128|Serbia|Belgrade|A1 Srbija d.o.o|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|3|178.128.21.132|443|Singapore|Singapore|DigitalOcean, LLC|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|104.237.228.229|8080|Turkey|Istanbul|NRP TEKNOLOJi LiMiTED SiRKETi|
+|8|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
+|9|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|45.130.141.205|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
+|12|162.212.158.59|3128|United States|Cheney|ServerCheap INC|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|113.133.161.189|9002|China|Yintai|CHINANET SHAANXI province Cloud Base network|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|185.37.24.242|3128|Serbia|Belgrade|A1 Srbija d.o.o|
+|17|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|18|177.158.8.122|8080|Brazil|Aparecida de Goiania|TELEFÔNICA BRASIL S.A|
+|19|106.58.190.2|9002|China|Jianshui|Chinanet|
+|20|166.104.231.44|8888|South Korea|Ansan-si|Hanyang University|
 
 
 
