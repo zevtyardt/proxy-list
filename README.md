@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|429|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|429|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|429|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|644|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|644|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|644|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|207.5.79.174|3128|United States|Roseville|Network Innovations|
-|4|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
-|5|159.192.249.190|8080|Thailand|Bangkok|CAT-BB|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
-|8|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
-|9|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
-|10|137.184.154.110|443|United States|North Bergen|DigitalOcean, LLC|
-|11|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
-|12|24.172.82.94|53281|United States|Huntersville|Spectrum|
-|13|95.214.8.128|3128|Finland|Helsinki|Network Management Ltd|
-|14|95.154.76.20|3128|Russia|Vladivostok|OCTOPUSNET-NAT-POOL13 2ap|
-|15|112.194.89.48|44406|China|Chengdu|China Unicom CHINA169 Sichuan Province Network|
-|16|118.67.219.153|8080|Bangladesh|Dhaka|InterCloud Limited|
-|17|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|18|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
-|19|132.248.159.223|3128|Mexico|Coyoacán|Universidad Nacional Autonoma de Mexico|
-|20|181.176.221.151|9812|Peru|Mancora|VIETTEL PERÚ S.A.C.|
+|1|207.5.79.174|3128|United States|Roseville|Network Innovations|
+|2|179.96.28.58|80|Brazil|Calcilandia|G8 NETWORKS LTDA|
+|3|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|34.146.64.228|3128|Japan|Tokyo|Google LLC|
+|6|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|9|139.180.189.101|3128|Singapore|Singapore|The Constant Company|
+|10|43.128.105.117|3128|Singapore|Singapore|Aceville Pte.ltd|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|16|134.238.252.143|8080|India|Mumbai|Google LLC|
+|17|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|18|210.210.172.84|10000|Indonesia|Jakarta|CBN|
+|19|137.184.22.124|443|United States|North Bergen|DigitalOcean, LLC|
+|20|83.171.90.83|8080|Russia|Velikiye Luki|PJSC Rostelecom|
 
 
 
