@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5916** proxies at the latest update. Usable proxies are below.
+> Scraper found **6311** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|423|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|423|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|423|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|611|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|611|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|611|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1168|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1263|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1033|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2664|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|158.69.53.132|9300|Canada|Montreal|OVH SAS|
-|3|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|47.242.40.192|8080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|6|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|7|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
-|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|9|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|10|134.238.252.143|8080|India|Mumbai|Google LLC|
-|11|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
-|12|83.41.71.8|8080|Spain|Palafrugell|Telefonica de Espana SAU|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|15|138.2.8.164|8000|Japan|Tokyo|Oracle Corporation|
-|16|43.132.202.254|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|17|126.125.62.15|8080|Japan|Fukuoka|Softbank BB Corp.|
-|18|217.66.200.154|3128|Iran|Tehran|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
-|19|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|20|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|2|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|3|34.84.142.87|3128|Japan|Tokyo|Google LLC|
+|4|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|5|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|6|47.242.40.192|8080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|8|45.130.141.205|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
+|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|10|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|13|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
+|14|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|15|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|16|83.41.71.8|8080|Spain|Palafrugell|Telefonica de Espana SAU|
+|17|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
+|20|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
 
 
 
