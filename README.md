@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5654** proxies at the latest update. Usable proxies are below.
+> Scraper found **5615** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|357|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|357|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|357|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|391|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|391|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|391|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1077|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1038|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|821|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2405|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
-|2|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|2|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
 |3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|45.167.253.225|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
-|5|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|6|62.171.161.88|2018|Germany|Nuremberg|Contabo GmbH|
-|7|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
-|8|151.248.115.5|3128|Russia|Moscow|Reg.Ru|
-|9|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|10|207.5.79.174|3128|United States|Roseville|Network Innovations|
-|11|184.95.3.154|8888|Puerto Rico|La Fermina|PREPA Networks|
-|12|187.14.128.127|8080|Brazil|Teresina|V tal|
-|13|106.58.190.2|9002|China|Jianshui|Chinanet|
-|14|189.183.118.70|8080|Mexico|San Luis Potosí City|Uninet S.A. de C.V|
-|15|65.20.181.60|8080|Iraq|Baghdad|Hulum Almustakbal Company for Communication Engineering and Services Ltd|
-|16|203.150.128.116|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|17|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
-|18|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|19|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|20|177.131.22.37|3128|Brazil|Macapá|Compuservice Empreendimentos Ltda|
+|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|5|181.143.225.173|3129|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
+|6|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|45.167.253.225|999|Mexico|San Luis Potosí City|QDS NETWORKS SA DE CV|
+|10|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|201.182.56.2|8012|Brazil|Cabedelo|Wagner Barbosa DA Costa - ME|
+|14|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|15|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|16|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|17|62.171.161.88|2018|Germany|Nuremberg|Contabo GmbH|
+|18|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|19|205.209.99.153|80|United States|Englewood Cliffs|Interserver, Inc|
+|20|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 
 
 
