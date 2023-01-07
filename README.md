@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6092** proxies at the latest update. Usable proxies are below.
+> Scraper found **6450** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|505|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|505|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|505|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|478|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|478|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|478|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1083|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1441|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|819|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2839|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|217.64.14.162|8080|Czechia|Brno|GiTy, a.s.|
-|2|5.135.240.70|8080|France|Nozay|OVH SAS|
-|3|104.237.154.46|80|United States|Fremont|Linode, LLC|
-|4|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|5|143.198.166.215|3128|United States|North Bergen|DigitalOcean, LLC|
-|6|103.169.7.87|61524|Indonesia|Ciputat|PT Bukuku Solusi Kreatif|
+|1|104.237.154.46|80|United States|Fremont|Linode, LLC|
+|2|129.146.183.219|8080|United States|Phoenix|Oracle Corporation|
+|3|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
 |7|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|8|129.146.183.219|8080|United States|Phoenix|Oracle Corporation|
-|9|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|10|83.171.236.79|8080|Germany|Schwielowsee|Droptop GmbH|
-|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|2.228.87.55|80|Italy|Milan|Fastweb Networks|
-|13|141.147.158.11|8080|Japan|Osaka|Oracle Corporation|
-|14|110.174.150.253|80|Australia|Brisbane|TPG Internet Pty Ltd|
-|15|124.159.143.128|80|Japan|Kitakyushu|QTnet, Inc.|
-|16|71.123.59.130|80|United States|Collegeville|Verizon Business|
-|17|52.206.80.219|80|United States|Ashburn|Amazon.com, Inc.|
-|18|122.165.58.212|80|India|Chennai|BHARTI|
-|19|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|20|71.123.59.130|80|United States|Collegeville|Verizon Business|
+|8|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|9|104.237.154.46|80|United States|Fremont|Linode, LLC|
+|10|43.132.202.254|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|11|129.146.183.219|8080|United States|Phoenix|Oracle Corporation|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
+|15|45.130.141.59|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
+|16|217.64.14.162|8080|Czechia|Brno|GiTy, a.s.|
+|17|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|18|155.4.244.35|80|Sweden|Stockholm|Bahnhof AB|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
 
 
 
