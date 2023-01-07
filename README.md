@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6545** proxies at the latest update. Usable proxies are below.
+> Scraper found **6458** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|353|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|353|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|353|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|332|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|332|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|332|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1180|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1093|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1048|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2966|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
-|2|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
-|3|5.135.240.70|8080|France|Nozay|OVH SAS|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|1|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|2|5.135.240.70|8080|France|Nozay|OVH SAS|
+|3|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|4|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|5|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
+|6|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
 |7|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
-|10|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
-|11|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|8|43.156.129.87|8080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|9|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|10|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |12|45.130.141.205|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
-|13|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|14|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|15|109.206.252.234|80|Iran|Pardis County|Afagh Andish Dadeh Pardis Co. Ltd|
-|16|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|17|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|18|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|19|154.13.4.80|59394|Canada|Montreal|Zhihua Lu|
-|20|43.156.129.87|8080|Singapore|Singapore|Shenzhen Tencent Computer Systems Company Limited|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|43.132.202.254|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|16|46.4.242.149|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|17|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
+|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|19|217.67.190.154|3128|Russia|Moscow|Mastertel ISP|
+|20|162.212.158.59|3128|United States|Cheney|ServerCheap INC|
 
 
 
