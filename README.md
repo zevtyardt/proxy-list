@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6349** proxies at the latest update. Usable proxies are below.
+> Scraper found **6628** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|352|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|352|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|352|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|661|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|661|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|661|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1461|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1657|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|702|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2835|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2918|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|4|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|5|23.115.254.221|8080|United States|Miami|AT&T Services, Inc.|
-|6|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
-|7|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|8|139.178.81.229|3128|Netherlands|Amsterdam|PACKET-HOST|
-|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|10|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|11|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|103.81.64.51|8080|Indonesia|Bandar Lampung|QIUNET|
-|14|141.147.158.11|8080|Japan|Osaka|Oracle Corporation|
-|15|177.131.22.37|3128|Brazil|Macapá|Compuservice Empreendimentos Ltda|
-|16|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|17|111.225.152.156|8089|China|Gaocheng|Chinanet|
-|18|123.182.58.19|8089|China|Zhangjiakou|Chinanet|
-|19|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|20|45.92.108.112|8080|France|Marseille|Hosteur SAS|
+|1|34.146.64.228|3128|Japan|Tokyo|Google LLC|
+|2|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|3|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
+|4|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|5|141.147.158.11|8080|Japan|Osaka|Oracle Corporation|
+|6|132.248.159.223|3128|Mexico|Coyoacán|Universidad Nacional Autonoma de Mexico|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|113.53.91.21|8080|Thailand|Si Racha|TOT Public Company Limited|
+|9|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|11|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|12|5.9.94.91|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|13|43.132.202.254|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|94.237.3.45|8086|Singapore|Singapore|UpCloud Ltd|
+|18|187.188.143.100|999|Mexico|Rancho Contento|Total Play Telecomunicaciones SA De CV|
+|19|143.198.166.215|3128|United States|North Bergen|DigitalOcean, LLC|
+|20|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
 
 
 
