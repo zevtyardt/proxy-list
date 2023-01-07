@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5985** proxies at the latest update. Usable proxies are below.
+> Scraper found **6162** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|337|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|337|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|337|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|615|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|615|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|615|
 
 ## Sources
 
@@ -31,13 +31,13 @@ Click the file format that you want and copy the URL.
 |------|-------------|-------|
 |[free-proxy-list.net](https://free-proxy-list.net)|300|✅|
 |[us-proxy.org](https://www.us-proxy.org)|200|✅|
-|[proxydb.net](http://proxydb.net)|0|🚫|
+|[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1451|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1613|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|580|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2918|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
 |2|5.135.240.70|8080|France|Nozay|OVH SAS|
-|3|143.198.166.215|3128|United States|North Bergen|DigitalOcean, LLC|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|7|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|8|95.154.104.147|44393|Russia|Vladivostok|Octopusnet Jurs|
-|9|5.202.191.225|80|Iran|Tehran|PTS-Network|
-|10|109.205.126.6|8080|Latvia|Riga|Kronospan Riga SIA|
-|11|104.192.202.11|8080|United States|St. George|InfoWest|
-|12|60.170.105.133|7001|China|Rongcheng|Chinanet|
-|13|101.231.166.98|443|China|Shanghai|China Telecom (Group)|
-|14|103.154.231.86|3125|Indonesia|Surabaya|DIGITNET|
-|15|191.97.14.26|999|Colombia|Garagoa|TV AZTECA SUCURSAL COLOMBIA|
-|16|103.169.186.130|3125|Indonesia|Pasuruan|PT. PRATAMA HASTA UTAMA SOLUSINDO|
-|17|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|18|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|19|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|20|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|3|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|4|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|5|159.223.14.199|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|6|162.211.181.130|808|United States|Los Angeles|Intercontinental Internet Data Corp|
+|7|202.180.20.10|55443|Indonesia|Jakarta|PT. HIPERNET INDODATA|
+|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|9|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|162.211.181.130|808|United States|Los Angeles|Intercontinental Internet Data Corp|
+|11|83.171.236.79|8080|Germany|Schwielowsee|Droptop GmbH|
+|12|101.32.184.53|3128|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|13|47.184.162.59|3128|United States|Garland|Frontier Communications Solutions|
+|14|5.9.94.91|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|15|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|16|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|17|106.227.51.25|9002|China|Dunhou|China Telecom|
+|18|166.104.231.44|8888|South Korea|Ansan-si|Hanyang University|
+|19|182.253.109.87|8080|Indonesia|Semarang|Biznet Metronet|
+|20|45.92.108.112|8080|France|Marseille|Hosteur SAS|
 
 
 
