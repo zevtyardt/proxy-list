@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6855** proxies at the latest update. Usable proxies are below.
+> Scraper found **6810** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|403|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|403|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|403|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|473|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|473|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|473|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1589|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1544|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1080|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2835|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|141.147.158.11|8080|Japan|Osaka|Oracle Corporation|
-|2|143.198.166.215|3128|United States|North Bergen|DigitalOcean, LLC|
-|3|34.84.142.87|3128|Japan|Tokyo|Google LLC|
-|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|1|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|4|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
 |5|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
-|6|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
-|7|192.158.15.201|60684|Canada|Toronto|Ontario Inc.|
-|8|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|9|51.158.154.173|3128|France|Paris|SCALEWAY|
-|10|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
-|11|103.9.156.113|3128|Vietnam|Ho Chi Minh City|Vnso Technology Company|
-|12|185.20.198.250|8080|Iraq|Basrah|Horizon Scope Mobile Telecom WLL|
-|13|201.222.45.2|999|Chile|Santiago|GRUPO ULLOA SpA|
-|14|3.92.226.173|3128|United States|Ashburn|Amazon Technologies Inc.|
-|15|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|16|121.204.148.136|9002|China|Qingzhou|Fuzhou|
-|17|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|18|103.115.23.66|8080|Myanmar|Tachilek|AST SYSTEM TECHNOLOGY COMPANY LIMITED|
-|19|191.97.14.26|999|Colombia|Garagoa|TV AZTECA SUCURSAL COLOMBIA|
-|20|186.148.181.54|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
+|6|143.198.166.215|3128|United States|North Bergen|DigitalOcean, LLC|
+|7|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
+|8|101.109.235.46|8080|Thailand|Bangkok|TOT Public Company Limited|
+|9|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|10|51.223.108.203|8080|Saudi Arabia|Dammam|Saudi Telecom Company JSC|
+|11|103.9.156.99|3128|Vietnam|Ho Chi Minh City|Vnso Technology Company|
+|12|110.234.32.234|3128|Japan|Chiyoda|NBP-NCP|
+|13|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|14|185.202.165.1|53281|Spain|Málaga|AVATEL TELECOM, SA|
+|15|74.114.232.162|8080|United States|Crown Point|Midwest Telecom of America, Inc|
+|16|50.235.247.114|8085|United States|Ashburn|Comcast Cable Communications, LLC|
+|17|36.103.204.217|9002|China|Hongsipu|CHINANET NINGXIA province ZHONGWEI IDC network|
+|18|202.144.157.1|9009|Bhutan|Thimphu|Bhutan Telecom Ltd|
+|19|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|20|60.182.200.56|9002|China|Jinhua|Chinanet|
 
 
 
