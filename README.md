@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7176** proxies at the latest update. Usable proxies are below.
+> Scraper found **7071** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|415|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|415|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|415|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|619|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|619|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|619|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1717|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1625|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1129|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2979|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2966|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|4|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
-|5|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
-|6|47.242.40.192|8080|Hong Kong|Hong Kong|Alibaba.com LLC|
-|7|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
-|8|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|9|46.101.126.180|41051|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|45.130.141.205|8080|United Kingdom|London|Bangmod Enterprise Co., Ltd.|
-|11|20.210.26.214|3128|Japan|Tokyo|Microsoft Corporation|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|14|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|15|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|16|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|17|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
-|18|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
-|19|193.161.215.20|8080|Russia|Krasnodar|TSK LLC|
-|20|37.232.145.221|53281|Russia|Cheboksary|Net By Net Holding LLC|
+|1|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|2|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|3|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|51.68.220.201|8080|United Kingdom|London|OVH SAS|
+|6|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|47.242.40.192|8080|Hong Kong|Hong Kong|Alibaba.com LLC|
+|9|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
+|10|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|11|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|217.67.190.154|3128|Russia|Moscow|Mastertel ISP|
+|14|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|15|90.114.27.196|3128|France|Annemasse|TVCCONV|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|97.76.251.138|8080|United States|Tampa|Spectrum|
+|18|206.189.22.24|443|United Kingdom|London|DigitalOcean, LLC|
+|19|143.198.56.234|443|United States|Santa Clara|DigitalOcean, LLC|
+|20|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
 
 
 
