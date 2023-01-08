@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|350|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|350|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|350|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|427|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|427|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|427|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|1|46.246.14.5|3128|Sweden|Stockholm|Portlane Network|
 |2|5.135.240.70|8080|France|Nozay|OVH SAS|
-|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|3|130.185.225.240|3128|Bulgaria|Sofia|Telepoint Ltd|
 |4|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|222.234.220.170|3128|South Korea|Seoul|SK Broadband Co Ltd|
+|5|102.219.157.6|3128|South Africa|Johannesburg|Centracom|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 |7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|34.146.64.228|3128|Japan|Tokyo|Google LLC|
-|10|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|11|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|12|181.36.121.222|999|Dominican Republic|San Pedro de Macorís|Altice Dominicana S.A.|
-|13|95.0.90.243|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
-|14|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
-|15|70.186.128.126|8080|United States|Oklahoma City|Cox Communications Inc.|
-|16|131.106.216.130|8080|United States|Evansville|RCN|
-|17|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
-|18|80.63.84.58|8081|Denmark|Albertslund Municipality|TDC A/S|
-|19|130.185.225.240|3128|Bulgaria|Sofia|Telepoint Ltd|
-|20|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|8|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|9|47.252.4.64|8888|United States|Charlottesville|Alibaba.com LLC|
+|10|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
+|11|181.74.81.195|999|Chile|Limache|Telmex Servicios Empresariales S.A.|
+|12|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|13|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|14|5.9.94.91|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|15|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
+|16|160.3.168.70|8080|United States|West Gulfport|CABLE ONE, INC.|
+|17|217.146.217.178|3128|Iran|Tehran|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
+|18|105.112.135.166|8080|Nigeria|Lagos|Airtel Networks Limited|
+|19|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|20|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
 
 
 
