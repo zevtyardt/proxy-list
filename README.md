@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6055** proxies at the latest update. Usable proxies are below.
+> Scraper found **6069** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|398|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|398|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|398|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|367|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|367|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|367|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1390|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1404|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|871|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2711|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|4|108.187.44.36|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|5|210.210.172.78|10000|Indonesia|Jakarta|CBN|
-|6|102.68.135.21|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|7|164.92.122.76|3128|United States|Santa Clara|DigitalOcean, LLC|
-|8|111.225.153.216|8089|China|Gaocheng|Chinanet|
-|9|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|10|122.3.181.62|8080|Philippines|Mandaluyong City|Philippine Long Distance Telephone Co.|
-|11|176.194.189.40|80|Russia|Belgorod|Net By Net Holding LLC|
-|12|118.67.219.153|8080|Bangladesh|Dhaka|InterCloud Limited|
-|13|182.90.224.115|3128|China|Beihai|China Unicom Guangxi Province Network|
-|14|79.172.212.99|3128|Hungary|Budapest|Szerverplex Kft|
-|15|185.190.38.22|8080|Serbia|Belgrade|Kadri Haxhiaj trading as "B.I."|
-|16|103.148.192.74|80|Indonesia|Bandung|PT. Akashia Thuba Jaya|
-|17|176.192.80.10|3128|Russia|Moscow|Net By Net Holding LLC|
-|18|106.227.49.130|9002|China|Dunhou|China Telecom|
-|19|191.97.14.26|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|20|45.233.245.85|8083|Brazil|Custodia|Provedor NET Mais Ltda - ME|
+|2|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|3|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|4|111.225.153.16|8089|China|Gaocheng|Chinanet|
+|5|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|6|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|7|102.38.17.121|8080|Libya|Tripoli|GHA|
+|8|110.45.156.46|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|9|109.167.134.253|30710|Russia|St Petersburg|JSC "ER-Telecom Holding"|
+|10|176.9.248.241|80|Germany|Falkenstein|Hetzner Online GmbH|
+|11|84.127.239.136|8090|Spain|Valencia|Ono|
+|12|91.82.247.150|9999|Hungary|Labatlan|INVITEL Zrt.|
+|13|61.216.156.222|60808|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
+|14|103.143.63.33|3125|Indonesia|Samarinda|LAMS|
+|15|105.112.130.186|8080|Nigeria|Kaduna|Airtel Networks Limited|
+|16|14.241.111.38|8080|Vietnam|Ninh Binh|VNPT|
+|17|103.248.93.5|8080|India|Delhi|Ani Network Pvt Ltd|
+|18|118.103.236.12|8080|Pakistan|Karachi|Connect Communication|
+|19|206.42.43.215|3128|Brazil|João Pessoa|Brisanet Prestacao De Servicos De Internet Ltda|
+|20|176.214.97.55|1256|Russia|Moscow|Enforta-MSK|
 
 
 
