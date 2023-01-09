@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6142** proxies at the latest update. Usable proxies are below.
+> Scraper found **6554** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|593|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|593|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|593|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|270|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|270|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|270|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1146|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1558|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|857|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2756|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|2|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|3|118.67.143.133|3128|South Korea|Seongnam-si|Naver Business Platform Asia Pacific Pte. Ltd.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|115.85.180.174|3128|South Korea|Seongnam-si|NBP|
+|3|49.50.163.165|3128|South Korea|Seongnam-si|NBP|
 |4|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|5|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|13.93.68.176|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|8|101.101.219.40|3128|South Korea|Seongnam-si|NBP|
-|9|49.50.175.46|3128|South Korea|Seongnam-si|NBP|
-|10|141.147.158.11|8080|Japan|Osaka|Oracle Corporation|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|109.206.252.234|80|Iran|Pardis County|Afagh Andish Dadeh Pardis Co. Ltd|
-|13|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|14|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|15|152.70.252.224|8080|South Korea|Seoul|Oracle Corporation|
-|16|49.50.172.9|3128|South Korea|Seongnam-si|NBP|
-|17|46.4.242.149|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|18|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|19|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
-|20|167.99.194.207|3128|United Kingdom|London|DigitalOcean, LLC|
+|5|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
+|6|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|7|183.89.64.177|8080|Thailand|Nakhon Ratchasima|Triple T Broadband Public Company Limited|
+|8|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|9|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
+|10|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|11|176.9.248.241|80|Germany|Falkenstein|Hetzner Online GmbH|
+|12|111.225.153.52|8089|China|Gaocheng|Chinanet|
+|13|125.166.31.17|8080|Indonesia|Tangerang|PT. TELKOM INDONESIA|
+|14|122.3.41.154|8090|Philippines|Manila|Philippine Long Distance Telephone Co.|
+|15|61.216.156.222|60808|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
+|16|189.232.83.252|8080|Mexico|Tlaxcoapan|Uninet S.A. de C.V.|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
+|19|161.132.125.244|8080|Peru|Lima|Optical Technologies S.A.C.|
+|20|93.100.118.135|80|Russia|St Petersburg|SkyNet LLC|
 
 
 
