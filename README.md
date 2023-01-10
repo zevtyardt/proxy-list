@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7436** proxies at the latest update. Usable proxies are below.
+> Scraper found **7554** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|185|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|185|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|185|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|700|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|700|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|700|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2107|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2081|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|890|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1034|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3388|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|139.162.44.63|9000|Singapore|Singapore|Linode, LLC|
-|3|34.84.172.172|3128|Japan|Tokyo|Google LLC|
-|4|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
-|5|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|6|135.12.204.78|3128|United States|Sterling|Carrytel|
-|7|213.233.182.38|8000|Iran|Tehran|SHARIF-EDU|
-|8|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|9|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|10|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|11|135.12.207.107|3128|United States|Sterling|Carrytel|
-|12|135.12.203.225|3128|United States|Sterling|Carrytel|
-|13|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|14|50.199.32.226|8080|United States|Bloomfield Hills|Comcast Cable Communications, LLC|
-|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|16|210.210.172.78|10000|Indonesia|Jakarta|CBN|
-|17|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
-|18|135.12.192.240|3128|United States|Sterling|Carrytel|
-|19|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|20|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|1|149.56.95.184|80|Canada|Montreal|OVH Hosting|
+|2|135.12.192.160|3128|United States|Sterling|Carrytel|
+|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|135.12.201.199|3128|United States|Sterling|Carrytel|
+|5|135.12.194.108|3128|United States|Sterling|Carrytel|
+|6|135.12.202.60|3128|United States|Sterling|Carrytel|
+|7|135.12.202.33|3128|United States|Sterling|Carrytel|
+|8|135.12.205.6|3128|United States|Sterling|Carrytel|
+|9|135.12.206.130|3128|United States|Sterling|Carrytel|
+|10|123.202.82.245|3128|Hong Kong|Central|Hong Kong Broadband Network Ltd|
+|11|135.12.194.190|3128|United States|Sterling|Carrytel|
+|12|135.12.194.163|3128|United States|Sterling|Carrytel|
+|13|8.242.178.122|999|Colombia|Bogotá|CTL Colombia|
+|14|135.12.193.175|3128|United States|Sterling|Carrytel|
+|15|135.12.195.238|3128|United States|Sterling|Carrytel|
+|16|45.156.31.153|9090|Turkey|Istanbul|ATLANTIS|
+|17|135.12.205.72|3128|United States|Sterling|Carrytel|
+|18|135.12.196.167|3128|United States|Sterling|Carrytel|
+|19|135.12.203.31|3128|United States|Sterling|Carrytel|
+|20|135.12.203.101|3128|United States|Sterling|Carrytel|
 
 
 
