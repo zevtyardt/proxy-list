@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6729** proxies at the latest update. Usable proxies are below.
+> Scraper found **6701** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|527|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|527|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|527|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|658|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|658|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|658|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1696|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1668|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|833|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2849|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|35.221.104.199|3128|Japan|Tokyo|Google LLC|
-|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
 |4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|217.64.14.162|8080|Czechia|Brno|GiTy, a.s.|
-|9|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|213.233.182.39|8000|Iran|Tehran|SHARIF-EDU|
-|13|23.229.80.115|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|14|162.223.88.61|8080|United States|Buffalo|ColoUp|
-|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|16|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|17|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
-|18|23.229.80.16|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|19|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|20|23.229.80.48|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|6|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|7|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|9|23.229.80.58|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|10|134.238.252.143|8080|India|Mumbai|Google LLC|
+|11|35.221.104.199|3128|Japan|Tokyo|Google LLC|
+|12|94.127.219.99|8080|Russia|Moscow|ISP-company COMPLAT|
+|13|217.64.14.162|8080|Czechia|Brno|GiTy, a.s.|
+|14|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
+|15|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|16|213.233.182.39|8000|Iran|Tehran|SHARIF-EDU|
+|17|23.229.80.47|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|19|168.90.123.193|8080|Brazil|Canelinha|Unetvale Servicos e Equipamentos LTDA|
+|20|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
 
 
 
