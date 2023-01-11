@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7673** proxies at the latest update. Usable proxies are below.
+> Scraper found **7524** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|798|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|798|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|798|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|604|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|604|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|604|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2060|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1911|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1075|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3187|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|2|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|3|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|4|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|5|45.86.70.163|3333|United States|Los Angeles|DediPath|
-|6|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|7|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|9|37.112.57.47|8080|Russia|Bryansk|CJSC "ER-Telecom Holding" Bryansk branch|
-|10|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
-|13|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|14|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
-|15|51.159.115.233|3128|France|Paris|SCALEWAY|
-|16|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
-|17|90.114.27.196|3128|France|Annemasse|TVCCONV|
-|18|138.99.17.98|80|Brazil|Lucas do Rio Verde|Inexa Tecnologia LTDA.|
-|19|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
-|20|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|1|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
+|2|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|3|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|4|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|5|138.99.17.98|80|Brazil|Lucas do Rio Verde|Inexa Tecnologia LTDA.|
+|6|20.70.106.107|3128|Australia|Melbourne|Microsoft Corporation|
+|7|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|8|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|9|95.216.168.92|80|Finland|Helsinki|Hetzner Online GmbH|
+|10|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|11|49.176.208.135|8080|Australia|Sydney|SingTel Optus Pty Ltd|
+|12|212.80.213.94|8000|Thailand|Nonthaburi|Siamdata Communication Co.|
+|13|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
+|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|15|45.86.70.163|3333|United States|Los Angeles|DediPath|
+|16|110.174.150.253|80|Australia|Brisbane|TPG Internet Pty Ltd|
+|17|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|18|212.112.113.178|3128|Kyrgyzstan|Bishkek|AkNet|
+|19|210.210.172.78|10000|Indonesia|Jakarta|CBN|
+|20|27.76.153.146|8088|Vietnam|Nam Định|Newass2011xDSLHCMC|
 
 
 
