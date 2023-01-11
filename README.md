@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5989** proxies at the latest update. Usable proxies are below.
+> Scraper found **6115** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|354|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|354|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|354|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|461|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|461|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|461|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1354|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1234|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|559|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|805|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2725|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|8|213.233.182.39|8000|Iran|Tehran|SHARIF-EDU|
-|9|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
-|10|187.49.191.61|999|Honduras|Juticalpa|Olancho NET S.r.l. De C.V.|
-|11|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|12|208.180.105.70|8080|United States|Amarillo|Suddenlink Communications|
-|13|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|16|113.161.184.33|8080|Vietnam|Thu Duc|VietNam Post and Telecom Corporation|
-|17|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
-|18|188.240.192.92|8090|Spain|Arcos de la Frontera|Onlycable Comunicaciones S.L.|
-|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|20|103.79.35.104|34525|India|Raipur|Smart Internet Services|
+|1|5.9.139.204|20000|Germany|Falkenstein|Hetzner Online GmbH|
+|2|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|3|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|4|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|5|158.69.72.138|9300|Canada|Montreal|OVH SAS|
+|6|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|7|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|8|18.163.10.183|3128|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|9|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|10|34.84.142.87|3128|Japan|Tokyo|Google LLC|
+|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|14|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|16|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|17|111.68.24.113|3127|Indonesia|Yogyakarta|GMEDIA|
+|18|103.148.209.141|8282|Indonesia|Sukoharjo|Dinas Komunikasi Informatika DAN Statistik Kota Blitar|
+|19|188.240.192.92|8090|Spain|Arcos de la Frontera|Onlycable Comunicaciones S.L.|
+|20|89.107.197.164|3128|Russia|Tula|LLC TK Altair|
 
 
 
