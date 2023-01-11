@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|367|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|367|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|367|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|522|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|522|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|522|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|5|212.80.213.94|8000|Thailand|Nonthaburi|Siamdata Communication Co.|
-|6|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|7|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|45.90.244.35|8080|Russia|Moscow|OOO "Network of data-centers "Selectel"|
-|10|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|11|208.180.105.70|8080|United States|Amarillo|Suddenlink Communications|
-|12|144.24.207.98|8080|France|Marseille|Oracle Corporation|
-|13|38.9.58.65|8080|India|Chennai|Cogent Communications|
-|14|179.49.117.226|999|Honduras|La Galera|Asociacion De Servicio De Internet S. De RL|
-|15|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
-|16|49.212.143.246|6666|Japan|Yokohama|SAKURA Internet Inc.|
-|17|128.199.67.35|80|Singapore|Singapore|DigitalOcean, LLC|
-|18|200.85.198.9|999|Chile|Puyehue|Telefonica del Sur S.A.|
-|19|201.20.94.93|8080|Brazil|Parnamirim|MOB SERVICOS DE TELECOMUNICACOES S.A.|
-|20|208.87.132.25|8086|Singapore|Singapore|HIVELOCITY, Inc.|
+|1|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|4|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|5|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|6|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|11|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|12|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
+|13|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|14|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|15|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
+|16|193.161.215.20|8080|Russia|Krasnodar|TSK LLC|
+|17|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|18|182.191.84.39|80|Pakistan|Rawalpindi|Pakistan Telecommuication company limited|
+|19|185.56.156.17|8080|Italy|Milan|HAL Service SpA|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
