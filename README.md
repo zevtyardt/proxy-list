@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|563|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|563|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|563|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1494|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1612|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|990|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|872|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2865|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
-|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|8|193.41.88.58|53281|Ukraine|Kyiv|Kyiv National Taras Shevchenko University|
-|9|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|11|132.248.159.223|3128|Mexico|Coyoacán|Universidad Nacional Autonoma de Mexico|
-|12|51.81.32.81|8888|United States|Reston|OVH SAS|
-|13|200.13.22.210|80|Mexico|Silao|Marcatel Com, S.A. de C.V.|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|1|149.56.95.184|80|Canada|Montreal|OVH Hosting|
+|2|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|3|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|5|168.138.33.70|8080|Japan|Osaka|Oracle Corporation|
+|6|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|7|64.227.7.192|3128|United States|North Bergen|DigitalOcean, LLC|
+|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|9|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|10|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|11|129.213.183.108|3128|United States|Ashburn|Oracle Corporation|
+|12|129.213.183.108|3128|United States|Ashburn|Oracle Corporation|
+|13|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 |16|167.172.148.49|3128|United States|North Bergen|DigitalOcean, LLC|
-|17|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
-|18|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|19|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|212.154.23.89|9090|Turkey|Istanbul|TurkNet Iletisim Hizmetleri|
+|18|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
+|19|23.115.254.221|8080|United States|Miami|AT&T Services, Inc.|
+|20|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
 
 
 
