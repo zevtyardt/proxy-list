@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7385** proxies at the latest update. Usable proxies are below.
+> Scraper found **7331** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|416|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|416|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|416|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|713|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|713|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|713|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2093|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2039|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1087|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2854|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|2|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|90.114.27.196|3128|France|Annemasse|TVCCONV|
+|1|5.9.94.91|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|2|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|3|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|4|46.4.242.149|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|5|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 |8|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|9|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|10|3.89.143.207|8080|United States|Ashburn|Amazon Technologies Inc.|
-|11|49.176.208.135|8080|Australia|Sydney|SingTel Optus Pty Ltd|
-|12|191.243.47.206|8080|Brazil|Itapaci|Microturbo Telecomunicacoes Ltda-me|
-|13|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|14|185.129.168.54|2222|Iran|Tehran|Abazarhaye Farsi Shabakeh (Persian Tools) Co., LTD.|
-|15|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|16|51.159.115.233|3128|France|Paris|SCALEWAY|
-|17|46.4.242.149|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|18|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|19|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|185.49.96.94|8080|Iran|Tehran|Rayaneh Pardazan Baran Co. Ltd.|
+|9|90.114.27.196|3128|France|Annemasse|TVCCONV|
+|10|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|11|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|12|3.89.143.207|8080|United States|Ashburn|Amazon Technologies Inc.|
+|13|206.127.254.245|3129|United States|Glendale|Spartan Host Ltd|
+|14|142.147.114.50|8080|United States|Springtown|Nextlink Broadband|
+|15|108.187.44.21|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|16|24.199.100.216|3128|United States|Santa Clara|DigitalOcean|
+|17|20.120.169.80|3128|United States|Quincy|Microsoft Corporation|
+|18|108.187.44.215|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|19|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
+|20|108.187.44.77|3129|United States|Los Angeles|Leaseweb USA, Inc.|
 
 
 
