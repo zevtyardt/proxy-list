@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7646** proxies at the latest update. Usable proxies are below.
+> Scraper found **7649** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|435|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|435|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|435|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|171|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|171|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|171|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2106|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2036|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1002|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1075|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3187|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|149.56.95.184|80|Canada|Montreal|OVH Hosting|
-|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
-|6|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|7|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|8|108.187.44.64|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|9|185.15.247.148|9090|Germany|Düsseldorf|myLoc managed IT AG|
-|10|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
-|11|108.187.44.215|3129|United States|Los Angeles|Leaseweb USA, Inc.|
-|12|190.115.215.65|8081|Brazil|Itaquirai|Valmir Lopes De Souza|
-|13|51.159.134.210|3128|France|Paris|SCALEWAY|
-|14|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
-|15|3.89.143.207|8080|United States|Ashburn|Amazon Technologies Inc.|
-|16|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|17|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|18|174.108.200.2|8080|United States|Waxhaw|Road Runner|
-|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|20|112.217.162.5|3128|South Korea|Yangsan|LG DACOM Corporation|
+|1|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|212.80.213.94|8000|Thailand|Nonthaburi|Siamdata Communication Co.|
+|4|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|108.187.44.242|3129|United States|Los Angeles|Leaseweb USA, Inc.|
+|7|188.133.158.145|8080|Russia|Moscow|Enforta-MSK|
+|8|194.145.138.15|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
+|9|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|10|219.148.43.102|3128|China|Beijing|Chinanet|
+|11|111.225.153.146|8089|China|Gaocheng|Chinanet|
+|12|138.117.231.130|999|Guatemala|Huehuetenango|Fibernet S.A|
+|13|103.175.24.42|8080|Indonesia|Samarinda|PT Trisari Data Indonusa|
+|14|202.142.158.114|8080|Pakistan|Lahore|Gerrys Information Technology (PVT) Ltd|
+|15|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|16|103.163.36.133|8090|Indonesia|Tawangrejo|PT Data Buana Nusantara|
+|17|197.211.38.94|8080|Nigeria|Lagos|Globacom Limited|
+|18|41.242.116.150|50000|Mayotte|Mamoudzou|STOI-block1|
+|19|95.111.239.49|3128|Germany|Nuremberg|Contabo GmbH|
+|20|122.3.41.154|8090|Philippines|Manila|Philippine Long Distance Telephone Co.|
 
 
 
