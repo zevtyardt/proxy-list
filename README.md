@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|260|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|260|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|260|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|224|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|224|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|224|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.9.139.204|24000|Germany|Falkenstein|Hetzner Online GmbH|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|35.221.104.199|3128|Japan|Tokyo|Google LLC|
-|8|134.238.252.143|8080|India|Mumbai|Google LLC|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|6|181.94.197.42|8080|Paraguay|Asunción|Núcleo S.A.|
+|7|5.9.139.204|24000|Germany|Falkenstein|Hetzner Online GmbH|
+|8|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
+|9|45.86.70.163|3333|United States|Los Angeles|DediPath|
+|10|44.230.152.143|80|United States|Portland|Amazon.com, Inc.|
 |11|36.85.112.99|8080|Indonesia|Parit Bugis|PT. TELKOM INDONESIA|
-|12|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|14|14.177.235.17|8080|Vietnam|Hanoi|VNPT|
-|15|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|102.68.128.215|8080|Libya|Tripoli|Aljeel Aljadeed For Technology|
-|18|104.248.116.242|3128|United States|North Bergen|DigitalOcean, LLC|
-|19|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|12|118.69.176.168|8080|Vietnam|Ho Chi Minh City|FPT Telecom Company|
+|13|134.238.252.143|8080|India|Mumbai|Google LLC|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|17|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|18|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|191.97.14.26|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
 
 
 
