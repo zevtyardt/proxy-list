@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5927** proxies at the latest update. Usable proxies are below.
+> Scraper found **5981** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|285|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|285|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|285|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|300|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|300|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|300|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1216|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1270|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|584|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2776|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|5|152.231.29.58|8080|Colombia|Sibundoy|Colombiatel Telecomunicaciones|
-|6|217.64.14.180|8080|Czechia|Brno|GiTy, a.s.|
-|7|177.242.151.136|8080|Mexico|San Juan Bautista Tuxtla|Mega Cable, S.A. de C.V.|
-|8|144.24.207.98|8080|France|Marseille|Oracle Corporation|
-|9|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|11|190.61.60.118|999|Panama|Panama City|Ufinet Panama S.A|
-|12|177.93.50.106|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|13|88.255.102.32|8080|Turkey|Adana|TurkTelekom|
-|14|115.248.66.131|3129|India|Jaipur|Reliance Communications Limited|
-|15|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|16|119.15.86.30|8080|Cambodia|Phnom Penh|WiCAM Corporation Ltd|
-|17|167.250.180.2|6969|Ecuador|Latacunga|Nedetel S.A|
-|18|102.68.78.57|8080|Kenya|Nairobi|Unwired Communications Ltd|
-|19|186.188.100.243|999|Venezuela|Araure|Corporación Telemic C.A.|
-|20|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|1|152.231.29.58|8080|Colombia|Sibundoy|Colombiatel Telecomunicaciones|
+|2|134.238.252.143|8080|India|Mumbai|Google LLC|
+|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
+|5|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
+|6|4.59.83.198|8080|United States|Naples|Level 3|
+|7|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|8|103.125.162.134|83|India|Hyderabad|CtrlS Datacenters Ltd.|
+|9|46.4.242.149|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|10|64.227.7.192|3128|United States|North Bergen|DigitalOcean, LLC|
+|11|95.56.254.139|3128|Kazakhstan|Almaty|JSC Kazakhtelecom|
+|12|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|13|200.12.56.20|999|Guatemala|Guatemala City|Navega.com S.A.|
+|14|23.143.160.180|999|Puerto Rico|Villalba|Unonet Corp|
+|15|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|16|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|17|113.160.173.30|8080|Vietnam|Vinh|VietNam Post and Telecom Corporation|
+|18|197.211.38.94|8080|Nigeria|Lagos|Globacom Limited|
+|19|59.98.4.70|8080|India|New Delhi|BSNL Internet|
+|20|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
 
 
 
