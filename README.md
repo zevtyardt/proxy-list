@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6773** proxies at the latest update. Usable proxies are below.
+> Scraper found **6929** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|684|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|684|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|684|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|37|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|37|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|37|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1803|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1959|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|761|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2858|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|23.225.72.122|3500|United States|Los Angeles|Cnservers LLC|
-|3|23.225.72.125|3503|United States|Los Angeles|Cnservers LLC|
-|4|23.225.72.123|3501|United States|Los Angeles|Cnservers LLC|
+|2|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|3|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|4|188.166.241.174|443|Singapore|Singapore|DigitalOcean, LLC|
 |5|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|6|217.64.14.180|8080|Czechia|Brno|GiTy, a.s.|
-|7|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|8|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|12|34.146.64.228|3128|Japan|Tokyo|Google LLC|
-|13|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|14|143.198.193.27|443|Singapore|Singapore|DigitalOcean, LLC|
-|15|217.64.14.171|8080|Czechia|Brno|GiTy, a.s.|
-|16|51.195.102.23|3128|Germany|Limburg an der Lahn|OVH SAS|
-|17|23.225.72.125|3503|United States|Los Angeles|Cnservers LLC|
-|18|134.238.252.143|8080|India|Mumbai|Google LLC|
-|19|85.238.104.216|8088|Ukraine|Odesa|TENET Scientific Production Enterprise LLC|
-|20|191.252.196.14|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
+|6|23.225.72.125|3503|United States|Los Angeles|Cnservers LLC|
+|7|5.16.1.7|1256|Russia|Moscow|Enforta-MSK|
+|8|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|9|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|10|205.185.113.252|8080|United States|Las Vegas|FranTech Solutions|
+|11|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|12|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|13|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|14|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|15|47.89.241.242|80|United States|Minkler|Alibaba.com LLC|
+|16|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
+|17|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
+|18|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|19|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|20|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
 
 
 
