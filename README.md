@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6122** proxies at the latest update. Usable proxies are below.
+> Scraper found **6114** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|299|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|299|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|299|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|426|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|426|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|426|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1191|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1183|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|804|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2776|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|3|45.32.69.105|3128|United States|Los Angeles|The Constant Company|
-|4|47.245.33.104|12345|Japan|Tokyo|Alibaba.com LLC|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|217.64.14.162|8080|Czechia|Brno|GiTy, a.s.|
-|8|140.82.5.38|1081|United States|Piscataway|The Constant Company|
-|9|203.150.128.118|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|10|182.253.108.186|8080|Indonesia|Pemalang|BIZNET|
-|11|66.85.30.138|80|Canada|Toronto|Idigital Internet Inc.|
-|12|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|13|125.25.33.43|8080|Thailand|Chiang Mai|TOT Public Company Limited|
-|14|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|41.76.219.21|8088|South Africa|Dewetsdorp|Green Flash Trading|
-|16|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|17|70.90.138.109|8080|United States|Saint Clair|Comcast Cable Communications, LLC|
-|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
+|1|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|2|20.122.27.242|80|United States|Boydton|Microsoft Corporation|
+|3|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|20.122.27.242|80|United States|Boydton|Microsoft Corporation|
+|6|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|7|125.25.33.43|8080|Thailand|Chiang Mai|TOT Public Company Limited|
+|8|201.219.57.146|999|Ecuador|Quito|Corporacion Nacional De Telecomunicaciones - CNT EP|
+|9|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|10|103.143.25.245|8080|Indonesia|Depok|PT SUMBER KONEKSI INDOTELEMATIKA|
+|11|200.94.87.162|999|Mexico|Jalpa de Mendez|Alestra, S. de R.L. de C.V.|
+|12|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
+|13|192.70.208.33|9080|United States|West Monroe|SkyRider Communications, Inc.|
+|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|15|180.178.188.126|8080|Pakistan|Lahore|KK Networks (Pvt.) Limited|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|103.169.7.88|61524|Indonesia|Ciputat|PT Bukuku Solusi Kreatif|
+|18|43.129.223.147|38080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|19|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|20|36.93.120.207|80|Indonesia|Jakarta|Telekomunikasi Indonesia|
 
 
 
