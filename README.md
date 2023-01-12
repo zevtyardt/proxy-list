@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6544** proxies at the latest update. Usable proxies are below.
+> Scraper found **6477** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|171|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|171|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|171|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|269|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|269|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|269|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1477|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1410|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|858|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2858|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|3|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|4|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|5|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|6|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|7|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
-|8|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
-|9|47.241.66.249|1081|Singapore|Singapore|Alibaba.com LLC|
-|10|89.38.96.219|3128|Netherlands|Naaldwijk|WorldStream B.V.|
-|11|79.111.13.155|50625|Russia|Moscow|Net By Net Holding LLC|
-|12|24.172.82.94|53281|United States|Huntersville|Spectrum|
-|13|157.230.241.229|443|Singapore|Singapore|DigitalOcean, LLC|
-|14|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
-|15|190.109.18.65|8080|Colombia|Medellín|Columbus Networks Colombia|
-|16|176.192.70.58|8008|Russia|Moscow|Net By Net Holding LLC|
-|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|18|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|19|138.121.161.83|8190|Argentina|Rosario|WICORP SA|
-|20|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|1|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|157.230.241.229|443|Singapore|Singapore|DigitalOcean, LLC|
+|4|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|5|95.0.90.243|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|6|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|7|213.171.63.210|41890|Russia|Moscow|OJSC Comcor|
+|8|41.159.154.43|3128|Gabon|Libreville|Gabon Telecom Internet Network Autonomous System|
+|9|208.87.132.25|8086|Singapore|Singapore|HIVELOCITY, Inc.|
+|10|45.84.241.2|3128|India|Mumbai|VeloxServ Communications Ltd|
+|11|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
+|12|188.133.136.105|1256|Russia|Moscow|Enforta-MSK|
+|13|65.108.230.239|33153|Finland|Helsinki|Hetzner Online GmbH|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|111.225.153.64|8089|China|Gaocheng|Chinanet|
+|16|219.148.43.102|3128|China|Beijing|Chinanet|
+|17|177.234.217.236|999|Ecuador|Shushufindi|Nedetel S.A.|
+|18|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|19|167.172.148.49|3128|United States|North Bergen|DigitalOcean, LLC|
+|20|138.59.187.10|666|Brazil|Sao Francisco do Conde|Art Compus Serviços de Comunicação Multimídia Ltd|
 
 
 
