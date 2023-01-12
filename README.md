@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6107** proxies at the latest update. Usable proxies are below.
+> Scraper found **6085** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|373|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|373|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|373|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|460|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|460|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|460|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1320|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1298|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|702|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2734|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|2|45.61.187.67|4005|United States|Miami|FranTech Solutions|
-|3|139.59.255.37|443|Singapore|Singapore|DIGITALOCEAN|
-|4|23.229.80.207|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|5|23.229.80.55|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|6|23.229.80.144|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|8|189.193.224.222|999|Mexico|Cuautlancingo|Mega Cable, S.A. de C.V.|
-|9|173.212.200.30|3128|Germany|Nuremberg|Contabo GmbH|
-|10|190.61.60.118|999|Panama|Panama City|Ufinet Panama S.A|
-|11|176.192.80.10|3128|Russia|Moscow|Net By Net Holding LLC|
-|12|51.158.154.173|3128|France|Paris|SCALEWAY|
-|13|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|14|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|15|112.87.140.164|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|16|122.3.41.154|8090|Philippines|Manila|Philippine Long Distance Telephone Co.|
-|17|200.119.218.89|999|Bolivia|Santa Cruz|Cotas Ltda.|
-|18|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|19|186.1.206.154|3128|Haiti|Croix-des-Bouquets|Télécommunications de Haití (Teleco)|
-|20|201.174.17.126|999|Mexico|Ciudad Juárez|Transtelco Inc|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|5|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|6|5.9.139.204|24000|Germany|Falkenstein|Hetzner Online GmbH|
+|7|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|8|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|9|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|10|201.229.250.19|8080|Dominican Republic|Santiago de los Caballeros|Compañía Dominicana de Teléfonos S. A.|
+|11|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|12|47.245.33.104|12345|Japan|Tokyo|Alibaba.com LLC|
+|13|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
+|14|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|15|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|16|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
+|17|23.229.80.219|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|18|23.229.80.222|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|19|45.184.103.67|999|Venezuela|Valencia|PRINTER-NET-SERVICE, C.A.|
+|20|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 
 
 
