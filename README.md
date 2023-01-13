@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7799** proxies at the latest update. Usable proxies are below.
+> Scraper found **7734** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|950|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|950|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|950|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|50|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|50|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|50|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2068|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2003|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1207|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3173|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|217.64.14.162|8080|Czechia|Brno|GiTy, a.s.|
 |2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|4|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|5|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|6|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
-|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|8|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|11|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|213.233.182.38|8000|Iran|Tehran|SHARIF-EDU|
-|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|14|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|170.83.77.241|999|Venezuela|Caracas|Galanet Solution C.A.|
-|16|71.14.23.121|8080|United States|Auburn|Spectrum|
-|17|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|18|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|20|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|179.63.255.230|999|Honduras|San Pedro Sula|INET Communication|
+|5|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|6|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|7|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|8|157.230.241.229|443|Singapore|Singapore|DigitalOcean, LLC|
+|9|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|10|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|12|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|13|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|14|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|15|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|16|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
+|17|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|18|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|19|47.89.241.242|80|United States|Minkler|Alibaba.com LLC|
+|20|20.121.184.238|9401|United States|Boydton|Microsoft Corporation|
 
 
 
