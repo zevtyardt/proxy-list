@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5841** proxies at the latest update. Usable proxies are below.
+> Scraper found **5705** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|284|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|284|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|284|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|305|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|305|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|305|
 
 ## Sources
 
@@ -34,12 +34,12 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1079|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1060|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|741|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|656|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2638|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|185.243.214.68|3128|Greece|Athens|Mvps LTD|
-|5|134.238.252.143|8080|India|Mumbai|Google LLC|
-|6|103.157.96.97|3128|Indonesia|Jakarta|PT Beon Intermedia|
-|7|178.254.168.184|8080|United States|Los Angeles|Turkcell Internet|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|10|144.24.207.98|8080|France|Marseille|Oracle Corporation|
-|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|14|37.57.12.133|8080|Ukraine|Kharkiv|Triolan|
-|15|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
+|1|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|2|185.243.214.68|3128|Greece|Athens|Mvps LTD|
+|3|134.238.252.143|8080|India|Mumbai|Google LLC|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|6|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|37.57.12.133|8080|Ukraine|Kharkiv|Triolan|
+|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|10|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|11|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|85.196.179.34|8080|Bulgaria|Sofia|Mobiltel BNG|
+|14|178.254.168.184|8080|United States|Los Angeles|Turkcell Internet|
+|15|52.188.116.120|3128|United States|Boydton|Microsoft Corporation|
+|16|188.132.222.2|8080|Turkey|Umraniye|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
 |17|47.89.185.178|8888|United States|Charlottesville|Alibaba.com LLC|
 |18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|185.56.156.17|8080|Italy|Milan|HAL Service SpA|
-|20|187.73.68.14|53281|Brazil|Belo Horizonte|Vero S.A|
+|19|144.24.207.98|8080|France|Marseille|Oracle Corporation|
+|20|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 
 
 
