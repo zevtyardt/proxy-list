@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6071** proxies at the latest update. Usable proxies are below.
+> Scraper found **6001** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1325|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1255|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|714|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2681|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
-|2|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|3|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|4|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|35.221.104.199|3128|Japan|Tokyo|Google LLC|
-|8|144.217.7.157|9300|Canada|Beauharnois|OVH SAS|
-|9|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|1|134.238.252.143|8080|India|Mumbai|Google LLC|
+|2|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|194.59.170.144|3128|Iran|Shahriar|Mizban Dade Pasargad|
+|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|6|95.216.53.196|8088|Finland|Helsinki|Hetzner Online GmbH|
+|7|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|9|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 |10|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
-|11|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|12|206.85.3.98|999|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
-|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|14|134.238.252.143|8080|India|Mumbai|Google LLC|
-|15|103.156.14.207|8080|Indonesia|Mukomuko|PT Lintas Jaringan Nusantara|
-|16|95.216.137.52|3128|Finland|Helsinki|Hetzner Online GmbH|
-|17|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|18|185.56.156.17|8080|Italy|Milan|HAL Service SpA|
-|19|36.94.58.26|4480|Indonesia|Tangerang|PT. Telekomunikasi Indonesia|
-|20|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|11|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|15|200.24.132.172|999|Ecuador|Guayaquil|Nedetel S.A.|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|103.111.214.106|3129|Indonesia|Jakarta|PT Cyberindo Aditama|
+|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|19|45.229.34.174|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
+|20|103.156.14.207|8080|Indonesia|Mukomuko|PT Lintas Jaringan Nusantara|
 
 
 
