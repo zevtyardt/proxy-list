@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5963** proxies at the latest update. Usable proxies are below.
+> Scraper found **6095** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|447|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|447|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|447|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|470|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|470|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|470|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1217|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1349|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|714|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2681|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|134.238.252.143|8080|India|Mumbai|Google LLC|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|6|85.196.179.34|8080|Bulgaria|Sofia|Mobiltel BNG|
-|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|9|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|45.229.31.34|11211|Argentina|Comandante Nicanor Otamendi|Fibras Opticas De MAR Del Plata S.A.|
-|11|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|12|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|13|212.80.213.94|8000|Thailand|Nonthaburi|Siamdata Communication Co.|
-|14|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|15|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
-|16|70.15.116.177|8888|United States|Ephrata|PenTeleData Inc.|
-|17|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|18|200.24.132.172|999|Ecuador|Guayaquil|Nedetel S.A.|
-|19|45.156.29.1|9090|Turkey|Istanbul|Atlantis Telekomunikasyon Bilisim Hizmetleri San. Tic. Ltd|
-|20|82.115.20.207|80|United States|Overland Park|BitCommand LLC|
+|1|134.238.252.143|8080|India|Mumbai|Google LLC|
+|2|195.154.114.49|8123|France|Ivry-sur-Seine|Online S.A.S.|
+|3|94.20.38.130|3128|Azerbaijan|Baku|Delta Telecom|
+|4|45.229.31.34|11211|Argentina|Comandante Nicanor Otamendi|Fibras Opticas De MAR Del Plata S.A.|
+|5|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|6|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|35.234.87.239|80|Germany|Frankfurt|Google LLC|
+|9|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|177.82.85.209|3128|Brazil|Ribeirão Preto|Claro NXT Telecomunicacoes Ltda|
+|12|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|13|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|15|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|16|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|17|45.158.170.12|999|Venezuela|Valencia|NETCOM PLUS, C.A|
+|18|95.216.53.196|8088|Finland|Helsinki|Hetzner Online GmbH|
+|19|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|20|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
 
 
 
