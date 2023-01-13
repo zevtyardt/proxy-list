@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7352** proxies at the latest update. Usable proxies are below.
+> Scraper found **7248** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|273|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|273|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|273|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|711|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|711|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|711|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2029|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1925|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1254|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2718|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|4|115.68.221.147|80|South Korea|Seoul|SMILESERV|
-|5|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|6|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|11|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|13|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|130.185.225.240|3128|Bulgaria|Sofia|Telepoint Ltd|
-|15|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|16|135.181.244.152|8080|Finland|Helsinki|Hetzner Online GmbH|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|19|188.40.96.177|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|20|217.64.14.180|8080|Czechia|Brno|GiTy, a.s.|
+|1|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|2|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|212.80.213.94|8000|Thailand|Nonthaburi|Siamdata Communication Co.|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|12|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|13|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|14|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|17|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|18|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|19|217.64.14.180|8080|Czechia|Brno|GiTy, a.s.|
+|20|162.211.181.130|808|United States|Los Angeles|Intercontinental Internet Data Corp|
 
 
 
