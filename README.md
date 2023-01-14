@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7185** proxies at the latest update. Usable proxies are below.
+> Scraper found **7131** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|155|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|155|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|155|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|170|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|170|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|170|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1860|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1806|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1043|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2899|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.146.64.228|3128|Japan|Tokyo|Google LLC|
-|2|51.254.32.245|3128|France|Strasbourg|OVH SAS|
-|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|4|209.97.152.208|8888|United States|Clifton|DigitalOcean, LLC|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|7|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|8|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|14|80.73.87.198|59175|Russia|Yakutsk|Sakhatelecom|
-|15|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|16|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|17|123.202.82.245|3128|Hong Kong|Central|Hong Kong Broadband Network Ltd|
-|18|188.132.222.3|8080|Turkey|Umraniye|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
-|19|119.82.241.21|8080|Indonesia|Embongkaliasin|Indonesia Network Information Center|
-|20|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|34.146.64.228|3128|Japan|Tokyo|Google LLC|
+|3|34.84.142.87|3128|Japan|Tokyo|Google LLC|
+|4|51.254.32.245|3128|France|Strasbourg|OVH SAS|
+|5|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|8|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|9|92.241.102.47|3128|Russia|Khislavichi|SMOLTELECOM|
+|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|12|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|13|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
+|14|4.59.83.198|8080|United States|Naples|Level 3|
+|15|182.253.105.123|8080|Indonesia|Cirebon|Biznet Networks|
+|16|140.246.114.169|59394|China|Jinan|Cloud Computing Corporation|
+|17|181.129.208.27|999|Colombia|El Dovio|EPM Telecomunicaciones S.A. E.S.P.|
+|18|106.58.208.158|9002|China|Jianshui|Chinanet|
+|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|20|103.173.154.10|3128|Vietnam|Hanoi|Vietnam Internet Network Information Center|
 
 
 
