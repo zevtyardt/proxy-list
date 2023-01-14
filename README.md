@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5695** proxies at the latest update. Usable proxies are below.
+> Scraper found **5719** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|363|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|363|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|363|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|295|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|295|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|295|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1089|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1113|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|610|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2613|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|185.64.208.4|53281|Russia|Kstovo|Svyazist LLC|
-|4|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|5|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|46.4.246.198|5566|Germany|Falkenstein|Hetzner Online GmbH|
-|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|9|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|10|50.233.228.147|8080|United States|Denver|Comcast Cable Communications, LLC|
-|11|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|12|134.238.252.143|8080|India|Mumbai|Google LLC|
-|13|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|213.233.182.38|8000|Iran|Tehran|SHARIF-EDU|
-|15|115.144.109.179|10000|South Korea|Donggu|Korea Telecom|
-|16|103.106.115.90|8080|Indonesia|Bandar Lampung|SMSNET|
-|17|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|18|151.232.20.39|8080|Iran|Shiraz|Iran Telecommunication Company PJS|
-|19|74.114.232.162|8080|United States|Lowell|Midwest Telecom of America, Inc|
-|20|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|5|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|6|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|195.154.255.194|8000|France|Vitry-sur-Seine|Online S.A.S.|
+|8|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|9|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|10|130.41.61.206|8080|India|New Delhi|Google LLC|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|16|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
+|17|187.72.139.241|80|Brazil|São Paulo|ALGAR TELECOM S/A|
+|18|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
+|19|213.233.182.39|8000|Iran|Tehran|SHARIF-EDU|
+|20|188.49.65.172|8080|Saudi Arabia|Riyadh|Saudinet DSL|
 
 
 
