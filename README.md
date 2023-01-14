@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5111** proxies at the latest update. Usable proxies are below.
+> Scraper found **5461** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|367|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|367|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|367|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|349|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|349|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|349|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|997|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1025|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|465|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2566|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2588|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|2|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|149.56.233.29|3128|Canada|Montreal|OVH Hosting|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|8|51.81.32.81|8888|United States|Reston|OVH SAS|
-|9|51.81.32.81|8888|United States|Reston|OVH SAS|
-|10|189.201.153.91|999|Mexico|Tuxtla Gutiérrez|ATC HOLDING FIBRA MEXICO, S. DE R.L. DE C.V.|
-|11|190.181.24.206|8080|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|15|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|17|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|19|102.214.46.78|8080|Tanzania|Dar es Salaam|ATEB Technologies|
-|20|155.133.26.123|8080|Germany|Düsseldorf|Contabo GmbH|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|134.122.22.233|3128|United States|North Bergen|DigitalOcean, LLC|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|129.159.88.228|80|United States|Ashburn|Oracle Corporation|
+|9|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|134.122.22.233|3128|United States|North Bergen|DigitalOcean, LLC|
+|12|34.146.180.162|3128|Japan|Tokyo|Google LLC|
+|13|51.81.32.81|8888|United States|Reston|OVH SAS|
+|14|51.81.32.81|8888|United States|Reston|OVH SAS|
+|15|134.238.252.143|8080|India|Mumbai|Google LLC|
+|16|37.238.131.205|8080|Iraq|Karbala|BROADBAND-SUBSCRIBERS|
+|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|18|129.159.88.228|80|United States|Ashburn|Oracle Corporation|
+|19|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|20|91.93.118.3|8090|Turkey|Ankara|Superonline Iletisim Hizmetleri A.S.|
 
 
 
