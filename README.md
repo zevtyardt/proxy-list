@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5628** proxies at the latest update. Usable proxies are below.
+> Scraper found **5648** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|432|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|432|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|432|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|395|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|395|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|395|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1181|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1201|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|476|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2588|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|51.81.32.81|8888|United States|Reston|OVH SAS|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|51.81.32.81|8888|United States|Reston|OVH SAS|
-|6|134.238.252.143|8080|India|Mumbai|Google LLC|
+|1|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|185.36.86.94|8080|Bosnia and Herzegovina|Banja Luka|ELTA KABEL d.o.o.|
+|5|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|6|185.15.247.148|9090|Germany|Düsseldorf|myLoc managed IT AG|
 |7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|10|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
-|11|155.133.26.123|8080|Germany|Düsseldorf|Contabo GmbH|
-|12|103.189.231.222|8181|Indonesia|Karanganyar|PT Media Access Telematika|
-|13|213.233.182.38|8000|Iran|Tehran|SHARIF-EDU|
-|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|15|46.4.246.198|5566|Germany|Falkenstein|Hetzner Online GmbH|
-|16|37.238.131.205|8080|Iraq|Karbala|BROADBAND-SUBSCRIBERS|
-|17|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|18|181.78.104.198|999|Guatemala|Guatemala City|Ufinet Panama S.A.|
-|19|45.161.33.129|8081|Ecuador|Loja||
-|20|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|8|134.238.252.143|8080|India|Mumbai|Google LLC|
+|9|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|10|155.133.26.123|8080|Germany|Düsseldorf|Contabo GmbH|
+|11|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|13|51.81.32.81|8888|United States|Reston|OVH SAS|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|16|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|17|62.171.161.88|2018|Germany|Nuremberg|Contabo GmbH|
+|18|185.64.208.187|53281|Russia|Kstovo|Svyazist LLC|
+|19|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|20|43.243.142.60|59916|Indonesia|Tangerang|PT. Mora Telematika Indonesia|
 
 
 
