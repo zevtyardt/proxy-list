@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5374** proxies at the latest update. Usable proxies are below.
+> Scraper found **5525** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|198|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|198|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|198|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|237|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|237|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|237|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|793|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|944|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|443|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2755|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|3|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |6|134.238.252.143|8080|India|Mumbai|Google LLC|
-|7|212.80.213.94|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
+|7|212.80.213.94|8000|Thailand|Nonthaburi|Siamdata Communication Co.|
 |8|130.41.61.152|8080|India|New Delhi|Google LLC|
 |9|130.41.61.206|8080|India|New Delhi|Google LLC|
-|10|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|11|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|10|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |12|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|13|51.81.32.81|8888|United States|Reston|OVH SAS|
-|14|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|15|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|16|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
-|17|51.81.32.81|8888|United States|Reston|OVH SAS|
-|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|19|65.108.230.239|38229|Finland|Helsinki|Hetzner Online GmbH|
-|20|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|13|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|14|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|15|170.81.37.165|8080|Brazil|Chapadao Do Sul|M2B - SOLUCOES EM TECNOLOGIA EIRELLI ME|
+|16|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|17|23.82.16.149|3128|United States|San Jose|Leaseweb USA, Inc.|
+|18|144.24.207.98|8080|France|Marseille|Oracle Corporation|
+|19|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
