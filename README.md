@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6292** proxies at the latest update. Usable proxies are below.
+> Scraper found **6405** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|505|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|505|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|505|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|689|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|689|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|689|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1346|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1459|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|688|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2875|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
-|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|7|201.71.2.112|999|Venezuela|Caracas|Level 3 Communications, Inc.|
-|8|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|10|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
-|11|45.4.202.171|999|Ecuador|Guayaquil|Eliana Vanessa Morocho Oña|
-|12|34.146.19.255|3128|Japan|Tokyo|Google LLC|
-|13|134.238.252.143|8080|India|Mumbai|Google LLC|
-|14|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|16|89.43.10.142|8080|Iran|Tehran|Mobin Net Communication Company|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|93.91.112.247|41258|Russia|Tver|Fast Link Ltd.|
-|19|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|20|124.106.150.231|8282|Philippines|Mandaluyong City|Philippine Long Distance Telephone Co.|
+|1|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|5|198.59.191.234|8080|United States|Carlsbad|TDS TELECOM|
+|6|109.251.119.53|3128|Ukraine|Kyiv|O3 core|
+|7|103.199.169.30|8080|Bangladesh|Dhaka|House # 127|
+|8|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|9|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|11|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|14|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|15|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|16|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|17|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|20|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
 
 
 
