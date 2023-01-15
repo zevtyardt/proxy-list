@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6046** proxies at the latest update. Usable proxies are below.
+> Scraper found **6421** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|623|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|623|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|623|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|656|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|656|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|656|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1014|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1389|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|774|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2875|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
+|1|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|7|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|9|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|10|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|13|185.2.81.11|8080|Netherlands|Naaldwijk|WorldStream B.V.|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|115.68.221.147|80|South Korea|Seoul|SMILESERV|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|130.41.61.206|8080|India|New Delhi|Google LLC|
+|7|104.11.107.132|3128|United States|Houston|AT&T Services, Inc.|
+|8|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|9|200.125.171.196|999|Dominican Republic|Santiago de los Caballeros|WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L|
+|10|51.159.115.233|3128|France|Paris|SCALEWAY|
+|11|35.221.104.58|3128|Japan|Tokyo|Google LLC|
+|12|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|13|4.59.83.198|8080|United States|Naples|Level 3|
 |14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|217.180.218.36|8080|United States|Lansing|Metronet|
-|16|45.61.187.67|4005|United States|Miami|FranTech Solutions|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|130.41.61.206|8080|India|New Delhi|Google LLC|
-|19|213.97.120.241|8088|Spain|Madrid|Telefonica de Espana SAU|
-|20|213.136.101.36|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
+|15|115.144.109.179|10000|South Korea|Donggu|Korea Telecom|
+|16|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|17|45.189.112.225|999|Ecuador|Milagro|Anibal Humberto Enriquez Moncayo(Comunicate)|
+|18|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|19|70.74.96.159|8080|Canada|Edmonton|Shaw Communications Inc.|
+|20|123.202.82.245|3128|Hong Kong|Central|Hong Kong Broadband Network Ltd|
 
 
 
