@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5680** proxies at the latest update. Usable proxies are below.
+> Scraper found **5665** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|285|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|285|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|285|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|360|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|360|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|360|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1075|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1060|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|515|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2739|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|188.166.186.35|8282|Singapore|Singapore|DigitalOcean, LLC|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|8|130.41.61.206|8080|India|New Delhi|Google LLC|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|11|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|12|103.165.157.80|8080|Indonesia|Yogyakarta|PT. MEGA ARTHA LINTAS DATA|
-|13|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|41.254.53.70|1981|Libya|Benghazi|LTT Network Backbone and POPs|
-|16|185.131.172.51|5050|Russia|Krasnoyarsk|Limited Liability Company "TTK-Svyaz"|
-|17|177.53.152.139|999|Peru|Lima|Moreno Yanoc Nemias Bernardo|
-|18|37.232.145.221|53281|Russia|Cheboksary|Net By Net Holding LLC|
-|19|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|20|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|2|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|4|82.200.150.194|443|Kazakhstan|Almaty|JSC Kazakhtelecom|
+|5|130.41.61.206|8080|India|New Delhi|Google LLC|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|89.132.144.41|9090|Hungary|Budapest|Vodafone Hungary Ltd.|
+|8|181.198.115.179|999|Ecuador|Gualaquiza|Telconet S.A|
+|9|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|10|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|11|134.238.252.143|8080|India|Mumbai|Google LLC|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|110.234.32.251|3128|Japan|Chiyoda|NBP-NCP|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|196.15.213.235|3128|South Africa|Christiana|Telkom SA Ltd.|
+|16|103.199.169.30|8080|Bangladesh|Dhaka|House # 127|
+|17|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|18|124.47.169.212|8080|Australia|Haymarket|MCT-M2IDT|
+|19|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|20|186.3.38.211|999|Ecuador|Cuenca|Telconet S.A|
 
 
 
