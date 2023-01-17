@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6026** proxies at the latest update. Usable proxies are below.
+> Scraper found **6074** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1333|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1381|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|507|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2835|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|5|89.223.121.208|3128|Russia|St Petersburg|vds|
-|6|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|1|5.9.94.91|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|4|34.146.64.228|3128|Japan|Tokyo|Google LLC|
+|5|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|6|194.127.192.157|3128|Singapore|Singapore|Leaseweb Asia Pacific pte. ltd.|
 |7|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|8|130.41.61.206|8080|India|New Delhi|Google LLC|
-|9|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|134.238.252.143|8080|India|Mumbai|Google LLC|
-|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|14|144.217.7.157|9300|Canada|Beauharnois|OVH SAS|
-|15|179.189.125.222|8080|Brazil|Parnaiba|IP CARRIER BRASIL|
-|16|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|20|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|8|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|9|89.223.121.208|3128|Russia|St Petersburg|vds|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|103.144.161.100|8088|Bangladesh|Dhaka|Bismillah Telecom|
+|12|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|13|85.193.92.239|8118|Poland|Ełk|Artnet Sp. z o.o.|
+|14|134.238.252.143|8080|India|Mumbai|Google LLC|
+|15|51.159.115.233|3128|France|Paris|SCALEWAY|
+|16|178.89.186.82|3128|Kazakhstan|Karaganda|JSC Kazakhtelecom|
+|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|18|66.211.155.34|8080|United States|Berlin|FirstLight Fiber|
+|19|91.92.181.221|8080|Iran|Tehran|TIC|
+|20|131.0.226.198|9898|Brazil|Recife|1telecom Servicos De Tecnologia EM Internet Ltda|
 
 
 
