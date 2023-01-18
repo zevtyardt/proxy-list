@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5020** proxies at the latest update. Usable proxies are below.
+> Scraper found **5248** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|890|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1118|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|304|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2575|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|130.41.61.206|8080|India|New Delhi|Google LLC|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|8|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|9|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|51.195.102.23|3128|Germany|Limburg an der Lahn|OVH SAS|
-|11|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|12|180.191.22.200|8080|Philippines|Cabanatuan City|Globe Telecom|
-|13|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
-|14|178.89.186.82|3128|Kazakhstan|Karaganda|JSC Kazakhtelecom|
-|15|212.115.232.79|31280|Ukraine|Dnipro|ISP "Fregat"|
-|16|134.238.252.143|8080|India|Mumbai|Google LLC|
-|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|18|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|19|31.186.48.232|3128|Kyrgyzstan|Bishkek|AKNET Ltd.|
-|20|12.144.254.185|9080|United States|Little Rock|AT&T Services, Inc.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|51.195.102.23|3128|Germany|Limburg an der Lahn|OVH SAS|
+|7|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|8|129.80.28.136|3128|United States|Ashburn|Oracle Corporation|
+|9|130.41.61.206|8080|India|New Delhi|Google LLC|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|12|134.238.252.143|8080|India|Mumbai|Google LLC|
+|13|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|14|129.80.28.136|3128|United States|Ashburn|Oracle Corporation|
+|15|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|16|168.235.85.81|18888|United States|Los Angeles|InMotion Hosting, Inc.|
+|17|200.116.198.222|9812|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P|
+|18|103.163.231.142|8080|Indonesia|Malang|PT Metrosolusi Teknologi Indonesia|
+|19|124.220.168.140|3128|China|Shenzhen|China Internet Network Information Center|
+|20|190.186.18.161|999|Bolivia|Santa Cruz|Cotas Ltda.|
 
 
 
