@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6197** proxies at the latest update. Usable proxies are below.
+> Scraper found **6126** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|633|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|633|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|633|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|521|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|521|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|521|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1546|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1475|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|628|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2772|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|8|130.185.225.240|3128|Bulgaria|Sofia|Telepoint Ltd|
-|9|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|10|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|11|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|12|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|15|145.40.121.73|3128|Brazil|São Paulo|Packet Host, Inc.|
-|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|4|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|213.238.191.39|10000|Turkey|Gaziemir|Hayal Host Internet Ve Bilisim Teknolojileri Sanayi Ticaret Limited Sirketi|
+|8|43.129.234.206|5200|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|10|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|11|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|12|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|13|119.76.142.165|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
+|14|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|15|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
 |17|130.41.61.206|8080|India|New Delhi|Google LLC|
-|18|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|23.225.72.125|3503|United States|Los Angeles|Cnservers LLC|
-|20|213.238.191.39|10000|Turkey|Gaziemir|Hayal Host Internet Ve Bilisim Teknolojileri Sanayi Ticaret Limited Sirketi|
+|18|23.225.72.125|3503|United States|Los Angeles|Cnservers LLC|
+|19|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
+|20|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
 
 
 
