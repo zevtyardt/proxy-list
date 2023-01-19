@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6321** proxies at the latest update. Usable proxies are below.
+> Scraper found **6242** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|415|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|415|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|415|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|666|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|666|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|666|
 
 ## Sources
 
@@ -34,10 +34,10 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1583|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1536|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|607|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2848|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|90.114.27.196|3128|France|Annemasse|TVCCONV|
-|5|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|6|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|86.120.122.3|3128|Romania|Galati|RCS & RDS|
-|9|125.99.58.110|3128|India|Mumbai|Hathway IP over Cable Internet Access|
-|10|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|14|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|15|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|16|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|17|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
-|18|178.89.186.82|3128|Kazakhstan|Karaganda|JSC Kazakhtelecom|
-|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|20|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|1|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
+|2|108.6.45.94|80|United States|Valley Stream|Verizon Communications|
+|3|86.120.122.3|3128|Romania|Galati|RCS & RDS|
+|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|6|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|8|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|9|178.89.186.82|3128|Kazakhstan|Karaganda|JSC Kazakhtelecom|
+|10|108.6.45.94|80|United States|Valley Stream|Verizon Communications|
+|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|12|161.35.48.185|443|United States|North Bergen|DigitalOcean, LLC|
+|13|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|15|45.234.60.2|999|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
+|16|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|17|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
+|18|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
 
 
 
