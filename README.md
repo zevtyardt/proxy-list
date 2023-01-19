@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6194** proxies at the latest update. Usable proxies are below.
+> Scraper found **6200** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|567|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|567|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|567|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|590|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|590|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|590|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1289|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1295|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|552|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3102|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|3|86.120.122.3|3128|Romania|Galati|RCS & RDS|
-|4|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|5|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|213.238.191.39|10000|Turkey|Gaziemir|Hayal Host Internet Ve Bilisim Teknolojileri Sanayi Ticaret Limited Sirketi|
-|10|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|11|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|12|116.103.249.0|4015|Vietnam|Huế|Viettel Corporation|
-|13|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|14|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|15|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|178.89.186.82|3128|Kazakhstan|Karaganda|JSC Kazakhtelecom|
-|18|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|19|65.21.161.114|42648|Finland|Helsinki|Hetzner Online GmbH|
-|20|104.144.190.129|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
+|4|213.238.191.39|10000|Turkey|Gaziemir|Hayal Host Internet Ve Bilisim Teknolojileri Sanayi Ticaret Limited Sirketi|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|7|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|8|86.120.122.3|3128|Romania|Galati|RCS & RDS|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|11|104.144.190.243|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|12|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|13|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|16|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|19|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|20|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 
 
 
