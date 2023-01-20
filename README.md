@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5906** proxies at the latest update. Usable proxies are below.
+> Scraper found **5817** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|455|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|455|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|455|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|550|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|550|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|550|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1276|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1187|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|529|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2750|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|5|192.210.172.22|8080|United States|Los Angeles|ColoCrossing|
-|6|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|7|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|1|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|2|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|3|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|188.166.186.35|8282|Singapore|Singapore|DigitalOcean, LLC|
+|7|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
 |8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|9|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|13|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|14|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|15|213.59.156.119|3128|Russia|Tomsk|ZT-TOMSK|
-|16|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|17|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|18|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|19|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|10|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|93.177.73.122|8888|Germany|Frankfurt am Main|M247 Europe SRL|
+|12|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|15|176.192.70.58|8009|Russia|Moscow|Net By Net Holding LLC|
+|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|17|178.89.186.82|3128|Kazakhstan|Karaganda|JSC Kazakhtelecom|
+|18|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|19|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|20|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
 
 
 
