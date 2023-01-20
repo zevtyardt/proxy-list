@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|401|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|401|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|401|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|588|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|588|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|588|
 
 ## Sources
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
 |2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|176.9.9.38|58892|Germany|Falkenstein|Hetzner Online GmbH|
-|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|9|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|12|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|13|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|14|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|15|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|16|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|17|183.88.228.208|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
-|18|107.172.73.179|7890|United States|Buffalo|ColoCrossing|
-|19|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|20|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|3|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|4|89.91.134.104|8118|France|Dijon|Bouygues Telecom ISP|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|43.129.234.206|5200|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|7|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|8|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|11|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|12|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|13|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|14|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|15|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|16|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|18|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|19|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|20|23.225.72.122|3500|United States|Los Angeles|Cnservers LLC|
 
 
 
