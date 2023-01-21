@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6768** proxies at the latest update. Usable proxies are below.
+> Scraper found **6810** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|784|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|784|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|784|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|763|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|763|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|763|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1653|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1707|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|677|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3087|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3075|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|23.107.176.228|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|3|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|4|23.107.176.150|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|5|23.107.176.236|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|6|23.107.176.202|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|9|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|11|51.91.100.252|443|France|Strasbourg|OVH SAS|
-|12|89.175.164.38|8080|Russia|Moscow|MTS PJSC|
-|13|23.107.176.129|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|14|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|15|23.107.176.195|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|23.107.176.136|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|18|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|19|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|1|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|2|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|4|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|5|176.9.9.38|58892|Germany|Falkenstein|Hetzner Online GmbH|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|10|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|11|85.239.233.184|80|United States|Seattle|Contabo Inc.|
+|12|146.71.76.225|3128|United States|Wilmington|Ellada Projects B.V. trading as Netrouting|
+|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|14|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|15|45.229.34.174|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
+|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|17|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|20|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
 
 
 
