@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|499|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|499|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|499|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|639|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|639|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|639|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|3|188.166.186.35|8282|Singapore|Singapore|DigitalOcean, LLC|
-|4|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|5|172.104.52.16|8088|Singapore|Singapore|Linode, LLC|
-|6|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|8|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|12|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|13|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|1|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|4|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|5|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|6|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|8|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|12|47.254.76.110|3128|United States|Santa Clara|Alibaba.com LLC|
+|13|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
 |14|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|15|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|51.159.115.233|3128|France|Paris|SCALEWAY|
-|18|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|19|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|20|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
+|15|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|16|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|17|178.89.186.82|3128|Kazakhstan|Karaganda|JSC Kazakhtelecom|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
 
 
 
