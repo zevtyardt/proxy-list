@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|496|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|496|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|496|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|610|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|610|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|610|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|2|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|10|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|11|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|12|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|14|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|15|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|16|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|17|172.104.52.16|8088|Singapore|Singapore|Linode, LLC|
-|18|163.172.31.44|80|France|Paris|Online S.A.S.|
-|19|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|20|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|1|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|2|5.9.87.30|9100|Germany|Falkenstein|Hetzner Online GmbH|
+|3|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|6|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|7|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|12|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|13|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|14|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|15|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|16|140.227.25.191|23456|Japan|Yonabaru|InfoSphere|
+|17|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|213.59.156.119|3128|Russia|Tomsk|ZT-TOMSK|
 
 
 
