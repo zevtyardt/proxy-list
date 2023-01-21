@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6271** proxies at the latest update. Usable proxies are below.
+> Scraper found **6336** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|569|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|569|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|569|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|590|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|590|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|590|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1370|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1435|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|630|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2920|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|6|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|11|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|12|125.162.15.171|8080|Indonesia|Medan|PT. TELKOM INDONESIA|
-|13|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|14|37.238.131.204|8080|Iraq|Karbala|BROADBAND-SUBSCRIBERS|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|18|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|19|85.239.233.184|80|United States|Seattle|Contabo Inc.|
-|20|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|94.103.85.88|9300|Russia|Moscow|VDSINA|
+|7|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|10|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|11|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|85.239.233.184|80|United States|Seattle|Contabo Inc.|
+|14|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
+|15|188.166.186.35|8282|Singapore|Singapore|DigitalOcean, LLC|
+|16|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|18|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|19|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
 
 
 
