@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|5|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|6|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|7|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|8|89.175.164.38|8080|Russia|Moscow|MTS PJSC|
-|9|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|11|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|12|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|13|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|15|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|16|85.239.233.184|80|United States|Seattle|Contabo Inc.|
-|17|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|20|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|4|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|5|85.239.233.184|80|United States|Seattle|Contabo Inc.|
+|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|201.219.201.7|999|Colombia|El Banco|ITELKOM|
+|12|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|13|54.237.111.226|3128|United States|Ashburn|Amazon.com, Inc.|
+|14|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|15|89.175.164.38|8080|Russia|Moscow|MTS PJSC|
+|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|17|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|20|85.239.233.184|80|United States|Seattle|Contabo Inc.|
 
 
 
