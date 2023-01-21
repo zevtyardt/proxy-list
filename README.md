@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6352** proxies at the latest update. Usable proxies are below.
+> Scraper found **6560** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|694|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|694|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|694|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|187|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|187|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|187|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1542|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1750|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|649|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2810|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|85.239.233.184|80|United States|Seattle|Contabo Inc.|
-|3|138.124.180.188|3128|United States|Secaucus|MIRholding B.V.|
-|4|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|6|85.239.233.184|80|United States|Seattle|Contabo Inc.|
-|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|51.159.115.233|3128|France|Paris|SCALEWAY|
-|9|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|10|188.166.186.35|8282|Singapore|Singapore|DigitalOcean, LLC|
-|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|13|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|14|203.184.132.153|8118|Hong Kong|Central|HGC Global Communications Limited|
-|15|4.59.83.198|8080|United States|Naples|Level 3|
-|16|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|20|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|1|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|2|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|3|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|4|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|5|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|8|176.9.9.38|58892|Germany|Falkenstein|Hetzner Online GmbH|
+|9|89.175.164.38|8080|Russia|Moscow|MTS PJSC|
+|10|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|11|112.87.140.164|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|12|112.87.140.163|9401|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
+|13|8.242.176.196|999|Colombia|Santiago de Cali|CTL Colombia|
+|14|193.117.138.126|44805|United Kingdom|London|Virtual1 Limited|
+|15|176.214.97.55|1256|Russia|Moscow|Enforta-MSK|
+|16|155.133.26.123|8080|Germany|Düsseldorf|Contabo GmbH|
+|17|159.65.184.186|8082|United States|Clifton|DigitalOcean, LLC|
+|18|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|19|168.138.211.5|8080|Japan|Tokyo|Oracle Corporation|
+|20|51.158.154.173|3128|France|Paris|SCALEWAY|
 
 
 
