@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6539** proxies at the latest update. Usable proxies are below.
+> Scraper found **6560** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|646|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|646|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|646|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|739|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|739|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|739|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1482|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1503|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|664|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3042|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|6|20.230.230.59|3128|United States|Quincy|Microsoft Corporation|
-|7|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|8|171.244.57.35|80|Vietnam|Hoc Mon|VIETEL|
+|3|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|7|168.90.176.62|80|Paraguay|Asunción|Secretaria Nacional de Tecnologias de la Información y Comunicaciones|
+|8|5.9.87.30|9100|Germany|Falkenstein|Hetzner Online GmbH|
 |9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|10|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|11|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|12|128.14.199.47|80|United States|Los Angeles|Zenlayer Inc|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|213.238.191.39|10000|Turkey|Gaziemir|Hayal Host Internet Ve Bilisim Teknolojileri Sanayi Ticaret Limited Sirketi|
-|15|20.230.230.59|3128|United States|Quincy|Microsoft Corporation|
-|16|1.234.23.159|80|South Korea|Seoul|SK Broadband Co Ltd|
-|17|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
-|18|192.140.42.83|31511|Brazil|Boa Vista|Allfiber Telecom Serviços de Telecomunicações|
-|19|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
-|20|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|128.14.199.47|80|United States|Los Angeles|Zenlayer Inc|
+|12|157.230.48.29|3128|United States|North Bergen|DigitalOcean, LLC|
+|13|171.244.57.35|80|Vietnam|Hoc Mon|VIETEL|
+|14|37.57.15.43|33761|Ukraine|Kharkiv|Triolan|
+|15|123.25.15.209|9812|Vietnam|Hanoi|VietNam Post and Telecom Corporation|
+|16|79.172.212.99|3128|Hungary|Budapest|Szerverplex Kft|
+|17|103.239.200.158|65535|Philippines|San Juan|Sky Cable Corporation|
+|18|103.184.123.9|4995|Indonesia|Cisurupan|PT Wijaya Trimitra Indonesia|
+|19|122.54.161.20|8082|Philippines|Tacloban City|Philippine Long Distance Telephone Co.|
+|20|205.207.101.177|8282|United States|Greenwood|ALTIUS Broadband, LLC|
 
 
 
