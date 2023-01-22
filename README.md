@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|586|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|586|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|586|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|637|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|637|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|637|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|24.199.107.236|80|United States|Santa Clara|DigitalOcean|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|24.199.116.31|80|United States|Santa Clara|DigitalOcean, LLC|
-|4|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
-|5|89.175.164.38|8080|Russia|Moscow|MTS PJSC|
-|6|45.86.231.233|80|Italy|Palermo|BlueVPS OU|
-|7|144.22.249.38|80|Brazil|São Paulo|Oracle Corporation|
-|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|9|142.247.93.36|80|Saudi Arabia|Medina|Saudi Telecom Company JSC|
-|10|64.44.102.17|80|United States|Chicago|Nexeon Technologies|
-|11|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|12|161.35.103.27|80|United States|North Bergen|DigitalOcean, LLC|
-|13|170.64.140.82|80|Australia|Sydney|DigitalOcean, LLC|
-|14|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|15|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|16|104.211.211.118|3128|India|Chennai|Microsoft Corporation|
-|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|19|146.190.55.209|80|United States|Santa Clara|DigitalOcean, LLC|
-|20|24.199.108.162|80|United States|Santa Clara|DigitalOcean|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|24.199.107.236|80|United States|Santa Clara|DigitalOcean|
+|3|143.198.146.81|80|United States|Santa Clara|DigitalOcean, LLC|
+|4|146.190.55.209|80|United States|Santa Clara|DigitalOcean, LLC|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|104.211.211.118|3128|India|Chennai|Microsoft Corporation|
+|7|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|8|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|9|161.35.103.27|80|United States|North Bergen|DigitalOcean, LLC|
+|10|170.64.140.82|80|Australia|Sydney|DigitalOcean, LLC|
+|11|24.199.108.162|80|United States|Santa Clara|DigitalOcean|
+|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|13|85.117.239.67|80|Turkey|UEmraniye|Markahost Telekomunikasyon VE Ticaret Limited Sirketi|
+|14|170.64.129.124|80|Australia|Sydney|DigitalOcean, LLC|
+|15|24.199.116.31|80|United States|Santa Clara|DigitalOcean, LLC|
+|16|46.225.237.146|3128|Iran|Tehran|Dadeh Gostar Asr Novin P.J.S. Co.|
+|17|34.27.113.125|80|United States|Council Bluffs|Google LLC|
+|18|51.159.115.233|3128|France|Paris|SCALEWAY|
+|19|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|20|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 
 
 
