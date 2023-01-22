@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|454|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|454|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|454|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|699|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|699|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|699|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|12|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|13|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|14|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|15|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|16|104.211.211.118|3128|India|Chennai|Microsoft Corporation|
-|17|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|18|103.165.157.64|8080|Indonesia|Yogyakarta|PT. MEGA ARTHA LINTAS DATA|
-|19|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|20|180.234.165.208|8080|Saudi Arabia|Riyadh|Saudi Telecom Company JSC|
+|1|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|5|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|6|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|9|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
+|10|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
+|11|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
+|12|104.211.211.118|3128|India|Chennai|Microsoft Corporation|
+|13|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|14|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|18|45.91.133.137|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|19|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|20|103.206.208.135|55443|India|Anand|Unet Communication Private Limited|
 
 
 
