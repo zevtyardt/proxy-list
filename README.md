@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5270** proxies at the latest update. Usable proxies are below.
+> Scraper found **5209** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|177|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|177|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|177|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|258|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|258|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|258|
 
 ## Sources
 
@@ -34,10 +34,10 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1125|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1096|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|296|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2466|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|2|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|3|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|1|193.123.98.126|8080|Brazil|Vinhedo|Oracle Corporation|
+|2|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|3|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
 |4|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|5|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|6|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|5|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|6|3.228.132.130|80|United States|Ashburn|Amazon Technologies Inc.|
 |7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|10|110.77.207.141|8080|Thailand|Bangkok|CAT-BB|
-|11|201.229.250.19|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|12|3.228.132.130|80|United States|Ashburn|Amazon Technologies Inc.|
-|13|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|14|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|15|3.228.132.130|80|United States|Ashburn|Amazon Technologies Inc.|
-|16|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|17|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|18|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|19|200.123.27.162|999|Peru|Lima|Wigo S.A.|
-|20|140.210.152.111|10809|China|Shanghai|China Unicom|
+|8|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|9|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
+|10|167.172.79.231|1080|Singapore|Singapore|DigitalOcean, LLC|
+|11|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|12|143.198.197.168|1080|Singapore|Singapore|DigitalOcean, LLC|
+|13|3.228.132.130|80|United States|Ashburn|Amazon Technologies Inc.|
+|14|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|15|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|16|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|17|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|18|201.219.57.146|999|Ecuador|Quito|Corporacion Nacional De Telecomunicaciones - CNT EP|
+|19|144.24.207.98|8080|France|Marseille|Oracle Corporation|
+|20|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
 
 
 
