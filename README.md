@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6123** proxies at the latest update. Usable proxies are below.
+> Scraper found **6158** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|547|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|547|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|547|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|550|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|550|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|550|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1387|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1422|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|554|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2831|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|6|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|7|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
-|11|137.184.110.36|443|United States|North Bergen|DigitalOcean, LLC|
+|1|45.15.16.205|8118|Sweden|Stockholm|Obehosting AB|
+|2|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
+|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|7|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
+|8|137.184.110.36|443|United States|North Bergen|DigitalOcean, LLC|
+|9|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|10|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|11|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
 |12|110.78.146.12|8080|Thailand|Ban Thepha|CAT-BB|
-|13|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|14|78.189.172.112|3128|Turkey|Istanbul|TTNet A.S.|
-|15|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|16|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|13|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|14|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|15|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|16|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
 |17|104.238.183.155|8888|United States|Santa Clara|The Constant Company|
-|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|19|115.144.109.179|10000|South Korea|Donggu|Korea Telecom|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
+|20|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 
 
 
