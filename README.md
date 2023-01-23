@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5627** proxies at the latest update. Usable proxies are below.
+> Scraper found **5654** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -34,10 +34,10 @@ Click the file format that you want and copy the URL.
 |[proxydb.net](http://proxydb.net)|15|✅|
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
-|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
+|[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1188|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1183|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|292|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2796|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|193.123.103.34|8080|Brazil|Vinhedo|Oracle Corporation|
-|3|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|4|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|5|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|6|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|7|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|11|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|12|185.150.130.103|808|Turkey|Izmir|Alastyr Telekomunikasyon A.S.|
-|13|51.158.154.173|3128|France|Paris|SCALEWAY|
-|14|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|15|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|16|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|19|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|178.160.194.17|80|Armenia|Yerevan|Telecom Armenia CJSC|
+|1|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
+|3|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|4|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
+|5|143.198.197.168|1080|Singapore|Singapore|DigitalOcean, LLC|
+|6|85.239.233.184|80|United States|Seattle|Contabo Inc.|
+|7|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|143.198.213.77|1080|Singapore|Singapore|DigitalOcean, LLC|
+|11|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|12|143.198.213.78|1080|Singapore|Singapore|DigitalOcean, LLC|
+|13|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|14|3.228.132.130|80|United States|Ashburn|Amazon Technologies Inc.|
+|15|137.184.110.36|443|United States|North Bergen|DigitalOcean, LLC|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|85.239.233.184|80|United States|Seattle|Contabo Inc.|
+|18|111.225.152.139|8089|China|Gaocheng|Chinanet|
+|19|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|20|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
 
 
 
