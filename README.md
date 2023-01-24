@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|668|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|668|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|668|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|506|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|506|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|506|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|1|140.227.25.191|23456|Japan|Yonabaru|InfoSphere|
 |2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 |3|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|8.219.137.206|8081|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|143.198.213.77|1080|Singapore|Singapore|DigitalOcean, LLC|
+|5|143.198.213.72|1080|Singapore|Singapore|DigitalOcean, LLC|
+|6|143.198.203.147|1080|Singapore|Singapore|DigitalOcean, LLC|
 |7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|13|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|16|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|18|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|8|143.198.213.78|1080|Singapore|Singapore|DigitalOcean, LLC|
+|9|119.76.142.130|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
+|10|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|46.225.237.146|3128|Iran|Tehran|Dadeh Gostar Asr Novin P.J.S. Co.|
+|14|167.172.79.231|1080|Singapore|Singapore|DigitalOcean, LLC|
+|15|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|16|143.198.212.109|9090|Singapore|Singapore|DigitalOcean, LLC|
+|17|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|20|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 
 
 
