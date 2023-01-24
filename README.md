@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6272** proxies at the latest update. Usable proxies are below.
+> Scraper found **6247** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|631|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|631|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|631|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|632|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|632|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|632|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|0|🚫|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1437|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1412|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|611|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2873|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|1|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|2|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
 |3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|7|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|145.40.121.103|3128|Brazil|São Paulo|Packet Host, Inc.|
-|10|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|11|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|12|143.198.212.109|9090|Singapore|Singapore|DigitalOcean, LLC|
-|13|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|14|143.198.197.168|1080|Singapore|Singapore|DigitalOcean, LLC|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|145.40.121.103|3128|Brazil|São Paulo|Packet Host, Inc.|
+|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|9|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|10|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|143.198.213.78|1080|Singapore|Singapore|DigitalOcean, LLC|
+|13|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|14|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |15|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|16|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|20|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|16|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|17|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|19|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|20|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 
 
 
