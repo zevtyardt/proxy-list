@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|720|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|720|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|720|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|668|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|668|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|668|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|2|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|9|103.141.109.237|8080|Indonesia|Trenggalek|Data Buana Nusantara|
-|10|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|11|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|12|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|13|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|14|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|16|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|19|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|20|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|3|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|4|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|5|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|6|89.218.186.133|3128|Kazakhstan|Pavlodar|Kazakhtelecom Data Network Administration|
+|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|8|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|9|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|10|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|11|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|13|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|14|143.198.212.109|9090|Singapore|Singapore|DigitalOcean, LLC|
+|15|51.159.115.233|3128|France|Paris|SCALEWAY|
+|16|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|17|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|19|105.242.158.92|3129|South Africa|Johannesburg|Vodacom ENS|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
