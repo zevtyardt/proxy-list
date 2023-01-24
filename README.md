@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|606|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|606|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|606|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|610|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|610|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|610|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |2|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|4|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |5|180.183.29.52|8080|Thailand|Songkhla|Triple T Broadband Public Company Limited|
-|6|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|7|147.135.134.57|9300|France|Roubaix|OVH SAS|
+|6|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|7|38.52.220.162|999|Dominican Republic|Santo Domingo Este|TELECABLE DOMINICANO, S.A.|
 |8|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|45.142.122.27|55555|Russia|Moscow|AEZA GROUP Ltd|
+|9|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|10|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
 |11|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|12|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|13|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|14|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|15|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
-|16|167.249.29.218|999|Chile|Santiago|Grupo Metrowan Telecom SPA|
-|17|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|18|103.151.247.65|8080|Indonesia|Mamuju|MANAKARRANET|
-|19|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|20|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|12|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|13|45.142.122.27|55555|Russia|Moscow|AEZA GROUP Ltd|
+|14|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|15|94.103.85.88|9300|Russia|Moscow|VDSINA|
+|16|14.207.121.166|8080|Thailand|Ban Laem Bang Yang|Triple T Broadband Public Company Limited|
+|17|105.242.158.92|3129|South Africa|Johannesburg|Vodacom ENS|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|90.114.27.196|3128|France|Annemasse|TVCCONV|
+|20|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
 
 
 
