@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|687|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|687|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|687|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|626|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|626|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|626|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|3|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|5|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|6|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|7|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
 |9|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|143.198.212.109|9090|Singapore|Singapore|DigitalOcean, LLC|
-|11|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|12|69.87.216.143|3128|United States|Santa Clara|Atlantic.net|
-|13|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|14|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|15|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|16|198.167.198.116|8118|Sweden|Malmo|ab stract|
-|17|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|18|143.198.213.77|1080|Singapore|Singapore|DigitalOcean, LLC|
-|19|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|20|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|10|51.159.115.233|3128|France|Paris|SCALEWAY|
+|11|143.198.213.77|1080|Singapore|Singapore|DigitalOcean, LLC|
+|12|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|13|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|14|143.198.213.70|1080|Singapore|Singapore|DigitalOcean, LLC|
+|15|69.87.216.143|3128|United States|Santa Clara|Atlantic.net|
+|16|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|17|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|18|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|19|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|20|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
