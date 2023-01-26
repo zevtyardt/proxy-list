@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7540** proxies at the latest update. Usable proxies are below.
+> Scraper found **7608** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|633|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|633|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|633|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|252|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|252|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|252|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1981|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2049|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|813|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3363|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|2|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|3|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|4|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
-|5|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|6|23.107.176.202|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|8|23.107.176.185|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|9|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|10|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|11|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|12|23.107.176.182|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|13|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|14|23.107.176.182|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|15|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|16|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|17|51.159.115.233|3128|France|Paris|SCALEWAY|
-|18|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|19|23.107.176.251|32180|United States|Los Angeles|Leaseweb USA, Inc.|
-|20|192.210.172.22|8080|United States|Los Angeles|ColoCrossing|
+|1|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|2|51.75.149.14|80|Germany|Limburg an der Lahn|OVH SAS|
+|3|172.105.75.108|3128|Germany|Frankfurt am Main|Linode, LLC|
+|4|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|5|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|6|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|161.35.195.16|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
+|9|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|10|157.230.48.29|3128|United States|North Bergen|DigitalOcean, LLC|
+|11|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|12|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|13|54.208.22.128|8080|United States|Ashburn|Amazon.com, Inc.|
+|14|167.235.28.28|81|Germany|Falkenstein|Hetzner Online GmbH|
+|15|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|16|223.206.37.60|80|Thailand|Ratchaburi|Triple T Broadband Public Company Limited|
+|17|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|18|50.21.176.113|3128|United States|Philadelphia|IONOS SE|
+|19|143.198.213.78|1080|Singapore|Singapore|DigitalOcean, LLC|
+|20|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
 
 
 
