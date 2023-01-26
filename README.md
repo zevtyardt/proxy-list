@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7745** proxies at the latest update. Usable proxies are below.
+> Scraper found **7687** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|848|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|848|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|848|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|823|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|823|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|823|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2195|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2137|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|804|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3363|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|2|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|3|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|4|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|135.181.95.68|7001|Finland|Helsinki|Hetzner Online GmbH|
-|7|51.79.50.46|9300|Canada|Victoria|OVH SAS|
-|8|140.227.25.191|23456|Japan|Yonabaru|InfoSphere|
-|9|161.35.195.16|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|13|45.32.45.9|3128|Japan|Shinagawa|Choopa|
-|14|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|15|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|16|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|17|50.21.176.113|3128|United States|Philadelphia|IONOS SE|
-|18|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|19|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|20|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|2|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|8|51.75.149.14|80|Germany|Limburg an der Lahn|OVH SAS|
+|9|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|10|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|11|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|12|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|13|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|14|51.159.115.233|3128|France|Paris|SCALEWAY|
+|15|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|16|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
+|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|18|143.198.212.109|9090|Singapore|Singapore|DigitalOcean, LLC|
+|19|161.35.195.16|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
 
 
 
