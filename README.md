@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6841** proxies at the latest update. Usable proxies are below.
+> Scraper found **7065** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|515|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|515|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|515|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1880|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2023|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|714|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|795|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2864|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|2|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|4|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|143.198.197.168|1080|Singapore|Singapore|DigitalOcean, LLC|
-|7|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|9|86.120.122.3|3128|Romania|Galati|RCS & RDS|
-|10|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|14|143.198.212.109|9090|Singapore|Singapore|DigitalOcean, LLC|
-|15|178.254.143.10|8080|Serbia|Belgrade|Orion Telekom ISP IP Network|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|18|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|19|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|20|135.181.32.230|9300|Finland|Helsinki|Hetzner Online GmbH|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|4|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|5|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|6|86.120.122.3|3128|Romania|Galati|RCS & RDS|
+|7|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|8|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|9|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|12|213.59.156.119|3128|Russia|Tomsk|ZT-TOMSK|
+|13|143.198.213.70|1080|Singapore|Singapore|DigitalOcean, LLC|
+|14|135.181.32.230|9300|Finland|Helsinki|Hetzner Online GmbH|
+|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|16|216.215.123.174|8080|United States|Houston|Logix|
+|17|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|18|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|19|173.44.42.66|1994|United States|Miami|QuadraNet Enterprises LLC|
+|20|155.94.185.137|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
 
 
 
