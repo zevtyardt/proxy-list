@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7699** proxies at the latest update. Usable proxies are below.
+> Scraper found **7586** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|162|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|162|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|162|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|223|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|223|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|223|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2287|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2174|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|791|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3238|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|2|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|3|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|4|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
-|5|41.77.143.62|80|United Kingdom|London|CityNet Host|
-|6|47.254.152.98|80|Germany|Frankfurt am Main|Alibaba.com LLC|
-|7|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|8|51.38.230.146|80|France|Gravelines|OVH SAS|
-|9|87.255.6.218|8080|Russia|Khimki|BIG TELECOM CLOSED JSC|
-|10|54.208.22.128|8080|United States|Ashburn|Amazon.com, Inc.|
-|11|190.103.28.93|999|Venezuela|Valencia|Corporacion Fibex Telecom|
-|12|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|13|203.150.128.4|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|14|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|15|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|16|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|177.71.130.248|80|Brazil|São Paulo|Amazon.com, Inc.|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|4|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|5|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
+|6|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|7|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|9|51.159.115.233|3128|France|Paris|SCALEWAY|
+|10|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|11|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|12|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|13|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|16|203.150.128.4|8080|Thailand|Watthana|Internet Thailand Company Ltd|
+|17|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
 |18|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|19|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|20|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|19|54.208.22.128|8080|United States|Ashburn|Amazon.com, Inc.|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
