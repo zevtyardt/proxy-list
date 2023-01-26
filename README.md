@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7564** proxies at the latest update. Usable proxies are below.
+> Scraper found **7435** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|608|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|608|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|608|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|811|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|811|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|811|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2054|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1894|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|760|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|791|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3367|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.194.232.179|1994|United States|Santa Clarita|Multacom Corporation|
-|2|198.211.55.167|1994|United States|Santa Clarita|Multacom Corporation|
-|3|72.11.130.145|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
-|4|72.44.67.178|1994|United States|Santa Clarita|Multacom Corporation|
-|5|216.127.188.18|1994|United States|Santa Clarita|Multacom Corporation|
-|6|198.52.115.114|1994|United States|Santa Clarita|Multacom Corporation|
-|7|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
-|8|170.178.193.106|1994|United States|Santa Clarita|Multacom Corporation|
-|9|198.52.114.146|1994|United States|Santa Clarita|Multacom Corporation|
-|10|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|11|100.42.79.61|1994|United States|Santa Clarita|Multacom Corporation|
-|12|173.82.12.10|1994|United States|Santa Clarita|Multacom Corporation|
-|13|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|14|173.82.43.108|1994|United States|Santa Clarita|Multacom Corporation|
-|15|155.94.185.137|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
-|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|17|173.82.150.9|1994|United States|Santa Clarita|Multacom Corporation|
-|18|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|19|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|173.82.12.10|1994|United States|Santa Clarita|Multacom Corporation|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|198.52.114.146|1994|United States|Santa Clarita|Multacom Corporation|
+|3|173.82.12.238|1994|United States|Santa Clarita|Multacom Corporation|
+|4|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
+|5|72.44.67.178|1994|United States|Santa Clarita|Multacom Corporation|
+|6|170.178.193.106|1994|United States|Santa Clarita|Multacom Corporation|
+|7|198.211.55.167|1994|United States|Santa Clarita|Multacom Corporation|
+|8|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
+|9|104.194.232.179|1994|United States|Santa Clarita|Multacom Corporation|
+|10|198.52.115.114|1994|United States|Santa Clarita|Multacom Corporation|
+|11|173.82.200.90|1994|United States|Santa Clarita|Multacom Corporation|
+|12|216.127.188.18|1994|United States|Santa Clarita|Multacom Corporation|
+|13|96.45.160.98|1994|United States|Santa Clarita|Multacom Corporation|
+|14|173.44.42.66|1994|United States|Miami|QuadraNet Enterprises LLC|
+|15|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|16|72.11.130.145|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
+|17|155.94.171.252|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
+|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|19|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
+|20|72.44.76.76|1994|United States|Santa Clarita|Multacom Corporation|
 
 
 
