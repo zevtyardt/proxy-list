@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6889** proxies at the latest update. Usable proxies are below.
+> Scraper found **6861** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|719|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|719|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|719|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|680|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|680|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|680|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1836|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1741|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|649|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|716|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3021|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
 |2|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|3|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
-|13|143.198.213.78|1080|Singapore|Singapore|DigitalOcean, LLC|
-|14|179.60.240.69|53281|Colombia|Galapa|ITELKOM|
+|3|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|4|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|5|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|6|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|7|167.172.79.231|1080|Singapore|Singapore|DigitalOcean, LLC|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|11|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|12|143.198.197.168|1080|Singapore|Singapore|DigitalOcean, LLC|
+|13|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|14|145.40.121.21|3128|Brazil|São Paulo|Packet Host, Inc.|
 |15|143.198.212.109|9090|Singapore|Singapore|DigitalOcean, LLC|
-|16|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|17|208.79.8.81|9080|United States|Saint Joseph|SkyRider Communications|
-|18|24.172.82.94|53281|United States|Concord|Spectrum|
-|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|20|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|18|41.169.72.4|8090|South Africa|Alberton|Liquid Telecommunications South Africa (Pty) Ltd|
+|19|51.159.115.233|3128|France|Paris|SCALEWAY|
+|20|208.79.8.81|9080|United States|Saint Joseph|SkyRider Communications|
 
 
 
