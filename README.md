@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|807|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|807|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|807|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|190|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|190|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|190|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|4|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|7|201.229.250.20|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|8|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|9|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|2|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|5|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|6|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|7|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|8|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|9|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |10|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|11|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|12|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|17|8.9.6.242|6868|United States|Piscataway|The Constant Company, LLC|
-|18|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|19|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|12|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|18|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|19|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|20|3.34.125.210|3128|South Korea|Seoul|Amazon.com, Inc.|
 
 
 
