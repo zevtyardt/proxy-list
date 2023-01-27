@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6997** proxies at the latest update. Usable proxies are below.
+> Scraper found **7239** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|776|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|776|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|776|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|437|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|437|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|437|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1754|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1996|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|779|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3081|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|2|104.225.250.10|3128|United States|Las Vegas|VegasNAP, LLC|
-|3|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|4|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|5|41.180.70.89|8080|South Africa|Roshnee|X-DSL Networking Solutions|
-|6|104.225.250.10|3128|United States|Las Vegas|VegasNAP, LLC|
-|7|155.94.171.252|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
-|8|198.74.115.120|1994|United States|Santa Clarita|Multacom Corporation|
+|1|104.225.250.10|3128|United States|Las Vegas|VegasNAP, LLC|
+|2|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
+|3|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|4|104.225.250.10|3128|United States|Las Vegas|VegasNAP, LLC|
+|5|104.194.228.118|1994|United States|Los Angeles|Multacom Corporation|
+|6|8.6.8.148|3128|United States|Los Angeles|The Constant Company, LLC|
+|7|104.248.40.5|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|134.209.180.166|1994|United Kingdom|London|DigitalOcean, LLC|
 |9|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|1.255.134.136|3128|South Korea|Geoje|SK Broadband Co Ltd|
 |13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|156.67.172.185|3128|Germany|Uedem|Deutsche Glasfaser Business GmbH|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|17|119.82.241.21|8080|Indonesia|Embongkaliasin|Indonesia Network Information Center|
-|18|103.83.19.126|80|Afghanistan|Kabul||
-|19|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
-|20|155.94.220.8|1994|United States|Miami|QuadraNet Enterprises LLC|
+|14|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|15|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
+|16|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|17|103.179.84.41|3127|Indonesia|Boyolali|PT CYB Media Group|
+|18|183.221.242.103|9443|China|Mianyang|China Mobile|
+|19|183.172.160.103|4780|China|Haidian|CERNET|
+|20|101.99.32.122|8080|Vietnam|Ho Chi Minh City|CMC Telecom Infrastructure Company|
 
 
 
