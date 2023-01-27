@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7634** proxies at the latest update. Usable proxies are below.
+> Scraper found **7881** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|696|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|696|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|696|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|185|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|185|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|185|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2156|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2563|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|974|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|814|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3121|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|2|23.88.40.50|40000|Germany|Gunzenhausen|Hetzner Online GmbH|
-|3|154.72.74.210|80|Tanzania|Dar es Salaam|Liquid Telecommunications Ltd|
-|4|158.69.27.94|9300|Canada|Montreal|OVH SAS|
-|5|213.59.156.119|3128|Russia|Tomsk|ZT-TOMSK|
-|6|31.186.48.232|3128|Kyrgyzstan|Bishkek|AKNET Ltd.|
-|7|110.77.171.118|8080|Thailand|Samphanthawong|CAT-BB|
-|8|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
-|9|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|164.92.71.193|1994|United States|Santa Clara|DigitalOcean, LLC|
-|12|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
-|13|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|15|128.199.104.25|8080|Singapore|Singapore|DigitalOcean, LLC|
-|16|165.22.57.238|443|Singapore|Singapore|DigitalOcean, LLC|
-|17|159.65.248.58|1994|United States|Clifton|DigitalOcean, LLC|
-|18|93.118.110.28|3128|Iran|Tehran|Iran Telecommunication Company PJS|
-|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|20|87.248.246.170|3128|Russia|St Petersburg|SkyNet Ltd.|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
+|3|200.119.89.19|80|Colombia|Bogotá|ETB - Colombia|
+|4|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|5|20.122.27.242|80|United States|Boydton|Microsoft Corporation|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|165.232.132.197|1994|United States|Santa Clara|DigitalOcean, LLC|
+|8|165.22.57.238|443|Singapore|Singapore|DigitalOcean, LLC|
+|9|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|10|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|11|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|12|159.65.248.58|1994|United States|Clifton|DigitalOcean, LLC|
+|13|129.152.25.46|80|Italy|Siziano|Oracle Corporation|
+|14|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
+|15|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|16|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|17|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
+|18|61.7.175.63|8080|Thailand|Ban Pho|CAT Telecom Public Company Limited|
+|19|103.94.123.210|80|Indonesia|Gandul|ICONPLN|
+|20|110.77.171.118|8080|Thailand|Samphanthawong|CAT-BB|
 
 
 
