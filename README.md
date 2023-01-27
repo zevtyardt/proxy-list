@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7133** proxies at the latest update. Usable proxies are below.
+> Scraper found **7235** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|864|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|864|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|864|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|635|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|635|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|635|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1735|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1880|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|897|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3118|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3075|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|174.81.78.64|48678|United States|Teachey|Charter Communications|
-|2|46.219.80.142|57401|Ukraine|Kyiv|o3 core|
+|1|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|2|158.69.71.245|9300|Canada|Montreal|OVH SAS|
 |3|196.201.110.117|8088|South Africa|Vereeniging|iConnectSA (Pty) Ltd|
-|4|191.103.219.225|48612|Colombia|Montería|Edatel S.a. E.S.P|
-|5|129.80.58.106|3128|United States|Ashburn|Oracle Corporation|
-|6|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|191.97.15.19|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|9|47.57.184.128|80|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|112.87.140.163|9443|China|Suzhou|China Unicom CHINA169 Jiangsu Province Network|
-|11|103.4.164.204|8080|Indonesia|Jakarta|FIBERNET|
-|12|45.179.246.129|999|Colombia|Acevedo|TV AZTECA SUCURSAL COLOMBIA|
-|13|121.204.148.136|9002|China|Qingzhou|Fuzhou|
-|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|83.143.101.132|1234|Poland|Katowice|COMNET-KATOWICE|
-|16|170.83.242.250|999|Paraguay|Asunción|Ufinet Panama S.A.|
-|17|185.191.205.188|8118|Israel|Tel Aviv|Rachamim Aviel Twito trading as A.B INTERNET SOLUTIONS|
-|18|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|19|103.140.109.93|8080|Indonesia|Jakarta|PT. Fiber Networks Indonesia|
-|20|142.93.113.57|1994|United States|North Bergen|DigitalOcean, LLC|
+|4|88.157.181.42|8080|Portugal|Porto|NOS COMUNICACOES S.A|
+|5|200.7.10.158|8080|Brazil|Itumbiara|Conexao Telematica LTDA|
+|6|181.204.118.50|8080|Colombia|Barranquilla|EPM Telecomunicaciones S.A. E.S.P.|
+|7|212.46.230.102|6969|Russia|Chelyabinsk|PJSC "Vimpelcom"|
+|8|100.42.69.66|1994|United States|Santa Clarita|Multacom Corporation|
+|9|107.172.27.207|1994|United States|Atlanta|ColoCrossing|
+|10|198.211.55.167|1994|United States|Canyon Country|Multacom Corporation|
+|11|103.248.197.12|3125|Indonesia|Batam|PERMANA|
+|12|173.82.46.142|1994|United States|Santa Clarita|Multacom Corporation|
+|13|216.127.188.18|1994|United States|Santa Clarita|Multacom Corporation|
+|14|209.37.250.19|80|United States|Gary|AT&T Services, Inc.|
+|15|134.122.108.27|1994|United Kingdom|London|DigitalOcean, LLC|
+|16|109.228.64.227|81|Montenegro|Bar|Crnogorski Telekom A.D. Podgorica|
+|17|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|204.199.67.173|999|Colombia|El Charco|CTL Colombia|
+|20|45.161.113.0|999|Chile|Salamanca|Servicios E Inversiones Villasolis Ltda.|
 
 
 
