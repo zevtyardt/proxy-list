@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7199** proxies at the latest update. Usable proxies are below.
+> Scraper found **7220** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|222|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|222|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|222|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|839|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|839|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|839|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1859|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1880|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|882|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3075|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|165.232.132.197|1994|United States|Santa Clara|DigitalOcean, LLC|
-|2|159.89.115.8|1994|Canada|Toronto|DigitalOcean, LLC|
-|3|164.92.67.15|1994|United States|Santa Clara|DigitalOcean, LLC|
-|4|159.203.28.246|1994|Canada|Toronto|DigitalOcean, LLC|
-|5|143.198.150.120|1994|United States|Santa Clara|DigitalOcean, LLC|
-|6|161.35.203.216|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|7|143.110.155.17|1994|United States|Santa Clara|DigitalOcean, LLC|
-|8|134.122.60.158|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
-|9|47.241.165.133|443|Singapore|Singapore|Alibaba.com LLC|
-|10|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|11|157.230.32.220|1994|Singapore|Singapore|DigitalOcean, LLC|
-|12|167.99.243.231|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|206.189.103.187|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
-|15|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|16|170.64.137.67|1994|Australia|Sydney|DigitalOcean, LLC|
+|1|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|3|134.209.234.212|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|6|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|9|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|10|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|11|144.22.249.38|80|Brazil|São Paulo|Oracle Corporation|
+|12|164.92.65.9|1994|United States|Santa Clara|DigitalOcean, LLC|
+|13|143.198.150.120|1994|United States|Santa Clara|DigitalOcean, LLC|
+|14|51.159.115.233|3128|France|Paris|SCALEWAY|
+|15|159.89.115.8|1994|Canada|Toronto|DigitalOcean, LLC|
+|16|159.203.28.246|1994|Canada|Toronto|DigitalOcean, LLC|
 |17|167.99.254.109|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|51.159.115.233|3128|France|Paris|SCALEWAY|
-|19|170.64.128.216|1994|Australia|Sydney|DigitalOcean, LLC|
-|20|182.253.141.122|8080|Indonesia|Semarang|Biznet Networks|
+|18|128.199.50.45|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
+|19|143.198.150.120|1994|United States|Santa Clara|DigitalOcean, LLC|
+|20|134.122.60.158|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
 
 
 
