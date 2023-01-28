@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7656** proxies at the latest update. Usable proxies are below.
+> Scraper found **7644** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|92|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|92|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|92|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|113|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|113|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|113|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2195|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2183|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|783|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3295|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|34.245.27.31|3128|Ireland|Dublin|Amazon Technologies Inc.|
+|1|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|4|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|7|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|3|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|5|43.153.34.157|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
 |8|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|9|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|10|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|11|41.186.44.106|3128|Rwanda|Kigali|MTN Rwandacell|
-|12|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|13|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
-|14|173.82.200.90|1994|United States|Santa Clarita|Multacom Corporation|
-|15|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|16|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|19|144.22.249.38|80|Brazil|São Paulo|Oracle Corporation|
-|20|198.52.105.249|1994|United States|Santa Clarita|Multacom Corporation|
+|9|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|12|167.88.10.211|1994|United States|Chicago|Nexeon Technologies, Inc.|
+|13|107.175.96.34|1994|United States|Buffalo|Nexeon Technologies, Inc.|
+|14|168.0.239.225|8787|Brazil|Salvador|VOANET Telecomunicações Ltda.|
+|15|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|16|72.11.130.145|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
+|17|190.113.41.164|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
+|18|104.128.239.58|3128|United States|Dallas|HostUS Solutions LLC|
+|19|103.85.114.244|8080|Bangladesh|Tejgaon|Apple Communication Ltd.|
+|20|64.56.218.185|8080|United States|Vicksburg|Upchurch Telecom & Data, Inc.|
 
 
 
