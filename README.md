@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5734** proxies at the latest update. Usable proxies are below.
+> Scraper found **5823** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|588|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|588|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|588|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|641|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|641|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|641|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1262|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1351|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|371|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2718|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|35.223.150.250|3128|United States|Council Bluffs|Google LLC|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |3|35.223.150.250|3128|United States|Council Bluffs|Google LLC|
-|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|161.77.221.208|3129|United States|Springfield|Crocker Communications|
-|8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|8|14.181.166.216|3128|Vietnam|Hanoi|VNPT|
 |9|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|11|161.77.221.27|3129|United States|Springfield|Crocker Communications|
+|10|103.25.210.226|8989|Indonesia|Purwokerto|TRANSDATA|
+|11|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
 |12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|14|137.184.110.36|443|United States|North Bergen|DigitalOcean, LLC|
-|15|14.181.166.216|3128|Vietnam|Hanoi|VNPT|
-|16|161.77.221.198|3129|United States|Springfield|Crocker Communications|
-|17|103.25.210.226|8989|Indonesia|Purwokerto|TRANSDATA|
-|18|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|19|161.77.221.94|3129|United States|Springfield|Crocker Communications|
-|20|93.118.110.28|3128|Iran|Tehran|Iran Telecommunication Company PJS|
+|13|161.77.221.195|3129|United States|Springfield|Crocker Communications|
+|14|161.77.221.38|3129|United States|Springfield|Crocker Communications|
+|15|161.77.221.195|3129|United States|Springfield|Crocker Communications|
+|16|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|17|137.184.110.36|443|United States|North Bergen|DigitalOcean, LLC|
+|18|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|19|147.28.182.125|3128|United States|Dallas|Packet Host, Inc.|
+|20|161.77.221.198|3129|United States|Springfield|Crocker Communications|
 
 
 
