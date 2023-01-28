@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6017** proxies at the latest update. Usable proxies are below.
+> Scraper found **5995** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|588|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|588|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|588|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|600|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|600|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|600|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1509|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1487|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|557|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2568|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|2|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|3|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|4|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
-|5|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|8|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|9|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|10|143.198.213.77|1080|Singapore|Singapore|DigitalOcean, LLC|
-|11|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|3|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|5|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|6|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|7|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
+|8|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|143.198.213.70|1080|Singapore|Singapore|DigitalOcean, LLC|
+|11|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
 |12|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|13|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
-|14|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|15|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
-|17|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|19|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|20|201.20.67.70|8080|Brazil|Sao Raimundo Nonato|MOB SERVICOS DE TELECOMUNICACOES S.A.|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|16|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|17|158.69.27.94|9300|Canada|Montreal|OVH SAS|
+|18|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|19|195.252.219.139|8080|United States|Normal|Metronet|
+|20|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
 
 
 
