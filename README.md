@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6816** proxies at the latest update. Usable proxies are below.
+> Scraper found **6631** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|796|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|796|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|796|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|679|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|679|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|679|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1777|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1592|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|694|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2962|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
-|2|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|3|45.175.237.174|999|Mexico|Ixmiquilpan|Hulux Telecomunicaciones|
-|4|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|5|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|6|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|7|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|8|52.166.146.157|3128|Netherlands|Amsterdam|Microsoft Corporation|
-|9|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|10|179.152.30.38|8080|Brazil|Porto Alegre|Claro NXT Telecomunicacoes Ltda|
-|11|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|12|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
-|13|91.109.184.7|8118|France|Paris|Ielo-liazo Services SAS|
+|1|47.88.29.57|9666|United States|San Mateo|Alibaba.com LLC|
+|2|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|4|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|5|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
+|7|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|12|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
+|13|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
 |14|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|15|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
-|16|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|17|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|18|190.145.200.82|999|Colombia|Itaguei|Telmex Colombia S.A.|
-|19|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|20|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
+|15|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
 
 
 
