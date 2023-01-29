@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6069** proxies at the latest update. Usable proxies are below.
+> Scraper found **6003** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|638|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|638|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|638|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|692|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|692|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|692|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1335|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1289|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|658|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|638|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2693|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|1|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|2|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |4|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|5|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|6|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
-|7|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
-|8|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
-|9|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|10|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|11|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|12|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|13|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
-|14|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
-|15|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|16|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|181.129.138.114|30838|Colombia|Manizales|EPM Telecomunicaciones S.A. E.S.P.|
-|19|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|20|185.49.97.21|8080|Iran|Tajrīsh|SYS-Core|
+|5|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|6|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|10|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
+|11|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|12|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
+|13|5.78.52.141|8888|United States|Portland|Hetzner Online GmbH|
+|14|167.172.79.231|1080|Singapore|Singapore|DigitalOcean, LLC|
+|15|116.98.54.150|4001|Vietnam|Da Nang|Viettel Corporation|
+|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|17|103.190.170.53|3128|Indonesia|Yogyakarta|PT Ring Media Nusantara|
+|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|19|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
+|20|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
 
 
 
