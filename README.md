@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6534** proxies at the latest update. Usable proxies are below.
+> Scraper found **6798** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|535|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|535|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|535|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|585|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|585|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|585|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1922|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2186|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|699|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2530|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.161.81.198|3128|United States|Ashburn|Hetzner Online GmbH|
-|2|107.172.27.207|1994|United States|Atlanta|ColoCrossing|
-|3|167.99.254.109|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|5.202.103.100|514|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
-|5|143.198.46.207|1994|Canada|Toronto|DigitalOcean, LLC|
-|6|164.92.65.9|1994|United States|Santa Clara|DigitalOcean, LLC|
-|7|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|8|198.211.103.87|1994|United States|North Bergen|DigitalOcean, LLC|
-|9|139.59.130.29|1994|Germany|Frankfurt am Main|DIGITALOCEAN|
-|10|206.189.103.187|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
-|11|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|12|46.182.87.226|3128|Ukraine|Kyiv|Gigatrans' peering network|
-|13|157.245.148.76|1080|Singapore|Singapore|DigitalOcean, LLC|
-|14|164.92.65.9|1994|United States|Santa Clara|DigitalOcean, LLC|
-|15|5.161.81.198|3128|United States|Ashburn|Hetzner Online GmbH|
-|16|178.62.85.5|1994|United Kingdom|London|DigitalOcean, LLC|
-|17|134.209.180.166|1994|United Kingdom|London|DigitalOcean, LLC|
-|18|143.198.38.61|1994|Canada|Toronto|DigitalOcean, LLC|
-|19|128.199.50.45|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
-|20|134.209.127.230|1994|United States|North Bergen|DigitalOcean, LLC|
+|1|129.213.95.20|80|United States|Ashburn|Oracle Corporation|
+|2|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
+|3|159.223.172.141|1994|United States|North Bergen|DigitalOcean, LLC|
+|4|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|5|100.42.69.66|1994|United States|Santa Clarita|Multacom Corporation|
+|6|216.37.138.177|3128|United States|Clarks Summit|Frontier Communications of America|
+|7|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|8|167.99.243.231|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|159.65.248.58|1994|United States|Clifton|DigitalOcean, LLC|
+|10|183.88.195.97|8080|Thailand|Si Maha Phot|Triple T Broadband Public Company Limited|
+|11|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|12|216.127.188.23|1994|United States|Santa Clarita|Multacom Corporation|
+|13|143.110.172.248|1994|United Kingdom|London|DigitalOcean, LLC|
+|14|139.59.166.128|1994|United Kingdom|London|DIGITALOCEAN|
+|15|164.92.147.20|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
+|16|104.194.227.12|1994|United States|Santa Clarita|Multacom Corporation|
+|17|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|18|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|19|142.93.113.57|1994|United States|North Bergen|DigitalOcean, LLC|
+|20|46.101.155.180|1994|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
