@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6884** proxies at the latest update. Usable proxies are below.
+> Scraper found **6991** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|114|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|114|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|114|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|754|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|754|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|754|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1822|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1929|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|674|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3005|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|2|185.198.61.146|3128|Italy|Milan|Global Router LLC|
-|3|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|4|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
-|5|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
-|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|7|212.14.243.29|8080|Palestine|Nablus|PALTEL (Palestine Telecommunications Co.).|
-|8|145.40.96.109|3128|Netherlands|Amsterdam|Packet Host, Inc.|
-|9|47.243.180.142|808|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
-|11|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
-|12|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|13|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
-|14|119.42.67.195|8080|Thailand|Samphanthawong|CAT-BB|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
-|17|143.0.176.136|8088|Brazil|Morro do Chapeu do Piaui|Fiberlink Telecom Ltda|
-|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|19|185.31.160.138|3128|Russia|Moscow|SPACENET|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|185.198.61.146|3128|Italy|Milan|Global Router LLC|
+|2|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
+|3|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|4|162.254.3.11|3128|United States|Ashburn|Sneaker Server|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
+|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|8|162.254.3.12|3128|United States|Ashburn|Sneaker Server|
+|9|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|162.254.3.10|3128|United States|Ashburn|Sneaker Server|
+|11|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|14|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|15|185.31.160.138|3128|Russia|Moscow|SPACENET|
+|16|145.40.96.109|3128|Netherlands|Amsterdam|Packet Host, Inc.|
+|17|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|18|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
+|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|20|119.42.67.195|8080|Thailand|Samphanthawong|CAT-BB|
 
 
 
