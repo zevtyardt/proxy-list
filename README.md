@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6777** proxies at the latest update. Usable proxies are below.
+> Scraper found **6965** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|701|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|701|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|701|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|841|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|841|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|841|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1766|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1858|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|661|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|757|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2967|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
-|2|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
-|3|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|4|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|5|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|6|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|7|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|8|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|2|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|6|205.185.126.246|3128|United States|Las Vegas|FranTech Solutions|
+|7|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
+|8|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
 |9|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|10|163.172.209.85|7777|Netherlands|Amsterdam|Online SAS NL|
-|11|208.79.8.81|9080|United States|Grayson|SkyRider Communications|
-|12|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
-|13|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|14|88.255.65.120|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
-|15|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|16|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|17|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|18|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|19|61.216.156.222|60808|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
-|20|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|10|193.122.134.214|80|United States|Ashburn|Oracle Corporation|
+|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|12|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|13|88.255.65.120|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|14|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|15|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|16|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|17|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|18|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|19|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
+|20|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
 
 
 
