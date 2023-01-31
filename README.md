@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|671|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|671|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|671|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|286|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|286|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|286|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
-|2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|1|103.89.12.71|3128|United States|Miami|OMC Computers and Communications LTD|
+|2|151.80.95.161|8080|France|Roubaix|OVH SAS|
 |3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
-|5|151.80.95.161|8080|France|Roubaix|OVH SAS|
-|6|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|7|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|10|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|11|115.89.152.118|8080|South Korea|Yongsan-dong|LG DACOM Corporation|
-|12|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|2.187.222.163|8080|Iran|Urmia|Iran Telecommunication Company PJS|
+|4|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|5|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|6|144.24.147.239|3128|India|Hyderabad|Oracle Corporation|
+|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|8|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|103.89.12.71|3128|United States|Miami|OMC Computers and Communications LTD|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|13|115.89.152.118|8080|South Korea|Yongsan-dong|LG DACOM Corporation|
+|14|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|15|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
 |16|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|41.180.217.28|8080|South Africa|Pretoria|X-DSL Networking Solutions|
-|19|103.119.230.60|80|Indonesia|Bogor|PT MITRA VISIONER PRATAMA|
-|20|140.227.33.174|1000|Japan|Osaka|InfoSphere|
+|17|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
+|18|190.113.41.164|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
+|19|41.180.217.28|8080|South Africa|Pretoria|X-DSL Networking Solutions|
+|20|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
 
 
 
