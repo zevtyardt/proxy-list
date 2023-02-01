@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|528|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|528|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|528|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|506|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|506|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|506|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
-|3|151.80.95.161|8080|France|Roubaix|OVH SAS|
-|4|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|1|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
+|2|151.80.95.161|8080|France|Roubaix|OVH SAS|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 |5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|146.190.94.249|8080|Singapore|Singapore|DigitalOcean, LLC|
-|7|144.49.96.247|8080|United States|Washington|Google LLC|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|144.49.96.246|8080|United States|Washington|Google LLC|
-|10|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|7|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|8|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
+|9|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |11|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|12|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
-|13|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|14|101.109.58.232|8080|Thailand|Bang Lamung|TOT Public Company Limited|
-|15|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|16|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|182.253.141.213|8080|Indonesia|Semarang|Biznet Networks|
-|19|144.49.96.246|8080|United States|Washington|Google LLC|
-|20|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|144.49.96.247|8080|United States|Washington|Google LLC|
+|14|145.40.68.143|3128|Netherlands|Amsterdam|Packet Host, Inc.|
+|15|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|16|146.190.94.249|8080|Singapore|Singapore|DigitalOcean, LLC|
+|17|101.109.58.232|8080|Thailand|Bang Lamung|TOT Public Company Limited|
+|18|144.49.96.246|8080|United States|Washington|Google LLC|
+|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|20|144.49.96.247|8080|United States|Washington|Google LLC|
 
 
 
