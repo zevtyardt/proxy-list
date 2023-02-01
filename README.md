@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7068** proxies at the latest update. Usable proxies are below.
+> Scraper found **7146** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|737|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|737|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|737|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|962|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|962|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|962|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1742|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1820|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|849|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3094|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|1|103.89.12.71|3128|United States|Miami|OMC Computers and Communications LTD|
 |2|151.80.95.161|8080|France|Roubaix|OVH SAS|
-|3|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|4|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|5|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|6|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|7|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
+|3|129.151.117.79|8080|Chile|Santiago|Oracle Corporation|
+|4|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|5|45.66.249.100|51944|United States|Los Angeles|BlueVPS OU|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
 |8|47.243.55.21|8080|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|10|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|146.190.94.249|8080|Singapore|Singapore|DigitalOcean, LLC|
+|9|146.190.94.249|8080|Singapore|Singapore|DigitalOcean, LLC|
+|10|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
+|11|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|12|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
 |13|165.22.57.238|443|Singapore|Singapore|DigitalOcean, LLC|
-|14|213.59.156.119|3128|Russia|Tomsk|ZT-TOMSK|
-|15|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|18|158.69.53.98|9300|Canada|Montreal|OVH SAS|
-|19|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
-|20|208.79.8.81|9080|United States|Grayson|SkyRider Communications|
+|14|36.77.38.173|8080|Indonesia|Surabaya|PT. TELKOM INDONESIA|
+|15|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|16|186.154.147.166|9812|Colombia|Bogotá|ETB - Colombia|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|19|116.105.160.41|4007|Vietnam|Da Nang|Viettel Corporation|
+|20|103.89.12.71|3128|United States|Miami|OMC Computers and Communications LTD|
 
 
 
