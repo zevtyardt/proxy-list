@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5027** proxies at the latest update. Usable proxies are below.
+> Scraper found **5584** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|377|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|377|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|377|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|295|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|295|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|295|
 
 ## Sources
 
@@ -37,10 +37,10 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1151|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1204|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|289|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2204|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2708|✅|
 
 
 ## Sample Proxies With Geolocation Info
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|103.89.12.71|3128|United States|Miami|OMC Computers and Communications LTD|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|151.80.95.161|8080|France|Roubaix|OVH SAS|
-|4|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
+|3|51.79.83.113|13143|Canada|Beauharnois|OVH SAS|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
 |5|103.89.12.71|3128|United States|Miami|OMC Computers and Communications LTD|
-|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|45.92.108.112|8080|France|Marseille|Hosteur SAS|
-|9|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|10|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|11|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|13|45.142.122.27|55555|Russia|Moscow|AEZA GROUP Ltd|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|187.188.167.30|3128|Mexico|Xalapa|Total Play Telecomunicaciones SA De CV|
-|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|107.173.156.182|3000|United States|San Jose|ColoCrossing|
-|19|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
+|8|151.80.95.161|8080|France|Roubaix|OVH SAS|
+|9|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|10|187.188.167.30|3128|Mexico|Xalapa|Total Play Telecomunicaciones SA De CV|
+|11|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|14|182.253.141.140|8080|Indonesia|Semarang|Biznet Networks|
+|15|45.142.122.27|55555|Russia|Moscow|AEZA GROUP Ltd|
+|16|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|17|45.92.108.112|8080|France|Marseille|Hosteur SAS|
+|18|200.111.182.6|443|Chile|Santiago|Entel Chile S.A.|
+|19|41.33.3.35|1981|Egypt|Cairo|TE Data|
+|20|173.82.74.215|1994|United States|Portland|Multacom Corporation|
 
 
 
