@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6550** proxies at the latest update. Usable proxies are below.
+> Scraper found **6496** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|668|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|668|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|668|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|675|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|675|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|675|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1685|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1631|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|624|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2858|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.70.77.222|1994|United States|Santa Clarita|Multacom Corporation|
-|2|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
-|3|108.166.223.185|1994|United States|Santa Clarita|Multacom Corporation|
-|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|108.166.194.18|1994|United States|Santa Clarita|Multacom Corporation|
-|6|173.82.34.3|1994|United States|Santa Clarita|Multacom Corporation|
-|7|104.223.37.151|1994|United States|Los Angeles|QuadraNet Enterprises LLC|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|10|108.166.223.185|1994|United States|Santa Clarita|Multacom Corporation|
-|11|104.194.227.12|1994|United States|Santa Clarita|Multacom Corporation|
-|12|106.10.55.212|5200|South Korea|Seongnam-si|NBP|
-|13|155.94.220.8|1994|United States|Miami|QuadraNet Enterprises LLC|
-|14|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
-|15|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|16|51.81.32.81|8888|United States|Reston|OVH SAS|
-|17|198.74.115.120|1994|United States|Santa Clarita|Multacom Corporation|
-|18|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|173.82.34.3|1994|United States|Santa Clarita|Multacom Corporation|
+|1|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|2|141.11.100.71|8088|United States|Durham|Nrp Network LLC|
+|3|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|4|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|157.230.48.29|3128|United States|North Bergen|DigitalOcean, LLC|
+|7|165.232.132.197|1994|United States|Santa Clara|DigitalOcean, LLC|
+|8|34.77.204.1|3128|Belgium|Brussels|Google LLC|
+|9|155.94.220.8|1994|United States|Miami|QuadraNet Enterprises LLC|
+|10|66.152.168.66|1994|United States|Los Angeles|Multacom Corporation|
+|11|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|12|108.166.194.18|1994|United States|Santa Clarita|Multacom Corporation|
+|13|108.166.223.185|1994|United States|Santa Clarita|Multacom Corporation|
+|14|158.255.77.200|3128|United Arab Emirates|Ras al-Khaimah|ITEL|
+|15|173.82.34.3|1994|United States|Santa Clarita|Multacom Corporation|
+|16|216.127.188.23|1994|United States|Santa Clarita|Multacom Corporation|
+|17|164.92.159.10|1994|Netherlands|Amsterdam|DigitalOcean, LLC|
+|18|208.70.77.222|1994|United States|Santa Clarita|Multacom Corporation|
+|19|104.194.227.12|1994|United States|Santa Clarita|Multacom Corporation|
+|20|198.74.115.120|1994|United States|Santa Clarita|Multacom Corporation|
 
 
 
