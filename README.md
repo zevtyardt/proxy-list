@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6012** proxies at the latest update. Usable proxies are below.
+> Scraper found **5928** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|256|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|256|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|256|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|573|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|573|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|573|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1404|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1320|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|583|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2642|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|3|151.80.95.161|8080|France|Roubaix|OVH SAS|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|7|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|8|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|9|91.213.119.141|8080|Ukraine|Illintsi|VINASTERISK, PP|
-|10|183.89.150.117|8080|Thailand|Samut Prakan|Triple T Broadband Public Company Limited|
-|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|12|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|13|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|16|177.242.147.118|9991|Mexico|Huejotzingo|Mega Cable, S.A. de C.V.|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|20|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
+|2|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|3|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|4|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|5|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|6|151.80.95.161|8080|France|Roubaix|OVH SAS|
+|7|91.213.119.141|8080|Ukraine|Illintsi|VINASTERISK, PP|
+|8|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|107.173.144.80|8080|United States|Buffalo|ColoCrossing|
+|12|20.121.184.238|9443|United States|Boydton|Microsoft Corporation|
+|13|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|15|107.173.144.80|8080|United States|Buffalo|ColoCrossing|
+|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|17|183.89.150.117|8080|Thailand|Samut Prakan|Triple T Broadband Public Company Limited|
+|18|200.119.89.19|80|Colombia|Giron|ETB - Colombia|
+|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|20|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
