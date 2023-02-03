@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6887** proxies at the latest update. Usable proxies are below.
+> Scraper found **6763** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|322|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|322|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|322|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|802|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|802|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|802|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1881|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1887|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|734|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|604|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2889|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|1|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
 |2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|4|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|5|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|7|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|208.70.77.222|1994|United States|Santa Clarita|Multacom Corporation|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|13|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
-|14|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|15|104.194.232.179|1994|United States|Santa Clarita|Multacom Corporation|
-|16|96.43.83.41|1994|United States|Santa Clarita|Multacom Corporation|
-|17|173.82.43.108|1994|United States|Santa Clarita|Multacom Corporation|
-|18|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|19|216.37.138.177|3128|United States|Clarks Summit|Frontier Communications of America|
-|20|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|3|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|4|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|8|198.74.98.188|1994|United States|Santa Clarita|Multacom Corporation|
+|9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|10|96.43.83.41|1994|United States|Santa Clarita|Multacom Corporation|
+|11|104.194.232.179|1994|United States|Santa Clarita|Multacom Corporation|
+|12|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
+|13|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|216.37.138.177|3128|United States|Clarks Summit|Frontier Communications of America|
+|15|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
+|16|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
+|17|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|19|208.70.77.222|1994|United States|Santa Clarita|Multacom Corporation|
+|20|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
 
 
 
