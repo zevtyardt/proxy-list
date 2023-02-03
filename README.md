@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6910** proxies at the latest update. Usable proxies are below.
+> Scraper found **6589** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|459|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|459|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|459|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|415|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|415|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|415|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1954|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1580|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|608|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|661|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2965|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|208.70.77.222|1994|United States|Santa Clarita|Multacom Corporation|
-|2|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
-|3|198.74.98.188|1994|United States|Santa Clarita|Multacom Corporation|
-|4|173.82.43.108|1994|United States|Santa Clarita|Multacom Corporation|
+|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|2|216.37.138.177|3128|United States|Clarks Summit|Frontier Communications of America|
+|3|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
+|4|96.43.83.41|1994|United States|Santa Clarita|Multacom Corporation|
 |5|104.194.232.179|1994|United States|Santa Clarita|Multacom Corporation|
 |6|198.74.115.120|1994|United States|Santa Clarita|Multacom Corporation|
-|7|216.37.138.177|3128|United States|Clarks Summit|Frontier Communications of America|
-|8|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
-|9|13.57.67.22|80|United States|San Jose|Amazon.com, Inc.|
-|10|182.253.109.100|8080|Indonesia|Semarang|Biznet Metronet|
-|11|103.151.30.81|8080|Bangladesh|Tongi|Bright Star Network|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|198.74.98.188|1994|United States|Santa Clarita|Multacom Corporation|
-|15|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
-|16|116.98.59.54|4001|Vietnam|Hanoi|Viettel Corporation|
-|17|96.43.83.41|1994|United States|Santa Clarita|Multacom Corporation|
-|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|19|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
-|20|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|7|173.82.43.108|1994|United States|Santa Clarita|Multacom Corporation|
+|8|208.70.77.222|1994|United States|Santa Clarita|Multacom Corporation|
+|9|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
+|10|51.159.115.233|3128|France|Paris|SCALEWAY|
+|11|208.70.77.222|1994|United States|Santa Clarita|Multacom Corporation|
+|12|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|13|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|14|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
+|15|216.37.138.177|3128|United States|Clarks Summit|Frontier Communications of America|
+|16|198.74.115.120|1994|United States|Santa Clarita|Multacom Corporation|
+|17|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
+|18|182.253.109.100|8080|Indonesia|Semarang|Biznet Metronet|
+|19|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|20|173.82.43.108|1994|United States|Santa Clarita|Multacom Corporation|
 
 
 
