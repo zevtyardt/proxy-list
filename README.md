@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6338** proxies at the latest update. Usable proxies are below.
+> Scraper found **6322** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|577|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|577|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|577|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|717|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|717|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|717|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1757|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1741|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|614|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2584|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|2|151.80.95.161|8080|France|Roubaix|OVH SAS|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|45.76.102.90|8080|Japan|Shinagawa|The Constant Company|
-|5|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|6|191.242.177.118|3128|Brazil|Ituberá|Conect Telecom|
-|7|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|8|191.242.177.114|3128|Brazil|Ituberá|Conect Telecom|
-|9|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|12|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|13|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|45.76.102.90|8080|Japan|Shinagawa|The Constant Company|
+|4|151.80.95.161|8080|France|Roubaix|OVH SAS|
+|5|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
+|6|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|9|208.196.136.140|3128|United States|Crugers|Verizon Business|
+|10|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|11|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|12|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|13|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
 |14|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|15|203.150.113.87|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|16|94.232.11.178|46449|Russia|Moscow|Net By Net Holding LLC|
-|17|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|19|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|20|92.84.56.10|50782|Romania|Bucharest|Orange Romania Communication S.A|
+|15|45.229.34.174|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
+|16|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|17|203.150.113.87|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
+|18|80.146.189.190|3128|Germany|Frankfurt am Main|Deutsche Telekom AG|
+|19|94.23.153.45|3128|United Kingdom|London|OVH ISP|
+|20|103.152.232.194|8080|Indonesia|Subang|PT Kingpolah Network Solutions|
 
 
 
