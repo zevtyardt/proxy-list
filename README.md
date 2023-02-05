@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6885** proxies at the latest update. Usable proxies are below.
+> Scraper found **6826** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|597|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|597|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|597|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|872|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|872|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|872|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1886|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1803|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|632|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|656|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2984|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|82.66.75.98|49400|France|Amiens|Proxad / Free SAS|
-|3|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|4|45.140.146.116|3128|Moldova|Chisinau|Stark Industries Solutions LTD|
-|5|146.190.94.249|8080|Singapore|Singapore|DigitalOcean, LLC|
+|2|94.23.153.45|3128|United Kingdom|London|OVH ISP|
+|3|95.217.84.58|8118|Finland|Helsinki|Hetzner Online GmbH|
+|4|146.190.94.249|8080|Singapore|Singapore|DigitalOcean, LLC|
+|5|198.74.98.188|1994|United States|Santa Clarita|Multacom Corporation|
 |6|182.253.109.100|8080|Indonesia|Semarang|Biznet Metronet|
-|7|64.251.22.20|80|United States|Miami|Infolink Global Corporation|
-|8|198.74.98.188|1994|United States|Santa Clarita|Multacom Corporation|
-|9|192.227.166.144|1994|United States|Miami|ColoCrossing|
-|10|129.146.79.36|3128|United States|Phoenix|Oracle Corporation|
-|11|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|64.251.22.20|80|United States|Miami|Infolink Global Corporation|
-|13|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
-|14|167.172.178.193|40841|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|15|3.7.132.202|3128|India|Mumbai|Amazon.com, Inc.|
-|16|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|17|216.127.188.18|1994|United States|Santa Clarita|Multacom Corporation|
-|18|170.178.193.106|1994|United States|Santa Clarita|Multacom Corporation|
-|19|51.158.154.173|3128|France|Paris|SCALEWAY|
-|20|198.211.55.167|1994|United States|Canyon Country|Multacom Corporation|
+|7|173.82.20.178|1994|United States|Santa Clarita|Multacom Corporation|
+|8|104.194.224.204|1994|United States|Santa Clarita|Multacom Corporation|
+|9|198.148.104.93|1994|United States|Santa Clarita|Multacom Corporation|
+|10|170.178.193.106|1994|United States|Santa Clarita|Multacom Corporation|
+|11|192.227.166.144|1994|United States|Miami|ColoCrossing|
+|12|100.42.79.61|1994|United States|Santa Clarita|Multacom Corporation|
+|13|147.28.182.125|3128|United States|Dallas|Packet Host, Inc.|
+|14|198.74.101.82|1994|United States|Santa Clarita|Multacom Corporation|
+|15|198.74.115.120|1994|United States|Santa Clarita|Multacom Corporation|
+|16|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|17|72.44.67.178|1994|United States|Santa Clarita|Multacom Corporation|
+|18|173.82.12.10|1994|United States|Santa Clarita|Multacom Corporation|
+|19|103.79.77.30|8888|United States|Los Angeles|QuadraNet Enterprises LLC|
+|20|173.82.71.130|1994|United States|Portland|Multacom Corporation|
 
 
 
