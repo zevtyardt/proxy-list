@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7060** proxies at the latest update. Usable proxies are below.
+> Scraper found **6978** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|915|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|915|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|915|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|875|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|875|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|875|
 
 ## Sources
 
@@ -36,8 +36,8 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2075|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1693|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|737|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3165|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|2|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|7|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|8|151.80.95.161|8080|France|Roubaix|OVH SAS|
-|9|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|10|147.182.251.132|3128|United States|Santa Clara|DigitalOcean, LLC|
-|11|78.38.93.22|3128|Iran|Tehran|Iran Telecommunication Company PJS|
-|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|13|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|17|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|3|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|4|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|5|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|7|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|8|208.196.136.140|3128|United States|Crugers|Verizon Business|
+|9|45.66.249.100|51912|United States|Los Angeles|BlueVPS OU|
+|10|208.196.136.140|3128|United States|Crugers|Verizon Business|
+|11|151.80.95.161|8080|France|Roubaix|OVH SAS|
+|12|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|13|3.7.132.202|3128|India|Mumbai|Amazon.com, Inc.|
+|14|185.73.202.85|80|Turkey|Istanbul|Comnet International|
+|15|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|16|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|17|42.96.47.92|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
 |18|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|19|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|20|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|19|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|20|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
 
 
 
