@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6213** proxies at the latest update. Usable proxies are below.
+> Scraper found **6230** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|786|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|786|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|786|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|725|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|725|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|725|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1646|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1663|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|636|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2548|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|2|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|3|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|4|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|5|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|204.10.216.214|4481|United States|Cincinnati|Hamilton-Clermont Cooperative Assn.|
-|8|3.7.132.202|3128|India|Mumbai|Amazon.com, Inc.|
-|9|65.1.75.38|3128|India|Mumbai|Amazon.com|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|3|82.146.55.100|8000|Russia|Moscow|TheFirst|
+|4|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|5|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|6|208.196.136.140|3128|United States|Crugers|Verizon Business|
+|7|104.144.190.90|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|8|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |10|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|11|35.154.32.37|3128|India|Mumbai|Amazon Technologies Inc.|
-|12|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|13|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|14|45.139.11.171|8989|United States|New York County|Pars Parva System LLC|
-|15|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|92.60.190.22|50335|Ukraine|Kyiv|Komtel|
-|17|192.227.166.144|1994|United States|Miami|ColoCrossing|
-|18|188.132.152.112|8080|Turkey|Antakya|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
-|19|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|212.46.230.102|6969|Russia|Moscow|PJSC "Vimpelcom"|
+|12|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|13|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|14|157.100.53.130|8080|Ecuador|Ventanas|Nedetel S.A.|
+|15|104.144.190.30|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|16|45.139.11.171|8989|United States|New York County|Pars Parva System LLC|
+|17|202.72.220.83|8080|Indonesia|Jakarta|PT ARTHA TELEKOMINDO|
+|18|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
+|19|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|20|45.139.11.171|8989|United States|New York County|Pars Parva System LLC|
 
 
 
