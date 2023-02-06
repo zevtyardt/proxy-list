@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6448** proxies at the latest update. Usable proxies are below.
+> Scraper found **6521** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|775|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|775|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|775|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|705|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|705|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|705|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1662|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1735|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|763|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2640|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|1|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
 |2|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|5|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|6|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|8|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|9|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|10|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|11|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|12|129.151.117.79|8080|Chile|Santiago|Oracle Corporation|
-|13|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|14|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|15|34.212.153.50|3128|United States|Portland|Amazon.com, Inc.|
-|16|184.168.122.103|7890|Singapore|Singapore|GoDaddy.com, LLC|
-|17|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|18|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|19|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|5.135.240.70|8080|France|Nozay|OVH SAS|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|6|94.23.153.45|3128|United Kingdom|London|OVH ISP|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|11|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|12|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|13|173.255.240.80|80|United States|Fremont|Linode, LLC|
+|14|59.124.124.7|3128|Taiwan|New Taipei|Chunghwa Telecom Co., Ltd.|
+|15|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|16|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|17|159.89.132.108|8989|United States|Santa Clara|DigitalOcean, LLC|
+|18|14.237.229.209|8080|Vietnam|Bu Dop|VNPT|
+|19|34.212.153.50|3128|United States|Portland|Amazon.com, Inc.|
+|20|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
 
 
 
