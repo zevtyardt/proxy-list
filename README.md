@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5996** proxies at the latest update. Usable proxies are below.
+> Scraper found **6209** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|482|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|482|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|482|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|787|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|787|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|787|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1433|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1450|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|462|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|658|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2718|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|6|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
-|10|93.84.68.196|3128|Belarus|Gomel|Republican Unitary Telecommunication Enterprise Beltelecom|
-|11|15.207.141.0|3128|India|Mumbai|Amazon Technologies Inc.|
-|12|65.1.75.38|3128|India|Mumbai|Amazon.com|
-|13|42.96.47.92|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
-|14|3.7.132.202|3128|India|Mumbai|Amazon.com, Inc.|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|17|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|18|103.147.246.84|8080|Indonesia|Jakarta|PLBNET|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|92.119.71.90|8880|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
+|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|4|208.196.136.140|3128|United States|Crugers|Verizon Business|
+|5|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|9|208.196.136.140|3128|United States|Crugers|Verizon Business|
+|10|208.64.224.57|1994|United States|Santa Clarita|Multacom Corporation|
+|11|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|12|74.207.235.213|1221|United States|Atlanta|Linode, LLC|
+|13|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|14|89.218.186.133|3128|Kazakhstan|Pavlodar|Kazakhtelecom Data Network Administration|
+|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|16|94.26.241.120|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
+|17|103.118.175.154|6969|Indonesia|Wanakerta|PT Pedjoeang Digital Networks|
+|18|112.206.52.246|8080|Philippines|City of Muntinlupa|Philippine Long Distance Telephone Co.|
+|19|41.215.85.82|80|Kenya|Nairobi|ACCESSKENYA|
+|20|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
 
 
 
