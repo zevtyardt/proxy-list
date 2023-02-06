@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6415** proxies at the latest update. Usable proxies are below.
+> Scraper found **6320** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|776|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|776|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|776|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|619|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|619|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|619|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1763|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1668|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|766|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2503|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|45.55.57.204|443|United States|Clifton|DigitalOcean, LLC|
-|2|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|3|104.144.190.19|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|4|5.135.240.70|8080|France|Nozay|OVH SAS|
-|5|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|6|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|9|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|1|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|2|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|3|64.251.22.20|80|United States|Miami|Infolink Global Corporation|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|208.196.136.140|3128|United States|Crugers|Verizon Business|
+|6|5.135.240.70|8080|France|Nozay|OVH SAS|
+|7|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|8|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|9|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
 |10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|11|45.55.57.204|443|United States|Clifton|DigitalOcean, LLC|
-|12|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|13|2.228.87.55|80|Italy|Milan|Fastweb Networks|
-|14|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
-|15|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
-|16|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|17|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|18|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|20|104.144.190.30|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|11|173.249.198.244|8080|United States|San Jose|tzulo, inc.|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
+|14|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|15|140.120.15.146|8088|Taiwan|Taichung|T-NCHU.EDU.TW|
+|16|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|17|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|18|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|19|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|20|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
 
 
 
