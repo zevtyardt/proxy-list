@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7085** proxies at the latest update. Usable proxies are below.
+> Scraper found **7301** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|819|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|819|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|819|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|808|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|808|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|808|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1991|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2207|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|748|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2963|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|192.227.166.144|1994|United States|Miami|ColoCrossing|
-|2|147.182.195.40|3128|United States|Santa Clara|DigitalOcean, LLC|
-|3|198.211.55.167|1994|United States|Canyon Country|Multacom Corporation|
-|4|108.61.218.90|3128|United States|Los Angeles|The Constant Company|
-|5|194.163.45.239|3128|United States|Phoenix|Hostinger International Limited|
-|6|189.230.178.182|3128|Mexico|Centro|Uninet S.A. de C.V.|
-|7|144.91.81.25|3128|Germany|Nuremberg|Contabo GmbH|
-|8|178.63.237.147|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|9|167.235.19.123|8888|Germany|Falkenstein|Hetzner Online GmbH|
-|10|45.70.236.194|999|Ecuador|Puebloviejo|Nedetel S.A.|
-|11|194.163.45.239|3128|United States|Phoenix|Hostinger International Limited|
-|12|59.15.28.113|3128|South Korea|Guro-gu|Korea Telecom|
-|13|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|14|51.159.115.233|3128|France|Paris|SCALEWAY|
-|15|208.196.136.140|3128|United States|Crugers|Verizon Business|
-|16|194.5.176.88|32654|Iran|Tehran|Berbid Network|
-|17|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|19|116.202.165.119|3121|Germany|Falkenstein|Hetzner Online GmbH|
-|20|198.211.55.167|1994|United States|Canyon Country|Multacom Corporation|
+|2|189.230.178.182|3128|Mexico|Centro|Uninet S.A. de C.V.|
+|3|201.143.233.73|3128|Mexico|Mexicali|Uninet S.A. de C.V.|
+|4|198.211.55.167|1994|United States|Canyon Country|Multacom Corporation|
+|5|139.144.187.220|3128|United States|Atlanta|Linode, LLC|
+|6|194.163.45.239|3128|United States|Phoenix|Hostinger International Limited|
+|7|143.0.176.136|8088|Brazil|Morro do Chapeu do Piaui|Fiberlink Telecom Ltda|
+|8|144.91.81.25|3128|Germany|Nuremberg|Contabo GmbH|
+|9|59.15.28.113|3128|South Korea|Guro-gu|Korea Telecom|
+|10|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|11|198.211.55.167|1994|United States|Canyon Country|Multacom Corporation|
+|12|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|13|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|15|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|16|103.1.93.46|80|Nepal|Kathmandu|Classic Tech Pvt. Ltd|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|54.199.11.46|8080|Japan|Tokyo|Amazon.com, Inc.|
+|19|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|20|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
 
 
 
