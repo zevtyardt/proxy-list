@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6825** proxies at the latest update. Usable proxies are below.
+> Scraper found **6557** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|824|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|824|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|824|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|735|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|735|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|735|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1909|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1641|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|812|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2721|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
-|4|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|5|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
-|6|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|7|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|8|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|10|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|11|51.159.115.233|3128|France|Paris|SCALEWAY|
-|12|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
-|13|5.135.240.70|8080|France|Nozay|OVH SAS|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|104.144.190.208|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|16|103.4.164.205|8080|Indonesia|Jakarta|FIBERNET|
-|17|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|18|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
-|19|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|20|86.57.137.63|2222|Belarus|Gomel|BELPAK|
+|1|104.144.190.34|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|2|104.144.190.163|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|3|45.15.16.201|8118|Sweden|Stockholm|Obehosting AB|
+|4|158.69.53.132|9300|Canada|Montreal|OVH SAS|
+|5|104.144.190.249|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|6|104.144.190.109|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|7|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|8|104.144.190.121|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|9|104.144.190.25|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|10|104.144.190.83|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|11|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
+|12|104.144.190.215|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|13|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|14|104.144.190.11|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|15|104.144.190.246|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|16|104.144.190.92|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|17|104.144.190.235|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|18|45.66.249.100|51947|United States|Los Angeles|BlueVPS OU|
+|19|146.190.85.178|443|Singapore|Singapore|DigitalOcean, LLC|
+|20|104.144.190.111|3129|United States|Buffalo|B2 Net Solutions Inc.|
 
 
 
