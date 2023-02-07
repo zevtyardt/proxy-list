@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6557** proxies at the latest update. Usable proxies are below.
+> Scraper found **6952** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|735|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|735|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|735|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|941|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|941|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|941|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1641|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2036|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|812|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2721|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.144.190.34|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|2|104.144.190.163|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|3|45.15.16.201|8118|Sweden|Stockholm|Obehosting AB|
-|4|158.69.53.132|9300|Canada|Montreal|OVH SAS|
-|5|104.144.190.249|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|6|104.144.190.109|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|7|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
-|8|104.144.190.121|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|9|104.144.190.25|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|10|104.144.190.83|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|11|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
-|12|104.144.190.215|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|13|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|14|104.144.190.11|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|15|104.144.190.246|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|16|104.144.190.92|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|17|104.144.190.235|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|18|45.66.249.100|51947|United States|Los Angeles|BlueVPS OU|
-|19|146.190.85.178|443|Singapore|Singapore|DigitalOcean, LLC|
-|20|104.144.190.111|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|1|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|2|5.135.240.70|8080|France|Nozay|OVH SAS|
+|3|92.205.60.252|3128|France|Strasbourg|Host Europe GmbH|
+|4|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|5|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|7|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|8|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|9|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|12|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|13|104.144.190.2|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|14|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|15|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|16|146.190.94.249|8000|Singapore|Singapore|DigitalOcean, LLC|
+|17|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|18|194.95.221.238|443|Germany|Würzburg|Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
 
 
 
