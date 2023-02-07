@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6670** proxies at the latest update. Usable proxies are below.
+> Scraper found **6429** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|859|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|859|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|859|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|840|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|840|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|840|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1716|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1475|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|748|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2823|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|2|5.135.240.70|8080|France|Nozay|OVH SAS|
-|3|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|6|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|9|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|10|35.154.32.37|3128|India|Mumbai|Amazon Technologies Inc.|
-|11|8.9.6.242|6868|United States|Piscataway|The Constant Company, LLC|
-|12|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
-|13|159.65.142.241|443|Singapore|Singapore|DigitalOcean, LLC|
-|14|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|18|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|19|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|3|5.135.240.70|8080|France|Nozay|OVH SAS|
+|4|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|5|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
+|8|8.9.6.242|6868|United States|Piscataway|The Constant Company, LLC|
+|9|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|10|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|11|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|12|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|16|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|17|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|19|8.9.6.242|6868|United States|Piscataway|The Constant Company, LLC|
+|20|42.96.47.158|3128|Vietnam|Hanoi|CMC Telecom Infrastructure Company|
 
 
 
