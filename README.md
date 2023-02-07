@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6716** proxies at the latest update. Usable proxies are below.
+> Scraper found **6365** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|701|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|701|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|701|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|808|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|808|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|808|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1809|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1613|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|701|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2823|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2668|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|2|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|3|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|4|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|5|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|6|159.65.142.241|443|Singapore|Singapore|DigitalOcean, LLC|
-|7|178.128.219.124|8080|Singapore|Singapore|DigitalOcean, LLC|
-|8|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|9|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|10|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|11|134.209.110.45|443|Singapore|Singapore|DigitalOcean, LLC|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
-|14|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
-|15|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|16|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|17|104.144.190.83|3129|United States|Buffalo|B2 Net Solutions Inc.|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|107.173.144.80|8080|United States|Buffalo|ColoCrossing|
-|20|104.144.190.110|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|1|51.159.115.233|3128|France|Paris|SCALEWAY|
+|2|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|3|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|4|104.144.190.83|3129|United States|Buffalo|B2 Net Solutions Inc.|
+|5|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
+|8|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|10|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|11|78.158.171.7|8080|Iran|Tehran|Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS|
+|12|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|13|213.241.205.2|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|14|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|15|144.24.145.112|3128|India|Hyderabad|Oracle Corporation|
+|16|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|19|213.241.205.1|8080|Russia|Rostov-on-Don|RTCOMM-YUG|
+|20|104.144.190.225|3129|United States|Buffalo|B2 Net Solutions Inc.|
 
 
 
