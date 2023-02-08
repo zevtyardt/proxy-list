@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **4979** proxies at the latest update. Usable proxies are below.
+> Scraper found **4992** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|298|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|298|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|298|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|278|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|278|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|278|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|782|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|795|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|493|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2321|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|3|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|4|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|5|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|6|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|9|134.209.110.45|443|Singapore|Singapore|DigitalOcean, LLC|
-|10|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|13|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
-|14|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|15|165.246.148.50|8080|South Korea|Seocho-gu|ITIS|
-|16|145.40.73.107|10013|Singapore|Singapore|Packet Host, Inc.|
-|17|145.40.73.102|9443|Singapore|Singapore|Packet Host, Inc.|
-|18|161.77.216.183|3129|United States|Springfield|Crocker Communications|
-|19|161.77.216.242|3129|United States|Springfield|Crocker Communications|
-|20|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|2|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|4|159.192.253.70|8080|Thailand|Bangkok|CAT-BB|
+|5|165.246.148.50|8080|South Korea|Seocho-gu|ITIS|
+|6|161.77.216.103|3129|United States|Springfield|Crocker Communications|
+|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|134.209.110.45|443|Singapore|Singapore|DigitalOcean, LLC|
+|9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|10|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|11|61.29.96.146|80|Australia|Melbourne|AAPT Limited|
+|12|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|13|145.40.73.107|10013|Singapore|Singapore|Packet Host, Inc.|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|161.77.216.180|3129|United States|Springfield|Crocker Communications|
+|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|18|161.77.217.92|3129|United States|Springfield|Crocker Communications|
+|19|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|20|161.77.216.242|3129|United States|Springfield|Crocker Communications|
 
 
 
