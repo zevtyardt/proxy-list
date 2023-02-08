@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5803** proxies at the latest update. Usable proxies are below.
+> Scraper found **5821** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1431|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1508|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|668|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|609|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2321|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|7|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|131.155.124.227|80|Netherlands|Eindhoven|Surf B.V.|
-|10|82.146.55.100|8000|Russia|Moscow|TheFirst|
-|11|213.32.75.88|9300|France|Paris|OVH SAS|
+|1|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
+|8|103.166.10.71|80|Indonesia|Nganjuk|PT. Yasmin Amanah Media|
+|9|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|10|144.76.67.247|50000|Germany|Falkenstein|Hetzner Online GmbH|
+|11|45.82.247.203|18081|United States|Los Angeles|DediPath|
 |12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|13|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|14|68.183.185.62|80|Singapore|Singapore|DigitalOcean, LLC|
-|15|209.141.36.83|3100|United States|Las Vegas|FranTech Solutions|
-|16|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
-|17|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|18|88.99.191.127|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|19|102.223.21.181|8080|Ghana|Esim|Vobiss 21|
-|20|206.41.242.129|8080|United States|Jackson|Internet Doorway, Inc.|
+|13|200.119.89.19|80|Colombia|Giron|ETB - Colombia|
+|14|103.86.200.177|80|Bangladesh|Dhaka|Sorob IT LTD|
+|15|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|16|181.36.121.222|999|Dominican Republic|San Pedro de Macorís|Altice Dominicana S.A.|
+|17|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
+|19|37.220.210.2|8080|Hungary|Cegled|VODAFONE Hungary Ltd.|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
