@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6599** proxies at the latest update. Usable proxies are below.
+> Scraper found **6332** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|683|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|683|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|683|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|560|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|560|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|560|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1796|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1529|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|560|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2860|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|3|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|6|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|7|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
-|8|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|9|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|10|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|11|139.59.59.122|8118|India|Bengaluru|DIGITALOCEAN|
-|12|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|13|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|14|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|15|200.6.178.189|999|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
-|16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|19|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|20|51.159.115.233|3128|France|Paris|SCALEWAY|
+|1|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|4|45.8.179.241|1337|United Kingdom|London|Hostland LLC|
+|5|200.6.178.189|999|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
+|6|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|9|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|12|188.235.3.206|8080|Russia|Voronezh|CJSC "ER-Telecom Holding" Voronezh branch|
+|13|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|14|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
+|15|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|16|51.159.115.233|3128|France|Paris|SCALEWAY|
+|17|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|18|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|19|5.78.73.38|50333|United States|Portland|Hetzner Online GmbH|
+|20|188.235.61.166|8080|Russia|Voronezh|CJSC "ER-Telecom Holding" Voronezh branch|
 
 
 
