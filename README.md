@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5706** proxies at the latest update. Usable proxies are below.
+> Scraper found **5789** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|369|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|369|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|369|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|442|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|442|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|442|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1298|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1381|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|704|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2321|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|3|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|4|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|7|145.40.69.107|3128|United States|Ashburn|Packet Host, Inc.|
-|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|145.40.97.85|3128|Netherlands|Amsterdam|Packet Host, Inc.|
-|10|185.88.158.34|3128|Russia|St Petersburg|LLC Country Online|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|13|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|14|145.40.69.107|3128|United States|Ashburn|Packet Host, Inc.|
-|15|145.40.69.139|3128|United States|Ashburn|Packet Host, Inc.|
-|16|145.40.97.139|3128|Netherlands|Amsterdam|Packet Host, Inc.|
-|17|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|18|145.40.97.131|3128|Netherlands|Amsterdam|Packet Host, Inc.|
-|19|5.78.73.38|50333|United States|Portland|Hetzner Online GmbH|
-|20|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|4|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|5|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|6|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|7|145.40.69.139|3128|United States|Ashburn|Packet Host, Inc.|
+|8|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|9|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|10|145.40.69.107|3128|United States|Ashburn|Packet Host, Inc.|
+|11|145.40.97.85|3128|Netherlands|Amsterdam|Packet Host, Inc.|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|145.40.69.107|3128|United States|Ashburn|Packet Host, Inc.|
+|14|145.40.97.131|3128|Netherlands|Amsterdam|Packet Host, Inc.|
+|15|93.118.114.123|3128|Iran|Tehran|Telecommunication Company of Iran|
+|16|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
+|17|145.40.89.229|3128|United States|Ashburn|Packet Host, Inc.|
+|18|213.207.204.51|3128|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
+|19|138.124.180.188|3128|United States|Secaucus|MIRholding B.V.|
+|20|185.226.119.41|3128|Iran|Tehran|Noyan Abr Arvan Co. ( Private Joint Stock)|
 
 
 
