@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6022** proxies at the latest update. Usable proxies are below.
+> Scraper found **6184** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|636|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|636|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|636|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|693|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|693|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|693|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1557|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1713|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|761|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|767|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2321|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|145.40.97.207|3128|Netherlands|Amsterdam|Packet Host, Inc.|
-|4|145.40.89.63|3128|United States|Ashburn|Packet Host, Inc.|
-|5|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|6|193.57.136.141|8118|Turkey|Istanbul|SPDNet Telekomunikasyon Hizmetleri Bilgi Teknolojileri Taahhut Sanayi Ve Ticare|
-|7|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|8|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|9|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|10|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|11|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|12|207.188.11.31|80|United States|San Antonio|H5 Data Centers - Chandler LLC|
-|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|209.126.2.124|3128|United States|St Louis|Contabo Inc.|
-|16|145.40.89.63|3128|United States|Ashburn|Packet Host, Inc.|
-|17|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|18|190.242.125.186|8080|Colombia|Santiago de Cali|Columbus Networks Colombia|
-|19|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|20|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
+|1|200.119.89.19|80|Colombia|Giron|ETB - Colombia|
+|2|45.82.247.203|18081|United States|Los Angeles|DediPath|
+|3|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
+|4|145.40.68.175|3128|Netherlands|Amsterdam|Packet Host, Inc.|
+|5|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|6|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|7|64.251.22.20|80|United States|Miami|Infolink Global Corporation|
+|8|145.40.96.127|3128|Netherlands|Amsterdam|Packet Host, Inc.|
+|9|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|11|206.189.136.143|3128|India|Bengaluru|DigitalOcean, LLC|
+|12|168.235.69.34|80|United States|New York|InMotion Hosting, Inc.|
+|13|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|14|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|15|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|16|160.251.40.149|3128|Japan|Chiyoda|interQ|
+|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|18|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
+|19|47.88.29.57|9666|United States|San Mateo|Alibaba.com LLC|
+|20|135.181.222.185|9090|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
