@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5726** proxies at the latest update. Usable proxies are below.
+> Scraper found **5962** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|478|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|478|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|478|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|644|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|644|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|644|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1340|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1576|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|682|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2321|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 |2|135.181.222.185|9090|Finland|Helsinki|Hetzner Online GmbH|
-|3|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|3|158.69.53.132|5566|Canada|Montreal|OVH SAS|
 |4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|31.186.48.232|3128|Kyrgyzstan|Bishkek|AKNET Ltd.|
-|6|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|7|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
-|8|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|9|51.159.115.233|3128|France|Paris|SCALEWAY|
-|10|86.120.122.3|3128|Romania|Bucharest|RCS & RDS|
-|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|12|61.29.96.146|80|Australia|Melbourne|AAPT Limited|
-|13|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|14|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|15|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|16|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|19|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|20|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|5|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|6|158.101.113.18|80|United States|Ashburn|Oracle Corporation|
+|7|45.8.179.242|1337|United Kingdom|London|Hostland LLC|
+|8|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|9|93.118.114.123|3128|Iran|Tehran|Telecommunication Company of Iran|
+|10|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|11|158.69.71.245|9300|Canada|Montreal|OVH SAS|
+|12|23.107.176.221|32180|United States|Los Angeles|Leaseweb USA, Inc.|
+|13|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|14|87.250.63.172|8118|Serbia|Belgrade|TELEKOM SRBIJA a.d.|
+|15|5.78.73.38|50242|United States|Portland|Hetzner Online GmbH|
+|16|45.8.179.247|1337|United Kingdom|London|Hostland LLC|
+|17|209.126.2.124|3128|United States|St Louis|Contabo Inc.|
+|18|61.29.96.146|8000|Australia|Melbourne|AAPT Limited|
+|19|51.159.115.233|3128|France|Paris|SCALEWAY|
+|20|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
 
 
 
