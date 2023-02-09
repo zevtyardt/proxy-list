@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6061** proxies at the latest update. Usable proxies are below.
+> Scraper found **5947** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|362|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|362|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|362|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|596|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|596|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|596|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1424|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1310|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|495|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|3|195.225.232.8|6053|Iran|Tehran|Towse'e Saman Information Technology Co. PJS|
-|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|1|192.3.134.6|8099|United States|San Jose|ColoCrossing|
+|2|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|3|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|4|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 |5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|7|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|8|158.140.191.136|8080|Indonesia|Bogor|PT. Eka Mas Republik|
-|9|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|10|125.25.33.184|8080|Thailand|Chiang Mai|TOT Public Company Limited|
-|11|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|12|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
-|13|122.54.161.20|8082|Philippines|Tacloban City|Philippine Long Distance Telephone Co.|
-|14|159.89.132.167|8989|United States|Santa Clara|DigitalOcean, LLC|
-|15|213.207.204.51|3128|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
-|16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|17|46.17.249.46|35782|Kazakhstan|Rudnyy|Eurasia-Star LLP|
-|18|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|6|192.3.134.6|8099|United States|San Jose|ColoCrossing|
+|7|2.228.87.55|80|Italy|Milan|Fastweb Networks|
+|8|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|9|144.22.249.38|80|Brazil|São Paulo|Oracle Corporation|
+|10|212.16.71.187|80|Iran|Tehran|Zirsakht Fanavari Etelaat va Ertebatat Pasargad Aryan PJS|
+|11|47.88.29.57|9666|United States|San Mateo|Alibaba.com LLC|
+|12|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|14|178.128.219.124|8080|Singapore|Singapore|DigitalOcean, LLC|
+|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|18|213.6.141.17|19000|Palestine|Gaza|Palestine Telecommunications Company|
+|19|89.43.10.142|8080|Iran|Tehran|Mobin Net Communication Company|
+|20|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
 
 
 
