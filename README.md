@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5959** proxies at the latest update. Usable proxies are below.
+> Scraper found **5784** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|470|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|470|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|470|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|489|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|489|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|489|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1301|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1156|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|587|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|557|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2688|✅|
 
 
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|193.106.138.52|3128|Ukraine|Kyiv|PJSC Industrial Media Network|
-|5|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|6|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|10|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
+|7|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|8|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|9|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 |11|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
 |12|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
 |13|137.220.212.243|32673|Japan|Tokyo|Rackip Consultancy Pte. LTD|
-|14|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|15|161.77.217.45|3129|United States|Springfield|Crocker Communications|
-|16|181.196.142.114|8888|Ecuador|Guayaquil|Corporacion Nacional De Telecomunicaciones - CNT EP|
-|17|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
-|18|103.36.11.161|3125|Indonesia|Pandeglang|PT Awinet Global Mandiri|
-|19|161.77.216.245|3129|United States|Springfield|Crocker Communications|
-|20|161.77.216.21|3129|United States|Springfield|Crocker Communications|
+|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|15|49.0.82.190|8080|Thailand|Samut Prakan|AIS-Fibre|
+|16|45.169.148.2|999|Chile|Talagante|Telecomunicaciones Pixel Ltda.|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
+|19|20.163.130.195|3128|United States|Boydton|Microsoft Corporation|
+|20|51.81.32.81|8888|United States|Reston|OVH SAS|
 
 
 
