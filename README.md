@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6264** proxies at the latest update. Usable proxies are below.
+> Scraper found **5535** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|526|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|526|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|526|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|565|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|565|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|565|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1673|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1694|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|749|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2009|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|191.102.74.138|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
-|5|27.77.245.210|4013|Vietnam|Ho Chi Minh City|Newass2011xDSLHCMC|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|10|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
-|11|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|12|195.225.232.8|6053|Iran|Tehran|Towse'e Saman Information Technology Co. PJS|
-|13|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|14|213.32.75.88|9300|France|Paris|OVH SAS|
-|15|168.235.69.34|80|United States|New York|InMotion Hosting, Inc.|
-|16|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|17|140.227.33.174|1000|Japan|Osaka|InfoSphere|
-|18|213.207.204.51|3128|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
-|19|168.235.69.34|80|United States|New York|InMotion Hosting, Inc.|
-|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|1|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|2|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|85.114.111.215|3128|Palestine|Gaza|Fusion Internet Services Company LLC|
+|5|45.15.16.201|8118|Sweden|Stockholm|Obehosting AB|
+|6|5.161.44.221|1234|United States|Ashburn|Hetzner Online GmbH|
+|7|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|8|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|9|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
+|10|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|13|62.171.189.81|80|Germany|Nuremberg|Contabo GmbH|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|159.69.206.225|4444|Germany|Nuremberg|Hetzner Online GmbH|
+|16|66.220.129.39|3128|United States|La Grange|COLORADO VALLEY COMMUNICATIONS, INC.|
+|17|192.3.134.6|8099|United States|San Jose|ColoCrossing|
+|18|5.161.44.221|1234|United States|Ashburn|Hetzner Online GmbH|
+|19|95.0.84.26|80|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|20|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
 
 
 
