@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6398** proxies at the latest update. Usable proxies are below.
+> Scraper found **6353** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|425|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|425|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|425|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|675|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|675|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|675|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1535|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1449|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|620|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|661|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2860|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|45.15.16.201|8118|Sweden|Stockholm|Obehosting AB|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|5|204.2.218.145|8080|United States|Dawsonville|North Georgia Network Cooperative, Inc.|
-|6|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
-|7|54.36.112.246|4543|Germany|Saarbrücken|OVH SAS|
-|8|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
-|9|173.82.12.238|1994|United States|Santa Clarita|Multacom Corporation|
-|10|67.205.179.247|8118|United States|North Bergen|DigitalOcean, LLC|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|13|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|14|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|15|194.87.188.114|8000|Turkey|Istanbul|Kadir Huseyin Tezcan Nosspeed Internet Teknolojileri|
-|16|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|17|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|18|203.150.128.176|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|19|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|115.144.101.200|10000|South Korea|Guri-si|Korea Telecom|
+|1|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|2|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
+|3|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|5|147.28.182.125|3128|United States|Dallas|Packet Host, Inc.|
+|6|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|7|173.82.20.178|1994|United States|Santa Clarita|Multacom Corporation|
+|8|173.82.20.178|1994|United States|Santa Clarita|Multacom Corporation|
+|9|104.129.41.2|1994|United States|Miami|QuadraNet Enterprises LLC|
+|10|209.97.188.59|3128|United Kingdom|London|DigitalOcean, LLC|
+|11|147.28.182.125|3128|United States|Dallas|Packet Host, Inc.|
+|12|173.82.12.10|1994|United States|Santa Clarita|Multacom Corporation|
+|13|5.9.94.91|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|14|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|15|145.40.121.89|3128|Brazil|São Paulo|Packet Host, Inc.|
+|16|72.44.67.178|1994|United States|Santa Clarita|Multacom Corporation|
+|17|190.113.42.162|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
+|18|51.38.93.100|3128|United Kingdom|London|OVH SAS|
+|19|198.148.104.93|1994|United States|Santa Clarita|Multacom Corporation|
+|20|148.251.85.173|8889|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
