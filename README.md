@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6027** proxies at the latest update. Usable proxies are below.
+> Scraper found **6267** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|723|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|723|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|723|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|455|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|455|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|455|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1446|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1686|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|739|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|4|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|5|190.119.203.220|8080|Peru|La Victoria|America Movil Peru S.A.C.|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|143.110.248.3|3128|India|Bengaluru|DigitalOcean, LLC|
-|8|212.119.198.254|8080|Russia|Moscow|PJSC "Vimpelcom"|
-|9|64.251.22.220|80|United States|Miami|Infolink Global Corporation|
-|10|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|11|64.251.22.220|80|United States|Miami|Infolink Global Corporation|
-|12|109.188.138.101|8989|Russia|St Petersburg|SPB SCARTEL network|
-|13|161.35.223.141|80|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|14|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
-|15|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|17|141.94.203.123|80|France|Gravelines|OVH SAS|
-|18|34.125.246.223|80|United States|Las Vegas|Google LLC|
-|19|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|4|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|7|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|8|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|11|119.76.142.149|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
+|12|158.69.72.138|9300|Canada|Montreal|OVH SAS|
+|13|190.119.203.220|8080|Peru|La Victoria|America Movil Peru S.A.C.|
+|14|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|15|212.119.198.254|8080|Russia|Moscow|PJSC "Vimpelcom"|
+|16|109.188.138.101|8989|Russia|St Petersburg|SPB SCARTEL network|
+|17|45.92.108.112|8080|France|Marseille|Hosteur SAS|
+|18|183.89.116.38|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
+|19|143.110.147.61|8989|United States|Santa Clara|DigitalOcean, LLC|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
