@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5702** proxies at the latest update. Usable proxies are below.
+> Scraper found **5902** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|512|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|512|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|512|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|548|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|548|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|548|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1088|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1167|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|472|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|593|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|192.3.134.6|8099|United States|Palo Alto|ColoCrossing|
-|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|1|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|209.97.188.59|3128|United Kingdom|London|DigitalOcean, LLC|
-|7|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
-|8|20.163.130.195|3128|United States|Boydton|Microsoft Corporation|
-|9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|10|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|11|158.69.27.94|9300|Canada|Montreal|OVH SAS|
-|12|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|143.198.2.220|8080|United States|Clifton|DigitalOcean, LLC|
-|14|20.163.130.195|3128|United States|Boydton|Microsoft Corporation|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|112.137.142.8|3128|Vietnam|Hanoi|VietNam National University|
-|17|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|18|157.230.34.219|3128|Singapore|Singapore|DigitalOcean, LLC|
-|19|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
-|20|51.81.32.81|8888|United States|Reston|OVH SAS|
+|5|51.81.32.81|8888|United States|Reston|OVH SAS|
+|6|20.163.130.195|3128|United States|Boydton|Microsoft Corporation|
+|7|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|8|68.178.202.127|3128|United States|Tempe|GoDaddy.com, LLC|
+|9|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|12|143.198.2.220|8080|United States|Clifton|DigitalOcean, LLC|
+|13|209.97.188.59|3128|United Kingdom|London|DigitalOcean, LLC|
+|14|192.3.134.6|8099|United States|Palo Alto|ColoCrossing|
+|15|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|34.77.204.1|3128|Belgium|Brussels|Google LLC|
+|18|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|19|157.230.34.219|3128|Singapore|Singapore|DigitalOcean, LLC|
+|20|20.163.130.195|3128|United States|Boydton|Microsoft Corporation|
 
 
 
