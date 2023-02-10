@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5246** proxies at the latest update. Usable proxies are below.
+> Scraper found **4948** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|840|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|790|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|264|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2511|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|138.197.120.3|8080|United States|Clifton|DigitalOcean, LLC|
-|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|146.190.172.212|3128|United States|San Francisco|DigitalOcean, LLC|
-|6|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|7|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
-|8|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|9|23.225.14.46|8089|United States|Los Angeles|Cnservers LLC|
-|10|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|2|146.190.172.212|3128|United States|San Francisco|DigitalOcean, LLC|
+|3|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
+|4|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|5|23.225.14.46|8089|United States|Los Angeles|Cnservers LLC|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|138.197.120.3|8080|United States|Clifton|DigitalOcean, LLC|
+|8|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|9|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|10|146.190.172.212|3128|United States|San Francisco|DigitalOcean, LLC|
 |11|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
-|12|138.197.120.3|8080|United States|Clifton|DigitalOcean, LLC|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|15|146.190.172.212|3128|United States|San Francisco|DigitalOcean, LLC|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|23.225.14.46|8089|United States|Los Angeles|Cnservers LLC|
-|19|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|20|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|12|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|13|23.225.14.46|8089|United States|Los Angeles|Cnservers LLC|
+|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|17|138.197.120.3|8080|United States|Clifton|DigitalOcean, LLC|
+|18|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|19|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|20|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
 
 
 
