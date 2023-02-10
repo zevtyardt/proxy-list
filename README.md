@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5738** proxies at the latest update. Usable proxies are below.
+> Scraper found **5621** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|404|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|404|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|404|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|221|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|221|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|221|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1092|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|975|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|504|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2759|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|192.3.134.6|8099|United States|Palo Alto|ColoCrossing|
-|3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|1|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|2|85.14.243.31|3128|Germany|Kamp-Lintfort|myLoc managed IT AG|
+|3|209.97.188.59|3128|United Kingdom|London|DigitalOcean, LLC|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|165.246.148.50|8080|South Korea|Seocho-gu|ITIS|
+|6|51.159.28.20|8000|France|Paris|SCALEWAY|
 |7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|9|93.90.82.43|3128|Russia|Rostov-on-Don|Dontechsvyaz LLC|
-|10|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|11|3.88.153.90|8080|United States|Ashburn|Amazon Technologies Inc.|
-|12|3.88.153.90|8080|United States|Ashburn|Amazon Technologies Inc.|
-|13|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|197.232.47.122|8080|Kenya|Ruaraka|Jamii Telecommunications Limited|
-|18|103.25.210.226|8989|Indonesia|Banyumas|TRANSDATA|
-|19|64.56.218.185|8080|United States|Indianola|Upchurch Telecom & Data, Inc.|
-|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|8|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|10|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|15|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|16|177.52.221.125|3128|Dominican Republic|Santiago de los Caballeros|TELERY NETWORKS, S.R.L|
+|17|3.88.153.90|8080|United States|Ashburn|Amazon Technologies Inc.|
+|18|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|19|190.113.42.162|999|Dominican Republic|Santo Domingo Este|MR Networking, SRL|
+|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
