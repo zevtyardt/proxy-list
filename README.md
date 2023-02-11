@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5211** proxies at the latest update. Usable proxies are below.
+> Scraper found **5245** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|374|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|374|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|374|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|355|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|355|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|355|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1199|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1184|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|486|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|535|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2143|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|2|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|6|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|8|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|9|15.207.96.142|3128|India|Mumbai|Amazon Technologies Inc.|
-|10|13.126.231.63|3128|India|Mumbai|Amazon Technologies Inc.|
-|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|12|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
-|13|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|15|129.151.117.79|8080|Chile|Santiago|Oracle Corporation|
-|16|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|17|45.82.247.203|18081|United States|Los Angeles|DediPath|
-|18|103.28.100.11|3128|Thailand|Pom Prap Sattru Phai|Ministry of Interior|
-|19|146.190.33.175|3128|United States|Santa Clara|DigitalOcean, LLC|
-|20|146.190.33.170|3128|United States|Santa Clara|DigitalOcean, LLC|
+|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|2|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|6|132.247.184.38|3128|Mexico|Alvaro Obregon|Universidad Nacional Autonoma de Mexico|
+|7|15.207.96.142|3128|India|Mumbai|Amazon Technologies Inc.|
+|8|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|11|13.126.231.63|3128|India|Mumbai|Amazon Technologies Inc.|
+|12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|13|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|14|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|15|15.207.146.140|3128|India|Mumbai|Amazon Technologies Inc.|
+|16|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|17|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|146.190.33.175|3128|United States|Santa Clara|DigitalOcean, LLC|
+|19|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|20|159.192.253.100|8080|Thailand|Bangkok|CAT-BB|
 
 
 
