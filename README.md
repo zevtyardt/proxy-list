@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|402|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|402|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|402|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|5.196.124.204|80|France|Roubaix|OVH SAS|
-|4|45.61.187.67|4004|United States|Miami|FranTech Solutions|
-|5|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|9|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|10|51.159.115.233|3128|France|Paris|SCALEWAY|
-|11|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|14|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|2|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|6|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|7|51.159.115.233|3128|France|Paris|SCALEWAY|
+|8|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|9|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|10|15.207.146.140|3128|India|Mumbai|Amazon Technologies Inc.|
+|11|13.126.231.63|3128|India|Mumbai|Amazon Technologies Inc.|
+|12|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
 |16|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|18|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|19|13.126.231.63|3128|India|Mumbai|Amazon Technologies Inc.|
-|20|41.60.234.58|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
+|17|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|18|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|19|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|20|185.86.145.66|8080|Russia|Moscow|LLC VK|
 
 
 
