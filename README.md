@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5439** proxies at the latest update. Usable proxies are below.
+> Scraper found **5437** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|505|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|505|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|505|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|508|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|508|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|508|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1383|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1381|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|530|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2143|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.63.19.52|3128|United States|Piscataway|Choopa|
-|2|195.201.57.62|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
-|3|54.199.174.250|3128|Japan|Tokyo|Amazon.com, Inc.|
-|4|185.166.25.98|8080|Iraq|Baghdad|Online Company for Technological Information|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|7|189.112.30.33|80|Brazil|Patos de Minas|ALGAR TELECOM S/A|
-|8|216.10.50.30|80|United States|Anchorage|LBiSat|
-|9|5.75.171.241|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|10|45.122.222.247|3128|Vietnam|Ho Chi Minh City|Viet Solutions Services Trading Company Limited|
+|2|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|3|5.75.171.241|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|4|195.189.226.31|3128|Ukraine|Kherson|SERVER.UA LLC|
+|5|195.201.57.62|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
+|6|185.166.25.98|8080|Iraq|Baghdad|Online Company for Technological Information|
+|7|219.99.197.145|8080|Japan|Chiyoda|NSK Co., Ltd.|
+|8|189.112.30.33|80|Brazil|Patos de Minas|ALGAR TELECOM S/A|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
 |11|45.63.19.52|3128|United States|Piscataway|Choopa|
-|12|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|13|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|14|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|15|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|16|65.108.230.239|42899|Finland|Helsinki|Hetzner Online GmbH|
-|17|164.100.131.37|80|India|Batang|National Knowledge Network|
-|18|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|19|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|20|188.132.222.26|8080|Turkey|İskenderun|High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|5.161.180.15|80|United States|Ashburn|Hetzner Online GmbH|
+|14|179.60.204.99|3128|Peru|Trujillo|Nocperu-latin Technologies|
+|15|139.59.228.95|8118|Singapore|Singapore|DIGITALOCEAN|
+|16|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|17|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|18|15.207.146.140|3128|India|Mumbai|Amazon Technologies Inc.|
+|19|54.199.174.250|3128|Japan|Tokyo|Amazon.com, Inc.|
+|20|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
 
 
 
