@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5178** proxies at the latest update. Usable proxies are below.
+> Scraper found **5251** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|401|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|401|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|401|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|435|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|435|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|435|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1117|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1190|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|535|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2143|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|4|132.247.184.38|3128|Mexico|Alvaro Obregon|Universidad Nacional Autonoma de Mexico|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|7|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|8|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|11|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|12|13.126.231.63|3128|India|Mumbai|Amazon Technologies Inc.|
-|13|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|15.207.146.140|3128|India|Mumbai|Amazon Technologies Inc.|
-|16|15.207.96.142|3128|India|Mumbai|Amazon Technologies Inc.|
-|17|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|18|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|19|45.61.187.67|4007|United States|Miami|FranTech Solutions|
-|20|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|2|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|3|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|7|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|8|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|5.78.73.38|50333|United States|Portland|Hetzner Online GmbH|
+|10|13.126.231.63|3128|India|Mumbai|Amazon Technologies Inc.|
+|11|159.192.253.100|8080|Thailand|Bangkok|CAT-BB|
+|12|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|13|15.207.96.142|3128|India|Mumbai|Amazon Technologies Inc.|
+|14|15.207.146.140|3128|India|Mumbai|Amazon Technologies Inc.|
+|15|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|16|213.207.204.51|3128|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
+|17|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|18|132.247.184.38|3128|Mexico|Alvaro Obregon|Universidad Nacional Autonoma de Mexico|
+|19|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|20|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
 
 
 
