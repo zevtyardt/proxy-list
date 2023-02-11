@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|514|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|514|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|514|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|557|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|557|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|557|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|11|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|12|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|16|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|17|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|18|45.8.179.242|1337|United Kingdom|London|IT WEB LTD|
-|19|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|20|65.108.230.239|42899|Finland|Helsinki|Hetzner Online GmbH|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|8|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
+|9|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
+|10|65.108.230.239|42899|Finland|Helsinki|Hetzner Online GmbH|
+|11|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|12|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|13|5.180.33.23|1337|Germany|Frankfurt am Main|TCK OOO|
+|14|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
+|15|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|16|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|17|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|18|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|20|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
 
 
 
