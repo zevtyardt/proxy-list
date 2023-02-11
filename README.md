@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5031** proxies at the latest update. Usable proxies are below.
+> Scraper found **5183** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|407|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|407|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|407|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|388|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|388|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|388|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1059|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1211|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|446|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2143|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|2|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|5.196.124.204|80|France|Roubaix|OVH SAS|
 |3|46.4.242.214|1337|Germany|Falkenstein|Hetzner|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|5|23.247.110.37|3128|China|Guangzhou|LayerHost|
+|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|8|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |12|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
-|13|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|14|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|15|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|16|177.53.214.221|999|Ecuador|Manta|Eliana Vanessa Morocho Oña|
-|17|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|18|213.173.36.31|3128|Peru|Lima|Multifiber Inc|
-|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|20|15.207.146.140|3128|India|Mumbai|Amazon Technologies Inc.|
+|13|165.246.148.50|8080|South Korea|Seocho-gu|ITIS|
+|14|140.227.61.178|1000|Japan|Nagawa|InfoSphere|
+|15|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|17|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|19|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
+|20|179.60.240.69|53281|Colombia|Galapa|ITELKOM|
 
 
 
