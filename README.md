@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|241|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|241|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|241|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|272|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|272|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|272|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|2|192.119.71.168|3128|United States|Seattle|Hostwinds LLC.|
-|3|23.254.211.116|3128|United States|Seattle|Hostwinds LLC.|
-|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|128.199.5.97|3128|United States|Santa Clara|DigitalOcean, LLC|
-|7|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|8|23.254.211.116|3128|United States|Seattle|Hostwinds LLC.|
-|9|85.239.62.254|3128|United Kingdom|London|Clouvider Limited|
-|10|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|11|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|12|192.119.71.168|3128|United States|Seattle|Hostwinds LLC.|
-|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|14|43.243.126.35|3128|Philippines|Makati City|IPVG|
-|15|200.160.105.197|3128|Brazil|Piracaia|Claro NXT Telecomunicacoes Ltda|
-|16|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|19|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
-|20|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|1|192.119.71.194|3128|United States|Seattle|Hostwinds LLC.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|4|192.119.71.168|3128|United States|Seattle|Hostwinds LLC.|
+|5|23.254.211.116|3128|United States|Seattle|Hostwinds LLC.|
+|6|192.119.71.194|3128|United States|Seattle|Hostwinds LLC.|
+|7|192.119.71.168|3128|United States|Seattle|Hostwinds LLC.|
+|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|9|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|23.254.211.116|3128|United States|Seattle|Hostwinds LLC.|
+|12|85.239.62.254|3128|United Kingdom|London|Clouvider Limited|
+|13|140.227.33.174|1000|Japan|Chiyoda|InfoSphere|
+|14|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|16|217.219.247.115|8080|Iran|Mashhad|DCI|
+|17|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|20|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
 
 
 
