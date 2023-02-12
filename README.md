@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5272** proxies at the latest update. Usable proxies are below.
+> Scraper found **5290** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|311|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|311|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|311|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|337|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|337|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|337|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|786|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|804|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|483|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2620|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|4|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|5|51.250.101.77|3128|Russia|Moscow|Yandex.Cloud LLC|
+|2|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|3|47.90.213.34|7891|United States|Richmond|Alibaba.com LLC|
+|4|3.136.154.87|3128|United States|Dublin|Amazon.com, Inc.|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 |6|3.136.154.87|3128|United States|Dublin|Amazon.com, Inc.|
-|7|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|7|85.208.254.156|8080|Iran|Mashhad|Green Web Samaneh Novin Co Ltd|
 |8|192.240.106.146|3128|United States|Chicago|FDCservers.net|
-|9|86.98.2.41|8080|United Arab Emirates|Sharjah|Emirates Telecommunications Corporation|
-|10|43.153.194.76|8001|Singapore|Singapore|Aceville Pte.ltd|
-|11|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|3.136.154.87|3128|United States|Dublin|Amazon.com, Inc.|
-|14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|15|64.138.255.146|8888|United States|Conway|Horry Telephone Cooperative, Inc.|
-|16|85.208.254.156|8080|Iran|Mashhad|Green Web Samaneh Novin Co Ltd|
-|17|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|18|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|19|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|155.133.26.123|8080|Germany|Düsseldorf|Contabo GmbH|
+|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|14|43.153.194.76|8001|Singapore|Singapore|Aceville Pte.ltd|
+|15|47.243.105.131|4780|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|16|155.133.26.123|8080|Germany|Düsseldorf|Contabo GmbH|
+|17|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|18|143.198.145.202|3128|United States|Santa Clara|DigitalOcean, LLC|
+|19|8.213.129.96|8080|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
+|20|37.53.103.4|3128|Ukraine|Kyiv|UKRTELECOM|
 
 
 
