@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5643** proxies at the latest update. Usable proxies are below.
+> Scraper found **5724** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|588|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|588|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|588|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|489|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|489|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|489|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1169|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1250|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|471|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2620|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|2|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|3|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|4|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|8|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|9|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|10|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|11|185.39.50.2|1337|Germany|Blankenfelde|NETZNUTZ|
-|12|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
-|13|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|14|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|15|185.81.98.17|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|16|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|17|78.38.93.20|3128|Iran|Tehran|Iran Telecommunication Company PJS|
-|18|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|19|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|20|45.8.179.242|1337|United Kingdom|London|IT WEB LTD|
+|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
+|4|103.75.196.38|8080|Germany|Frankfurt am Main|BitCommand LLC|
+|5|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
+|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|9|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|10|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
+|11|141.95.158.108|80|France|Gravelines|OVH SAS|
+|12|185.160.217.2|8123|Russia|Moscow|Rucomtech LLC|
+|13|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|14|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|15|212.16.71.187|80|Iran|Tehran|Zirsakht Fanavari Etelaat va Ertebatat Pasargad Aryan PJS|
+|16|185.88.158.34|3128|Russia|St Petersburg|LLC Country Online|
+|17|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|18|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|19|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|20|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 
 
 
