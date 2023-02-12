@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6139** proxies at the latest update. Usable proxies are below.
+> Scraper found **6137** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|461|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|461|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|461|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|510|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|510|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|510|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1339|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1337|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|821|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2596|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|51.159.115.233|3128|France|Paris|SCALEWAY|
-|2|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|4|133.167.121.133|1976|Japan|Osaka|SAKURA Internet Inc.|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|7|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|8|43.153.194.76|8001|Singapore|Singapore|Aceville Pte.ltd|
-|9|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|10|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|11|159.203.104.153|8200|United States|Clifton|DigitalOcean, LLC|
-|12|149.28.108.174|38080|United States|Miami|The Constant Company|
-|13|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|14|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|16|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|16.162.105.232|443|Hong Kong|Hong Kong|Amazon.com|
-|19|203.150.128.26|8080|Thailand|Watthana|Internet Thailand Company Ltd|
-|20|187.63.156.40|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|4|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|5|64.138.255.146|8888|United States|Conway|Horry Telephone Cooperative, Inc.|
+|6|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|7|133.167.121.133|1976|Japan|Osaka|SAKURA Internet Inc.|
+|8|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|9|202.90.199.146|3128|Indonesia|Jakarta|BMG|
+|10|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|11|134.195.157.46|3128|United States|Ashburn|AB E-Commerce|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|15|184.82.235.165|8080|Thailand|Bangkok|AIS-Fibre|
+|16|203.150.128.26|8080|Thailand|Watthana|Internet Thailand Company Ltd|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|65.21.186.173|3129|Finland|Helsinki|Hetzner Online GmbH|
+|20|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 
 
 
