@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|371|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|371|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|371|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|379|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|379|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|379|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|2|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|4|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|5|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|6|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|7|159.69.21.167|3128|Germany|Nuremberg|Hetzner Online GmbH|
-|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|9|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|10|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|45.63.19.52|3128|United States|Piscataway|Choopa|
-|13|51.250.101.77|3128|Russia|Moscow|Yandex.Cloud LLC|
-|14|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|16|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|4|51.250.101.77|3128|Russia|Moscow|Yandex.Cloud LLC|
+|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|45.63.19.52|3128|United States|Piscataway|Choopa|
+|7|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|8|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|9|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
+|10|185.145.97.155|3128|Netherlands|Amsterdam|Hostwinds LLC.|
+|11|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|13|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|159.69.21.167|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|16|185.145.97.155|3128|Netherlands|Amsterdam|Hostwinds LLC.|
 |17|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|18|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|19|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|20|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|18|54.233.210.116|80|Brazil|São Paulo|Amazon.com, Inc.|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|108.61.191.222|1994|United States|Piscataway|The Constant Company|
 
 
 
