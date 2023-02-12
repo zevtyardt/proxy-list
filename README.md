@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5979** proxies at the latest update. Usable proxies are below.
+> Scraper found **5954** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|518|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|518|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|518|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|312|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|312|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|312|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1368|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1343|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|608|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2620|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|1|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
 |2|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|3|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|4|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|5|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|66.152.179.27|3128|United States|Los Angeles|Multacom Corporation|
-|8|191.102.74.141|999|Colombia|Guasca|TV AZTECA SUCURSAL COLOMBIA|
-|9|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|10|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|4|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|5|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|8|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|9|108.165.228.42|443|United States|Buffalo|Ipxo LLC|
+|10|191.102.74.141|999|Colombia|Guasca|TV AZTECA SUCURSAL COLOMBIA|
 |11|16.162.105.232|443|Hong Kong|Hong Kong|Amazon.com|
-|12|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|13|108.61.191.222|1994|United States|Piscataway|The Constant Company|
-|14|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|16|66.152.179.27|3128|United States|Los Angeles|Multacom Corporation|
-|17|108.165.228.42|443|United States|Buffalo|Ipxo LLC|
-|18|202.90.199.146|3128|Indonesia|Jakarta|BMG|
-|19|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|20|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
+|15|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|16|45.61.187.67|4009|United States|Miami|FranTech Solutions|
+|17|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|18|190.55.44.18|8080|Argentina|Buenos Aires|Telecentro S.A.|
+|19|108.61.191.222|1994|United States|Piscataway|The Constant Company|
+|20|108.165.228.42|443|United States|Buffalo|Ipxo LLC|
 
 
 
