@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5666** proxies at the latest update. Usable proxies are below.
+> Scraper found **5670** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|504|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|504|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|504|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|447|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|447|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|447|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1187|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1167|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|500|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2596|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2620|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|3|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|4|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|5|202.90.199.146|3128|Indonesia|Jakarta|BMG|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|149.28.108.174|38080|United States|Miami|The Constant Company|
-|8|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|9|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|5|198.98.49.39|8080|United States|New York|FranTech Solutions|
+|6|5.78.73.38|50242|United States|Portland|Hetzner Online GmbH|
+|7|144.91.75.133|3128|Germany|Nuremberg|Contabo GmbH|
+|8|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|9|23.95.94.41|3128|United States|Dallas|ColoCrossing|
 |10|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|11|85.208.254.156|8080|Iran|Mashhad|Green Web Samaneh Novin Co Ltd|
-|12|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|13|143.198.145.202|3128|United States|Santa Clara|DigitalOcean, LLC|
-|14|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
-|15|23.95.94.41|3128|United States|Dallas|ColoCrossing|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|165.246.148.50|8080|South Korea|Seocho-gu|ITIS|
-|18|3.136.154.87|3128|United States|Dublin|Amazon.com, Inc.|
-|19|47.88.24.13|3128|United States|San Mateo|Alibaba.com LLC|
-|20|3.136.154.87|3128|United States|Dublin|Amazon.com, Inc.|
+|11|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|12|3.136.154.87|3128|United States|Dublin|Amazon.com, Inc.|
+|13|3.136.154.87|3128|United States|Dublin|Amazon.com, Inc.|
+|14|155.133.26.123|8080|Germany|Düsseldorf|Contabo GmbH|
+|15|85.208.254.156|8080|Iran|Mashhad|Green Web Samaneh Novin Co Ltd|
+|16|3.139.99.154|3128|United States|Dublin|Amazon.com, Inc.|
+|17|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|18|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|19|45.63.19.52|3128|United States|Piscataway|Choopa|
+|20|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
 
 
 
