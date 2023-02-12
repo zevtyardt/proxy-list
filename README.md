@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6454** proxies at the latest update. Usable proxies are below.
+> Scraper found **6337** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|596|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|596|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|596|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|610|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|610|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|610|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1480|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1363|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|971|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2620|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|134.195.157.46|3128|United States|Ashburn|AB E-Commerce|
-|2|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|3|133.167.121.133|1976|Japan|Osaka|SAKURA Internet Inc.|
-|4|188.34.197.87|8081|Germany|Nuremberg|Hetzner Online GmbH|
-|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|103.94.123.210|80|Indonesia|Gandul|ICONPLN|
-|7|95.17.166.205|8118|Spain|Olot|Orange Spain|
-|8|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|9|85.114.111.215|3128|Palestine|Gaza|Fusion Internet Services Company LLC|
-|10|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|11|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|12|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|13|181.129.245.126|999|Colombia|Santiago de Cali|EPM Telecomunicaciones S.A. E.S.P.|
-|14|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|15|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|51.159.115.233|3128|France|Paris|SCALEWAY|
-|17|16.162.105.232|443|Hong Kong|Hong Kong|Amazon.com|
-|18|116.98.181.85|10003|Vietnam|Tan Tien|Viettel Corporation|
-|19|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|1|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
+|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
+|4|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
+|7|150.136.46.186|3128|United States|Ashburn|Oracle Corporation|
+|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|9|43.243.126.35|3128|Philippines|Makati City|IPVG|
+|10|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|11|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|12|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|13|43.132.184.228|8181|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|14|15.207.96.142|3128|India|Mumbai|Amazon Technologies Inc.|
+|15|116.98.181.85|10003|Vietnam|Tan Tien|Viettel Corporation|
+|16|35.154.193.251|3128|India|Mumbai|Amazon Technologies Inc.|
+|17|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|18|185.88.158.34|3128|Russia|St Petersburg|LLC Country Online|
+|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|133.167.121.133|1976|Japan|Osaka|SAKURA Internet Inc.|
 
 
 
