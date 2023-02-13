@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7069** proxies at the latest update. Usable proxies are below.
+> Scraper found **6942** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|696|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|696|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|696|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|706|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|706|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|706|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1657|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1530|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|962|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3067|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|1|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
 |3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|93.85.69.63|3128|Belarus|Borisov|Republican Unitary Telecommunication Enterprise Beltelecom|
-|5|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|6|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|7|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|8|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|9|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
-|10|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|12|131.255.138.200|80|Peru|Lima|Movilmax Telecom S.A|
-|13|93.108.204.251|3128|Portugal|Moita|Vodafone Portugal|
-|14|64.227.23.88|8118|United States|North Bergen|DigitalOcean, LLC|
-|15|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|16|131.255.138.201|80|Peru|Lima|Movilmax Telecom S.A|
+|4|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|5|93.85.69.63|3128|Belarus|Borisov|Republican Unitary Telecommunication Enterprise Beltelecom|
+|6|178.255.220.72|65535|Bulgaria|Sofia|Belcloud LTD|
+|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|8|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
+|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|10|88.255.243.14|80|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
+|11|190.55.44.18|8080|Argentina|Buenos Aires|Telecentro S.A.|
+|12|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|13|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|14|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
+|15|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |17|216.238.102.84|3128|Brazil|São Paulo|The Constant Company|
-|18|116.102.6.213|4004|Vietnam|Lap Vo|Viettel Corporation|
-|19|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|19|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|20|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 
 
 
