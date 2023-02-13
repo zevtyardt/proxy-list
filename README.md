@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7240** proxies at the latest update. Usable proxies are below.
+> Scraper found **7015** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|846|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|846|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|846|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|748|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|748|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|748|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1728|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1503|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1062|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3067|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|149.28.108.174|38080|United States|Miami|The Constant Company|
-|2|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|5|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|7|178.255.220.72|65535|Bulgaria|Sofia|Belcloud LTD|
-|8|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
-|9|5.75.171.241|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|1|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|2|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|5|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
+|6|93.85.69.63|3128|Belarus|Borisov|Republican Unitary Telecommunication Enterprise Beltelecom|
+|7|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|8|178.255.220.72|65535|Bulgaria|Sofia|Belcloud LTD|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |10|134.195.157.43|3128|United States|Ashburn|AB E-Commerce|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|13|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|149.28.108.174|38080|United States|Miami|The Constant Company|
-|16|216.238.102.84|3128|Brazil|São Paulo|The Constant Company|
-|17|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|18|185.217.137.242|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|19|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|20|45.8.179.241|1337|United Kingdom|London|IT WEB LTD|
+|11|144.22.249.38|80|Brazil|São Paulo|Oracle Corporation|
+|12|216.238.102.84|3128|Brazil|São Paulo|The Constant Company|
+|13|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
+|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|15|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|16|131.255.137.244|80|Peru|Lima|Movilmax Telecom S.A|
+|17|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|18|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|19|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|20|46.246.86.12|8118|Sweden|Stockholm|Portlane Network|
 
 
 
