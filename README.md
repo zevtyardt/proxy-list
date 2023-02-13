@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6751** proxies at the latest update. Usable proxies are below.
+> Scraper found **6724** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|797|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|797|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|797|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|679|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|679|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|679|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1626|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1513|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|863|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|949|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2879|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|2|185.88.158.34|3128|Russia|St Petersburg|LLC Country Online|
-|3|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|4|190.45.251.189|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|5|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|6|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|7|207.188.11.31|80|United States|Bellevue|H5 Data Centers - Chandler LLC|
-|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|9|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|11|15.207.79.247|3128|India|Mumbai|Amazon Technologies Inc.|
-|12|3.7.244.167|3128|India|Mumbai|Amazon.com, Inc.|
-|13|184.155.36.194|8080|United States|Pocatello|CABLE ONE, INC.|
-|14|45.61.187.67|4005|United States|Miami|FranTech Solutions|
-|15|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|16|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|17|91.218.67.157|3128|Germany|Frankfurt am Main|KERNELHOST|
-|18|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|19|5.45.92.167|443|Netherlands|Amsterdam|Scalaxy B.V.|
-|20|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|93.90.82.43|3128|Russia|Rostov-on-Don|Dontechsvyaz LLC|
+|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|5|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|11|8.213.129.96|8080|South Korea|Seoul|Alibaba (US) Technology Co., Ltd.|
+|12|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|13|13.124.202.91|8080|South Korea|Seoul|Amazon Technologies Inc.|
+|14|86.98.2.41|8080|United Arab Emirates|Sharjah|Emirates Telecommunications Corporation|
+|15|5.75.171.241|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|16|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|17|51.159.115.233|3128|France|Paris|SCALEWAY|
+|18|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|20|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
 
 
 
