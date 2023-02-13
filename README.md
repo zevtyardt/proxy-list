@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7565** proxies at the latest update. Usable proxies are below.
+> Scraper found **7636** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|1100|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|1100|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|1100|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|581|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|581|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|581|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1885|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1956|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1074|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3223|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|173.255.240.80|80|United States|Fremont|Akamai Technologies, Inc.|
-|2|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|3|66.94.106.243|80|United States|St Louis|Contabo Inc.|
-|4|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|5|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|6|5.196.124.204|80|France|Roubaix|OVH SAS|
-|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|8|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|9|173.255.240.80|80|United States|Fremont|Akamai Technologies, Inc.|
-|10|66.94.106.243|80|United States|St Louis|Contabo Inc.|
-|11|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|12|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|15|91.229.239.203|3128|Moldova|Chisinau|Alexhost SRL|
-|16|125.164.62.66|80|Indonesia|Keputih|PT. TELKOM INDONESIA|
-|17|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|18|16.162.105.232|443|Hong Kong|Hong Kong|Amazon.com|
-|19|177.86.27.223|8080|Brazil|Valente|Sisalweb Internet|
-|20|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|2|216.238.102.84|3128|Brazil|São Paulo|The Constant Company|
+|3|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|4|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|178.128.211.134|6868|Singapore|Singapore|DigitalOcean, LLC|
+|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|8|202.90.199.146|3128|Indonesia|Jakarta|BMG|
+|9|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|10|51.250.101.77|3128|Russia|Moscow|Yandex.Cloud LLC|
+|11|103.151.177.106|80|Indonesia|Jakarta|PT JASAMARGA TOLLROAD OPERATOR|
+|12|173.255.240.80|80|United States|Fremont|Akamai Technologies, Inc.|
+|13|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|15|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
+|16|66.94.106.243|80|United States|St Louis|Contabo Inc.|
+|17|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|18|66.94.106.243|80|United States|St Louis|Contabo Inc.|
+|19|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|20|77.121.65.117|80|Ukraine|Lutsk|Volia Lutsk|
 
 
 
