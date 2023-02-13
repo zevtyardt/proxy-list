@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7394** proxies at the latest update. Usable proxies are below.
+> Scraper found **7544** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|774|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|774|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|774|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|921|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|921|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|921|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2089|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1942|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|996|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2926|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3223|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|188.34.197.87|8081|Germany|Nuremberg|Hetzner Online GmbH|
-|4|216.238.102.84|3128|Brazil|São Paulo|The Constant Company|
-|5|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|1|157.100.53.130|8080|Ecuador|Ventanas|Nedetel S.A.|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|5.196.124.204|80|France|Roubaix|OVH SAS|
+|4|188.34.197.87|8081|Germany|Nuremberg|Hetzner Online GmbH|
+|5|216.238.102.84|3128|Brazil|São Paulo|The Constant Company|
 |6|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|7|47.90.213.34|7891|United States|Richmond|Alibaba.com LLC|
-|8|178.255.220.72|65535|Bulgaria|Sofia|Belcloud LTD|
+|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 |9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|10|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|11|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|12|138.2.79.142|3128|Singapore|Singapore|Oracle Corporation|
-|13|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|19|34.125.246.223|80|United States|Las Vegas|Google LLC|
-|20|178.35.233.235|3128|Russia|Taman'|Kabardino-Balkaria|
+|10|77.232.21.4|8080|Russia|Moscow|JSC "AKADO-Stolitsa"|
+|11|178.255.220.72|65535|Bulgaria|Sofia|Belcloud LTD|
+|12|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|13|91.229.239.203|3128|Moldova|Chisinau|Alexhost SRL|
+|14|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|15|135.125.190.59|3128|Germany|Limburg an der Lahn|OVH SAS|
+|16|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|17|5.75.171.241|3128|Germany|Nuremberg|Hetzner Online GmbH|
+|18|195.158.22.90|3128|Uzbekistan|Tashkent|Uzbektelecom JSC|
+|19|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|20|54.37.105.157|8080|France|Gravelines|OVH SAS|
 
 
 
