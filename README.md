@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|249|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|249|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|249|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|297|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|297|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|297|
 
 ## Sources
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|140.227.61.178|1000|Japan|Nagawa|InfoSphere|
-|6|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|7|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|9|81.181.109.156|2019|France|Paris|Virtono Networks SRL|
-|10|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
-|11|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|13|164.100.131.37|80|India|Batang|National Knowledge Network|
+|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|81.181.109.156|2019|France|Paris|Virtono Networks SRL|
+|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|8|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
+|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|10|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|11|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|12|140.227.61.178|1000|Japan|Nagawa|InfoSphere|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 |14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|15|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|16|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|17|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|18|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|19|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|20.242.203.179|3128|United States|Boydton|Microsoft Corporation|
+|16|164.100.131.37|80|India|Batang|National Knowledge Network|
+|17|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|20|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
 
 
 
