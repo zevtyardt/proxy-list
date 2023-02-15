@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6210** proxies at the latest update. Usable proxies are below.
+> Scraper found **6109** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|470|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|470|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|470|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|596|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|596|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|596|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1443|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1342|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|710|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2674|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|181.192.22.148|8080|Argentina|Villa Gesell|Coop Telefonica Villa Gesell Ltda|
-|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|8|49.50.161.226|3128|South Korea|Seongnam-si|NBP|
-|9|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|10|116.98.186.191|10003|Vietnam|Hanoi|Viettel Corporation|
-|11|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|12|116.98.178.139|10003|Vietnam|Tan Tien|Viettel Corporation|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
+|3|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|4|116.98.178.139|10003|Vietnam|Tan Tien|Viettel Corporation|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|181.192.22.148|8080|Argentina|Villa Gesell|Coop Telefonica Villa Gesell Ltda|
+|7|139.59.30.170|3128|India|Bengaluru|DIGITALOCEAN|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|49.50.161.226|3128|South Korea|Seongnam-si|NBP|
+|10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
+|12|74.207.235.213|1221|United States|Atlanta|Akamai Technologies, Inc.|
 |13|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|14|116.98.224.245|10003|Vietnam|Hanoi|Viettel Corporation|
-|15|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
-|16|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
-|17|87.255.6.218|8080|Russia|Khimki|BIG TELECOM CLOSED JSC|
-|18|89.43.10.142|8080|Iran|Tehran|Mobin Net Communication Company|
-|19|139.59.30.170|3128|India|Bengaluru|DIGITALOCEAN|
-|20|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
+|14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|15|116.98.186.191|10003|Vietnam|Hanoi|Viettel Corporation|
+|16|164.100.131.37|8080|India|Batang|National Knowledge Network|
+|17|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|18|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|116.98.224.245|10003|Vietnam|Hanoi|Viettel Corporation|
 
 
 
