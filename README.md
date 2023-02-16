@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5353** proxies at the latest update. Usable proxies are below.
+> Scraper found **5339** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|229|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|229|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|229|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|238|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|238|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|238|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1090|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1076|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|341|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2539|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|3|96.9.87.60|8080|Cambodia|Phnom Penh|S.I Group|
+|2|96.9.87.60|8080|Cambodia|Phnom Penh|S.I Group|
+|3|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
 |4|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|5|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|6|78.24.73.126|80|Greece|Athens|UAB Porenta|
-|7|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
-|8|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|5|78.24.73.126|80|Greece|Athens|UAB Porenta|
+|6|43.239.155.5|32650|India|Faridabad|IriisNet communication Pvt Ltd|
+|7|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 |9|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
-|10|191.97.14.26|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|11|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|200.111.182.6|443|Chile|Santiago|Entel Chile S.A.|
+|10|116.98.55.143|5024|Vietnam|Da Nang|Viettel Corporation|
+|11|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
+|12|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|13|165.225.20.83|10605|France|Paris|Zscaler Switzerland GmbH|
 |14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|15|24.51.32.59|8080|United States|Kearney|Great Plains Communications LLC|
-|16|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
-|17|61.28.224.211|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|18|65.108.230.238|42009|Finland|Helsinki|Hetzner Online GmbH|
-|19|43.239.155.5|32650|India|Faridabad|IriisNet communication Pvt Ltd|
-|20|101.6.65.116|4780|China|Haidian|CERNET|
+|15|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|16|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|17|200.111.182.6|443|Chile|Santiago|Entel Chile S.A.|
+|18|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|19|103.139.25.81|8080|Indonesia|Celep|Universitas Muhammadiyah Sidoarjo|
+|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
