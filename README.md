@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6179** proxies at the latest update. Usable proxies are below.
+> Scraper found **6353** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|588|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|588|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|588|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|590|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|590|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|590|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1345|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1519|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|685|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2766|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|158.174.145.37|8080|Sweden|Askim|Bahnhof AB|
-|3|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|13.232.188.68|3128|India|Mumbai|Amazon Technologies Inc.|
-|7|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|8|45.229.34.174|999|Dominican Republic|Santo Domingo Este|Gold Data C.A.|
-|9|187.72.98.134|8080|Brazil|Betim|ALGAR TELECOM S/A|
-|10|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|11|212.90.120.133|3128|United States|Los Angeles|Contabo GmbH|
+|2|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|3|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|6|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|7|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|8|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|9|158.69.72.138|9300|Canada|Montreal|OVH SAS|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|13.232.188.68|3128|India|Mumbai|Amazon Technologies Inc.|
 |12|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|13|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|14|185.49.96.189|8080|Iran|Tehran|Rayaneh Pardazan Baran Co. Ltd.|
-|15|176.88.168.103|8080|Turkey|Kilis|Superonline Iletisim Hizmetleri A.S.|
-|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|17|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|18|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|19|192.169.119.183|3128|Taiwan|Taipei|Zenlayer Inc|
-|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|13|104.168.54.234|8080|United States|Cleveland|ColoCrossing|
+|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|15|182.53.201.95|8080|Thailand|Chanthaburi|TOT Public Company Limited|
+|16|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|17|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|18|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|19|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|20|24.51.32.59|8080|United States|Kearney|Great Plains Communications LLC|
 
 
 
