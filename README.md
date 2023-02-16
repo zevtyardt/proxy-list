@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5310** proxies at the latest update. Usable proxies are below.
+> Scraper found **5387** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|185|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|185|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|185|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|172|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|172|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|172|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|764|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|841|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|311|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2852|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|2|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|3|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
-|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|5|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|6|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|7|124.122.52.187|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
-|11|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|1|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|2|99.45.137.21|3128|United States|Miami|AT&T Services, Inc.|
+|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|5|124.122.52.187|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|6|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|7|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
+|8|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
+|9|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|10|164.100.131.37|80|India|Batang|National Knowledge Network|
+|11|66.94.111.80|9999|United States|St Louis|Contabo Inc.|
 |12|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
-|13|15.207.146.140|3128|India|Mumbai|Amazon Technologies Inc.|
-|14|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|91.232.241.114|8080|Ukraine|Lviv|LEOTEL Ltd.|
-|17|66.94.111.80|9999|United States|St Louis|Contabo Inc.|
-|18|59.63.211.21|9002|China|Dunhou|CHINANET Jiangx province IDC network|
-|19|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
-|20|103.48.68.34|83|India|Hyderabad|Country Online Services PVT LTD|
+|13|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|61.178.141.146|80|China|Yuzhong Chengguanzhen|Chinanet|
+|16|144.76.60.58|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|17|190.109.16.145|999|Colombia|Ibague|Columbus Networks Colombia|
+|18|194.169.167.5|8080|Kosovo|Dubova|Kadri Haxhiaj trading as "B.I."|
+|19|176.102.51.119|3128|Ukraine|Starokostyantyniv|PRIVATE JOINT STOCK COMPANY "DATAGROUP"|
+|20|123.182.59.49|8089|China|Zhangjiakou|Chinanet|
 
 
 
