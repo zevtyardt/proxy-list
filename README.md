@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6005** proxies at the latest update. Usable proxies are below.
+> Scraper found **5970** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|439|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|439|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|439|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|431|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|431|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|431|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1472|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1437|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|576|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2574|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
 |2|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|3|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|5|78.24.73.126|80|Greece|Athens|UAB Porenta|
-|6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|9|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|10|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
-|11|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
-|12|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|13|46.209.24.54|80|Iran|Tehran|National Library of Iran|
-|14|200.48.212.211|999|Peru|Arequipa|Telefonica del Peru S.A.A.|
-|15|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|17|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|18|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
-|19|38.123.207.247|999|Mexico|Mexico City|Cogent Communications|
-|20|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|5|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|6|5.202.83.98|3128|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
+|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|8|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|10|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|11|78.24.73.126|80|Greece|Athens|UAB Porenta|
+|12|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
+|13|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
+|14|80.73.87.198|59175|Russia|Yakutsk|Sakhatelecom|
+|15|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|16|178.128.219.124|8080|Singapore|Singapore|DigitalOcean, LLC|
+|17|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|18|46.209.196.146|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|19|165.232.132.197|1994|United States|Santa Clara|DigitalOcean, LLC|
+|20|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
 
 
 
