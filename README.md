@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6880** proxies at the latest update. Usable proxies are below.
+> Scraper found **6764** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|616|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|616|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|616|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|762|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|762|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|762|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1864|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1693|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|866|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|921|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2767|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|178.128.114.213|8080|Singapore|Singapore|DigitalOcean, LLC|
-|2|149.28.108.174|38080|United States|Miami|The Constant Company|
-|3|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|4|192.169.119.183|3128|Taiwan|Taipei|Zenlayer Inc|
-|5|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|6|213.136.101.40|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|7|51.159.115.233|3128|France|Paris|SCALEWAY|
-|8|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
-|9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|10|45.92.108.112|8080|France|Marseille|Hosteur SAS|
+|1|18.229.253.85|80|Brazil|São Paulo|Amazon Technologies Inc.|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|138.117.77.213|999|Argentina|Posadas|Marandu Comunicaciones Sociedad Del Estado|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|100.42.79.61|1994|United States|Santa Clarita|Multacom Corporation|
+|6|173.230.156.240|3128|United States|Fremont|Akamai Technologies, Inc.|
+|7|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|8|5.78.73.38|50333|United States|Portland|Hetzner Online GmbH|
+|9|164.100.131.37|80|India|Batang|National Knowledge Network|
+|10|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
 |11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|14|116.98.224.145|10024|Vietnam|Hanoi|Viettel Corporation|
-|15|103.173.228.148|3128|Vietnam|Hanoi|Phuong Dong technology solution company limited|
-|16|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|17|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
-|18|82.66.27.145|8118|France|Mérignac|Proxad / Free SAS|
-|19|213.207.204.51|3128|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
-|20|93.90.82.43|3128|Russia|Rostov-on-Don|Dontechsvyaz LLC|
+|12|45.92.108.112|8080|France|Marseille|Hosteur SAS|
+|13|173.230.156.240|3128|United States|Fremont|Akamai Technologies, Inc.|
+|14|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|15|186.96.141.199|999|Mexico|San José Temascatío|Total Play Telecomunicaciones SA De CV|
+|16|45.189.112.1|999|Ecuador|Milagro|Anibal Humberto Enriquez Moncayo(Comunicate)|
+|17|116.98.224.145|10024|Vietnam|Hanoi|Viettel Corporation|
+|18|216.127.188.23|1994|United States|Santa Clarita|Multacom Corporation|
+|19|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
+|20|201.77.108.149|999|Mexico|Jimenez|Nidix Networks S.a. De C.V.|
 
 
 
