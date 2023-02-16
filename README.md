@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5779** proxies at the latest update. Usable proxies are below.
+> Scraper found **5758** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|497|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|497|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|497|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|431|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|431|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|431|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1391|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1370|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|444|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2561|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|185.217.137.241|1337|Seychelles|Cascade|Stallion Network Services Limited|
-|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|4|45.8.179.242|1337|United Kingdom|London|IT WEB LTD|
-|5|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|172.120.119.209|9527|United States|Santa Clara|EGIHosting|
+|2|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|3|46.229.215.224|3128|Russia|St Petersburg|TIMEWEB|
+|4|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|7|35.154.193.251|3128|India|Mumbai|Amazon Technologies Inc.|
 |8|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|9|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|23.106.153.247|3128|United States|Los Angeles|IT7 Networks Inc|
-|12|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
-|13|67.9.25.69|9898|United States|Birmingham|Charter Communications|
-|14|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|15|5.78.73.38|50333|United States|Portland|Hetzner Online GmbH|
-|16|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
+|9|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|10|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|11|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
+|12|3.7.244.167|3128|India|Mumbai|Amazon.com, Inc.|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|102.177.192.84|3128|Zimbabwe|Harare|Contitouch Zimbabwe|
+|15|14.207.114.13|8080|Thailand|Pak Kret|Triple T Broadband Public Company Limited|
+|16|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
 |17|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|18|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
-|19|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|20|144.91.88.27|3128|Germany|Nuremberg|Contabo GmbH|
+|18|185.217.137.216|1337|Seychelles|Cascade|Stallion Network Services Limited|
+|19|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
+|20|91.106.65.107|9812|Iran|Bandar-e Emam Khomeyni|PJSC "Badr Rayan Jonoob"|
 
 
 
