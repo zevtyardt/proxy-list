@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5864** proxies at the latest update. Usable proxies are below.
+> Scraper found **5983** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|378|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|378|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|378|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|320|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|320|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|320|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1331|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1450|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|576|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2574|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 |2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|3|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|5|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|3|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|4|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|5|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
 |6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
-|8|78.24.73.126|80|Greece|Athens|UAB Porenta|
-|9|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
-|10|51.79.50.22|9300|Canada|Victoria|OVH SAS|
-|11|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|12|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
-|13|36.90.21.12|8080|Indonesia|Deli Serdang|PT. Telekomunikasi Indonesia|
-|14|103.194.88.107|32650|India|Faridabad|Elyzium Technologies Pvt. Ltd.|
-|15|171.6.78.81|8080|Thailand|Bang Lamung|Triple T Broadband Public Company Limited|
-|16|200.201.142.18|8080|Brazil|Embu|Telium Telecomunicações Ltda|
-|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|18|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|20|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|7|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|8|103.180.59.220|8080|Indonesia|Jakarta|PT INDONESIA COMNETS PLUS|
+|9|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
+|10|195.222.91.29|8080|Belarus|Minsk|FE "ALTERNATIVNAYA ZIFROVAYA SET" Minsk|
+|11|150.129.151.42|6666|India|Rajkot|Gtpl Sorath Telelink Pvt ltd|
+|12|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|200.114.87.229|8080|Argentina|Buenos Aires|Citarella S.A.|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|80.73.87.198|59175|Russia|Yakutsk|Sakhatelecom|
+|17|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|18|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
+|19|145.40.103.113|3128|United States|Dallas|Packet Host, Inc.|
+|20|66.211.155.34|8080|United States|Milford|FirstLight Fiber|
 
 
 
