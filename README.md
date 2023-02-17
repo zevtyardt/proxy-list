@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6410** proxies at the latest update. Usable proxies are below.
+> Scraper found **6204** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|469|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|469|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|469|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|421|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|421|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|421|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1474|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1387|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|824|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2729|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2610|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|2|45.92.108.112|8080|France|Marseille|Hosteur SAS|
-|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|4|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|5|78.24.73.126|80|Greece|Athens|UAB Porenta|
+|1|45.92.108.112|8080|France|Marseille|Hosteur SAS|
+|2|168.119.209.102|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|3|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|5|88.255.65.119|8080|Turkey|Istanbul|Turk Telekomunikasyon Anonim Sirketi|
 |6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|85.114.111.215|3128|Palestine|Gaza|Fusion Internet Services Company LLC|
-|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|9|23.143.160.132|999|Puerto Rico|Villalba|Unonet Corp|
-|10|103.118.175.154|6969|Indonesia|Wanakerta|PT Pedjoeang Digital Networks|
-|11|45.229.31.33|11211|Argentina|Comandante Nicanor Otamendi|Fibras Opticas De MAR Del Plata S.A.|
-|12|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|13|135.181.32.230|9300|Finland|Helsinki|Hetzner Online GmbH|
-|14|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
-|15|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|91.106.64.209|9812|Iran|Tehran|PJSC "Badr Rayan Jonoob"|
-|17|45.179.170.238|80|Brazil|Rio de Janeiro|Jpnet Servicos De Informatica E Telecomunicacoes L|
-|18|38.51.232.19|8080|Colombia|Sibundoy|SP SISTEMAS PALACIOS LTDA|
-|19|186.65.107.26|666|Brazil|Salvador|Bahiadados Telecom Ltda.|
-|20|61.28.224.211|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|8|41.205.24.112|8080|Cameroon|Douala|MTN Network Solutions (Cameroon)|
+|9|186.65.107.26|666|Brazil|Salvador|Bahiadados Telecom Ltda.|
+|10|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|11|77.46.134.253|32650|Serbia|Belgrade|TELEKOM-SRBIJA|
+|12|45.234.60.2|999|Venezuela|San Antonio de Los Altos|SOLUCIONES INSTALRED CH&C C.A.|
+|13|187.19.203.64|8080|Brazil|Fortaleza|Brisanet Servicos De Telecomunicacoes Ltda|
+|14|103.154.92.74|8080|Indonesia|Jakarta|PT Mora Telematika Indonesia|
+|15|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
+|16|72.44.68.249|1994|United States|Santa Clarita|Multacom Corporation|
+|17|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
+|18|47.243.86.12|443|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|19|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
+|20|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
 
 
 
