@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6504** proxies at the latest update. Usable proxies are below.
+> Scraper found **6493** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|643|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|643|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|643|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|601|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|601|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|601|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1535|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1524|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|729|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2857|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|2|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|3|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|4|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|5|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|8|5.202.104.22|3128|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
-|9|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
-|10|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|11|37.252.76.244|3128|Armenia|Zorak|Ucom Cjsc|
-|12|93.90.82.43|3128|Russia|Rostov-on-Don|Dontechsvyaz LLC|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|66.42.73.120|38080|United States|Seattle|Choopa|
-|15|185.230.48.16|32650|Spain|Figueres|J.C. TECNICS|
-|16|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|17|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|18|197.232.48.155|32650|Kenya|Nairobi|Jamii Telecommunications Limited|
-|19|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
-|20|188.133.137.137|8080|Russia|Moscow|Enforta-SPB|
+|1|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|2|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|3|47.90.213.34|7891|United States|Richmond|Alibaba.com LLC|
+|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|5|159.65.88.48|443|United Kingdom|London|DigitalOcean, LLC|
+|6|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|7|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|8|24.199.92.225|443|United States|North Bergen|DigitalOcean, LLC|
+|9|190.104.245.86|8080|Argentina|Buenos Aires|CPS|
+|10|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|11|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
+|12|24.172.82.94|53281|United States|Concord|Spectrum|
+|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|14|24.199.92.225|443|United States|North Bergen|DigitalOcean, LLC|
+|15|66.42.67.65|38080|United States|Seattle|The Constant Company|
+|16|152.230.8.186|999|Chile|Melipilla|Gtd Internet S.A.|
+|17|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|18|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|19|37.252.76.244|3128|Armenia|Zorak|Ucom Cjsc|
+|20|200.123.15.38|999|Peru|Lima|Wigo S.A.|
 
 
 
