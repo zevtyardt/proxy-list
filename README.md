@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7038** proxies at the latest update. Usable proxies are below.
+> Scraper found **6950** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|794|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|794|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|794|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|609|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|609|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|609|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1848|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1760|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|905|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2902|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|201.238.248.139|9229|Chile|Santiago|Gtd Internet S.A|
-|4|142.93.219.22|8080|India|Bengaluru|DigitalOcean, LLC|
-|5|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|66.42.73.120|38080|United States|Seattle|Choopa|
-|8|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|9|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|10|14.207.120.137|8080|Thailand|Ban Laem Bang Yang|Triple T Broadband Public Company Limited|
-|11|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|1|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|2|173.255.240.80|80|United States|Fremont|Akamai Technologies, Inc.|
+|3|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|4|66.42.73.120|38080|United States|Seattle|Choopa|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|88.198.67.205|3128|Germany|Falkenstein|Hetzner|
+|7|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|8|18.166.72.199|8081|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|9|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|10|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|11|3.67.114.67|80|Germany|Frankfurt am Main|Amazon Technologies Inc.|
 |12|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|13|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|14|195.201.231.22|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|15|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|17|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
-|18|149.28.53.45|38080|United States|Piscataway|The Constant Company|
-|19|176.99.2.43|1081|Russia|Moscow|"Domain names registrar REG.RU", Ltd|
-|20|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|13|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
+|16|14.207.120.137|8080|Thailand|Ban Laem Bang Yang|Triple T Broadband Public Company Limited|
+|17|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|66.42.73.120|38080|United States|Seattle|Choopa|
+|20|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
 
 
 
