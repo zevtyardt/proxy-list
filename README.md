@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6516** proxies at the latest update. Usable proxies are below.
+> Scraper found **6366** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|489|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|489|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|489|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|494|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|494|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|494|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1505|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1397|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|771|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|729|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2857|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|167.71.190.253|80|United States|Clifton|DigitalOcean, LLC|
-|2|191.97.60.198|999|Peru|Chiclayo|Internexa Peru S.A|
-|3|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|4|188.34.197.87|8081|Germany|Nuremberg|Hetzner Online GmbH|
-|5|66.42.73.120|38080|United States|Seattle|Choopa|
-|6|132.226.230.218|8080|South Korea|Seoul|Oracle Corporation|
-|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|8|66.42.73.120|38080|United States|Seattle|Choopa|
-|9|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|10|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|11|149.28.100.32|38080|United States|Miami|The Constant Company|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|14|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|16|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|17|5.202.104.22|3128|Iran|Tehran|Pishgaman Toseeh Ertebatat Company (Private Joint Stock)|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
+|1|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|2|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|3|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|4|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|5|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|6|185.18.213.245|80|Iran|Tehran|Sefroyek Pardaz Engineering Co. LTD|
+|7|66.42.73.120|38080|United States|Seattle|Choopa|
+|8|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|9|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
+|10|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|11|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|12|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|13|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|14|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|132.226.230.218|8080|South Korea|Seoul|Oracle Corporation|
+|17|159.65.142.241|443|Singapore|Singapore|DigitalOcean, LLC|
+|18|86.98.2.41|8080|United Arab Emirates|Sharjah|Emirates Telecommunications Corporation|
+|19|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|20|149.28.100.32|38080|United States|Miami|The Constant Company|
 
 
 
