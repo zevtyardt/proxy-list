@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7656** proxies at the latest update. Usable proxies are below.
+> Scraper found **7886** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|449|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|449|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|449|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|497|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|497|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|497|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1958|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2188|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1213|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3102|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|2|43.133.6.40|8081|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|3|190.64.148.26|8087|Uruguay|Montevideo|Administracion Nacional de Telecomunicaciones|
-|4|31.210.52.227|8080|Turkey|Eyüpsultan|SH ONLINE ILETISIM ANONIM SIRKETI|
-|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|185.88.158.34|3128|Russia|St Petersburg|LLC Country Online|
-|8|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|9|201.238.248.139|9229|Chile|Santiago|Gtd Internet S.A|
-|10|116.42.182.182|3128|South Korea|Dongjak-gu|LG POWERCOMM|
-|11|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|12|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|13|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
-|14|66.42.73.120|38080|United States|Seattle|Choopa|
-|15|64.225.4.85|9958|United States|Clifton|DigitalOcean, LLC|
-|16|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|18|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|19|64.225.4.85|9958|United States|Clifton|DigitalOcean, LLC|
-|20|103.171.183.201|8181|Indonesia|Cianjur|PT Hayat Teknologi Informatika|
+|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|3|51.159.115.233|3128|France|Paris|SCALEWAY|
+|4|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|5|207.246.104.222|8888|United States|Los Angeles|The Constant Company|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|9|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|102.130.192.231|8080|Angola|Luanda|Finstar - Sociedade de Investimento e Participacoes S.A|
+|12|190.64.148.26|8087|Uruguay|Montevideo|Administracion Nacional de Telecomunicaciones|
+|13|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|14|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|15|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|16|66.42.73.120|38080|United States|Seattle|Choopa|
+|17|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|18|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|19|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|20|89.38.240.66|11883|United States|New York|232web Internet Services|
 
 
 
