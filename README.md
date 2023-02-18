@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7308** proxies at the latest update. Usable proxies are below.
+> Scraper found **7946** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|659|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|659|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|659|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2011|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2232|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1083|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1200|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3131|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|3|178.128.114.213|8080|Singapore|Singapore|DigitalOcean, LLC|
-|4|114.7.27.98|8080|Indonesia|Jakarta|PT. INDOSAT Tbk|
-|5|207.246.104.222|8888|United States|Los Angeles|The Constant Company|
-|6|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|7|66.42.67.65|38080|United States|Seattle|The Constant Company|
-|8|51.178.106.44|3030|France|Strasbourg|OVH SAS|
-|9|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|10|207.246.104.222|8888|United States|Los Angeles|The Constant Company|
-|11|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|14|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
-|15|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|16|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
-|17|85.153.8.38|5543|United States|Los Angeles|GRAVITYPROXIES|
-|18|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|85.153.8.38|5543|United States|Los Angeles|GRAVITYPROXIES|
-|20|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|2|66.42.67.65|38080|United States|Seattle|The Constant Company|
+|3|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
+|4|43.133.6.40|8081|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|5|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|6|177.234.209.118|999|Ecuador|Ayacucho|Nedetel S.A.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|149.28.100.32|38080|United States|Miami|The Constant Company|
+|9|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|10|139.144.187.220|3128|United States|Atlanta|Akamai Technologies, Inc.|
+|11|125.166.59.91|80|Indonesia|Malang|PT. TELKOM INDONESIA|
+|12|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|13|18.166.72.199|8081|Hong Kong|Hong Kong|Amazon Technologies Inc.|
+|14|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
+|15|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|16|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|17|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|18|129.151.160.199|80|South Africa|Johannesburg|Oracle Corporation|
+|19|66.42.67.65|38080|United States|Seattle|The Constant Company|
+|20|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
 
 
 
