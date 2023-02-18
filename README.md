@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6403** proxies at the latest update. Usable proxies are below.
+> Scraper found **6464** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|618|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|618|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|618|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|600|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|600|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|600|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1310|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1402|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|840|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|809|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2870|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|3|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|4|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|3|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
 |5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
-|7|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|8|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|9|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
-|12|178.128.114.213|8080|Singapore|Singapore|DigitalOcean, LLC|
-|13|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|14|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|15|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|16|70.44.24.245|8888|United States|Hawley|PenTeleData Inc.|
-|17|77.121.65.117|80|Ukraine|Lutsk|Volia Lutsk|
+|6|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|7|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
+|10|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|11|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|12|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
+|13|202.46.145.4|8080|Indonesia|Jakarta|Pt Mithaharum Abadi|
+|14|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|15|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|16|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 |18|89.43.10.142|8080|Iran|Tehran|Mobin Net Communication Company|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|19|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|20|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
 
 
 
