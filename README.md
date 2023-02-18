@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7679** proxies at the latest update. Usable proxies are below.
+> Scraper found **8123** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|833|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|833|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|833|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|822|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|822|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|822|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1991|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2163|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1174|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3131|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3403|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|5|85.153.8.39|5544|United States|Los Angeles|GRAVITYPROXIES|
-|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|7|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|8|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|46.151.31.27|3128|Netherlands|Amsterdam|VDSINA|
-|13|207.246.104.222|8888|United States|Los Angeles|The Constant Company|
-|14|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|15|85.153.8.29|5534|United States|Los Angeles|GRAVITYPROXIES|
-|16|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
-|17|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|18|5.78.73.38|50333|United States|Portland|Hetzner Online GmbH|
-|19|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|20|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|1|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|6|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|7|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|10|85.153.8.47|5552|United States|Los Angeles|GRAVITYPROXIES|
+|11|149.28.100.32|38080|United States|Miami|The Constant Company|
+|12|188.34.197.87|8081|Germany|Nuremberg|Hetzner Online GmbH|
+|13|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
+|14|149.57.11.129|8181|United States|Frankton|On-Ramp Indiana, Inc.|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
+|18|1.20.207.40|8080|Thailand|Ban Nong Sala|TOT Public Company Limited|
+|19|190.61.84.166|9812|Costa Rica|San José|Ufinet Costa Rica|
+|20|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
 
 
 
