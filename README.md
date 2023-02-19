@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7526** proxies at the latest update. Usable proxies are below.
+> Scraper found **7513** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|959|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|959|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|959|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|888|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|888|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|888|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1872|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1859|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1227|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3044|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
-|2|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|3|212.243.177.250|3128|Switzerland|Gumligen|Swisscom AG|
-|4|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|5|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|6|181.45.148.40|80|Argentina|San Justo|Telecentro S.A.|
-|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|10|139.162.67.39|3128|Japan|Tokyo|Akamai Technologies, Inc.|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|14|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|15|190.120.191.222|999|Argentina|Lanus|Coseidi S.A.|
-|16|103.171.183.201|8181|Indonesia|Cianjur|PT Hayat Teknologi Informatika|
-|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|18|126.25.196.38|8080|Japan|Shirogane|Softbank BB Corp.|
-|19|103.101.82.106|80|Cambodia|Phnom Penh|Turbotech CO.|
-|20|45.171.108.253|999|Ecuador|Nueva Loja|Lagonet-tv Cia. Ltda.|
+|2|212.243.177.250|3128|Switzerland|Gumligen|Swisscom AG|
+|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|5|139.162.67.39|3128|Japan|Tokyo|Akamai Technologies, Inc.|
+|6|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|9|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|13|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|14|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
+|15|126.25.196.38|8080|Japan|Shirogane|Softbank BB Corp.|
+|16|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|17|45.131.109.106|3128|Germany|Frankfurt am Main|Oliver Horscht is trading as "SYNLINQ"|
+|18|85.238.104.216|8088|Ukraine|Odesa|TENET Scientific Production Enterprise LLC|
+|19|61.198.92.180|8080|Japan|Kanazawa|NSK Co., Ltd.|
+|20|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 
 
 
