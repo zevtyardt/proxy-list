@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5411** proxies at the latest update. Usable proxies are below.
+> Scraper found **5393** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|305|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|305|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|305|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|331|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|331|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|331|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|943|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|925|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|527|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2558|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|155.94.220.8|1994|United States|Miami|QuadraNet Enterprises LLC|
-|2|192.9.185.198|3128|Australia|Sydney|Oracle Corporation|
-|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|4|183.221.242.107|8443|China|Shenzhen|China Mobile|
-|5|45.189.254.150|999|Mexico|Santiago Tuxtla|Tracered SA De CV|
-|6|49.49.1.101|8080|Thailand|Chiang Mai|Triple T Broadband Public Company Limited|
-|7|82.102.11.74|443|United Kingdom|Gosport|Redstation Limited|
-|8|185.135.157.89|8080|Netherlands|Amsterdam|Ekotrans Limited Liability Company|
-|9|213.136.94.25|3128|Germany|Nuremberg|Contabo GmbH|
-|10|45.71.184.239|999|Ecuador|Naranjito|Nedetel S.A.|
-|11|213.136.101.37|3128|Ivory Coast|Abidjan|ORANGE COTE D'IVOIRE|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|190.131.250.105|999|Colombia|Medellín|Columbus Networks Colombia|
-|14|58.229.240.118|8443|South Korea|Icheon-si|SK Broadband Co Ltd|
-|15|74.82.50.155|3128|Japan|Shinagawa|Hurricane Electric|
-|16|68.183.237.189|8080|Singapore|Singapore|DigitalOcean, LLC|
-|17|74.114.232.162|8080|United States|Lowell|Midwest Telecom of America, Inc|
-|18|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|19|170.64.178.80|8080|Australia|Sydney|DigitalOcean, LLC|
-|20|149.28.100.32|38080|United States|Miami|The Constant Company|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
+|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|9|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|10|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|11|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|12|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|13|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|14|135.125.113.41|3128|Spain|Madrid|OVH SAS|
+|15|45.191.130.143|45005|Brazil|Sao Jose|Ltinet Provedor Eireli|
+|16|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|18|36.90.62.128|8080|Indonesia|Surabaya|PT. Telekomunikasi Indonesia|
+|19|192.9.185.198|3128|Australia|Sydney|Oracle Corporation|
+|20|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
 
 
 
