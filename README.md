@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5864** proxies at the latest update. Usable proxies are below.
+> Scraper found **6301** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|515|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|515|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|515|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|719|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|719|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|719|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1396|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1473|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|527|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|887|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2558|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|172.245.242.60|3128|United States|Chicago|ColoCrossing|
-|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|74.208.119.240|80|United States|Philadelphia|IONOS SE|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|44.212.64.185|80|United States|Ashburn|Amazon.com|
-|9|172.245.248.41|3128|United States|Chicago|ColoCrossing|
-|10|172.245.242.54|3128|United States|Chicago|ColoCrossing|
-|11|172.245.242.58|3128|United States|Chicago|ColoCrossing|
-|12|172.245.248.43|3128|United States|Chicago|ColoCrossing|
-|13|172.245.242.54|3128|United States|Chicago|ColoCrossing|
-|14|172.245.248.37|3128|United States|Chicago|ColoCrossing|
-|15|172.245.242.60|3128|United States|Chicago|ColoCrossing|
-|16|172.245.242.6|3128|United States|Chicago|ColoCrossing|
-|17|172.245.242.58|3128|United States|Chicago|ColoCrossing|
-|18|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|19|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|20|172.245.248.14|3128|United States|Chicago|ColoCrossing|
+|3|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|8|172.245.248.14|3128|United States|Chicago|ColoCrossing|
+|9|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
+|10|172.245.242.58|3128|United States|Chicago|ColoCrossing|
+|11|172.245.248.41|3128|United States|Chicago|ColoCrossing|
+|12|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|13|172.245.248.43|3128|United States|Chicago|ColoCrossing|
+|14|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|172.245.242.60|3128|United States|Chicago|ColoCrossing|
+|19|172.245.248.43|3128|United States|Chicago|ColoCrossing|
+|20|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
 
 
 
