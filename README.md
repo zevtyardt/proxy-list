@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7650** proxies at the latest update. Usable proxies are below.
+> Scraper found **7577** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|688|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|688|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|688|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|1045|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|1045|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|1045|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1949|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1876|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1274|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3044|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|61.198.92.180|8080|Japan|Kanazawa|NSK Co., Ltd.|
-|4|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|9|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|10|212.243.177.250|3128|Switzerland|Gumligen|Swisscom AG|
-|11|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|12|217.65.5.49|8080|Russia|Moscow|Filanco LLC|
-|13|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|14|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
+|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
+|3|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|8|139.162.67.39|3128|Japan|Tokyo|Akamai Technologies, Inc.|
+|9|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|212.243.177.250|3128|Switzerland|Gumligen|Swisscom AG|
+|12|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
+|13|45.131.109.106|3128|Germany|Frankfurt am Main|Oliver Horscht is trading as "SYNLINQ"|
+|14|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
 |15|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|16|18.230.57.179|80|Brazil|São Paulo|Amazon Technologies Inc.|
-|17|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|18|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|16|61.198.92.180|8080|Japan|Kanazawa|NSK Co., Ltd.|
+|17|85.196.179.34|8080|Bulgaria|Sofia|Mobiltel BNG|
+|18|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
 |19|20.205.156.217|3128|Singapore|Singapore|Microsoft Corporation|
-|20|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|20|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
 
 
 
