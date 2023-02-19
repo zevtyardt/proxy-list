@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5423** proxies at the latest update. Usable proxies are below.
+> Scraper found **5440** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|355|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|355|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|355|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|252|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|252|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|252|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|955|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|972|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|527|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2558|✅|
@@ -50,23 +50,23 @@ Click the file format that you want and copy the URL.
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
 |3|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|4|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|11|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|12|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|13|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
-|14|14.207.86.49|8080|Thailand|Amphoe Bang Phli|Triple T Broadband Public Company Limited|
-|15|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|16|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|45.156.31.76|9090|Turkey|Istanbul|ATLANTIS|
-|19|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|20|66.42.73.120|38080|United States|Seattle|Choopa|
+|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|10|14.207.86.49|8080|Thailand|Amphoe Bang Phli|Triple T Broadband Public Company Limited|
+|11|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|12|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
+|13|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|15|192.9.185.198|3128|Australia|Sydney|Oracle Corporation|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|155.94.220.8|1994|United States|Miami|QuadraNet Enterprises LLC|
+|18|194.169.167.5|8080|Kosovo|Dubova|Kadri Haxhiaj trading as "B.I."|
+|19|180.183.123.155|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|20|61.28.224.211|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
 
 
 
