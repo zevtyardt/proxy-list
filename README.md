@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8401** proxies at the latest update. Usable proxies are below.
+> Scraper found **8161** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|1125|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|1125|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|1125|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|1053|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|1053|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|1053|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2290|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2163|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1365|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3363|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3250|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|207.246.104.222|8888|United States|Los Angeles|The Constant Company|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|54.215.187.121|3128|United States|San Jose|Amazon.com, Inc.|
-|4|45.131.109.106|3128|Germany|Frankfurt am Main|Oliver Horscht is trading as "SYNLINQ"|
-|5|45.131.66.221|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
-|6|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|7|54.215.187.121|3128|United States|San Jose|Amazon.com, Inc.|
-|8|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|9|126.25.196.38|8080|Japan|Shirogane|Softbank BB Corp.|
-|10|185.160.217.2|8123|Russia|Moscow|Rucomtech LLC|
-|11|157.100.56.182|999|Ecuador|Guayaquil|Nedetel S.A.|
-|12|3.36.228.38|80|South Korea|Seoul|Amazon.com, Inc.|
-|13|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|14|103.154.185.10|8080|India|Mandla|Qtime Businesses Private Limited|
-|15|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|16|207.246.104.222|8888|United States|Los Angeles|The Constant Company|
-|17|163.172.57.246|3128|France|Paris|Online S.A.S.|
-|18|82.99.194.30|3128|Iran|Tehran|ParsOnline Co.|
-|19|3.133.108.194|80|United States|Dublin|Amazon.com, Inc.|
-|20|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|1|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|2|47.90.213.34|7891|United States|Richmond|Alibaba.com LLC|
+|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|5|185.81.98.16|3131|Netherlands|Naaldwijk|WorldStream B.V.|
+|6|207.246.104.222|8888|United States|Los Angeles|The Constant Company|
+|7|202.46.145.4|8080|Indonesia|Jakarta|Pt Mithaharum Abadi|
+|8|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|9|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|10|146.190.94.249|8080|Singapore|Singapore|DigitalOcean, LLC|
+|11|54.215.187.121|3128|United States|San Jose|Amazon.com, Inc.|
+|12|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|13|3.133.108.194|80|United States|Dublin|Amazon.com, Inc.|
+|14|52.11.182.5|80|United States|Portland|Amazon.com, Inc.|
+|15|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|16|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|17|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|18|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|19|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|20|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
 
 
 
