@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5871** proxies at the latest update. Usable proxies are below.
+> Scraper found **5705** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|400|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|400|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|400|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|408|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|408|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|408|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1169|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1085|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|735|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|653|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2584|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.153.107.52|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|43.153.86.147|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
 |3|66.98.115.121|1091|United States|Los Angeles|IT7 Networks Inc|
-|4|43.154.223.168|59394|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|5|43.153.175.183|59394|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|6|43.155.140.100|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|7|43.155.128.69|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|8|43.155.180.57|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|9|43.155.134.177|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|10|116.98.53.59|4011|Vietnam|Da Nang|Viettel Corporation|
-|11|43.155.139.13|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|12|43.155.137.104|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|13|43.155.139.176|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|14|43.133.255.203|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|15|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
-|16|43.155.135.78|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|17|43.155.174.75|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|18|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|19|43.155.176.207|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|20|155.248.197.241|9898|United States|San Jose|Oracle Corporation|
+|4|43.153.107.52|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|5|43.155.132.100|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|6|220.86.176.79|8080|South Korea|Gwangmyeong|Korea Telecom|
+|7|43.155.178.45|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|8|43.155.129.228|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|9|43.153.185.26|59394|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|10|43.155.185.168|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|11|43.153.107.52|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
+|12|43.155.134.177|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|13|43.155.174.94|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|14|43.153.175.183|59394|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|15|43.155.139.176|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|16|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|17|43.155.176.207|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|18|43.155.180.57|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|19|43.155.144.21|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|20|43.155.144.99|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
 
 
 
