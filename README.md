@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5659** proxies at the latest update. Usable proxies are below.
+> Scraper found **5726** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|334|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|334|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|334|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|350|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|350|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|350|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1069|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1136|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|589|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2618|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|43.153.175.183|59394|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|2|43.153.185.26|59394|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|4|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|5|43.155.129.228|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|6|66.98.115.121|1091|United States|Los Angeles|IT7 Networks Inc|
-|7|43.155.128.69|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
-|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|9|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|10|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|11|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|50.235.149.74|8080|United States|Taylor|Comcast Cable Communications, LLC|
-|14|158.51.107.253|8080|United States|Fredericksburg|4 ip Technology and Media, LLC|
-|15|190.242.118.93|55443|Colombia|Barranquilla|Columbus Networks USA, Inc.|
-|16|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
-|17|190.217.7.73|999|Venezuela|Caracas|Level 3 Communications, Inc.|
-|18|83.171.90.83|8080|Russia|Velikiye Luki|PJSC Rostelecom|
-|19|203.202.249.2|8080|Bangladesh|Dhaka|Aamra Networks Limited|
-|20|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|1|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|2|154.212.6.87|999|Mexico|San Juan del Río|Ientc S De RL De CV|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|6|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|7|66.98.115.121|1091|United States|Los Angeles|IT7 Networks Inc|
+|8|43.153.175.183|59394|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|10|66.98.115.121|1091|United States|Los Angeles|IT7 Networks Inc|
+|11|43.153.185.26|59394|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|12|43.155.129.228|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|13|43.155.128.69|59394|South Korea|Seoul|Shenzhen Tencent Computer Systems Company Limited|
+|14|43.229.135.144|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|16|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|18|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|19|122.155.165.191|3128|Thailand|Ratchathewi|CAT Telecom Public Company Limited|
+|20|201.157.254.26|8080|Brazil|Salvador|TASCOM TELECOMUNICAÔÔES LTDA|
 
 
 
