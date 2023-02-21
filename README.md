@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7846** proxies at the latest update. Usable proxies are below.
+> Scraper found **7721** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|897|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|897|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|897|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|498|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|498|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|498|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1997|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1872|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|926|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3540|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|3|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|5|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|6|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|8|24.199.92.225|443|United States|North Bergen|DigitalOcean, LLC|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|119.76.142.216|8080|Thailand|Nakhon Ratchasima|True Internet Co., Ltd.|
-|11|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|12|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|13|51.68.97.175|7890|France|Strasbourg|OVH SAS|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|18|116.98.178.216|10003|Vietnam|Tan Tien|Viettel Corporation|
-|19|159.255.188.134|41258|Poland|Zamość|TOM-NET s.c. Dariusz Koper|
-|20|103.42.162.50|8080|India|Sangli|ADVANT|
+|1|162.17.31.139|2080|United States|Chicago|Comcast Cable Communications, LLC|
+|2|162.17.31.137|2080|United States|Chicago|Comcast Cable Communications, LLC|
+|3|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|4|162.17.31.139|2080|United States|Chicago|Comcast Cable Communications, LLC|
+|5|162.17.31.137|2080|United States|Chicago|Comcast Cable Communications, LLC|
+|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|7|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|8|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|9|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
+|10|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|11|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|14|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|15|191.97.15.21|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
+|16|92.119.71.90|8880|Iran|Tehran|Farabord Dadeh Haye Iranian Co.|
+|17|46.148.137.183|8888|Russia|Aleksandrov|Trytek broadband|
+|18|24.199.92.225|443|United States|North Bergen|DigitalOcean, LLC|
+|19|41.220.1.33|32650|Uganda|Kireka|Datanet LLC|
+|20|186.136.55.12|8080|Argentina|Buenos Aires|Telecom Argentina S.A|
 
 
 
