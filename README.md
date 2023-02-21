@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7362** proxies at the latest update. Usable proxies are below.
+> Scraper found **7534** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|881|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|881|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|881|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|547|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|547|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|547|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1747|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1963|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1088|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1044|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3144|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|3|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|6|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|7|190.136.50.67|3128|Argentina|San Miguel de Tucumán|Telecom Argentina S.A|
-|8|47.91.14.31|6666|Japan|Tokyo|Alibaba.com LLC|
-|9|45.136.238.109|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|10|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|104.248.232.179|8080|United States|North Bergen|DigitalOcean, LLC|
-|13|185.162.235.146|3323|Netherlands|Meppel|NovinVPS|
-|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|15|47.91.14.48|6666|Japan|Tokyo|Alibaba.com LLC|
-|16|85.132.67.138|80|Azerbaijan|Baku|AzerSat|
-|17|43.229.135.144|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|18|200.123.29.42|3128|Peru|Lima|Wigo S.A.|
-|19|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|3|47.91.25.216|6666|Japan|Tokyo|Alibaba.com LLC|
+|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|5|47.91.14.31|6666|Japan|Tokyo|Alibaba.com LLC|
+|6|47.91.14.48|6666|Japan|Tokyo|Alibaba.com LLC|
+|7|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|8|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|9|183.88.66.236|8080|Thailand|Bangkok|Triple T Broadband Public Company Limited|
+|10|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
+|11|88.1.167.47|3128|Spain|Tarancon|Telefonica de Espana SAU|
+|12|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|13|116.203.252.129|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|14|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
+|15|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|16|45.149.43.56|53281|Russia|Moscow|Sudak-Net LLC|
+|17|103.211.26.230|8181|Indonesia|Madiun|PT Olean Permata Telematika|
+|18|66.42.67.65|38080|United States|Seattle|The Constant Company|
+|19|104.248.232.179|8080|United States|North Bergen|DigitalOcean, LLC|
+|20|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
 
 
 
