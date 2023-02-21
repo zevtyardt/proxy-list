@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5909** proxies at the latest update. Usable proxies are below.
+> Scraper found **5703** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|361|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|361|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|361|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|379|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|379|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|379|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1198|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|992|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|639|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2689|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|1|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
 |2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|5|47.184.187.59|3128|United States|Garland|Frontier Communications Solutions|
-|6|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|74.15.122.69|3128|Canada|Saint-Constant|Bell Canada|
-|9|137.184.7.62|80|United States|Santa Clara|DigitalOcean, LLC|
-|10|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|11|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|12|146.190.214.101|8080|United States|North Bergen|DigitalOcean, LLC|
-|13|51.178.166.139|3128|France|Gravelines|OVH SAS|
-|14|47.184.187.59|3128|United States|Garland|Frontier Communications Solutions|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|129.80.150.223|3128|United States|Ashburn|Oracle Corporation|
-|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|18|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|19|146.190.214.101|8080|United States|North Bergen|DigitalOcean, LLC|
-|20|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|3|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|5|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|8|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|9|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|10|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|11|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|13|36.90.105.191|3128|Indonesia|Samarinda|PT. Telekomunikasi Indonesia|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|16|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|17|129.80.150.223|3128|United States|Ashburn|Oracle Corporation|
+|18|137.184.11.96|80|United States|Santa Clara|DigitalOcean, LLC|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 
 
 
