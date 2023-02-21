@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7196** proxies at the latest update. Usable proxies are below.
+> Scraper found **7310** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|853|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|853|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|853|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|946|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|946|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|946|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1658|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1772|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1141|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3014|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|2|172.105.99.37|8080|Canada|Toronto|Akamai Technologies|
-|3|206.81.7.198|8080|United States|North Bergen|DigitalOcean, LLC|
-|4|159.89.127.243|8080|Canada|Toronto|DigitalOcean, LLC|
-|5|206.81.7.195|8080|United States|North Bergen|DigitalOcean, LLC|
-|6|178.128.236.23|8080|Canada|Toronto|DigitalOcean|
-|7|78.47.86.103|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|1|178.128.224.174|8080|Canada|Toronto|DigitalOcean|
+|2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|4|206.81.7.195|8080|United States|North Bergen|DigitalOcean, LLC|
+|5|172.105.99.37|8080|Canada|Toronto|Akamai Technologies|
+|6|206.81.7.198|8080|United States|North Bergen|DigitalOcean, LLC|
+|7|5.78.68.184|8080|United States|Portland|Hetzner Online GmbH|
 |8|142.132.161.58|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|9|200.63.104.59|8080|Ecuador|Quito|Eliana Vanessa Morocho Oña|
-|10|167.235.192.71|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|11|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|12|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|13|167.235.21.78|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|14|5.75.230.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|15|5.161.138.214|8080|United States|Ashburn|Hetzner Online GmbH|
-|16|168.119.184.16|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|17|206.81.7.195|8080|United States|North Bergen|DigitalOcean, LLC|
-|18|5.161.48.72|8080|United States|Ashburn|Hetzner Online GmbH|
-|19|5.9.149.118|40000|Germany|Falkenstein|Hetzner Online GmbH|
-|20|159.223.156.185|8080|United States|North Bergen|DigitalOcean, LLC|
+|9|172.245.248.13|3128|United States|Chicago|ColoCrossing|
+|10|5.78.88.87|8080|United States|Portland|Hetzner Online GmbH|
+|11|88.99.83.72|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|12|177.174.126.203|8080|Brazil|Americana|Vivo|
+|13|146.190.214.99|8080|United States|North Bergen|DigitalOcean, LLC|
+|14|146.190.214.99|8080|United States|North Bergen|DigitalOcean, LLC|
+|15|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|16|78.47.86.103|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|17|46.101.186.203|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|18|168.119.184.16|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|19|5.75.230.117|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|20|65.108.211.158|8080|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
