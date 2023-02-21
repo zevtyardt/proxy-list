@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5954** proxies at the latest update. Usable proxies are below.
+> Scraper found **6015** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|471|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|471|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|471|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|546|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|546|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|546|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1217|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1278|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|744|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2610|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|3|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|159.223.47.239|3128|Singapore|Singapore|DigitalOcean, LLC|
-|8|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|11|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|12|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|14|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|15|116.98.180.49|10003|Vietnam|Tan Tien|Viettel Corporation|
-|16|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
-|17|69.64.73.235|8080|United States|Phoenix|Codero|
-|18|149.28.100.32|38080|United States|Miami|The Constant Company|
-|19|47.184.187.59|3128|United States|Garland|Frontier Communications Solutions|
-|20|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|2|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|208.76.221.57|6666|Spain|Madrid|The Constant Company|
+|5|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|6|47.243.187.3|2020|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|7|47.91.14.31|6666|Japan|Tokyo|Alibaba.com LLC|
+|8|47.91.25.216|6666|Japan|Tokyo|Alibaba.com LLC|
+|9|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|12|51.159.115.233|3128|France|Paris|SCALEWAY|
+|13|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|15|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|16|31.172.68.87|8443|Germany|Frankfurt am Main|FORNEX|
+|17|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|18|162.17.31.139|2080|United States|Chicago|Comcast Cable Communications, LLC|
+|19|162.17.31.139|2080|United States|Chicago|Comcast Cable Communications, LLC|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
