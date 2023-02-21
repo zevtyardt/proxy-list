@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7079** proxies at the latest update. Usable proxies are below.
+> Scraper found **7194** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|840|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|840|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|840|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|851|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|851|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|851|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1552|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1667|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1080|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3064|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|158.69.71.245|9300|Canada|Montreal|OVH SAS|
-|4|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|5|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|7|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|135.125.113.41|3128|Spain|Madrid|OVH SAS|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|3|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|4|47.91.25.216|6666|Japan|Tokyo|Alibaba.com LLC|
+|5|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|8|173.255.240.80|80|United States|Fremont|Akamai Technologies, Inc.|
+|9|47.91.14.31|6666|Japan|Tokyo|Alibaba.com LLC|
+|10|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
 |11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|12|43.229.135.144|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|12|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
 |13|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|14|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|15|220.86.176.79|8080|South Korea|Gwangmyeong|Korea Telecom|
-|16|47.91.14.31|6666|Japan|Tokyo|Alibaba.com LLC|
-|17|47.91.25.216|6666|Japan|Tokyo|Alibaba.com LLC|
-|18|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|20|5.78.73.38|50333|United States|Portland|Hetzner Online GmbH|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|16|80.249.112.45|3128|Iran|Tehran|Parsian Technology Innovative Solution Co., PJS.|
+|17|177.23.187.95|5566|Brazil|Novo Sao Joaquim|Infobarra Solucoes em Informatica Ltda|
+|18|114.4.195.76|80|Indonesia|Bekasi|PT. INDOSAT Tbk|
+|19|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|103.83.193.198|80|Venezuela|Barquisimeto|Soluciones Tecnicas Venezuela|
 
 
 
