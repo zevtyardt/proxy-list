@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **5893** proxies at the latest update. Usable proxies are below.
+> Scraper found **5878** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|530|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|530|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|530|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|558|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|558|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|558|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1235|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1220|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|586|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2689|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|133.186.215.90|3128|Japan|Chiyoda|NHN|
-|3|3.237.72.254|3128|United States|Ashburn|Amazon Technologies Inc.|
-|4|5.78.81.188|8080|United States|Portland|Hetzner Online GmbH|
-|5|129.80.150.223|3128|United States|Ashburn|Oracle Corporation|
-|6|129.80.150.223|3128|United States|Ashburn|Oracle Corporation|
-|7|165.232.115.86|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|10|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|11|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|12|193.200.134.23|3128|Hong Kong|Hong Kong|VH-GLOBAL|
-|13|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|15|172.104.168.12|3128|Singapore|Singapore|Akamai Technologies|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|165.22.1.9|8080|United States|North Bergen|DigitalOcean, LLC|
-|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|19|152.67.203.22|443|South Korea|Chuncheon|Oracle Corporation|
-|20|206.81.7.195|8080|United States|North Bergen|DigitalOcean, LLC|
+|1|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|4|3.237.72.254|3128|United States|Ashburn|Amazon Technologies Inc.|
+|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|6|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|7|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|8|165.232.115.86|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|10|129.80.150.223|3128|United States|Ashburn|Oracle Corporation|
+|11|137.184.11.96|80|United States|Santa Clara|DigitalOcean, LLC|
+|12|31.172.68.87|8443|Germany|Frankfurt am Main|FORNEX|
+|13|5.78.81.188|8080|United States|Portland|Hetzner Online GmbH|
+|14|5.161.48.72|8080|United States|Ashburn|Hetzner Online GmbH|
+|15|5.78.81.188|8080|United States|Portland|Hetzner Online GmbH|
+|16|206.81.7.198|8080|United States|North Bergen|DigitalOcean, LLC|
+|17|172.104.168.12|3128|Singapore|Singapore|Akamai Technologies|
+|18|133.186.215.90|3128|Japan|Chiyoda|NHN|
+|19|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
