@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7652** proxies at the latest update. Usable proxies are below.
+> Scraper found **7757** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|480|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|480|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|480|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|806|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|806|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|806|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2001|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2106|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1124|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3144|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|8|91.107.230.90|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|9|46.101.85.55|443|United Kingdom|London|DigitalOcean|
-|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|11|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|13|45.195.74.237|55008|Hong Kong|Hong Kong|PCCW Global, Inc.|
-|14|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
-|15|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|16|164.90.204.215|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|51.159.115.233|3128|France|Paris|SCALEWAY|
+|3|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|4|164.90.204.215|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|5|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
+|6|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|7|91.107.230.90|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|8|149.28.53.45|38080|United States|Piscataway|The Constant Company|
+|9|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|10|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|195.201.253.228|3128|Germany|Gunzenhausen|Hetzner Online GmbH|
+|12|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|13|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|14|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|15|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
+|16|149.28.53.45|38080|United States|Piscataway|The Constant Company|
 |17|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|149.28.53.45|38080|United States|Piscataway|The Constant Company|
-|20|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|18|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|19|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
