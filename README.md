@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6112** proxies at the latest update. Usable proxies are below.
+> Scraper found **6349** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|807|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|807|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|807|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|620|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|620|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|620|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1568|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1805|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|551|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2610|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|4|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|5|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|9|116.98.180.49|10003|Vietnam|Tan Tien|Viettel Corporation|
-|10|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|11|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|16|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|17|172.245.248.34|3128|United States|Chicago|ColoCrossing|
-|18|137.184.11.96|80|United States|Santa Clara|DigitalOcean, LLC|
-|19|69.64.73.235|8080|United States|Phoenix|Codero|
-|20|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|1|135.125.113.41|3128|Spain|Madrid|OVH SAS|
+|2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|5|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
+|6|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|7|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|8|95.216.9.88|3128|Finland|Helsinki|Hetzner Online GmbH|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|129.80.150.223|3128|United States|Ashburn|Oracle Corporation|
+|11|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|13|206.81.7.198|8080|United States|North Bergen|DigitalOcean, LLC|
+|14|206.81.7.195|8080|United States|North Bergen|DigitalOcean, LLC|
+|15|139.180.163.149|80|Australia|Sydney|Choopa|
+|16|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|17|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|18|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|19|47.184.187.59|3128|United States|Garland|Frontier Communications Solutions|
+|20|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
 
 
 
