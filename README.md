@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6063** proxies at the latest update. Usable proxies are below.
+> Scraper found **5953** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|457|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|457|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|457|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|435|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|435|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|435|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1382|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1272|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|549|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2749|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|3|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|5|47.91.25.216|6666|Japan|Tokyo|Alibaba.com LLC|
-|6|47.91.14.31|6666|Japan|Tokyo|Alibaba.com LLC|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|47.91.14.48|6666|Japan|Tokyo|Alibaba.com LLC|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|47.91.25.216|6666|Japan|Tokyo|Alibaba.com LLC|
+|4|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|47.91.14.31|6666|Japan|Tokyo|Alibaba.com LLC|
+|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |10|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
-|13|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|43.229.135.144|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
 |15|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
 |16|135.181.14.45|5959|Finland|Helsinki|Hetzner Online GmbH|
-|17|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|18|43.229.135.144|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|17|162.17.31.137|2080|United States|Chicago|Comcast Cable Communications, LLC|
+|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|19|41.65.160.174|1981|Egypt|Minyat an Nasr|Etisalat Misr Mobile BB|
+|20|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 
 
 
