@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6014** proxies at the latest update. Usable proxies are below.
+> Scraper found **5966** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|400|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|400|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|400|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|544|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|544|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|544|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1277|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1229|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|665|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2689|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 |2|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|3|146.190.214.101|8080|United States|North Bergen|DigitalOcean, LLC|
-|4|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|135.125.113.41|3128|Spain|Madrid|OVH SAS|
-|7|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|8|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
-|9|145.40.99.247|3128|United States|Dallas|Packet Host, Inc.|
-|10|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|11|137.184.11.96|80|United States|Santa Clara|DigitalOcean, LLC|
-|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|13|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|15|51.178.166.139|3128|France|Gravelines|OVH SAS|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|74.15.122.69|3128|Canada|Saint-Constant|Bell Canada|
+|5|146.190.214.101|8080|United States|North Bergen|DigitalOcean, LLC|
+|6|47.184.187.59|3128|United States|Garland|Frontier Communications Solutions|
+|7|147.28.184.73|3128|Germany|Frankfurt am Main|Packet Host, Inc.|
+|8|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|9|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|10|47.184.187.59|3128|United States|Garland|Frontier Communications Solutions|
+|11|135.125.113.41|3128|Spain|Madrid|OVH SAS|
+|12|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|13|146.190.214.101|8080|United States|North Bergen|DigitalOcean, LLC|
+|14|134.195.157.56|3128|United States|Ashburn|AB E-Commerce|
+|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|18|137.184.7.62|80|United States|Santa Clara|DigitalOcean, LLC|
-|19|137.184.7.62|80|United States|Santa Clara|DigitalOcean, LLC|
-|20|3.237.72.254|3128|United States|Ashburn|Amazon Technologies Inc.|
+|17|206.81.7.195|8080|United States|North Bergen|DigitalOcean, LLC|
+|18|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|19|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|20|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
 
 
 
