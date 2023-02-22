@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|555|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|555|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|555|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|439|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|439|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|439|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|35.223.150.250|3128|United States|Council Bluffs|Google LLC|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|7|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|3|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|4|35.223.150.250|3128|United States|Council Bluffs|Google LLC|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |8|35.223.150.250|3128|United States|Council Bluffs|Google LLC|
-|9|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|10|172.245.248.21|3128|United States|Chicago|ColoCrossing|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|13|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|14|72.44.76.76|1994|United States|Santa Clarita|Multacom Corporation|
-|15|173.82.12.10|1994|United States|Santa Clarita|Multacom Corporation|
-|16|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|17|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|18|89.218.186.133|3128|Kazakhstan|Pavlodar|Kazakhtelecom Data Network Administration|
-|19|45.190.170.0|999|Peru|Lima|Softbutterfly SAC|
-|20|180.184.78.246|3128|China|Beijing|China Internet Network Information Center|
+|9|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|10|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|13|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|16|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|18|149.28.116.109|38080|United States|Elk Grove Village|The Constant Company|
+|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|20|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 
 
 
