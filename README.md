@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|437|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|437|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|437|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|492|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|492|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|492|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|4|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|5|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|8|43.229.148.70|8080|Thailand|Ban Mo|Siamdata Communication Co.|
-|9|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|10|185.97.114.251|3128|Kazakhstan|Almaty|KZNLS Network|
-|11|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|103.247.21.101|1080|Indonesia|Bekasi|PT wifian Solution|
-|14|149.57.11.193|8181|United States|Frankton|Swayzee Telephone Company, Inc.|
-|15|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|16|103.31.235.74|80|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|17|4.59.83.198|8080|United States|Naples|Level 3|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|158.51.107.253|8080|United States|Fredericksburg|4 ip Technology and Media, LLC|
-|20|70.90.138.109|8080|United States|Warren|Comcast Cable Communications, LLC|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|172.245.248.21|3128|United States|Chicago|ColoCrossing|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|6|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|8|172.245.248.21|3128|United States|Chicago|ColoCrossing|
+|9|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|23.95.186.182|3128|United States|Washington|ColoCrossing|
+|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|13|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|15|43.229.148.70|8080|Thailand|Ban Mo|Siamdata Communication Co.|
+|16|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|17|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|20|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
 
 
 
