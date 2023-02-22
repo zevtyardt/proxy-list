@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8200** proxies at the latest update. Usable proxies are below.
+> Scraper found **8358** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|747|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|747|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|747|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|718|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|718|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|718|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2315|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2473|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1073|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3429|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |2|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|5|206.81.4.101|80|United States|North Bergen|DigitalOcean, LLC|
-|6|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|8|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|9|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|43.243.127.86|3128|Philippines|Makati City|IPVG|
-|12|157.230.186.35|8080|United States|North Bergen|DigitalOcean, LLC|
-|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|14|35.202.156.144|80|United States|Council Bluffs|Google LLC|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|34.172.41.232|3128|United States|Council Bluffs|Google LLC|
-|17|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|18|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|19|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|20|157.230.230.57|80|United States|North Bergen|DigitalOcean, LLC|
+|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|5.75.134.209|40000|Germany|Nuremberg|Hetzner Online GmbH|
+|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
+|10|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|11|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|12|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|13|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
+|14|191.97.60.198|999|Peru|Chiclayo|Internexa Peru S.A|
+|15|141.11.103.219|80|United States|Durham|RACK400 com netherlands Infrastructure|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|18|43.243.127.86|3128|Philippines|Makati City|IPVG|
+|19|206.81.4.101|80|United States|North Bergen|DigitalOcean, LLC|
+|20|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
 
 
 
