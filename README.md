@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7882** proxies at the latest update. Usable proxies are below.
+> Scraper found **8110** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|172|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|172|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|172|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|970|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|970|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|970|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2333|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2182|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1116|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3050|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3429|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|2|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|3|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|4|182.255.46.103|80|Hong Kong|Cheung Sha Wan|Xnnet LLC|
-|5|110.34.3.229|3128|Nepal|Kathmandu|SUBISU C7|
-|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|7|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|8|132.147.34.22|8111|United States|Miami|Breezeline|
-|9|45.79.22.88|8080|United States|Richardson|Akamai Technologies, Inc.|
-|10|132.147.34.22|8111|United States|Miami|Breezeline|
-|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|12|61.29.96.146|80|Australia|Melbourne|AAPT Limited|
-|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|14|45.79.213.223|8080|United States|Atlanta|Akamai Technologies, Inc.|
-|15|47.243.187.3|2020|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|17|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
-|18|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|19|34.172.41.232|3128|United States|Council Bluffs|Google LLC|
-|20|23.92.27.247|8080|United States|Fremont|Akamai Technologies, Inc.|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|4|206.81.4.101|80|United States|North Bergen|DigitalOcean, LLC|
+|5|45.79.213.223|8080|United States|Atlanta|Akamai Technologies, Inc.|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|45.79.22.88|8080|United States|Richardson|Akamai Technologies, Inc.|
+|8|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|9|35.202.156.144|80|United States|Council Bluffs|Google LLC|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|12|18.224.37.42|3128|United States|Dublin|Amazon.com, Inc.|
+|13|146.190.94.249|3128|Singapore|Singapore|DigitalOcean, LLC|
+|14|34.172.41.232|3128|United States|Council Bluffs|Google LLC|
+|15|157.230.230.57|80|United States|North Bergen|DigitalOcean, LLC|
+|16|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|17|27.64.26.43|5145|Vietnam|Ho Chi Minh City|Viettel Group|
+|18|5.161.178.72|8080|United States|Ashburn|Hetzner Online GmbH|
+|19|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|20|157.230.186.35|8080|United States|North Bergen|DigitalOcean, LLC|
 
 
 
