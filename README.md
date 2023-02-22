@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7678** proxies at the latest update. Usable proxies are below.
+> Scraper found **7686** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|689|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|689|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|689|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|431|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|431|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|431|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2132|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2140|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1113|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3050|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|3|168.119.189.133|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|4|91.107.195.114|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|5|43.243.127.86|3128|Philippines|Makati City|IPVG|
-|6|47.90.213.34|7891|United States|Richmond|Alibaba.com LLC|
-|7|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|8|165.232.185.225|8080|India|Bengaluru|DigitalOcean, LLC|
-|9|170.64.158.89|8080|Australia|Sydney|DigitalOcean, LLC|
-|10|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|11|167.172.184.197|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|12|95.216.172.243|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|45.79.213.223|8080|United States|Atlanta|Akamai Technologies, Inc.|
-|14|78.47.113.69|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|15|167.235.150.96|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|16|35.202.156.144|80|United States|Council Bluffs|Google LLC|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|34.172.41.232|3128|United States|Council Bluffs|Google LLC|
-|19|165.246.148.50|8088|South Korea|Seocho-gu|ITIS|
-|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|1|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|2|43.133.6.40|8081|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|3|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|4|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|7|40.74.143.41|3128|Japan|Osaka|Microsoft Corporation|
+|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|9|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
+|12|168.119.189.133|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|14|50.116.5.235|8080|United States|Fremont|Akamai Technologies, Inc.|
+|15|43.243.127.86|3128|Philippines|Makati City|IPVG|
+|16|170.64.158.89|8080|Australia|Sydney|DigitalOcean, LLC|
+|17|45.79.22.88|8080|United States|Richardson|Akamai Technologies, Inc.|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|192.241.134.207|80|United States|North Bergen|DigitalOcean, LLC|
+|20|206.81.4.101|80|United States|North Bergen|DigitalOcean, LLC|
 
 
 
