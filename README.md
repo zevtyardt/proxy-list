@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6982** proxies at the latest update. Usable proxies are below.
+> Scraper found **6792** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|602|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|602|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|602|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|603|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|603|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|603|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1651|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1461|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|902|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3046|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|2|18.212.74.224|3128|United States|Ashburn|Amazon.com, Inc.|
-|3|23.92.208.66|2019|United States|Quinton|Centrilogic|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|5.161.47.166|8080|United States|Ashburn|Hetzner Online GmbH|
-|6|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|9|190.121.146.233|3129|Colombia|Barranquilla|Media Commerce Partners S.A|
-|10|72.14.183.25|3129|United States|Richardson|Akamai Technologies, Inc.|
-|11|3.222.33.62|3128|United States|Ashburn|Amazon Technologies Inc.|
-|12|209.182.225.23|2019|United States|Seattle|Shock Hosting LLC|
-|13|89.218.186.133|3128|Kazakhstan|Pavlodar|Kazakhtelecom Data Network Administration|
+|1|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|2|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|3|18.212.74.224|3128|United States|Ashburn|Amazon.com, Inc.|
+|4|209.182.225.23|2019|United States|Seattle|Shock Hosting LLC|
+|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|6|159.69.29.66|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|7|5.78.87.243|8080|United States|Portland|Hetzner Online GmbH|
+|8|190.121.146.233|3129|Colombia|Barranquilla|Media Commerce Partners S.A|
+|9|207.154.250.224|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|165.232.71.86|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|11|165.232.79.219|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|116.105.16.72|5115|Vietnam|Da Nang|Viettel Corporation|
+|13|46.20.46.204|2019|Germany|Düsseldorf|myLoc managed IT AG|
 |14|103.20.235.121|2019|Singapore|Singapore|Shock Hosting LLC|
-|15|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|16|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|18|5.78.87.243|8080|United States|Portland|Hetzner Online GmbH|
-|19|23.92.208.70|2019|United States|Quinton|Centrilogic|
-|20|103.184.66.114|8181|Indonesia|Pandeglang|PT Siber Tech Indonesia|
+|15|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|16|38.156.13.106|999|Colombia|Bogotá|Web Master Colombia|
+|17|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
+|18|165.232.73.102|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|19|38.156.13.108|999|Colombia|Bogotá|Web Master Colombia|
+|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 
 
 
