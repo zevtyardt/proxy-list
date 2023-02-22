@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6909** proxies at the latest update. Usable proxies are below.
+> Scraper found **6895** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|659|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|659|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|659|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|617|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|617|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|617|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1712|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1634|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|872|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|936|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2942|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
 |2|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|7|40.76.229.90|3128|United States|Boydton|Microsoft Corporation|
-|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|10|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|12|35.223.150.250|3128|United States|Council Bluffs|Google LLC|
-|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|14|40.76.229.90|3128|United States|Boydton|Microsoft Corporation|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|3|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|5|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|6|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|9|139.144.187.220|3128|United States|Atlanta|Akamai Technologies, Inc.|
+|10|35.223.150.250|3128|United States|Council Bluffs|Google LLC|
+|11|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|15|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|16|181.174.228.35|999|Colombia|Oporapa|Sinergy Soluciones Integrales|
 |17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |18|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|19|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|20|190.107.145.59|999|Honduras|Tegucigalpa|Telgua|
+|19|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|20|51.68.97.175|7890|France|Strasbourg|OVH SAS|
 
 
 
