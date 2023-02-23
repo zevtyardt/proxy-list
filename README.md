@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7384** proxies at the latest update. Usable proxies are below.
+> Scraper found **7339** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1878|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1833|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|846|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3277|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|2|201.238.248.139|9229|Chile|Santiago|Gtd Internet S.A|
-|3|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|4|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|204.137.250.6|3129|United States|Saratoga Springs|Apogee Telecom Inc|
-|7|104.194.232.179|1994|United States|Santa Clarita|Multacom Corporation|
-|8|5.161.48.72|8080|United States|Ashburn|Hetzner Online GmbH|
-|9|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|10|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|13|116.98.224.19|10003|Vietnam|Hanoi|Viettel Corporation|
-|14|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|15|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|17|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
-|18|173.82.12.238|1994|United States|Santa Clarita|Multacom Corporation|
-|19|108.166.203.110|1994|United States|Santa Clarita|Multacom Corporation|
-|20|72.44.76.76|1994|United States|Santa Clarita|Multacom Corporation|
+|1|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|3|164.90.227.54|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|4|204.137.250.6|3129|United States|Saratoga Springs|Apogee Telecom Inc|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|43.229.132.149|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|8|129.80.150.223|3128|United States|Ashburn|Oracle Corporation|
+|9|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
+|10|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
+|11|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|13|137.184.65.111|443|United States|North Bergen|DigitalOcean, LLC|
+|14|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|15|137.184.65.111|443|United States|North Bergen|DigitalOcean, LLC|
+|16|198.211.27.215|3128|United States|Canyon Country|Multacom Corporation|
+|17|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|18|180.180.144.117|8080|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
+|19|198.52.115.114|1994|United States|Santa Clarita|Multacom Corporation|
+|20|50.246.120.125|8080|United States|Pasadena|Comcast Cable Communications, LLC|
 
 
 
