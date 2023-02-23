@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7256** proxies at the latest update. Usable proxies are below.
+> Scraper found **7624** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|287|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|287|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|287|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|737|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|737|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|737|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1910|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2278|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|931|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3032|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|183.88.198.70|8080|Thailand|Chachoengsao|Triple T Broadband Public Company Limited|
-|5|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|131.196.254.101|3128|Mexico|Puebla City|Truxgo S. R.L. de C.V.|
-|8|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|9|104.131.19.48|3128|United States|Clifton|DigitalOcean, LLC|
-|10|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|11|172.245.248.2|3128|United States|Chicago|ColoCrossing|
-|12|51.68.97.175|7890|France|Strasbourg|OVH SAS|
-|13|172.245.248.42|3128|United States|Chicago|ColoCrossing|
-|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|15|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
-|16|138.117.231.130|999|Guatemala|Huehuetenango|Fibernet S.A|
-|17|122.50.6.186|8080|Indonesia|Bogor|PT Mora Telematika Indonesia|
-|18|157.230.88.212|3128|United States|North Bergen|DigitalOcean, LLC|
-|19|172.245.248.29|3128|United States|Chicago|ColoCrossing|
-|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|1|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|123.194.186.149|80|Taiwan|Taipei|KBRO|
+|4|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|9|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|10|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
+|11|183.88.198.70|8080|Thailand|Chachoengsao|Triple T Broadband Public Company Limited|
+|12|185.129.168.54|2222|Iran|Tehran|Abazarhaye Farsi Shabakeh (Persian Tools) Co., LTD.|
+|13|103.22.183.233|8080|Thailand|Bangkok|Siamdata Communication Co., ltd.|
+|14|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
+|15|191.102.68.105|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
+|16|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|17|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|18|149.28.53.45|38080|United States|Piscataway|The Constant Company|
+|19|172.245.242.62|3128|United States|Chicago|ColoCrossing|
+|20|43.229.132.149|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
 
 
 
