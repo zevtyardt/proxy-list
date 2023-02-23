@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7485** proxies at the latest update. Usable proxies are below.
+> Scraper found **7344** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|708|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|708|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|708|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|598|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|598|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|598|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1732|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1591|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|944|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3426|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|3|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
 |4|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|5|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
 |6|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|7|171.242.29.218|4005|Vietnam|Ninh Binh|Viettel Corporation|
-|8|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|9|125.240.183.145|8080|South Korea|Seo-gu|DACOM-PUBNETPLUS|
-|10|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|11|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|7|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|8|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|9|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
 |12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|15|43.229.132.149|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
-|16|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|17|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|18|125.160.202.2|8080|Indonesia|Malang|PT. TELKOM INDONESIA|
-|19|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|20|116.98.234.157|10003|Vietnam|Hanoi|Viettel Corporation|
+|13|117.251.103.186|8080|India|Hazratpur|BSNL Internet|
+|14|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|15|125.160.202.2|8080|Indonesia|Malang|PT. TELKOM INDONESIA|
+|16|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|17|43.229.132.149|8080|Thailand|Nonthaburi|Siamdata Communication Co., ltd.|
+|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|19|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|20|181.129.183.19|53281|Colombia|Bucaramanga|EPM Telecomunicaciones S.A. E.S.P.|
 
 
 
