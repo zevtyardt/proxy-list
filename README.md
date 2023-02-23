@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7209** proxies at the latest update. Usable proxies are below.
+> Scraper found **7349** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|537|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|537|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|537|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|595|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|595|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|595|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1604|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1730|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|989|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1003|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3233|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|6|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|7|43.153.2.2|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|8|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|11|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
-|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|13|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|14|43.153.2.2|59394|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|15|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|16|180.180.74.33|8080|Thailand|Ban Kaeng|TOT Public Company Limited|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|4|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|5|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|6|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
+|7|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|8|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|9|165.246.44.138|8080|South Korea|Incheon|ITIS|
+|10|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|11|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|13|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|14|118.172.159.67|8080|Thailand|Ban Kao|TOT Public Company Limited|
+|15|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|16|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|17|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
 |18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
-|20|160.251.9.88|3128|Japan|Chiyoda|interQ|
+|19|160.251.9.88|3128|Japan|Chiyoda|interQ|
+|20|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
 
 
 
