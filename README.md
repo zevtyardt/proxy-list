@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7343** proxies at the latest update. Usable proxies are below.
+> Scraper found **7319** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|600|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|600|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|600|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|752|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|752|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|752|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1880|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1884|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|977|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|949|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3103|✅|
 
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|3|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|6|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
-|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|11|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|13|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|2|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|3|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|4|182.255.46.103|80|Hong Kong|Cheung Sha Wan|Xnnet LLC|
+|5|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|7|45.195.74.237|55008|Hong Kong|Hong Kong|PCCW Global, Inc.|
+|8|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|9|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|10|47.243.121.74|3128|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
+|13|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
 |14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|15|203.150.113.254|8080|Thailand|Watthana|Internet Thailand Company Ltd.|
-|16|45.195.74.209|55008|Hong Kong|Hong Kong|PCCW Global, Inc.|
-|17|116.98.181.159|10003|Vietnam|Tan Tien|Viettel Corporation|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
-|20|195.88.148.18|3128|Spain|Barcelona|Elstir S.L.|
+|15|61.198.92.18|8080|Japan|Kanazawa|NSK Co., Ltd.|
+|16|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|17|18.140.185.137|3128|Singapore|Singapore|Amazon.com, Inc.|
+|18|162.55.188.41|8020|Germany|Nuremberg|Hetzner Online GmbH|
+|19|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
+|20|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
 
 
 
