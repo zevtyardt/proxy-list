@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7671** proxies at the latest update. Usable proxies are below.
+> Scraper found **7821** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|430|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|430|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|430|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|712|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|712|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|712|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1840|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2019|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1022|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|993|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3426|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|2|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|164.132.122.114|3128|France|Paris|OVH SAS|
-|4|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|5|167.235.154.203|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|6|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|51.68.97.175|7890|France|Strasbourg|OVH SAS|
-|9|116.98.234.157|10003|Vietnam|Hanoi|Viettel Corporation|
-|10|131.161.221.139|80|Ecuador|Cuenca|Marvicnet CIA Ltda|
-|11|190.64.148.26|8087|Uruguay|Montevideo|Administracion Nacional de Telecomunicaciones|
-|12|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
-|13|45.167.192.49|999|Chile|San Joaquin|Sociedad Smartnet Limitada|
-|14|116.98.182.194|10003|Vietnam|Tan Tien|Viettel Corporation|
-|15|185.49.96.94|8080|Iran|Tehran|Rayaneh Pardazan Baran Co. Ltd.|
-|16|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|17|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
-|18|51.210.72.174|8118|France|Roubaix|OVH SAS|
-|19|41.220.113.117|80|Kenya|Nairobi|COMMSOL|
-|20|103.216.49.188|32650|Cambodia|Phnom Penh|Today Communication Co|
+|1|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|2|138.201.132.168|8118|Germany|Falkenstein|Hetzner Online GmbH|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
+|5|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|5.75.180.65|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|10|134.195.157.37|3128|United States|Ashburn|AB E-Commerce|
+|11|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|14|116.98.234.157|10003|Vietnam|Hanoi|Viettel Corporation|
+|15|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|16|46.225.237.146|3128|Iran|Tehran|Dadeh Gostar Asr Novin P.J.S. Co.|
+|17|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|18|209.141.62.12|5555|United States|Las Vegas|FranTech Solutions|
+|19|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
+|20|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
 
 
 
