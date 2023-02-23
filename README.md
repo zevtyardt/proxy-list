@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7728** proxies at the latest update. Usable proxies are below.
+> Scraper found **7730** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|530|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|530|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|530|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|678|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|678|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|678|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1778|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1780|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1288|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3279|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|81.4.122.143|8081|Netherlands|Alblasserdam|WeservIT|
+|3|204.137.250.6|3129|United States|Saratoga Springs|Apogee Telecom Inc|
 |4|81.4.102.233|8081|Netherlands|Amsterdam|WeservIT|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|204.137.250.6|3129|United States|Saratoga Springs|Apogee Telecom Inc|
-|7|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|8|116.98.234.157|10003|Vietnam|Hanoi|Viettel Corporation|
-|9|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|10|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|11|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|5|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|6|104.148.86.186|3129|United States|Los Angeles|LayerHost|
+|7|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
+|8|43.243.127.86|3128|Philippines|Makati City|IPVG|
+|9|116.98.234.157|10003|Vietnam|Hanoi|Viettel Corporation|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
 |12|43.229.148.70|8080|Thailand|Ban Mo|Siamdata Communication Co.|
-|13|116.98.181.159|10003|Vietnam|Tan Tien|Viettel Corporation|
-|14|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|15|31.220.183.217|53281|Russia|Novokuznetsk|Regional Digital Telecommunication Company|
-|16|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|13|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|14|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|15|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|16|70.44.24.245|8888|United States|Hawley|PenTeleData Inc.|
 |17|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
-|18|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|19|213.59.156.125|3128|Russia|Tomsk|ZT-TOMSK|
-|20|139.162.18.134|3128|Singapore|Singapore|LINODE|
+|18|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|19|190.63.35.30|9812|Ecuador|Ambato|CONECEL|
+|20|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
 
 
 
