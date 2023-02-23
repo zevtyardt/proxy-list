@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7654** proxies at the latest update. Usable proxies are below.
+> Scraper found **7673** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|732|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|732|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|732|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|649|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|649|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|649|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1845|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1864|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1188|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3238|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|2|34.234.63.45|80|United States|Ashburn|Amazon.com, Inc.|
-|3|18.234.186.110|80|United States|Ashburn|Amazon.com, Inc.|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|195.154.32.138|3128|France|Planfoy|Online S.A.S.|
-|6|3.67.169.179|80|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|7|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|8|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
-|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|10|200.73.130.8|80|Argentina|Buenos Aires|Telecom Argentina S.A.|
-|11|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|12|213.178.250.33|8080|Syria|Damascus|SCS|
-|13|137.184.199.249|3128|United States|North Bergen|DigitalOcean, LLC|
-|14|61.198.92.18|8080|Japan|Kanazawa|NSK Co., Ltd.|
+|1|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|4|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|43.243.127.86|3128|Philippines|Makati City|IPVG|
+|6|51.159.115.233|3128|France|Paris|SCALEWAY|
+|7|116.98.234.157|10003|Vietnam|Hanoi|Viettel Corporation|
+|8|119.28.81.150|7890|Hong Kong|Hong Kong|ComsenzNet|
+|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|10|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|11|101.109.106.78|8080|Thailand|Ban Laeng|TOT Public Company Limited|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|14|148.244.170.54|32650|Mexico|San Nicolás de los Garza|Alestra, S. de R.L. de C.V.|
 |15|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|16|3.123.31.44|8443|Germany|Frankfurt am Main|Amazon Technologies Inc.|
-|17|153.204.44.102|80|Japan|Chuo|NTT Communications Corporation|
-|18|34.234.63.45|80|United States|Ashburn|Amazon.com, Inc.|
-|19|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|20|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|17|18.140.49.152|3128|Singapore|Singapore|Amazon.com, Inc.|
+|18|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|19|81.4.102.223|8081|Netherlands|Amsterdam|WeservIT|
+|20|146.59.127.168|80|Poland|Warsaw|OVH SAS|
 
 
 
