@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7167** proxies at the latest update. Usable proxies are below.
+> Scraper found **7411** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|720|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|720|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|720|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|633|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|633|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|633|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1666|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1910|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1130|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2988|✅|
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|3|51.159.115.233|3128|France|Paris|SCALEWAY|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
 |5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|9|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|14|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|15|119.42.115.68|8080|Thailand|Bangkok|CAT-BB|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|8|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|10|43.243.127.86|3128|Philippines|Makati City|IPVG|
+|11|15.204.207.2|3128|United States|Reston|OVH SAS|
+|12|103.162.20.161|3128|Vietnam|Ho Chi Minh City|DILINH|
+|13|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|14|190.202.3.22|32650|Venezuela|Caracas|CANTV Servicios, Venezuela|
+|15|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
 |16|116.98.181.159|10003|Vietnam|Tan Tien|Viettel Corporation|
-|17|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|18|116.98.234.157|10003|Vietnam|Hanoi|Viettel Corporation|
-|19|43.243.127.86|3128|Philippines|Makati City|IPVG|
-|20|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|17|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|18|119.42.115.68|8080|Thailand|Bangkok|CAT-BB|
+|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|20|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
 
 
 
