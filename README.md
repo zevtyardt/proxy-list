@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8093** proxies at the latest update. Usable proxies are below.
+> Scraper found **8164** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|829|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|829|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|829|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|864|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|864|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|864|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1848|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1919|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1389|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3473|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|4|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|5|159.223.153.137|8080|United States|North Bergen|DigitalOcean, LLC|
-|6|51.159.115.233|3128|France|Paris|SCALEWAY|
-|7|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|8|201.150.118.42|999|Mexico|Actopan|Hulux Telecomunicaciones|
-|9|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|10|45.144.164.203|8080|Thailand|Nonthaburi|Siamdata Communication Co.|
-|11|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|2|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|6|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|7|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
+|8|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|9|45.89.127.125|3128|Germany|Frankfurt am Main|Dominic Scholz trading as ITP-Solutions GmbH & Co. KG|
+|10|35.93.135.149|80|United States|Portland|Amazon.com, Inc.|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
 |12|37.24.133.12|3128|Germany|Marbach am Neckar|Vodafone|
-|13|126.25.165.43|8080|Japan|Minato-ku|Softbank BB Corp.|
-|14|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|15|195.88.148.18|3128|Spain|Barcelona|Elstir S.L.|
-|16|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|17|116.98.181.159|10003|Vietnam|Tan Tien|Viettel Corporation|
-|18|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|19|147.50.253.143|8080|Thailand|Chai Badan|Cloudforest Co., ltd.|
-|20|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|13|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|15|200.9.155.175|9090|Brazil|São Paulo|Tyna Host - Datacenter no Brasil|
+|16|195.88.148.18|3128|Spain|Barcelona|Elstir S.L.|
+|17|119.28.81.150|7890|Hong Kong|Hong Kong|ComsenzNet|
+|18|52.4.247.252|3129|United States|Ashburn|Amazon.com, Inc.|
+|19|159.223.153.137|8080|United States|North Bergen|DigitalOcean, LLC|
+|20|165.246.148.50|8088|South Korea|Seocho-gu|ITIS|
 
 
 
