@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **8363** proxies at the latest update. Usable proxies are below.
+> Scraper found **8396** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|912|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|912|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|912|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|911|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|911|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|911|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2345|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|2378|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1166|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3469|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|116.203.206.246|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|5|167.235.150.96|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|6|143.244.166.116|3128|United States|North Bergen|DigitalOcean, LLC|
-|7|195.201.227.45|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|8|91.107.234.184|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
-|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|143.110.147.61|8989|United States|Santa Clara|DigitalOcean, LLC|
-|11|46.101.85.55|443|United Kingdom|London|DigitalOcean|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|15|43.243.127.86|3128|Philippines|Makati City|IPVG|
-|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|142.132.169.126|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|4|78.47.52.26|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|5|91.107.229.5|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|6|164.90.204.215|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|7|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|8|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|167.235.62.101|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|10|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|116.203.206.246|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|13|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|14|116.203.118.134|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|15|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|16|167.235.150.96|8080|Germany|Falkenstein|Hetzner Online GmbH|
 |17|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|18|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|19|104.148.86.157|3129|United States|Los Angeles|LayerHost|
-|20|164.90.204.215|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|185.125.169.24|8118|Norway|Sandefjord|TerraHost AS|
 
 
 
