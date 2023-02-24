@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6828** proxies at the latest update. Usable proxies are below.
+> Scraper found **6929** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|682|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|682|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|682|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|561|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|561|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|561|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1626|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1727|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1108|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2711|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
-|7|187.188.167.30|3128|Mexico|Coatepec|Total Play Telecomunicaciones SA De CV|
-|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|10|150.136.136.248|8181|United States|Ashburn|Oracle Corporation|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|14.161.26.55|6666|Vietnam|Ho Chi Minh City|VNPT|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|15|200.150.204.37|80|Brazil|Americana|Saveincloud Hospedagem na Internet Ltda|
-|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|17|70.44.24.245|8888|United States|Hawley|PenTeleData Inc.|
-|18|43.243.127.86|3128|Philippines|Makati City|IPVG|
-|19|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|20|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|191.252.195.53|8888|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|104.148.86.167|3129|United States|Los Angeles|LayerHost|
+|8|222.112.103.174|8080|South Korea|Seoul|Korea Telecom|
+|9|104.148.86.205|3129|United States|Los Angeles|LayerHost|
+|10|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|11|70.44.24.245|8888|United States|Hawley|PenTeleData Inc.|
+|12|104.148.86.87|3129|United States|Los Angeles|LayerHost|
+|13|187.188.167.30|3128|Mexico|Coatepec|Total Play Telecomunicaciones SA De CV|
+|14|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|15|104.148.86.94|3129|United States|Los Angeles|LayerHost|
+|16|203.150.128.15|8080|Thailand|Watthana|Internet Thailand Company Ltd|
+|17|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|18|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
+|19|89.218.186.133|3128|Kazakhstan|Pavlodar|Kazakhtelecom Data Network Administration|
+|20|104.148.86.205|3129|United States|Los Angeles|LayerHost|
 
 
 
