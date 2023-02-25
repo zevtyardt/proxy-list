@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6994** proxies at the latest update. Usable proxies are below.
+> Scraper found **6848** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|585|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|585|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|585|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|453|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|453|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|453|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1622|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1746|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|891|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|921|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3098|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|1|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 |4|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|5|43.243.127.86|3128|Philippines|Makati City|IPVG|
-|6|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|7|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|104.148.86.140|3129|United States|Los Angeles|LayerHost|
-|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|12|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|13|101.109.48.208|8080|Thailand|Ban Nong Sala|TOT Public Company Limited|
-|14|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|15|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
-|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|17|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|18|195.88.148.23|3128|Spain|Barcelona|Elstir S.L.|
-|19|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|20|104.148.86.110|3129|United States|Los Angeles|LayerHost|
+|5|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|9|116.98.236.224|10003|Vietnam|Hanoi|Viettel Corporation|
+|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|13|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|14|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
+|15|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|17|77.247.68.17|8080|Denmark|Taastrup|RACKHOSTING|
+|18|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|20|149.28.53.45|38080|United States|Piscataway|The Constant Company|
 
 
 
