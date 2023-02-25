@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7142** proxies at the latest update. Usable proxies are below.
+> Scraper found **7106** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|666|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|666|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|666|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|664|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|664|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|664|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1770|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1734|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|891|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3098|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|1|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
 |2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
 |6|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
-|7|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|9|101.109.53.29|8080|Thailand|Khwaeng Thung Song Hong|TOT Public Company Limited|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|43.243.127.86|3128|Philippines|Makati City|IPVG|
-|12|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|14|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|15|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
-|16|190.64.148.26|8087|Uruguay|Montevideo|Administracion Nacional de Telecomunicaciones|
-|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|150.136.136.248|8181|United States|Ashburn|Oracle Corporation|
+|9|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|12|116.98.180.150|10003|Vietnam|Tan Tien|Viettel Corporation|
+|13|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|14|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|15|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
+|16|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|17|146.59.127.168|80|Poland|Warsaw|OVH SAS|
 |18|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
 |19|116.98.236.224|10003|Vietnam|Hanoi|Viettel Corporation|
-|20|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|20|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
 
 
 
