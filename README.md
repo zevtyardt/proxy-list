@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|422|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|422|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|422|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|460|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|460|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|460|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 |3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|6|150.136.136.248|8181|United States|Ashburn|Oracle Corporation|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
-|9|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|10|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
-|11|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|12|142.129.238.249|80|United States|Pomona|Charter Communications Inc|
-|13|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|15|103.171.5.46|8080|India|Angul|Em-cyberspace Services Private Limited|
-|16|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|17|190.54.100.74|8080|Chile|Santiago|Telmex Chile Internet S.A.|
-|18|204.14.58.35|80|United States|Delhi|DTC Cable|
-|19|144.217.7.157|9300|Canada|Beauharnois|OVH SAS|
-|20|181.129.49.214|999|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|183.101.212.184|8080|South Korea|Gwangmyeong|Korea Telecom|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|150.136.136.248|8181|United States|Ashburn|Oracle Corporation|
+|10|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|12|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|13|139.59.59.122|8118|India|Bengaluru|DIGITALOCEAN|
+|14|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|15|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|16|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|17|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|20|190.54.100.74|8080|Chile|Santiago|Telmex Chile Internet S.A.|
 
 
 
