@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6974** proxies at the latest update. Usable proxies are below.
+> Scraper found **6951** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|679|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|679|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|679|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|577|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|577|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|577|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1658|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1601|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|984|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1018|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3049|✅|
 
 
@@ -49,24 +49,24 @@ Click the file format that you want and copy the URL.
 |-|--|----|-------|----|-------------------------|
 |1|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
 |2|159.223.153.137|8080|United States|North Bergen|DigitalOcean, LLC|
-|3|167.71.85.20|8080|United States|Clifton|DigitalOcean, LLC|
-|4|64.227.46.152|8080|United Kingdom|London|DigitalOcean, LLC|
-|5|51.68.70.52|3128|France|Gravelines|OVH SAS|
+|3|51.68.70.52|3128|France|Gravelines|OVH SAS|
+|4|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|5|51.79.50.46|9300|Canada|Victoria|OVH SAS|
 |6|61.28.224.211|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|7|167.172.66.185|8080|Singapore|Singapore|DigitalOcean, LLC|
-|8|103.69.2.79|999|United States|Lynbrook|HAWKCLAN (PVT.) LIMITED|
-|9|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
-|10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|12|116.98.190.215|10003|Vietnam|Quảng Phú|Viettel Corporation|
-|13|198.57.27.6|8850|Canada|Toronto|GLOBALTELEHOST Corp.|
-|14|45.188.166.52|1994|Mexico|Tamazula de Gordiano|Velocom SA De CV|
-|15|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|16|167.71.85.20|8080|United States|Clifton|DigitalOcean, LLC|
-|17|143.0.176.136|8088|Brazil|Morro do Chapeu|Fiberlink Telecom Ltda|
-|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|20|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|7|167.71.85.20|8080|United States|Clifton|DigitalOcean, LLC|
+|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|64.227.46.152|8080|United Kingdom|London|DigitalOcean, LLC|
+|10|64.225.8.192|80|United States|Clifton|DigitalOcean, LLC|
+|11|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|13|167.71.85.20|8080|United States|Clifton|DigitalOcean, LLC|
+|14|167.172.66.185|8080|Singapore|Singapore|DigitalOcean, LLC|
+|15|159.223.153.137|8080|United States|North Bergen|DigitalOcean, LLC|
+|16|116.98.182.194|10003|Vietnam|Tan Tien|Viettel Corporation|
+|17|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|18|116.98.190.215|10003|Vietnam|Quảng Phú|Viettel Corporation|
+|19|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|20|103.69.2.79|999|United States|Lynbrook|HAWKCLAN (PVT.) LIMITED|
 
 
 
