@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|673|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|673|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|673|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|538|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|538|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|538|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|3|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|195.88.148.18|3128|Spain|Barcelona|Elstir S.L.|
-|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|2|195.88.148.18|3128|Spain|Barcelona|Elstir S.L.|
+|3|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|4|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|6|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
 |7|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|8|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|11|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|5.78.43.54|8080|United States|Portland|Hetzner Online GmbH|
-|14|5.78.78.13|8080|United States|Portland|Hetzner Online GmbH|
-|15|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
-|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|17|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|20|115.96.208.124|8080|India|Mumbai|Hathway IP over Cable Internet Access|
+|8|116.98.180.150|10003|Vietnam|Tan Tien|Viettel Corporation|
+|9|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|13|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|14|46.101.179.133|38189|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|15|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|16|5.78.43.54|8080|United States|Portland|Hetzner Online GmbH|
+|17|116.98.236.224|10003|Vietnam|Hanoi|Viettel Corporation|
+|18|104.168.12.108|28648|United States|San Jose|ColoCrossing|
+|19|5.78.78.13|8080|United States|Portland|Hetzner Online GmbH|
+|20|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
 
 
 
