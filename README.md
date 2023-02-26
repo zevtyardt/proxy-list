@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7221** proxies at the latest update. Usable proxies are below.
+> Scraper found **7163** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|721|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|721|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|721|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|686|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|686|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|686|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1740|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1682|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1004|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3094|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|1|104.168.12.108|28648|United States|San Jose|ColoCrossing|
+|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|3|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|4|165.246.148.50|8088|South Korea|Seocho-gu|ITIS|
+|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 |8|150.136.136.248|8181|United States|Ashburn|Oracle Corporation|
-|9|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|10|222.112.103.174|8080|South Korea|Seoul|Korea Telecom|
-|11|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|9|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
+|10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|11|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
 |12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|13|116.98.180.150|10003|Vietnam|Tan Tien|Viettel Corporation|
-|14|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
-|15|116.98.236.224|10003|Vietnam|Hanoi|Viettel Corporation|
-|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|17|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
-|18|113.53.231.133|3129|Thailand|Ban Pho|TOT Public Company Limited|
-|19|44.232.253.196|3128|United States|Portland|Amazon.com, Inc.|
-|20|187.188.181.181|999|Mexico|Lázaro Cárdenas|Total Play Telecomunicaciones SA De CV|
+|13|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|16|65.108.230.238|45977|Finland|Helsinki|Hetzner Online GmbH|
+|17|104.168.12.108|28648|United States|San Jose|ColoCrossing|
+|18|116.98.236.224|10003|Vietnam|Hanoi|Viettel Corporation|
+|19|167.172.178.68|38467|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|20|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
 
 
 
