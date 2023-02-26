@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7174** proxies at the latest update. Usable proxies are below.
+> Scraper found **7213** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|694|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|694|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|694|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|671|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|671|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|671|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|100|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1817|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1856|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1007|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2967|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|51.68.97.175|7890|France|Strasbourg|OVH SAS|
-|4|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|5|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|6|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|7|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|8|198.57.27.6|8850|Canada|Toronto|GLOBALTELEHOST Corp.|
-|9|195.154.32.138|3128|France|Planfoy|Online S.A.S.|
-|10|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|11|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|12|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
-|13|191.97.60.198|999|Peru|Chiclayo|Internexa Peru S.A|
-|14|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|16|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|17|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
-|18|104.148.86.130|3129|United States|Los Angeles|LayerHost|
-|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|20|195.88.148.18|3128|Spain|Barcelona|Elstir S.L.|
+|1|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|5|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|6|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|7|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|8|73.89.111.137|999|United States|Norwich|Comcast Cable Communications|
+|9|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|12|132.147.34.22|8111|United States|Miami|Breezeline|
+|13|198.57.27.6|8850|Canada|Toronto|GLOBALTELEHOST Corp.|
+|14|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|15|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|16|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|17|80.252.5.34|7001|Poland|Warsaw|GWNET Autonomus System|
+|18|116.98.190.215|10003|Vietnam|Quảng Phú|Viettel Corporation|
+|19|179.1.192.9|999|Colombia|Neiva|INTERNEXA Brasil Operadora de TelecomunicaÔÔes S.A|
+|20|198.211.27.215|3128|United States|Canyon Country|Multacom Corporation|
 
 
 
