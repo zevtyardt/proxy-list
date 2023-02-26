@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7117** proxies at the latest update. Usable proxies are below.
+> Scraper found **6928** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|710|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|710|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|710|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|679|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|679|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|679|
 
 ## Sources
 
@@ -35,9 +35,9 @@ Click the file format that you want and copy the URL.
 |[free-proxy-list.com](https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search)|10|✅|
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
-|[proxyscan.io](https://www.proxyscan.io)|0|✅|
+|[proxyscan.io](https://www.proxyscan.io)|0|🚫|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1767|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1578|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1018|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3049|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|2|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|3|159.223.153.137|8080|United States|North Bergen|DigitalOcean, LLC|
-|4|198.57.27.6|8850|Canada|Toronto|GLOBALTELEHOST Corp.|
-|5|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|6|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|7|64.227.46.152|8080|United Kingdom|London|DigitalOcean, LLC|
-|8|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
-|9|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
-|10|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|11|159.223.153.137|8080|United States|North Bergen|DigitalOcean, LLC|
-|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|13|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|14|143.0.176.136|8088|Brazil|Morro do Chapeu|Fiberlink Telecom Ltda|
-|15|167.71.85.20|8080|United States|Clifton|DigitalOcean, LLC|
-|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|116.98.180.150|10003|Vietnam|Tan Tien|Viettel Corporation|
-|18|61.28.224.211|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
-|19|201.218.42.204|1994|Ecuador|Banos|Telconet S.A|
-|20|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|1|198.57.27.6|8850|Canada|Toronto|GLOBALTELEHOST Corp.|
+|2|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
+|3|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|4|159.223.153.137|8080|United States|North Bergen|DigitalOcean, LLC|
+|5|154.16.180.182|3128|United States|Dulles|LYIT Internet Services|
+|6|64.227.46.152|8080|United Kingdom|London|DigitalOcean, LLC|
+|7|51.68.70.52|3128|France|Gravelines|OVH SAS|
+|8|167.71.85.20|8080|United States|Clifton|DigitalOcean, LLC|
+|9|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
+|10|61.28.224.211|3128|Vietnam|Ho Chi Minh City|Vinadata broadcast via vinagame AS Number|
+|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|13|38.156.13.109|999|Colombia|Bogotá|Web Master Colombia|
+|14|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|15|116.98.180.150|10003|Vietnam|Tan Tien|Viettel Corporation|
+|16|201.218.42.202|1994|Ecuador|Banos|Telconet S.A|
+|17|167.71.85.20|8080|United States|Clifton|DigitalOcean, LLC|
+|18|173.82.102.194|1994|United States|Santa Clarita|Multacom Corporation|
+|19|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
