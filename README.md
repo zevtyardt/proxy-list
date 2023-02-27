@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|690|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|690|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|690|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|672|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|672|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|672|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|47.90.213.34|7891|United States|Richmond|Alibaba.com LLC|
-|6|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|9|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|10|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|11|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|12|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|13|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|14|183.101.212.184|8080|South Korea|Gwangmyeong|Korea Telecom|
-|15|116.98.183.158|10003|Vietnam|Tan Tien|Viettel Corporation|
-|16|104.148.86.53|3129|United States|Los Angeles|LayerHost|
-|17|116.98.229.237|10003|Vietnam|Hanoi|Viettel Corporation|
-|18|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|3|47.243.167.134|8889|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|4|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|5|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|9|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|10|185.33.144.33|443|Czechia|Ktis|BlazeArts Kft|
+|11|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|12|117.240.53.116|3128|India|Suriapet|BSNL Internet|
+|13|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
+|14|116.98.183.158|10003|Vietnam|Tan Tien|Viettel Corporation|
+|15|51.159.115.233|3128|France|Paris|SCALEWAY|
+|16|183.101.212.184|8080|South Korea|Gwangmyeong|Korea Telecom|
+|17|112.217.162.5|3128|South Korea|Yongsan-dong|LG DACOM Corporation|
+|18|104.148.86.5|3129|United States|Los Angeles|LayerHost|
+|19|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|20|104.148.86.133|3129|United States|Los Angeles|LayerHost|
 
 
 
