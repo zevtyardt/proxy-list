@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6241** proxies at the latest update. Usable proxies are below.
+> Scraper found **6208** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|330|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|330|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|330|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|327|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|327|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|327|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1276|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1243|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|761|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2921|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|43.155.69.95|8080|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|6|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|7|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|8|49.0.2.242|8090|Indonesia|Bogor|PT Usaha Adi Sanggoro|
-|9|116.98.183.158|10003|Vietnam|Tan Tien|Viettel Corporation|
-|10|51.68.97.175|7890|France|Strasbourg|OVH SAS|
-|11|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|12|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|13|116.98.229.237|10003|Vietnam|Hanoi|Viettel Corporation|
-|14|196.20.21.82|8080|Namibia|Windhoek|MTN SA|
-|15|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
-|16|119.8.236.97|3128|Hong Kong|Hong Kong|Huawei International Pte. Ltd.|
-|17|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
+|1|183.101.212.184|8080|South Korea|Gwangmyeong|Korea Telecom|
+|2|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|3|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|6|116.98.183.158|10003|Vietnam|Tan Tien|Viettel Corporation|
+|7|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|9|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|10|116.98.229.237|10003|Vietnam|Hanoi|Viettel Corporation|
+|11|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|13|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|14|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
+|15|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|16|104.148.86.7|3129|United States|Los Angeles|LayerHost|
+|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
 |18|116.98.190.215|10003|Vietnam|Quảng Phú|Viettel Corporation|
-|19|46.100.54.71|8080|Iran|Tehran|Iran Telecommunication Company PJS|
-|20|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|19|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
+|20|116.98.180.150|10003|Vietnam|Tan Tien|Viettel Corporation|
 
 
 
