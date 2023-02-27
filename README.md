@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6537** proxies at the latest update. Usable proxies are below.
+> Scraper found **6536** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|434|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|434|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|434|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|486|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|486|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|486|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1433|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1432|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|876|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2945|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|2|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|2|45.61.187.67|4000|United States|Miami|FranTech Solutions|
 |3|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|52.4.247.252|3129|United States|Ashburn|Amazon.com, Inc.|
-|6|216.127.188.18|1994|United States|Santa Clarita|Multacom Corporation|
-|7|5.9.112.247|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|8|186.96.141.199|999|Mexico|San José Temascatío|Total Play Telecomunicaciones SA De CV|
+|4|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|6|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|216.127.188.18|1994|United States|Santa Clarita|Multacom Corporation|
 |9|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|10|95.56.254.139|3128|Kazakhstan|Almaty|JSC Kazakhtelecom|
-|11|138.201.125.229|8118|Germany|Falkenstein|Hetzner Online GmbH|
-|12|50.201.51.216|8080|United States|Chicago|Comcast Cable Communications, LLC|
-|13|69.75.140.157|8080|United States|San Luis|Spectrum|
-|14|190.61.60.118|999|Panama|Panama City|Ufinet Panama S.A|
-|15|95.216.194.46|1081|Finland|Helsinki|Hetzner Online GmbH|
-|16|194.169.167.5|8080|Kosovo|Dubova|Kadri Haxhiaj trading as "B.I."|
-|17|136.243.215.211|8888|Germany|Falkenstein|Hetzner Online GmbH|
-|18|65.108.230.239|39217|Finland|Helsinki|Hetzner Online GmbH|
-|19|142.11.210.88|808|United States|Seattle|Hostwinds LLC.|
-|20|92.116.212.145|8118|Germany|Ebersbach an der Fils|VT-POOL Customer Nord|
+|10|104.148.86.247|3129|United States|Los Angeles|LayerHost|
+|11|95.56.254.139|3128|Kazakhstan|Almaty|JSC Kazakhtelecom|
+|12|104.148.86.176|3129|United States|Los Angeles|LayerHost|
+|13|104.148.86.203|3129|United States|Los Angeles|LayerHost|
+|14|104.148.86.119|3129|United States|Los Angeles|LayerHost|
+|15|104.148.86.177|3129|United States|Los Angeles|LayerHost|
+|16|50.235.149.74|8080|United States|Taylor|Comcast Cable Communications, LLC|
+|17|181.209.82.154|23500|Argentina|Dean Funes|ARSAT - Empresa Argentina de Soluciones Satelitales S.A|
+|18|193.138.178.6|8282|Russia|Chelyabinsk|New Communication Technologies|
+|19|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|20|104.148.86.53|3129|United States|Los Angeles|LayerHost|
 
 
 
