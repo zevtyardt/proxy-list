@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7336** proxies at the latest update. Usable proxies are below.
+> Scraper found **7385** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|739|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|739|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|739|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|822|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|822|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|822|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1776|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1825|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|982|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3295|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
-|2|5.75.190.8|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|3|5.75.178.58|8080|Germany|Frankfurt am Main|Hetzner Online GmbH|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|5.78.88.51|8080|United States|Portland|Hetzner Online GmbH|
-|6|143.110.237.210|80|United States|Santa Clara|DigitalOcean, LLC|
-|7|104.131.161.101|443|United States|Clifton|DigitalOcean, LLC|
-|8|161.35.235.149|80|United States|Santa Clara|DigitalOcean, LLC|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|5.78.87.91|8080|United States|Portland|Hetzner Online GmbH|
-|11|138.197.120.3|8080|United States|Clifton|DigitalOcean, LLC|
-|12|161.35.71.146|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|13|143.110.237.226|80|United States|Santa Clara|DigitalOcean, LLC|
-|14|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|15|5.78.70.182|8080|United States|Portland|Hetzner Online GmbH|
-|16|174.139.41.164|9090|United States|Los Angeles|Krypt Technologies|
-|17|116.0.61.122|3128|Pakistan|Karachi|Telecard|
-|18|185.81.23.138|3128|Hungary|Budapest|OLS STATIC|
-|19|159.223.138.200|8080|United States|North Bergen|DigitalOcean, LLC|
-|20|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|1|167.172.226.251|443|United States|Clifton|DigitalOcean, LLC|
+|2|165.227.96.16|443|United States|Clifton|DigitalOcean, LLC|
+|3|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|4|137.184.65.111|443|United States|North Bergen|DigitalOcean, LLC|
+|5|159.89.53.247|443|United States|North Bergen|DigitalOcean, LLC|
+|6|78.47.227.109|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|7|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|159.223.22.33|443|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|9|134.209.34.125|443|United States|Clifton|DigitalOcean, LLC|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|46.101.116.122|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
+|13|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|14|46.101.85.55|443|United Kingdom|London|DigitalOcean|
+|15|161.35.71.146|8080|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|16|161.35.235.149|80|United States|Santa Clara|DigitalOcean, LLC|
+|17|89.43.10.142|8080|Iran|Tehran|Mobin Net Communication Company|
+|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|19|185.246.84.7|8080|France|Paris|Ikoula Net SAS|
+|20|143.110.237.210|80|United States|Santa Clara|DigitalOcean, LLC|
 
 
 
