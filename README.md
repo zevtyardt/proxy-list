@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6690** proxies at the latest update. Usable proxies are below.
+> Scraper found **6559** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|571|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|571|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|571|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|552|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|552|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|552|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1698|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1552|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|882|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|897|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2827|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|2|5.161.76.239|8080|United States|Ashburn|Hetzner Online GmbH|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
 |3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
 |5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|6|5.161.76.239|8080|United States|Ashburn|Hetzner Online GmbH|
-|7|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|8|95.216.106.70|3128|Finland|Helsinki|Hetzner Online GmbH|
-|9|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
-|11|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|13|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|15|128.0.179.234|41258|Czechia|Prague|PODA a.s.|
-|16|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|17|116.98.180.150|10003|Vietnam|Tan Tien|Viettel Corporation|
-|18|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
-|19|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|20|198.211.27.215|3128|United States|Canyon Country|Multacom Corporation|
+|6|35.87.228.237|80|United States|Portland|Amazon.com, Inc.|
+|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|8|4.144.128.48|80|Singapore|Singapore|Microsoft Corporation|
+|9|5.161.76.239|8080|United States|Ashburn|Hetzner Online GmbH|
+|10|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|11|95.216.106.70|3128|Finland|Helsinki|Hetzner Online GmbH|
+|12|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|14|35.87.228.237|80|United States|Portland|Amazon.com, Inc.|
+|15|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|16|51.68.97.175|7890|France|Strasbourg|OVH SAS|
+|17|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|18|181.233.49.9|999|Ecuador|Guayaquil|Optilink CIA Ltda|
+|19|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
