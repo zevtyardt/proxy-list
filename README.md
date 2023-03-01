@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7054** proxies at the latest update. Usable proxies are below.
+> Scraper found **7007** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|608|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|608|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|608|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|618|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|618|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|618|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1834|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1787|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|827|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3110|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|74.208.206.170|3128|United States|Philadelphia|IONOS SE|
-|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|51.79.50.31|9300|Canada|Victoria|OVH SAS|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
-|7|24.199.92.225|443|United States|North Bergen|DigitalOcean, LLC|
-|8|24.199.92.225|443|United States|North Bergen|DigitalOcean, LLC|
-|9|202.181.14.23|3128|Bangladesh|Dhaka|BDPEER|
-|10|201.218.144.19|999|Peru|Lima|M & B Soluciones Peru S.A.C.|
-|11|201.71.2.151|999|Venezuela|Caracas|Level 3 Communications, Inc.|
-|12|182.253.21.26|46977|Indonesia|Jakarta|Biznet Networks|
-|13|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|15|201.217.246.178|8080|Argentina|Resistencia|Ecom Chaco S.A.|
-|16|45.71.108.162|8080|Brazil|Ilhéus|Sigaon Servicos Telecomunicacoes Eirele|
-|17|161.49.219.114|8082|Philippines|Mabalacat|Converge Information and Communications Technology Solutions|
-|18|43.135.181.166|3128|United States|Santa Clara|Shenzhen Tencent Computer Systems Company Limited|
-|19|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|20|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
+|1|172.245.248.16|3128|United States|Chicago|ColoCrossing|
+|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|178.208.66.92|3128|Netherlands|Amsterdam|EuroByte LLC|
+|5|172.245.248.16|3128|United States|Chicago|ColoCrossing|
+|6|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|7|201.71.2.151|999|Venezuela|Caracas|Level 3 Communications, Inc.|
+|8|159.192.253.109|8080|Thailand|Bangkok|CAT-BB|
+|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|10|223.27.144.35|8080|Indonesia|Jakarta|PT Cyber Network Indonesia|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|103.118.175.154|6969|Indonesia|Wanakerta|PT Pedjoeang Digital Networks|
+|13|38.49.129.154|999|Mexico|Metztitlan|Ientc S De RL De CV|
+|14|45.71.108.162|8080|Brazil|Ilhéus|Sigaon Servicos Telecomunicacoes Eirele|
+|15|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
+|16|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
+|17|177.93.36.50|999|Colombia|Pasto|TV AZTECA SUCURSAL COLOMBIA|
+|18|46.163.74.99|3128|France|Strasbourg|Host Europe GmbH|
+|19|190.117.45.212|999|Peru|Lima|America Movil Peru S.A.C.|
+|20|201.217.246.178|8080|Argentina|Resistencia|Ecom Chaco S.A.|
 
 
 
