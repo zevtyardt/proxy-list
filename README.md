@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6582** proxies at the latest update. Usable proxies are below.
+> Scraper found **6892** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|602|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|602|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|602|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|496|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|496|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|496|
 
 ## Sources
 
@@ -36,10 +36,10 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1612|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1621|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|961|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|962|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3026|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|2|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|8|96.126.124.197|8080|United States|Richardson|Akamai Technologies, Inc.|
-|9|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|10|88.99.211.181|3128|Germany|Falkenstein|Hetzner Online GmbH|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|168.119.241.143|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|13|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|14|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
-|15|185.97.114.251|3128|Kazakhstan|Almaty|KZNLS Network|
-|16|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|202.154.18.129|8080|Indonesia|Jakarta|DIGITNET|
-|19|116.98.188.178|10003|Vietnam|Krong Nang|Viettel Corporation|
-|20|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|3|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|4|194.102.37.176|2019|Germany|Frankfurt am Main|M247 Europe SRL|
+|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|6|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|9|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|10|116.98.181.107|10003|Vietnam|Tan Tien|Viettel Corporation|
+|11|88.99.211.181|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|12|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|13|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|14|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|15|96.126.124.197|8080|United States|Richardson|Akamai Technologies, Inc.|
+|16|148.251.150.106|3128|Germany|Falkenstein|Hetzner Online GmbH|
+|17|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|18|181.205.204.218|8080|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|19|212.98.132.243|80|Lebanon|Beirut|TerraNet sal|
+|20|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
 
 
 
