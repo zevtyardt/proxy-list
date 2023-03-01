@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6734** proxies at the latest update. Usable proxies are below.
+> Scraper found **6841** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1351|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1458|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|867|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3233|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
-|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|158.69.52.218|9300|Canada|Montreal|OVH SAS|
-|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|9|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|10|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|116.98.188.178|10003|Vietnam|Krong Nang|Viettel Corporation|
-|12|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|14|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|15|212.112.113.178|3128|Kyrgyzstan|Bishkek|AkNet|
-|16|116.98.181.242|10003|Vietnam|Tan Tien|Viettel Corporation|
-|17|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|18|171.97.116.232|8080|Thailand|Chiang Mai|True Internet Corporation CO. Ltd.|
-|19|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|20|41.60.236.32|8080|Kenya|Nairobi|Maintainer Liquid Telecommunications Operations Limited|
+|2|96.126.124.197|8080|United States|Richardson|Akamai Technologies, Inc.|
+|3|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|4|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|7|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|8|77.246.144.240|2019|Russia|Moscow|Eplanet network|
+|9|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|10|96.126.124.197|8080|United States|Richardson|Akamai Technologies, Inc.|
+|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|12|81.181.109.156|2019|France|Paris|Virtono Networks SRL|
+|13|116.98.181.107|10003|Vietnam|Tan Tien|Viettel Corporation|
+|14|167.71.199.236|443|Singapore|Singapore|DigitalOcean, LLC|
+|15|116.98.181.242|10003|Vietnam|Tan Tien|Viettel Corporation|
+|16|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|18|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|19|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|20|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
 
 
 
