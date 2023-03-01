@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7360** proxies at the latest update. Usable proxies are below.
+> Scraper found **7369** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|782|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|782|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|782|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|898|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|898|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|898|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1950|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1803|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1133|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2994|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3150|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|1|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |3|46.101.29.103|443|United Kingdom|London|DigitalOcean, LLC|
-|4|154.212.6.88|999|Mexico|San Juan del Río|Ientc S De RL De CV|
-|5|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|6|195.133.45.149|7788|Russia|Moscow|VDS|
-|7|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|8|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|9|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|10|46.101.85.55|443|United Kingdom|London|DigitalOcean|
-|11|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|14|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|15|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|16|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|17|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|18|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|116.98.230.208|10003|Vietnam|Hanoi|Viettel Corporation|
-|20|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|4|195.133.45.149|7788|Russia|Moscow|VDS|
+|5|82.146.48.200|8000|Russia|Irkutsk|CLOUD WebDC collocation|
+|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|7|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|188.166.84.131|443|Netherlands|Amsterdam|DigitalOcean, LLC|
+|9|20.185.29.206|8080|United States|Boydton|Microsoft Corporation|
+|10|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|11|195.154.32.138|3128|France|Planfoy|Online S.A.S.|
+|12|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|13|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|15|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
+|16|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|17|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|18|162.252.84.93|80|United States|Tampa|Primary Assignments - - RESERVED NETWORK|
+|19|88.255.65.126|8080|Turkey|Istanbul|TTNet|
+|20|191.252.193.200|8080|Brazil|Itacoatiara|Locaweb Serviços de Internet S/A|
 
 
 
