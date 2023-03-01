@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6713** proxies at the latest update. Usable proxies are below.
+> Scraper found **6842** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|507|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|507|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|507|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|628|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|628|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|628|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1577|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1706|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|900|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2953|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|3|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|159.89.128.130|8989|United States|Santa Clara|DigitalOcean, LLC|
-|6|165.246.148.50|8088|South Korea|Seocho-gu|ITIS|
-|7|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|9|116.98.181.242|10003|Vietnam|Tan Tien|Viettel Corporation|
-|10|101.109.127.164|8080|Thailand|Bangkok|TOT Public Company Limited|
-|11|116.98.229.237|10003|Vietnam|Hanoi|Viettel Corporation|
-|12|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
-|13|113.173.58.223|8080|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
-|14|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|15|216.215.123.174|8080|United States|Houston|Logix|
-|16|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|17|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|18|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|19|124.105.5.76|8080|Philippines|Mandaluyong City|Philippine Long Distance Telephone Co.|
-|20|93.177.229.164|9812|Latvia|Daugavpils|BALTKOM Riga|
+|2|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|3|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|4|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|5|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|7|158.69.53.98|9300|Canada|Montreal|OVH SAS|
+|8|107.173.144.80|8080|Canada|Hamilton|ColoCrossing|
+|9|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|10|179.49.117.19|999|Honduras|Yore|Asociacion De Servicio De Internet S. De RL.|
+|11|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|12|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|13|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|45.61.187.67|4000|United States|Miami|FranTech Solutions|
+|15|165.246.148.50|8088|South Korea|Seocho-gu|ITIS|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|18|47.90.213.34|7891|United States|Richmond|Alibaba.com LLC|
+|19|185.243.52.122|3128|Poland|Warsaw|Cyber_Folks S.A.|
+|20|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
 
 
 
