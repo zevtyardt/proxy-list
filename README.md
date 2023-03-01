@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6953** proxies at the latest update. Usable proxies are below.
+> Scraper found **6879** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|568|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|568|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|568|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|543|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|543|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|543|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1682|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1608|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|962|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3026|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|4|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|5|96.126.124.197|8080|United States|Richardson|Akamai Technologies, Inc.|
-|6|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|7|194.102.37.176|2019|Germany|Frankfurt am Main|M247 Europe SRL|
-|8|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|9|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|11|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|15|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|16|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|17|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|18|116.98.181.242|10003|Vietnam|Tan Tien|Viettel Corporation|
-|19|134.122.58.174|80|Netherlands|Amsterdam|DigitalOcean, LLC|
-|20|190.6.202.41|999|Honduras|San Pedro Sula|Cablecolor S.A.|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|3|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|4|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|5|190.26.201.194|8080|Colombia|Bogotá|ETB - Colombia|
+|6|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|7|116.98.181.242|10003|Vietnam|Tan Tien|Viettel Corporation|
+|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|9|125.166.59.91|80|Indonesia|Malang|PT. TELKOM INDONESIA|
+|10|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|11|204.48.31.203|80|United States|North Bergen|DigitalOcean, LLC|
+|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|13|171.103.58.122|8080|Thailand|Bangkok|True Internet Co., Ltd.|
+|14|105.112.191.250|3128|Nigeria|Lagos|Airtel Networks Limited|
+|15|175.100.72.95|57938|Cambodia|Phnom Penh|VIETTEL (CAMBODIA) PTE., LTD|
+|16|8.242.172.174|8080|Colombia|Santiago de Cali|CTL Colombia|
+|17|62.33.136.222|8080|Russia|Kursk|TRANSTELECOM|
+|18|103.85.114.249|8080|Bangladesh|Tejgaon|Apple Communication Ltd.|
+|19|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|20|95.216.194.46|1081|Finland|Helsinki|Hetzner Online GmbH|
 
 
 
