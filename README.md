@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6593** proxies at the latest update. Usable proxies are below.
+> Scraper found **6548** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|495|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|495|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|495|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|517|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|517|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|517|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1518|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1473|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|857|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2935|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|4|51.159.115.233|3128|France|Paris|SCALEWAY|
-|5|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
-|8|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|11|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|13|45.61.187.67|4009|United States|Miami|FranTech Solutions|
-|14|4.16.68.158|443|United States|Charlotte|Level 3 Communications, Inc.|
-|15|116.98.188.178|10003|Vietnam|Krong Nang|Viettel Corporation|
-|16|116.98.181.107|10003|Vietnam|Tan Tien|Viettel Corporation|
-|17|103.105.142.132|8888|Indonesia|Cirebon|Partner Communications Ltd.|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|104.40.148.100|8080|Netherlands|Amsterdam|Microsoft Corporation|
-|20|116.98.181.242|10003|Vietnam|Tan Tien|Viettel Corporation|
+|2|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|5|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|6|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
+|7|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|8|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
+|9|116.98.229.237|10003|Vietnam|Hanoi|Viettel Corporation|
+|10|116.98.188.178|10003|Vietnam|Krong Nang|Viettel Corporation|
+|11|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|12|116.98.181.107|10003|Vietnam|Tan Tien|Viettel Corporation|
+|13|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|14|51.159.115.233|3128|France|Paris|SCALEWAY|
+|15|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|16|92.242.212.50|8080|Iran|Tehran|Respina Networks & Beyond PJSC|
+|17|113.161.114.2|3128|Vietnam|Ho Chi Minh City|VietNam Post and Telecom Corporation|
+|18|188.166.255.83|8086|Singapore|Singapore|DigitalOcean, LLC|
+|19|103.105.142.132|8888|Indonesia|Cirebon|Partner Communications Ltd.|
+|20|46.167.209.97|3128|Czechia|Prague|Vodafone Czech Republic a.s.|
 
 
 
