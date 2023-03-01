@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|586|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|586|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|586|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|572|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|572|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|572|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
-|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|8|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
-|9|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|10|79.132.137.195|8118|Netherlands|Naaldwijk|WorldStream B.V.|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|182.253.94.204|8080|Indonesia|Depok|BIZNET|
-|13|51.159.115.233|3128|France|Paris|SCALEWAY|
-|14|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|15|47.243.187.3|2020|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
+|3|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|4|167.172.179.35|8070|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|5|51.159.115.233|3128|France|Paris|SCALEWAY|
+|6|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|7|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|8|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|103.226.142.26|80|India|Mumbai|Microscan Communications Pvt. Ltd|
+|10|82.118.234.117|3128|Bulgaria|Sofia|DA International Group Ltd.|
+|11|195.133.45.149|7788|Russia|Moscow|VDS|
+|12|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|13|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|113.53.61.75|8080|Thailand|Si Racha|TOT Public Company Limited|
 |16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|18|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|19|116.98.176.225|10003|Vietnam|Tan Tien|Viettel Corporation|
-|20|20.74.169.104|8118|United Arab Emirates|Dubai|Microsoft Corporation|
+|17|116.98.237.46|10003|Vietnam|Buon Ma Thuot|Viettel Corporation|
+|18|185.67.188.178|41258|Czechia|Velka Kras|Web4Soft s.r.o.|
+|19|181.212.41.172|999|Chile|Donihue|CTC. CORP S.A. (TELEFONICA EMPRESAS)|
+|20|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
 
 
 
