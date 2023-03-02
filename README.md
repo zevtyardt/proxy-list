@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6982** proxies at the latest update. Usable proxies are below.
+> Scraper found **7051** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|577|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|577|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|577|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|560|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|560|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|560|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1601|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1670|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|878|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3220|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|20.169.193.187|9090|United States|Boydton|Microsoft Corporation|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|91.107.194.74|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
 |5|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
-|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|113.53.60.205|8080|Thailand|Bangkok|TOT Public Company Limited|
-|8|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|9|20.169.193.187|9090|United States|Boydton|Microsoft Corporation|
-|10|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
-|11|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|12|65.109.130.4|8080|Finland|Helsinki|Hetzner Online GmbH|
-|13|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|14|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
-|15|191.102.102.115|8080|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|16|116.98.230.208|10003|Vietnam|Hanoi|Viettel Corporation|
-|17|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|18|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
-|19|200.25.254.193|54240|Colombia|Bogotá|Andinet ON Line|
-|20|181.225.101.14|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
+|6|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|8|20.169.193.187|9090|United States|Boydton|Microsoft Corporation|
+|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|10|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|11|20.169.193.187|9090|United States|Boydton|Microsoft Corporation|
+|12|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|13|65.109.130.4|8080|Finland|Helsinki|Hetzner Online GmbH|
+|14|113.53.60.205|8080|Thailand|Bangkok|TOT Public Company Limited|
+|15|89.218.186.133|3128|Kazakhstan|Pavlodar|Kazakhtelecom Data Network Administration|
+|16|70.186.128.126|8080|United States|Shawnee|Cox Communications Inc.|
+|17|51.159.115.233|3128|France|Paris|SCALEWAY|
+|18|181.143.43.50|8080|Colombia|Medellín|EPM Telecomunicaciones S.A. E.S.P.|
+|19|103.159.96.186|3127|Indonesia|Gresik|PT Jinde Grup Indonesia|
+|20|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
 
 
 
