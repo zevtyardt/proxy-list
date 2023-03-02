@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7092** proxies at the latest update. Usable proxies are below.
+> Scraper found **6931** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|501|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|501|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|501|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|585|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|585|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|585|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1730|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1569|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|945|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3134|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|3|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|1|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
 |4|188.72.107.144|9090|Russia|Moscow|Cloud technology Limited (Ltd.)|
-|5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|104.41.145.87|8000|United States|Boydton|Microsoft Corporation|
-|8|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|9|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|9|43.133.6.40|8081|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
 |10|66.70.178.214|9300|Canada|Beauharnois|OVH SAS|
-|11|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|12|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|13|62.205.169.74|53281|Russia|Moscow|CORBINA|
-|14|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|15|200.215.250.74|999|Peru|San Juan de Lurigancho|Compunetwork S.A.C.|
-|16|116.98.181.242|10003|Vietnam|Tan Tien|Viettel Corporation|
-|17|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|18|181.13.110.148|8089|Argentina|Florentino Ameghino|Telecom Argentina S.A|
-|19|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
-|20|103.147.246.84|8080|Indonesia|Tangerang|PLBNET|
+|11|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|12|46.101.13.77|80|United Kingdom|London|DigitalOcean, LLC|
+|13|201.71.159.8|9898|Brazil|Cuiabá|Titania Telecom|
+|14|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|15|43.155.87.165|59394|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|16|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|17|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|18|45.81.144.45|8080|Iraq|Duhok|Fact LTD|
+|19|20.187.167.218|80|Hong Kong|Hong Kong|Microsoft Corporation|
+|20|185.14.233.173|8080|Czechia|Trebon|INTERCONNECT s.r.o.|
 
 
 
