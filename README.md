@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **7280** proxies at the latest update. Usable proxies are below.
+> Scraper found **7309** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1657|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1686|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|1057|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3283|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
 |2|195.154.32.138|3128|France|Planfoy|Online S.A.S.|
 |3|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|212.159.75.75|8118|United Kingdom|Leeds|PlusNet Technologies Ltd|
 |5|20.241.236.196|3128|United States|Boydton|Microsoft Corporation|
-|6|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|7|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|8|88.99.234.110|2021|Germany|Falkenstein|Hetzner Online GmbH|
-|9|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
-|10|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|11|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|12|93.91.112.247|41258|Russia|Tver|Fast Link Ltd.|
-|13|116.98.188.178|10003|Vietnam|Krong Nang|Viettel Corporation|
-|14|43.155.87.165|59394|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
-|15|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|16|116.98.182.19|10003|Vietnam|Tan Tien|Viettel Corporation|
-|17|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|18|94.26.241.120|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
-|19|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|20|103.164.213.78|8088|Indonesia|Jakarta|PT iForte Global Internet|
+|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|8|43.155.87.165|59394|Hong Kong|Hong Kong|Shenzhen Tencent Computer Systems Company Limited|
+|9|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|10|143.198.182.218|80|United States|North Bergen|DigitalOcean, LLC|
+|11|116.98.182.19|10003|Vietnam|Tan Tien|Viettel Corporation|
+|12|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
+|13|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
+|14|103.92.26.190|4002|Vietnam|Ho Chi Minh City|TLSOFT|
+|15|203.210.85.135|8080|Indonesia|Bandung|Infrastruktur STARNET|
+|16|94.228.194.18|41890|Russia|Moscow|Uniontel ZAO network|
+|17|103.251.214.167|6666|India|Mangrol|GTPl Shiv Network pvt. Ltd.|
+|18|118.27.113.167|8080|Japan|Chiyoda|GMO Internet, Inc.|
+|19|103.176.94.162|3125|Indonesia|Batam|PT Mitra Internet Indonesia|
+|20|94.26.241.120|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
 
 
 
