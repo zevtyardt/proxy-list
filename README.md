@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|482|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|482|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|482|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|454|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|454|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|454|
 
 ## Sources
 
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|3|174.70.1.210|8080|United States|Providence|Cox Communications Inc.|
-|4|182.225.62.92|8080|South Korea|Gangnam-gu|LG POWERCOMM|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|3|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|4|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|5|174.70.1.210|8080|United States|Providence|Cox Communications Inc.|
 |6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|7|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|8|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|9|174.70.1.210|8080|United States|Providence|Cox Communications Inc.|
-|10|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|12|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
-|13|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|15|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|16|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|17|144.217.7.157|9300|Canada|Beauharnois|OVH SAS|
-|18|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|175.106.10.98|3128|Indonesia|Jakarta|Quantum Dist POP GC|
-|20|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|7|182.225.62.92|8080|South Korea|Gangnam-gu|LG POWERCOMM|
+|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|10|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|11|157.245.27.9|3128|Germany|Frankfurt am Main|DigitalOcean, LLC|
+|12|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|15|108.71.252.121|3128|United States|Los Angeles|AT&T Services, Inc.|
+|16|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|17|110.34.8.110|8080|Nepal|Kathmandu|Subisu Cablenet|
+|18|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|19|43.252.158.41|8080|Indonesia|Yogyakarta|PT Media Sarana Data|
+|20|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
 
 
 
