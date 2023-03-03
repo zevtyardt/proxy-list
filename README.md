@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6698** proxies at the latest update. Usable proxies are below.
+> Scraper found **6771** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|470|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|470|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|470|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|384|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|384|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|384|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1425|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1498|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|882|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3108|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|174.70.1.210|8080|United States|Providence|Cox Communications Inc.|
-|2|51.159.115.233|3128|France|Paris|SCALEWAY|
-|3|178.255.220.72|65535|Bulgaria|Sofia|Belcloud LTD|
-|4|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|1|184.105.182.254|3128|United States|Gilroy|Hurricane Electric LLC|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|18.179.12.7|8888|Japan|Tokyo|Amazon Technologies Inc.|
+|4|51.159.115.233|3128|France|Paris|SCALEWAY|
 |5|185.186.147.120|1080|United States|Los Angeles|Cnservers LLC|
-|6|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|7|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|8|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
-|9|193.107.104.57|3128|Ukraine|Vinnytsia|Stasishen Aleksandr Afanasiyovich|
-|10|5.78.78.180|8080|United States|Portland|Hetzner Online GmbH|
-|11|185.186.147.120|1080|United States|Los Angeles|Cnservers LLC|
-|12|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
-|13|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|14|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|15|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|16|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
-|17|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|18|41.57.148.125|6060|South Africa|Bela-Bela|SCR WoodM|
-|19|190.119.102.251|999|Peru|Lima|America Movil Peru S.A.C.|
-|20|94.45.223.222|8080|Russia|Moscow|Lofis LLC|
+|6|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|7|178.255.220.72|65535|Bulgaria|Sofia|Belcloud LTD|
+|8|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|9|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|10|46.163.74.99|3128|France|Strasbourg|Host Europe GmbH|
+|11|64.227.138.43|80|India|Bengaluru|DigitalOcean, LLC|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|13|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|14|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|15|85.93.41.25|3128|Russia|Kirov|JSC RosTelecom|
+|16|185.186.147.120|1080|United States|Los Angeles|Cnservers LLC|
+|17|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|18|158.101.113.18|80|United States|Ashburn|Oracle Corporation|
+|19|24.172.82.94|53281|United States|Concord|Spectrum|
+|20|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
 
 
 
