@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6493** proxies at the latest update. Usable proxies are below.
+> Scraper found **6496** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|424|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|424|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|424|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|509|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|509|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|509|
 
 ## Sources
 
@@ -37,9 +37,9 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1434|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1464|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|871|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|844|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2905|✅|
 
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|1|158.69.52.218|9300|Canada|Montreal|OVH SAS|
 |2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
 |3|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|4|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
-|5|187.111.194.25|8080|Brazil|Santo Estevao|Power Telecomunicações Ltda. - ME|
-|6|191.102.68.105|999|Colombia|Bogotá|TV AZTECA SUCURSAL COLOMBIA|
-|7|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|8|5.172.177.218|3128|Netherlands|Amsterdam|Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi|
-|9|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|10|201.184.72.178|999|Colombia|Nobsa|EPM Telecomunicaciones S.A. E.S.P.|
-|11|187.63.156.148|999|Dominican Republic|Santo Domingo Este|Derivalnet Y Comunicaciones SRL|
-|12|191.103.219.225|48612|Colombia|Montería|Edatel S.a. E.S.P|
-|13|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
-|14|103.125.117.50|8080|Indonesia|Sumedang|PT Baraya Telematika Nusantara|
-|15|103.242.119.88|80|India|Kolkata|Web Werks India Pvt. Ltd.|
-|16|107.173.149.212|4555|United States|Palo Alto|ColoCrossing|
+|4|5.172.177.218|3128|Netherlands|Amsterdam|Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi|
+|5|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|6|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|7|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|8|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|9|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|10|37.120.192.154|8080|Netherlands|Amsterdam|M247 Europe SRL|
+|11|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|12|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|13|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|14|146.59.127.168|80|Poland|Warsaw|OVH SAS|
+|15|132.147.34.22|8111|United States|Miami|Breezeline|
+|16|157.100.56.182|999|Ecuador|Loja|Nedetel S.A.|
 |17|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
-|19|185.246.84.7|38080|France|Paris|Ikoula Net SAS|
-|20|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
+|18|181.39.27.1|1994|Ecuador|Cuenca|Telconet S.A|
+|19|198.229.231.13|8080|United States|Princeton|MTCO Communications|
+|20|198.229.231.13|8080|United States|Princeton|MTCO Communications|
 
 
 
