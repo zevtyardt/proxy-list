@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6918** proxies at the latest update. Usable proxies are below.
+> Scraper found **7074** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|599|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|599|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|599|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|570|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|570|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|570|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1645|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1801|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|841|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3149|✅|
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|23.224.244.66|3128|United States|Los Angeles|Cnservers LLC|
-|2|193.228.193.228|3128|Netherlands|Amsterdam|Clouvider Limited|
-|3|45.61.187.67|4004|United States|Miami|FranTech Solutions|
-|4|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|5|20.23.211.176|3128|Netherlands|Amsterdam|Microsoft Corporation|
-|6|212.24.111.41|3128|Lithuania|Vilnius|UAB "Interneto vizija"|
-|7|167.235.77.67|8080|Germany|Falkenstein|Hetzner Online GmbH|
-|8|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|9|13.68.223.77|3128|United States|Boydton|Microsoft Corporation|
-|10|13.68.223.77|3128|United States|Boydton|Microsoft Corporation|
-|11|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|12|20.23.211.177|3128|Netherlands|Amsterdam|Microsoft Corporation|
-|13|37.230.116.134|3128|Russia|Skolkovo|JSC IOT|
-|14|94.23.84.25|3128|Spain|Madrid|OVH ISP|
-|15|159.69.125.214|8080|Germany|Nuremberg|Hetzner Online GmbH|
-|16|45.61.187.67|4004|United States|Miami|FranTech Solutions|
-|17|101.101.211.108|3128|South Korea|Seongnam-si|NBP|
-|18|44.199.252.129|3128|United States|Ashburn|Amazon.com|
-|19|185.97.118.221|3128|Iran|Nā’īn|AbrArvan|
-|20|5.75.225.41|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|1|139.177.196.179|8080|Canada|Toronto|Akamai Technologies, Inc.|
+|2|178.33.117.25|3128|Spain|Madrid|OVH ISP|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|5.78.88.59|8080|United States|Portland|Hetzner Online GmbH|
+|5|164.92.88.134|3128|United States|Santa Clara|DigitalOcean, LLC|
+|6|49.50.161.246|3128|South Korea|Seongnam-si|NBP|
+|7|54.89.184.143|3128|United States|Ashburn|Amazon.com, Inc.|
+|8|167.99.8.11|8080|United States|North Bergen|DigitalOcean, LLC|
+|9|49.50.175.27|3128|South Korea|Seongnam-si|NBP|
+|10|49.50.172.205|3128|South Korea|Seongnam-si|NBP|
+|11|193.228.193.228|3128|Netherlands|Amsterdam|Clouvider Limited|
+|12|159.69.152.99|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|13|5.78.88.59|8080|United States|Portland|Hetzner Online GmbH|
+|14|139.162.130.209|8080|Germany|Frankfurt am Main|Akamai Technologies, Inc.|
+|15|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|16|185.64.208.79|53281|Russia|Kstovo|Svyazist LLC|
+|17|5.75.182.189|8080|Germany|Nuremberg|Hetzner Online GmbH|
+|18|51.159.115.233|3128|France|Paris|SCALEWAY|
+|19|34.254.152.243|3128|Ireland|Dublin|Amazon Technologies Inc.|
+|20|115.85.181.194|3128|South Korea|Seongnam-si|NBP|
 
 
 
