@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|642|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|642|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|642|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|575|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|575|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|575|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
 |2|185.186.147.120|1080|United States|Los Angeles|Cnservers LLC|
-|3|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|51.159.115.233|3128|France|Paris|SCALEWAY|
-|6|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|7|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|8|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|9|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|4|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|5|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|6|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|7|191.242.178.96|3128|Brazil|Gandu|Conect Telecom|
+|8|103.121.149.69|8080|Indonesia|Jakarta|PT EMERIO INDONESIA|
+|9|185.186.147.120|1080|United States|Los Angeles|Cnservers LLC|
 |10|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|11|185.186.147.120|1080|United States|Los Angeles|Cnservers LLC|
-|12|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|11|179.96.28.58|80|Brazil|Alexania|G8 NETWORKS LTDA|
+|12|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |13|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|14|43.133.6.40|8081|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|15|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|16|190.45.251.128|3128|Chile|Santiago|VTR BANDA ANCHA S.A.|
-|17|192.81.128.182|8089|United States|Fremont|Akamai Technologies, Inc.|
-|18|206.81.2.177|8080|United States|North Bergen|DigitalOcean, LLC|
-|19|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|20|5.78.74.241|8080|United States|Portland|Hetzner Online GmbH|
+|14|206.81.2.177|8080|United States|North Bergen|DigitalOcean, LLC|
+|15|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|16|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|17|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|18|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|19|5.78.74.241|8080|United States|Portland|Hetzner Online GmbH|
+|20|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
 
 
 
