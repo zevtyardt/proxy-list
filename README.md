@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6453** proxies at the latest update. Usable proxies are below.
+> Scraper found **6450** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|459|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|459|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|459|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|426|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|426|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|426|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1355|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1352|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|787|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3028|✅|
@@ -48,25 +48,25 @@ Click the file format that you want and copy the URL.
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
 |1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|3|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|4|195.201.227.202|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
-|5|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|6|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
-|7|159.223.47.239|3128|Singapore|Singapore|DigitalOcean, LLC|
-|8|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|9|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
-|10|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|11|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|12|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|13|198.27.74.6|9300|Canada|Beauharnois|OVH SAS|
-|14|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|15|149.28.125.186|38080|United States|Elk Grove Village|The Constant Company|
-|16|103.149.194.100|32650|India|Haryana|Kavya Internet Services Pvt Ltd|
-|17|202.169.51.46|8080|Indonesia|Cipete Selatan|Biznet - PSN-NAP|
-|18|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|19|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
-|20|51.79.50.22|9300|Canada|Victoria|OVH SAS|
+|2|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|3|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|4|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|5|195.201.227.202|8080|Germany|Gunzenhausen|Hetzner Online GmbH|
+|6|108.61.191.222|1994|United States|Piscataway|The Constant Company|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|108.61.191.222|1994|United States|Piscataway|The Constant Company|
+|9|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|10|170.2.210.201|80|United States|Portland|Daimler Trucks of North America LLC|
+|11|5.78.75.64|8080|United States|Portland|Hetzner Online GmbH|
+|12|158.69.52.218|9300|Canada|Montreal|OVH SAS|
+|13|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|14|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|15|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|16|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|17|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|18|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
+|19|115.144.100.124|10000|South Korea|Gangdong-gu|HAIonNet|
+|20|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
 
 
 
