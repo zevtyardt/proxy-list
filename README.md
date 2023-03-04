@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|499|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|499|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|499|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|533|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|533|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|533|
 
 ## Sources
 
@@ -47,26 +47,26 @@ Click the file format that you want and copy the URL.
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|3.35.141.80|3128|South Korea|Seoul|Amazon.com, Inc.|
-|2|49.50.164.93|3128|South Korea|Seongnam-si|NBP|
-|3|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|4|49.50.174.177|3128|South Korea|Seongnam-si|NBP|
-|5|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|6|157.245.222.183|80|United States|Clifton|DigitalOcean, LLC|
-|7|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|8|5.78.78.245|8080|United States|Portland|Hetzner Online GmbH|
-|9|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|10|78.138.98.115|3128|France|Strasbourg|Host Europe GmbH|
-|11|176.99.2.43|1081|Russia|Moscow|"Domain names registrar REG.RU", Ltd|
-|12|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|13|185.15.172.212|3128|Russia|Moscow|SafeData LLC|
-|14|172.106.16.60|3128|United States|Ashburn|Psychz Networks|
-|15|163.53.82.205|32650|India|Sirohi|Kappa Internet Services Private Limited|
-|16|5.78.85.7|8080|United States|Portland|Hetzner Online GmbH|
-|17|103.169.35.129|3128|Vietnam|Ho Chi Minh City|ODS Online Data Solution Joint Stock Company|
-|18|95.106.143.129|3128|Russia|Tver|Macroregional Center|
-|19|102.165.51.172|3128|United States|Dulles|Stallion Network Services Limited|
-|20|65.109.135.27|8080|Finland|Helsinki|Hetzner Online GmbH|
+|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|2|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|49.48.106.3|8080|Thailand|Kalasin|Triple T Broadband Public Company Limited|
+|5|3.35.141.80|3128|South Korea|Seoul|Amazon.com, Inc.|
+|6|49.50.164.93|3128|South Korea|Seongnam-si|NBP|
+|7|115.85.181.82|3128|South Korea|Seongnam-si|NBP|
+|8|49.50.174.177|3128|South Korea|Seongnam-si|NBP|
+|9|182.253.217.92|80|Indonesia|Surabaya|BIZNET|
+|10|27.76.130.252|4001|Vietnam|Thanh Hóa|Newass2011xDSLHCMC|
+|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
+|12|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|13|115.144.102.39|10080|South Korea|Gangdong-gu|Korea Telecom|
+|14|177.23.187.95|5566|Brazil|Novo Sao Joaquim|Infobarra Solucoes em Informatica Ltda|
+|15|5.78.78.245|8080|United States|Portland|Hetzner Online GmbH|
+|16|45.168.65.2|8080|Brazil|São Paulo|Thiago aparecido scaramuzza santana|
+|17|94.26.241.120|8080|Russia|St Petersburg|OOO "Network of data-centers "Selectel"|
+|18|23.95.94.41|3128|United States|Dallas|ColoCrossing|
+|19|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|20|23.95.94.41|3128|United States|Dallas|ColoCrossing|
 
 
 
