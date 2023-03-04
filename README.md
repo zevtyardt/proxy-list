@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6725** proxies at the latest update. Usable proxies are below.
+> Scraper found **6733** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|525|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|525|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|525|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|613|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|613|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|613|
 
 ## Sources
 
@@ -37,7 +37,7 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1452|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1460|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
 |[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|883|✅|
 |[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3107|✅|
@@ -51,22 +51,22 @@ Click the file format that you want and copy the URL.
 |2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
 |3|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
 |4|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|5|37.220.81.33|3128|United States|Remington|Artnet Sp. z o.o.|
-|6|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
-|7|3.35.141.80|3128|South Korea|Seoul|Amazon.com, Inc.|
-|8|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|9|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|10|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
-|11|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|12|109.194.101.128|3128|Russia|Yoshkar-Ola|CJSC "ER-Telecom Holding" Yoshkar-Ola branch|
-|13|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|14|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
-|15|115.144.100.124|10000|South Korea|Gangdong-gu|HAIonNet|
-|16|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|17|144.217.240.185|9300|Canada|Beauharnois|OVH SAS|
-|18|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|19|159.223.47.239|3128|Singapore|Singapore|DigitalOcean, LLC|
-|20|49.156.47.162|8080|Cambodia|Phnom Penh|WiCAM Corporation Ltd|
+|5|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|6|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
+|7|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
+|8|3.35.141.80|3128|South Korea|Seoul|Amazon.com, Inc.|
+|9|65.0.160.35|8080|India|Mumbai|Amazon.com|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|12|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
+|13|43.163.212.171|3128|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
+|14|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|15|188.0.147.102|3128|Kazakhstan|Almaty|JSC "KazTransCom"|
+|16|5.189.184.6|80|Germany|Nuremberg|Contabo GmbH|
+|17|51.79.50.31|9300|Canada|Victoria|OVH SAS|
+|18|103.38.214.21|3128|Philippines|Makati City|IPVG|
+|19|128.111.5.234|3128|United States|Santa Barbara|University of California, Santa Barbara|
+|20|213.247.123.57|3128|Netherlands|Amsterdam|Routit BV|
 
 
 
