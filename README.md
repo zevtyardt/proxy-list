@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6675** proxies at the latest update. Usable proxies are below.
+> Scraper found **6721** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|425|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|425|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|425|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|524|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|524|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|524|
 
 ## Sources
 
@@ -37,36 +37,36 @@ Click the file format that you want and copy the URL.
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
 |[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1384|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1490|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|901|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3107|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|932|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3016|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|2|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
-|3|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|4|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|5|189.252.109.57|8080|Mexico|Ahome|Uninet S.A. de C.V.|
-|6|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
-|7|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
-|8|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|9|163.172.31.44|80|France|Paris|Online S.A.S.|
-|10|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
-|11|65.0.160.35|8080|India|Mumbai|Amazon.com|
-|12|124.197.37.13|8080|New Zealand|Wellington|Two Degrees Mobile Limited|
-|13|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
-|14|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|15|47.243.187.3|2020|Hong Kong|Central|Alibaba (US) Technology Co., Ltd.|
-|16|64.92.82.61|8080|United States|Los Angeles|Momentum Telecom, Inc.|
-|17|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|18|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|19|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|20|95.9.115.228|3128|Turkey|Trabzon|TTNet A.S.|
+|1|158.51.121.230|8881|Canada|Montreal|GLOBALTELEHOST Corp.|
+|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|3|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|91.107.235.32|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|5|91.107.234.78|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|6|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|7|91.107.193.172|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|8|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|9|5.78.69.23|8080|United States|Portland|Hetzner Online GmbH|
+|10|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|11|23.99.68.187|80|United States|San Francisco|Microsoft Corporation|
+|12|167.235.159.66|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|13|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
+|14|5.78.69.23|8080|United States|Portland|Hetzner Online GmbH|
+|15|201.229.250.21|8080|Dominican Republic|Santo Domingo Este|Compañía Dominicana de Teléfonos S. A.|
+|16|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|17|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|18|164.68.123.119|9300|Germany|Nuremberg|Contabo GmbH|
+|19|5.78.50.231|8888|United States|Portland|Hetzner Online GmbH|
+|20|3.109.238.5|8080|India|Mumbai|Amazon Technologies Inc.|
 
 
 
