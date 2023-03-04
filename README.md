@@ -13,7 +13,7 @@
 
 It is a lightweight project that, every 10 minutes, scrapes lots of free-proxy sites, validates if it works, and serves a clean proxy list.
 
-> Scraper found **6305** proxies at the latest update. Usable proxies are below.
+> Scraper found **6928** proxies at the latest update. Usable proxies are below.
 
 ## Usage
 
@@ -21,9 +21,9 @@ Click the file format that you want and copy the URL.
 
 |File|Content|Count|
 |----|-------|-----|
-|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|490|
-|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|490|
-|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|490|
+|[data.txt](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt)|`ip_address:port` combined (seperated new line)|646|
+|[data.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.json)|`ip, port`|646|
+|[data-with-geolocation.json](https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data-with-geolocation.json)|`ip, port, geolocation`|646|
 
 ## Sources
 
@@ -36,37 +36,37 @@ Click the file format that you want and copy the URL.
 |[proxy-list.download](https://www.proxy-list.download/HTTP)|26|✅|
 |[vpnoverview.com](https://vpnoverview.com/privacy/anonymous-browsing/free-proxy-servers)|32|✅|
 |[proxyscan.io](https://www.proxyscan.io)|0|✅|
-|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|0|🚫|
-|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1534|✅|
+|[proxylist.geonode.com](https://proxylist.geonode.com/api/proxy-list?limit=300&page=1&sort_by=lastChecked&sort_type=desc&protocols=http,https)|300|✅|
+|[proxyscrape.com](https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all)|1531|✅|
 |[github.com/clarketm/proxy-list](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)|400|✅|
-|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|813|✅|
-|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|2975|✅|
+|[github.com/monosans/proxy-list](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt)|937|✅|
+|[github.com/TheSpeedX/PROXY-List](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)|3177|✅|
 
 
 ## Sample Proxies With Geolocation Info
 
 |#|Ip|Port|Country|City|Internet Service Provider|
 |-|--|----|-------|----|-------------------------|
-|1|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
-|2|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|3|187.130.139.197|8080|Mexico|Mazatlán|Uninet S.A. de C.V.|
-|4|139.144.226.252|8080|United States|Richardson|Akamai Technologies, Inc.|
-|5|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
-|6|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
-|7|139.144.226.252|8080|United States|Richardson|Akamai Technologies, Inc.|
-|8|158.69.53.132|9300|Canada|Montreal|OVH SAS|
-|9|43.163.212.171|3128|Japan|Tokyo|Shenzhen Tencent Computer Systems Company Limited|
-|10|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
-|11|204.2.218.145|8080|United States|Calhoun|NTT America, Inc.|
-|12|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
-|13|146.59.127.168|80|Poland|Warsaw|OVH SAS|
-|14|104.223.135.178|10000|United States|Los Angeles|LayerHost|
-|15|103.38.214.21|3128|Philippines|Makati City|IPVG|
-|16|37.152.181.116|3128|Iran|Nā’īn|AbrArvan|
-|17|201.17.26.54|80|Brazil|Rio de Janeiro|Claro NXT Telecomunicacoes Ltda|
-|18|8.219.97.248|80|Singapore|Singapore|Alibaba (US) Technology Co., Ltd.|
-|19|203.150.128.195|8080|Thailand|Vadhana|Internet Thailand Company Ltd|
-|20|45.189.112.1|999|Ecuador|Milagro|Anibal Humberto Enriquez Moncayo(Comunicate)|
+|1|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|2|31.186.239.245|8080|Netherlands|Amsterdam|NetSkope Inc|
+|3|31.186.239.246|8080|Netherlands|Amsterdam|NetSkope Inc|
+|4|81.181.109.156|2019|France|Paris|Virtono Networks SRL|
+|5|139.144.226.252|8080|United States|Richardson|Akamai Technologies, Inc.|
+|6|91.107.234.57|8080|Germany|Frankfurt Am Main|Hetzner Online AG|
+|7|104.223.135.178|10000|United States|Los Angeles|LayerHost|
+|8|31.186.239.244|8080|Netherlands|Amsterdam|NetSkope Inc|
+|9|139.144.226.252|8080|United States|Richardson|Akamai Technologies, Inc.|
+|10|34.66.5.144|8888|United States|Council Bluffs|Google LLC|
+|11|82.102.10.125|18345|United Kingdom|Gosport|Redstation Limited|
+|12|83.171.248.156|3128|Germany|Düsseldorf|Contabo GmbH|
+|13|5.75.254.37|8080|Germany|Falkenstein|Hetzner Online GmbH|
+|14|13.75.216.118|3128|Australia|The Rocks|Microsoft Corporation|
+|15|95.9.115.228|3128|Turkey|Trabzon|TTNet A.S.|
+|16|129.154.56.212|8088|South Korea|Chuncheon|Oracle Corporation|
+|17|81.12.44.197|3129|Iran|Tehran|RESPINA Networks|
+|18|200.105.215.22|33630|Bolivia|La Paz|AXS Bolivia S. A.|
+|19|115.144.100.124|10000|South Korea|Gangdong-gu|HAIonNet|
+|20|82.146.48.136|8000|Russia|Irkutsk|CLOUD WebDC collocation|
 
 
 
