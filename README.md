@@ -17,7 +17,7 @@
   - **jumlah proxy:** ±24973
   - **terakhir diupdate:** Sat, 18 Mar 23 09:33:09 WIB
 
-# Unduh
+#### Unduh
   Salin dan tempel salah satu kode dibawah ke terminal
   - **ALL** (24973)
     ```bash
@@ -36,10 +36,10 @@
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5.txt -o socks5.txt
     ```
 
-# TODO
+#### TODO
   - [x] hapus folder *csv/*
   - [x] sortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5
   - [ ] cek apakah proxy berfungsi atau tidak
 
-# Catatan
+#### Catatan
 > Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu
