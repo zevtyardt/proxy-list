@@ -44,7 +44,7 @@ jobs:
           echo -e "  - **jumlah proxy:** ±$(cat all.txt | wc -l)" >> README.md
           echo -e "  - **terakhir diupdate:** $(TZ=Asia/Jakarta date +'%a, %d %b %y %T %Z')\n" >> README.md
 
-          echo -e "# Unduh" >> README.md
+          echo -e "#### Unduh" >> README.md
           echo -e "  Salin dan tempel salah satu kode dibawah ke terminal" >> README.md
 
           for file in *.txt;
@@ -55,12 +55,12 @@ jobs:
             echo -e "    \`\`\`" >> README.md
           done
 
-          echo -e "\n# TODO" >> README.md
+          echo -e "\n#### TODO" >> README.md
           echo -e "  - [x] hapus folder *csv/*" >> README.md
           echo -e "  - [x] sortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5" >> README.md
           echo -e "  - [ ] cek apakah proxy berfungsi atau tidak" >> README.md
 
-          echo -e "\n# Catatan" >> README.md
+          echo -e "\n#### Catatan" >> README.md
           echo -e "> Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu" >> README.md
 
       - name: start commit
