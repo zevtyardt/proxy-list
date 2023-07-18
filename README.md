@@ -14,32 +14,33 @@
 
   Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.
 
-  - **jumlah proxy:** ±25331
-  - **terakhir diupdate:** Tue, 18 Jul 23 10:25:14 WIB
+
+  Repositori ini juga merupakan bagian dari project [proxy-rs](https://github.com/zevtyardt/proxy.rs)
+
+  - **jumlah proxy:** ±25801
+  - **terakhir diupdate:** Tue, 18 Jul 23 13:15:27 WIB
 
 #### Unduh
   Salin dan tempel salah satu kode dibawah ke terminal
-  - **ALL** (25331)
+  - **ALL** (25801)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/all.txt -o all.txt
     ```
-  - **HTTP** (11413)
+  - **HTTP** (12022)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt -o http.txt
     ```
-  - **SOCKS4** (7385)
+  - **SOCKS4** (7249)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt -o socks4.txt
     ```
-  - **SOCKS5** (6533)
+  - **SOCKS5** (6530)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5.txt -o socks5.txt
     ```
 
-#### TODO
-  - [x] hapus folder *csv/*
-  - [x] sortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5
-  - [ ] cek apakah proxy berfungsi atau tidak
+#### Proxy Checker
+Ref:  [proxy-rs](https://github.com/zevtyardt/proxy.rs)
 
 #### Catatan
 > Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu
