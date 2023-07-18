@@ -15,28 +15,27 @@
   Repositori ini juga merupakan bagian dari project [proxy-rs](https://github.com/zevtyardt/proxy.rs)
 
 
-<div/>
-
+</div>
 
 ---
-  - **jumlah proxy:** ±25588
-  - **terakhir diupdate:** Tue, 18 Jul 23 13:26:50 WIB
+  - **jumlah proxy:** ±32356
+  - **terakhir diupdate:** Tue, 18 Jul 23 16:19:05 WIB
 
 #### Unduh
   Salin dan tempel salah satu kode dibawah ke terminal
-  - **ALL** (25588)
+  - **ALL** (32356)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/all.txt -o all.txt
     ```
-  - **HTTP** (11174)
+  - **HTTP** (12313)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt -o http.txt
     ```
-  - **SOCKS4** (7591)
+  - **SOCKS4** (10559)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt -o socks4.txt
     ```
-  - **SOCKS5** (6823)
+  - **SOCKS5** (9484)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5.txt -o socks5.txt
     ```
