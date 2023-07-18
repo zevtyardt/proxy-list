@@ -40,7 +40,7 @@ jobs:
 
           echo -e "\n  Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.\n" >> README.md
           echo -e "  Repositori ini juga merupakan bagian dari project [proxy-rs](https://github.com/zevtyardt/proxy.rs)\n" >> README.md
-          echo -e "\n<div/>\n\n" >> README.md
+          echo -e "\n</div>\n" >> README.md
 
           echo -e "---" >> README.md
           echo -e "  - **jumlah proxy:** ±$(cat all.txt | wc -l)" >> README.md
