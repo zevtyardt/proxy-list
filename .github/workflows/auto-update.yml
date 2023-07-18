@@ -40,7 +40,9 @@ jobs:
 
           echo -e "\n</div>\n" >> README.md
 
-          echo -e "  Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.\n" >> README.md
+          echo -e "  Ini adalah repository yang saya buat untuk mempermudah saya dan mungkin juga kalian dalam mencari sebuah proxy.\n\n" >> README.md
+          echo -e "  Repositori ini juga merupakan bagian dari project [proxy-rs](https://github.com/zevtyardt/proxy.rs)\n" >> README.md
+
           echo -e "  - **jumlah proxy:** ±$(cat all.txt | wc -l)" >> README.md
           echo -e "  - **terakhir diupdate:** $(TZ=Asia/Jakarta date +'%a, %d %b %y %T %Z')\n" >> README.md
 
@@ -55,10 +57,8 @@ jobs:
             echo -e "    \`\`\`" >> README.md
           done
 
-          echo -e "\n#### TODO" >> README.md
-          echo -e "  - [x] hapus folder *csv/*" >> README.md
-          echo -e "  - [x] sortir proxy menjadi 3 bagian, HTTP/SOCKS4/SOCKS5" >> README.md
-          echo -e "  - [ ] cek apakah proxy berfungsi atau tidak" >> README.md
+          echo -e "\n#### Proxy Checker" >> README.md
+          echo -e "Ref:  [proxy-rs](https://github.com/zevtyardt/proxy.rs)" >> README.md
 
           echo -e "\n#### Catatan" >> README.md
           echo -e "> Jangan lupa kasih ⭐ terus *fork* sama *follow* juga kalau perlu" >> README.md
