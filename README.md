@@ -18,24 +18,24 @@
 </div>
 
 ---
-  - **jumlah proxy:** ±21644
-  - **terakhir diupdate:** Fri, 15 Dec 23 04:18:01 WIB
+  - **jumlah proxy:** ±22770
+  - **terakhir diupdate:** Fri, 15 Dec 23 08:20:40 WIB
 
 #### Unduh
   Salin dan tempel salah satu kode dibawah ke terminal
-  - **ALL** (21644)
+  - **ALL** (22770)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/all.txt -o all.txt
     ```
-  - **HTTP** (7383)
+  - **HTTP** (8358)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt -o http.txt
     ```
-  - **SOCKS4** (7092)
+  - **SOCKS4** (7672)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt -o socks4.txt
     ```
-  - **SOCKS5** (7169)
+  - **SOCKS5** (6740)
     ```bash
     curl https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5.txt -o socks5.txt
     ```
